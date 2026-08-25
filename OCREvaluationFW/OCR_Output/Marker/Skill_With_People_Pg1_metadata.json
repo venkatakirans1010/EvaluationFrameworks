@@ -1,0 +1,13 @@
+{
+  "model_choice": "Marker – Convert to Markdown/HTML/JSON",
+  "model_folder": "Marker",
+  "language_code": "",
+  "timestamp": "2026-01-08T13:19:14.134428+05:30",
+  "timezone": "India Standard Time",
+  "marker_options": {
+    "output_format": "markdown",
+    "use_llm": false,
+    "force_ocr": false,
+    "max_pages": null
+  }
+}

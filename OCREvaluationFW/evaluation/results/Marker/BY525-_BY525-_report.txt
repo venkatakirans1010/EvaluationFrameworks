@@ -1,0 +1,40 @@
+
+OCR Evaluation Report (Markdown)
+================================
+Model: Marker – Convert to Markdown/HTML/JSON
+GT File: BY525-VinayakaVrathaKalpam-3.md
+OCR Output: BY525-VinayakaVrathaKalpam-3.pdf
+Timestamp: 2026-01-08 16:09:34.298984
+
+---- Text Similarity Metrics ----
+WER       : 0.9207
+MER       : 0.7139
+WIL       : 0.8942
+CER       : 0.1764
+LEV (edits): 483
+Completeness: 1.0000
+
+---- Markdown Structure Metrics ----
+Headers - GT: 0, OCR: 1
+Tables  - GT: 0, OCR: 0
+Lists   - GT: 0, OCR: 0
+Links   - GT: 0, OCR: 0
+
+---- Structural Analysis ----
+Heading Alignment: 0.0000
+List Accuracy: 1.0000
+Table Preservation: NA
+Link Correctness: 1.0000
+Section Ordering: 1.0000
+
+---- Top Word Mismatches ----
+Ground Truth: 'ఓం' vs OCR: 'ఓం' (x32)
+Ground Truth: 'నమః' vs OCR: 'నమః' (x28)
+Ground Truth: 'ఓం' vs OCR: 'నమః' (x11)
+Ground Truth: 'నమః' vs OCR: 'ఓం' (x5)
+Ground Truth: '6' vs OCR: '{0}------------------------------------------------' (x1)
+Ground Truth: 'వ్రతకల్పం' vs OCR: 'వినాయికాష్టాక్షర్' (x1)
+Ground Truth: 'ఓం' vs OCR: 'రత్ననామావళిః' (x1)
+Ground Truth: 'స్వామిని' vs OCR: 'సౌమిని' (x1)
+Ground Truth: 'పూలతోగాని,' vs OCR: 'ధూలితోగాని,' (x1)
+Ground Truth: 'అక్షతలతో' vs OCR: 'అతకతతో' (x1)

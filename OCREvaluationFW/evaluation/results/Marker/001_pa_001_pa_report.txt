@@ -1,0 +1,40 @@
+
+OCR Evaluation Report (Markdown)
+================================
+Model: Marker – Convert to Markdown/HTML/JSON
+GT File: 001_page_1-1.md
+OCR Output: 001_page_1-1.pdf
+Timestamp: 2026-01-08 13:15:15.045944
+
+---- Text Similarity Metrics ----
+WER       : 0.1434
+MER       : 0.1418
+WIL       : 0.2273
+CER       : 0.1067
+LEV (edits): 182
+Completeness: 1.0000
+
+---- Markdown Structure Metrics ----
+Headers - GT: 1, OCR: 1
+Tables  - GT: 0, OCR: 0
+Lists   - GT: 0, OCR: 8
+Links   - GT: 0, OCR: 1
+
+---- Structural Analysis ----
+Heading Alignment: 1.0000
+List Accuracy: 0.0000
+Table Preservation: NA
+Link Correctness: 1.0000
+Section Ordering: 1.0000
+
+---- Top Word Mismatches ----
+Ground Truth: '●' vs OCR: '-' (x8)
+Ground Truth: '<EXTRA>' vs OCR: '{0}------------------------------------------------' (x1)
+Ground Truth: 'TL;DR:' vs OCR: '**TL;DR:**' (x1)
+Ground Truth: 'deﬁned' vs OCR: 'defined' (x1)
+Ground Truth: 'evaluate' vs OCR: '[evaluate' (x1)
+Ground Truth: 'quality.' vs OCR: 'quality](#).' (x1)
+Ground Truth: 'you’re' vs OCR: 'you're' (x1)
+Ground Truth: 'workﬂows.' vs OCR: 'workflows.' (x1)
+Ground Truth: 'deﬁne.' vs OCR: 'define.' (x1)
+Ground Truth: 'Politeness:' vs OCR: '**Politeness:**' (x1)

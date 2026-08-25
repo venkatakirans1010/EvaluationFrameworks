@@ -1,0 +1,41 @@
+
+OCR Evaluation Report (Markdown)
+================================
+Model: Deepseek – OCR via DeepInfra
+GT File: 001_page_1-1.md
+OCR Output: 001_page_1-1.pdf
+Timestamp: 2026-01-05 15:02:33.216041
+
+---- Text Similarity Metrics ----
+WER       : 0.1471
+MER       : 0.1460
+WIL       : 0.2136
+CER       : 0.0927
+LEV (edits): 143
+LEV-NORM  : 0.0839
+Completeness: 0.9554
+
+---- Markdown Structure Metrics ----
+Headers - GT: 1, OCR: 0
+Tables  - GT: 0, OCR: 0
+Lists   - GT: 0, OCR: 8
+Links   - GT: 0, OCR: 0
+
+---- Structural Analysis ----
+Heading Alignment: 0.0000
+List Accuracy: 0.0000
+Table Preservation: NA
+Link Correctness: 1.0000
+Section Ordering: 1.0000
+
+---- Top Word Mismatches ----
+Ground Truth: '●' vs OCR: '-' (x8)
+Ground Truth: 'a' vs OCR: '<MISSING>' (x2)
+Ground Truth: '#' vs OCR: '<MISSING>' (x1)
+Ground Truth: 'What' vs OCR: '<MISSING>' (x1)
+Ground Truth: 'is' vs OCR: '<MISSING>' (x1)
+Ground Truth: 'LLM' vs OCR: '<MISSING>' (x1)
+Ground Truth: 'as' vs OCR: '<MISSING>' (x1)
+Ground Truth: 'judge?' vs OCR: '<MISSING>' (x1)
+Ground Truth: 'TL;DR:' vs OCR: '<MISSING>' (x1)
+Ground Truth: 'deﬁned' vs OCR: 'defined' (x1)

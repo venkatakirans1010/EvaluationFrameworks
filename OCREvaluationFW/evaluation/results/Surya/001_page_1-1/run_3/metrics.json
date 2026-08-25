@@ -1,0 +1,13 @@
+{
+  "run_id": 3,
+  "wer": 0.0,
+  "mer": 0.0,
+  "wil": 0.0,
+  "cer": 0.0,
+  "lev_distance": 0,
+  "lev_norm": 0.0,
+  "structural_accuracy": {},
+  "structural_analysis": {},
+  "completeness": 0.0,
+  "word_mismatches": []
+}

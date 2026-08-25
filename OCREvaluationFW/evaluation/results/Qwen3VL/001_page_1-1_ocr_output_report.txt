@@ -1,0 +1,40 @@
+
+OCR Evaluation Report (Markdown)
+================================
+Model: Qwen3 VL 8B – via OpenRouter
+GT File: 001_page_1-1.md (Ground Truth)
+OCR Output: 001_page_1-1.pdf (OCR Output)
+Timestamp: 2026-01-22 16:10:33.718178
+
+---- Text Similarity Metrics ----
+WER       : 0.0993
+MER       : 0.0985
+WIL       : 0.1814
+CER       : 0.0287
+LEV (edits): 49
+Completeness: 1.0000
+
+---- Markdown Structure Metrics ----
+Headers - GT: 1, OCR: 1
+Tables  - GT: 0, OCR: 0
+Lists   - GT: 0, OCR: 8
+Links   - GT: 0, OCR: 0
+
+---- Structural Analysis ----
+Heading Alignment: 1.0000
+List Accuracy: 0.0000
+Table Preservation: NA
+Link Correctness: 1.0000
+Section Ordering: 1.0000
+
+---- Top Word Mismatches ----
+Ground Truth: '●' vs OCR: '-' (x8)
+Ground Truth: 'deﬁned' vs OCR: 'defined' (x1)
+Ground Truth: 'evaluate' vs OCR: '*evaluate' (x1)
+Ground Truth: 'quality.' vs OCR: 'quality*.' (x1)
+Ground Truth: 'you’re' vs OCR: 'you're' (x1)
+Ground Truth: 'workﬂows.' vs OCR: 'workflows.' (x1)
+Ground Truth: 'deﬁne.' vs OCR: 'define.' (x1)
+Ground Truth: 'Politeness:' vs OCR: '**Politeness**:' (x1)
+Ground Truth: 'Bias:' vs OCR: '**Bias**:' (x1)
+Ground Truth: 'Tone:' vs OCR: '**Tone**:' (x1)

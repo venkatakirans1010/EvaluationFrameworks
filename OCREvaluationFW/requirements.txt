@@ -1,0 +1,12 @@
+streamlit>=1.38
+requests>=2.32
+PyMuPDF>=1.23.0
+Pillow>=10.0.0
+jiwer>=2.6.0
+rapidfuzz>=3.14.3
+seaborn>=0.12.0
+matplotlib>=3.7.0
+google-cloud-vision>=3.4.0
+pytesseract>=0.3.10
+openai>=1.51.0
+pdf2image>=1.16.0

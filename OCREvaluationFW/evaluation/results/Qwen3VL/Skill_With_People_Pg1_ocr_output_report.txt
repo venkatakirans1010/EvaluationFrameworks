@@ -1,0 +1,32 @@
+
+OCR Evaluation Report (Markdown)
+================================
+Model: Qwen3 VL 8B – via OpenRouter
+GT File: Skill_With_People_Pg1.md (Ground Truth)
+OCR Output: Skill_With_People_Pg1.pdf (OCR Output)
+Timestamp: 2026-01-21 12:18:16.977675
+
+---- Text Similarity Metrics ----
+WER       : 0.0292
+MER       : 0.0292
+WIL       : 0.0521
+CER       : 0.0131
+LEV (edits): 12
+Completeness: 0.9956
+
+---- Markdown Structure Metrics ----
+Headers - GT: 1, OCR: 0
+Tables  - GT: 0, OCR: 0
+Lists   - GT: 1, OCR: 1
+Links   - GT: 0, OCR: 0
+
+---- Structural Analysis ----
+Heading Alignment: 0.0000
+List Accuracy: 1.0000
+Table Preservation: NA
+Link Correctness: 1.0000
+Section Ordering: 1.0000
+
+---- Top Word Mismatches ----
+Ground Truth: '"yes"' vs OCR: '“yes”' (x4)
+Ground Truth: '###' vs OCR: '<MISSING>' (x1)

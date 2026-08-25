@@ -1,0 +1,17 @@
+{
+  "model_choice": "Deepseek – OCR via DeepInfra",
+  "model_folder": "Deepseek",
+  "language_code": "",
+  "timestamp": "2026-01-02T13:18:17.487630+05:30",
+  "timezone": "India Standard Time",
+  "deepseek_options": {
+    "mode": "plain",
+    "max_pages": null,
+    "batch_size": 1,
+    "dpi": 300,
+    "preserve_headers_footers": true,
+    "custom_prompt": null,
+    "header_ratio": 0.12,
+    "footer_ratio": 0.12
+  }
+}

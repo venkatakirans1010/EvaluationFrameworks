@@ -1,0 +1,40 @@
+
+OCR Evaluation Report (Markdown)
+================================
+Model: Marker – Convert to Markdown/HTML/JSON
+GT File: TELUGU-pages-2.md
+OCR Output: TELUGU-pages-2.pdf
+Timestamp: 2026-01-12 13:25:18.160715
+
+---- Text Similarity Metrics ----
+WER       : 0.5430
+MER       : 0.5223
+WIL       : 0.7604
+CER       : 0.2069
+LEV (edits): 587
+Completeness: 1.0000
+
+---- Markdown Structure Metrics ----
+Headers - GT: 0, OCR: 0
+Tables  - GT: 0, OCR: 0
+Lists   - GT: 0, OCR: 2
+Links   - GT: 0, OCR: 0
+
+---- Structural Analysis ----
+Heading Alignment: 1.0000
+List Accuracy: 0.0000
+Table Preservation: NA
+Link Correctness: 1.0000
+Section Ordering: 1.0000
+
+---- Top Word Mismatches ----
+Ground Truth: 'వల్ల' vs OCR: 'సప్ల' (x4)
+Ground Truth: 'పుస్తకాలు' vs OCR: 'పుర్తూలు' (x4)
+Ground Truth: 'వ్రాయండి:**' vs OCR: 'ప్రాయంఁఁఁ' (x2)
+Ground Truth: 'పుస్తకాలలో' vs OCR: 'పుర్తూలలో' (x2)
+Ground Truth: 'జాగృతం' vs OCR: 'జ్ఞాగ్రహం' (x2)
+Ground Truth: 'మనస్సును' vs OCR: 'మనుష్యును' (x2)
+Ground Truth: 'పుస్తకాలే' vs OCR: 'పుర్తూలే' (x2)
+Ground Truth: 'పదే' vs OCR: 'వదే' (x2)
+Ground Truth: 'సమాజాన్ని' vs OCR: 'నమూజాన్ని' (x2)
+Ground Truth: '**1.' vs OCR: '{0}------------------------------------------------' (x1)

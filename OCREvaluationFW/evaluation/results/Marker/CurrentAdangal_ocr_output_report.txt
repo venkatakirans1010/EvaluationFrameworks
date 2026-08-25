@@ -1,0 +1,40 @@
+
+OCR Evaluation Report (Markdown)
+================================
+Model: Marker – Convert to Markdown/HTML/JSON
+GT File: CurrentAdangal.md (Ground Truth)
+OCR Output: CurrentAdangal.pdf (OCR Output)
+Timestamp: 2026-01-08 19:30:33.812063
+
+---- Text Similarity Metrics ----
+WER       : 0.3377
+MER       : 0.2950
+WIL       : 0.3939
+CER       : 0.4158
+LEV (edits): 474
+Completeness: 1.0000
+
+---- Markdown Structure Metrics ----
+Headers - GT: 1, OCR: 2
+Tables  - GT: 22, OCR: 29
+Lists   - GT: 4, OCR: 2
+Links   - GT: 0, OCR: 0
+
+---- Structural Analysis ----
+Heading Alignment: 0.5000
+List Accuracy: 0.5000
+Table Preservation: 0.8573
+Link Correctness: 1.0000
+Section Ordering: 0.5000
+
+---- Top Word Mismatches ----
+Ground Truth: '<EXTRA>' vs OCR: '|' (x14)
+Ground Truth: '|' vs OCR: '<MISSING>' (x10)
+Ground Truth: ':' vs OCR: '|' (x8)
+Ground Truth: ':---' vs OCR: '<MISSING>' (x4)
+Ground Truth: '|' vs OCR: '|' (x4)
+Ground Truth: 'ఫసలీ)' vs OCR: 'ఫసరీ)' (x2)
+Ground Truth: '|' vs OCR: ':' (x2)
+Ground Truth: '1.' vs OCR: '|' (x2)
+Ground Truth: 'మీ' vs OCR: '{0}------------------------------------------------' (x1)
+Ground Truth: 'సేవ' vs OCR: '![](935eed7aa61f7777f62cfc032e11bee9_img.jpg)' (x1)

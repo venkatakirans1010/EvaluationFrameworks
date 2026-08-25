@@ -1,0 +1,38 @@
+
+OCR Evaluation Report (Markdown)
+================================
+Model: Qwen3 VL 8B – via OpenRouter
+GT File: class-10-sample-paper-2020-21-telugu-pages-1.md
+OCR Output: class-10-sample-paper-2020-21-telugu-pages-1.pdf
+Timestamp: 2026-01-22 16:23:11.812555
+
+---- Text Similarity Metrics ----
+WER       : 1.0000
+MER       : 1.0000
+WIL       : 1.0000
+CER       : 0.9959
+LEV (edits): 2184
+Completeness: 0.0078
+
+---- Markdown Structure Metrics ----
+Headers - GT: 0, OCR: 0
+Tables  - GT: 0, OCR: 0
+Lists   - GT: 0, OCR: 0
+Links   - GT: 0, OCR: 0
+
+---- Structural Analysis ----
+Heading Alignment: 1.0000
+List Accuracy: 1.0000
+Table Preservation: NA
+Link Correctness: 1.0000
+Section Ordering: 1.0000
+
+---- Top Word Mismatches ----
+Ground Truth: 'TELUGU' vs OCR: '\n)' (x1)
+Ground Truth: '(CODE:' vs OCR: ')' (x1)
+Ground Truth: '007)' vs OCR: '}' (x1)
+Ground Truth: 'Class' vs OCR: '。' (x1)
+Ground Truth: '-' vs OCR: ';' (x1)
+Ground Truth: 'X' vs OCR: '}' (x1)
+Ground Truth: '(2020' vs OCR: '。' (x1)
+Ground Truth: '-' vs OCR: '}' (x1)

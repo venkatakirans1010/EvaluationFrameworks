@@ -1,0 +1,40 @@
+
+OCR Evaluation Report (Markdown)
+================================
+Model: Surya – OCR text extraction
+GT File: ระเบียบ กก_161025_2_172Pages-pages-3.md
+OCR Output: ระเบียบ กก_161025_2_172Pages-pages-3.pdf
+Timestamp: 2026-01-14 13:21:57.919266
+
+---- Text Similarity Metrics ----
+WER       : 0.8295
+MER       : 0.8295
+WIL       : 0.9136
+CER       : 0.2763
+LEV (edits): 665
+Completeness: 0.8155
+
+---- Markdown Structure Metrics ----
+Headers - GT: 3, OCR: 0
+Tables  - GT: 34, OCR: 0
+Lists   - GT: 0, OCR: 3
+Links   - GT: 0, OCR: 0
+
+---- Structural Analysis ----
+Heading Alignment: 0.0000
+List Accuracy: 0.0000
+Table Preservation: 0.3000
+Link Correctness: 1.0000
+Section Ordering: 0.5000
+
+---- Top Word Mismatches ----
+Ground Truth: '|' vs OCR: 'แบบ' (x8)
+Ground Truth: 'รหัสแบบพิมพ์' vs OCR: 'แบบ' (x3)
+Ground Truth: '|' vs OCR: '<MISSING>' (x3)
+Ground Truth: '(น)**' vs OCR: 'แบบ' (x2)
+Ground Truth: '|' vs OCR: 'ส.ถ./ผ.ถ.' (x2)
+Ground Truth: '###' vs OCR: 'ම' (x1)
+Ground Truth: '|' vs OCR: 'ประกาศกำหนดหน่วยเลือกตั้งและที่เลือกตั้ง' (x1)
+Ground Truth: '๓/๑**' vs OCR: '๓/๑' (x1)
+Ground Truth: '|' vs OCR: 'ประกาศเปลี่ยนแปลงเขตของหน่วยเลือกตั้ง' (x1)
+Ground Truth: 'ประกาศกำหนดหน่วยเลือกตั้งและที่เลือกตั้ง' vs OCR: 'แบบ' (x1)

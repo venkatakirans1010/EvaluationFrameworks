@@ -1,0 +1,37 @@
+{
+  "pdf_name": "001_page_1-1",
+  "model_name": "Surya",
+  "total_runs": 3,
+  "successful_runs": 0,
+  "failed_runs": 3,
+  "aggregated_metrics": {},
+  "overall_cci": 0.0,
+  "stability_interpretation": "Insufficient data",
+  "run_details": [
+    {
+      "run_id": 1,
+      "status": "failed",
+      "error": "All configured Datalab endpoints failed. Tried: https://api.datalab.to/api/v1/ocr, https://marker.datalab.to/api/v1/ocr, https://www.datalab.to/api/v1/ocr. Last error: 403 Client Error: Forbidden for url: https://www.datalab.to/api/v1/ocr. Try using the endpoint diagnostics to check connectivity.",
+      "metrics_file": "run_1/metrics.json",
+      "duration_seconds": 7.654539108276367
+    },
+    {
+      "run_id": 2,
+      "status": "failed",
+      "error": "All configured Datalab endpoints failed. Tried: https://api.datalab.to/api/v1/ocr, https://marker.datalab.to/api/v1/ocr, https://www.datalab.to/api/v1/ocr. Last error: 403 Client Error: Forbidden for url: https://www.datalab.to/api/v1/ocr. Try using the endpoint diagnostics to check connectivity.",
+      "metrics_file": "run_2/metrics.json",
+      "duration_seconds": 8.09749460220337
+    },
+    {
+      "run_id": 3,
+      "status": "failed",
+      "error": "All configured Datalab endpoints failed. Tried: https://api.datalab.to/api/v1/ocr, https://marker.datalab.to/api/v1/ocr, https://www.datalab.to/api/v1/ocr. Last error: 403 Client Error: Forbidden for url: https://www.datalab.to/api/v1/ocr. Try using the endpoint diagnostics to check connectivity.",
+      "metrics_file": "run_3/metrics.json",
+      "duration_seconds": 7.879349231719971
+    }
+  ],
+  "timestamp": "2025-12-24T13:04:20.213195+00:00",
+  "text_score": null,
+  "structural_score": null,
+  "overall_score": null
+}

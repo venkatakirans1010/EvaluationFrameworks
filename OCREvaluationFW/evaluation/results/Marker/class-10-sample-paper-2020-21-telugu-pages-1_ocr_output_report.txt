@@ -1,0 +1,40 @@
+
+OCR Evaluation Report (Markdown)
+================================
+Model: Marker – Convert to Markdown/HTML/JSON
+GT File: class-10-sample-paper-2020-21-telugu-pages-1.md (Ground Truth)
+OCR Output: class-10-sample-paper-2020-21-telugu-pages-1.pdf (OCR Output)
+Timestamp: 2026-01-08 16:50:38.094456
+
+---- Text Similarity Metrics ----
+WER       : 0.3745
+MER       : 0.3421
+WIL       : 0.4999
+CER       : 0.1149
+LEV (edits): 252
+Completeness: 0.9631
+
+---- Markdown Structure Metrics ----
+Headers - GT: 0, OCR: 3
+Tables  - GT: 0, OCR: 0
+Lists   - GT: 0, OCR: 0
+Links   - GT: 0, OCR: 0
+
+---- Structural Analysis ----
+Heading Alignment: 0.0000
+List Accuracy: 1.0000
+Table Preservation: NA
+Link Correctness: 1.0000
+Section Ordering: 0.5000
+
+---- Top Word Mismatches ----
+Ground Truth: 'సంస్కృతి' vs OCR: 'సంస్థతి' (x3)
+Ground Truth: 'సేవ' vs OCR: 'నేవ' (x2)
+Ground Truth: 'TELUGU' vs OCR: '{0}------------------------------------------------' (x1)
+Ground Truth: '<EXTRA>' vs OCR: '#' (x1)
+Ground Truth: '<EXTRA>' vs OCR: '##' (x1)
+Ground Truth: '<EXTRA>' vs OCR: '1.' (x1)
+Ground Truth: 'ఏదైనా' vs OCR: 'విడ్డెనా' (x1)
+Ground Truth: '(అ)' vs OCR: '(ఆ)' (x1)
+Ground Truth: ''రాజశేఖర' vs OCR: ''రాజశిఖర' (x1)
+Ground Truth: 'గాంచినదీనవల.' vs OCR: 'గాంచినదినవల.' (x1)

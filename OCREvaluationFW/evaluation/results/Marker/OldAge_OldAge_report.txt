@@ -1,0 +1,40 @@
+
+OCR Evaluation Report (Markdown)
+================================
+Model: Marker – Convert to Markdown/HTML/JSON
+GT File: OldAgePensionTelugu.md
+OCR Output: OldAgePensionTelugu.pdf
+Timestamp: 2026-01-08 19:19:14.533386
+
+---- Text Similarity Metrics ----
+WER       : 0.7087
+MER       : 0.6923
+WIL       : 0.8811
+CER       : 0.5725
+LEV (edits): 754
+Completeness: 0.6378
+
+---- Markdown Structure Metrics ----
+Headers - GT: 4, OCR: 2
+Tables  - GT: 6, OCR: 0
+Lists   - GT: 8, OCR: 8
+Links   - GT: 0, OCR: 0
+
+---- Structural Analysis ----
+Heading Alignment: 0.5000
+List Accuracy: 1.0000
+Table Preservation: 0.3000
+Link Correctness: 1.0000
+Section Ordering: 0.5000
+
+---- Top Word Mismatches ----
+Ground Truth: '|' vs OCR: '<MISSING>' (x3)
+Ground Truth: 'సమాచారం' vs OCR: 'సమాధానం' (x3)
+Ground Truth: '###' vs OCR: '<MISSING>' (x2)
+Ground Truth: '|' vs OCR: '/' (x2)
+Ground Truth: '###' vs OCR: '{0}------------------------------------------------' (x1)
+Ground Truth: '###' vs OCR: '##' (x1)
+Ground Truth: 'పించన్ల' vs OCR: 'పీంచన్' (x1)
+Ground Truth: 'వృద్దాప్య' vs OCR: 'వృద్ధావ్య' (x1)
+Ground Truth: 'పించన్' vs OCR: 'పీంచన్' (x1)
+Ground Truth: '|' vs OCR: 'జీల్లా' (x1)

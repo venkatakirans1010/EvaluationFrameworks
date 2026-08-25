@@ -1,0 +1,40 @@
+
+OCR Evaluation Report (Markdown)
+================================
+Model: Marker – Convert to Markdown/HTML/JSON
+GT File: ระเบียบ กก_161025_2_172Pages-pages-3.md
+OCR Output: ระเบียบ กก_161025_2_172Pages-pages-3.pdf
+Timestamp: 2026-01-14 13:24:45.373862
+
+---- Text Similarity Metrics ----
+WER       : 0.5622
+MER       : 0.5596
+WIL       : 0.6900
+CER       : 0.1603
+LEV (edits): 368
+Completeness: 0.9124
+
+---- Markdown Structure Metrics ----
+Headers - GT: 3, OCR: 3
+Tables  - GT: 34, OCR: 0
+Lists   - GT: 0, OCR: 28
+Links   - GT: 0, OCR: 0
+
+---- Structural Analysis ----
+Heading Alignment: 1.0000
+List Accuracy: 0.0000
+Table Preservation: 0.3000
+Link Correctness: 1.0000
+Section Ordering: 1.0000
+
+---- Top Word Mismatches ----
+Ground Truth: '|' vs OCR: '-' (x23)
+Ground Truth: '|' vs OCR: '<MISSING>' (x22)
+Ground Truth: '|' vs OCR: '#' (x2)
+Ground Truth: '###' vs OCR: '{0}------------------------------------------------' (x1)
+Ground Truth: '๓.' vs OCR: '#' (x1)
+Ground Truth: '๓' vs OCR: '๓**' (x1)
+Ground Truth: '###' vs OCR: '**๔.' (x1)
+Ground Truth: '๔' vs OCR: '๔**' (x1)
+Ground Truth: '|' vs OCR: 'ในสมัครรับเลือกตั้ง' (x1)
+Ground Truth: 'ใบสมัครรับเลือกตั้ง' vs OCR: '-' (x1)

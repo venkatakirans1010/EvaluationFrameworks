@@ -1,0 +1,37 @@
+
+OCR Evaluation Report (Markdown)
+================================
+Model: Marker – Convert to Markdown/HTML/JSON
+GT File: Skill_With_People_Pg1.md (Ground Truth)
+OCR Output: Skill_With_People_Pg1.pdf (OCR Output)
+Timestamp: 2026-01-08 13:19:14.140405
+
+---- Text Similarity Metrics ----
+WER       : 0.1287
+MER       : 0.1264
+WIL       : 0.2052
+CER       : 0.0892
+LEV (edits): 82
+Completeness: 1.0000
+
+---- Markdown Structure Metrics ----
+Headers - GT: 1, OCR: 2
+Tables  - GT: 0, OCR: 0
+Lists   - GT: 1, OCR: 5
+Links   - GT: 0, OCR: 0
+
+---- Structural Analysis ----
+Heading Alignment: 0.5000
+List Accuracy: 0.2000
+Table Preservation: NA
+Link Correctness: 1.0000
+Section Ordering: 0.5000
+
+---- Top Word Mismatches ----
+Ground Truth: '•' vs OCR: '-' (x5)
+Ground Truth: '"yes"' vs OCR: '“yes”' (x4)
+Ground Truth: '###' vs OCR: '{0}------------------------------------------------' (x1)
+Ground Truth: 'Here' vs OCR: '**Here' (x1)
+Ground Truth: '–' vs OCR: '–**' (x1)
+Ground Truth: '1.' vs OCR: '##' (x1)
+Ground Truth: 'you.' vs OCR: 'you.**' (x1)

@@ -1,0 +1,35 @@
+
+OCR Evaluation Report (Markdown)
+================================
+Model: Deepseek – OCR via DeepInfra
+GT File: Skill_With_People_Pg1.md
+OCR Output: Skill_With_People_Pg1.pdf
+Timestamp: 2026-01-08 11:55:20.965312
+
+---- Text Similarity Metrics ----
+WER       : 0.0585
+MER       : 0.0585
+WIL       : 0.1135
+CER       : 1.0305
+LEV (edits): 18
+LEV-NORM  : 0.0196
+Completeness: 0.9967
+
+---- Markdown Structure Metrics ----
+Headers - GT: 1, OCR: 0
+Tables  - GT: 0, OCR: 0
+Lists   - GT: 1, OCR: 5
+Links   - GT: 0, OCR: 0
+
+---- Structural Analysis ----
+Heading Alignment: 0.0000
+List Accuracy: 0.2000
+Table Preservation: NA
+Link Correctness: 1.0000
+Section Ordering: 1.0000
+
+---- Top Word Mismatches ----
+Ground Truth: '"yes"' vs OCR: '“yes”' (x4)
+Ground Truth: '•' vs OCR: '-' (x4)
+Ground Truth: '###' vs OCR: '8' (x1)
+Ground Truth: '8' vs OCR: '<MISSING>' (x1)

@@ -1,0 +1,30 @@
+# 📊 OCR Evaluation Report
+
+**🤖 Model:** `Deepseek – OCR via DeepInfra`  
+**📄 Ground Truth:** `2001-FIE-NewFacWkshp-pages.md (Ground Truth)`  
+**📝 OCR Output:** `2001-FIE-NewFacWkshp-pages.pdf (OCR Output)`  
+**🕒 Timestamp:** 2026-01-02 13:18:17  
+
+## 📊 Unified Metrics
+
+| WER | MER | WIL | CER | LEV-NORM | Completeness | Heading Alignment | List Accuracy | Table Preservation | Link Correctness | Section Ordering |
+|-----|-----|-----|-----|----------|--------------|-------------------|---------------|--------------------|------------------|------------------|
+| 4.4564 | 0.9121 | 0.9622 | 4.8946 | 3.6432 | 1.0000 | 0.0000 | 0.0000 | NA | 1.0000 | 0.5000 |
+
+
+*Lower values indicate better OCR performance (except Completeness where 1.0 is ideal). Structural metrics range from 0.0–1.0 (higher is better).*
+
+## 🔍 Top Word Mismatches
+
+| Ground Truth | OCR Output | Count |
+|---|---|---:|
+| `•` | `-` | **3** |
+| `to` | `to` | **3** |
+| `and` | `and` | **3** |
+| `time` | `time` | **3** |
+| `relatively` | `relatively` | **2** |
+| `little` | `little` | **2** |
+| `the` | `the` | **2** |
+| `their` | `spend;` | **2** |
+| `with` | `give` | **2** |
+| `•` | `high` | **2** |

@@ -1,0 +1,10 @@
+{
+  "model_choice": "Surya – OCR text extraction",
+  "model_folder": "Surya",
+  "language_code": "",
+  "timestamp": "2026-01-14T13:21:57.144669+05:30",
+  "timezone": "India Standard Time",
+  "ocr_options": {
+    "max_pages": null
+  }
+}

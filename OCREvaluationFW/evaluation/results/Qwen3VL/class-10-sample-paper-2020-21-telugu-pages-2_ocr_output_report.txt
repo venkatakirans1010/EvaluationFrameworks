@@ -1,0 +1,40 @@
+
+OCR Evaluation Report (Markdown)
+================================
+Model: Qwen3 VL 8B – via OpenRouter
+GT File: class-10-sample-paper-2020-21-telugu-pages-2.md (Ground Truth)
+OCR Output: class-10-sample-paper-2020-21-telugu-pages-2.pdf (OCR Output)
+Timestamp: 2026-01-22 10:49:31.294244
+
+---- Text Similarity Metrics ----
+WER       : 1.0335
+MER       : 0.9720
+WIL       : 0.9992
+CER       : 0.8762
+LEV (edits): 2102
+Completeness: 1.0000
+
+---- Markdown Structure Metrics ----
+Headers - GT: 0, OCR: 0
+Tables  - GT: 0, OCR: 0
+Lists   - GT: 1, OCR: 0
+Links   - GT: 0, OCR: 0
+
+---- Structural Analysis ----
+Heading Alignment: 1.0000
+List Accuracy: 0.0000
+Table Preservation: NA
+Link Correctness: 1.0000
+Section Ordering: 1.0000
+
+---- Top Word Mismatches ----
+Ground Truth: '[Image:' vs OCR: '<MISSING>' (x1)
+Ground Truth: 'From:' vs OCR: 'From' (x1)
+Ground Truth: 'http://cbseportal.com/]' vs OCR: ':' (x1)
+Ground Truth: 'భారతీయ' vs OCR: 'http://cbseportal.com/' (x1)
+Ground Truth: 'సంస్కృతి' vs OCR: 'ప్రాథమిక' (x1)
+Ground Truth: 'అత్యంత' vs OCR: 'సంస్కృతి' (x1)
+Ground Truth: 'ప్రాచీనమైనది.' vs OCR: 'మాత్రమే' (x1)
+Ground Truth: 'మహారాజులు' vs OCR: 'ప్రాథమిక' (x1)
+Ground Truth: 'రామాయణాది' vs OCR: 'సంస్కృతి' (x1)
+Ground Truth: 'గ్రంథాలను' vs OCR: 'అభివృద్ధి' (x1)

@@ -1,0 +1,40 @@
+
+OCR Evaluation Report (Markdown)
+================================
+Model: Surya – OCR text extraction
+GT File: ตอบข้อสอบถ_161025_2_3Pages-pages-1.md
+OCR Output: ตอบข้อสอบถ_161025_2_3Pages-pages-1.pdf
+Timestamp: 2026-01-14 10:31:57.624058
+
+---- Text Similarity Metrics ----
+WER       : 0.5294
+MER       : 0.5294
+WIL       : 0.7104
+CER       : 0.0480
+LEV (edits): 102
+Completeness: 0.9656
+
+---- Markdown Structure Metrics ----
+Headers - GT: 2, OCR: 0
+Tables  - GT: 0, OCR: 0
+Lists   - GT: 0, OCR: 0
+Links   - GT: 0, OCR: 0
+
+---- Structural Analysis ----
+Heading Alignment: 0.0000
+List Accuracy: 1.0000
+Table Preservation: NA
+Link Correctness: 1.0000
+Section Ordering: 0.5000
+
+---- Top Word Mismatches ----
+Ground Truth: '**ข้อสอบถามที่' vs OCR: 'ข้อสอบถามที่' (x5)
+Ground Truth: '###' vs OCR: '<MISSING>' (x2)
+Ground Truth: '๐๐๒๐/๑๙๒๘๐' vs OCR: '๐๐๒๐/๑๙' (x1)
+Ground Truth: '**สำนักงานคณะกรรมการการเลือกตั้ง**' vs OCR: 'หนึ่ง' (x1)
+Ground Truth: '**ศูนย์ราชการเฉลิมพระเกียรติฯ**' vs OCR: 'สำนักงานคณะกรรมการการเลือกตั้ง' (x1)
+Ground Truth: '**ถนนแจ้งวัฒนะ' vs OCR: 'ศูนย์ราชการเฉลิมพระเกียรติฯ' (x1)
+Ground Truth: 'เขตหลักสี่**' vs OCR: 'ถนนแจ้งวัฒนะ' (x1)
+Ground Truth: '**กรุงเทพฯ' vs OCR: 'เขตหลักสี่' (x1)
+Ground Truth: '๑๐๒๑๐**' vs OCR: 'กรุงเทพฯ' (x1)
+Ground Truth: '**19' vs OCR: '๑๐๒๑๐' (x1)

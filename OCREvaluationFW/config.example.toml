@@ -1,0 +1,62 @@
+[datalab]
+# Replace with your real API key before running the app.
+api_key = ""
+
+# Optional overrides.
+endpoint = "https://api.datalab.to/api/v1/marker"
+ocr_endpoint = "https://api.datalab.to/api/v1/ocr"
+poll_interval_seconds = 2.0
+poll_timeout_seconds = 180.0
+request_timeout_seconds = 120.0
+fallback_endpoints = [
+  "https://www.datalab.to/api/v1/marker",
+  "https://marker.datalab.to/api/v1/marker"
+]
+ocr_fallback_endpoints = [
+  "https://www.datalab.to/api/v1/ocr",
+  "https://marker.datalab.to/api/v1/ocr"
+]
+
+# Multi-run evaluation configuration
+# Enable multi-run consistency evaluation by default in the UI
+multi_run_enabled = false
+
+# Number of independent runs to perform for consistency analysis
+# Recommended: 3 (minimum for statistical significance)
+multi_run_runs = 3
+
+# Require all runs to succeed before computing aggregated metrics
+# If false, aggregation occurs with ≥2 successful runs
+multi_run_require_all_success = false
+
+
+[deepinfra]
+# DeepInfra API token for DeepSeek OCR (sign up at deepinfra.com)
+# Set via config or environment (DEEPINFRA_TOKEN) as needed.
+api_token = "YOUR_DEEPINFRA_API_TOKEN"
+# Optional overrides
+base_url = "https://api.deepinfra.com/v1/openai"
+model = "deepseek-ai/DeepSeek-OCR"
+max_tokens = 4096
+temperature = 0.0
+
+
+[openrouter]
+# OpenRouter API key for Qwen3 VL 8B Instruct
+# Prefer setting via environment: OPENROUTER_API_KEY
+api_key = "YOUR_OPENROUTER_API_KEY"
+
+# Optional overrides
+# Base URL typically remains this value
+base_url = "https://openrouter.ai/api/v1"
+# Model identifier exactly as listed on OpenRouter models page
+# e.g., "qwen/qwen3-vl-8b-instruct" (verify current id)
+model = "qwen/qwen3-vl-8b-instruct"
+max_tokens = 4096
+temperature = 0.0
+
+# Optional headers (recommended by OpenRouter)
+# site_url sets HTTP-Referer; site_title sets X-Title
+site_url = "http://localhost:8501"
+site_title = "OCR Evaluation FW"
+

@@ -1,0 +1,41 @@
+
+OCR Evaluation Report (Markdown)
+================================
+Model: Deepseek – OCR via DeepInfra
+GT File: 2001-FIE-NewFacWkshp-pages.md
+OCR Output: 2001-FIE-NewFacWkshp-pages.pdf
+Timestamp: 2026-01-02 13:18:19.041042
+
+---- Text Similarity Metrics ----
+WER       : 4.4564
+MER       : 0.9121
+WIL       : 0.9622
+CER       : 4.8946
+LEV (edits): 18777
+LEV-NORM  : 3.6432
+Completeness: 1.0000
+
+---- Markdown Structure Metrics ----
+Headers - GT: 2, OCR: 0
+Tables  - GT: 0, OCR: 0
+Lists   - GT: 0, OCR: 160
+Links   - GT: 0, OCR: 0
+
+---- Structural Analysis ----
+Heading Alignment: 0.0000
+List Accuracy: 0.0000
+Table Preservation: NA
+Link Correctness: 1.0000
+Section Ordering: 0.5000
+
+---- Top Word Mismatches ----
+Ground Truth: '•' vs OCR: '-' (x3)
+Ground Truth: 'to' vs OCR: 'to' (x3)
+Ground Truth: 'and' vs OCR: 'and' (x3)
+Ground Truth: 'time' vs OCR: 'time' (x3)
+Ground Truth: 'relatively' vs OCR: 'relatively' (x2)
+Ground Truth: 'little' vs OCR: 'little' (x2)
+Ground Truth: 'the' vs OCR: 'the' (x2)
+Ground Truth: 'their' vs OCR: 'spend;' (x2)
+Ground Truth: 'with' vs OCR: 'give' (x2)
+Ground Truth: '•' vs OCR: 'high' (x2)

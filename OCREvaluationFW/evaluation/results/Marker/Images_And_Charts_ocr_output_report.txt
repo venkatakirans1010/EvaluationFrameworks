@@ -1,0 +1,41 @@
+
+OCR Evaluation Report (Markdown)
+================================
+Model: Marker – Convert to Markdown/HTML/JSON
+GT File: Images_And_Charts.md (Ground Truth)
+OCR Output: Images_And_Charts.pdf (OCR Output)
+Timestamp: 2025-12-22 18:27:42.134499
+
+---- Text Similarity Metrics ----
+WER       : 0.4508
+MER       : 0.4394
+WIL       : 0.6288
+CER       : 1.3866
+LEV (edits): 419
+LEV-NORM  : 0.5110
+Completeness: 1.0000
+
+---- Markdown Structure Metrics ----
+Headers - GT: 0, OCR: 1
+Tables  - GT: 12, OCR: 12
+Lists   - GT: 0, OCR: 0
+Links   - GT: 0, OCR: 0
+
+---- Structural Analysis ----
+Heading Alignment: 0.0000
+List Accuracy: 1.0000
+Table Preservation: 0.9032
+Link Correctness: 1.0000
+Section Ordering: 1.0000
+
+---- Top Word Mismatches ----
+Ground Truth: 'with' vs OCR: 'showing' (x2)
+Ground Truth: 'series,' vs OCR: 'series' (x2)
+Ground Truth: '(light' vs OCR: 'across' (x2)
+Ground Truth: 'items.' vs OCR: 'items' (x2)
+Ground Truth: 'The' vs OCR: '(Item' (x2)
+Ground Truth: 'y-axis' vs OCR: '1,' (x2)
+Ground Truth: 'ranges' vs OCR: 'Item' (x2)
+Ground Truth: 'from' vs OCR: '2,' (x2)
+Ground Truth: '0' vs OCR: 'Item' (x2)
+Ground Truth: '<EXTRA>' vs OCR: '{0}------------------------------------------------' (x1)

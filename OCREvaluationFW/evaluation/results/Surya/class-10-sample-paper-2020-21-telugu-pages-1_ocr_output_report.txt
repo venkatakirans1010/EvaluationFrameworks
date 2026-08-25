@@ -1,0 +1,40 @@
+
+OCR Evaluation Report (Markdown)
+================================
+Model: Surya – OCR text extraction
+GT File: class-10-sample-paper-2020-21-telugu-pages-1.md (Ground Truth)
+OCR Output: class-10-sample-paper-2020-21-telugu-pages-1.pdf (OCR Output)
+Timestamp: 2026-01-08 16:56:15.412371
+
+---- Text Similarity Metrics ----
+WER       : 0.4362
+MER       : 0.4190
+WIL       : 0.6030
+CER       : 0.1601
+LEV (edits): 351
+Completeness: 1.0000
+
+---- Markdown Structure Metrics ----
+Headers - GT: 0, OCR: 0
+Tables  - GT: 0, OCR: 0
+Lists   - GT: 0, OCR: 1
+Links   - GT: 0, OCR: 0
+
+---- Structural Analysis ----
+Heading Alignment: 1.0000
+List Accuracy: 0.0000
+Table Preservation: NA
+Link Correctness: 1.0000
+Section Ordering: 1.0000
+
+---- Top Word Mismatches ----
+Ground Truth: 'వీరేశలింగం' vs OCR: 'వీరేశరింగం' (x2)
+Ground Truth: '<EXTRA>' vs OCR: 'ఈ)' (x2)
+Ground Truth: 'TELUGU' vs OCR: 'Downloaded' (x1)
+Ground Truth: 'Total:' vs OCR: '<b>Total:' (x1)
+Ground Truth: 'Marks' vs OCR: 'Marks</b>' (x1)
+Ground Truth: 'విభాగం' vs OCR: '<b>విభాగం' (x1)
+Ground Truth: 'ఎ' vs OCR: 'ఎ</b>' (x1)
+Ground Truth: '5x1=5' vs OCR: '1.' (x1)
+Ground Truth: '(అ)' vs OCR: '<math>5' (x1)
+Ground Truth: '<EXTRA>' vs OCR: '(e)' (x1)

@@ -1,0 +1,21 @@
+{
+  "model_choice": "Qwen3 VL 8B – via OpenRouter",
+  "model_folder": "Qwen3VL",
+  "language_code": "",
+  "timestamp": "2026-01-22T16:23:11.155575+05:30",
+  "timezone": "India Standard Time",
+  "qwen_options": {
+    "mode": "markdown",
+    "max_pages": null,
+    "dpi": 300,
+    "custom_prompt": null,
+    "layout": "auto",
+    "language_hint": null,
+    "enhance_image": false,
+    "highres_tiling": true,
+    "tile_rows": 2,
+    "tile_cols": 2,
+    "temperature_override": 0.0,
+    "multi_image_single_request": true
+  }
+}

@@ -1,0 +1,41 @@
+
+OCR Evaluation Report (Markdown)
+================================
+Model: Deepseek – OCR via DeepInfra
+GT File: API_complete_reference-1.md (Ground Truth)
+OCR Output: API_complete_reference-1.pdf (OCR Output)
+Timestamp: 2025-12-29 23:22:56.343285
+
+---- Text Similarity Metrics ----
+WER       : 0.1327
+MER       : 0.1307
+WIL       : 0.2036
+CER       : 0.7684
+LEV (edits): 120
+LEV-NORM  : 0.0503
+Completeness: 0.9837
+
+---- Markdown Structure Metrics ----
+Headers - GT: 1, OCR: 0
+Tables  - GT: 0, OCR: 0
+Lists   - GT: 5, OCR: 5
+Links   - GT: 0, OCR: 0
+
+---- Structural Analysis ----
+Heading Alignment: 0.0000
+List Accuracy: 1.0000
+Table Preservation: NA
+Link Correctness: 1.0000
+Section Ordering: 1.0000
+
+---- Top Word Mismatches ----
+Ground Truth: '•' vs OCR: '-' (x10)
+Ground Truth: 'Testing:**' vs OCR: 'Testing**:' (x2)
+Ground Truth: 'Enhances' vs OCR: '**Enhances' (x2)
+Ground Truth: 'End' vs OCR: '0' (x1)
+Ground Truth: 'Ensures' vs OCR: '**Ensures' (x1)
+Ground Truth: 'Functionality' vs OCR: 'Functionality**' (x1)
+Ground Truth: 'Requirements:**' vs OCR: 'Requirements**:' (x1)
+Ground Truth: 'Early:**' vs OCR: 'Early**:' (x1)
+Ground Truth: 'Improves' vs OCR: '**Improves' (x1)
+Ground Truth: 'Reliability' vs OCR: 'Reliability**' (x1)

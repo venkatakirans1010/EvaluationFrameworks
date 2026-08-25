@@ -1,0 +1,16 @@
+{
+  "model_name": "Surya",
+  "model_version": "v1.0",
+  "model_family": "OCR",
+  "timestamp": "2025-12-24T13:03:56.544536+00:00",
+  "run_id": 1,
+  "inference_parameters": {
+    "filename": "001_page_1-1.pdf",
+    "mime_type": "application/pdf",
+    "settings": "DatalabSettings(api_key='eVh8HJJhgfEtI28zNriOBI_yD8rVHuSxN0CWIpm0ay8', endpoint='https://api.datalab.to/api/v1/marker', ocr_endpoint='https://api.datalab.to/api/v1/ocr', poll_interval_seconds=3.0, poll_timeout_seconds=300.0, request_timeout_seconds=180.0, fallback_endpoints=('https://marker.datalab.to/api/v1/marker', 'https://www.datalab.to/api/v1/marker'), ocr_fallback_endpoints=('https://marker.datalab.to/api/v1/ocr', 'https://www.datalab.to/api/v1/ocr'), multi_run_enabled=False, multi_run_runs=3, multi_run_require_all_success=False)",
+    "max_pages": null
+  },
+  "status": "failed",
+  "error_message": "All configured Datalab endpoints failed. Tried: https://api.datalab.to/api/v1/ocr, https://marker.datalab.to/api/v1/ocr, https://www.datalab.to/api/v1/ocr. Last error: 403 Client Error: Forbidden for url: https://www.datalab.to/api/v1/ocr. Try using the endpoint diagnostics to check connectivity.",
+  "duration_seconds": 7.654539108276367
+}

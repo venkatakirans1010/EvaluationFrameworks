@@ -1,0 +1,40 @@
+
+OCR Evaluation Report (Markdown)
+================================
+Model: Qwen3 VL 8B – via OpenRouter
+GT File: Skill_With_People_Pg3.md
+OCR Output: Skill_With_People_Pg3.pdf
+Timestamp: 2026-01-22 11:57:26.702835
+
+---- Text Similarity Metrics ----
+WER       : 0.0983
+MER       : 0.0958
+WIL       : 0.1615
+CER       : 0.0208
+LEV (edits): 26
+Completeness: 1.0000
+
+---- Markdown Structure Metrics ----
+Headers - GT: 0, OCR: 0
+Tables  - GT: 0, OCR: 0
+Lists   - GT: 1, OCR: 1
+Links   - GT: 0, OCR: 0
+
+---- Structural Analysis ----
+Heading Alignment: 1.0000
+List Accuracy: 1.0000
+Table Preservation: NA
+Link Correctness: 1.0000
+Section Ordering: 1.0000
+
+---- Top Word Mismatches ----
+Ground Truth: '"Do' vs OCR: '“Do' (x5)
+Ground Truth: 'won't' vs OCR: 'won’t' (x2)
+Ground Truth: '"Would' vs OCR: '“Would' (x1)
+Ground Truth: 'afternoon?"' vs OCR: 'afternoon?”' (x1)
+Ground Truth: 'can't' vs OCR: 'can’t' (x1)
+Ground Truth: '-' vs OCR: '–' (x1)
+Ground Truth: 'white?"' vs OCR: 'white?”' (x1)
+Ground Truth: 'these?")' vs OCR: 'these?”)' (x1)
+Ground Truth: '"So' vs OCR: '“So' (x1)
+Ground Truth: 'Tuesday?"' vs OCR: 'Tuesday?”' (x1)

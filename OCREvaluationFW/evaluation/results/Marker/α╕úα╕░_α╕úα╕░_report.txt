@@ -1,0 +1,40 @@
+
+OCR Evaluation Report (Markdown)
+================================
+Model: Marker – Convert to Markdown/HTML/JSON
+GT File: α╕úα╕░α╣Çα╕Üα╕╡α╕óα╕Ü α╕üα╕ü_161025_7_42Pages-pages-4.md
+OCR Output: α╕úα╕░α╣Çα╕Üα╕╡α╕óα╕Ü α╕üα╕ü_161025_7_42Pages-pages-4.pdf
+Timestamp: 2026-01-27 10:10:14.947733
+
+---- Text Similarity Metrics ----
+WER       : 1.1791
+MER       : 0.8404
+WIL       : 0.9643
+CER       : 0.3621
+LEV (edits): 474
+Completeness: 1.0000
+
+---- Markdown Structure Metrics ----
+Headers - GT: 0, OCR: 1
+Tables  - GT: 0, OCR: 0
+Lists   - GT: 10, OCR: 10
+Links   - GT: 0, OCR: 0
+
+---- Structural Analysis ----
+Heading Alignment: 0.0000
+List Accuracy: 1.0000
+Table Preservation: NA
+Link Correctness: 1.0000
+Section Ordering: 1.0000
+
+---- Top Word Mismatches ----
+Ground Truth: 'ชื่อ...ชื่อสกุล...' vs OCR: 'ชื่อ.....' (x4)
+Ground Truth: 'ชื่อ...ชื่อสกุล...อายุ' vs OCR: 'ชื่อสกุล.....' (x4)
+Ground Truth: '...' vs OCR: 'อายุ.....ปี' (x4)
+Ground Truth: 'สัญชาติ...' vs OCR: 'ชื่อสกุล.....' (x3)
+Ground Truth: 'จังหวัด...' vs OCR: 'จังหวัด.....' (x3)
+Ground Truth: 'ประเทศ...' vs OCR: 'ประเทศ.....' (x3)
+Ground Truth: 'อายุ...ปี' vs OCR: 'อายุ.....ปี' (x3)
+Ground Truth: 'ปี' vs OCR: 'ชื่อ.....' (x3)
+Ground Truth: 'พรรค...' vs OCR: 'พรรค.....' (x2)
+Ground Truth: 'วันที่สมัคร...' vs OCR: 'วันที่สมัคร.....' (x2)

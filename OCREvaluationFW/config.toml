@@ -1,0 +1,36 @@
+[datalab]
+api_key = ""
+endpoint = "https://api.datalab.to/api/v1/marker"
+ocr_endpoint = "https://api.datalab.to/api/v1/ocr"
+poll_interval_seconds = 3.0
+poll_timeout_seconds = 300.0
+request_timeout_seconds = 180.0
+fallback_endpoints = [
+  "https://marker.datalab.to/api/v1/marker",
+  "https://www.datalab.to/api/v1/marker"
+]
+ocr_fallback_endpoints = [
+  "https://marker.datalab.to/api/v1/ocr",
+  "https://www.datalab.to/api/v1/ocr"
+]
+
+[deepinfra]
+api_token=""
+temperature = 0.0
+
+[openrouter]
+# OpenRouter API key for Qwen3 VL 8B Instruct
+# Replace with your real API key or set via OPENROUTER_API_KEY env var
+api_key = ""
+
+# Optional overrides
+base_url = "https://openrouter.ai/api/v1"
+# Verify the exact model ID on OpenRouter; default below is common
+model = "qwen/qwen3-vl-8b-instruct"
+max_tokens = 4096
+temperature = 0.0
+
+# Optional headers (recommended by OpenRouter)
+# site_url sets HTTP-Referer; site_title sets X-Title
+site_url = "http://localhost:8501"
+site_title = "OCR Evaluation FW"
