@@ -1,0 +1,1570 @@
+{
+  "customer_id": "FAA@crd.com",
+  "document_id": "30a69c16-438e-487f-99e7-0a715e504bae",
+  "document_name": "Glider-Flying-Handbook-[]-15-gfh_chapter_2.pdf",
+  "organization_name": "Booz Allen",
+  "account_name": "Default Account",
+  "application_name": "Booz Allen AI Atomization Service",
+  "vpub_name": "Default VPUB",
+  "meta_data": {
+    "gen_ai": {
+      "model": "gpt-oss-20b",
+      "llm_id": 27,
+      "completed_at": "2026-02-26T10:22:53.496375+00:00",
+      "triggered_at": "2026-02-26T10:21:27.216370+00:00",
+      "model_provider": "self_hosted",
+      "last_triggered_at": "2026-02-26T10:21:27.216378+00:00"
+    },
+    "llm_id": 27,
+    "aiModel": "chandra",
+    "file_url": "s3://thailand-boozallen-ai-topiclake/FAA@crd.com/original_assets/Glider-Flying-Handbook-[]-15-gfh_chapter_2.pdf",
+    "language": "english",
+    "llm_model": "gpt-oss-20b",
+    "atomization": {
+      "enabled": true,
+      "service": "boozallen_ai_atomization_service",
+      "language": "english",
+      "model_name": "chandra",
+      "prompt_url": "s3://thailand-boozallen-ai-atomization-service-bucket/self_hosted_models_prompts/prompt_chandra.json",
+      "initiated_at": "2026-02-26T09:58:54.840298+00:00",
+      "instructions": null,
+      "model_provider": "SELF_HOSTED",
+      "prompt_version": "MULTILINGUAL_v2",
+      "instructions_provided": false
+    },
+    "auto_gen_ai": true,
+    "gantt_chart": {
+      "artifacts": {
+        "end": "2026-02-26T10:22:53.496375+00:00",
+        "start": "2026-02-26T10:21:27.216378+00:00"
+      },
+      "atomization": {
+        "end": "2026-02-26T10:21:27.100749+00:00",
+        "start": "2026-02-26T10:08:43.214638+00:00",
+        "queued_at": "2026-02-26T09:58:55.242803+00:00",
+        "total_atoms": 8,
+        "completed_atoms": 8
+      },
+      "pdf_splitting": {
+        "end": "2026-02-26T09:58:55.104148+00:00",
+        "start": "2026-02-26T09:58:54.892778+00:00",
+        "chunks": 8
+      }
+    },
+    "total_atoms": 8,
+    "llm_provider": "self_hosted",
+    "pipeline_timing": {
+      "queuing": {
+        "end": "2026-02-26T09:58:55.279623+00:00",
+        "start": "2026-02-26T09:58:55.242803+00:00",
+        "atoms_failed": 0,
+        "atoms_queued": 8
+      },
+      "split_pdf": {
+        "end": "2026-02-26T09:58:55.104148+00:00",
+        "start": "2026-02-26T09:58:54.892778+00:00",
+        "chunks_created": 8
+      },
+      "atomization": {
+        "total_atoms": 8,
+        "completed_at": "2026-02-26T10:21:27.100749+00:00",
+        "completed_atoms": 8,
+        "first_gpu_started_at": "2026-02-26T10:08:43.214638+00:00"
+      }
+    },
+    "service_version": "1.0.0",
+    "genai_total_atoms": 8,
+    "atomization_status": "green",
+    "processing_timestamp": "2026-02-26T09:58:54.840298+00:00",
+    "genai_progress_status": "yellow",
+    "atomization_percentage": 100,
+    "atoms_with_description": 8,
+    "genai_total_artifacts_generated": 79
+  },
+  "topics": [
+    {
+      "topic_id": "de4047c5-dfe9-4acf-8de7-df2fa2307e57",
+      "document_id": "30a69c16-438e-487f-99e7-0a715e504bae",
+      "title": "Page 3",
+      "context": "<div>\n<img alt=\"Figure 2-4 shows three diagrams illustrating flap positions on an aircraft wing. The top diagram is labeled 'Flaps 0 (trail)', showing the wing in its clean configuration. The middle diagram is labeled 'Flaps down', showing the flaps extended downwards. The bottom diagram is labeled 'Flaps negative', showing the flaps extended upwards.\"/>\n<p><b>Figure 2-4. Flap positions.</b></p>\n<h2>Empennage</h2>\n<p>The empennage includes the entire tail section, consisting of the fixed surfaces, such as the horizontal stabilizer and vertical fin, and movable surfaces, such as the elevator or stabilator, rudder, and any trim tabs. The two fixed surfaces act like the feathers on an arrow to steady the glider and help maintain a straight path through the air. [Figure 2-5]</p>\n<img alt=\"Figure 2-5 shows the empennage components of a glider. The diagram labels the Rudder, Vertical stabilizer, Elevators, and Horizontal stabilizer.\"/>\n<p><b>Figure 2-5. Empennage components.</b></p>\n<p>The rudder attaches to the back of the vertical stabilizer, and the pilot deflects the rudder using foot pedals. The rudder controls yaw and turn coordination during flight.</p>\n<p>During straight-and-level flight, pilot-controlled deflection of the elevator applies a force to move the glider's nose up and down relative to the horizon. Raising the nose results in lower airspeed while lowering the nose increases airspeed. Instead of a horizontal stabilizer and elevator, some gliders use a stabilator, where the entire horizontal tail surface pivots up and</p>\n</div>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/FAA@crd.com/original_assets/Glider-Flying-Handbook-[]-15-gfh_chapter_2.pdf_chunks/Glider-Flying-Handbook-[]-15-gfh_chapter_2-chunked-files/Glider-Flying-Handbook-[]-15-gfh_chapter_2_page_3-3.pdf",
+        "sort_number": "30"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "a21a7893-5c70-4869-a737-8fc6cd8ae892",
+            "sentiment": "neutral",
+            "summary": "Description of flap positions and empennage components of a glider, including functions of flaps, rudder, elevator, and stabilator.",
+            "score": 0.97
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "c7fe550d-aac6-4ceb-88d4-b4258021d54c",
+              "question": "What are the three flap positions illustrated in Figure 2‑4?",
+              "answer": "Figure 2‑4 shows three flap positions: “Flaps 0 (trail)” – the wing in its clean configuration, “Flaps down” – the flaps extended downwards, and “Flaps negative” – the flaps extended upwards."
+            },
+            {
+              "id": "bfda8347-990f-40ec-960d-6ece0ac5cf48",
+              "question": "What does the “Flaps 0 (trail)” position represent?",
+              "answer": "The “Flaps 0 (trail)” position represents the wing’s clean configuration with the flaps retracted, meaning no additional lift or drag is generated by the flaps."
+            },
+            {
+              "id": "9bb884ab-df8d-45ca-9417-67c0b3d76fb7",
+              "question": "When are the flaps extended downwards and what is this position called?",
+              "answer": "The flaps are extended downwards in the “Flaps down” position, which increases lift and drag for slower flight or steeper approaches."
+            },
+            {
+              "id": "d4aaf9c1-58c6-4dcb-970f-3f9b46816d8d",
+              "question": "What is meant by “Flaps negative”?",
+              "answer": "“Flaps negative” refers to the flaps being extended upwards, which reduces lift and drag and is used to fine‑tune the wing’s aerodynamic characteristics."
+            },
+            {
+              "id": "2624551a-fa34-4e4d-bd09-9a07b332e19d",
+              "question": "What components are included in the empennage of a glider?",
+              "answer": "The empennage includes the entire tail section: fixed surfaces (the horizontal stabilizer and vertical fin) and movable surfaces (the elevator or stabilator, rudder, and any trim tabs)."
+            },
+            {
+              "id": "83584d4d-d600-4ffe-9cbf-503ab7f55793",
+              "question": "What role do the fixed surfaces of the empennage play?",
+              "answer": "The fixed surfaces act like the feathers on an arrow, helping to steady the glider and maintain a straight path through the air."
+            },
+            {
+              "id": "e0a7abc5-0fad-4a48-ba2a-6264ba967279",
+              "question": "How is the rudder attached and controlled?",
+              "answer": "The rudder is attached to the back of the vertical stabilizer and is deflected by the pilot using foot pedals. It controls yaw and assists with turn coordination during flight."
+            },
+            {
+              "id": "bb926e54-78a0-4b6a-93c8-4b40ff2c0aef",
+              "question": "What effect does elevator deflection have on the glider’s flight?",
+              "answer": "Deflecting the elevator moves the glider’s nose up or down relative to the horizon: raising the nose lowers airspeed, while lowering the nose increases airspeed."
+            },
+            {
+              "id": "4aa56d72-19e1-4c59-92c2-30853e8c830a",
+              "question": "What is a stabilator and how does it differ from a traditional horizontal stabilizer and elevator?",
+              "answer": "A stabilator is a type of horizontal tail where the entire surface pivots up and down, performing the functions of both a fixed horizontal stabilizer and a separate elevator."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "72e01f73-fc03-4cba-8442-0cf06aff0071",
+              "keyword": "Flap positions",
+              "score": 0.96
+            },
+            {
+              "id": "d930daf7-2029-4474-a38c-1122ebdb509e",
+              "keyword": "Empennage",
+              "score": 0.95
+            },
+            {
+              "id": "79379105-8970-4c61-9a94-20319aa49e7f",
+              "keyword": "Horizontal stabilizer",
+              "score": 0.94
+            },
+            {
+              "id": "f5ee807c-1763-4ac8-bba8-981f908a6d4e",
+              "keyword": "Vertical fin",
+              "score": 0.93
+            },
+            {
+              "id": "b9d27201-6a07-4337-91cf-a1aedcbb4a1b",
+              "keyword": "Rudder",
+              "score": 0.92
+            },
+            {
+              "id": "12c65ede-70b4-4f6b-85c2-f584ff207ef4",
+              "keyword": "Elevator",
+              "score": 0.91
+            },
+            {
+              "id": "78d56115-95c2-470d-a444-ece257051504",
+              "keyword": "Stabilator",
+              "score": 0.9
+            },
+            {
+              "id": "2f50a1b5-d5cb-41f9-b297-356d320c59cd",
+              "keyword": "Trim tabs",
+              "score": 0.88
+            },
+            {
+              "id": "5ef4289a-e773-4ccd-898d-d6a0d1921c94",
+              "keyword": "Yaw control",
+              "score": 0.87
+            },
+            {
+              "id": "5b8217bd-1883-465a-bded-a3841584c054",
+              "keyword": "Straight-and-level flight",
+              "score": 0.86
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "8e886a0f-5186-4eeb-add6-45e4789a4caf",
+            "title": "Glider Wing Flap Positions and Empennage Overview",
+            "long_summary": "Figure 2-4 illustrates three flap configurations on a glider wing: the clean ‘Flaps 0 (trail)’ position, the ‘Flaps down’ position with flaps extended downward, and the ‘Flaps negative’ position with flaps raised upward. Figure 2-5 shows the empennage, the complete tail assembly, which includes fixed surfaces—the horizontal stabilizer and vertical fin—and movable surfaces—the elevator (or stabilator), rudder, and any trim tabs. The fixed surfaces act like an arrow’s feathers, stabilizing the glider and keeping it on a straight flight path. The rudder, attached to the rear of the vertical stabilizer, is operated by foot pedals and controls yaw and turn coordination. The elevator, mounted on the horizontal stabilizer, is used by the pilot to pitch the nose up or down, affecting airspeed; some gliders replace the stabilizer‑elevator pair with a single pivoting stabilator that performs both functions.",
+            "short_summary": "Flap settings and tail surface functions explained"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "06837317-2c20-4485-ba7f-4d14ac0aacc5",
+              "classification": "Aviation",
+              "score": 0.98
+            },
+            {
+              "id": "d10c2b30-a2eb-4365-a4b9-60b439fa52a4",
+              "classification": "Aeronautical Engineering",
+              "score": 0.95
+            },
+            {
+              "id": "61424df1-d384-46d1-9c2e-34d8d70d7795",
+              "classification": "Aircraft Design",
+              "score": 0.9
+            },
+            {
+              "id": "a3ea496a-15e9-4a82-a810-9822e0762177",
+              "classification": "Flight Control Systems",
+              "score": 0.88
+            },
+            {
+              "id": "3f0ae4e1-f3fe-4d6d-b7ae-0a153e8ae5c9",
+              "classification": "Educational/Instructional Material",
+              "score": 0.8
+            }
+          ]
+        },
+        {
+          "entities": []
+        }
+      ]
+    },
+    {
+      "topic_id": "654c52f7-256b-4d0e-ae86-61469c6dfe99",
+      "document_id": "30a69c16-438e-487f-99e7-0a715e504bae",
+      "title": "Page 2",
+      "context": "control to the left of center deflects the right aileron down and the left aileron up. This applies a force to roll the glider to the left.\n\n<div>\n<img alt=\"Figure 2-2 shows three diagrams of an airfoil cross-section. The top diagram shows the basic airfoil shape with a Chord Line, Leading Edge, and Trailing Edge. The middle diagram shows the airfoil with increased camber, labeled Upper camber and Lower camber, and a Chord Line. The bottom diagram shows the airfoil with decreased camber, labeled Chord Line.\"/>\n<p><b>Figure 2-2.</b> The ailerons change the camber or curvature of the wing and increase or decrease lift.</p>\n</div>\n<h3>Lift/Drag Devices</h3>\n<p>Glider may use other devices that modify the lift/drag of the wing. These high drag devices include spoilers, dive brakes, and flaps. [Figure 2-3] Spoilers extend from the upper surface of the wings, alter the airflow, and cause the glider to descend more rapidly. Dive brakes extend from both the upper and lower surfaces of the wing and increase drag. Some high-performance gliders have dive brake speed limitations to prevent structural damage.</p>\n<div>\n<img alt=\"Figure 2-3 shows three diagrams of a glider in flight. The top diagram shows Dive brakes deployed on the upper surface of the wings. The middle diagram shows Spoilers deployed on the upper surface of the wings. The bottom diagram shows Flaps deployed on the trailing edge of the wings.\"/>\n<p><b>Figure 2-3.</b> Types of lift/drag devices.</p>\n</div>\n<p>Some gliders have flaps installed on the trailing edge of each wing inboard of the ailerons, which can change lift, drag, and descent rate. The pilot can generally set flaps in three different positions, which are trail, down, or negative. [Figure 2-4] When the pilot sets the flaps to deflect downward in flight, the wing produces more lift and drag. On the other hand, a negative flap position results in reduced lift and drag.</p>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/FAA@crd.com/original_assets/Glider-Flying-Handbook-[]-15-gfh_chapter_2.pdf_chunks/Glider-Flying-Handbook-[]-15-gfh_chapter_2-chunked-files/Glider-Flying-Handbook-[]-15-gfh_chapter_2_page_2-2.pdf",
+        "sort_number": "20"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "23fc05cf-5902-4450-87b3-c8114f27cb94",
+            "sentiment": "neutral",
+            "summary": "Control surfaces such as ailerons, spoilers, dive brakes, and flaps modify camber, lift, and drag to steer and control glider descent.",
+            "score": 0.99
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "ede553b6-9014-4de9-b5a3-19ef6a0263bc",
+              "question": "How does the control located to the left of center affect the ailerons?",
+              "answer": "It deflects the right aileron down and the left aileron up, creating a force that rolls the glider to the left."
+            },
+            {
+              "id": "36f0c824-d2c9-4a17-9729-03e3874ee5b7",
+              "question": "What is the result of deflecting an aileron up or down?",
+              "answer": "Deflecting an aileron changes the camber (curvature) of the wing, which alters lift on that side and causes the glider to roll toward the side with the down‑deflected aileron."
+            },
+            {
+              "id": "b94aeff6-fe3b-4c18-872f-28ca203be58a",
+              "question": "What are spoilers and how do they affect a glider’s flight?",
+              "answer": "Spoilers extend from the upper surface of the wings, disturb the airflow, and cause the glider to descend more rapidly by reducing lift."
+            },
+            {
+              "id": "bc740471-064f-4ca0-af4f-40ad33a461c8",
+              "question": "What are dive brakes and how are they different from spoilers?",
+              "answer": "Dive brakes extend from both the upper and lower surfaces of the wing, increasing drag rather than primarily reducing lift. Some high‑performance gliders limit dive‑brake speed to avoid structural damage."
+            },
+            {
+              "id": "1e5b88c1-0030-40cd-973d-3f3210e43b8a",
+              "question": "What positions can flaps be set to on a glider?",
+              "answer": "Flaps can be set to three positions: trail (neutral), down (deflected downward), or negative (deflected upward)."
+            },
+            {
+              "id": "e7b3c9e5-b8ab-4cea-a616-c1662574e030",
+              "question": "What happens when a pilot sets the flaps to the down position?",
+              "answer": "When flaps are deflected downward, the wing produces more lift and more drag."
+            },
+            {
+              "id": "84591ef3-ea78-4149-ae9b-2fcb2448b48c",
+              "question": "What is the effect of a negative flap position?",
+              "answer": "A negative flap position reduces both lift and drag."
+            },
+            {
+              "id": "d05a780e-d138-4a83-bc73-bbe1fb890f54",
+              "question": "Where are flaps typically installed on a glider?",
+              "answer": "Flaps are installed on the trailing edge of each wing, inboard of the ailerons."
+            },
+            {
+              "id": "0b096251-b33b-4b73-abb7-8104c21c0cce",
+              "question": "How do lift/drag devices like spoilers, dive brakes, and flaps help control a glider’s descent rate?",
+              "answer": "Spoilers reduce lift, dive brakes increase drag, and flaps can be set to increase or decrease lift and drag, allowing the pilot to adjust the descent rate as needed."
+            },
+            {
+              "id": "06d02bdb-d8a1-402a-8431-18e44b50c6f6",
+              "question": "Why might a high‑performance glider have speed limitations on its dive brakes?",
+              "answer": "Speed limitations are imposed to prevent structural damage that could occur if the dive brakes are deployed at excessive airspeeds."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "c34c243a-1c32-421c-af8a-6cc59429b915",
+              "keyword": "ailerons",
+              "score": 0.98
+            },
+            {
+              "id": "73ac615d-fe5f-4152-b10f-a2be14d7e81e",
+              "keyword": "camber",
+              "score": 0.96
+            },
+            {
+              "id": "185760ee-856d-4fdf-973d-faae94ab85e9",
+              "keyword": "lift/drag devices",
+              "score": 0.95
+            },
+            {
+              "id": "4588bee1-9049-4bee-bc6a-3cb481e3d713",
+              "keyword": "spoilers",
+              "score": 0.97
+            },
+            {
+              "id": "06f059f7-eb8f-4311-a35b-0b0c937d0ef5",
+              "keyword": "dive brakes",
+              "score": 0.97
+            },
+            {
+              "id": "2d29c8cb-a92f-4327-9ebc-41fcda2773c8",
+              "keyword": "flaps",
+              "score": 0.98
+            },
+            {
+              "id": "84d86eb5-e402-4015-8a1e-c0828e050e70",
+              "keyword": "glider",
+              "score": 0.94
+            },
+            {
+              "id": "9772511f-c813-4850-9ca9-d395a7d1ad9d",
+              "keyword": "wing",
+              "score": 0.93
+            },
+            {
+              "id": "03494500-66b0-487a-b36d-7c337951af42",
+              "keyword": "descent rate",
+              "score": 0.9
+            },
+            {
+              "id": "09d5b56c-161f-40c9-939b-395d68afc2e4",
+              "keyword": "lift",
+              "score": 0.92
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "1ef88ea7-5fc1-4ac4-989b-b3a2898afeaa",
+            "title": "Glider Control Surfaces and Lift/Drag Devices Overview",
+            "long_summary": "When the control is moved left of center, the right aileron deflects down while the left aileron deflects up, creating a rolling moment that turns the glider left. This action changes the camber of the wing sections, increasing lift on one side and decreasing it on the other. \n\nGliders also employ additional lift‑ and drag‑modifying devices. Spoilers, mounted on the upper wing surface, disturb airflow and cause a rapid descent. Dive brakes extend from both upper and lower surfaces, primarily increasing drag; some high‑performance gliders limit dive‑brake speed to avoid structural damage. \n\nFlaps are installed on the trailing edge inboard of the ailerons and can be set to three positions: trail (neutral), down, or negative. Deflecting flaps downward raises both lift and drag, aiding climb or slow flight, while a negative (upward) flap setting reduces lift and drag, useful for faster descent. Together, these control surfaces and devices allow pilots to precisely manage roll, lift, drag, and descent rates during flight.",
+            "short_summary": "Ailerons roll left; spoilers, dive brakes, flaps modify lift/drag."
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "e61e6f97-2670-4786-ade7-4a736ba81972",
+              "classification": "Aviation",
+              "score": 0.97
+            },
+            {
+              "id": "4ec5609b-1a72-4e0d-8f83-f18228c55a5d",
+              "classification": "Aeronautical Engineering",
+              "score": 0.94
+            },
+            {
+              "id": "eaff6a02-3f53-4cba-ba4f-9bc6f60ae784",
+              "classification": "Glider / Soaring",
+              "score": 0.92
+            },
+            {
+              "id": "ca50272b-7fb1-4169-a432-38b93b48b048",
+              "classification": "Aircraft Control Surfaces",
+              "score": 0.9
+            },
+            {
+              "id": "8735689a-ea82-438b-8736-46dc892f2636",
+              "classification": "Flight Mechanics",
+              "score": 0.88
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "72150c1d-2726-422e-898a-e8615a1adf8a",
+              "label": "Glider",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "f89cec27-bf8c-49b2-97af-ef95a9652fbf",
+              "label": "Aileron",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "41f5821a-1076-4513-be9b-5c5be0e15a5c",
+              "label": "Spoiler",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "cf7645cc-f04f-4d02-9094-ae03494abfbd",
+              "label": "Dive brake",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "b8ac6461-b2d2-437e-afa2-4e78ccaa8e14",
+              "label": "Flap",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "d248da29-9b8c-4efc-9145-8c843d9dee09",
+              "label": "Airfoil",
+              "type": "PRODUCT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": "eaaf50f7-c915-4ef2-83b6-6ced2ffbd908",
+      "document_id": "30a69c16-438e-487f-99e7-0a715e504bae",
+      "title": "Page 4",
+      "context": "down on a central hinge point. Pilots refer to the movement of the elevator or stabilator as controlling the pitch attitude of the glider.\n\nWhen the pilot deflects the pitch controls from the neutral position, the airflow pushes back against the controls. This opposing force provides feedback to the pilot but also adds to the pilot's workload. The pilot may relieve the elevator control pressure using elevator trim. A common trim system consists of a small, pilot-controlled adjustable tab on the trailing edge of the elevator. [Figure 2-6] Trim tabs come in servo and anti-servo designs. [Figure 2-7] A servo tab relieves pressure. The pilot can adjust an anti-servo tab, usually installed on stabilators, to relieve pressure, but it also self-adjusts to increase opposing pressure when the pilot increases stabilator displacement.\n\n<div><img alt=\"Figure 2-6 shows the empennage components of a glider. Labeled parts include the Elevator, Horizontal stabilizer, Trim tabs, and Rudder.\"/></div>\n<p><b>Figure 2-6.</b> Additional empennage components.</p>\n<div><img alt=\"Figure 2-7 shows an anti-servo tab installed on a stabilator. Labeled parts include the Anti-servo tab and Stabilator.\"/></div>\n<p><b>Figure 2-7.</b> An anti-servo tab.</p>\n<p>Glider designs with a conventional tail incorporate the horizontal stabilizer mounted at the bottom of the vertical stabilizer. T-tail gliders have the horizontal stabilizer mounted on the top of the vertical stabilizer forming a \"T\" shape. V-tails have two tail surfaces mounted to form a \"V\" that combines elevator and rudder movements.</p>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/FAA@crd.com/original_assets/Glider-Flying-Handbook-[]-15-gfh_chapter_2.pdf_chunks/Glider-Flying-Handbook-[]-15-gfh_chapter_2-chunked-files/Glider-Flying-Handbook-[]-15-gfh_chapter_2_page_4-4.pdf",
+        "sort_number": "40"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "9507f501-48d9-445a-be4d-de7467fda049",
+            "sentiment": "neutral",
+            "summary": "Explanation of glider pitch control, elevator trim tabs, and tail configurations (conventional, T‑tail, V‑tail).",
+            "score": 0.98
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "3231f275-9da3-4cb5-b614-d006f91499df",
+              "question": "What is the purpose of elevator trim in a glider?",
+              "answer": "Elevator trim relieves the pressure that the airflow exerts on the elevator when the pilot deflects the pitch controls, reducing the force the pilot must apply to hold a desired pitch attitude."
+            },
+            {
+              "id": "e9a9779d-4b43-443b-a0b6-42afa87fb001",
+              "question": "How does a servo trim tab work?",
+              "answer": "A servo trim tab is a small, pilot‑controlled adjustable tab on the trailing edge of the elevator that moves in the opposite direction of the elevator deflection, thereby relieving the aerodynamic pressure on the elevator."
+            },
+            {
+              "id": "5f762a18-25a2-4c0f-bbb8-0638b6992c91",
+              "question": "What is an anti‑servo tab and where is it typically installed?",
+              "answer": "An anti‑servo tab is a trim tab that is usually installed on a stabilator. It self‑adjusts to increase opposing pressure as the pilot moves the stabilator, providing more feedback and control resistance."
+            },
+            {
+              "id": "5134a975-5564-49c9-929f-39c6c48e3428",
+              "question": "How does an anti‑servo tab affect the pilot’s control forces?",
+              "answer": "When the pilot increases stabilator displacement, the anti‑servo tab automatically creates additional opposing aerodynamic pressure, making the control feel heavier and giving the pilot more tactile feedback."
+            },
+            {
+              "id": "b3433d5e-8c42-4796-a375-201eb87d7814",
+              "question": "What are the main types of glider tail configurations?",
+              "answer": "Gliders may have a conventional tail (horizontal stabilizer mounted at the bottom of the vertical stabilizer), a T‑tail (horizontal stabilizer mounted on top of the vertical stabilizer forming a “T”), or a V‑tail (two surfaces forming a “V” that combine elevator and rudder movements)."
+            },
+            {
+              "id": "289b7c46-bf38-4a57-abff-e94075e40f71",
+              "question": "Why does deflecting the pitch controls increase pilot workload?",
+              "answer": "Deflecting the elevator or stabilator changes the airflow, which pushes back against the control surface. This opposing force must be overcome by the pilot, adding to the physical effort required to maintain the desired pitch attitude."
+            },
+            {
+              "id": "c29a626b-fa2e-4f10-bd5a-cec6f451d3e2",
+              "question": "Where are trim tabs located on a glider’s empennage?",
+              "answer": "Trim tabs are located on the trailing edge of the elevator (or on a stabilator when an anti‑servo tab is used)."
+            },
+            {
+              "id": "281f2781-0d6c-4682-b615-c15e80e68c3f",
+              "question": "How does airflow interact with the elevator or stabilator when the pilot moves the pitch controls?",
+              "answer": "When the pilot deflects the pitch control, the airflow exerts a pressure opposite to the direction of deflection, providing feedback and resistance that the pilot must overcome."
+            },
+            {
+              "id": "d8745a01-2351-49f9-8e1b-b8323a4fe79a",
+              "question": "What function does the horizontal stabilizer serve in the different tail designs?",
+              "answer": "In all tail configurations, the horizontal stabilizer (or stabilator) provides pitch stability and control; its mounting position (bottom, top, or as part of a V‑shaped pair) varies with conventional, T‑tail, and V‑tail designs respectively."
+            },
+            {
+              "id": "97d0bdd6-cc8c-4710-a481-6a2a47554119",
+              "question": "How do V‑tail surfaces combine elevator and rudder movements?",
+              "answer": "A V‑tail uses two angled tail surfaces that move together to produce pitch changes (acting like an elevator) and move differentially to produce yaw changes (acting like a rudder)."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "0849463e-0c15-4462-9747-6323638e05c6",
+              "keyword": "elevator",
+              "score": 0.96
+            },
+            {
+              "id": "a549b066-572e-437b-83d8-d2489c3a4c98",
+              "keyword": "stabilator",
+              "score": 0.94
+            },
+            {
+              "id": "0d1c6e1c-ea60-4215-952a-6fd4482595ab",
+              "keyword": "trim tab",
+              "score": 0.93
+            },
+            {
+              "id": "313d64f7-f252-4fc8-b2a5-3f7e0b59d9f0",
+              "keyword": "servo tab",
+              "score": 0.91
+            },
+            {
+              "id": "808c90b3-9af4-4096-af86-7c8738614746",
+              "keyword": "anti-servo tab",
+              "score": 0.92
+            },
+            {
+              "id": "57300a51-5de9-47fd-9dcb-f6c9cc8086d8",
+              "keyword": "pitch control",
+              "score": 0.9
+            },
+            {
+              "id": "85408aa3-68d9-4d02-be7e-89a1fa09db4c",
+              "keyword": "glider empennage",
+              "score": 0.88
+            },
+            {
+              "id": "48118b37-cd11-4bb8-870a-4df8e339214f",
+              "keyword": "T-tail",
+              "score": 0.87
+            },
+            {
+              "id": "ebd9f915-62bd-40fc-9192-541fa6399a43",
+              "keyword": "V-tail",
+              "score": 0.86
+            },
+            {
+              "id": "60863f3e-4247-476a-b409-77c3a343c4b8",
+              "keyword": "horizontal stabilizer",
+              "score": 0.89
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "f20e73b6-e7bd-4e14-b065-c7f822b8f2fb",
+            "title": "Glider Pitch Control and Tail Design Overview",
+            "long_summary": "In gliders, pilots manage pitch attitude by moving the elevator or stabilator. Deflecting these controls from neutral creates aerodynamic resistance that provides tactile feedback but also increases pilot workload. To reduce the force needed on the elevator, pilots use trim systems, typically a small adjustable tab on the elevator’s trailing edge. Trim tabs come in two main designs: servo tabs, which relieve control pressure, and anti‑servo tabs, usually attached to stabilators, which increase opposing pressure as the pilot moves the stabilator, thereby providing a self‑centering effect. Figures 2‑6 and 2‑7 illustrate these components, showing the elevator, horizontal stabilizer, trim tabs, rudder, and an anti‑servo tab on a stabilator. Glider tail designs vary: conventional tails mount the horizontal stabilizer at the bottom of the vertical stabilizer; T‑tails place it atop the vertical stabilizer forming a “T” shape; and V‑tails combine elevator and rudder functions with two surfaces set in a “V”. Each configuration influences control characteristics and aerodynamic performance.",
+            "short_summary": "Glider pitch control and tail configurations explained."
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "81d339fb-3095-4aa2-8ede-37276ca398b2",
+              "classification": "Aviation",
+              "score": 0.98
+            },
+            {
+              "id": "053cf316-be43-47f9-bb21-515172ac54cb",
+              "classification": "Aeronautical Engineering",
+              "score": 0.95
+            },
+            {
+              "id": "3d2c2586-d4c4-474d-9efb-2db974418b21",
+              "classification": "Aircraft Design",
+              "score": 0.93
+            },
+            {
+              "id": "87147528-bad9-4c0d-97d5-3ffbb6eaa5d0",
+              "classification": "Flight Control Systems",
+              "score": 0.92
+            },
+            {
+              "id": "2c8e7915-6214-42aa-a5b9-ba512353b8d2",
+              "classification": "Glider (Sailplane) Operations",
+              "score": 0.9
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "947f51e2-6481-4764-8540-7d0d9dd54d57",
+              "label": "glider",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "79d720e7-f6b5-433d-b128-1886bdf062c3",
+              "label": "servo tab",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "c3c71dc6-3044-412d-bcc3-62cf17124728",
+              "label": "anti-servo tab",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "b65aa5fe-5db0-4fa6-a3ba-1be59f412dc6",
+              "label": "trim tab",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "00d7e8f0-2272-4b76-b1e3-1c78ca72cbd4",
+              "label": "stabilator",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "aae7e7d0-8011-48aa-9b55-b33d6fef0a1b",
+              "label": "elevator",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "c570ae9e-d727-407d-bcbd-73555f35b889",
+              "label": "horizontal stabilizer",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "cf33f562-fae0-48fa-a21e-2a37483371f8",
+              "label": "vertical stabilizer",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "42733cf7-d65d-4ee4-8896-15639fef45b3",
+              "label": "T‑tail glider",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "e78c4e58-96a0-442f-94c6-735691b6a698",
+              "label": "V‑tail",
+              "type": "PRODUCT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": "d8acf545-e559-4aa9-8850-c7521216b398",
+      "document_id": "30a69c16-438e-487f-99e7-0a715e504bae",
+      "title": "Page 7",
+      "context": "<div>\n<p>Wingtip wheel</p>\n<p>Tailwheel</p>\n<p>Fixed main wheel</p>\n<p>Skid</p>\n<p>Nosewheel</p>\n<p>Wingtip skid</p>\n<p>Tailwheel</p>\n<p>Fixed main wheel</p>\n<p>Retractable main wheel</p>\n<p>Breakaway tailwheel</p>\n</div>\n<p><b>Figure 2-12. Landing gear wheels on a glider.</b></p>\n<p>Almost all high-performance gliders have retractable landing gear, so pilots should include landing gear down in their prelanding checklist. Most landing gear handles are on the right side of the pilot station. However, a few models have gear handles on the left side, and pilots should use caution when reaching for a gear handle on the left to make sure it controls the gear and not flaps or airbrakes. A common error includes neglecting to retract the landing gear after takeoff, and then mistakenly retracting it as part of the prelanding checklist.</p>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/FAA@crd.com/original_assets/Glider-Flying-Handbook-[]-15-gfh_chapter_2.pdf_chunks/Glider-Flying-Handbook-[]-15-gfh_chapter_2-chunked-files/Glider-Flying-Handbook-[]-15-gfh_chapter_2_page_7-7.pdf",
+        "sort_number": "70"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "0e5e4b7b-3d90-47a1-b928-5ef2bb4ac314",
+            "sentiment": "neutral",
+            "summary": "List of glider landing gear types and notes on retractable gear handling and common checklist errors.",
+            "score": 0.97
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "7be21ced-ebe8-4906-99e1-664b3b67534a",
+              "question": "What types of landing‑gear wheels are shown in Figure 2‑12 for gliders?",
+              "answer": "The figure shows wingtip wheels, tailwheels, fixed main wheels, skids, nosewheels, wingtip skids, retractable main wheels, and breakaway tailwheels."
+            },
+            {
+              "id": "2a7217e5-10ba-475f-a0ff-0580aaec77f1",
+              "question": "Do most high‑performance gliders have retractable landing gear?",
+              "answer": "Yes, almost all high‑performance gliders are equipped with retractable landing gear."
+            },
+            {
+              "id": "e24723ec-8843-4e49-986b-07b1c72f8843",
+              "question": "What should pilots include in their pre‑landing checklist regarding the landing gear?",
+              "answer": "Pilots should include a step to verify that the landing gear is down before landing."
+            },
+            {
+              "id": "589263cb-088a-4174-a809-a166d01189d3",
+              "question": "Where are the landing‑gear handles typically located in a glider cockpit?",
+              "answer": "Landing‑gear handles are usually on the right side of the pilot’s station."
+            },
+            {
+              "id": "91b06881-8c1e-4b09-b4eb-82e34d057691",
+              "question": "Are there glider models with landing‑gear handles on the left side?",
+              "answer": "Yes, a few glider models have gear handles on the left side, so pilots must be careful to confirm the handle controls the gear and not flaps or airbrakes."
+            },
+            {
+              "id": "936b5555-ab83-4f90-a4d0-c3d269bf9f6d",
+              "question": "What common error do pilots make with the landing gear after takeoff?",
+              "answer": "A common error is forgetting to retract the landing gear after takeoff and then unintentionally retracting it later while performing the pre‑landing checklist."
+            },
+            {
+              "id": "edcce102-1b76-48e5-9e4b-8303ee1ca4f6",
+              "question": "How can a pilot avoid mistakenly operating the wrong control when the gear handle is on the left?",
+              "answer": "The pilot should verify that the left‑hand handle is indeed the gear control before moving it, checking its function against the cockpit layout or checklist."
+            },
+            {
+              "id": "df67f06f-cde1-4115-be55-1d538a36b401",
+              "question": "What is a breakaway tailwheel?",
+              "answer": "A breakaway tailwheel is a type of tailwheel designed to detach or collapse under excessive load to protect the glider’s structure."
+            },
+            {
+              "id": "1d341d43-2316-46c2-bf9c-857c5aa75396",
+              "question": "What is the difference between a fixed main wheel and a retractable main wheel?",
+              "answer": "A fixed main wheel remains extended at all times, while a retractable main wheel can be pulled up into the fuselage to reduce drag during flight."
+            },
+            {
+              "id": "54c0b0f3-6d23-49f7-8d8e-6a86108fc413",
+              "question": "Why is it important to include “landing gear down” in the pre‑landing checklist for gliders with retractable gear?",
+              "answer": "Including this step ensures the gear is extended before touchdown, preventing a gear‑up landing which could cause damage or loss of control."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "c2e15c97-9826-445c-8b0b-877aa6b85f91",
+              "keyword": "retractable landing gear",
+              "score": 0.96
+            },
+            {
+              "id": "d83cb8cb-c23c-4df1-837a-2c0e7f0017af",
+              "keyword": "glider landing gear",
+              "score": 0.94
+            },
+            {
+              "id": "e1fc774e-4f60-4b67-bbe0-774e6089ecd5",
+              "keyword": "prelanding checklist",
+              "score": 0.93
+            },
+            {
+              "id": "f90d2150-e45c-4435-8b53-e51ce985ef4d",
+              "keyword": "gear handle location",
+              "score": 0.9
+            },
+            {
+              "id": "37e7181c-3769-4eba-bee8-1cd8f3067e9a",
+              "keyword": "wingtip wheel",
+              "score": 0.88
+            },
+            {
+              "id": "a2d75426-1bee-4f6c-ad32-ac8ad3757638",
+              "keyword": "tailwheel",
+              "score": 0.87
+            },
+            {
+              "id": "6e034963-1f7a-4ee0-97a1-e119ef4d8e95",
+              "keyword": "fixed main wheel",
+              "score": 0.85
+            },
+            {
+              "id": "f44f2a3e-7f07-44fc-81e0-42eff5d4d4aa",
+              "keyword": "breakaway tailwheel",
+              "score": 0.84
+            },
+            {
+              "id": "dfe6aea0-7f20-4c75-b2c5-77f61e16b632",
+              "keyword": "landing gear error",
+              "score": 0.82
+            },
+            {
+              "id": "289e1bb4-f385-45fa-b53c-b755fc9e6fce",
+              "keyword": "airbrakes",
+              "score": 0.8
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "a282dcec-1834-4230-b37b-e1006f196b9e",
+            "title": "Glider Landing Gear Types and Checklist Considerations",
+            "long_summary": "The passage lists various glider landing‑gear configurations, including wingtip wheels, tailwheels, fixed and retractable main wheels, skids, and nosewheels. Figure 2‑12 illustrates these wheel types on a glider. It notes that almost all high‑performance gliders are equipped with retractable gear, so pilots must verify that the gear is down during the pre‑landing checklist. Gear handles are typically on the right side of the cockpit, though some models place them on the left; pilots should confirm that a left‑hand handle operates the gear rather than flaps or airbrakes. A frequent mistake is forgetting to retract the gear after takeoff and then unintentionally retracting it again while completing the pre‑landing checklist.",
+            "short_summary": "Retractable gear, handle locations, and common checklist errors."
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "073f1f96-c287-455f-b63a-7312f8213eb4",
+              "classification": "Aviation",
+              "score": 0.98
+            },
+            {
+              "id": "9c894431-25fc-49df-9095-44dc454d3d91",
+              "classification": "Aircraft Safety",
+              "score": 0.95
+            },
+            {
+              "id": "c3b1e516-8b49-48be-adf2-54e2f128174c",
+              "classification": "Glider Operations",
+              "score": 0.93
+            },
+            {
+              "id": "e35ab785-1712-4384-a8d5-d64b4f96f360",
+              "classification": "Landing Gear Systems",
+              "score": 0.9
+            },
+            {
+              "id": "de439a0c-f6b3-4422-894a-93d4edd9e8f8",
+              "classification": "Preflight/Prelanding Checklist",
+              "score": 0.88
+            }
+          ]
+        },
+        {
+          "entities": []
+        }
+      ]
+    },
+    {
+      "topic_id": "27610a3e-9596-43fe-892b-4693d3460065",
+      "document_id": "30a69c16-438e-487f-99e7-0a715e504bae",
+      "title": "Page 8",
+      "context": "Some high-performance gliders have only one center of gravity (CG) tow hook either ahead of the landing gear or in the landing gear well. With a CG hook within the landing gear well, retracting the gear on tow interferes with the tow line. Even if the glider has a nose hook, retracting the gear should wait. A CG hook, as compared to a nose hook, makes a crosswind takeoff more difficult since the glider can weathervane into the wind more easily. In addition, a CG hook makes the glider more susceptible to kiting (climbing above the tow plane) on takeoff, which threatens the safety of the tow pilot.\n\n## Wheel Brakes\n\nEarly gliders often relied on friction between the nose skid and the ground to come to a stop. Later models use a wheel brake mounted on the main landing gear wheel, which helps the glider slow down or stop after touchdown. Modern gliders commonly use a hydraulic disk brake, which provides substantial braking capability.\n\n## Chapter Summary\n\nAlthough gliders come in an array of shapes and sizes, most gliders share basic design features. These include a fuselage, wings and components, lift/drag devices, and empennage. Depending on the launch method used, a glider may have a towhook or an engine.",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/FAA@crd.com/original_assets/Glider-Flying-Handbook-[]-15-gfh_chapter_2.pdf_chunks/Glider-Flying-Handbook-[]-15-gfh_chapter_2-chunked-files/Glider-Flying-Handbook-[]-15-gfh_chapter_2_page_8-8.pdf",
+        "sort_number": "80"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "b29e58dc-2985-494d-ac24-12f82b658235",
+            "sentiment": "neutral",
+            "summary": "Gliders have various CG tow hook placements affecting takeoff and gear retraction; wheel brakes evolved from skids to hydraulic disks; basic design features are common.",
+            "score": 0.97
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "701c7105-c3c0-48b3-9c58-29bdff26f94e",
+              "question": "Where are the center‑of‑gravity (CG) tow hooks typically located on high‑performance gliders?",
+              "answer": "They are usually installed either ahead of the landing gear or inside the landing‑gear well."
+            },
+            {
+              "id": "65c3b335-f1fb-445c-966a-0740a786e567",
+              "question": "Why must the landing gear not be retracted when a CG hook is placed in the landing‑gear well?",
+              "answer": "Retracting the gear would interfere with the tow line, so the gear must remain extended until after the tow is released."
+            },
+            {
+              "id": "461aa4b1-91a2-46c8-b7ba-a00f8d55a2ed",
+              "question": "If a glider has a nose hook, does that allow the gear to be retracted immediately?",
+              "answer": "No. Even with a nose hook, the gear should not be retracted until the tow is finished."
+            },
+            {
+              "id": "46f6d04e-7378-4e8e-9302-0fd849f21ba1",
+              "question": "How does a CG hook affect cross‑wind take‑offs compared with a nose hook?",
+              "answer": "A CG hook makes cross‑wind take‑offs more difficult because the glider can weathervane into the wind more easily."
+            },
+            {
+              "id": "d1068777-cd49-48f9-be9f-fd669a99dc35",
+              "question": "What is “kiting” during a glider tow, and why is a CG hook more prone to it?",
+              "answer": "Kiting is when the glider climbs above the tow plane during take‑off; a CG hook makes this more likely, which can endanger the tow pilot."
+            },
+            {
+              "id": "c14ba5ce-a941-4d6b-8dcc-a4a3bc668c0c",
+              "question": "How did early gliders come to a stop after landing?",
+              "answer": "They relied on friction between the nose skid and the ground."
+            },
+            {
+              "id": "9e6c1e39-f8a7-423b-957a-cc4490ad6f94",
+              "question": "What braking system is used on later‑model gliders?",
+              "answer": "A wheel brake mounted on the main landing‑gear wheel."
+            },
+            {
+              "id": "a0d0bf37-df16-4704-8a9b-ed046d9f0bfa",
+              "question": "What type of brake do modern gliders commonly use?",
+              "answer": "A hydraulic disc brake that provides substantial braking capability."
+            },
+            {
+              "id": "7d9429f5-8f8c-4975-8864-27d7480ddd8c",
+              "question": "What basic design features are shared by most gliders?",
+              "answer": "All gliders have a fuselage, wings and associated components, lift/drag devices, and an empennage."
+            },
+            {
+              "id": "caabe5f5-8e88-40d9-b16a-dfde7d01cd29",
+              "question": "When might a glider be equipped with an engine instead of a tow hook?",
+              "answer": "Depending on the launch method used, a glider may have an engine rather than a tow hook."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "55ecb3b1-d230-479f-8bf8-be10ebc758bd",
+              "keyword": "center of gravity (CG) tow hook",
+              "score": 0.98
+            },
+            {
+              "id": "677b667c-a660-43b9-aef6-21cd06214341",
+              "keyword": "landing gear well",
+              "score": 0.96
+            },
+            {
+              "id": "61d47a5d-e72f-47ba-a9b6-b526a4885be0",
+              "keyword": "crosswind takeoff",
+              "score": 0.94
+            },
+            {
+              "id": "33fb6ff7-4281-40a5-a20a-84c226a1f20b",
+              "keyword": "kiting (glider)",
+              "score": 0.93
+            },
+            {
+              "id": "975b50c2-554e-4818-8070-7be768b5d571",
+              "keyword": "wheel brake",
+              "score": 0.95
+            },
+            {
+              "id": "fb41e1ec-5058-4c50-a6af-7065936cdd25",
+              "keyword": "hydraulic disk brake",
+              "score": 0.96
+            },
+            {
+              "id": "35620512-37a3-4348-b4eb-fba6989c12b2",
+              "keyword": "glider design features",
+              "score": 0.92
+            },
+            {
+              "id": "4c1808ba-bd95-428c-8fe1-de801d781a02",
+              "keyword": "fuselage",
+              "score": 0.9
+            },
+            {
+              "id": "33c45758-1fdf-4f83-a835-6937574c3a03",
+              "keyword": "empennage",
+              "score": 0.9
+            },
+            {
+              "id": "7d18f515-f648-49e5-abe2-6b96d3096de4",
+              "keyword": "towhook",
+              "score": 0.94
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "86d8353a-ac79-49cb-a078-9fe6c3246737",
+            "title": "Glider Tow Hooks, Brakes, and Basic Design Features",
+            "long_summary": "High‑performance gliders typically have a single centre‑of‑gravity (CG) tow hook, either ahead of the landing gear or within the gear well. When the hook is in the gear well, retracting the gear during tow can interfere with the tow line, requiring the gear to remain down until after launch. A CG hook, unlike a nose hook, makes cross‑wind take‑offs harder because the glider can weathervane into the wind and is more prone to kiting—climbing above the tow plane—which endangers the tow pilot. Early gliders relied on nose‑skid friction to stop; later models added wheel brakes on the main gear, and modern gliders use hydraulic disc brakes for strong stopping power. Overall, gliders share core design elements—fuselage, wings, lift/drag devices, and empennage—and may be equipped with a tow hook or engine depending on the launch method.",
+            "short_summary": "CG hooks affect tow, brakes evolved, glider basics"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "e9b4ba29-87a6-4797-8bb9-94117896c86c",
+              "classification": "Aviation",
+              "score": 0.98
+            },
+            {
+              "id": "cb17f56b-9758-4dcc-bc8b-1452f94f6d07",
+              "classification": "Glider Design",
+              "score": 0.95
+            },
+            {
+              "id": "776ebac1-2cce-4b0c-b6d7-90546f41d201",
+              "classification": "Aircraft Safety",
+              "score": 0.85
+            },
+            {
+              "id": "d997951e-2622-4db7-97ee-17c1691bc68e",
+              "classification": "Braking Systems",
+              "score": 0.75
+            },
+            {
+              "id": "27aa68c5-6721-40a3-9db6-fbeb7e6b1353",
+              "classification": "Technical Documentation",
+              "score": 0.7
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "1938930c-a91c-4f9a-ac7a-a712de86e3bd",
+              "label": "CG",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "5c2e9185-e6ca-4390-ac34-60cab908f689",
+              "label": "CG hook",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "c3b08751-cfd3-4cfe-989e-bc440c27db1d",
+              "label": "nose hook",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "74017d54-214d-4398-a97b-4352e4cab1b9",
+              "label": "tow hook",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "f135138e-f7bf-4a4c-8009-1e81522bd340",
+              "label": "hydraulic disk brake",
+              "type": "PRODUCT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": "49a78542-c2d6-42c2-932f-15c0cf8e0f0a",
+      "document_id": "30a69c16-438e-487f-99e7-0a715e504bae",
+      "title": "Page 1",
+      "context": "<h1>Chapter 2: Components &amp; Systems</h1>\n<h2>Introduction</h2>\n<h3>Glider Design</h3>\n<p>Glider airframes include a fuselage, wings, and empennage or tail section. [Figure 2-1]</p>\n<img alt=\"Diagram showing the components of a glider. Labeled parts include: Right aileron, Right wing, Spoiler/Dive brake, Pilot Station, Fuselage, Empennage, Left aileron, Landing gear, and Left wing.\"/>\n<p>Figure 2-1. Components of a glider.</p>\n<h2>The Fuselage</h2>\n<p>The fuselage contains the controls for the glider, as well as a seat for each occupant. The wings and empennage attach to the fuselage. Manufacturers typically use composites, fiberglass, or carbon fiber, however in the past manufacturers used wood, fabric over steel tubing, aluminum, or a combination of these materials to build a fuselage.</p>\n<h2>Introduction</h2>\n<p>When air flows over the wings of a glider, the wings produce lift that allows the aircraft to stay aloft. Glider wing designs produce maximum lift with minimum drag.</p>\n<p>Glider wings incorporate several components that help the pilot maintain the attitude of the glider and control lift and drag. These include ailerons and other lift and drag devices.</p>\n<h2>Ailerons</h2>\n<p>The ailerons attach to the outboard trailing edge of each wing. When the pilot moves the aileron control to the right of center, the right aileron deflects upward [Figure 2-2] and the left aileron deflects downward. In flight and with air flowing over the wings, these deflections result in increased lift on the left wing and decreased lift on the right wing. The increased lift on the left wing and decreased lift on the right wing apply a force to roll the glider to the right. Moving the aileron</p>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/FAA@crd.com/original_assets/Glider-Flying-Handbook-[]-15-gfh_chapter_2.pdf_chunks/Glider-Flying-Handbook-[]-15-gfh_chapter_2-chunked-files/Glider-Flying-Handbook-[]-15-gfh_chapter_2_page_1-1.pdf",
+        "sort_number": "10"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "fc4e4860-591e-4dd5-adf4-3902b8532221",
+            "sentiment": "neutral",
+            "summary": "The text describes glider components, fuselage materials, wing lift principles, and aileron operation.",
+            "score": 0.98
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "d9bb5ec0-8601-4a32-8e5d-f833287b553e",
+              "question": "What design goal do glider wings aim for regarding lift and drag?",
+              "answer": "Glider wing designs aim to produce maximum lift with minimum drag."
+            },
+            {
+              "id": "dcd9005f-1411-4a62-94ac-cb5963d3c3b6",
+              "question": "What are ailerons and where are they located on a glider?",
+              "answer": "Ailerons are control surfaces attached to the outboard trailing edge of each wing."
+            },
+            {
+              "id": "446efcb2-0958-4a82-b226-b27a58bb94f9",
+              "question": "What are the main components of a glider?",
+              "answer": "A glider is made up of a fuselage, wings, and an empennage (tail section)."
+            },
+            {
+              "id": "266a1578-04bd-410c-b3d1-8e8ea5bb6e25",
+              "question": "What does the fuselage contain and what is its purpose?",
+              "answer": "The fuselage holds the controls, provides a seat for each occupant, and serves as the attachment point for the wings and empennage."
+            },
+            {
+              "id": "853ceaa5-646b-44a0-b6e8-4eff283878fa",
+              "question": "What materials are commonly used to build modern glider fuselages?",
+              "answer": "Manufacturers typically use composites, fiberglass, or carbon fiber for modern glider fuselages."
+            },
+            {
+              "id": "8aefef27-ba63-43e5-b202-a0d25eb0fff5",
+              "question": "What materials were used to construct glider fuselages in the past?",
+              "answer": "Historically, glider fuselages were built from wood, fabric over steel tubing, aluminum, or combinations of these materials."
+            },
+            {
+              "id": "96cc870d-fbb7-47fb-b389-1c98aba8a02a",
+              "question": "How do glider wings produce lift?",
+              "answer": "When air flows over the wings, the wing shape creates lift, allowing the glider to stay aloft."
+            },
+            {
+              "id": "f24ea58d-8221-47b6-af08-f0b21ab58a41",
+              "question": "What happens when the pilot moves the aileron control to the right of center?",
+              "answer": "The right aileron deflects upward and the left aileron deflects downward, increasing lift on the left wing, decreasing lift on the right wing, and causing the glider to roll to the right."
+            },
+            {
+              "id": "64a2f901-2996-4864-8b90-ec25f3ad1d5a",
+              "question": "Besides ailerons, what other devices help control lift and drag on glider wings?",
+              "answer": "Glider wings incorporate other lift and drag devices, though the specific types are not detailed in the provided context."
+            },
+            {
+              "id": "b649eb5d-15d8-499f-a519-1829bf3517e2",
+              "question": "Where do the wings and empennage attach on a glider?",
+              "answer": "Both the wings and the empennage attach to the fuselage."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "d2616802-0de9-44ab-91f9-2634c661b482",
+              "keyword": "glider",
+              "score": 0.99
+            },
+            {
+              "id": "6f04ae02-77a1-40a7-bcf8-5d47f6b0f814",
+              "keyword": "fuselage",
+              "score": 0.96
+            },
+            {
+              "id": "78079058-f8da-4cd1-935a-03a10be47fc9",
+              "keyword": "wings",
+              "score": 0.95
+            },
+            {
+              "id": "4398c661-170b-4aaf-a34f-99162f0eeb59",
+              "keyword": "ailerons",
+              "score": 0.94
+            },
+            {
+              "id": "06155c18-7589-4a7a-bbaf-077c3467cd30",
+              "keyword": "lift",
+              "score": 0.92
+            },
+            {
+              "id": "bc9bc1c0-f98e-440a-962c-9b554f57a12c",
+              "keyword": "drag",
+              "score": 0.91
+            },
+            {
+              "id": "7126893a-aad8-4338-8821-d8561a4981dc",
+              "keyword": "empennage",
+              "score": 0.89
+            },
+            {
+              "id": "0caba397-8df1-481a-9282-0975fd044e92",
+              "keyword": "composite materials",
+              "score": 0.88
+            },
+            {
+              "id": "42e46fea-0153-4452-94cf-c2d6d2602c91",
+              "keyword": "carbon fiber",
+              "score": 0.86
+            },
+            {
+              "id": "05dc664e-cf4f-4bd2-ba2e-53b44a91bf4a",
+              "keyword": "spoiler/dive brake",
+              "score": 0.85
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "1e9f4df1-71d7-4622-94eb-da845ea59150",
+            "title": "Glider Components: Fuselage and Aileron Function",
+            "long_summary": "Chapter 2 introduces the main components of a glider, focusing on the fuselage and wing control surfaces. The glider airframe consists of a fuselage, wings, and empennage (tail). The fuselage houses the pilot’s controls and seating, and serves as the attachment point for the wings and tail. Modern fuselages are typically built from composites such as fiberglass or carbon fiber, while historic designs used wood, fabric over steel tubing, aluminum, or mixed materials. \n\nThe wings generate lift by allowing air to flow over them, enabling the glider to stay aloft with minimal drag. Wing design incorporates devices that help the pilot manage attitude, lift, and drag, notably ailerons. Ailerons are mounted on the outboard trailing edges of each wing. When the pilot moves the aileron control to the right of center, the right aileron deflects upward and the left aileron deflects downward. This creates more lift on the left wing and less on the right, producing a rolling moment that turns the glider to the right. The chapter includes Figure 2‑1 illustrating all glider components and Figure 2‑2 showing aileron deflection.",
+            "short_summary": "Glider parts, fuselage materials, wing lift, aileron control"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "6291c9e5-4357-4fdb-9933-e8072eccbfb8",
+              "classification": "Aviation",
+              "score": 0.96
+            },
+            {
+              "id": "5cd350b4-c702-47a3-8146-d07f90cd50d7",
+              "classification": "Aeronautical Engineering",
+              "score": 0.94
+            },
+            {
+              "id": "fad2fe54-7221-4112-bcc7-ba1a34f34041",
+              "classification": "Glider Design",
+              "score": 0.92
+            },
+            {
+              "id": "97b5dc3d-3cdc-4fd8-93ca-f4be87c04df2",
+              "classification": "Aerodynamics",
+              "score": 0.9
+            },
+            {
+              "id": "6deb3742-3aba-4f74-8e80-a8542f4bcc4d",
+              "classification": "Educational/Instructional Material",
+              "score": 0.88
+            }
+          ]
+        },
+        {
+          "entities": []
+        }
+      ]
+    },
+    {
+      "topic_id": "f306fb83-1ad4-43f0-8527-f4f722fba6e0",
+      "document_id": "30a69c16-438e-487f-99e7-0a715e504bae",
+      "title": "Page 5",
+      "context": "<h2>Towhook Devices</h2>\n<p>Glider that launch using a tow have an approved towhook. For an aerotow, the crew normally connects the tow line to a towhook located on or just under the nose of the glider. For a tow using a winch or ground vehicle, the crew attaches the tow line to a towhook positioned below the glider center of gravity (CG)—the point where the glider would balance on the ground if lifted from above or below that position. [Figure 2-8]. Both towhook designs allow for quick release of the rope or cable when the glider pilot pulls the release handle. An aerotow launch of a glider using a specific towhook may only occur if the Glider Flight Manual/Pilot's Operating Handbook approves the procedure.</p>\n<img alt=\"Diagram showing two glider tow hook locations. The top glider shows a CG towhook located near the Center of gravity, used for a Ground launch. The bottom glider shows a Nose-mounted towhook, used for an Aerotow.\"/>\n<p>Figure 2-8. Tow hook locations.</p>\n<h2>Powerplant</h2>\n<p>While tow planes provide the most common means to launch a glider in the United States, self-launching gliders with built-in engines have become more commonplace.</p>\n<h2>Self-Launching Gliders</h2>\n<p>There are two types of self-launching gliders: touring motor gliders and high-performance self-launching gliders.</p>\n<h3>Touring Motor Gliders</h3>\n<p>Touring motor gliders have a nose-mounted engine and a full feathering propeller. [Figure 2-9] Although touring motor gliders have some basic airplane characteristics, they are certified in the glider category.</p>\n<img alt=\"A photograph of a Grob G109B touring motor glider flying in the sky.\"/>\n<p>Figure 2-9. A Grob G109B touring motor glider.</p>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/FAA@crd.com/original_assets/Glider-Flying-Handbook-[]-15-gfh_chapter_2.pdf_chunks/Glider-Flying-Handbook-[]-15-gfh_chapter_2-chunked-files/Glider-Flying-Handbook-[]-15-gfh_chapter_2_page_5-5.pdf",
+        "sort_number": "50"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "e0697347-ab60-4c01-981b-5b04ed948a12",
+            "sentiment": "neutral",
+            "summary": "Overview of glider towhook locations, powerplant options, and types of self‑launching gliders, including touring motor gliders.",
+            "score": 0.97
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "1bd1ebaa-b03c-4c05-99a6-cff11be2db07",
+              "question": "Where is the towhook located on a glider for an aerotow launch?",
+              "answer": "For an aerotow launch, the towhook is located on or just under the nose of the glider."
+            },
+            {
+              "id": "123bace2-cde5-4dd0-b7bb-1ec568faa76c",
+              "question": "What is the correct towhook position for a winch or ground‑vehicle launch?",
+              "answer": "For a winch or ground‑vehicle launch, the towhook is positioned below the glider’s center of gravity (CG), at the point where the glider would balance on the ground if lifted from above or below that position."
+            },
+            {
+              "id": "dc220dae-015b-4e34-b1df-80aa51e49bb5",
+              "question": "Can any towhook be used for an aerotow launch?",
+              "answer": "An aerotow launch may only use a specific towhook if the Glider Flight Manual or Pilot’s Operating Handbook explicitly approves the procedure."
+            },
+            {
+              "id": "1f277e92-aa61-40ad-97cd-b39a874362f5",
+              "question": "How does the release mechanism work on glider towhooks?",
+              "answer": "Both nose‑mounted and CG‑mounted towhooks are designed for quick release of the rope or cable when the glider pilot pulls the release handle."
+            },
+            {
+              "id": "2fc28f37-3987-43eb-850a-e1143f20b282",
+              "question": "What is the most common method for launching gliders in the United States?",
+              "answer": "Tow planes providing aerotow launches are the most common method for launching gliders in the United States."
+            },
+            {
+              "id": "d6d50193-229f-4bff-a837-38b69c0f1e86",
+              "question": "What are the two main categories of self‑launching gliders?",
+              "answer": "Self‑launching gliders are divided into touring motor gliders and high‑performance self‑launching gliders."
+            },
+            {
+              "id": "73a06e9d-9ba1-4374-8f9f-0ff8b2363cc3",
+              "question": "What distinguishes a touring motor glider from other gliders?",
+              "answer": "Touring motor gliders have a nose‑mounted engine with a full feathering propeller, possess basic airplane characteristics, and are certified in the glider category."
+            },
+            {
+              "id": "dd299b79-39c5-4385-88d8-fecafa0e1a37",
+              "question": "Can you give an example of a touring motor glider?",
+              "answer": "The Grob G109B is an example of a touring motor glider."
+            },
+            {
+              "id": "c24886c6-0ae1-4b3e-9fe1-d78e9ad6822d",
+              "question": "Are self‑launching gliders certified differently from powered aircraft?",
+              "answer": "Yes. Even though touring motor gliders have airplane‑like features, they are certified in the glider category rather than the powered‑aircraft category."
+            },
+            {
+              "id": "5b04bf7d-1fdb-4053-806d-223afcc6800b",
+              "question": "Do all gliders have the same towhook design?",
+              "answer": "No. Gliders may have either a nose‑mounted towhook for aerotow launches or a CG‑mounted towhook for winch/ground‑vehicle launches, depending on the approved launch method."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "414559d5-1dd5-44ab-8f55-133e269c6da2",
+              "keyword": "towhook",
+              "score": 0.96
+            },
+            {
+              "id": "db915290-21d8-4ddb-bd89-a95c812551b0",
+              "keyword": "glider",
+              "score": 0.94
+            },
+            {
+              "id": "69d9cf98-a7ea-43f1-885a-81bc3b1380e0",
+              "keyword": "aerotow",
+              "score": 0.92
+            },
+            {
+              "id": "b49ebbd0-7d5a-4ccc-90a5-eaaf368495a5",
+              "keyword": "center of gravity",
+              "score": 0.9
+            },
+            {
+              "id": "3f9b8cea-434c-44d9-91fd-b4112515ffef",
+              "keyword": "quick release",
+              "score": 0.88
+            },
+            {
+              "id": "efcfff8e-7a71-4c4a-bca2-1118744c028d",
+              "keyword": "Glider Flight Manual",
+              "score": 0.87
+            },
+            {
+              "id": "e15fe05a-c179-4a22-a791-a25525daf349",
+              "keyword": "self-launching gliders",
+              "score": 0.93
+            },
+            {
+              "id": "603dd71e-75e6-4d32-8ca2-ade6738203e7",
+              "keyword": "touring motor gliders",
+              "score": 0.91
+            },
+            {
+              "id": "793144e9-338c-4400-b048-21d995d1ed82",
+              "keyword": "Grob G109B",
+              "score": 0.85
+            },
+            {
+              "id": "14c2c73f-185a-491a-9582-400dffc30634",
+              "keyword": "winch launch",
+              "score": 0.84
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "559b7f27-c896-41e4-93ee-3cd5a7b1d366",
+            "title": "Glider Towhook Locations and Self‑Launching Motor Gliders",
+            "long_summary": "The text explains the function and placement of towhooks on gliders. For aerotow launches, the towline is attached to a hook located on or just under the nose, while for ground‑based launches (winch or vehicle), the hook is positioned below the glider’s centre of gravity (CG), the balance point if the aircraft were lifted from above or below. Both hook designs incorporate a quick‑release mechanism that the pilot activates with a handle. Use of a specific towhook must be approved in the Glider Flight Manual or Pilot’s Operating Handbook. \n\nThe section on powerplants notes that, although tow planes remain the primary launch method in the United States, self‑launching gliders equipped with built‑in engines are becoming more common. Two categories of self‑launching gliders are identified: touring motor gliders and high‑performance self‑launching gliders. Touring motor gliders feature a nose‑mounted engine and a fully feathering propeller, giving them some characteristics of conventional airplanes, yet they are certified in the glider category. An example shown is the Grob G109B. The high‑performance type is mentioned but not described in detail.",
+            "short_summary": "Glider towhooks and self-launching motor glider overview"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "e40ba332-d2be-497d-91ac-10d906c2d767",
+              "classification": "Aviation",
+              "score": 0.97
+            },
+            {
+              "id": "be085138-99d9-4ed9-925c-a2085c1efb68",
+              "classification": "Glider Operations",
+              "score": 0.94
+            },
+            {
+              "id": "19dd11c1-a2a5-4b3e-b645-5aea11f47aff",
+              "classification": "Aircraft Design",
+              "score": 0.89
+            },
+            {
+              "id": "28bd03fd-e8f7-4ef4-8193-c1e35b6844fc",
+              "classification": "Aeronautical Engineering",
+              "score": 0.85
+            },
+            {
+              "id": "8ad07210-daaa-4262-a1ab-0478808aeb00",
+              "classification": "Flight Training",
+              "score": 0.78
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "c72a0c9e-8dfb-432a-9aae-e29606f4d500",
+              "label": "Grob",
+              "type": "COMPANY"
+            },
+            {
+              "id": "e865ccf3-7f0e-4d63-ada4-004cc14fd480",
+              "label": "Grob G109B",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "9eb2a0eb-f2e7-4a17-a03b-a248aa277031",
+              "label": "United States",
+              "type": "LOCATION"
+            },
+            {
+              "id": "a3399199-681e-44e8-ac16-b160e8326a7d",
+              "label": "CG",
+              "type": "ACRONYM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": "26a35f80-b31f-4cb5-9b67-c52b030ab88f",
+      "document_id": "30a69c16-438e-487f-99e7-0a715e504bae",
+      "title": "Page 6",
+      "context": "<h3>High-Performance Gliders</h3>\n<p>High-performance self-launching gliders have engines that retract into the fuselage for minimal drag. [Figure 2-10] The propeller may fold, or simply align with the engine. This configuration preserves a smooth low drag configuration.</p>\n<img alt=\"A DG-808B 18-meter high-performance glider on the ground with its propeller extended, ready for self-launch.\"/>\n<p>Figure 2-10. A DG-808B 18-meter high-performance glider in self-launch.</p>\n<h3>Glider with Sustainer Engines</h3>\n<p>Some gliders have sustainer engines powered by either electricity or gasoline. A pilot can use a sustainer engine to remain aloft; however, sustainer engines do not provide sufficient power to launch the glider and may not have enough power to compensate for sinking air. [Figure 2-11]</p>\n<img alt=\"A Schleicher ASG-29 E glider in flight, showing the gasoline sustainer engine mast extended.\"/>\n<p>Figure 2-11. A Schleicher ASG-29 E with gasoline sustainer engine mast extended.</p>\n<h3>Landing Gear</h3>\n<p>A glider landing gear system usually includes a main wheel. Gliders designed for high speed and low drag often feature a retractable main landing gear. Other components may include a front skid or wheel, a tail wheel or skid, or wing tip wheels or skid plates. [Figure 2-12]</p>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/FAA@crd.com/original_assets/Glider-Flying-Handbook-[]-15-gfh_chapter_2.pdf_chunks/Glider-Flying-Handbook-[]-15-gfh_chapter_2-chunked-files/Glider-Flying-Handbook-[]-15-gfh_chapter_2_page_6-6.pdf",
+        "sort_number": "60"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "94942c87-8414-43de-b8ab-a71b31f1f264",
+            "sentiment": "neutral",
+            "summary": "Describes high‑performance self‑launch gliders, sustainer engines, and landing gear configurations.",
+            "score": 0.98
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "238270d3-a3a9-4d64-a402-4a52e5734a3e",
+              "question": "What is the purpose of retractable engines in high‑performance self‑launching gliders?",
+              "answer": "Retractable engines allow the engine to be stored inside the fuselage, minimizing drag during flight."
+            },
+            {
+              "id": "cc2c9661-eb37-445c-933d-416fedecb23a",
+              "question": "How does the propeller design contribute to low drag in self‑launching gliders?",
+              "answer": "The propeller may fold or align with the engine when retracted, preserving a smooth, low‑drag configuration."
+            },
+            {
+              "id": "7821693a-419e-42ee-9015-1ab51cba88f7",
+              "question": "Can you give an example of a high‑performance self‑launching glider mentioned in the text?",
+              "answer": "The DG‑808B 18‑meter high‑performance glider is cited as an example."
+            },
+            {
+              "id": "e97fc346-a859-4be1-a88f-21a277f94b15",
+              "question": "What types of sustainer engines are used in some gliders?",
+              "answer": "Sustainer engines can be powered by electricity or gasoline."
+            },
+            {
+              "id": "8392cfbd-4c66-458a-95fb-2aa6a1ec9bb8",
+              "question": "What are the limitations of sustainer engines compared to self‑launching engines?",
+              "answer": "Sustainer engines do not provide enough power to launch the glider and may not have sufficient power to compensate for sinking air."
+            },
+            {
+              "id": "4424f82c-141b-415c-98fd-09a619a9e9d4",
+              "question": "Which glider model is shown with a gasoline sustainer engine mast extended?",
+              "answer": "The Schleicher ASG‑29 E is shown with its gasoline sustainer engine mast extended."
+            },
+            {
+              "id": "5b83fc69-0546-4e54-9289-b616cf7c237b",
+              "question": "What components are typically included in a glider landing gear system?",
+              "answer": "A glider landing gear system usually includes a main wheel, and may also have a front skid or wheel, a tail wheel or skid, and wing‑tip wheels or skid plates."
+            },
+            {
+              "id": "eed3fe5e-245e-42b5-be72-41b20cb1be21",
+              "question": "Why do high‑speed, low‑drag gliders often have retractable main landing gear?",
+              "answer": "Retractable main landing gear reduces drag, which is important for gliders designed for high speed and low drag."
+            },
+            {
+              "id": "6ec970cf-0d37-4b85-8299-85f0fefae7b2",
+              "question": "What additional landing gear options might be found on gliders besides a main wheel?",
+              "answer": "Additional options can include a front skid or wheel, a tail wheel or skid, and wing‑tip wheels or skid plates."
+            },
+            {
+              "id": "8a415dc7-f731-4263-afa1-efa9e6553168",
+              "question": "Does the text mention any specific figure that illustrates landing gear?",
+              "answer": "Yes, Figure 2‑12 is referenced as showing a glider landing gear system."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "5ffae3e2-b34c-41a9-bc52-13e07ba23fba",
+              "keyword": "high-performance gliders",
+              "score": 0.96
+            },
+            {
+              "id": "90e5c89d-1736-4be7-9258-1332428c3225",
+              "keyword": "self-launching gliders",
+              "score": 0.94
+            },
+            {
+              "id": "19f156f3-16bb-4d4a-99da-a6a69081a994",
+              "keyword": "retractable engine",
+              "score": 0.9
+            },
+            {
+              "id": "cab9e33e-a2bb-4116-9957-c832c24b0b23",
+              "keyword": "DG-808B",
+              "score": 0.88
+            },
+            {
+              "id": "b0338f4a-164f-4303-b0ff-324afff33e81",
+              "keyword": "sustainer engines",
+              "score": 0.93
+            },
+            {
+              "id": "25e7d0e2-6461-45da-b564-7c1388f094fd",
+              "keyword": "electricity",
+              "score": 0.85
+            },
+            {
+              "id": "f63d002f-6c23-4c1d-9a76-856bc8688d34",
+              "keyword": "gasoline",
+              "score": 0.85
+            },
+            {
+              "id": "5221cc54-90ac-442f-a77f-9c2467a190f9",
+              "keyword": "Schleicher ASG-29 E",
+              "score": 0.89
+            },
+            {
+              "id": "012c67af-3bb4-437e-9b0c-ec34a995cf47",
+              "keyword": "landing gear",
+              "score": 0.92
+            },
+            {
+              "id": "dc6a4026-07ee-4b50-b801-0d57dc2da6b0",
+              "keyword": "retractable main landing gear",
+              "score": 0.87
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "e203ddae-0ae0-4455-90bc-504968255c82",
+            "title": "High‑Performance Gliders, Sustainer Engines, and Landing Gear",
+            "long_summary": "High‑performance self‑launching gliders feature engines that retract into the fuselage, minimizing drag; the propeller may fold or align with the engine, preserving a smooth low‑drag shape. An example is the DG‑808B 18‑meter glider shown with its propeller extended for launch. Some gliders use sustainer engines—electric or gasoline—that allow the pilot to remain aloft but lack sufficient power for take‑off and may not overcome sinking air; the Schleicher ASG‑29 E illustrates a gasoline sustainer engine mounted on a mast. Glider landing gear typically includes a main wheel, often retractable on high‑speed, low‑drag designs, and may be complemented by a front skid or wheel, a tail wheel or skid, and wing‑tip wheels or skid plates.",
+            "short_summary": "High-performance gliders, sustainers, and landing gear options."
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "704fff0f-9461-4cb9-95a9-9ef5e8dab038",
+              "classification": "Aviation",
+              "score": 0.98
+            },
+            {
+              "id": "cbb59c63-653b-4dbd-b983-42422ef466fc",
+              "classification": "Glider Technology",
+              "score": 0.96
+            },
+            {
+              "id": "6c37ef73-b8fd-49b6-a3ac-f689f843671f",
+              "classification": "Aircraft Design",
+              "score": 0.9
+            },
+            {
+              "id": "4f0045e0-1b77-4f16-9f49-9f2f0c383893",
+              "classification": "Aeronautical Engineering",
+              "score": 0.88
+            },
+            {
+              "id": "5e4bfed5-745a-42bf-b594-7c0d4b7d79c6",
+              "classification": "Sports Aviation",
+              "score": 0.8
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "11a8bb00-f3b5-466b-b388-dae898851452",
+              "label": "DG-808B",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "d5b507ce-9f23-4895-a62f-64b4c8a4b182",
+              "label": "Schleicher ASG-29 E",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "cbf90058-189b-4706-97e5-7e5e7b36d66b",
+              "label": "Schleicher",
+              "type": "COMPANY"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "customer_id": "test_set_2x2@crd.com",
+  "document_id": "13f53c2d-f4ae-4f90-9283-c0a662a415d7",
+  "document_name": "pdf_hyperlink_example.pdf",
+  "organization_name": "Booz Allen",
+  "account_name": "Default Account",
+  "application_name": "Booz Allen AI Atomization Service",
+  "vpub_name": "Default VPUB",
+  "topics": [
+    {
+      "topic_id": "c7156509-2b5e-4e36-bec4-e3a7168cba91",
+      "document_id": "13f53c2d-f4ae-4f90-9283-c0a662a415d7",
+      "title": "Page 1",
+      "context": "<h2>State Plan PDF Hyperlink Example</h2>\n<p>45 CFR Part 301 State plan approval and grant procedures<br/><a href=\"https://www.gpo.gov/fdsys/granule/CFR-2004-title45-vol2/CFR-2004-title45-vol2-part301\">https://www.gpo.gov/fdsys/granule/CFR-2004-title45-vol2/CFR-2004-title45-vol2-part301</a></p>\n<p>45 CFR Part 302 State plan requirements<br/><a href=\"https://www.gpo.gov/fdsys/granule/CFR-2010-title45-vol2/CFR-2010-title45-vol2-part302\">https://www.gpo.gov/fdsys/granule/CFR-2010-title45-vol2/CFR-2010-title45-vol2-part302</a></p>\n<p>45 CFR Part 303 Standards for program operations<br/><a href=\"https://www.gpo.gov/fdsys/granule/CFR-2010-title45-vol2/CFR-2010-title45-vol2-part303\">https://www.gpo.gov/fdsys/granule/CFR-2010-title45-vol2/CFR-2010-title45-vol2-part303</a></p>\n<p>45 CFR Part 304 Federal financial participation<br/><a href=\"https://www.gpo.gov/fdsys/granule/CFR-2010-title45-vol2/CFR-2010-title45-vol2-part304\">https://www.gpo.gov/fdsys/granule/CFR-2010-title45-vol2/CFR-2010-title45-vol2-part304</a></p>\n<p>45 CFR Part 305 Program performance measures, standards, financial incentives, and penalties<br/><a href=\"https://www.gpo.gov/fdsys/granule/CFR-2011-title45-vol2/CFR-2011-title45-vol2-part305\">https://www.gpo.gov/fdsys/granule/CFR-2011-title45-vol2/CFR-2011-title45-vol2-part305</a></p>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/test_set_2x2@crd.com/original_assets/pdf_hyperlink_example.pdf_chunks/pdf_hyperlink_example-chunked-files/pdf_hyperlink_example_page_1-1.pdf",
+        "sort_number": "10"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "f702e5ef-4cd4-4582-b8c3-22f0aeb28143",
+            "sentiment": "neutral",
+            "summary": "Lista de enlaces a los diferentes apartados del 45 CFR relacionados con planes estatales y procedimientos.",
+            "score": 0.99
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "1b9107df-3214-4e38-a64c-bb1fad9c508a",
+              "question": "What is the purpose of 45 CFR Part 301?",
+              "answer": "45 CFR Part 301 covers state plan approval and grant procedures."
+            },
+            {
+              "id": "be08721a-8dce-40a5-9e68-281b77647c64",
+              "question": "Where can I find the PDF for 45 CFR Part 301?",
+              "answer": "The PDF is available at https://www.gpo.gov/fdsys/granule/CFR-2004-title45-vol2/CFR-2004-title45-vol2-part301."
+            },
+            {
+              "id": "30568253-e4de-4833-b1c8-9773c097af08",
+              "question": "What does 45 CFR Part 302 address?",
+              "answer": "45 CFR Part 302 outlines state plan requirements."
+            },
+            {
+              "id": "becbce54-0d2c-420d-a99a-5da4bd8c88d6",
+              "question": "How can I access the PDF for 45 CFR Part 302?",
+              "answer": "Click the link https://www.gpo.gov/fdsys/granule/CFR-2010-title45-vol2/CFR-2010-title45-vol2-part302 to view the PDF."
+            },
+            {
+              "id": "d240c128-d9a5-412e-b28a-d0e9098415ed",
+              "question": "What topics are covered in 45 CFR Part 303?",
+              "answer": "45 CFR Part 303 deals with standards for program operations."
+            },
+            {
+              "id": "b0444884-392f-4e08-be0f-e060fe65c212",
+              "question": "Where is the PDF for 45 CFR Part 303 located?",
+              "answer": "It can be found at https://www.gpo.gov/fdsys/granule/CFR-2010-title45-vol2/CFR-2010-title45-vol2-part303."
+            },
+            {
+              "id": "48332008-c571-4b19-92ae-3f330eee6f94",
+              "question": "What is the focus of 45 CFR Part 304?",
+              "answer": "45 CFR Part 304 covers federal financial participation."
+            },
+            {
+              "id": "728eec06-7116-4526-8801-ca657ab8d3b6",
+              "question": "Where can I download the PDF for 45 CFR Part 304?",
+              "answer": "The PDF is available at https://www.gpo.gov/fdsys/granule/CFR-2010-title45-vol2/CFR-2010-title45-vol2-part304."
+            },
+            {
+              "id": "71c7ff45-cbe2-49aa-9cdb-9503ef28efa9",
+              "question": "What does 45 CFR Part 305 include?",
+              "answer": "45 CFR Part 305 includes program performance measures, standards, financial incentives, and penalties."
+            },
+            {
+              "id": "bc653aa5-ebe3-4317-a35a-b35050514f83",
+              "question": "How do I access the PDF for 45 CFR Part 305?",
+              "answer": "You can view it at https://www.gpo.gov/fdsys/granule/CFR-2011-title45-vol2/CFR-2011-title45-vol2-part305."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "5c47d9c7-0e90-496a-86fd-5c2254ad2b40",
+              "keyword": "45 CFR Part 301",
+              "score": 0.98
+            },
+            {
+              "id": "64bfaab5-6569-4c12-9fdf-176eaff84c25",
+              "keyword": "State plan approval",
+              "score": 0.95
+            },
+            {
+              "id": "1cfc94cc-324f-4c22-a78d-fcd4916ea16e",
+              "keyword": "grant procedures",
+              "score": 0.9
+            },
+            {
+              "id": "9269aa51-5f97-48b7-9272-53c4f2bc8cc3",
+              "keyword": "45 CFR Part 302",
+              "score": 0.97
+            },
+            {
+              "id": "ae0b71ae-1b71-4244-9b73-43433082698a",
+              "keyword": "State plan requirements",
+              "score": 0.94
+            },
+            {
+              "id": "3f441a06-c0d1-423e-9263-801190478636",
+              "keyword": "45 CFR Part 303",
+              "score": 0.96
+            },
+            {
+              "id": "25edeeed-918a-4c71-ab68-3b63ae29c6e1",
+              "keyword": "program operations",
+              "score": 0.92
+            },
+            {
+              "id": "668f52b7-f989-4357-893b-9c02e67ba33d",
+              "keyword": "45 CFR Part 304",
+              "score": 0.95
+            },
+            {
+              "id": "3d85c944-d292-4349-9a9e-f4bfcbdfce21",
+              "keyword": "Federal financial participation",
+              "score": 0.93
+            },
+            {
+              "id": "d12e2e24-fdee-4a30-9577-9a8a24a22437",
+              "keyword": "Program performance measures",
+              "score": 0.91
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "c5654b2d-74f7-4f16-bb9d-dc38ec13ac2b",
+            "title": "45 CFR State Plan Sections and Hyperlinks",
+            "long_summary": "The provided content lists hyperlinks to specific parts of Title 45 of the Code of Federal Regulations (CFR) that pertain to state plans. Each entry includes the CFR part number, a brief description of its focus, and a URL linking to the official government publication. The sections referenced are:\n\n1. **Part 301 – State Plan Approval and Grant Procedures**: Details the process for approving state plans and the procedures for granting funds.\n2. **Part 302 – State Plan Requirements**: Outlines the mandatory requirements that state plans must meet.\n3. **Part 303 – Standards for Program Operations**: Provides standards governing the operation of programs under the state plan.\n4. **Part 304 – Federal Financial Participation**: Covers the federal financial involvement and participation in state programs.\n5. **Part 305 – Program Performance Measures, Standards, Financial Incentives, and Penalties**: Discusses performance metrics, standards, incentives, and penalties related to program execution.\n\nEach hyperlink directs to the official GPO (Government Publishing Office) website where the full text of the respective CFR part can be accessed. This compilation serves as a quick reference for individuals seeking to review the regulatory framework governing state plans under Title 45 of the CFR.",
+            "short_summary": "Links to 45 CFR state plan sections"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "5d1b62d1-6ec2-473c-bead-9f045f990ade",
+              "classification": "Federal Regulations",
+              "score": 0.99
+            },
+            {
+              "id": "dd5dfebc-ad55-4dc5-bfba-c050c6db5c67",
+              "classification": "Healthcare Policy",
+              "score": 0.95
+            },
+            {
+              "id": "018af948-95ae-40c7-bda9-c3f360cd2ce8",
+              "classification": "State Planning",
+              "score": 0.9
+            },
+            {
+              "id": "10bdfba2-2824-460c-ae48-321ab2bf4c30",
+              "classification": "Public Health",
+              "score": 0.85
+            },
+            {
+              "id": "fd04bc6a-1544-4fcf-9700-1995935efac1",
+              "classification": "Government Funding",
+              "score": 0.8
+            }
+          ]
+        },
+        {
+          "entities": []
+        }
+      ]
+    }
+  ]
+}

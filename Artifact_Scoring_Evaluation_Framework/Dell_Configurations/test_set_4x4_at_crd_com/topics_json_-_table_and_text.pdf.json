@@ -1,0 +1,220 @@
+{
+  "customer_id": "test_set_4x4@crd.com",
+  "document_id": "8ba7fe77-a130-4add-accb-ae9db1f8fcf3",
+  "document_name": "Table_And_Text.pdf",
+  "organization_name": "Booz Allen",
+  "account_name": "Default Account",
+  "application_name": "Booz Allen AI Atomization Service",
+  "vpub_name": "Default VPUB",
+  "topics": [
+    {
+      "topic_id": "31e759f4-9a0d-4fe4-972e-7e1c6289898c",
+      "document_id": "8ba7fe77-a130-4add-accb-ae9db1f8fcf3",
+      "title": "Page 1",
+      "context": "<div>\n<h1>Invoice</h1>\n<div>\n<img alt=\"YesLogic logo, stylized purple letter 'Y'\"/>\n<p>YesLogic Pty. Ltd.<br/>7 / 39 Bouverie St<br/>Carlton VIC 3053<br/>Australia</p>\n<p>www.yeslogic.com<br/>ABN 32 101 193 560</p>\n</div>\n<div>\n<p>Customer Name<br/>Street<br/>Postcode City<br/>Country</p>\n</div>\n<div>\n<p>Invoice date: Nov 26, 2016<br/>Invoice number: 161126<br/>Payment due: 30 days after invoice date</p>\n</div>\n<table>\n<thead>\n<tr>\n<th>Description</th>\n<th>From</th>\n<th>Until</th>\n<th>Amount</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Prince Upgrades &amp; Support</td>\n<td>Nov 26, 2016</td>\n<td>Nov 26, 2017</td>\n<td>USD $950.00</td>\n</tr>\n<tr>\n<td>Total</td>\n<td></td>\n<td></td>\n<td>USD $950.00</td>\n</tr>\n</tbody>\n</table>\n<p>Please transfer amount to:</p>\n<div>\n<p>Bank account name: Yes Logic Pty Ltd<br/>Name of Bank: Commonwealth Bank of Australia (CBA)<br/>Bank State Branch (BSB): 063010<br/>Bank State Branch (BSB): 063010<br/>Bank State Branch (BSB): 063019<br/>Bank account number: 13201652<br/>Bank SWIFT code: CTBAAU2S<br/>Bank address: 231 Swanston St, Melbourne, VIC 3000, Australia</p>\n</div>\n<p>The BSB number identifies a branch of a financial institution in Australia. When transferring money to Australia, the BSB number is used together with the bank account number and the SWIFT code. Australian banks do not use IBAN numbers.</p>\n<p>www.yeslogic.com</p>\n</div>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/test_set_4x4@crd.com/original_assets/Table_And_Text.pdf_chunks/Table_And_Text-chunked-files/Table_And_Text_page_1-1.pdf",
+        "sort_number": "10"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "cff72e3e-ec7c-412c-b4ff-265e3ac8ca0b",
+            "sentiment": "neutral",
+            "summary": "Invoice for Prince Upgrades & Support, $950 due Nov 26, 2016, with bank details.",
+            "score": 0.95
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "4ade46e4-bfc5-4b0b-a431-b4a27b7d8b28",
+              "question": "What is the invoice date and number?",
+              "answer": "The invoice date is November 26, 2016, and the invoice number is 161126."
+            },
+            {
+              "id": "cb3b6713-1daf-4c41-aa21-0b609db99862",
+              "question": "When is the payment due?",
+              "answer": "Payment is due 30 days after the invoice date, which would be December 26, 2016."
+            },
+            {
+              "id": "8629281a-fef1-4b89-be6f-10589a63866f",
+              "question": "What service is being billed on this invoice?",
+              "answer": "The invoice is for Prince Upgrades & Support, covering the period from November 26, 2016 to November 26, 2017."
+            },
+            {
+              "id": "a484be14-1907-4564-bade-c745793b32d8",
+              "question": "How much does the invoice amount to?",
+              "answer": "The total amount due is USD $950.00."
+            },
+            {
+              "id": "eeec69c6-cc05-40d8-b801-76dcfbca0e68",
+              "question": "Which bank should the payment be transferred to?",
+              "answer": "Payments should be transferred to Yes Logic Pty Ltd at Commonwealth Bank of Australia (CBA)."
+            },
+            {
+              "id": "6d9e32c6-fe6f-452a-97a1-665597c72c27",
+              "question": "What are the bank account details for the transfer?",
+              "answer": "Bank account name: Yes Logic Pty Ltd; Bank account number: 13201652; BSB: 063010 (or 063019); SWIFT code: CTBAAU2S; Bank address: 231 Swanston St, Melbourne, VIC 3000, Australia."
+            },
+            {
+              "id": "8b68345d-2b98-4b1f-8043-46a4ee3f3c8a",
+              "question": "Why are multiple BSB numbers listed?",
+              "answer": "The BSB number identifies a branch of a financial institution in Australia; the invoice lists the BSB numbers that can be used for the transfer."
+            },
+            {
+              "id": "6ea470b8-4a23-4f18-95fb-3d5dcda44711",
+              "question": "Does the invoice provide an IBAN number?",
+              "answer": "No, Australian banks do not use IBAN numbers; the invoice specifies that the BSB, account number, and SWIFT code are used instead."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "dba7affd-032c-4738-938f-7bf5447f4706",
+              "keyword": "Invoice",
+              "score": 0.99
+            },
+            {
+              "id": "a687cfa3-6686-411e-96b9-7284423007a2",
+              "keyword": "YesLogic Pty Ltd",
+              "score": 0.98
+            },
+            {
+              "id": "e7a3e4e9-06b9-4eca-abb4-ea882e024a5e",
+              "keyword": "Prince Upgrades & Support",
+              "score": 0.97
+            },
+            {
+              "id": "74d41179-9e6b-45e1-9d72-c34fcd1a9bfe",
+              "keyword": "USD $950.00",
+              "score": 0.96
+            },
+            {
+              "id": "3de8b838-8da0-4673-abf0-820e0d748f25",
+              "keyword": "Commonwealth Bank of Australia",
+              "score": 0.95
+            },
+            {
+              "id": "f941b583-8019-4722-9243-b785ff1cc23f",
+              "keyword": "BSB",
+              "score": 0.94
+            },
+            {
+              "id": "66cd4d60-cf79-4c20-9bae-5869e60eedae",
+              "keyword": "SWIFT code",
+              "score": 0.93
+            },
+            {
+              "id": "2dc0f3b3-5da2-499d-942d-5ed8abdd7809",
+              "keyword": "Australia",
+              "score": 0.92
+            },
+            {
+              "id": "54283f91-bcc0-4634-8f68-e8dd2f7cc33e",
+              "keyword": "Invoice date",
+              "score": 0.91
+            },
+            {
+              "id": "431f08b8-7a80-45f4-9fb0-01775f9deaf6",
+              "keyword": "Payment due",
+              "score": 0.9
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "39fefd99-74f1-431c-9de9-515cbf14d73b",
+            "title": "Invoice for Prince Upgrades & Support",
+            "long_summary": "This document is an invoice issued by YesLogic Pty. Ltd., located at 7 / 39 Bouverie St, Carlton VIC 3053, Australia. The invoice is addressed to a customer whose name, street, postcode, city, and country are placeholders. It was issued on November 26, 2016, with invoice number 161126, and payment is due 30 days after the invoice date. The invoice details a single line item: \"Prince Upgrades & Support\" covering the period from November 26, 2016 to November 26, 2017, for a total amount of USD $950.00. The table also lists the total amount due, which matches the line item amount. The invoice includes payment instructions, directing the customer to transfer the USD $950.00 to Yes Logic Pty Ltd. The bank details provided are: Commonwealth Bank of Australia (CBA), BSB 063010 (and 063019), account number 13201652, SWIFT code CTBAAU2S, and bank address 231 Swanston St, Melbourne, VIC 3000, Australia. A note explains that Australian banks use BSB numbers instead of IBANs for international transfers. The invoice ends with the company website www.yeslogic.com.",
+            "short_summary": "Invoice for Prince Upgrades & Support, USD 950"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "aeab315e-6ea3-4b82-b60e-fc5c51b175a2",
+              "classification": "Invoice",
+              "score": 0.99
+            },
+            {
+              "id": "76c56ac3-51e5-4440-9dd6-6f5a6d1b6fc7",
+              "classification": "Business Document",
+              "score": 0.95
+            },
+            {
+              "id": "409bc332-5cc3-499d-97b1-284acc5f15b4",
+              "classification": "Financial Document",
+              "score": 0.9
+            },
+            {
+              "id": "f3364bf2-02f9-4d42-b639-bbf67241da22",
+              "classification": "Payment Request",
+              "score": 0.85
+            },
+            {
+              "id": "79aaf214-7b99-42c3-a92b-135f499337ee",
+              "classification": "Billing",
+              "score": 0.8
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "aeeaf6d9-a250-4827-8fcc-410f122d7ac5",
+              "label": "YesLogic Pty. Ltd.",
+              "type": "COMPANY"
+            },
+            {
+              "id": "43c6b8a9-8e2c-40c4-b3d3-fc9d24b454be",
+              "label": "Carlton",
+              "type": "CITY"
+            },
+            {
+              "id": "90e551eb-9229-4957-b392-a75f660a2753",
+              "label": "VIC",
+              "type": "STATE"
+            },
+            {
+              "id": "6655b966-acb1-4cd5-8bdb-150ef942b023",
+              "label": "Australia",
+              "type": "LOCATION"
+            },
+            {
+              "id": "f88566b3-3797-43fd-a8e8-b7eec675218a",
+              "label": "Nov 26, 2016",
+              "type": "DATE"
+            },
+            {
+              "id": "b70b9ee2-617d-46fa-90a6-a498ac378e31",
+              "label": "Prince Upgrades & Support",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "908785be-2414-4e8c-9b1e-941a009b1d21",
+              "label": "Commonwealth Bank of Australia",
+              "type": "ORGANIZATION"
+            },
+            {
+              "id": "6fdf5857-c28f-444c-bb4b-950cafcf2767",
+              "label": "CBA",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "c9025e22-0362-42a5-9dd2-5b8ba493dbd6",
+              "label": "CTBAAU2S",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "886d9ca6-9feb-4dab-b15f-92314d1c8221",
+              "label": "231 Swanston St, Melbourne, VIC 3000, Australia",
+              "type": "LOCATION"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

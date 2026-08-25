@@ -1,0 +1,230 @@
+{
+  "customer_id": "test_set_2x2@crd.com",
+  "document_id": "f022d942-8e76-4056-ab6f-65d669ab39f3",
+  "document_name": "LinksAndReferences.pdf",
+  "organization_name": "Booz Allen",
+  "account_name": "Default Account",
+  "application_name": "Booz Allen AI Atomization Service",
+  "vpub_name": "Default VPUB",
+  "topics": [
+    {
+      "topic_id": "05ee868d-00e1-474e-a396-cfc409e0912d",
+      "document_id": "f022d942-8e76-4056-ab6f-65d669ab39f3",
+      "title": "Page 1",
+      "context": "<h2>8 References</h2>\n<p><i>This section is informative.</i></p>\n<h3>8.1 General References</h3>\n<p>[A-130] OMB Circular A-130, <i>Managing Federal Information as a Strategic Resource</i>, July 28, 2016, available at: <a href=\"https://obamawhitehouse.archives.gov/sites/default/files/omb/assets/OMB/circulars/a130/a130revised.pdf\">https://obamawhitehouse.archives.gov/sites/default/files/omb/assets/OMB/circulars/a130/a130revised.pdf</a>.</p>\n<p>[EO 13681] Executive Order 13681, <i>Improving the Security of Consumer Financial Transactions</i>, October 17, 2014, available at: <a href=\"https://www.federalregister.gov/d/2014-25439\">https://www.federalregister.gov/d/2014-25439</a>.</p>\n<p>[ESIG] Federal CIO Council, <i>Use of Electronic Signatures in Federal Organization Transactions</i>, January 25, 2013, available at: <a href=\"https://cio.gov/wp-content/uploads/downloads/2014/03/Use_of_ESignatures_in_Federal_Agency_Transactions_v1-0_20130125.pdf\">https://cio.gov/wp-content/uploads/downloads/2014/03/Use_of_ESignatures_in_Federal_Agency_Transactions_v1-0_20130125.pdf</a>.</p>\n<p>[FISMA] <i>Federal Information Security Modernization Act of 2014</i>, available at: <a href=\"https://www.congress.gov/bill/113th-congress/senate-bill/2521\">https://www.congress.gov/bill/113th-congress/senate-bill/2521</a>.</p>\n<p>[HSPD-12] Department of Homeland Security, <i>Homeland Security Presidential Directive 12: Policy for a Common Identification Standard for Federal Employees and Contractors</i>, August 27, 2004, available at: <a href=\"https://www.dhs.gov/homeland-security-presidential-directive-12\">https://www.dhs.gov/homeland-security-presidential-directive-12</a>.</p>\n<p>[M-03-22] OMB Memorandum M-03-22, <i>OMB Guidance for Implementing the Privacy Provisions of the E-Government Act of 2002</i>, September 26, 2003, available at: <a href=\"https://georgewbush-whitehouse.archives.gov/omb/memoranda/m03-22.html\">https://georgewbush-whitehouse.archives.gov/omb/memoranda/m03-22.html</a>.</p>\n<p>[M-04-04] OMB Memorandum M-04-04, <i>E-Authentication Guidance for Federal Agencies</i>, December 16, 2003, available at: <a href=\"https://georgewbush-whitehouse.archives.gov/omb/memoranda/fy04/m04-04.pdf\">https://georgewbush-whitehouse.archives.gov/omb/memoranda/fy04/m04-04.pdf</a>.</p>\n<p>[NISTIR8062] NIST Internal Report 8062, <i>An Introduction to Privacy Engineering and Risk Management in Federal Systems</i>, January 2017, available at: <a href=\"http://nvlpubs.nist.gov/nistpubs/ir/2017/NIST.IR.8062.pdf\">http://nvlpubs.nist.gov/nistpubs/ir/2017/NIST.IR.8062.pdf</a>.</p>\n<p>[NIST RMF] Risk Management Framework Overview, available at <a href=\"http://csrc.nist.gov/groups/SMA/fisma/framework.html\">http://csrc.nist.gov/groups/SMA/fisma/framework.html</a>.</p>\n<p>[RFC 5280] IETF, <i>Internet X.509 Public Key Infrastructure Certificate and CRL Profile</i>, RFC 5280, DOI 10.17487/RFC5280, May 2008, <a href=\"https://doi.org/10.17487/RFC5280\">https://doi.org/10.17487/RFC5280</a>.</p>\n<p>[Steiner] Steiner, Peter. “On the Internet, nobody knows you’re a dog”, <i>The New Yorker</i>, July 5, 1993.</p>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/test_set_2x2@crd.com/original_assets/LinksAndReferences.pdf_chunks/LinksAndReferences-chunked-files/LinksAndReferences_page_1-1.pdf",
+        "sort_number": "10"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "5ba009b8-6712-4e18-94f2-0de0c450ed33",
+            "sentiment": "neutral",
+            "summary": "Informative reference section listing federal documents.",
+            "score": 0.92
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "e1da06d1-00ae-4a2b-8795-f6de57f9b4fd",
+              "question": "¿Qué es el OMB Circular A-130 y dónde puedo encontrarlo?",
+              "answer": "El OMB Circular A-130, titulado \"Managing Federal Information as a Strategic Resource\", fue publicado el 28 de julio de 2016 y está disponible en https://obamawhitehouse.archives.gov/sites/default/files/omb/assets/OMB/circulars/a130/a130revised.pdf."
+            },
+            {
+              "id": "d328295a-0e67-4908-954e-38b1206b211e",
+              "question": "¿Qué trata el Executive Order 13681?",
+              "answer": "El Executive Order 13681, titulado \"Improving the Security of Consumer Financial Transactions\", fue emitido el 17 de octubre de 2014 y se puede consultar en https://www.federalregister.gov/d/2014-25439."
+            },
+            {
+              "id": "bb25a8dc-8f39-4fbd-9b0e-401aa37641bb",
+              "question": "¿Cuál es el propósito del documento ESIG del Federal CIO Council?",
+              "answer": "El documento ESIG, titulado \"Use of Electronic Signatures in Federal Organization Transactions\", fue publicado el 25 de enero de 2013 y está disponible en https://cio.gov/wp-content/uploads/downloads/2014/03/Use_of_ESignatures_in_Federal_Agency_Transactions_v1-0_20130125.pdf."
+            },
+            {
+              "id": "04c27cf5-45ec-4099-9c7e-e332285a47bf",
+              "question": "¿Dónde puedo leer el Federal Information Security Modernization Act de 2014?",
+              "answer": "El Federal Information Security Modernization Act de 2014 se encuentra en https://www.congress.gov/bill/113th-congress/senate-bill/2521."
+            },
+            {
+              "id": "f973ce8f-f736-4250-beb1-9a896a52444d",
+              "question": "¿Qué información contiene el HSPD-12?",
+              "answer": "El HSPD-12, titulado \"Homeland Security Presidential Directive 12: Policy for a Common Identification Standard for Federal Employees and Contractors\", fue emitido el 27 de agosto de 2004 y está disponible en https://www.dhs.gov/homeland-security-presidential-directive-12."
+            },
+            {
+              "id": "eabd5ae9-0c96-4014-99a7-3ba76c152742",
+              "question": "¿Para qué sirve el Memorándum M-03-22 de OMB?",
+              "answer": "El Memorándum M-03-22 de OMB, titulado \"OMB Guidance for Implementing the Privacy Provisions of the E-Government Act of 2002\", fue emitido el 26 de septiembre de 2003 y se puede consultar en https://georgewbush-whitehouse.archives.gov/omb/memoranda/m03-22.html."
+            },
+            {
+              "id": "501ddd80-2abb-4fae-80d1-3a983ddb6a97",
+              "question": "¿Qué cubre el Memorándum M-04-04 de OMB?",
+              "answer": "El Memorándum M-04-04 de OMB, titulado \"E-Authentication Guidance for Federal Agencies\", fue emitido el 16 de diciembre de 2003 y está disponible en https://georgewbush-whitehouse.archives.gov/omb/memoranda/fy04/m04-04.pdf."
+            },
+            {
+              "id": "5a4f9f1c-c2f0-4130-92a1-151b25cb1b1c",
+              "question": "¿Qué es el NIST Internal Report 8062?",
+              "answer": "El NIST Internal Report 8062, titulado \"An Introduction to Privacy Engineering and Risk Management in Federal Systems\", fue publicado en enero de 2017 y se puede descargar en http://nvlpubs.nist.gov/nistpubs/ir/2017/NIST.IR.8062.pdf."
+            },
+            {
+              "id": "a894f446-1354-430f-8103-f0bb5c1e03d3",
+              "question": "¿Dónde puedo encontrar la descripción del Risk Management Framework de NIST?",
+              "answer": "La descripción del Risk Management Framework de NIST está disponible en http://csrc.nist.gov/groups/SMA/fisma/framework.html."
+            },
+            {
+              "id": "f48cbd11-c55c-40b3-bacb-eb906470f0ec",
+              "question": "¿Qué especifica el RFC 5280?",
+              "answer": "El RFC 5280, titulado \"Internet X.509 Public Key Infrastructure Certificate and CRL Profile\", fue publicado en mayo de 2008 y su DOI es 10.17487/RFC5280. Se puede acceder a través de https://doi.org/10.17487/RFC5280."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "a9b6165d-d3be-4fa7-ae50-8978585e918d",
+              "keyword": "OMB Circular A-130",
+              "score": 0.99
+            },
+            {
+              "id": "80ffb45b-fd61-4ffc-9be6-19fb89b49408",
+              "keyword": "Executive Order 13681",
+              "score": 0.98
+            },
+            {
+              "id": "871cf0d8-82d0-440a-a73b-ccb8a1adde04",
+              "keyword": "Federal Information Security Modernization Act",
+              "score": 0.97
+            },
+            {
+              "id": "1c2f255e-8b39-425b-8144-bb329e45a03c",
+              "keyword": "Homeland Security Presidential Directive 12",
+              "score": 0.96
+            },
+            {
+              "id": "2d346776-f240-4dc5-8f07-6b628c2a78f2",
+              "keyword": "E-Government Act of 2002",
+              "score": 0.95
+            },
+            {
+              "id": "3f575cf3-b42a-44fb-823c-24b2c91a82e1",
+              "keyword": "NIST Internal Report 8062",
+              "score": 0.94
+            },
+            {
+              "id": "8a444315-75b6-40e8-b5ea-1beefdef0b92",
+              "keyword": "Risk Management Framework",
+              "score": 0.93
+            },
+            {
+              "id": "792273ef-01ca-4f87-9e56-209ffec6b774",
+              "keyword": "Internet X.509 Public Key Infrastructure",
+              "score": 0.92
+            },
+            {
+              "id": "ba3decf6-0c36-4772-8b91-4b266dae321a",
+              "keyword": "Electronic Signatures",
+              "score": 0.91
+            },
+            {
+              "id": "6c19ab6a-ee86-4475-8fff-f29375691b14",
+              "keyword": "E-Authentication",
+              "score": 0.9
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "1ad3d235-c5f7-41d5-8332-c058b1f9253f",
+            "title": "References Section Overview",
+            "long_summary": "The provided text is a structured references section, labeled \"8 References,\" that compiles a variety of federal documents, executive orders, memoranda, and technical reports relevant to information security, privacy, and electronic authentication. It begins with a general heading and a brief note that the section is informative. The subsections include:\n\n1. **General References** – This subsection lists key federal resources:\n   - **OMB Circular A‑130** (Managing Federal Information as a Strategic Resource, 2016) with a link to the PDF.\n   - **Executive Order 13681** (Improving the Security of Consumer Financial Transactions, 2014) with a link to the Federal Register.\n   - **Federal CIO Council** guidance on electronic signatures (January 2013) with a PDF link.\n   - **Federal Information Security Modernization Act of 2014** with a congressional bill link.\n   - **HSPD‑12** (Homeland Security Presidential Directive 12, 2004) with a DHS link.\n   - **OMB Memoranda M‑03‑22** (Privacy provisions of the E‑Government Act, 2003) and **M‑04‑04** (E‑Authentication Guidance, 2003) with respective links.\n   - **NIST Internal Report 8062** (Introduction to Privacy Engineering and Risk Management, 2017) with a PDF link.\n   - **NIST RMF Overview** with a URL to the Risk Management Framework.\n   - **RFC 5280** (Internet X.509 Public Key Infrastructure Certificate and CRL Profile, 2008) with DOI and URL.\n   - A cultural reference: **Steiner, Peter**’s New Yorker article \"On the Internet, nobody knows you’re a dog\" (1993).\n\nEach entry includes the citation label, title, date, and a hyperlink to the source. The section serves as a comprehensive bibliography for readers seeking authoritative federal guidance on information security, privacy, and electronic authentication practices. The concise format and inclusion of URLs facilitate quick access to the referenced documents. No additional explanatory text is provided beyond the citations themselves, keeping the section purely informational and reference‑centric.",
+            "short_summary": "List of federal documents and guidelines"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "9563406a-eac2-46ed-94cc-3ccc92ba490a",
+              "classification": "Federal Regulations",
+              "score": 0.98
+            },
+            {
+              "id": "dae9af37-a103-42b0-8e5e-bbaa106bd1ce",
+              "classification": "Information Security Standards",
+              "score": 0.95
+            },
+            {
+              "id": "172bb59d-8bdd-407e-aad1-7694e549dbe6",
+              "classification": "Cybersecurity Policy",
+              "score": 0.93
+            },
+            {
+              "id": "e4cf6071-0131-4717-a35e-65ae8b83ca84",
+              "classification": "Government Guidance",
+              "score": 0.9
+            },
+            {
+              "id": "15a619a2-f5cb-45c7-875d-f6c0e698e24e",
+              "classification": "Technical Standards",
+              "score": 0.88
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "5e5066fe-1e5d-4949-82e0-b4f4d25f4687",
+              "label": "Office of Management and Budget",
+              "type": "ORGANIZATION"
+            },
+            {
+              "id": "1c403517-397c-4f28-91c1-0e49ac619dd9",
+              "label": "Federal CIO Council",
+              "type": "ORGANIZATION"
+            },
+            {
+              "id": "42fc50a0-06c1-4a68-908a-beff3936124e",
+              "label": "Department of Homeland Security",
+              "type": "ORGANIZATION"
+            },
+            {
+              "id": "1a1115f7-390b-4a6b-8cb2-5266b8476844",
+              "label": "National Institute of Standards and Technology",
+              "type": "ORGANIZATION"
+            },
+            {
+              "id": "18ddbbb2-942f-45f0-a451-2951cc404382",
+              "label": "Internet Engineering Task Force",
+              "type": "ORGANIZATION"
+            },
+            {
+              "id": "9f518330-ad26-4c5a-85b0-a251b90cb71a",
+              "label": "The New Yorker",
+              "type": "ORGANIZATION"
+            },
+            {
+              "id": "4333c830-dc93-483b-9cc2-3c5e0fb17ca0",
+              "label": "Peter Steiner",
+              "type": "PERSON"
+            },
+            {
+              "id": "ebc1220c-f2e0-4bea-9fe1-b6750f5f2b85",
+              "label": "FISMA",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "3b784be8-5b2d-4a82-9a24-fd1ed713f8f1",
+              "label": "HSPD-12",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "b02254c6-4eda-4d4e-831a-020dd9e46b89",
+              "label": "RFC 5280",
+              "type": "ACRONYM"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

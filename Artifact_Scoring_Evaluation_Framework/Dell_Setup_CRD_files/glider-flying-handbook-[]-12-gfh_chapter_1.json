@@ -1,0 +1,718 @@
+{
+  "customer_id": "FAA@crd.com",
+  "document_id": "52f0d2de-0233-4494-88a9-fbfdaa39f0f4",
+  "document_name": "Glider-Flying-Handbook-[]-12-gfh_chapter_1.pdf",
+  "organization_name": "Booz Allen",
+  "account_name": "Default Account",
+  "application_name": "Booz Allen AI Atomization Service",
+  "vpub_name": "Default VPUB",
+  "meta_data": {
+    "gen_ai": {
+      "model": "gpt-oss-20b",
+      "llm_id": 27,
+      "completed_at": "2026-02-26T10:21:18.128395+00:00",
+      "triggered_at": "2026-02-26T10:20:16.839343+00:00",
+      "model_provider": "self_hosted",
+      "last_triggered_at": "2026-02-26T10:20:16.839354+00:00"
+    },
+    "llm_id": 27,
+    "aiModel": "chandra",
+    "file_url": "s3://thailand-boozallen-ai-topiclake/FAA@crd.com/original_assets/Glider-Flying-Handbook-[]-12-gfh_chapter_1.pdf",
+    "language": "english",
+    "llm_model": "gpt-oss-20b",
+    "atomization": {
+      "enabled": true,
+      "service": "boozallen_ai_atomization_service",
+      "language": "english",
+      "model_name": "chandra",
+      "prompt_url": "s3://thailand-boozallen-ai-atomization-service-bucket/self_hosted_models_prompts/prompt_chandra.json",
+      "initiated_at": "2026-02-26T09:58:52.204504+00:00",
+      "instructions": null,
+      "model_provider": "SELF_HOSTED",
+      "prompt_version": "MULTILINGUAL_v2",
+      "instructions_provided": false
+    },
+    "auto_gen_ai": true,
+    "gantt_chart": {
+      "artifacts": {
+        "end": "2026-02-26T10:21:18.128395+00:00",
+        "start": "2026-02-26T10:20:16.839354+00:00"
+      },
+      "atomization": {
+        "end": "2026-02-26T10:20:16.703448+00:00",
+        "start": "2026-02-26T10:08:36.423632+00:00",
+        "queued_at": "2026-02-26T09:58:52.460825+00:00",
+        "total_atoms": 3,
+        "completed_atoms": 3
+      },
+      "pdf_splitting": {
+        "end": "2026-02-26T09:58:52.323869+00:00",
+        "start": "2026-02-26T09:58:52.258539+00:00",
+        "chunks": 3
+      }
+    },
+    "total_atoms": 3,
+    "llm_provider": "self_hosted",
+    "pipeline_timing": {
+      "queuing": {
+        "end": "2026-02-26T09:58:52.481507+00:00",
+        "start": "2026-02-26T09:58:52.460825+00:00",
+        "atoms_failed": 0,
+        "atoms_queued": 3
+      },
+      "split_pdf": {
+        "end": "2026-02-26T09:58:52.323869+00:00",
+        "start": "2026-02-26T09:58:52.258539+00:00",
+        "chunks_created": 3
+      },
+      "atomization": {
+        "total_atoms": 3,
+        "completed_at": "2026-02-26T10:20:16.703448+00:00",
+        "completed_atoms": 3,
+        "first_gpu_started_at": "2026-02-26T10:08:36.423632+00:00"
+      }
+    },
+    "service_version": "1.0.0",
+    "genai_total_atoms": 3,
+    "atomization_status": "green",
+    "processing_timestamp": "2026-02-26T09:58:52.204504+00:00",
+    "genai_progress_status": "yellow",
+    "atomization_percentage": 100,
+    "atoms_with_description": 3,
+    "genai_total_artifacts_generated": 71
+  },
+  "topics": [
+    {
+      "topic_id": "b24e1151-5f87-4b7f-b42a-739638a568df",
+      "document_id": "52f0d2de-0233-4494-88a9-fbfdaa39f0f4",
+      "title": "Page 2",
+      "context": "<div><img alt=\"Figure 1-3: Orville Wright (left) and Dan Tate (right) launching the Wright 1902 glider off the east slope of the Big Hill, Kill Devil Hills, North Carolina, on October 17, 1902. Wilbur Wright was flying the glider.\"/></div><div><p><b>Figure 1-3.</b> Orville Wright (left) and Dan Tate (right) launched the Wright 1902 glider off the east slope of the Big Hill, Kill Devil Hills, North Carolina, on October 17, 1902. Wilbur Wright was flying the glider.</p></div><div><p>After development of powered flight, an airplane could tow a glider to altitude, and this became a common means to launch a glider. While early glider designs would only descend after tow and release, later designs could release and take advantage of natural rising air to continue to gain altitude. Some gliders that require a tow to altitude also have a sustainer engine for use in flight. The pilot can start and stop the powerplant while in flight, and in some models, the pilot may retract the propeller system into the body of the glider for increased aerodynamic efficiency. A self-launching motor glider can takeoff and climb to soaring altitudes without a tow. [Figure 1-4]</p></div><div><img alt=\"Figure 1-4: An ASH 26 E self-launching motor glider flying with the propeller extended.\"/></div><div><p><b>Figure 1-4.</b> An ASH 26 E self-launching motor glider with the propeller extended.</p></div><div><h2>Glider Pilot Training</h2></div><div><p>How does a person obtain glider flight training? With a general location in mind, an individual may consider several options, including an FAA-approved glider school, privately owned commercial glider school, or college, university, or private soaring club. These will have FAA-certified flight instructors who can provide instruction. Published articles, soaring-related websites, and discussions with other pilots may help a prospective student create a list of items to look for in a training provider.</p></div><div><p>An interested person should consider the quality of training provided. Good instruction follows a structured syllabus and a building block approach. Prior to picking a school, visiting the training provider and talking with management, instructors, and other students can reveal the pros and cons of choosing a particular club or commercial school. Before making a commitment, the prospective student should take an introductory lesson. After deciding on a provider and making the necessary arrangements, training can begin. Individual commitment to a regular training schedule maximizes student progress and retention.</p></div><div><p>To be eligible to fly solo in a glider, unrated pilots need to obtain a student pilot certificate, be at least 14 years of age, and demonstrate satisfactory aeronautical knowledge on a pre-solo written test administered by their instructor. Before solo,</p></div>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/FAA@crd.com/original_assets/Glider-Flying-Handbook-[]-12-gfh_chapter_1.pdf_chunks/Glider-Flying-Handbook-[]-12-gfh_chapter_1-chunked-files/Glider-Flying-Handbook-[]-12-gfh_chapter_1_page_2-2.pdf",
+        "sort_number": "20"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "0f4fd2c6-0cb8-41a4-8636-1ca9f78b3804",
+            "sentiment": "neutral",
+            "summary": "The passage describes glider launch methods, self‑launching motor gliders, and how to obtain glider pilot training, including school selection and solo eligibility requirements.",
+            "score": 0.95
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "fe993d36-2752-4bf6-bd71-d92e32e58718",
+              "question": "How were gliders launched after the development of powered flight?",
+              "answer": "After powered flight was developed, an airplane could tow a glider to altitude, which became a common method for launching gliders."
+            },
+            {
+              "id": "29532bac-c42a-4e85-b8d8-70db34db7caf",
+              "question": "What is the difference between early gliders and later glider designs regarding altitude after a tow?",
+              "answer": "Early glider designs would only descend after being towed and released, while later designs could release and use natural rising air to continue gaining altitude."
+            },
+            {
+              "id": "8f15f842-f531-4dd3-a4a4-f0fca9b680d7",
+              "question": "What is a sustainer engine on a glider and how does the pilot use it?",
+              "answer": "A sustainer engine provides power that the pilot can start and stop while in flight; in some models the propeller can be retracted into the glider’s body for better aerodynamic efficiency."
+            },
+            {
+              "id": "96f60fd7-2f39-4ba9-bde5-4e293da950cb",
+              "question": "What is a self‑launching motor glider?",
+              "answer": "A self‑launching motor glider has its own engine and propeller, allowing it to take off and climb to soaring altitudes without needing a tow aircraft."
+            },
+            {
+              "id": "4beb8fc8-8de0-41f9-8533-d0a6365c4a14",
+              "question": "What training options are available for someone who wants to learn to fly a glider?",
+              "answer": "Prospective pilots can choose an FAA‑approved glider school, a privately owned commercial glider school, a college or university program, or a private soaring club that employs FAA‑certified flight instructors."
+            },
+            {
+              "id": "a4382dcc-508e-4bd3-9000-4a880be71c94",
+              "question": "What should a student look for when evaluating the quality of a glider training provider?",
+              "answer": "Good instruction follows a structured syllabus and a building‑block approach; visiting the school, speaking with management, instructors, and current students, and taking an introductory lesson can reveal strengths and weaknesses."
+            },
+            {
+              "id": "c62caa36-1114-451f-87b8-05aee0d3d130",
+              "question": "Why is it recommended to take an introductory lesson before committing to a glider school?",
+              "answer": "An introductory lesson lets the prospective student experience the instruction style and facilities, helping them decide if the school is a good fit before making a longer‑term commitment."
+            },
+            {
+              "id": "0ad10b30-4dac-48c0-83d1-7d3fc731c553",
+              "question": "What age and certification are required for a student to fly solo in a glider?",
+              "answer": "The student must be at least 14 years old, hold a student pilot certificate, and pass a pre‑solo written aeronautical knowledge test administered by their instructor."
+            },
+            {
+              "id": "24b5cb1c-1f09-4707-ba6a-637cfeb78138",
+              "question": "How does maintaining a regular training schedule benefit a glider student?",
+              "answer": "A regular training schedule maximizes progress and retention by reinforcing skills and knowledge consistently."
+            },
+            {
+              "id": "1fc260ea-b2ae-48e8-a725-f70debc4ee0c",
+              "question": "What resources can help a prospective glider student create a list of training providers?",
+              "answer": "Published articles, soaring‑related websites, and discussions with other pilots can provide useful information for compiling a list of potential schools or clubs."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "bfad130f-8328-481b-a773-a72c6e4353bc",
+              "keyword": "Wright 1902 glider",
+              "score": 0.96
+            },
+            {
+              "id": "7b884bf6-28ba-489e-bc94-ce81c683a51c",
+              "keyword": "self-launching motor glider",
+              "score": 0.94
+            },
+            {
+              "id": "cd228ce0-c47d-448e-b407-906f55eafde6",
+              "keyword": "ASH 26 E",
+              "score": 0.92
+            },
+            {
+              "id": "fa7b02f4-3ea3-4e38-b2fc-d4e53c46c51e",
+              "keyword": "glider pilot training",
+              "score": 0.98
+            },
+            {
+              "id": "03b500df-f145-4c39-b41b-35cad82bfaf7",
+              "keyword": "FAA-approved glider school",
+              "score": 0.95
+            },
+            {
+              "id": "6c731bab-a4f9-4685-9f1a-66fdb3b4bcc2",
+              "keyword": "student pilot certificate",
+              "score": 0.97
+            },
+            {
+              "id": "0cf63e84-a2f4-49ec-8c56-b123add8d35f",
+              "keyword": "towing a glider",
+              "score": 0.9
+            },
+            {
+              "id": "c45a3ca1-0fd5-446c-9a7d-21aeb5609af9",
+              "keyword": "sustainer engine",
+              "score": 0.88
+            },
+            {
+              "id": "6db70312-43d3-46db-ace6-2c9f8c444242",
+              "keyword": "aerodynamic efficiency",
+              "score": 0.87
+            },
+            {
+              "id": "396326d3-5486-4915-b063-062ddce3b34f",
+              "keyword": "solo flight requirements",
+              "score": 0.89
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "6ec9817d-2e5a-425f-8eea-5448cc257ca0",
+            "title": "Glider Launch Methods and Pilot Training Overview",
+            "long_summary": "The passage outlines two main topics: glider launch methods and how to obtain glider pilot training. After powered flight began, gliders were commonly towed aloft by an airplane. Early towed gliders could only descend after release, but later designs could exploit rising air to gain altitude. Some gliders carry a sustainer engine that the pilot can start, stop, or even retract for better aerodynamics. Self‑launching motor gliders, such as the ASH 26 E shown with its propeller extended, can take off and climb without a tow. \n\nFor pilot training, prospective glider pilots can choose an FAA‑approved glider school, a privately owned commercial school, a university program, or a private soaring club, all of which must have FAA‑certified instructors. Candidates should research training quality, visit schools, speak with staff and students, and take an introductory lesson before committing. Training follows a structured syllabus with a block‑by‑block approach, and regular practice maximizes progress. To fly solo, a student must hold a student pilot certificate, be at least 14 years old, and pass a pre‑solo written aeronautical knowledge test administered by the instructor.",
+            "short_summary": "Glider launch techniques and training requirements explained."
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "5f191f0b-c03c-442e-a894-47ff8ead0a40",
+              "classification": "Aviation",
+              "score": 0.98
+            },
+            {
+              "id": "586d6179-6015-4aa9-b208-a3efaa852d4b",
+              "classification": "Gliding / Sailplane Operations",
+              "score": 0.95
+            },
+            {
+              "id": "090fa151-e669-4da4-8cd3-2c99ad3e9eeb",
+              "classification": "Pilot Training & Education",
+              "score": 0.93
+            },
+            {
+              "id": "b4650238-5cb4-4e6c-857f-905b27493800",
+              "classification": "History of Flight",
+              "score": 0.85
+            },
+            {
+              "id": "9a98237c-f04c-4a5d-896a-be167203caaf",
+              "classification": "Aeronautical Engineering & Technology",
+              "score": 0.8
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "615bfb65-9363-485f-854e-c371211a83c9",
+              "label": "Orville Wright",
+              "type": "PERSON"
+            },
+            {
+              "id": "4241d33d-08da-4b5b-9291-8d42e927c5dc",
+              "label": "Dan Tate",
+              "type": "PERSON"
+            },
+            {
+              "id": "7843b46a-2f8b-4b1d-bb96-775562937627",
+              "label": "Wilbur Wright",
+              "type": "PERSON"
+            },
+            {
+              "id": "d42dcc68-25a1-4828-a662-b513ab0f5764",
+              "label": "Kill Devil Hills",
+              "type": "CITY"
+            },
+            {
+              "id": "6ac544a6-6921-43f6-b2cb-4d74d2b576ba",
+              "label": "North Carolina",
+              "type": "STATE"
+            },
+            {
+              "id": "5c8b9564-2c56-485f-9a0c-3b1c8a05c436",
+              "label": "October 17, 1902",
+              "type": "DATE"
+            },
+            {
+              "id": "2156b4ec-5deb-4a17-99b9-036bb2806b7f",
+              "label": "Wright 1902 glider",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "51b101b5-3982-4709-ab23-57675a581c5d",
+              "label": "ASH 26 E",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "a84c19a0-4778-4601-ba20-84af3051e251",
+              "label": "FAA",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "0680400b-f185-42bb-9432-25669690aaa8",
+              "label": "Big Hill",
+              "type": "LOCATION"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": "87d05476-651b-4cfe-b4a4-18a8c5f4bc4c",
+      "document_id": "52f0d2de-0233-4494-88a9-fbfdaa39f0f4",
+      "title": "Page 3",
+      "context": "a student pilot also receives ground and flight training for the maneuvers and procedures listed in Title 14 of the Code of Federal Regulations (14 CFR) part 61, section 61.87(i). After a student pilot meets the administrative requirements and demonstrates satisfactory proficiency, the instructor may endorse the student's logbook for solo flight.\n\nNote that rated airplane pilots can increase their overall knowledge, skill, and understanding of safety of flight by adding a glider rating. The addition of a glider rating enhances an airplane pilot's ability to manage flight without power should an engine malfunction occur.\n\n## Rating Eligibility\n\nA student pilot 16 years of age or older or an existing FAA-rated pilot who meets the flight time requirements may take the practical test for a sport pilot certificate with a glider endorsement or the practical test for a private pilot certificate with a glider rating after accomplishing the training requirements listed in 14 CFR part 61 for the desired level of certification.\n\nTo be eligible for a commercial or flight instructor glider certificate, an individual must be 18 years of age and complete the specific training requirements described in 14 CFR part 61.\n\nThe applicable FAA Airman Certification Standards (ACS) or Practical Test Standards (PTS) contain the knowledge and skills required for pilot certification and describe the testing process. Applicants may also refer to FAA-G-ACS-2, the ACS Companion Guide for Pilots, FAA Advisory Circular (AC) 60-22, Aeronautical Decision Making; the Pilot's Handbook of Aeronautical Knowledge (FAA-H-8083-25); the Risk Management Handbook (FAA-H-8083-2); and the Aviation Weather Handbook (FAA-H-8083-28) to gain additional aviation-related information. For more information on the certification of gliders, refer to 14 CFR part 21, the European Aviation Safety Agency (EASA) Certification Specifications (CS) 22.221, and the Weight and Balance Handbook (FAA-H-8083-1).\n\n## Medical Eligibility\n\nA person may exercise the privileges of a glider rating or those of an authorized instructor in a glider without holding a medical certificate. However, 14 CFR part 61, section 61.53 states, \"...a person shall not act as pilot in command, or in any other capacity as a required pilot flight crewmember, while that person knows or has reason to know of any medical condition that would make the person unable to operate the aircraft in a safe manner.\"\n\n## FAA Wings Program\n\nRated pilots should compare continuous training and practice to 14 CFR part 61, section 61.56(c)(1) and (2), which allow for training and a sign-off within the previous 24 calendar months in order to act as a pilot in command. Many astute pilots realize that this regulation specifies a minimum requirement, and the path to enhanced proficiency, safety, and enjoyment of flying takes a higher degree of commitment such as available using 14 CFR part 61, section 61.56(e). For this reason, many pilots keep their flight review up to date using the FAA WINGS program. The program provides continuing pilot education and contains interesting and relevant study materials that pilots can use all year round.\n\nA pilot may create a WINGS account to obtain current information concerning risk mitigation. The program provides a means to improve risk management skill as a means to increase safety. As an added bonus, completion of a phase of the Wings Program can count for a flight review and participants may receive a discount on certain flight insurance policies. The link to create an account is <a href=\"http://www.faasafety.gov\">www.faasafety.gov</a>.\n\n## Chapter Summary\n\nGliders include heavier-than-air aircraft that need a means to become airborne. In a modern glider and once aloft, pilots have a variety of means to sustain flight. To become a glider pilot, a prospective student should investigate training options and pick a suitable training provider.",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/FAA@crd.com/original_assets/Glider-Flying-Handbook-[]-12-gfh_chapter_1.pdf_chunks/Glider-Flying-Handbook-[]-12-gfh_chapter_1-chunked-files/Glider-Flying-Handbook-[]-12-gfh_chapter_1_page_3-3.pdf",
+        "sort_number": "30"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "f8558197-59ac-4c46-b48b-825549a61bc0",
+            "sentiment": "neutral",
+            "summary": "The text outlines glider rating requirements, eligibility, training, medical rules, and FAA WINGS program for pilots seeking glider certification.",
+            "score": 0.97
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "a4399fc4-bfba-4c73-8afd-a9f2d33993b7",
+              "question": "What training must a student pilot complete before soloing in a glider?",
+              "answer": "The student pilot must receive ground and flight training for the maneuvers and procedures listed in 14 CFR part 61, section 61.87(i). After meeting the administrative requirements and demonstrating satisfactory proficiency, the instructor may endorse the student's logbook for solo flight."
+            },
+            {
+              "id": "917c5e60-ef51-4fe7-8b05-1eb231c23c24",
+              "question": "How does adding a glider rating benefit an already rated airplane pilot?",
+              "answer": "A glider rating enhances an airplane pilot's overall knowledge, skill, and safety by teaching how to manage flight without engine power, which can be valuable if an engine malfunction occurs."
+            },
+            {
+              "id": "480a352d-c904-4652-a526-143075b47ce8",
+              "question": "What are the age and training requirements for obtaining a glider rating at the sport or private pilot level?",
+              "answer": "A student pilot who is 16 years of age or older, or an existing FAA‑rated pilot who meets the required flight time, may take the practical test for a sport pilot certificate with a glider endorsement or for a private pilot certificate with a glider rating after completing the training requirements listed in 14 CFR part 61 for the desired certification level."
+            },
+            {
+              "id": "0018c2ca-b1b3-4282-9e1e-17ec9368ec9a",
+              "question": "What additional requirements are needed for a commercial or flight instructor glider certificate?",
+              "answer": "To be eligible for a commercial or flight instructor glider certificate, an individual must be at least 18 years old and must complete the specific training requirements described in 14 CFR part 61."
+            },
+            {
+              "id": "031cb072-827b-4065-8c8a-d425ce189a07",
+              "question": "Are there any medical certificate requirements for flying a glider?",
+              "answer": "No medical certificate is required to exercise the privileges of a glider rating or to act as an authorized glider instructor. However, under 14 CFR part 61, section 61.53, a person may not act as pilot in command if they know or have reason to know of any medical condition that would make safe operation impossible."
+            },
+            {
+              "id": "b5f8d5bf-842b-4706-9442-8461e3086b4e",
+              "question": "Which FAA publications and resources should I study for glider certification?",
+              "answer": "Applicants should review the applicable FAA Airman Certification Standards (ACS) or Practical Test Standards (PTS), FAA‑G‑ACS‑2 (ACS Companion Guide for Pilots), Advisory Circular 60‑22 (Aeronautical Decision Making), the Pilot's Handbook of Aeronautical Knowledge (FAA‑H‑8083‑25), the Risk Management Handbook (FAA‑H‑8083‑2), the Aviation Weather Handbook (FAA‑H‑8083‑28), 14 CFR part 21, the EASA Certification Specifications (CS 22.221), and the Weight and Balance Handbook (FAA‑H‑8083‑1)."
+            },
+            {
+              "id": "766b53c2-69cf-460a-9893-adfb9b5160ad",
+              "question": "How does the FAA WINGS program relate to glider pilot proficiency and flight reviews?",
+              "answer": "The WINGS program provides continuing pilot education, risk‑management study materials, and can be used to keep a pilot’s flight review current. Completion of a WINGS phase may count toward the required flight review under 14 CFR part 61, section 61.56."
+            },
+            {
+              "id": "fa24e670-c592-48eb-8061-408c5e00a84f",
+              "question": "Can completing a phase of the WINGS program count toward my required flight review?",
+              "answer": "Yes, completing a phase of the FAA WINGS program can be counted as a flight review, satisfying the biennial requirement for acting as pilot in command."
+            },
+            {
+              "id": "a077be2d-8210-43ee-9049-0842e390d769",
+              "question": "Where can I create a WINGS account and what benefits does it provide?",
+              "answer": "A pilot can create a WINGS account at www.faasafety.gov. Benefits include access to current risk‑mitigation information, educational materials for the entire year, the ability to count program phases toward a flight review, and potential discounts on certain flight‑insurance policies."
+            },
+            {
+              "id": "15bb895a-2974-4c60-8edf-a09ebbc15c77",
+              "question": "What should a prospective glider student consider when choosing a training provider?",
+              "answer": "The student should investigate available training options, ensure the provider meets the training requirements of 14 CFR part 61, and select a provider that offers appropriate ground and flight instruction for glider certification."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "d05616bd-4a8d-42da-9d10-5f50c5b40621",
+              "keyword": "glider rating",
+              "score": 0.98
+            },
+            {
+              "id": "e781c5dc-eb3b-419d-986d-fed8796e4de6",
+              "keyword": "14 CFR part 61",
+              "score": 0.96
+            },
+            {
+              "id": "2688a507-3375-455a-a322-b4e7f86ae53b",
+              "keyword": "FAA-WINGS program",
+              "score": 0.94
+            },
+            {
+              "id": "113c0cc0-f2a2-4e3d-968f-d2b9c6129e12",
+              "keyword": "Airman Certification Standards (ACS)",
+              "score": 0.92
+            },
+            {
+              "id": "643fe58a-778a-4ae9-b5b0-7c0e14f11774",
+              "keyword": "student pilot",
+              "score": 0.9
+            },
+            {
+              "id": "c4775d77-bada-4704-8ae7-10429d702e8f",
+              "keyword": "sport pilot certificate",
+              "score": 0.88
+            },
+            {
+              "id": "1c83dd5a-33d1-4753-b7c0-4d57a37d485c",
+              "keyword": "private pilot certificate",
+              "score": 0.88
+            },
+            {
+              "id": "415a7119-7770-44c5-bed5-142d094382d0",
+              "keyword": "medical eligibility",
+              "score": 0.85
+            },
+            {
+              "id": "00203dea-caf0-45d6-a80e-d0839dbadee7",
+              "keyword": "risk management",
+              "score": 0.83
+            },
+            {
+              "id": "30e87af2-08c8-46ec-ba2a-f7799a1b8018",
+              "keyword": "flight review",
+              "score": 0.8
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "68cd398d-06df-48f1-8234-601e9fdbba79",
+            "title": "Glider Rating Overview and FAA Training Guidelines",
+            "long_summary": "A student pilot must complete ground and flight training for the maneuvers and procedures listed in 14 CFR §61.87(i) before receiving a solo endorsement. Adding a glider rating to an existing airplane certificate enhances a pilot’s ability to manage an engine‑out situation, improving overall safety. \n\nEligibility: \n- Student pilots aged 16 or older, or any FAA‑rated pilot who meets the flight‑time requirements, may take the practical test for a sport‑pilot certificate with a glider endorsement or a private‑pilot certificate with a glider rating after satisfying the training requirements of 14 CFR part 61. \n- Commercial or flight‑instructor glider certificates require the applicant to be at least 18 years old and to complete the specific training outlined in part 61. \n\nThe applicable Airman Certification Standards (ACS) or Practical Test Standards (PTS) define the knowledge and skills needed, and candidates may consult FAA‑G‑ACS‑2, AC 60‑22, the Pilot’s Handbook of Aeronautical Knowledge, the Risk Management Handbook, the Aviation Weather Handbook, and other references for additional guidance. \n\nMedical eligibility: A glider rating does not require a medical certificate, but pilots may not act as pilot‑in‑command if they know of any medical condition that would impair safe operation, per 14 CFR §61.53. \n\nFAA WINGS Program: Continuous training under 14 CFR §61.56(c)(1)–(2) and the optional higher‑standard training of §61.56(e) can be satisfied through the WINGS program, which offers year‑round education, risk‑mitigation tools, flight‑review credit, and possible insurance discounts. Pilots can create an account at www.faasafety.gov. \n\nIn summary, prospective glider pilots should research training providers, meet the age and flight‑time criteria, complete the required ground and flight instruction, and may benefit from the WINGS program to maintain proficiency and safety.",
+            "short_summary": "Glider rating requirements, benefits, and FAA training resources"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "4d14a6fd-73d4-47d2-999d-865129626dcb",
+              "classification": "Aviation Pilot Training",
+              "score": 0.97
+            },
+            {
+              "id": "a5b1c70f-bf0d-4065-8c0d-9d924ba7a26e",
+              "classification": "Aviation Regulations",
+              "score": 0.95
+            },
+            {
+              "id": "3a29f7f1-59d4-4137-a01f-28dc1e0aa595",
+              "classification": "Flight Safety & Risk Management",
+              "score": 0.9
+            },
+            {
+              "id": "aaafc7e8-a512-4b98-aed4-0e633870d3c4",
+              "classification": "Aeronautical Medical Requirements",
+              "score": 0.85
+            },
+            {
+              "id": "fa4bee10-47e4-437d-83c3-cb807c164d4d",
+              "classification": "Continuing Aviation Education (FAA Wings Program)",
+              "score": 0.8
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "86dde10f-2c54-4bab-8ca2-b83beddbee28",
+              "label": "Federal Aviation Administration (FAA)",
+              "type": "ORGANIZATION"
+            },
+            {
+              "id": "599b749a-7d26-4343-b029-bb1e3e3a9fd6",
+              "label": "European Aviation Safety Agency (EASA)",
+              "type": "ORGANIZATION"
+            },
+            {
+              "id": "aaac928f-5104-4ed2-b2af-fcd07eac14f8",
+              "label": "FAA WINGS program",
+              "type": "ORGANIZATION"
+            },
+            {
+              "id": "faa65a0c-da54-4af2-b7c0-fe2eec758b23",
+              "label": "14 CFR",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "d2ca4e7c-52cb-40f0-85b8-f0c8deb339bc",
+              "label": "FAA Advisory Circular 60-22",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "da93a988-6f00-45f6-83f8-56352ab873c6",
+              "label": "FAA‑G‑ACS‑2 (ACS Companion Guide for Pilots)",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "a08de99a-5b02-49d6-8e21-db5cac17825e",
+              "label": "FAA‑H‑8083‑25 (Pilot's Handbook of Aeronautical Knowledge)",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "25d5984a-7713-47ae-8486-600640abe9d9",
+              "label": "FAA‑H‑8083‑2 (Risk Management Handbook)",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "e30b7acf-7635-4fb5-ab99-9863c6a7645d",
+              "label": "FAA‑H‑8083‑28 (Aviation Weather Handbook)",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "5e5c3028-102b-4225-b37e-85a3c0f6dd17",
+              "label": "www.faasafety.gov",
+              "type": "LOCATION"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": "1fb2ce34-d142-4b6d-bf2e-91d104d726c5",
+      "document_id": "52f0d2de-0233-4494-88a9-fbfdaa39f0f4",
+      "title": "Page 1",
+      "context": "<h1>Chapter 1: Gliders &amp; Sailplanes</h1>\n<h2>Introduction</h2>\n<p>A modern glider, such as the one pictured below [Figure 1-1] can fly high and make long cross-country flights with a skilled pilot at the controls.</p>\n<img alt=\"A modern DG Flugzeugbau GmbH 800B-series glider flying low over a body of water and rocky coastline.\"/>\n<p><b>Figure 1-1.</b> A DG Flugzeugbau GmbH 800B-series glider.</p>\n<p>The Code of Federal Regulations (14 CFR part 1, section 1.1) states, “glider means a heavier-than-air aircraft, that is supported in flight by the dynamic reaction of the air against its lifting surfaces and whose free flight does not depend principally on an engine.” The term “glider” also designates the rating placed on a pilot certificate once an applicant successfully completes required glider training, has the requisite experience, passes any required knowledge test, and passes the appropriate practical test.</p>\n<p>For a glider to fly, it needs a means to become airborne. Early gliders could only launch from the top of a hill. [Figure 1-2] and [Figure 1-3].</p>\n<img alt=\"Otto Lilienthal (the Glider King) flying a glider over a hillside, with spectators watching below.\"/>\n<p><b>Figure 1-2.</b> Otto Lilienthal (the Glider King) in flight during the mid-1890s.</p>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/FAA@crd.com/original_assets/Glider-Flying-Handbook-[]-12-gfh_chapter_1.pdf_chunks/Glider-Flying-Handbook-[]-12-gfh_chapter_1-chunked-files/Glider-Flying-Handbook-[]-12-gfh_chapter_1_page_1-1.pdf",
+        "sort_number": "10"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "3c075ebd-64f3-4a42-89ed-59cef0935696",
+            "sentiment": "neutral",
+            "summary": "Introducción al capítulo sobre planeadores, describiendo su capacidad de vuelo, definición legal y métodos históricos de lanzamiento.",
+            "score": 0.98
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "a6c3c9e0-194b-435a-a7e9-077343abdd8e",
+              "question": "What is the legal definition of a glider according to 14 CFR part 1, section 1.1?",
+              "answer": "A glider is defined as a heavier‑than‑air aircraft that is supported in flight by the dynamic reaction of the air against its lifting surfaces and whose free flight does not depend principally on an engine."
+            },
+            {
+              "id": "477c8944-a8b7-4716-ae52-bebb7811386e",
+              "question": "Does a glider rely on an engine to stay aloft?",
+              "answer": "No. By definition, a glider’s free flight does not depend principally on an engine; it stays aloft by using the airflow over its wings."
+            },
+            {
+              "id": "b1695b7d-b3c3-494a-a86c-204a2db20aaf",
+              "question": "What does the “glider” rating on a pilot certificate represent?",
+              "answer": "The glider rating indicates that the pilot has successfully completed the required glider training, has the necessary experience, and has passed both the required knowledge test and the practical test."
+            },
+            {
+              "id": "dd770701-a336-4120-9544-3260626aa8fa",
+              "question": "What are the requirements to obtain a glider rating?",
+              "answer": "An applicant must complete the required glider training, acquire the requisite flight experience, pass the required knowledge test, and pass the appropriate practical test."
+            },
+            {
+              "id": "43b7c0c5-17d2-426f-bb6d-fe2ff18e45e7",
+              "question": "How did early gliders become airborne?",
+              "answer": "Early gliders could only launch from the top of a hill, using the height to gain initial lift."
+            },
+            {
+              "id": "57860afb-6cc8-47e0-8601-c833b332c4e1",
+              "question": "What aircraft is shown in Figure 1‑1?",
+              "answer": "Figure 1‑1 depicts a DG Flugzeugbau GmbH 800B‑series glider in flight over water and a rocky coastline."
+            },
+            {
+              "id": "09d222e3-98f9-4a05-af29-cfc051ac2379",
+              "question": "Who is shown in Figure 1‑2 and what is he doing?",
+              "answer": "Figure 1‑2 shows Otto Lilienthal, known as the “Glider King,” flying a glider over a hillside in the mid‑1890s while spectators watch below."
+            },
+            {
+              "id": "b980ceaa-dfa5-4eef-9c63-a902c98f4242",
+              "question": "Can modern gliders fly long cross‑country flights?",
+              "answer": "Yes. The introduction states that a modern glider can fly high and make long cross‑country flights when piloted by a skilled pilot."
+            },
+            {
+              "id": "88428163-587c-4531-bace-5c0370886e4f",
+              "question": "What role does the dynamic reaction of air play in glider flight?",
+              "answer": "The dynamic reaction of the air against the glider’s lifting surfaces provides the lift needed for the aircraft to stay aloft."
+            },
+            {
+              "id": "f10b31ce-8251-403e-b285-a43fc695d5a5",
+              "question": "Are hill launches the only way to get a glider airborne today?",
+              "answer": "The text mentions hill launches only for early gliders; it does not discuss current launch methods, so no conclusion can be drawn from the provided context."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "cc168fba-885a-40c5-b558-d06f666259d9",
+              "keyword": "glider",
+              "score": 0.99
+            },
+            {
+              "id": "14913fac-d58c-4243-a538-d52d34ef9402",
+              "keyword": "sailplane",
+              "score": 0.94
+            },
+            {
+              "id": "93a8ede2-a7ce-40be-bc22-12d86283dd41",
+              "keyword": "DG Flugzeugbau 800B-series",
+              "score": 0.96
+            },
+            {
+              "id": "e58ddc95-0f0b-4a84-889a-bce4190b87c8",
+              "keyword": "14 CFR part 1",
+              "score": 0.92
+            },
+            {
+              "id": "6a74a9d6-7a31-4043-9623-e87efb0f8d7a",
+              "keyword": "Otto Lilienthal",
+              "score": 0.95
+            },
+            {
+              "id": "20d0a0b9-a605-4de0-ad05-3c8f6207b4d0",
+              "keyword": "glider training",
+              "score": 0.9
+            },
+            {
+              "id": "42b8e98c-da75-43f7-a504-62a1359caf06",
+              "keyword": "cross-country flights",
+              "score": 0.88
+            },
+            {
+              "id": "a84c5e54-7782-4a15-8f04-f5c3dad32deb",
+              "keyword": "dynamic reaction of the air",
+              "score": 0.85
+            },
+            {
+              "id": "9c2e32e5-71fd-4a66-b8fb-2c0710bcb611",
+              "keyword": "lifting surfaces",
+              "score": 0.84
+            },
+            {
+              "id": "bb74581d-56c8-49e9-ba28-3261843ceff7",
+              "keyword": "pilot certificate",
+              "score": 0.87
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "334b2019-2096-4e67-908f-929f81ab2800",
+            "title": "Chapter 1 – Introduction to Gliders & Sailplanes",
+            "long_summary": "Chapter 1 introduces gliders and sailplanes, highlighting that modern gliders, such as the DG Flugzeugbau 800B series, can achieve high altitudes and long cross‑country flights when piloted skillfully. The Federal Aviation Regulations (14 CFR part 1, §1.1) define a glider as a heavier‑than‑air aircraft that relies on aerodynamic lift rather than engine power, and also describe the glider rating required on a pilot’s certificate after completing specific training, experience, knowledge, and practical tests. To become airborne, gliders need a launch method; early examples were limited to hill‑top launches, exemplified by historic flights of Otto Lilienthal in the 1890s. The chapter sets the stage for deeper exploration of glider design, operation, and performance.",
+            "short_summary": "Overview of glider definition, capabilities, and launch methods"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "1c313839-80b9-4c43-af9d-058aa8a9000f",
+              "classification": "Aviation",
+              "score": 0.97
+            },
+            {
+              "id": "0ad41f5c-a9cb-4883-b129-c0e868aa79ec",
+              "classification": "Aeronautical Engineering",
+              "score": 0.89
+            },
+            {
+              "id": "2d63ff0d-7ee4-404e-9098-5a790117b18f",
+              "classification": "Aviation History",
+              "score": 0.85
+            },
+            {
+              "id": "41ad3f6b-f5d1-443d-8ba0-4aefb98ea0ef",
+              "classification": "Pilot Training & Certification",
+              "score": 0.78
+            },
+            {
+              "id": "adc0d05b-0a78-43ca-a3c2-d0c6d6fc3243",
+              "classification": "Regulatory Compliance",
+              "score": 0.72
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "ff2b6aaf-f214-46b8-8556-d609b4f81051",
+              "label": "DG Flugzeugbau GmbH",
+              "type": "COMPANY"
+            },
+            {
+              "id": "7cb416f9-c84e-432e-b813-e8d2736796f5",
+              "label": "800B-series glider",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "f340014f-2948-40d7-b812-dfa049f54c12",
+              "label": "Code of Federal Regulations",
+              "type": "ORGANIZATION"
+            },
+            {
+              "id": "783a5d77-0f61-4a3b-a27e-ff1c1f618482",
+              "label": "14 CFR",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "71a96421-fad3-4eab-a600-b838c8f1233c",
+              "label": "Otto Lilienthal",
+              "type": "PERSON"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

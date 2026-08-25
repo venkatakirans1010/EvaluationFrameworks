@@ -1,0 +1,185 @@
+{
+  "customer_id": "test_set_1x1@crd.com",
+  "document_id": "8e74da01-6306-481d-ba88-9824c25ac831",
+  "document_name": "API_complete_reference-1.pdf",
+  "organization_name": "Booz Allen",
+  "account_name": "Default Account",
+  "application_name": "Booz Allen AI Atomization Service",
+  "vpub_name": "Default VPUB",
+  "topics": [
+    {
+      "topic_id": "2cc331c8-c747-4ae1-b855-21a72c7290dd",
+      "document_id": "8e74da01-6306-481d-ba88-9824c25ac831",
+      "title": "Page 1",
+      "context": "<h2>Importance of API Testing</h2>\n<p>API testing is a crucial aspect of software development, offering numerous benefits and addressing key challenges that can significantly impact the quality, reliability, and performance of software applications. Here are the primary reasons why API testing is important:</p>\n<ol>\n<li><b>Ensures Functionality</b>\n<ul>\n<li><b>Verification of Requirements:</b> API testing ensures that the API functions according to the specified requirements. This involves checking that the endpoints are working correctly, the data is being processed as expected, and the correct responses are returned.</li>\n<li><b>Detection of Errors Early:</b> By testing APIs early in the development cycle, errors can be detected and fixed before they become more difficult and costly to resolve.</li>\n</ul>\n</li>\n<li><b>Improves Reliability</b>\n<ul>\n<li><b>Consistent Performance:</b> Regular API testing helps ensure that the API performs consistently under various conditions, reducing the likelihood of unexpected failures in production environments.</li>\n<li><b>Regression Testing:</b> API tests can be automated and included in regression testing to ensure that new changes do not break existing functionality.</li>\n</ul>\n</li>\n<li><b>Enhances Security</b>\n<ul>\n<li><b>Identification of Vulnerabilities:</b> API testing can reveal security vulnerabilities such as SQL injection, cross-site scripting (XSS), and other common exploits.</li>\n<li><b>Validation of Authentication and Authorization:</b> Ensures that security mechanisms like authentication and authorization are working correctly, protecting sensitive data and functionality from unauthorized access.</li>\n</ul>\n</li>\n<li><b>Boosts Performance</b>\n<ul>\n<li><b>Load and Stress Testing:</b> API testing includes performance tests such as load and stress testing, which help determine how well the API performs under heavy traffic and identify potential bottlenecks.</li>\n<li><b>Scalability Assessment:</b> Helps in assessing whether the API can scale effectively to handle increased load as the user base grows.</li>\n</ul>\n</li>\n<li><b>Enhances User Experience</b>\n<ul>\n<li><b>Ensures Smooth Integration:</b> For APIs that are consumed by external developers or third-party applications, thorough testing ensures that these integrations work smoothly, providing a better user experience.</li>\n<li><b>Reduces Downtime:</b> By identifying and resolving issues early, API testing helps reduce the chances of downtime, ensuring that end-users experience fewer disruptions.</li>\n</ul>\n</li>\n</ol>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/test_set_1x1@crd.com/original_assets/API_complete_reference-1.pdf_chunks/API_complete_reference-1-chunked-files/API_complete_reference-1_page_1-1.pdf",
+        "sort_number": "10"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "71e1455e-c1cc-4a93-976a-ac1c5c349951",
+            "sentiment": "neutral",
+            "summary": "An overview of why API testing is essential for functionality, reliability, security, performance, and user experience.",
+            "score": 0.95
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "206d5fec-6f02-47ce-8064-0315c94677e2",
+              "question": "¿Qué es la prueba de API y por qué es importante?",
+              "answer": "La prueba de API es un proceso que verifica que los puntos finales de una API funcionen según los requisitos especificados, procesen los datos correctamente y devuelvan las respuestas adecuadas. Es importante porque detecta errores temprano, mejora la confiabilidad, la seguridad, el rendimiento y la experiencia del usuario."
+            },
+            {
+              "id": "9b056a75-eb9c-4a4a-a1d2-edacd5f072b7",
+              "question": "¿Cómo ayuda la prueba de API a mejorar la confiabilidad del software?",
+              "answer": "Al realizar pruebas regulares, se asegura que la API mantenga un rendimiento consistente bajo diversas condiciones, reduciendo la probabilidad de fallos inesperados en producción. Además, las pruebas automatizadas pueden incluir pruebas de regresión para garantizar que los cambios no rompan funcionalidades existentes."
+            },
+            {
+              "id": "3a326eb3-0444-407e-9858-d5393d38c93c",
+              "question": "¿Qué tipos de vulnerabilidades de seguridad se pueden identificar con la prueba de API?",
+              "answer": "La prueba de API puede revelar vulnerabilidades comunes como inyección SQL, cross‑site scripting (XSS) y otros exploits. También valida que los mecanismos de autenticación y autorización funcionen correctamente, protegiendo datos sensibles."
+            },
+            {
+              "id": "a1b26306-3382-4580-bc76-07740ae8e53e",
+              "question": "¿Qué es la prueba de carga y estrés en el contexto de las API?",
+              "answer": "La prueba de carga y estrés evalúa cómo la API se comporta bajo tráfico pesado, identificando cuellos de botella y determinando su capacidad para escalar cuando la base de usuarios crece."
+            },
+            {
+              "id": "3e0bc356-0122-4a7e-a099-3f495c72b9df",
+              "question": "¿Cómo contribuye la prueba de API a una mejor experiencia de usuario?",
+              "answer": "Al garantizar que las integraciones con desarrolladores externos o aplicaciones de terceros funcionen sin problemas, la prueba de API reduce el tiempo de inactividad y asegura que los usuarios finales experimenten menos interrupciones."
+            },
+            {
+              "id": "af10a236-a915-42b6-8f22-002cb9b14a0b",
+              "question": "¿Qué significa la prueba de regresión en las pruebas de API?",
+              "answer": "La prueba de regresión implica ejecutar pruebas automatizadas después de cambios en el código para asegurarse de que las funcionalidades existentes no se vean afectadas negativamente."
+            },
+            {
+              "id": "4c854db5-c45d-4349-afaa-2cc2ed002fbd",
+              "question": "¿Por qué es útil probar la autenticación y autorización en una API?",
+              "answer": "Para garantizar que los mecanismos de seguridad protejan adecuadamente la información y las funciones sensibles, evitando accesos no autorizados."
+            },
+            {
+              "id": "c4cb9ed9-ff32-4ce2-bb51-140904ab6c8a",
+              "question": "¿Qué beneficios aporta la prueba de API a los desarrolladores externos?",
+              "answer": "Proporciona una integración fluida y confiable, lo que facilita el desarrollo de aplicaciones que consumen la API y mejora la satisfacción del desarrollador."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "a6a38c01-947c-49be-a646-84471f3a0969",
+              "keyword": "API testing",
+              "score": 0.99
+            },
+            {
+              "id": "ab760031-a191-49e7-8b26-4b2eade33fc3",
+              "keyword": "functionality",
+              "score": 0.97
+            },
+            {
+              "id": "b190e78a-3533-40c1-a4da-de661fe02980",
+              "keyword": "reliability",
+              "score": 0.96
+            },
+            {
+              "id": "e1b35ca5-780d-4334-ba62-cc4acfdd48de",
+              "keyword": "security",
+              "score": 0.95
+            },
+            {
+              "id": "b7b45c22-7c11-4211-9b0d-aed86ccd515e",
+              "keyword": "performance",
+              "score": 0.94
+            },
+            {
+              "id": "e75d08f1-e2c0-4fb5-8610-92b868fbd9d0",
+              "keyword": "user experience",
+              "score": 0.93
+            },
+            {
+              "id": "6d00b97d-ee53-4605-856a-1d8a5e8e4c6f",
+              "keyword": "regression testing",
+              "score": 0.92
+            },
+            {
+              "id": "5342836b-a044-412f-9837-7267e6529c34",
+              "keyword": "load testing",
+              "score": 0.91
+            },
+            {
+              "id": "244ca1a6-a0f0-4a75-9768-353adc300ac1",
+              "keyword": "authentication",
+              "score": 0.9
+            },
+            {
+              "id": "9fee691e-6392-4a70-bfd1-62fa77aab3e1",
+              "keyword": "scalability",
+              "score": 0.89
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "9868944e-6ff7-48bb-a573-955307f3ecee",
+            "title": "Key Benefits of API Testing",
+            "long_summary": "API testing is essential for delivering high‑quality software. It verifies that endpoints meet specifications, processes data correctly, and returns expected responses, catching errors early in development. Regular testing guarantees consistent performance across conditions and supports regression testing, preventing new changes from breaking existing features. Security testing identifies vulnerabilities such as SQL injection and XSS, and validates authentication and authorization mechanisms to protect sensitive data. Performance tests—including load and stress testing—measure how the API behaves under heavy traffic, revealing bottlenecks and assessing scalability for future growth. Finally, thorough API testing smooths integration for external developers and third‑party applications, reducing downtime and enhancing the overall user experience. By addressing functionality, reliability, security, performance, and usability, API testing plays a pivotal role in building robust, secure, and user‑friendly applications.",
+            "short_summary": "Ensures functionality, reliability, security, performance, and UX"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "09fa1aaa-059f-45b4-95d4-43746ccab02e",
+              "classification": "Software Testing",
+              "score": 0.98
+            },
+            {
+              "id": "9550f47d-e753-46dc-883d-02ba33ed99c9",
+              "classification": "API Development",
+              "score": 0.95
+            },
+            {
+              "id": "0e78c36d-e453-4ed4-bf91-6668d2361ae0",
+              "classification": "Quality Assurance",
+              "score": 0.93
+            },
+            {
+              "id": "873e74da-ace1-4dee-9bd1-64e733cf9a43",
+              "classification": "Security Testing",
+              "score": 0.9
+            },
+            {
+              "id": "68c1b96d-1db4-4353-a6de-afabfbeb127e",
+              "classification": "Performance Testing",
+              "score": 0.88
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "cc65c0b5-5ba0-4173-a89b-0280035dad9b",
+              "label": "API",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "f4e45564-d867-4799-914c-0327bb758dda",
+              "label": "SQL",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "b556229c-086a-4981-b636-35ebf6df7464",
+              "label": "XSS",
+              "type": "ACRONYM"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

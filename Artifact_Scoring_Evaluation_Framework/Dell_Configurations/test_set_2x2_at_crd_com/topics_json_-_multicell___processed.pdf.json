@@ -1,0 +1,169 @@
+{
+  "customer_id": "test_set_2x2@crd.com",
+  "document_id": "e891b409-13bc-46ef-99d2-5d8b72bd2b92",
+  "document_name": "Multicell()_processed.pdf",
+  "organization_name": "Booz Allen",
+  "account_name": "Default Account",
+  "application_name": "Booz Allen AI Atomization Service",
+  "vpub_name": "Default VPUB",
+  "topics": [
+    {
+      "topic_id": "3e3c7938-54fd-4e7f-baeb-f1a5b3ca5555",
+      "document_id": "e891b409-13bc-46ef-99d2-5d8b72bd2b92",
+      "title": "Page 1",
+      "context": "<div>\n<p>[LEFT] Lorem ipsum dolor sit amet, A jackal walks along the river path Water reflects a brief shadow.</p>\n<p>[RIGHT] Lorem ipsum dolor sit We notice a silent valley Shadows drift across the stones</p>\n<p>[CENTER] Lorem ipsum dolor sit A fox walks along the river path Water reflects a brief shadow</p>\n<p>[JUSTIFY] Lorem ipsum dolor sit In the library, teachers explain simple ideas Small steps make steady learning.</p>\n<p>We notice rain on dry earth Shadows drift across the stones. We notice a silent valley The air turns cool and clear.</p>\n<p>[VERTICAL ALIGNMENT - TOP] The papaya gives a soft scent It adds color to the table. The mango tastes bright and sweet It adds color to the table.</p>\n<p>[VERTICAL] In the riverbank, families prepare festivals The air is warm and calm. In the village, craftsmen shape clay lamps Colors brighten the narrow streets.</p>\n<p>[VERTICAL] In the village, craftsmen shape clay lamps Morning light touches quiet homes. In the riverbank, children read stories The air is warm and calm.</p>\n<p>The apple blends into simple salads It adds color to the table. The guava tastes bright and sweet It adds color to the table. The orange tastes bright and sweet It adds color to the table.</p>\n<p>[FIT CELL] Lorem ipsum dolor sit amet, consectetur adipiscing elit. In the classroom, students read with care Small steps make steady learning. In the library, notes fill neat pages Small steps make steady learning. In the school porch, teachers explain simple ideas Small steps make steady learning.</p>\n<p>In the village, families prepare festivals The air is warm and calm. In the bazaar, children read stories Colors brighten the narrow streets. In the bazaar, families prepare festivals Colors brighten the narrow streets.</p>\n<p>The orange gives a soft scent People slice it for snacks. The orange blends into simple salads It adds color to the table. The banana tastes bright and sweet It adds color to the table.</p>\n<p>CUSTOM PADDING: Left=2, Top=4, Right=6, Bottom=8<br/>We notice a slow river Shadows drift across the stones. We notice a shaded path Birdsong returns between the trees.</p>\n</div>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/test_set_2x2@crd.com/original_assets/Multicell()_processed.pdf_chunks/Multicell()_processed-chunked-files/Multicell()_processed_page_1-1.pdf",
+        "sort_number": "10"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "00505b45-7cbe-4370-b1df-dec27452cb0c",
+            "sentiment": "neutral",
+            "summary": "Descriptive text about nature scenes, food, and learning, repeating phrases about rivers, shadows, and bright colors.",
+            "score": 0.92
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "1865643d-6437-47f1-8098-781080d8ab21",
+              "question": "What does the tag [LEFT] do?",
+              "answer": "It indicates that the following paragraph should be left‑aligned."
+            },
+            {
+              "id": "d7816695-417f-4c7e-9371-69decd2f2668",
+              "question": "What is the purpose of the tag [RIGHT]?",
+              "answer": "It signals that the following paragraph should be right‑aligned."
+            },
+            {
+              "id": "40dca870-a03e-4b14-bf36-c035d8815ba1",
+              "question": "How does the tag [CENTER] affect the text?",
+              "answer": "It centers the following paragraph horizontally."
+            },
+            {
+              "id": "36eaf1a2-484c-448b-a515-7cbf5ca4babe",
+              "question": "What does the tag [JUSTIFY] do?",
+              "answer": "It justifies the following paragraph, aligning it to both left and right margins."
+            },
+            {
+              "id": "c8b9ce0a-4003-4a4e-880c-08de68eacc7a",
+              "question": "What is meant by [VERTICAL ALIGNMENT - TOP]?",
+              "answer": "It specifies that the following content should be aligned to the top of its container."
+            },
+            {
+              "id": "bc2290cc-9028-4b1d-ac40-6ef6b2f3410a",
+              "question": "What does the tag [VERTICAL] indicate?",
+              "answer": "It likely denotes vertical alignment of the following text, though the exact alignment (top, middle, bottom) is not specified in the context."
+            },
+            {
+              "id": "890995b8-9d7d-4727-b997-ec82d0c4dfbf",
+              "question": "What is the function of the tag [FIT CELL]?",
+              "answer": "It suggests that the following paragraph should fit within a cell, possibly adjusting its size or layout to match the cell dimensions."
+            },
+            {
+              "id": "ae04edf4-dc0d-43e0-b6a0-406d0686d9f7",
+              "question": "What does the CUSTOM PADDING line specify?",
+              "answer": "It sets padding values for a block of text: Left=2, Top=4, Right=6, Bottom=8."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "df2838d5-fcf7-4127-b58a-58e10ac0857f",
+              "keyword": "river",
+              "score": 0.98
+            },
+            {
+              "id": "f446566e-4422-4fcf-bcd5-7c6843a406ce",
+              "keyword": "shadows",
+              "score": 0.95
+            },
+            {
+              "id": "413f3338-e730-4797-a8e3-f3fbed2d1038",
+              "keyword": "stones",
+              "score": 0.9
+            },
+            {
+              "id": "c851346e-184d-4cb1-9d06-a0d498f2496e",
+              "keyword": "library",
+              "score": 0.88
+            },
+            {
+              "id": "283356ad-1af9-47fd-85cc-973b488e0037",
+              "keyword": "teachers",
+              "score": 0.85
+            },
+            {
+              "id": "bcdf69cf-22ab-4d17-8ccc-dc4e7f118c33",
+              "keyword": "steady learning",
+              "score": 0.8
+            },
+            {
+              "id": "6ef4976a-16ce-430a-b36a-75a480c09720",
+              "keyword": "family",
+              "score": 0.78
+            },
+            {
+              "id": "6629ddad-5df0-45aa-a7ba-2303a794b789",
+              "keyword": "festivals",
+              "score": 0.75
+            },
+            {
+              "id": "20db18df-6da7-4a1d-9f71-0676f875f3e1",
+              "keyword": "clay lamps",
+              "score": 0.7
+            },
+            {
+              "id": "62f49e73-ff29-4e2e-8c7e-7514f3457630",
+              "keyword": "color",
+              "score": 0.68
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "e1cb35ce-ab6b-402a-957a-fed80602e9c8",
+            "title": "Descriptive Scenes of Nature, Village Life, and Learning",
+            "long_summary": "The text presents a series of vivid, short scenes that weave together elements of nature, everyday village life, and educational moments. It begins with images of animals—such as a jackal and a fox—walking along a river path, with water reflecting brief shadows. A silent valley and drifting shadows over stones are also mentioned, adding a quiet, contemplative tone. The narrative then shifts to a library setting where teachers explain simple ideas, emphasizing steady learning through small steps. Rain on dry earth and the cool, clear air of a valley are described, reinforcing natural imagery. The text continues with sensory details about fruits: papaya, mango, apple, guava, orange, and banana, each noted for their scent, color, and taste, and how they add color to a table or blend into salads. Village scenes include families preparing festivals, craftsmen shaping clay lamps, and children reading stories, all set against warm, calm air and bright colors that brighten narrow streets. The repeated phrase “small steps make steady learning” underscores an educational theme. Finally, custom padding details and a slow river with birdsong close the passage. Overall, the passage offers a mosaic of sensory observations that highlight the harmony between natural landscapes, communal activities, and learning environments.",
+            "short_summary": "Scenes of nature, village life, and simple learning"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "3c1b76b4-c24c-4694-a200-3a506f492843",
+              "classification": "Education / Learning",
+              "score": 0.95
+            },
+            {
+              "id": "5ae1cbcd-c310-4a56-89b5-5d767ee656fe",
+              "classification": "Culture / Community Activities",
+              "score": 0.9
+            },
+            {
+              "id": "63f554cf-5cb6-4542-a08c-6e47caec4d29",
+              "classification": "Food / Fruits",
+              "score": 0.85
+            },
+            {
+              "id": "57deb64d-809a-4db5-8051-b07bdf996069",
+              "classification": "Nature / Environment",
+              "score": 0.8
+            },
+            {
+              "id": "b18f1f1a-2059-44aa-a24b-ce103ec758e3",
+              "classification": "Reading / Literature",
+              "score": 0.75
+            }
+          ]
+        },
+        {
+          "entities": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+# BoozAllen vs Dell CRD Analyzer
+
+Streamlit application to compare CRD outputs and evaluate artifact quality across BoozAllen and Dell configurations.
+
+---
+
+## 1) Run the app
+
+```bash
+cd "d:\Cursor AI\JSON_Compare_CRD_ComparisonFW"
+streamlit run compare_json_streamlit.py
+```
+
+Current navigation sections:
+
+- Comparison
+- Quality Evaluation
+- Dell Configuration Evaluation
+- Dell_Config_no_GT
+
+---
+
+## 2) What changed (latest updates)
+
+**Summary attributes now evaluated individually**
+
+- Summary components (title, long_summary, short_summary) are now evaluated separately instead of combined
+- Each component is evaluated using the same quality metrics (6 base dimensions + 5 additional metrics)
+- Results include a "Component" column showing which summary part is being scored
+- Applied across all three evaluation sections (Quality Evaluation, Dell Configuration Evaluation, Dell_Config_no_GT)
+
+**Previous summary behavior**: Used whichever component was available (priority: long_summary → short_summary → summary)
+**New behavior**: Evaluates title, long_summary, and short_summary as distinct items (if present), allowing granular quality assessment
+
+**Sentiment attribute evaluation with language detection**
+
+- New attribute type: Sentiment (joins Summary, FAQ, Keyword, Entity, Classification)
+- Three metrics evaluated per topic: Sentiment_Language, Sentiment_Score_Validity, Sentiment_Summary_Relevance
+- Automatic language detection with English-only evaluation filter (non-English content marked as "Ignored")
+- See section 6.6 for full metric definitions
+
+**Interactive metric info buttons in all evaluation sections**
+
+- Each attribute section header now has a compact *i* button
+- Clicking the button opens a modal dialog with definitions for all metrics in that section
+- Applied to all 21 table headers across Quality Evaluation, Dell Configuration Evaluation, and Dell_Config_no_GT
+
+**Additional evaluation metrics (existing)**
+
+The framework includes additional evaluation metrics in all evaluation flows:
+
+- Summary metrics: ROUGE-1, ROUGE-L, BERTScore (optional), Compression Ratio, TF-IDF Overlap
+- FAQ metrics: Question Relevance, Answer Correctness, Redundancy Score
+- Keyword metrics: Precision@K, Recall@K, TF-IDF Overlap
+- Entity metrics: NER F1, Entity Linking Accuracy
+- Classification metrics: Accuracy, Precision, Recall, F1, Confusion Matrix
+
+`Keyword Top-K` is configurable from the sidebar and is used by keyword ranking metrics.
+
+---
+
+## 3) Comparison section (metadata and counts)
+
+This section compares matched JSON files and reports:
+
+- Shared metadata fields
+- Derived artifact counts
+- Generation timing (`derived.artifact_generation_time_mm_ss`)
+- Data consistency checks (`genai_total_artifacts_generated` vs derived totals)
+- Language distribution tables
+
+No text-quality metric is computed in this section.
+
+---
+
+## 4) Evaluation sections and reference context
+
+### Quality Evaluation
+
+- Compares BoozAllen vs Dell by aligned topics/pages.
+- Summary sections: Evaluates each component type (title, long_summary, short_summary) separately with a "Component" column
+- Uses each topic's own `context` text as reference for scoring.
+
+### Dell Configuration Evaluation
+
+- Compares 1x1 vs 2x2 vs 4x4 variants.
+- Uses uploaded ground-truth markdown text as reference context.
+- Summary sections: Evaluates each component type (title, long_summary, short_summary) separately with a "Component" column
+- Supports single evaluation and bulk evaluation.
+
+### Dell_Config_no_GT
+
+- Compares 1x1 vs 2x2 vs 4x4 without ground-truth markdown.
+- Uses per-topic `context` as reference.
+- Summary sections: Evaluates each component type (title, long_summary, short_summary) separately with a "Component" column
+
+---
+
+## 5) Core quality dimensions (existing 1-5 heuristic scores)
+
+For each artifact text, six heuristic dimensions are computed:
+
+1. Faithfulness
+2. Coverage
+3. Relevance
+4. Conciseness
+5. Clarity
+6. Structure
+
+Overall score = median of the six dimensions.
+
+Label mapping:
+
+- Excellent: Overall >= 4.5 and minimum dimension >= 4
+- Acceptable: Overall >= 4.0 and minimum dimension >= 3
+- Needs review: Overall < 3.0 or minimum dimension <= 2
+- Mixed: all other cases
+
+---
+
+## 6) Additional metrics: definitions and formulas
+
+### 6.1 Summary metrics
+
+1) **ROUGE-1**
+
+- Purpose: lexical overlap between generated summary and reference context.
+- Implementation: unigram overlap recall approximation.
+- Formula: overlap of token counts divided by reference token count.
+- Range: 0 to 1 (higher is better).
+
+2) **ROUGE-L**
+
+- Purpose: sequence-level overlap quality.
+- Implementation: longest common subsequence (LCS) recall approximation.
+- Formula: LCS length divided by reference token count.
+- Range: 0 to 1 (higher is better).
+
+3) **BERTScore** (optional)
+
+- Purpose: semantic similarity beyond exact token matching.
+- Implementation: computed only if `bert-score` package is available.
+- Output: F1-style semantic score (0 to 1).
+- If dependency is unavailable or computation fails, output is `N/A`.
+
+4) **Compression Ratio**
+
+- Purpose: how much the summary compresses the source context.
+- Formula: summary_token_count / context_token_count.
+- Interpretation: lower values are more concise; extremely low can indicate under-summary.
+
+5) **TF-IDF Overlap**
+
+- Purpose: weighted lexical similarity favoring informative terms.
+- Implementation:
+  - cosine similarity of TF-IDF vectors when `scikit-learn` is available,
+  - fallback to token-set overlap approximation if unavailable.
+- Range: 0 to 1 (higher is better).
+
+### 6.2 FAQ metrics
+
+1) **Question Relevance**
+
+- Purpose: whether FAQ questions are grounded in the reference context.
+- Implementation: median context-vs-question TF-IDF similarity across FAQ items.
+- Range: 0 to 1 (higher is better).
+
+2) **Answer Correctness**
+
+- Purpose: whether answers align with the reference context.
+- Implementation: median context-vs-answer TF-IDF similarity across FAQ items.
+- Range: 0 to 1 (higher is better).
+
+3) **Redundancy Score**
+
+- Purpose: how repetitive the FAQ set is.
+- Implementation: median pairwise lexical similarity of FAQ Q+A text.
+- Range: 0 to 1.
+- Interpretation: higher means more redundant; lower means more diverse/less repetitive.
+
+### 6.3 Keyword metrics
+
+1) **Precision@K**
+
+- Purpose: quality of top-K predicted keywords.
+- Formula: matched_top_k_keywords / k, where match is token presence in reference context.
+- Range: 0 to 1 (higher is better).
+
+2) **Recall@K**
+
+- Purpose: coverage of important reference terms by top-K predicted keywords.
+- Implementation: compare predicted top-K terms with top-K frequent reference terms.
+- Formula: overlap_with_reference_top_k / reference_top_k_count.
+- Range: 0 to 1 (higher is better).
+
+3) **TF-IDF Overlap**
+
+- Purpose: semantic/importance-weighted alignment of keyword set with context.
+- Implementation: TF-IDF cosine similarity (with fallback approximation).
+- Range: 0 to 1 (higher is better).
+
+### 6.4 Entity metrics
+
+1) **NER F1**
+2) **Entity Linking Accuracy**
+
+Current behavior:
+
+- These require explicit entity-level ground-truth labels / linking targets.
+- If such labels are not available in input data, both are reported as `N/A`.
+
+### 6.5 Classification metrics
+
+1) **Accuracy**
+2) **Precision**
+3) **Recall**
+4) **F1**
+5) **Confusion Matrix**
+
+Current behavior:
+
+- These require true class labels.
+- If labels are unavailable in the evaluated flow, values are `N/A` and confusion matrix is not meaningful.
+
+### 6.6 Sentiment metrics
+
+1) **Sentiment_Language**
+
+- Purpose: Identifies whether sentiment content is in English (evaluable) or another language (ignored).
+- Values:
+  - `"English"` — sentiment in English, eligible for quality evaluation.
+  - `"Ignored (Language Name)"` — non-English sentiment, excluded from evaluation (e.g., "Ignored (Spanish)").
+  - `"Partially Ignored (X non-English, Y English)"` — mixed languages detected; only English entries evaluated.
+  - `"No Sentiment Data"` — no sentiment found in the topic.
+- Why: prevents false quality signals from multi-lingual content contamination.
+
+2) **Sentiment_Score_Validity**
+
+- Purpose: validates that sentiment scores are within the acceptable range.
+- Range: 0.0 to 1.0 (1.0 = valid, 0.5 = outside range, 0.0 = missing).
+- Median across multiple sentiments per topic.
+- Reported as 0.0 when Sentiment_Language is "Ignored".
+
+3) **Sentiment_Summary_Relevance**
+
+- Purpose: measures how well the sentiment summary aligns with the source context.
+- Implementation: TF-IDF overlap between sentiment summary and topic context.
+- Range: 0.0 to 1.0 (higher is better).
+- Only evaluated for English-language sentiments.
+- Median across multiple sentiments per topic.
+
+---
+
+## 7) `N/A` behavior (important)
+
+A metric is shown as `N/A` when it cannot be computed safely, for example:
+
+- optional dependency not installed (example: BERTScore)
+- missing required labels/ground truth (entity and classification label metrics)
+- invalid/empty comparison inputs for that metric
+
+This is intentional to avoid misleading proxy values.
+
+---
+
+## 8) Output tables and Excel
+
+All evaluation sections now export tables with the new metric columns included.
+
+- Single-run tables in UI include the additional metrics.
+- Excel downloads include the same expanded columns.
+- Bulk evaluation exports also include the additional metric columns.
+
+---
+
+## 9) Dependencies and fallbacks
+
+Current design is dependency-light with graceful fallback:
+
+- Required baseline: `streamlit`, `pandas`, `langdetect`, `pycountry`, `xlsxwriter`
+- Optional: `scikit-learn` (better TF-IDF similarity)
+- Optional: `bert-score` (BERTScore semantic metric)
+
+If optional packages are unavailable, the app still runs and reports fallback values or `N/A` as documented above.
+
+---
+
+## 10) Interactive metric info buttons
+
+Each attribute section header has a small *i* button rendered next to the title. Clicking it opens a modal dialog with definitions for every metric shown in that section.
+
+**Coverage**: All 21 table headers across all three evaluation sections:
+- Quality Evaluation: Summary, FAQ, Keyword, Entity, Classification, Sentiment (6 buttons)
+- Dell Configuration Evaluation (bulk): Summary, FAQ, Keyword, Entity, Classification (5 buttons)
+- Dell Configuration Evaluation (single): Summary, FAQ, Keyword, Entity, Classification (5 buttons)
+- Dell_Config_no_GT: Summary, FAQ, Keyword, Entity, Classification (5 buttons)
+
+**Total metrics documented**: 63 across 6 attribute types.
+
+- Summary: 8 base dimensions + 5 additional (ROUGE-1, ROUGE-L, BERTScore, Compression Ratio, TF-IDF Overlap)
+- FAQ: 8 base dimensions + FAQ_Count + 3 additional (Question Relevance, Answer Correctness, Redundancy Score)
+- Keyword: 8 base dimensions + Keyword_Count + 3 additional (Precision@K, Recall@K, TF-IDF Overlap)
+- Entity: 8 base dimensions + Entity_Count + 2 additional (NER F1, Entity Linking Accuracy)
+- Classification: 8 base dimensions + Classification_Count + 4 additional (Accuracy, Precision, Recall, F1)
+- Sentiment: Sentiment_Language, Sentiment_Score_Validity, Sentiment_Summary_Relevance, Sentiment_Count

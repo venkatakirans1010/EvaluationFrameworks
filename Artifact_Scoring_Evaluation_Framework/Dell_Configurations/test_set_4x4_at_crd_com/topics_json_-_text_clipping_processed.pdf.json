@@ -1,0 +1,179 @@
+{
+  "customer_id": "test_set_4x4@crd.com",
+  "document_id": "592af419-3527-43dc-a7fb-691f4d7b4210",
+  "document_name": "text_clipping_processed.pdf",
+  "organization_name": "Booz Allen",
+  "account_name": "Default Account",
+  "application_name": "Booz Allen AI Atomization Service",
+  "vpub_name": "Default VPUB",
+  "topics": [
+    {
+      "topic_id": "16478a41-00c7-4e8d-b2cd-15a54e670c8a",
+      "document_id": "592af419-3527-43dc-a7fb-691f4d7b4210",
+      "title": "Page 1",
+      "context": "<div>\n<p>Fill text</p>\n<p>Stroke text</p>\n<p>Fill, then stroke text</p>\n<p>Fill text and add to path for clipping</p>\n<p>Stroke text and add to path for clipping</p>\n<p>Fill, then stroke text and add to path for clipping</p>\n<p>Add text to path for clipping</p>\n<p>HTML Fill text</p>\n<p>HTML Stroke text</p>\n<p>HTML Fill, then stroke text</p>\n</div>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/test_set_4x4@crd.com/original_assets/text_clipping_processed.pdf_chunks/text_clipping_processed-chunked-files/text_clipping_processed_page_1-1.pdf",
+        "sort_number": "10"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "3174cb59-963d-4884-86f6-97812f0a3e1f",
+            "sentiment": "neutral",
+            "summary": "List of text rendering operations.",
+            "score": 0.92
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "78fdb3c9-367c-4a1c-aa83-2ac70efa05bc",
+              "question": "What does the item \"Fill text\" refer to?",
+              "answer": "It is the first item listed in the provided content."
+            },
+            {
+              "id": "00efbe0b-129f-413f-988e-a97432e637f7",
+              "question": "What does the item \"Stroke text\" refer to?",
+              "answer": "It is the second item listed in the provided content."
+            },
+            {
+              "id": "085fe747-9c0d-4b6b-b04c-197091792673",
+              "question": "What does the item \"Fill, then stroke text\" refer to?",
+              "answer": "It is the third item listed in the provided content."
+            },
+            {
+              "id": "5df64b02-9a34-4d2f-92ed-b2dcf0d319d7",
+              "question": "What does the item \"Fill text and add to path for clipping\" refer to?",
+              "answer": "It is the fourth item listed in the provided content."
+            },
+            {
+              "id": "3bdba3fd-22c0-454f-bec0-8b21209c1242",
+              "question": "What does the item \"Stroke text and add to path for clipping\" refer to?",
+              "answer": "It is the fifth item listed in the provided content."
+            },
+            {
+              "id": "edcbb9a0-6fba-4dfb-b7be-8a165a30c844",
+              "question": "What does the item \"Fill, then stroke text and add to path for clipping\" refer to?",
+              "answer": "It is the sixth item listed in the provided content."
+            },
+            {
+              "id": "b5e0c9cb-8ecb-4832-993b-fe50987d9b9c",
+              "question": "What does the item \"Add text to path for clipping\" refer to?",
+              "answer": "It is the seventh item listed in the provided content."
+            },
+            {
+              "id": "3f6d5b93-13f6-469b-bb88-f97fdb1872df",
+              "question": "What does the item \"HTML Fill text\" refer to?",
+              "answer": "It is the eighth item listed in the provided content."
+            },
+            {
+              "id": "a0e434c1-cd7e-4a1e-87bb-be649b5dd97b",
+              "question": "What does the item \"HTML Stroke text\" refer to?",
+              "answer": "It is the ninth item listed in the provided content."
+            },
+            {
+              "id": "7598baa9-8b83-4592-b0de-f8d5392a1b62",
+              "question": "What does the item \"HTML Fill, then stroke text\" refer to?",
+              "answer": "It is the tenth item listed in the provided content."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "508041b3-22ff-426d-8ad1-c2e7ddbad95f",
+              "keyword": "Fill text",
+              "score": 0.99
+            },
+            {
+              "id": "67e90524-40e9-4447-b62b-e90730f111da",
+              "keyword": "Stroke text",
+              "score": 0.99
+            },
+            {
+              "id": "ecb7d69c-2c5b-4928-a0c0-42da89ffd496",
+              "keyword": "Fill, then stroke text",
+              "score": 0.98
+            },
+            {
+              "id": "aa1dbb97-03fa-4e1d-94c4-9c920acb0b6a",
+              "keyword": "Fill text and add to path for clipping",
+              "score": 0.97
+            },
+            {
+              "id": "5df69cf7-1b89-4fa1-884a-7c17f4c39791",
+              "keyword": "Stroke text and add to path for clipping",
+              "score": 0.97
+            },
+            {
+              "id": "c2cefc96-1780-48d8-9ff9-198a44c143de",
+              "keyword": "Add text to path for clipping",
+              "score": 0.96
+            },
+            {
+              "id": "2cf7d888-e3d6-437a-9140-1a23cb268844",
+              "keyword": "HTML Fill text",
+              "score": 0.95
+            },
+            {
+              "id": "30c4e510-3899-43ca-aa7e-fa6da01dfc50",
+              "keyword": "HTML Stroke text",
+              "score": 0.95
+            },
+            {
+              "id": "7b0c8944-88e6-4e5b-99ee-ac0515794354",
+              "keyword": "HTML Fill, then stroke text",
+              "score": 0.94
+            },
+            {
+              "id": "9e5a9594-a52f-4346-bee5-9a48d060f7fb",
+              "keyword": "Fill, then stroke text and add to path for clipping",
+              "score": 0.93
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "22c97fad-d321-4a70-9041-be0a3699ec4b",
+            "title": "Text Rendering Operations Overview",
+            "long_summary": "The provided content enumerates various text rendering techniques commonly used in graphics and web contexts. It includes basic operations such as filling text, stroking text, and combining both fill and stroke in sequence. Additionally, it covers advanced usage where text is added to a path for clipping purposes, either by filling, stroking, or both before clipping. The list also references HTML-specific methods for filling, stroking, and combined fill‑stroke operations. Each line represents a distinct approach to rendering text, highlighting how different combinations of fill, stroke, and clipping can be applied to achieve varied visual effects.",
+            "short_summary": "List of text rendering and clipping methods"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "99250682-0d87-445f-8900-d2d05fa9f51c",
+              "classification": "Web Development",
+              "score": 0.99
+            },
+            {
+              "id": "e00d4d61-dc8d-48c1-9aaa-c3c99c7c19a5",
+              "classification": "Graphics Programming",
+              "score": 0.95
+            },
+            {
+              "id": "f930148d-dce0-4ea4-afa8-f303ede7d20a",
+              "classification": "Text Rendering",
+              "score": 0.93
+            },
+            {
+              "id": "29659a24-d6c9-43c7-afeb-18ab6caa727a",
+              "classification": "Canvas API",
+              "score": 0.9
+            },
+            {
+              "id": "93abee1b-8926-4120-96b7-c6e69c6751ef",
+              "classification": "SVG",
+              "score": 0.85
+            }
+          ]
+        },
+        {
+          "entities": []
+        }
+      ]
+    }
+  ]
+}

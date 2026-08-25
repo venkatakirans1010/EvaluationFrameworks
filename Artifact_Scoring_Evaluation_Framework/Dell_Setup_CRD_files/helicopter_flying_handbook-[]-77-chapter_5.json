@@ -1,0 +1,1280 @@
+{
+  "customer_id": "FAA@crd.com",
+  "document_id": "00f8620f-d2b4-473c-b80e-4b9afe5e457c",
+  "document_name": "helicopter_flying_handbook-[]-77-Chapter 5 Rotorcraft Flight Manual.pdf",
+  "organization_name": "Booz Allen",
+  "account_name": "Default Account",
+  "application_name": "Booz Allen AI Atomization Service",
+  "vpub_name": "Default VPUB",
+  "meta_data": {
+    "gen_ai": {
+      "model": "gpt-oss-20b",
+      "llm_id": 27,
+      "completed_at": "2026-02-26T10:33:31.131351+00:00",
+      "triggered_at": "2026-02-26T10:32:10.994762+00:00",
+      "model_provider": "self_hosted",
+      "last_triggered_at": "2026-02-26T10:32:10.994772+00:00"
+    },
+    "llm_id": 27,
+    "aiModel": "chandra",
+    "file_url": "s3://thailand-boozallen-ai-topiclake/FAA@crd.com/original_assets/helicopter_flying_handbook-[]-77-Chapter 5 Rotorcraft Flight Manual.pdf",
+    "language": "english",
+    "llm_model": "gpt-oss-20b",
+    "atomization": {
+      "enabled": true,
+      "service": "boozallen_ai_atomization_service",
+      "language": "english",
+      "model_name": "chandra",
+      "prompt_url": "s3://thailand-boozallen-ai-atomization-service-bucket/self_hosted_models_prompts/prompt_chandra.json",
+      "initiated_at": "2026-02-26T09:59:23.466653+00:00",
+      "instructions": null,
+      "model_provider": "SELF_HOSTED",
+      "prompt_version": "MULTILINGUAL_v2",
+      "instructions_provided": false
+    },
+    "auto_gen_ai": true,
+    "gantt_chart": {
+      "artifacts": {
+        "end": "2026-02-26T10:33:31.131351+00:00",
+        "start": "2026-02-26T10:32:10.994772+00:00"
+      },
+      "atomization": {
+        "end": "2026-02-26T10:32:10.879852+00:00",
+        "start": "2026-02-26T10:12:31.249051+00:00",
+        "queued_at": "2026-02-26T09:59:23.881902+00:00",
+        "total_atoms": 6,
+        "completed_atoms": 6
+      },
+      "pdf_splitting": {
+        "end": "2026-02-26T09:59:23.741366+00:00",
+        "start": "2026-02-26T09:59:23.519318+00:00",
+        "chunks": 6
+      }
+    },
+    "total_atoms": 6,
+    "llm_provider": "self_hosted",
+    "pipeline_timing": {
+      "queuing": {
+        "end": "2026-02-26T09:59:23.914534+00:00",
+        "start": "2026-02-26T09:59:23.881902+00:00",
+        "atoms_failed": 0,
+        "atoms_queued": 6
+      },
+      "split_pdf": {
+        "end": "2026-02-26T09:59:23.741366+00:00",
+        "start": "2026-02-26T09:59:23.519318+00:00",
+        "chunks_created": 6
+      },
+      "atomization": {
+        "total_atoms": 6,
+        "completed_at": "2026-02-26T10:32:10.879852+00:00",
+        "completed_atoms": 6,
+        "first_gpu_started_at": "2026-02-26T10:12:31.249051+00:00"
+      }
+    },
+    "service_version": "1.0.0",
+    "genai_total_atoms": 6,
+    "atomization_status": "green",
+    "processing_timestamp": "2026-02-26T09:59:23.466653+00:00",
+    "genai_progress_status": "yellow",
+    "atomization_percentage": 100,
+    "atoms_with_description": 6,
+    "genai_total_artifacts_generated": 164
+  },
+  "topics": [
+    {
+      "topic_id": "3a65c60b-ac5f-4b64-8b2a-d50256273608",
+      "document_id": "00f8620f-d2b4-473c-b80e-4b9afe5e457c",
+      "title": "Page 2",
+      "context": "However, if “Pilot’s Operating Handbook” is used as the main title instead of “Rotorcraft Flight Manual,” a statement must be included on the title page indicating that the document is the Federal Aviation Administration (FAA) approved Rotorcraft Flight Manual (RFM). [Figure 5-1]\nNot including the preliminary pages, an FAA-approved RFM may contain as many as ten sections. These sections are: General Information; Operating Limitations; Emergency Procedures; Normal Procedures; Performance; Weight and Balance; Aircraft and Systems Description; Handling, Servicing, and Maintenance Supplements; and Safety and Operational Tips. Manufacturers have the option of including a tenth section on safety and operational tips and an alphabetical index at the end of the handbook.\n**Preliminary Pages**\nWhile RFMs may appear similar for the same make and model of aircraft, each flight manual is unique since it contains specific information about a particular aircraft, such as the equipment installed, and weight and balance information. Therefore, manufacturers are required to include the serial number and registration on the title page to identify the aircraft to which the flight manual belongs. If a flight manual does not indicate a specific aircraft registration and serial number, it is limited to general study purposes only.\nMost manufacturers include a table of contents, which identifies the order of the entire manual by section number and title. In addition, some helicopters may include a log of changes or a revision page to track changes to the manual. Usually, each section also contains its own table of contents. Page numbers reflect the section being read, 1-1, 2-1, 3-1, and so on. If the flight manual is published in looseleaf form, each section is usually marked with a divider tab indicating the section number or title, or both. The emergency procedures section may have a red tab for quick identification and reference.\n**General Information (Section 1)**\nThe general information section provides the basic descriptive information on the rotorcraft and the powerplant. In some manuals there is a three-view drawing of the rotorcraft that provides the dimensions of various components, including the overall length and width, and the diameter of the rotor systems. This is a good place for pilots to quickly familiarize themselves with the aircraft. Pilots need to be aware of the dimensions of the helicopter since they often must decide the suitability of an operations area for themselves, as well as hanger space, landing pad, and ground handling needs.\nPilots can find definitions, abbreviations, explanations of symbology, and some of the terminology used in the manual at the end of this section. At the option of the manufacturer, metric and other conversion tables may also be included.\n**Operating Limitations (Section 2)**\nThe operating limitations section contains only those limitations required by regulation or that are necessary for the safe operation of the rotorcraft, powerplant, systems, and equipment. It includes operating limitations, instrument markings, color coding, and basic placards. Some of the areas included are: airspeed, altitude, rotor, and powerplant limitations, including fuel and oil requirements; weight and loading distribution; and flight limitations.\n**Instrument Markings**\nInstrument markings may include, but are not limited to, green, red, and yellow ranges for the safe operation of the aircraft. The green marking indicates a range of continuous operation. The red range indicates the maximum or minimum operation allowed while the yellow range indicates a caution or transition area.\n**Airspeed Limitations**\nAirspeed limitations are shown on the airspeed indicator by color coding and on placards or graphs in the aircraft. A red line on the airspeed indicator shows the airspeed limit beyond which structural damage could occur. This is called the never exceed speed, or V<sub>NE</sub>. The normal operating speed range is depicted by a green arc. A blue or a red cross-hatched line is sometimes added to show the maximum autorotation speed. [Figure 5-2]\nOther airspeed limitations may be included in this section of the RFM. Examples include reduced V<sub>NE</sub> when doors are removed, maximum airspeed for level flight with maximum continuous power (V<sub>H</sub>), or restrictions when carrying an external load. Pilots need to understand and adhere to all airspeed limitations appropriate to the make, model, and configuration of the helicopter being flown.\n<div>\n<img alt=\"Figure 5-1 shows several Rotorcraft Flight Manuals (RFMs) for different helicopter models, including Robinson R22, Bell 206L, and Schweizer 300B, illustrating that RFMs are regulatory documents detailing maneuvers, procedures, and operating limitations.\"/>\n<p><b>Figure 5-1.</b> The RFM is a regulatory document in terms of the maneuvers, procedures, and operating limitations described therein.</p>\n</div>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/FAA@crd.com/original_assets/helicopter_flying_handbook-[]-77-Chapter 5 Rotorcraft Flight Manual.pdf_chunks/helicopter_flying_handbook-[]-77-Chapter 5 Rotorcraft Flight Manual-chunked-files/helicopter_flying_handbook-[]-77-Chapter 5 Rotorcraft Flight Manual_page_2-2.pdf",
+        "sort_number": "20"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "f784345b-2bf2-41cb-aabe-04c905e6f8a6",
+            "sentiment": "neutral",
+            "summary": "The text outlines FAA‑approved rotorcraft flight manual structure, sections, preliminary pages, and details on general info, operating limitations, instrument markings, and airspeed limits.",
+            "score": 0.99
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "bd8489e2-2138-435d-b633-ca14211ba831",
+              "question": "What statement must be included on the title page if the manual is titled “Pilot’s Operating Handbook” instead of “Rotorcraft Flight Manual”?",
+              "answer": "A statement must be included indicating that the document is the Federal Aviation Administration (FAA) approved Rotorcraft Flight Manual (RFM)."
+            },
+            {
+              "id": "f02cedfb-f932-4052-81f8-08cee6326fa5",
+              "question": "How many sections can an FAA‑approved Rotorcraft Flight Manual contain and what are they?",
+              "answer": "An FAA‑approved RFM may contain up to ten sections: General Information; Operating Limitations; Emergency Procedures; Normal Procedures; Performance; Weight and Balance; Aircraft and Systems Description; Handling, Servicing, and Maintenance Supplements; Safety and Operational Tips (optional); and an alphabetical index (optional)."
+            },
+            {
+              "id": "bd75e676-be5e-4090-8172-04ab9ec95042",
+              "question": "Is the “Safety and Operational Tips” section required in every RFM?",
+              "answer": "No, the Safety and Operational Tips section is optional; manufacturers may include it as a tenth section."
+            },
+            {
+              "id": "7e66ca21-516f-458c-8500-5440a566d577",
+              "question": "What information must appear on the title page to identify the specific aircraft?",
+              "answer": "The title page must include the aircraft’s serial number and registration."
+            },
+            {
+              "id": "57405d71-7539-4df9-a2c1-deec0bd0dc9f",
+              "question": "How are pages numbered in a Rotorcraft Flight Manual?",
+              "answer": "Page numbers reflect the section being read, using a format such as 1‑1, 2‑1, 3‑1, and so on."
+            },
+            {
+              "id": "55bb7844-66c9-448d-aaaa-cf356a47e90b",
+              "question": "What visual cue is used to identify the Emergency Procedures section in a loose‑leaf RFM?",
+              "answer": "The Emergency Procedures section may have a red tab for quick identification."
+            },
+            {
+              "id": "b2b9d0ea-abb2-4e87-80dc-8ece20818891",
+              "question": "What type of information is found in the General Information (Section 1) of an RFM?",
+              "answer": "Section 1 provides basic descriptive information on the rotorcraft and powerplant, including three‑view drawings with dimensions, definitions, abbreviations, symbology, terminology, and optionally metric conversion tables."
+            },
+            {
+              "id": "dbff86b3-1b9b-430c-9115-1d39d968568b",
+              "question": "What do the green, red, and yellow instrument markings indicate?",
+              "answer": "Green markings indicate a range of continuous operation, red markings indicate the maximum or minimum operation allowed, and yellow markings indicate a caution or transition area."
+            },
+            {
+              "id": "97c702cc-189c-4d38-a878-f3f3b7a8c7ed",
+              "question": "What does the red line on the airspeed indicator represent?",
+              "answer": "The red line shows the never‑exceed speed (Vₙₑ), beyond which structural damage could occur."
+            },
+            {
+              "id": "70d42e3c-e151-46c8-8ea8-c128b90b90b5",
+              "question": "Are there additional airspeed limitations that might be listed besides Vₙₑ?",
+              "answer": "Yes, the manual may include other limitations such as reduced Vₙₑ when doors are removed, maximum airspeed for level flight with maximum continuous power (Vₕ), and restrictions when carrying an external load."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "97cea6bf-c8c5-41a2-aef2-94f32511b76c",
+              "keyword": "Rotorcraft Flight Manual (RFM)",
+              "score": 0.99
+            },
+            {
+              "id": "f66e0c91-c109-40de-b904-7490e081c68d",
+              "keyword": "FAA-approved",
+              "score": 0.96
+            },
+            {
+              "id": "12e34787-b193-4c6b-98be-3b3ab32f1d6d",
+              "keyword": "Operating Limitations",
+              "score": 0.95
+            },
+            {
+              "id": "69d835ff-4f58-4003-9d5c-d44638362583",
+              "keyword": "Emergency Procedures",
+              "score": 0.94
+            },
+            {
+              "id": "77496b2e-20c8-40e9-b223-62c861954bbd",
+              "keyword": "General Information",
+              "score": 0.93
+            },
+            {
+              "id": "59e6384c-7695-4cc7-b62e-f400ef476801",
+              "keyword": "Weight and Balance",
+              "score": 0.92
+            },
+            {
+              "id": "9a887ee2-675c-409f-8fa2-ec0e7135978c",
+              "keyword": "Aircraft and Systems Description",
+              "score": 0.91
+            },
+            {
+              "id": "109a3b42-75ec-46f2-b0c6-7307248d4fd3",
+              "keyword": "V_NE (never exceed speed)",
+              "score": 0.9
+            },
+            {
+              "id": "1088d3f8-0299-47dd-a298-fbb6f59d8129",
+              "keyword": "Pilot's Operating Handbook",
+              "score": 0.89
+            },
+            {
+              "id": "5b9a96af-66b6-498b-b753-58f5a1090d72",
+              "keyword": "Safety and Operational Tips",
+              "score": 0.88
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "b4467f20-74d4-4d86-864b-3fd1e4dee443",
+            "title": "Structure and Content Requirements of FAA‑Approved Rotorcraft Flight Manuals",
+            "long_summary": "An FAA‑approved Rotorcraft Flight Manual (RFM) must identify the specific aircraft by serial number and registration on the title page; if the title uses \"Pilot’s Operating Handbook\" instead of \"Rotorcraft Flight Manual,\" a statement confirming FAA approval is required. The manual can contain up to ten sections, not counting preliminary pages: General Information; Operating Limitations; Emergency Procedures; Normal Procedures; Performance; Weight and Balance; Aircraft and Systems Description; Handling, Servicing, and Maintenance Supplements; Safety and Operational Tips; and an alphabetical index (optional). Preliminary pages typically include a table of contents, a revision or change log, and page‑numbering that reflects the section (e.g., 1‑1, 2‑1). Loose‑leaf manuals use divider tabs, often with a red tab for Emergency Procedures. \n\n**General Information (Section 1)** provides basic aircraft and power‑plant data, often with a three‑view drawing showing dimensions, rotor diameter, and other key measurements. It also contains definitions, abbreviations, symbology, and optional metric conversion tables. \n\n**Operating Limitations (Section 2)** lists all regulatory and safety limits for the rotorcraft, including airspeed, altitude, rotor, power‑plant, fuel, oil, weight, and loading restrictions. Instrument markings are described, with green indicating normal continuous operation, yellow a caution or transition zone, and red the absolute limit. Airspeed limits are shown on the airspeed indicator and placards: the red line marks V_NE (never‑exceed speed), the green arc denotes the normal operating range, and additional markings may indicate maximum autorotation speed or reduced limits when doors are removed or external loads are carried. Pilots must understand and adhere to these limits for safe operation. \n\nOverall, each RFM is unique to its aircraft configuration, and manufacturers must follow these structural and content guidelines to ensure compliance with FAA regulations and to provide pilots with clear, organized, and accurate operational information.",
+            "short_summary": "Key sections and formatting rules for FAA rotorcraft manuals."
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "e5737488-6bac-4ccb-be34-8b682dbb7bac",
+              "classification": "Aviation",
+              "score": 0.98
+            },
+            {
+              "id": "a56a31e6-afe9-49d3-9763-4821bd67be5d",
+              "classification": "Aircraft Documentation / Flight Manuals",
+              "score": 0.97
+            },
+            {
+              "id": "aa933b58-6834-4d80-b8f6-c2fd5e37c2cc",
+              "classification": "Regulatory Compliance (FAA)",
+              "score": 0.94
+            },
+            {
+              "id": "4a6eb141-ed42-4aa3-8fff-7eb5f29bb32f",
+              "classification": "Flight Operations & Pilot Procedures",
+              "score": 0.95
+            },
+            {
+              "id": "b4b12b6a-5e8e-41f6-83c4-287b15dc6a62",
+              "classification": "Aviation Safety",
+              "score": 0.9
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "9e47f7a5-fa0e-4994-86e4-a5b875daf7ad",
+              "label": "Federal Aviation Administration",
+              "type": "ORGANIZATION"
+            },
+            {
+              "id": "1e710cb1-f8ae-4840-a6d3-de1e940bb33d",
+              "label": "FAA",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "8101b347-0c05-4098-bc3a-43538f50aac1",
+              "label": "Rotorcraft Flight Manual",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "7f2fc022-b7fa-4eb8-abcb-199c6d14d004",
+              "label": "RFM",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "3cf03e7c-b7b4-4c6b-b30e-77beb8991aaa",
+              "label": "Pilot’s Operating Handbook",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "9164a0b9-b144-4a7d-a35e-831b9afa54df",
+              "label": "Robinson R22",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "99576212-9bee-4cb3-8beb-07b536cb6def",
+              "label": "Bell 206L",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "aa1b3cee-d43c-41c1-a7b5-94a7745452d9",
+              "label": "Schweizer 300B",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "40c15a10-a789-4192-8f0b-82afdd315268",
+              "label": "Robinson",
+              "type": "COMPANY"
+            },
+            {
+              "id": "49703617-bf2b-4f0d-89ee-8e9545852c34",
+              "label": "Bell",
+              "type": "COMPANY"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": "634ed5b5-1597-48c1-a3eb-c98584004efa",
+      "document_id": "00f8620f-d2b4-473c-b80e-4b9afe5e457c",
+      "title": "Page 3",
+      "context": "<div>\n<img alt=\"Figure 5-2: Typical airspeed indicator limitations and markings. The gauge shows airspeed in knots (0 to 200) and MPH (0 to 320). The outer green arc indicates 0 to 130 Knots (0 to 150 MPH) continuous operation. The red arc indicates 130 Knots (150 MPH) maximum. The blue arc indicates 100 Knots (115 MPH) maximum for autorotation.\"/>\n<p><b>Figure 5-2.</b> Typical airspeed indicator limitations and markings.</p>\n<p><b>Airspeed-knots</b></p>\n<ul>\n<li>0 to 130 Knots (0 to 150 MPH) continuous operation</li>\n<li>130 Knots (150 MPH) maximum</li>\n<li>100 Knots (115 MPH) maximum for autorotation</li>\n</ul>\n</div>\n<div>\n<img alt=\"Figure 5-3: Markings on a typical dual-needle tachometer in a reciprocating-engine helicopter. The outer band shows the limits of the superimposed needles when the engine is turning the rotor. The inner band indicates the power-off limits. The gauge shows RPM x100, with markings from 1 to 40. The outer band is green (normal operation) and red (maximum power). The inner band is green (power-off limits).\"/>\n<p><b>Figure 5-3.</b> Markings on a typical dual-needle tachometer in a reciprocating-engine helicopter. The outer band shows the limits of the superimposed needles when the engine is turning the rotor. The inner band indicates the power-off limits.</p>\n</div>\n<div>\n<h3>Altitude Limitations</h3>\n<p>If the rotorcraft has a maximum operating density altitude (see page 7-2), it is indicated in this section of the flight manual. Sometimes the maximum altitude varies based on different gross weights.</p>\n<h3>Rotor Limitations</h3>\n<p>Low rpm does not produce sufficient lift, and high rpm may cause structural damage, therefore rotor rpm limitations have minimum and maximum values. A green arc depicts the normal operating range with red lines showing the minimum and maximum limits. [Figure 5-3]</p>\n<p>There are two different rotor rpm limitations: power-on and power-off. Power-on limitations apply anytime the engine is turning the rotor and is depicted by a fairly narrow green band. A yellow arc may be included to show a transition range, which means that operation within this range is limited due to the possibility of increased vibrations or harmonics. This range may be associated with tailboom dynamic modes. Power-off limitations apply anytime the engine is not turning the rotor, such as when in an autorotation. In this case, the green arc is wider than the power-on arc, indicating a larger operating range.</p>\n<h3>Powerplant Limitations</h3>\n<p>The powerplant limitations area describes operating limitations on the helicopter's engine including such items as rpm range, power limitations, operating temperatures, and fuel and oil requirements. Most turbine engines and some reciprocating engines have a maximum power and a maximum continuous power rating. The “maximum power” rating is the maximum power the engine can generate and is usually limited by time. The maximum power range is depicted by a yellow arc on the engine power instruments, with a red line indicating the maximum power that must not be exceeded. “Maximum continuous power” is the maximum power the engine can generate continually and is depicted by a green arc. [Figure 5-4]</p>\n<p>Manifold pressure is a measure of vacuum at the intake manifold. It is the difference between the air pressure (or vacuum) inside the intake manifold and the relative atmospheric pressure of the air around the engine. The red line on a manifold pressure gauge indicates the maximum amount of power. A yellow arc on the gauge warns of pressures approaching the limit of rated power.</p>\n</div>\n<div>\n<img alt=\"Figure 5-4: Torque and turbine outlet temperature (TOT) gauges are commonly used with turbine-powered aircraft. The left gauge shows Torque in PERCENT (0 to 120) and the right gauge shows TURB OUT TEMP in degrees Celsius times 100 (0 to 900). Both gauges use green, yellow, and red arcs to indicate operating limits.\"/>\n<p><b>Figure 5-4.</b> Torque and turbine outlet temperature (TOT) gauges are commonly used with turbine-powered aircraft.</p>\n</div>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/FAA@crd.com/original_assets/helicopter_flying_handbook-[]-77-Chapter 5 Rotorcraft Flight Manual.pdf_chunks/helicopter_flying_handbook-[]-77-Chapter 5 Rotorcraft Flight Manual-chunked-files/helicopter_flying_handbook-[]-77-Chapter 5 Rotorcraft Flight Manual_page_3-3.pdf",
+        "sort_number": "30"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "bd41c938-605c-46c8-9d01-449c1d47fd6d",
+            "sentiment": "neutral",
+            "summary": "Technical overview of helicopter instrument markings and operational limits for airspeed, rotor rpm, powerplant, torque, and temperature gauges.",
+            "score": 0.97
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "d488f847-7d09-46db-a9cc-c3d3fd6dc7e4",
+              "question": "What is the continuous‑operation airspeed range shown on the airspeed indicator?",
+              "answer": "The continuous‑operation range is indicated by the green arc and covers 0 to 130 knots (0 to 150 MPH)."
+            },
+            {
+              "id": "9c43d145-2d93-4fca-876c-6d4d8c3575e1",
+              "question": "What is the maximum airspeed the helicopter can reach, and how is it marked?",
+              "answer": "The maximum airspeed is 130 knots (150 MPH) and is marked by a red arc on the airspeed indicator."
+            },
+            {
+              "id": "3a0e27c7-75a1-41bb-845c-1730f2c4a69e",
+              "question": "What is the airspeed limit for autorotation?",
+              "answer": "Autorotation is limited to 100 knots (115 MPH), shown by a blue arc on the airspeed indicator."
+            },
+            {
+              "id": "dc59c7eb-ba97-45e5-8115-d9de7f22bf5a",
+              "question": "How are rotor‑rpm limitations displayed on the tachometer?",
+              "answer": "The tachometer has two bands: an outer band (green for normal operation, red for maximum power) that applies when the engine is turning the rotor, and an inner band (green) that shows the power‑off limits for autorotation."
+            },
+            {
+              "id": "97a76d82-3aab-4bb4-995c-71714e671acb",
+              "question": "What is the difference between power‑on and power‑off rotor‑rpm limits?",
+              "answer": "Power‑on limits apply whenever the engine is turning the rotor and are shown by a narrow green arc (sometimes with a yellow transition arc for vibration‑prone ranges). Power‑off limits apply when the engine is not turning the rotor (autorotation) and are shown by a wider green arc."
+            },
+            {
+              "id": "3f7de119-499f-42f4-9e4f-03528081febe",
+              "question": "What does the yellow arc on power‑plant gauges indicate?",
+              "answer": "The yellow arc warns that the instrument is approaching the rated limit, such as maximum power on a turbine‑engine power gauge or approaching the maximum manifold‑pressure limit."
+            },
+            {
+              "id": "6d29fbc1-0c4f-483f-883b-def9786dd173",
+              "question": "How is the maximum power rating of an engine indicated on its gauges?",
+              "answer": "Maximum power is shown by a red line on the gauge, often accompanied by a yellow arc that marks the range up to that red line."
+            },
+            {
+              "id": "e3fb1e8b-9a8d-4c42-b6f0-e610ba2d986f",
+              "question": "What does the red line on a manifold‑pressure gauge represent?",
+              "answer": "The red line marks the maximum amount of power that may be produced; exceeding it is not permitted."
+            },
+            {
+              "id": "d49dd5ae-0b88-4ed1-a44e-a1f79c6996ae",
+              "question": "What information is provided by the torque and turbine‑outlet‑temperature (TOT) gauges?",
+              "answer": "The torque gauge displays torque as a percentage (0‑120 %) and the TOT gauge shows turbine outlet temperature in degrees Celsius × 100 (0‑900). Both use green, yellow, and red arcs to indicate normal, caution, and limit zones."
+            },
+            {
+              "id": "f8621bf1-bb46-46f7-ac98-09019493dd1e",
+              "question": "Where can I find the helicopter’s altitude limitations?",
+              "answer": "Altitude limitations are listed in the flight manual’s “Maximum Operating Density Altitude” section and may vary with different gross weights."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "a0de7fbc-07e1-4c66-a1ce-849c0aead77e",
+              "keyword": "airspeed indicator",
+              "score": 0.96
+            },
+            {
+              "id": "4a725a21-c1b4-4341-85af-0de0e01a8dd8",
+              "keyword": "rotor rpm limitations",
+              "score": 0.94
+            },
+            {
+              "id": "aac22326-d3c1-4b5b-a443-da5abf457ccf",
+              "keyword": "power-on limitations",
+              "score": 0.92
+            },
+            {
+              "id": "9fba1cea-010c-4af3-aa50-1093b188e193",
+              "keyword": "power-off limitations",
+              "score": 0.92
+            },
+            {
+              "id": "78b29f36-6320-49ed-8a73-75b0f8206bb2",
+              "keyword": "torque gauge",
+              "score": 0.9
+            },
+            {
+              "id": "ad0a4410-c4d6-4c47-bc61-755ac080b42f",
+              "keyword": "turbine outlet temperature (TOT)",
+              "score": 0.9
+            },
+            {
+              "id": "25aca0aa-8562-4113-a013-6ba88606ebfc",
+              "keyword": "manifold pressure",
+              "score": 0.88
+            },
+            {
+              "id": "f4720793-f019-4615-b2e7-943648d626e4",
+              "keyword": "maximum continuous power",
+              "score": 0.87
+            },
+            {
+              "id": "abaafd5e-f685-431e-9e53-eec3f5656abb",
+              "keyword": "dual-needle tachometer",
+              "score": 0.85
+            },
+            {
+              "id": "cf4ac3ec-dd23-4b81-a0b2-37075c7fdfa9",
+              "keyword": "density altitude",
+              "score": 0.84
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "630707f5-14d1-469e-adae-ecd3ebf4791c",
+            "title": "Helicopter Instrument Limitations and Operating Ranges",
+            "long_summary": "The excerpt outlines the standard markings and operating limits shown on several helicopter flight‑instrument gauges. Figure 5‑2 depicts an airspeed indicator calibrated in knots (0‑200) and MPH (0‑320). A green arc marks the normal continuous range (0‑130 kt / 0‑150 mph), a red arc the absolute maximum (130 kt / 150 mph), and a blue arc the autorotation limit (100 kt / 115 mph). Figure 5‑3 shows a dual‑needle tachometer for reciprocating‑engine helicopters; the outer green/red band indicates normal and maximum power‑on RPM, while the inner green band shows power‑off limits. \n\nAltitude limitations are noted in the flight manual and may vary with gross weight. Rotor‑rpm limits are presented with a green operating arc and red lines for minimum and maximum; power‑on limits are a narrow green band, possibly with a yellow transition arc indicating vibration‑sensitive ranges, whereas power‑off limits have a wider green arc. \n\nPowerplant limits cover engine RPM, power, temperature, and manifold pressure. Maximum power is shown by a yellow arc and a red line on the gauge; maximum continuous power is a green arc. Manifold pressure gauges use similar color coding, with red indicating the power ceiling and yellow warning of approaching limits. Figure 5‑4 illustrates torque (0‑120 %) and turbine‑outlet temperature (0‑900 °C × 100) gauges, both employing green, yellow, and red arcs to denote safe, caution, and prohibited zones.",
+            "short_summary": "Key instrument markings and rotor, powerplant limits."
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "a662b078-8ddb-4be4-bac6-0809dc6b9891",
+              "classification": "Aviation",
+              "score": 0.98
+            },
+            {
+              "id": "2ee86290-29e7-451b-a3f5-974fc05bfc76",
+              "classification": "Helicopter Operations",
+              "score": 0.94
+            },
+            {
+              "id": "00dd1bd5-c177-4253-a29c-ab262d8cf9bb",
+              "classification": "Aircraft Instrumentation",
+              "score": 0.96
+            },
+            {
+              "id": "382a3bd2-0c7f-420e-af14-76ddee10a8a9",
+              "classification": "Flight Safety and Limitations",
+              "score": 0.92
+            },
+            {
+              "id": "36d4ca37-9044-4002-a35d-1310c52624cb",
+              "classification": "Aeronautical Engineering",
+              "score": 0.88
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "a8482f3e-a523-410a-a083-dbb484c4db14",
+              "label": "RPM",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "e74edfea-1ebd-4565-8c31-62c6b74e7f25",
+              "label": "TOT",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "8417bd13-c202-4e5c-998a-97e41b2f810b",
+              "label": "MPH",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "78e98ffd-3a93-4435-b662-2ac1bb033bfe",
+              "label": "air‑speed indicator",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "b1342818-c71c-4986-8be1-2b8521bd466f",
+              "label": "dual‑needle tachometer",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "c0fec15f-602c-4bbf-bb01-e73710175a98",
+              "label": "rotorcraft",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "5414a5dd-0ab3-4ebe-8cd9-1430a6071b72",
+              "label": "helicopter",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "25906e19-90d8-4605-89dc-5f1f38f3e1c1",
+              "label": "manifold pressure gauge",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "9721c1ca-6c97-43ef-8a63-c2eadc04794d",
+              "label": "torque gauge",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "1f077769-94b1-47e7-8e89-f0b364a36ea6",
+              "label": "turbine outlet temperature gauge",
+              "type": "PRODUCT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": "84efbce9-a06b-44c3-8436-3ecf2bd00d11",
+      "document_id": "00f8620f-d2b4-473c-b80e-4b9afe5e457c",
+      "title": "Page 4",
+      "context": "[Figure 5-5] A placard near the gauge lists the maximum readings for specific conditions.\n## Weight and Loading Distribution\nThe weight and loading distribution section of the manufacturer's RFM contains the maximum certificated weights, as well as the center of gravity (CG) range. The location of the reference datum used in balance computations should also be included in this section. Weight and balance computations are not provided here, but rather in the weight and balance section of the RFM.\n## Flight Limitations\nThis area lists any maneuvers which are prohibited, such as acrobatic flight or flight into known icing conditions. If the rotorcraft can only be flown in visual flight rules (VFR) conditions, it is noted in this area. Also included are the minimum crew requirements, and the pilot seat location, if applicable, from which solo flights must be conducted.\n## Placards\nAll rotorcraft generally have one or more placards displayed that have a direct and important bearing on the safe operation of the rotorcraft. These placards are located in a conspicuous place within the cabin and normally appear in the limitations section. Since V<sub>NE</sub> varies with altitude, this placard can be found in all helicopters. [Figure 5-6]\n<div>\n<table border=\"1\">\n<thead>\n<tr>\n<th>Press Alt.<br/>(1,000 ft.)</th>\n<th colspan=\"7\">V<sub>NE</sub>—MPH IAS</th>\n<th>Gross<br/>Weight</th>\n</tr>\n<tr>\n<th>F OAT</th>\n<th>2</th>\n<th>4</th>\n<th>6</th>\n<th>8</th>\n<th>10</th>\n<th>12</th>\n<th>14</th>\n<th></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>0</td>\n<td>109</td>\n<td>109</td>\n<td>105</td>\n<td>84</td>\n<td>61</td>\n<td>--</td>\n<td>--</td>\n<td rowspan=\"4\">More<br/>than<br/>1,700 lb</td>\n</tr>\n<tr>\n<td>20</td>\n<td>109</td>\n<td>109</td>\n<td>94</td>\n<td>72</td>\n<td>49</td>\n<td>--</td>\n<td>--</td>\n</tr>\n<tr>\n<td>40</td>\n<td>109</td>\n<td>91</td>\n<td>70</td>\n<td>48</td>\n<td>--</td>\n<td>--</td>\n<td>--</td>\n</tr>\n<tr>\n<td>60</td>\n<td>109</td>\n<td>80</td>\n<td>59</td>\n<td>--</td>\n<td>--</td>\n<td>--</td>\n<td>--</td>\n</tr>\n<tr>\n<td>100</td>\n<td>109</td>\n<td>70</td>\n<td>48</td>\n<td>--</td>\n<td>--</td>\n<td>--</td>\n<td>--</td>\n<td rowspan=\"4\">1,700 lb<br/>or less</td>\n</tr>\n<tr>\n<td>0</td>\n<td>109</td>\n<td>109</td>\n<td>109</td>\n<td>109</td>\n<td>98</td>\n<td>77</td>\n<td>58</td>\n</tr>\n<tr>\n<td>20</td>\n<td>109</td>\n<td>109</td>\n<td>109</td>\n<td>96</td>\n<td>85</td>\n<td>67</td>\n<td>48</td>\n</tr>\n<tr>\n<td>40</td>\n<td>109</td>\n<td>109</td>\n<td>95</td>\n<td>74</td>\n<td>57</td>\n<td>--</td>\n<td>--</td>\n</tr>\n<tr>\n<td>60</td>\n<td>109</td>\n<td>109</td>\n<td>84</td>\n<td>66</td>\n<td>--</td>\n<td>--</td>\n<td>--</td>\n<td></td>\n</tr>\n<tr>\n<td>80</td>\n<td>109</td>\n<td>108</td>\n<td>84</td>\n<td>48</td>\n<td>--</td>\n<td>--</td>\n<td>--</td>\n<td></td>\n</tr>\n<tr>\n<td>100</td>\n<td>109</td>\n<td>108</td>\n<td>84</td>\n<td>48</td>\n<td>--</td>\n<td>--</td>\n<td>--</td>\n<td></td>\n</tr>\n</tbody>\n</table>\n<p>Maximum V<sub>NE</sub> Doors off—102 MPH IAS</p>\n<img alt=\"Graph titled 'NEVER EXCEED SPEED'. The vertical axis is speed (KIAS) from 50 to 110. The horizontal axis is Pressure Altitude (1,000 feet) from 0 to 14. Three curves show VNE decreasing with altitude. The curves are labeled with temperature conditions: +40°C, +20°C, and 0°C. The lowest curve is labeled MAX ALT.\"/>\n<p>Figure 5-6. Various VNE placards.</p>\n</div>\n<div>\n<img alt=\"A circular gauge labeled 'MANIFOLD PRESSURE' with units 'INCHES OF MERCURY'. The scale ranges from 5 to 35, with major markings at 10, 15, 20, 25, and 30. The needle points to approximately 22 inches of mercury.\"/>\n<p>Figure 5-5. The manifold pressure gauge is an engine instrument typically used in piston aircraft engines to measure the pressure inside the induction system of an engine. Manifold pressure is a measurement of vacuum and the measurement is taken at the intake manifold.</p>\n</div>\n## Emergency Procedures (Section 3)\nConcise checklists describing the recommended procedures and airspeeds for coping with various types of emergencies or critical situations can be found in this section. Some of the emergencies covered include: engine failure in a hover and at altitude, tail rotor failures, fires, and systems failures. The procedures for restarting an engine and for ditching in the water might also be included.\nManufacturers may first show the emergencies checklists in an abbreviated form with the order of items reflecting the sequence of action. This is followed by amplified checklists providing additional information to clarify the procedure. To be prepared for an abnormal or emergency situation, learn the first steps of each checklist, if not all the steps. If time permits, refer to the checklist to make sure all items have been covered. For more information on emergencies, refer to Chapter 11, Helicopter Emergencies and Hazards.\nManufacturers are encouraged to include an optional area titled Abnormal Procedures, which describes recommended procedures for handling malfunctions that are not considered to be emergencies. This information would most likely be found in larger helicopters.",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/FAA@crd.com/original_assets/helicopter_flying_handbook-[]-77-Chapter 5 Rotorcraft Flight Manual.pdf_chunks/helicopter_flying_handbook-[]-77-Chapter 5 Rotorcraft Flight Manual-chunked-files/helicopter_flying_handbook-[]-77-Chapter 5 Rotorcraft Flight Manual_page_4-4.pdf",
+        "sort_number": "40"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "698bb250-7746-4de2-ba4b-bab2ba2ff75f",
+            "sentiment": "neutral",
+            "summary": "The passage describes rotorcraft placards, weight limits, flight restrictions, VNE tables, manifold pressure gauge, and emergency procedure checklists from the aircraft manual.",
+            "score": 0.98
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "e83ad214-1e7c-424f-b918-239a57bf252e",
+              "question": "What information is shown on the placard near the gauge in Figure 5‑5?",
+              "answer": "The placard lists the maximum readings for specific conditions, such as the maximum manifold pressure that can be displayed on the gauge."
+            },
+            {
+              "id": "4d02bc0f-6979-4388-9f66-e7515791bb00",
+              "question": "Where can I find the maximum certificated weights and center‑of‑gravity (CG) range for the rotorcraft?",
+              "answer": "These details are located in the Weight and Loading Distribution section of the manufacturer's Rotorcraft Flight Manual (RFM). The section also includes the reference datum used for balance calculations."
+            },
+            {
+              "id": "e0430d7f-6d2b-4e28-83bf-2355b040caac",
+              "question": "What flight limitations are typically listed in the RFM?",
+              "answer": "The Flight Limitations area lists prohibited maneuvers (e.g., acrobatic flight, flight into known icing), VFR‑only operation notes, minimum crew requirements, and the pilot seat location from which solo flights must be conducted."
+            },
+            {
+              "id": "2f5d5c87-bf44-4cd0-a4bf-eecd338a2e67",
+              "question": "What does V NE stand for and why does it change with altitude?",
+              "answer": "V NE is the “never‑exceed speed.” Because aerodynamic limits vary with air density, V NE decreases as pressure altitude increases, which is why the placard shows different V NE values for each altitude and temperature condition."
+            },
+            {
+              "id": "b666e07a-e1fc-4f78-87a3-deb844da6be2",
+              "question": "How do I read the V NE table shown on the placard?",
+              "answer": "Select the pressure altitude column (in 1,000 ft increments) and the outside‑air‑temperature (OAT) row. The intersecting cell gives the maximum indicated airspeed (IAS) in MPH for the listed gross‑weight category (either “more than 1,700 lb” or “1,700 lb or less”). Dashes (--) indicate that V NE is not defined for that combination."
+            },
+            {
+              "id": "b83fce49-8ebb-43c2-b039-48aafe1c8bce",
+              "question": "What is the maximum V NE when the doors are off?",
+              "answer": "The placard states a maximum V NE of 102 MPH IAS with the doors off."
+            },
+            {
+              "id": "ce820655-e912-43dd-9a58-66f2b7c51b61",
+              "question": "What does the manifold‑pressure gauge measure?",
+              "answer": "The manifold‑pressure gauge measures the pressure (or vacuum) inside the engine’s intake manifold and is typically used on piston‑engine aircraft. The needle in Figure 5‑5 points to about 22 inches of mercury."
+            },
+            {
+              "id": "7f7a29f7-80e2-46c5-b928-7ab759f2336f",
+              "question": "Which emergencies are covered in Section 3 of the RFM?",
+              "answer": "Section 3 includes concise checklists for emergencies such as engine failure in hover and at altitude, tail‑rotor failures, fires, system failures, engine‑restart procedures, and ditching in water."
+            },
+            {
+              "id": "67635331-e49f-47af-a9d7-dfc0fda9b384",
+              "question": "How are the emergency checklists organized?",
+              "answer": "Manufacturers first present an abbreviated checklist that reflects the sequence of actions, followed by an amplified checklist that adds extra information to clarify each step."
+            },
+            {
+              "id": "9f153cf4-4c05-4a38-a93e-73f02465f16e",
+              "question": "What are “abnormal procedures” and where might I find them?",
+              "answer": "Abnormal procedures describe recommended actions for handling malfunctions that are not classified as emergencies. They are optional and are most likely included in the manuals of larger helicopters."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "23c8e90d-e726-440b-bcab-6fc97dd07380",
+              "keyword": "V<sub>NE</sub> (Maximum Never‑Exceed Speed)",
+              "score": 0.96
+            },
+            {
+              "id": "e44ad107-a8e4-48fe-8e0d-7776d7e51d79",
+              "keyword": "Weight and Loading Distribution",
+              "score": 0.93
+            },
+            {
+              "id": "def681dc-33f1-4a9d-ae77-1ba1ebd881ca",
+              "keyword": "Flight Limitations",
+              "score": 0.9
+            },
+            {
+              "id": "d4938683-8201-4715-b3d6-7c9cccc001d7",
+              "keyword": "Placards",
+              "score": 0.88
+            },
+            {
+              "id": "1ac8f8cb-5232-47d5-b7df-397387f26174",
+              "keyword": "Manifold Pressure Gauge",
+              "score": 0.85
+            },
+            {
+              "id": "bb88a2c8-a06e-4083-96b5-1df0f3d927ee",
+              "keyword": "Emergency Procedures",
+              "score": 0.84
+            },
+            {
+              "id": "d80eca6a-7c39-4426-acd8-26c9a72d3f4c",
+              "keyword": "Center of Gravity (CG) range",
+              "score": 0.8
+            },
+            {
+              "id": "c4cdcd8e-f1c7-43f6-8a91-ec5f1076ba78",
+              "keyword": "Visual Flight Rules (VFR)",
+              "score": 0.78
+            },
+            {
+              "id": "1240453c-f557-4620-af5b-3ce0907d86b5",
+              "keyword": "Rotorcraft",
+              "score": 0.75
+            },
+            {
+              "id": "d8bd608a-30b7-4dcc-9bfb-b9cc016984a5",
+              "keyword": "Pressure Altitude",
+              "score": 0.72
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "2f94cb40-cdbf-4ae3-bbd8-5c03176d827d",
+            "title": "Helicopter RFM Overview: Weight, Limitations, Placards, and Emergencies",
+            "long_summary": "The excerpt outlines several critical sections of a helicopter’s Rotorcraft Flight Manual (RFM). The **Weight and Loading Distribution** part lists the maximum certificated weights, the allowable center‑of‑gravity range, and the reference datum used for balance calculations; detailed weight‑and‑balance computations are found elsewhere in the manual. The **Flight Limitations** section specifies prohibited maneuvers (e.g., acrobatic flight, known icing), VFR‑only operation, minimum crew requirements, and the pilot seat position for solo flights. \n\n**Placards** are highlighted as essential safety notices placed conspicuously in the cabin. A typical VNE (never‑exceed speed) placard is described, with a table showing VNE values (in MPH IAS) for various pressure altitudes and outside air temperatures, differentiated by gross weight categories (over 1,700 lb and 1,700 lb or less). An accompanying graph illustrates VNE decreasing with altitude under different temperature conditions, and a note states the maximum VNE with doors off is 102 MPH IAS. \n\nFigure 5‑5 depicts a manifold‑pressure gauge, a piston‑engine instrument that measures intake‑manifold pressure in inches of mercury. \n\nThe **Emergency Procedures (Section 3)** segment explains that concise checklists provide recommended actions and airspeeds for emergencies such as engine failure, tail‑rotor loss, fires, and system failures. Manufacturers may present an abbreviated checklist followed by an expanded version with additional detail. An optional “Abnormal Procedures” area may be included for non‑emergency malfunctions, especially in larger helicopters. The text advises pilots to learn the initial steps of each checklist and refer to the full list when time permits.",
+            "short_summary": "Key RFM info on weight, limits, placards, emergencies"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "4a88ff63-5528-4b5c-9a9a-841dfe43995a",
+              "classification": "Aviation Safety",
+              "score": 0.96
+            },
+            {
+              "id": "8ca14071-5c24-4a2d-a88d-62ac5569ced3",
+              "classification": "Helicopter Operations",
+              "score": 0.94
+            },
+            {
+              "id": "c963a51b-b6de-453c-bee4-2f5df2d29b07",
+              "classification": "Aircraft Weight & Balance",
+              "score": 0.92
+            },
+            {
+              "id": "07ac4e48-68b1-4dfb-b1c1-5bfd84b99aff",
+              "classification": "Flight Limitations & Performance Data",
+              "score": 0.9
+            },
+            {
+              "id": "a2cb7e47-1b46-4e41-806d-c73a9f202ec8",
+              "classification": "Emergency Procedures",
+              "score": 0.88
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "d00bdbd2-34bf-471f-8731-001318fb5b76",
+              "label": "VNE",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "8ac8f5a8-4f84-4abc-9de8-51672286a4bc",
+              "label": "VFR",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "1d867cd3-b71f-429b-9d05-8c3fb563791d",
+              "label": "RFM",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "11cfdcb4-86c7-4673-a9a6-60d85342881a",
+              "label": "MANIFOLD PRESSURE gauge",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "9726c97e-aa42-426b-8931-5e291baf3dfe",
+              "label": "Helicopter Emergencies and Hazards",
+              "type": "ORGANIZATION"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": "5cc1d372-aa0b-4e2e-88f2-dce7fe7a46b2",
+      "document_id": "00f8620f-d2b4-473c-b80e-4b9afe5e457c",
+      "title": "Page 5",
+      "context": "<h2>Normal Procedures (Section 4)</h2>\n<p>The normal procedures section is the section most frequently used. It usually begins with a listing of airspeeds that may enhance the safety of normal operations. It is a good idea to learn the airspeeds that are used for normal flight operations. The next part of the section includes several checklists, which cover the preflight inspection, before-starting procedure, how to start the engine, rotor engagement, ground checks, takeoff, approach, landing, and shutdown. Some manufacturers also include the procedures for practice autorotations. To avoid skipping an important step, always use a checklist when one is available. More information on maneuvers can be found in Chapter 9, Basic Flight Maneuvers, and Chapter 10, Advanced Flight Maneuvers.</p>\n<h2>Performance (Section 5)</h2>\n<p>The performance section contains all the information required by the regulations and any additional performance information the manufacturer determines may enhance a pilot's ability to operate the helicopter safely. Although the performance section is not in the limitation section and is therefore not a limitation, operation outside or beyond the flight-tested and documented performance section can be expensive, slightly hazardous, or outright dangerous to life and property. If the helicopter is certificated under 14 CFR part 29, then the performance section may very well be a restrictive limitation. In any event, a pilot should determine the performance available and plan to stay within those parameters.</p>\n<p>These charts, graphs, and tables vary in style, but all contain the same basic information. Some examples of the performance information that can be found in most flight manuals include a calibrated versus indicated airspeed conversion graph, hovering ceiling versus gross weight charts, and a height-velocity diagram. [Figure 5-7] For information on how to use the charts, graphs, and tables, refer to Chapter 7, Helicopter Performance.</p>\n<div>\n<img alt=\"Figure 5-7: In Ground Effect Hover Ceiling versus Gross Weight chart. The chart plots Pressure Altitude (ft) on the vertical axis (0 to 12,000 ft) against Gross Weight (lb) on the horizontal axis (1,400 to 1,800 lb). Multiple diagonal lines represent Outside air temperature (0°F, 20°F, 40°F, 60°F, 80°F, 100°F, 120°F). A horizontal line indicates 8,000 FT DENSITY ALTITUDE MIXTURE FULL RICH.\"/>\n<p><b>Figure 5-7.</b> One of the performance charts in the performance section is the In Ground Effect Hover Ceiling versus Gross Weight chart. This chart can be used to determine how much weight can be carried and still operate at a specific pressure altitude or, if carrying a specific weight, determine that specific altitude limitation.</p>\n</div>\n<h2>Weight and Balance (Section 6)</h2>\n<p>The weight and balance section should contain all the information required by the FAA that is necessary to calculate weight and balance. To help compute the proper data, most manufacturers include sample problems. Weight and balance is detailed in Chapter 6, Weight and Balance.</p>\n<h2>Aircraft and Systems Description (Section 7)</h2>\n<p>The aircraft and systems description section is an excellent place to study all the systems found on an aircraft. The manufacturers should describe the systems in a manner that is understandable to most pilots. For larger, more complex helicopters, the manufacturer may assume a higher degree of knowledge. For more information on helicopter systems, refer to Chapter 4, Helicopter Components, Sections, and Systems.</p>\n<h2>Handling, Servicing, and Maintenance (Section 8)</h2>\n<p>The handling, servicing, and maintenance section describes the maintenance and inspections recommended by the manufacturer, as well as those required by the regulations, and airworthiness directive (AD) compliance procedures. There are also suggestions on how the pilot/operator can ensure that the work is done properly.</p>\n<p>This section also describes preventative maintenance that may be accomplished by certificated pilots, as well as the manufacturer's recommended ground handling procedures, including considerations for hangaring, tie down, and general storage procedures for the helicopter.</p>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/FAA@crd.com/original_assets/helicopter_flying_handbook-[]-77-Chapter 5 Rotorcraft Flight Manual.pdf_chunks/helicopter_flying_handbook-[]-77-Chapter 5 Rotorcraft Flight Manual-chunked-files/helicopter_flying_handbook-[]-77-Chapter 5 Rotorcraft Flight Manual_page_5-5.pdf",
+        "sort_number": "50"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "32972df4-e16f-466c-a118-afc191a22113",
+            "sentiment": "neutral",
+            "summary": "El texto describe las secciones de un manual de helicóptero: procedimientos normales, rendimiento, peso y balance, descripción de sistemas, y manejo, servicio y mantenimiento.",
+            "score": 0.98
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "1727a076-ee03-4b51-938c-28c58ef25aff",
+              "question": "What topics are covered in the Normal Procedures (Section 4) of a helicopter flight manual?",
+              "answer": "Section 4 includes a list of airspeeds for safe normal operations, followed by checklists for pre‑flight inspection, before‑starting procedures, engine start, rotor engagement, ground checks, takeoff, approach, landing, shutdown, and sometimes practice autorotations."
+            },
+            {
+              "id": "82617c6b-43b2-47fd-b036-368369f295e0",
+              "question": "Why should a pilot always use a checklist when one is available?",
+              "answer": "Using a checklist helps avoid skipping important steps, ensuring that all required procedures are completed safely."
+            },
+            {
+              "id": "a76aa654-416c-41c8-bfdd-acb875338f6e",
+              "question": "What kind of information can be found in the Performance (Section 5) of the flight manual?",
+              "answer": "Section 5 contains charts, graphs, and tables such as calibrated‑vs‑indicated airspeed conversion, hovering ceiling versus gross weight, and height‑velocity diagrams, which help pilots determine safe operating performance."
+            },
+            {
+              "id": "cb626d00-f232-404a-8c06-9a7a5a09f859",
+              "question": "Is the Performance section considered a limitation for the helicopter?",
+              "answer": "No, the Performance section is not a limitation, but operating outside the documented performance data can be expensive, hazardous, or dangerous. For helicopters certificated under 14 CFR part 29, it may act as a restrictive limitation."
+            },
+            {
+              "id": "2b62741c-65db-461a-bc61-22e07da9e026",
+              "question": "How can the In‑Ground‑Effect Hover Ceiling versus Gross Weight chart be used?",
+              "answer": "The chart can be used to determine the maximum weight that can be carried at a specific pressure altitude, or to find the altitude limitation for a given weight."
+            },
+            {
+              "id": "9c79a405-0b84-4eeb-8deb-6619e954e26f",
+              "question": "What does the Weight and Balance (Section 6) provide to the pilot?",
+              "answer": "Section 6 supplies all FAA‑required information to calculate weight and balance, often including sample problems to help pilots compute the proper data."
+            },
+            {
+              "id": "3c1ede0d-813d-4094-9fa9-ae9753d494f1",
+              "question": "Where can a pilot find detailed descriptions of helicopter systems?",
+              "answer": "Detailed system descriptions are in Aircraft and Systems Description (Section 7), and further information is available in Chapter 4, Helicopter Components, Sections, and Systems."
+            },
+            {
+              "id": "25f1faf5-4b1e-4b6f-9ac6-fef60dd5b97d",
+              "question": "What topics are covered in the Handling, Servicing, and Maintenance (Section 8) section?",
+              "answer": "Section 8 describes manufacturer‑recommended and regulatory maintenance and inspection procedures, airworthiness directive compliance, preventative maintenance by certificated pilots, and ground handling practices such as hangaring, tie‑down, and storage."
+            },
+            {
+              "id": "8c0a75c8-a5aa-46c5-bf53-e40bc36b3d4f",
+              "question": "Which chapters should be consulted for more information on flight maneuvers and helicopter performance?",
+              "answer": "For maneuvers, see Chapter 9 (Basic Flight Maneuvers) and Chapter 10 (Advanced Flight Maneuvers). For performance, refer to Chapter 7, Helicopter Performance."
+            },
+            {
+              "id": "2727db74-a8be-41ff-a0ee-75f576dc1156",
+              "question": "What is the purpose of the calibrated versus indicated airspeed conversion graph found in the performance section?",
+              "answer": "The graph helps pilots convert indicated airspeed to calibrated airspeed, which is essential for accurate performance calculations and safe operation."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "dee1d223-154e-4b3c-b5e1-0cb720a29e8a",
+              "keyword": "Normal Procedures",
+              "score": 0.96
+            },
+            {
+              "id": "fc76f4d8-e677-4b5b-a19a-631bcd3da9ff",
+              "keyword": "Checklists",
+              "score": 0.93
+            },
+            {
+              "id": "15c130d2-222e-4690-aae6-b944dd91b052",
+              "keyword": "Helicopter Performance",
+              "score": 0.95
+            },
+            {
+              "id": "869344db-7505-4114-9fc6-2cd649643390",
+              "keyword": "Hover Ceiling vs Gross Weight chart",
+              "score": 0.9
+            },
+            {
+              "id": "f2e82870-daa7-4678-a674-3f3e9055515f",
+              "keyword": "Weight and Balance",
+              "score": 0.94
+            },
+            {
+              "id": "cb5e4205-e81d-4c5f-a740-2d9c9b1544b3",
+              "keyword": "Aircraft and Systems Description",
+              "score": 0.92
+            },
+            {
+              "id": "7428c902-3978-4842-bd4a-cb91c56529a8",
+              "keyword": "Maintenance and Servicing",
+              "score": 0.89
+            },
+            {
+              "id": "325ac38b-9ee3-40b5-aa3d-7d0bd77d56ed",
+              "keyword": "Airworthiness Directive (AD)",
+              "score": 0.88
+            },
+            {
+              "id": "41025e92-e474-493f-957f-d2f423255d3b",
+              "keyword": "In Ground Effect (IGE)",
+              "score": 0.87
+            },
+            {
+              "id": "eb620632-659f-4c46-a195-9e9ae8039e78",
+              "keyword": "CFR Part 29",
+              "score": 0.85
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "a9f0d6c8-14c8-4d4a-9dfc-cb838672f0ac",
+            "title": "Helicopter Flight Manual Sections 4‑8 Overview",
+            "long_summary": "Section 4 – Normal Procedures: This is the most frequently used part of the manual. It begins with recommended airspeeds for safe operation, followed by detailed checklists for pre‑flight inspection, engine start, rotor engagement, ground checks, take‑off, approach, landing, shutdown, and optionally practice autorotations. Checklists are emphasized to prevent omitted steps. Additional maneuver guidance is found in Chapters 9 and 10.\n\nSection 5 – Performance: Provides all regulatory‑required and manufacturer‑supplied performance data. Although not a limitation, operating outside the flight‑tested performance envelope can be costly or hazardous. For Part 29‑certified helicopters, performance data may become a restrictive limitation. The section includes charts, graphs, and tables such as calibrated‑vs‑indicated airspeed, hover‑ceiling versus gross weight, and height‑velocity diagrams, with usage instructions referenced in Chapter 7.\n\nSection 6 – Weight and Balance: Contains FAA‑mandated information for calculating aircraft weight and balance, often illustrated with sample problems to aid pilots. Detailed procedures are covered in Chapter 6.\n\nSection 7 – Aircraft and Systems Description: Offers a comprehensive description of all aircraft systems, written for general pilot comprehension. More complex helicopters may assume higher technical knowledge. Further system details are in Chapter 4.\n\nSection 8 – Handling, Servicing, and Maintenance: Outlines manufacturer‑recommended and regulatory maintenance and inspection tasks, including AD compliance. It also covers preventative maintenance that certificated pilots may perform, as well as ground handling, hangaring, tie‑down, and storage recommendations.",
+            "short_summary": "Key sections covering procedures, performance, weight, systems, maintenance"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "8c2ab81b-469d-435d-8c09-e35b7d4b7a05",
+              "classification": "Aviation",
+              "score": 0.98
+            },
+            {
+              "id": "738a9dde-0583-499c-8f09-ca79d31a89a1",
+              "classification": "Aircraft Operations / Flight Procedures",
+              "score": 0.96
+            },
+            {
+              "id": "49460c4a-e063-4b58-86db-b1783cf554e8",
+              "classification": "Helicopter Performance",
+              "score": 0.94
+            },
+            {
+              "id": "c6e07292-ef3a-425f-abe6-effe8720f7c5",
+              "classification": "Weight and Balance",
+              "score": 0.92
+            },
+            {
+              "id": "2c398df8-b47a-4c10-87eb-ccb57abf6ec9",
+              "classification": "Aircraft Maintenance",
+              "score": 0.9
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "7e997840-44c4-4266-be3a-394327c9a0bb",
+              "label": "Federal Aviation Administration",
+              "type": "ORGANIZATION"
+            },
+            {
+              "id": "df61e40f-f34f-40ee-881c-4626fee73f07",
+              "label": "FAA",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "597e52e5-7731-4d7d-b337-e600620aa1d6",
+              "label": "AD",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "65a4d2aa-e7a3-4da4-b0b8-e91d02f5b629",
+              "label": "CFR",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "a29ed608-6c01-48f7-8657-624980e69c63",
+              "label": "14 CFR part 29",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "5c19c4cd-38a8-48ea-9f3e-798cfc615f92",
+              "label": "Helicopter",
+              "type": "PRODUCT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": "0a507640-ff4c-423a-8d60-015da3a94237",
+      "document_id": "00f8620f-d2b4-473c-b80e-4b9afe5e457c",
+      "title": "Page 6",
+      "context": "<h2>Supplements (Section 9)</h2>\n<p>The supplements section describes pertinent information necessary to operate optional equipment installed on the helicopter that would not be installed on a standard aircraft. Some of this information may be supplied by the aircraft manufacturer, or by the maker of the optional equipment. The information is then inserted into the flight manual at the time the equipment is installed.</p>\n<p>Since civilian manuals are not updated to the extent of military manuals, the pilot must learn to read the supplements after determining what equipment is installed and amend their daily use checklists to integrate the supplemental instructions and procedures. This is why air carriers must furnish checklists to their crews. Those checklists furnished to the crews must incorporate all procedures from any and all equipment actually installed in the aircraft and the approved company procedures.</p>\n<h2>Safety and Operational Tips (Section 10)</h2>\n<p>The safety and operational tips section is optional and contains a review of information that could enhance the safety of the operation. Manufacturers may include best operating practices and other recommended procedures for the enhancement of safety and reducing accidents. Some examples of the information that might be covered include physiological factors, general weather information, fuel conservation procedures, external load warnings, low rotor rpm considerations, and recommendations that if not adhered to, could lead to an emergency.</p>\n<h2>Chapter Summary</h2>\n<p>This chapter familiarized the reader with the RFM. It detailed each section and explained how to follow and better understand the flight manual to enhance safety of flight.</p>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/FAA@crd.com/original_assets/helicopter_flying_handbook-[]-77-Chapter 5 Rotorcraft Flight Manual.pdf_chunks/helicopter_flying_handbook-[]-77-Chapter 5 Rotorcraft Flight Manual-chunked-files/helicopter_flying_handbook-[]-77-Chapter 5 Rotorcraft Flight Manual_page_6-6.pdf",
+        "sort_number": "60"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "a102baac-8c45-4548-88a7-28f3f1fef2c3",
+            "sentiment": "neutral",
+            "summary": "The chapter explains supplement and safety sections of the flight manual, stressing checklist integration and optional safety tips to improve flight safety.",
+            "score": 0.97
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "0522c79a-26ff-4f6d-a07b-dbef93b00b4b",
+              "question": "What is the purpose of the supplements section in the flight manual?",
+              "answer": "It provides pertinent information needed to operate optional equipment installed on the helicopter that would not be found on a standard aircraft."
+            },
+            {
+              "id": "b71e3576-f2ce-40a9-8072-6a1b6cee8b44",
+              "question": "Who may supply the information that appears in the supplements section?",
+              "answer": "The information may be supplied by the aircraft manufacturer or by the maker of the optional equipment."
+            },
+            {
+              "id": "6dd89956-938e-4243-b5ef-387cf1c0cd8c",
+              "question": "When is the supplemental information inserted into the flight manual?",
+              "answer": "It is inserted at the time the optional equipment is installed."
+            },
+            {
+              "id": "2fa47975-7ff7-4986-b57b-531714e904b8",
+              "question": "Why must pilots read the supplements and amend their daily use checklists?",
+              "answer": "Because civilian manuals are not updated as frequently as military manuals, so pilots need to integrate the supplemental instructions and procedures for the equipment actually installed."
+            },
+            {
+              "id": "9a0c27f1-8e32-44c4-904c-4c4032258225",
+              "question": "Who is responsible for furnishing checklists that include all supplemental procedures?",
+              "answer": "Air carriers must furnish checklists to their crews that incorporate all procedures from any and all equipment actually installed in the aircraft and the approved company procedures."
+            },
+            {
+              "id": "38ff878b-d4fe-4459-86fc-57d7d2202438",
+              "question": "What type of information is contained in the optional safety and operational tips section?",
+              "answer": "It contains a review of information that could enhance safety, such as best operating practices, physiological factors, general weather information, fuel‑conservation procedures, external‑load warnings, low rotor RPM considerations, and other recommended procedures."
+            },
+            {
+              "id": "7b4a3954-cfb3-42b1-89dc-ebefc8cf9d78",
+              "question": "Are the safety and operational tips mandatory for flight crews to follow?",
+              "answer": "The section is optional; however, the tips are recommendations that, if not adhered to, could lead to an emergency."
+            },
+            {
+              "id": "52009021-3894-4e7d-a24b-5f9167a5930f",
+              "question": "Can you give examples of topics covered in the safety and operational tips?",
+              "answer": "Examples include physiological factors, general weather information, fuel conservation procedures, external load warnings, low rotor RPM considerations, and other best‑practice recommendations."
+            },
+            {
+              "id": "ab58731e-ee9f-4764-bfac-ab617a6aa8f7",
+              "question": "How does the safety and operational tips section contribute to flight safety?",
+              "answer": "By providing manufacturers' recommended procedures and best practices that aim to enhance safety and reduce the likelihood of accidents."
+            },
+            {
+              "id": "d2839307-2158-4867-9f07-14fc7e99490a",
+              "question": "What does the chapter summary say about the RFM?",
+              "answer": "It states that the chapter familiarized the reader with the RFM, detailed each section, and explained how to follow and better understand the flight manual to enhance safety of flight."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "443ea267-e8e1-487c-a6c2-7b6cfbbc6a4f",
+              "keyword": "supplements section",
+              "score": 0.96
+            },
+            {
+              "id": "7587d055-9e1b-4f69-add7-2a1bdc4b7ec5",
+              "keyword": "optional equipment",
+              "score": 0.94
+            },
+            {
+              "id": "3ecf3c5b-ba25-4630-9cfb-2af1033952f5",
+              "keyword": "helicopter",
+              "score": 0.92
+            },
+            {
+              "id": "3dec5b0c-52e8-4ffd-84d2-d5193b6a798a",
+              "keyword": "flight manual",
+              "score": 0.95
+            },
+            {
+              "id": "164cc692-19d2-4101-9b26-d8fca5c98372",
+              "keyword": "checklists",
+              "score": 0.93
+            },
+            {
+              "id": "0dddafe1-9a0c-48c0-a61c-0eecaca9aeba",
+              "keyword": "air carriers",
+              "score": 0.9
+            },
+            {
+              "id": "3ce9485a-5667-46d4-ad15-7febb964293c",
+              "keyword": "safety and operational tips",
+              "score": 0.94
+            },
+            {
+              "id": "304c2154-7dc2-4b69-b02d-4b007a654511",
+              "keyword": "physiological factors",
+              "score": 0.88
+            },
+            {
+              "id": "e1fbb485-f888-447b-ba72-60f754634c06",
+              "keyword": "fuel conservation procedures",
+              "score": 0.89
+            },
+            {
+              "id": "f962a209-94ba-44c7-9ec6-aad14b586003",
+              "keyword": "low rotor rpm",
+              "score": 0.87
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "1838fc88-5e9c-42be-947f-a87042c96116",
+            "title": "Supplement and Safety Sections of the Helicopter Flight Manual",
+            "long_summary": "The Supplements (Section 9) provide essential data for operating optional equipment that is not part of a standard helicopter. This information, supplied by the aircraft or equipment manufacturer, is added to the flight manual when the equipment is installed. Because civilian manuals are not updated as frequently as military ones, pilots must read these supplements, determine which equipment is present, and modify their daily checklists accordingly. Air carriers are required to supply crews with checklists that incorporate all procedures for the installed equipment and approved company practices. \n\nThe Safety and Operational Tips (Section 10) are optional and offer manufacturers' recommendations to improve safety and reduce accidents. Topics may include physiological considerations, weather guidance, fuel‑conservation methods, external‑load warnings, low rotor‑RPM cautions, and other best‑practice procedures whose neglect could lead to emergencies. \n\nOverall, the chapter introduces the Rotorcraft Flight Manual (RFM), outlines each section, and explains how to use the manual effectively to enhance flight safety.",
+            "short_summary": "Key supplemental info and safety tips for helicopter operations."
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "d008940c-73fc-4221-9677-d7d171312a70",
+              "classification": "Aviation",
+              "score": 0.98
+            },
+            {
+              "id": "a33697dd-2924-41ec-a8fa-6bb74976bae6",
+              "classification": "Aviation Safety",
+              "score": 0.95
+            },
+            {
+              "id": "d0d17cbc-96de-418c-93e7-57889a0f2b48",
+              "classification": "Flight Operations",
+              "score": 0.93
+            },
+            {
+              "id": "85762656-8c39-4ca7-8417-059d01a396be",
+              "classification": "Aircraft Documentation",
+              "score": 0.9
+            },
+            {
+              "id": "3698fa6f-a062-4886-870b-0bf01786d924",
+              "classification": "Pilot Training",
+              "score": 0.85
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "2af7781d-aeaa-4a38-b630-98cf9da24d68",
+              "label": "RFM",
+              "type": "ACRONYM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": "32454c97-cf0e-44a9-8b4e-c347278b54de",
+      "document_id": "00f8620f-d2b4-473c-b80e-4b9afe5e457c",
+      "title": "Page 1",
+      "context": "<h1>Chapter 5</h1>\n<h1>Rotorcraft Flight Manual</h1>\n<h2>Introduction</h2>\n<p>Title 14 of the Code of Federal Regulations (14 CFR) part 91 requires pilot compliance with the operating limitations specified in approved rotorcraft flight manuals, markings, and placards. Originally, flight manuals were often characterized by a lack of essential information and followed whatever format and content the manufacturer deemed appropriate. This changed with the acceptance of the General Aviation Manufacturers Association (GAMA) specification for a Pilot's Operating Handbook, which established a standardized format for all general aviation airplane and rotorcraft flight manuals. The term \"Pilot's Operating Handbook (POH)\" is often used in place of \"Rotorcraft Flight Manual (RFM).\"</p>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/FAA@crd.com/original_assets/helicopter_flying_handbook-[]-77-Chapter 5 Rotorcraft Flight Manual.pdf_chunks/helicopter_flying_handbook-[]-77-Chapter 5 Rotorcraft Flight Manual-chunked-files/helicopter_flying_handbook-[]-77-Chapter 5 Rotorcraft Flight Manual_page_1-1.pdf",
+        "sort_number": "10"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "229249a9-14a4-4722-8d93-f2217a4889e3",
+            "sentiment": "neutral",
+            "summary": "Introducción al manual de vuelo de rotorcraft y la normativa que exige su cumplimiento, destacando la estandarización del formato mediante la especificación GAMA.",
+            "score": 0.98
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "7cb502fc-e53e-4b74-809f-282fbe3cab42",
+              "question": "What regulation requires pilots to follow the operating limitations in rotorcraft flight manuals?",
+              "answer": "Title 14 of the Code of Federal Regulations (14 CFR) part 91 requires pilot compliance with the operating limitations specified in approved rotorcraft flight manuals, markings, and placards."
+            },
+            {
+              "id": "db65c852-913c-4353-9fd5-8d04d59906a7",
+              "question": "What was a common problem with early rotorcraft flight manuals?",
+              "answer": "Early flight manuals often lacked essential information and were formatted according to whatever style the manufacturer chose."
+            },
+            {
+              "id": "ee589865-8812-410e-a410-6d4edf081b49",
+              "question": "Which organization created a specification that standardized pilot's operating handbooks?",
+              "answer": "The General Aviation Manufacturers Association (GAMA) created a specification for a Pilot's Operating Handbook that established a standardized format for all general‑aviation airplane and rotorcraft flight manuals."
+            },
+            {
+              "id": "a2234b1e-bb60-4357-8c59-b422a7df295a",
+              "question": "What is the relationship between a Pilot's Operating Handbook (POH) and a Rotorcraft Flight Manual (RFM)?",
+              "answer": "The term \"Pilot's Operating Handbook (POH)\" is often used in place of \"Rotorcraft Flight Manual (RFM).\""
+            },
+            {
+              "id": "661c9dd2-93fe-4398-8382-3ade39c5e876",
+              "question": "Why was the GAMA specification important for rotorcraft manuals?",
+              "answer": "It replaced the inconsistent, manufacturer‑specific formats with a uniform structure, ensuring that essential information is consistently presented across all general‑aviation rotorcraft manuals."
+            },
+            {
+              "id": "6042a9c9-ed7f-44b7-89c5-822728cc0ea7",
+              "question": "Do markings and placards also contain operating limitations that pilots must follow?",
+              "answer": "Yes, 14 CFR part 91 requires compliance with operating limitations specified in approved rotorcraft flight manuals, markings, and placards."
+            },
+            {
+              "id": "459eaf19-e564-4e94-9959-c98706d97eb9",
+              "question": "What does the abbreviation \"POH\" stand for?",
+              "answer": "\"POH\" stands for Pilot's Operating Handbook."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "52960718-b280-4be0-935d-69fa628c0fdd",
+              "keyword": "Rotorcraft Flight Manual",
+              "score": 0.96
+            },
+            {
+              "id": "fb6acdb8-74ea-4ba9-9ee7-e85cab831708",
+              "keyword": "Pilot's Operating Handbook",
+              "score": 0.95
+            },
+            {
+              "id": "141db2d5-2c9a-4baa-9dba-2671bfd3bfb1",
+              "keyword": "14 CFR part 91",
+              "score": 0.94
+            },
+            {
+              "id": "e1d443fa-9371-4453-8657-6877bf5600e3",
+              "keyword": "General Aviation Manufacturers Association",
+              "score": 0.93
+            },
+            {
+              "id": "2c6fd4b4-df8e-4809-83c2-1c7804acb216",
+              "keyword": "GAMA specification",
+              "score": 0.92
+            },
+            {
+              "id": "d850f097-8d80-4596-bb53-22a221d6efda",
+              "keyword": "operating limitations",
+              "score": 0.9
+            },
+            {
+              "id": "9f852313-0ad9-40b6-8338-c93fe1594016",
+              "keyword": "flight manuals",
+              "score": 0.89
+            },
+            {
+              "id": "15fc5f96-3581-4348-aa57-03b80d4d9780",
+              "keyword": "standardized format",
+              "score": 0.88
+            },
+            {
+              "id": "4a02eecd-0616-438d-b407-6374c5fd88dd",
+              "keyword": "airplane flight manual",
+              "score": 0.85
+            },
+            {
+              "id": "42845a23-73fa-44ac-891b-040a56966c33",
+              "keyword": "regulatory compliance",
+              "score": 0.84
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "0036ce23-01be-4685-9738-13534b9e6223",
+            "title": "Standardization of Rotorcraft Flight Manuals under 14 CFR Part 91",
+            "long_summary": "Title 14 of the Code of Federal Regulations (14 CFR) part 91 requires pilots to follow the operating limitations found in approved rotorcraft flight manuals, markings, and placards. Historically, these manuals varied widely and often omitted critical information, as manufacturers used their own formats. The adoption of the General Aviation Manufacturers Association (GAMA) specification for a Pilot's Operating Handbook introduced a uniform structure for all general‑aviation airplane and rotorcraft manuals. Consequently, the term \"Pilot's Operating Handbook (POH)\" is frequently used interchangeably with \"Rotorcraft Flight Manual (RFM).\"",
+            "short_summary": "Regulation mandates standardized rotorcraft manuals via GAMA POH."
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "6792f661-ed9f-4c56-9059-a96b8d5ee97c",
+              "classification": "Aviation Regulations",
+              "score": 0.96
+            },
+            {
+              "id": "2cffbb5c-1aaa-474d-8fe4-b95fb48dfcc5",
+              "classification": "Aircraft Flight Manuals",
+              "score": 0.94
+            },
+            {
+              "id": "b6c6e90a-ab21-4ef3-b389-f65da0b3a619",
+              "classification": "General Aviation",
+              "score": 0.9
+            },
+            {
+              "id": "a3f548af-8656-4d5d-aba6-f5b14f2ce772",
+              "classification": "Pilot Training & Operations",
+              "score": 0.88
+            },
+            {
+              "id": "ecb77dff-f085-493f-8adb-456c302927fc",
+              "classification": "Aerospace Documentation Standards",
+              "score": 0.85
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "426b732c-560b-47dd-b0c1-f4cfd308c707",
+              "label": "Code of Federal Regulations",
+              "type": "ORGANIZATION"
+            },
+            {
+              "id": "8d39174c-679b-4f0e-9d5e-f9f31bd2bd23",
+              "label": "14 CFR",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "2335ec11-5a4b-4d39-beb1-fad3863d0da4",
+              "label": "General Aviation Manufacturers Association (GAMA)",
+              "type": "ORGANIZATION"
+            },
+            {
+              "id": "07bd8fc3-2210-4233-ab33-d3523b6e2384",
+              "label": "Pilot's Operating Handbook (POH)",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "9ce1c230-2ed9-409d-b91e-3bd878b841f7",
+              "label": "Rotorcraft Flight Manual (RFM)",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "0195d20b-1297-4e06-acaa-b405c1918309",
+              "label": "POH",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "97b3d998-c23b-4018-825d-0440a6f6d327",
+              "label": "RFM",
+              "type": "ACRONYM"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

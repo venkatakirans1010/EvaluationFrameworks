@@ -1,0 +1,169 @@
+{
+  "customer_id": "test_set_4x4@crd.com",
+  "document_id": "458ec36e-aef8-4e6b-9e38-3de990dfb369",
+  "document_name": "Skill_With_People_Pg1.pdf",
+  "organization_name": "Booz Allen",
+  "account_name": "Default Account",
+  "application_name": "Booz Allen AI Atomization Service",
+  "vpub_name": "Default VPUB",
+  "topics": [
+    {
+      "topic_id": "42cbc8b7-0d7c-47df-86ce-4e89b054f955",
+      "document_id": "458ec36e-aef8-4e6b-9e38-3de990dfb369",
+      "title": "Page 1",
+      "context": "<h2><u>How to Skillfully Make Up Peoples Minds</u></h2>\n<p>There is more involved in getting people to say “yes” than luck, guesswork, or their whim.</p>\n<p>Those skilled in human relations have several techniques and methods, which greatly increase the chances of people saying “yes” to them. (Getting them to say “yes” simply means getting them to do what you want them to do.)</p>\n<p><b>Here are four good methods –</b></p>\n<ol>\n<li><b>Give people REASONS to say yes to you.</b>\n<ul>\n<li>Everything in this world is done for a reason. So, when you want somebody to do something, give them a reason as to why they should do it.</li>\n<li>However, be sure the reasons you give them are their reasons, meaning reasons that are to their advantage and benefit.</li>\n<li>The wrong way would be for you to give reasons that would be to your advantage or benefit.</li>\n<li>In short, tell people how they will benefit by doing what you want them to do, not how you benefit.</li>\n</ul>\n</li>\n<li>Ask “yes” questions.</li>\n</ol>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/test_set_4x4@crd.com/original_assets/Skill_With_People_Pg1.pdf_chunks/Skill_With_People_Pg1-chunked-files/Skill_With_People_Pg1_page_1-1.pdf",
+        "sort_number": "10"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "a8f063f8-29f1-43b8-9770-048b78179f8e",
+            "sentiment": "neutral",
+            "summary": "This article outlines four techniques to persuade people to say 'yes', emphasizing giving mutually beneficial reasons and asking affirmative questions.",
+            "score": 0.92
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "0001a847-1b90-4dd9-8ec8-a77318ec2952",
+              "question": "¿Cuál es el título del artículo?",
+              "answer": "El título del artículo es \"How to Skillfully Make Up Peoples Minds\"."
+            },
+            {
+              "id": "860d3e05-a50f-4cb6-bbf3-8169bf1bfe90",
+              "question": "¿Cuál es el objetivo principal de las técnicas descritas en el artículo?",
+              "answer": "El objetivo principal es lograr que las personas digan \"sí\" a lo que tú quieres que hagan."
+            },
+            {
+              "id": "9eb2a7df-daff-4443-95eb-640d21618090",
+              "question": "¿Cuántos métodos se mencionan en el artículo?",
+              "answer": "Se mencionan cuatro métodos, aunque solo se describen dos en detalle."
+            },
+            {
+              "id": "311a8b7e-632d-4965-82d3-9ed3e6a644dc",
+              "question": "¿Qué implica el primer método \"Dar razones a las personas\"?",
+              "answer": "Implica darles razones que les beneficien y les muestren cómo se beneficiarán al hacer lo que pides, no cómo tú te beneficiarás."
+            },
+            {
+              "id": "558741a5-1191-48ab-aed6-455add5d45a4",
+              "question": "¿Por qué las razones deben ser de beneficio para la otra persona?",
+              "answer": "Porque las razones que benefician a la otra persona aumentan la probabilidad de que digan \"sí\"."
+            },
+            {
+              "id": "3fe205eb-7b08-436f-bda2-ec4edfbf8a49",
+              "question": "¿Qué significa \"preguntas de sí\"?",
+              "answer": "Se refiere a hacer preguntas que se pueden responder afirmativamente, con la intención de que la respuesta sea \"sí\"."
+            },
+            {
+              "id": "130f0510-eff6-4fe1-a76c-8d32efcadc28",
+              "question": "¿Qué se menciona sobre la diferencia entre dar razones para beneficio propio y para beneficio del otro?",
+              "answer": "Se indica que dar razones que beneficien a la otra persona es correcto, mientras que dar razones que beneficien solo a ti es incorrecto."
+            },
+            {
+              "id": "7b844ab0-b175-47a5-9444-e0a5a4893025",
+              "question": "¿Qué se sugiere sobre la forma de presentar las razones?",
+              "answer": "Se sugiere que las razones se presenten como ventajas para la otra persona, no para ti."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "8aa801d0-7a45-452d-b0ec-a65791d13602",
+              "keyword": "getting people to say yes",
+              "score": 0.97
+            },
+            {
+              "id": "fbbf9062-303a-448f-b034-f1b28fd97279",
+              "keyword": "persuasion",
+              "score": 0.98
+            },
+            {
+              "id": "54b2f5e5-b537-4236-8d39-cd608d94b588",
+              "keyword": "human relations",
+              "score": 0.95
+            },
+            {
+              "id": "48bd1958-d9a4-4d91-b877-52a6cab1c1db",
+              "keyword": "influence",
+              "score": 0.94
+            },
+            {
+              "id": "d82935fd-4c11-4ea9-8562-9a64ff266e77",
+              "keyword": "reasons",
+              "score": 0.93
+            },
+            {
+              "id": "5d8b70c6-4537-430c-8ff3-d1438f3822c8",
+              "keyword": "techniques",
+              "score": 0.92
+            },
+            {
+              "id": "e8b08770-ba09-442b-88d6-52454c226560",
+              "keyword": "methods",
+              "score": 0.91
+            },
+            {
+              "id": "99427d65-7392-44e7-9c20-ef21fa1fe217",
+              "keyword": "benefit",
+              "score": 0.9
+            },
+            {
+              "id": "f73d9bf4-6caa-4b15-b862-095fa331b103",
+              "keyword": "advantage",
+              "score": 0.89
+            },
+            {
+              "id": "a58320ea-cedb-4c99-9ad9-65373c0615cc",
+              "keyword": "yes questions",
+              "score": 0.88
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "9c933159-9106-4127-814b-ee83e1d6f0e5",
+            "title": "Techniques to Persuade People to Say Yes",
+            "long_summary": "The article explains that influencing people to agree is more than luck or intuition; it requires deliberate techniques. It outlines four key methods, though only the first two are detailed in the excerpt. The first method stresses the importance of providing reasons that benefit the other person. It advises that any request should be framed in terms of how the person will gain or be advantaged, rather than how the requester benefits. This approach aligns the request with the other person’s interests, making a ‘yes’ more likely. The second method, briefly mentioned, involves asking questions that are designed to elicit a yes response. By structuring inquiries in a way that naturally leads to agreement, the requester can guide the conversation toward a positive outcome. The article emphasizes that skilled human relations practitioners use these techniques to increase the probability that others will comply with their requests. While the full list of four methods is not provided, the excerpt highlights the core principle of aligning requests with the other person’s benefits and using question framing to secure agreement.",
+            "short_summary": "Four methods to increase agreement, starting with giving benefits."
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "54a5558e-c2a3-447f-b647-473faba46cdb",
+              "classification": "Persuasion",
+              "score": 0.95
+            },
+            {
+              "id": "e0ced94c-9364-4360-bd39-d987d12a9d54",
+              "classification": "Communication",
+              "score": 0.9
+            },
+            {
+              "id": "17c64441-6ac9-4288-b30a-6eb62829fcab",
+              "classification": "Human Relations",
+              "score": 0.85
+            },
+            {
+              "id": "cad161d5-fe40-4374-859e-5bc09a447e5e",
+              "classification": "Social Influence",
+              "score": 0.8
+            },
+            {
+              "id": "7f8d6a3f-e217-42c0-a74a-cf9b74bd6802",
+              "classification": "Negotiation",
+              "score": 0.75
+            }
+          ]
+        },
+        {
+          "entities": []
+        }
+      ]
+    }
+  ]
+}

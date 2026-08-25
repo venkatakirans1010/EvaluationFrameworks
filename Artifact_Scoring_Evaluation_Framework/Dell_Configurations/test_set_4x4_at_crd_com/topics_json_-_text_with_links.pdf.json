@@ -1,0 +1,195 @@
+{
+  "customer_id": "test_set_4x4@crd.com",
+  "document_id": "458a98a4-a289-4ea1-9567-6f1c8f5c7378",
+  "document_name": "Text_With_Links.pdf",
+  "organization_name": "Booz Allen",
+  "account_name": "Default Account",
+  "application_name": "Booz Allen AI Atomization Service",
+  "vpub_name": "Default VPUB",
+  "topics": [
+    {
+      "topic_id": "2f39e404-a9c3-4615-aa73-6081b260dc6a",
+      "document_id": "458a98a4-a289-4ea1-9567-6f1c8f5c7378",
+      "title": "Page 1",
+      "context": "Books I'd like to read that are on Project Gutenberg\n\n1. <u>Romeo And Juliet</u>\n2. <u>The Count Of Monte Cristo</u>\n3. <u>Metamorphosis</u>\n4. <u>The Picture of Dorian Gray</u>\n5. <u>Don Quixote</u>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/test_set_4x4@crd.com/original_assets/Text_With_Links.pdf_chunks/Text_With_Links-chunked-files/Text_With_Links_page_1-1.pdf",
+        "sort_number": "10"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "45c56041-1be4-41c7-9636-a539363e8420",
+            "sentiment": "neutral",
+            "summary": "List of books I want to read from Project Gutenberg.",
+            "score": 0.92
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "0163a692-6f26-4bf3-90c5-126aa3ef4190",
+              "question": "Where can I find these books on Project Gutenberg?",
+              "answer": "You can locate each title by searching for its name on the Project Gutenberg website."
+            },
+            {
+              "id": "6877e967-f4ba-4638-9dea-1c48b1db40f9",
+              "question": "Are these books free to download?",
+              "answer": "Yes, all books listed are available for free download from Project Gutenberg."
+            },
+            {
+              "id": "9973ffa9-85ff-4f62-aefa-9567652c2adc",
+              "question": "What file formats can I download these books in?",
+              "answer": "Project Gutenberg typically offers books in multiple formats such as ePub, Kindle, HTML, and plain text."
+            },
+            {
+              "id": "f5337bc8-517a-4e53-a70a-b80e1ae307e6",
+              "question": "Can I read these books on my mobile device?",
+              "answer": "Absolutely. You can open the downloaded files in any compatible e‑reader app or view them directly in a mobile browser."
+            },
+            {
+              "id": "21ced7c9-4a54-45fc-ac3b-08f5ec498bc1",
+              "question": "Do I need a subscription or account to access these books?",
+              "answer": "No subscription or account is required; the books are freely accessible to anyone."
+            },
+            {
+              "id": "090c674c-9a2c-4bf0-ba5b-8eea0b0dc91c",
+              "question": "How can I keep track of the books I want to read?",
+              "answer": "Project Gutenberg allows you to add titles to a personal reading list or bookmark them for later access."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "b3b52441-99a3-49c8-a691-65d8bd2e8c1e",
+              "keyword": "Romeo And Juliet",
+              "score": 0.99
+            },
+            {
+              "id": "29c674e2-8ce7-49a7-8cf2-a4c455ab41b1",
+              "keyword": "The Count Of Monte Cristo",
+              "score": 0.99
+            },
+            {
+              "id": "3743a2b9-7c77-4979-a1a1-2ed969d063f9",
+              "keyword": "Metamorphosis",
+              "score": 0.99
+            },
+            {
+              "id": "6216a0fb-6d3c-4406-a4fe-dc7dcbdab7fc",
+              "keyword": "The Picture of Dorian Gray",
+              "score": 0.99
+            },
+            {
+              "id": "4a3e9cb3-89f0-4bb3-a6e9-18356f56c510",
+              "keyword": "Don Quixote",
+              "score": 0.99
+            },
+            {
+              "id": "7d084e73-6586-4e12-a5f9-fd801ef4443b",
+              "keyword": "Project Gutenberg",
+              "score": 0.95
+            },
+            {
+              "id": "f25eccf2-6205-4d8f-9ab5-1f2b01f3643d",
+              "keyword": "books",
+              "score": 0.85
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "fbe89cbf-d197-4e12-af31-e336ed16e4fc",
+            "title": "Project Gutenberg Reading List",
+            "long_summary": "The user has compiled a concise reading list of five classic literary works that are available on Project Gutenberg, a digital library of free eBooks. The titles included are:\n\n1. **Romeo and Juliet** – William Shakespeare’s iconic tragedy about star‑crossed lovers, exploring themes of love, fate, and conflict.\n2. **The Count of Monte Cristo** – Alexandre Dumas’s epic tale of betrayal, revenge, and redemption set against the backdrop of 19th‑century France.\n3. **Metamorphosis** – Franz Kafka’s surreal novella in which the protagonist, Gregor Samsa, wakes up transformed into a giant insect, delving into alienation and existential angst.\n4. **The Picture of Dorian Gray** – Oscar Wilde’s philosophical novel about a young man who remains youthful while a portrait ages, examining vanity, morality, and the nature of beauty.\n5. **Don Quixote** – Miguel de Cervantes’s foundational Spanish novel featuring the idealistic knight-errant Don Quixote and his pragmatic squire Sancho Panza, blending satire, adventure, and commentary on reality versus illusion.\n\nThese works span a range of genres and periods, offering readers insight into different cultural contexts, narrative styles, and philosophical questions. All five titles are freely accessible through Project Gutenberg, making them easily downloadable in multiple formats for personal study or enjoyment.",
+            "short_summary": "List of classic books to read"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "f4e4d912-9614-4909-9e6c-4537c17494b9",
+              "classification": "Classic Literature",
+              "score": 0.99
+            },
+            {
+              "id": "75178461-0161-44bd-8f51-a1476da17b36",
+              "classification": "Fiction",
+              "score": 0.95
+            },
+            {
+              "id": "b5d99e92-a214-4036-a28e-881531a612cb",
+              "classification": "Drama",
+              "score": 0.85
+            },
+            {
+              "id": "3a90f3ed-d4c6-418d-a3e5-70142f2c430b",
+              "classification": "Novel",
+              "score": 0.9
+            },
+            {
+              "id": "84f4b507-8afb-49b7-b37a-e5f39f58582f",
+              "classification": "Literary Classics",
+              "score": 0.98
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "f23b95fe-d39d-41f3-b266-bfe41aeddfeb",
+              "label": "Romeo",
+              "type": "PERSON"
+            },
+            {
+              "id": "1d1dac1b-29ca-47c1-ae5a-ada704a77ae7",
+              "label": "Juliet",
+              "type": "PERSON"
+            },
+            {
+              "id": "299feb47-6425-4bc4-acac-91f5ef72718c",
+              "label": "Count of Monte Cristo",
+              "type": "PERSON"
+            },
+            {
+              "id": "63176169-e01d-4050-b6b8-6d2e975971ee",
+              "label": "Dorian Gray",
+              "type": "PERSON"
+            },
+            {
+              "id": "f0f9c082-0300-4798-87b8-a54526061ef0",
+              "label": "Don Quixote",
+              "type": "PERSON"
+            },
+            {
+              "id": "4e863020-f573-4cea-a6f6-503c13702935",
+              "label": "Romeo And Juliet",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "dc0004bf-c02e-4073-b0e9-7d9272390983",
+              "label": "The Count Of Monte Cristo",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "34863ace-a126-4dfc-8ea7-896e61992301",
+              "label": "Metamorphosis",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "0f5f08c6-e373-44f0-a71a-31e3921c3ad5",
+              "label": "The Picture of Dorian Gray",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "e8bf0353-bccf-4208-87ed-1fed0603e842",
+              "label": "Don Quixote",
+              "type": "PRODUCT"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

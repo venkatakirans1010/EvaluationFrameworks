@@ -1,0 +1,230 @@
+{
+  "customer_id": "test_set_2x2@crd.com",
+  "document_id": "fde48ecf-6e3d-4733-b8c6-8b0d9c0b1106",
+  "document_name": "table_with_primitive_methods.pdf",
+  "organization_name": "Booz Allen",
+  "account_name": "Default Account",
+  "application_name": "Booz Allen AI Atomization Service",
+  "vpub_name": "Default VPUB",
+  "topics": [
+    {
+      "topic_id": "7cd6eaa7-5249-4641-96e5-ab03b4b17228",
+      "document_id": "fde48ecf-6e3d-4733-b8c6-8b0d9c0b1106",
+      "title": "Page 1",
+      "context": "<table><thead><tr><th>Country</th><th>Capital</th><th>Area (sq km)</th><th>Pop. (thousands)</th></tr></thead><tbody><tr><td>Austria</td><td>Vienna</td><td>83,859</td><td>8,075</td></tr><tr><td>Belgium</td><td>Brussels</td><td>30,518</td><td>10,192</td></tr><tr><td>Denmark</td><td>Copenhagen</td><td>43,094</td><td>5,295</td></tr><tr><td>Finland</td><td>Helsinki</td><td>304,529</td><td>5,147</td></tr><tr><td>France</td><td>Paris</td><td>543,965</td><td>58,728</td></tr><tr><td>Germany</td><td>Berlin</td><td>357,022</td><td>82,057</td></tr><tr><td>Greece</td><td>Athens</td><td>131,625</td><td>10,511</td></tr><tr><td>Ireland</td><td>Dublin</td><td>70,723</td><td>3,694</td></tr><tr><td>Italy</td><td>Roma</td><td>301,316</td><td>57,563</td></tr><tr><td>Luxembourg</td><td>Luxembourg</td><td>2,586</td><td>424</td></tr><tr><td>Netherlands</td><td>Amsterdam</td><td>41,526</td><td>15,654</td></tr><tr><td>Portugal</td><td>Lisbon</td><td>91,906</td><td>9,957</td></tr><tr><td>Spain</td><td>Madrid</td><td>504,790</td><td>39,348</td></tr><tr><td>Sweden</td><td>Stockholm</td><td>410,934</td><td>8,839</td></tr><tr><td>United Kingdom</td><td>London</td><td>243,820</td><td>58,862</td></tr></tbody></table>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/test_set_2x2@crd.com/original_assets/table_with_primitive_methods.pdf_chunks/table_with_primitive_methods-chunked-files/table_with_primitive_methods_page_1-1.pdf",
+        "sort_number": "10"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "540d22d7-eab2-4516-90c9-2ad9cbe3a08d",
+            "sentiment": "neutral",
+            "summary": "Tabla que muestra países europeos con sus capitales, áreas y poblaciones.",
+            "score": 0.99
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "5818f86a-380d-4606-b158-95ef35c126e7",
+              "question": "¿Cuál es el país con mayor superficie?",
+              "answer": "Francia, con 543,965 km²."
+            },
+            {
+              "id": "1453cfad-791c-4255-b02b-815f9f740b7f",
+              "question": "¿Cuál es el país con menor superficie?",
+              "answer": "Luxemburgo, con 2,586 km²."
+            },
+            {
+              "id": "ca38541e-ce37-4feb-a408-8eca0a8fee27",
+              "question": "¿Cuál es el país con mayor población?",
+              "answer": "Alemania, con 82,057 mil habitantes."
+            },
+            {
+              "id": "f015dcc9-44b1-425a-a418-cfc3a27f27dd",
+              "question": "¿Cuál es el país con menor población?",
+              "answer": "Luxemburgo, con 424 mil habitantes."
+            },
+            {
+              "id": "8a103a9a-7db4-4516-b05a-7ae27422ca83",
+              "question": "¿Cuál es la capital de Austria?",
+              "answer": "Viena."
+            },
+            {
+              "id": "c551ffa4-51d0-4d21-9162-759d1e5adc2d",
+              "question": "¿Cuál es la superficie de España?",
+              "answer": "504,790 km²."
+            },
+            {
+              "id": "6a575908-f181-498c-b4b1-bbb88481f851",
+              "question": "¿Qué país tiene como capital Roma?",
+              "answer": "Italia."
+            },
+            {
+              "id": "1fdec92a-af78-46d3-ac88-3b021cb640ed",
+              "question": "¿Qué país tiene como capital Lisboa?",
+              "answer": "Portugal."
+            },
+            {
+              "id": "d030742e-3683-4ba0-8d38-0c65278e1e9f",
+              "question": "¿Qué país tiene como capital Londres?",
+              "answer": "Reino Unido."
+            },
+            {
+              "id": "1aab9751-1200-4a7b-bc57-5450e1b34d88",
+              "question": "¿Qué país tiene como capital Estocolmo?",
+              "answer": "Suecia."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "b98a7b30-2bdd-4da1-a606-0cacaf09cdaf",
+              "keyword": "Europe",
+              "score": 0.99
+            },
+            {
+              "id": "2cb8d98f-6498-47e1-a1b5-a850374468a1",
+              "keyword": "countries",
+              "score": 0.98
+            },
+            {
+              "id": "a9eab940-7ee1-4b11-b384-3999b7f6e84b",
+              "keyword": "capital cities",
+              "score": 0.97
+            },
+            {
+              "id": "95991e86-2c1c-40b5-bb9e-a5071fb87f64",
+              "keyword": "area",
+              "score": 0.96
+            },
+            {
+              "id": "00d67da4-024a-4c57-80e4-10cdafd12997",
+              "keyword": "population",
+              "score": 0.95
+            },
+            {
+              "id": "310059ec-9378-4cba-aaa9-c38a38a58cb7",
+              "keyword": "Austria",
+              "score": 0.9
+            },
+            {
+              "id": "f76eda4a-2627-4c9f-a44c-37a781605cad",
+              "keyword": "Germany",
+              "score": 0.9
+            },
+            {
+              "id": "fe518e07-0617-46c1-9ec4-423cf647b6b8",
+              "keyword": "France",
+              "score": 0.9
+            },
+            {
+              "id": "7cb6e8af-5d63-4406-996f-78d05769e2fb",
+              "keyword": "United Kingdom",
+              "score": 0.9
+            },
+            {
+              "id": "b39cefeb-b03f-4133-9689-ec86e2ca668f",
+              "keyword": "Spain",
+              "score": 0.9
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "c28b25a9-da74-41f1-b34a-011d2cab23e7",
+            "title": "European Countries: Capitals, Areas, and Populations",
+            "long_summary": "The table presents a concise overview of selected European nations, detailing each country’s capital city, total land area in square kilometers, and population expressed in thousands. Austria’s capital Vienna covers 83,859 sq km and hosts 8,075 thousand residents. Belgium’s Brussels spans 30,518 sq km with 10,192 thousand inhabitants. Denmark’s Copenhagen occupies 43,094 sq km and supports 5,295 thousand people. Finland’s Helsinki covers a vast 304,529 sq km yet has a relatively modest 5,147 thousand population. France’s Paris, the largest by area at 543,965 sq km, houses 58,728 thousand individuals. Germany’s Berlin covers 357,022 sq km and contains 82,057 thousand residents, making it the most populous in the list. Greece’s Athens spans 131,625 sq km with 10,511 thousand people. Ireland’s Dublin covers 70,723 sq km and has 3,694 thousand residents. Italy’s Roma covers 301,316 sq km and supports 57,563 thousand people. Luxembourg’s capital, also Luxembourg, covers only 2,586 sq km but has 424 thousand residents. The Netherlands’ Amsterdam spans 41,526 sq km with 15,654 thousand people. Portugal’s Lisbon covers 91,906 sq km and houses 9,957 thousand residents. Spain’s Madrid covers 504,790 sq km with 39,348 thousand people. Sweden’s Stockholm spans 410,934 sq km and has 8,839 thousand residents. Finally, the United Kingdom’s London covers 243,820 sq km and supports 58,862 thousand people. The table highlights the diversity in land area and population across these European capitals, ranging from the tiny Luxembourg to the expansive France, and from the densely populated Germany to the sparsely populated Ireland.",
+            "short_summary": "List of European capitals with area and population data"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "789866e9-937b-4921-afc5-74689462a0b7",
+              "classification": "Geography",
+              "score": 0.99
+            },
+            {
+              "id": "5293ade5-1fcd-4354-8aca-1d51f1e4b149",
+              "classification": "Statistics",
+              "score": 0.98
+            },
+            {
+              "id": "821a7617-1759-444f-8da2-55225e2e159d",
+              "classification": "Europe",
+              "score": 0.97
+            },
+            {
+              "id": "61b2caf7-1c52-4ef8-8e2e-d7e65aaccaf8",
+              "classification": "Data Table",
+              "score": 0.96
+            },
+            {
+              "id": "629d45af-5e67-4b75-b649-d0f0a0fd959c",
+              "classification": "Demographics",
+              "score": 0.95
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "0a7d8d91-2216-482b-ae5f-e06fc1b9385d",
+              "label": "Austria",
+              "type": "LOCATION"
+            },
+            {
+              "id": "5bd952d9-d6bc-4aca-8183-c4373174e1a5",
+              "label": "Belgium",
+              "type": "LOCATION"
+            },
+            {
+              "id": "87dc4874-ea5d-49fc-8f79-a108d7dcdc72",
+              "label": "Denmark",
+              "type": "LOCATION"
+            },
+            {
+              "id": "9147e97e-156a-4c55-a45e-b31f95ab2c3d",
+              "label": "Finland",
+              "type": "LOCATION"
+            },
+            {
+              "id": "44259729-c9b5-44d3-91c6-6e80c950800a",
+              "label": "France",
+              "type": "LOCATION"
+            },
+            {
+              "id": "1a30f9d3-66e3-47df-b518-e03c17a6ae7c",
+              "label": "Vienna",
+              "type": "CITY"
+            },
+            {
+              "id": "3a990033-76e4-4286-a43c-8052cb83feb5",
+              "label": "Brussels",
+              "type": "CITY"
+            },
+            {
+              "id": "5f9af600-6755-470a-8754-b05e13b945b6",
+              "label": "Copenhagen",
+              "type": "CITY"
+            },
+            {
+              "id": "725be7f6-cab1-48e4-bad0-93b739d21cfb",
+              "label": "Helsinki",
+              "type": "CITY"
+            },
+            {
+              "id": "17a5ab17-2664-45c5-be43-fbd8ecb86413",
+              "label": "Paris",
+              "type": "CITY"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

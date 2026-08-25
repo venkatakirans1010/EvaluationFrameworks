@@ -1,0 +1,1076 @@
+{
+  "customer_id": "FAA@crd.com",
+  "document_id": "7959453c-144a-4754-90e1-b6320df8ae57",
+  "document_name": "helicopter_flying_handbook-[]-51-Chapter 3 Helicopter Flight Controls.pdf",
+  "organization_name": "Booz Allen",
+  "account_name": "Default Account",
+  "application_name": "Booz Allen AI Atomization Service",
+  "vpub_name": "Default VPUB",
+  "meta_data": {
+    "gen_ai": {
+      "model": "gpt-oss-20b",
+      "llm_id": 27,
+      "completed_at": "2026-02-26T10:30:28.987355+00:00",
+      "triggered_at": "2026-02-26T10:29:20.074915+00:00",
+      "model_provider": "self_hosted",
+      "last_triggered_at": "2026-02-26T10:29:20.074922+00:00"
+    },
+    "llm_id": 27,
+    "aiModel": "chandra",
+    "file_url": "s3://thailand-boozallen-ai-topiclake/FAA@crd.com/original_assets/helicopter_flying_handbook-[]-51-Chapter 3 Helicopter Flight Controls.pdf",
+    "language": "english",
+    "llm_model": "gpt-oss-20b",
+    "atomization": {
+      "enabled": true,
+      "service": "boozallen_ai_atomization_service",
+      "language": "english",
+      "model_name": "chandra",
+      "prompt_url": "s3://thailand-boozallen-ai-atomization-service-bucket/self_hosted_models_prompts/prompt_chandra.json",
+      "initiated_at": "2026-02-26T09:59:15.388262+00:00",
+      "instructions": null,
+      "model_provider": "SELF_HOSTED",
+      "prompt_version": "MULTILINGUAL_v2",
+      "instructions_provided": false
+    },
+    "auto_gen_ai": true,
+    "gantt_chart": {
+      "artifacts": {
+        "end": "2026-02-26T10:30:28.987355+00:00",
+        "start": "2026-02-26T10:29:20.074922+00:00"
+      },
+      "atomization": {
+        "end": "2026-02-26T10:29:19.958813+00:00",
+        "start": "2026-02-26T10:11:27.372997+00:00",
+        "queued_at": "2026-02-26T09:59:15.829918+00:00",
+        "total_atoms": 6,
+        "completed_atoms": 6
+      },
+      "pdf_splitting": {
+        "end": "2026-02-26T09:59:15.692220+00:00",
+        "start": "2026-02-26T09:59:15.441111+00:00",
+        "chunks": 6
+      }
+    },
+    "total_atoms": 6,
+    "llm_provider": "self_hosted",
+    "pipeline_timing": {
+      "queuing": {
+        "end": "2026-02-26T09:59:15.861100+00:00",
+        "start": "2026-02-26T09:59:15.829918+00:00",
+        "atoms_failed": 0,
+        "atoms_queued": 6
+      },
+      "split_pdf": {
+        "end": "2026-02-26T09:59:15.692220+00:00",
+        "start": "2026-02-26T09:59:15.441111+00:00",
+        "chunks_created": 6
+      },
+      "atomization": {
+        "total_atoms": 6,
+        "completed_at": "2026-02-26T10:29:19.958813+00:00",
+        "completed_atoms": 6,
+        "first_gpu_started_at": "2026-02-26T10:11:27.372997+00:00"
+      }
+    },
+    "service_version": "1.0.0",
+    "atomization_status": "red",
+    "processing_timestamp": "2026-02-26T09:59:15.388262+00:00",
+    "atomization_percentage": 0,
+    "atoms_with_description": 0
+  },
+  "topics": [
+    {
+      "topic_id": "d51dd3da-e3cd-42fa-9094-45b3d640a910",
+      "document_id": "7959453c-144a-4754-90e1-b6320df8ae57",
+      "title": "Page 3",
+      "context": "<div>\n<img alt=\"Figure 3-2: A close-up view of a twist grip throttle mounted on the end of the collective lever in a helicopter cockpit.\"/>\n<p><b>Figure 3-2.</b> A twist grip throttle is usually mounted on the end of the collective lever. The throttles on some turbine helicopters are mounted on the overhead panel or on the floor in the cockpit.</p>\n<p>Some helicopters do not have correlators or governors and require coordination of all collective and throttle movements. When the collective is raised, the throttle must be increased; when the collective is lowered, the throttle must be decreased. As with any aircraft control, large adjustments of either collective pitch or throttle should be avoided. All corrections should be made through the use of smooth pressure.</p>\n<p>In piston helicopters, the collective pitch is the primary control for manifold pressure, and the throttle is the primary control for rpm. However, the collective pitch control also influences rpm, and the throttle also influences manifold pressure; therefore, each is considered to be a secondary control of the other's function. Both the tachometer (rpm indicator) and the manifold pressure gauge must be analyzed to determine which control to use. Figure 3-3 illustrates this relationship.</p>\n<table border=\"1\">\n<thead>\n<tr>\n<th>if rpm is</th>\n<th>and manifold pressure is</th>\n<th>Solution</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>LOW</td>\n<td>LOW</td>\n<td>Increasing the throttle increases manifold pressure and rpm</td>\n</tr>\n<tr>\n<td>LOW</td>\n<td>HIGH</td>\n<td>Lowering the collective pitch decreases manifold pressure and increases rpm</td>\n</tr>\n<tr>\n<td>HIGH</td>\n<td>LOW</td>\n<td>Raising the collective pitch increases manifold pressure and decreases rpm</td>\n</tr>\n<tr>\n<td>HIGH</td>\n<td>HIGH</td>\n<td>Reducing the throttle decreases manifold pressure and rpm</td>\n</tr>\n</tbody>\n</table>\n<p><b>Figure 3-3.</b> Relationship between rpm, manifold pressure, collective, and throttle.</p>\n<h2>Cyclic Pitch Control</h2>\n<p>The cyclic pitch control (or simply “cyclic”) is usually projected upward from the cockpit floor, between the pilot’s legs or between the two pilot seats in some models. [Figure 3-4] This primary flight control allows the pilot to fly the helicopter in any direction of travel: forward, rearward, left, and right. As discussed in Chapter 2, Aerodynamics of Flight, the total lift force is always perpendicular to the tip-path plane of the main rotor. The purpose of the cyclic pitch control is to tilt the tip-path plane in the direction of the desired horizontal direction. The cyclic controls the rotor disk tilt versus the horizon, which directs the rotor disk thrust to enable the pilot to control the direction of travel of the helicopter.</p>\n<p>The rotor disk tilts in the same direction the cyclic pitch control is moved. If the cyclic is moved forward, the rotor disk tilts forward; if the cyclic is moved aft, the disk tilts aft, and so on. Because the rotor disk acts like a gyro, the mechanical linkages for the cyclic control rods are rigged in such a way that they</p>\n<img alt=\"Figure 3-4: Two views of the cyclic pitch control in a helicopter cockpit. The top view shows a single cyclic mounted vertically between the pilot's knees. The bottom view shows a single cyclic mounted on a teetering bar.\"/>\n<p><b>Figure 3-4.</b> The cyclic pitch control may be mounted vertically between the pilot’s knees or on a teetering bar from a single cyclic located in the center of the helicopter. The cyclic can pivot in all directions.</p>\n</div>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/FAA@crd.com/original_assets/helicopter_flying_handbook-[]-51-Chapter 3 Helicopter Flight Controls.pdf_chunks/helicopter_flying_handbook-[]-51-Chapter 3 Helicopter Flight Controls-chunked-files/helicopter_flying_handbook-[]-51-Chapter 3 Helicopter Flight Controls_page_3-3.pdf",
+        "sort_number": "30"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "f240c1d1-8a98-49ba-97b5-cf86345998f7",
+            "sentiment": "neutral",
+            "summary": "Describes helicopter twist‑grip throttle placement, collective‑throttle coordination, rpm/manifold pressure interactions, and the function and mounting of the cyclic pitch control.",
+            "score": 0.98
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "064a012f-e10c-4396-a1eb-e283bdd04856",
+              "question": "Where is the twist‑grip throttle usually mounted in a helicopter cockpit?",
+              "answer": "The twist‑grip throttle is usually mounted on the end of the collective lever. In some turbine helicopters it can also be found on the overhead panel or on the floor."
+            },
+            {
+              "id": "afa78300-7d29-4149-9ad5-757f6bad150b",
+              "question": "What must a pilot do with the throttle when the collective is raised in helicopters that have no correlator or governor?",
+              "answer": "When the collective is raised, the pilot must increase the throttle; when the collective is lowered, the throttle must be decreased."
+            },
+            {
+              "id": "7f987cc5-43b6-471c-876e-e1a091f78768",
+              "question": "Why should large adjustments of collective pitch or throttle be avoided?",
+              "answer": "Large adjustments can cause abrupt changes in power and lift. All corrections should be made with smooth pressure to maintain stable flight."
+            },
+            {
+              "id": "b7cffbd5-6c47-4954-8074-e7abd0b756cf",
+              "question": "In piston‑engine helicopters, which control is the primary controller of manifold pressure?",
+              "answer": "In piston helicopters, the collective pitch control is the primary controller of manifold pressure, while the throttle is the primary controller of rpm."
+            },
+            {
+              "id": "20cc08e7-bc11-4a1a-9008-e2624d4b96a2",
+              "question": "How do the collective pitch and throttle influence each other’s functions?",
+              "answer": "Although the collective primarily controls manifold pressure and the throttle primarily controls rpm, each also has a secondary effect on the other: the collective influences rpm and the throttle influences manifold pressure."
+            },
+            {
+              "id": "d7f58015-82ba-4b34-a9c5-83dbd1349b5a",
+              "question": "When both the tachometer and manifold‑pressure gauge are read, how does a pilot decide which control to use?",
+              "answer": "The pilot compares the rpm and manifold‑pressure readings and follows the guidance in Figure 3‑3: depending on whether rpm and pressure are high or low, the pilot either raises or lowers the collective or increases or decreases the throttle."
+            },
+            {
+              "id": "3a63f9c1-cdb4-426c-bfc1-7a4578a0e338",
+              "question": "What should be done if rpm is low and manifold pressure is high?",
+              "answer": "If rpm is low and manifold pressure is high, the pilot should lower the collective pitch, which decreases manifold pressure and increases rpm."
+            },
+            {
+              "id": "1f2d3265-674f-4736-81cb-b06a0c8c1240",
+              "question": "Where is the cyclic pitch control located in the cockpit?",
+              "answer": "The cyclic pitch control is usually projected upward from the cockpit floor, positioned between the pilot’s legs or between the two pilot seats."
+            },
+            {
+              "id": "0a9306ff-0100-4dd1-9596-ca5ca28105ed",
+              "question": "What effect does moving the cyclic have on the rotor disk?",
+              "answer": "Moving the cyclic tilts the rotor‑disk tip‑path plane in the same direction as the cyclic movement, directing thrust to control the helicopter’s direction of travel."
+            },
+            {
+              "id": "962275a1-aaaa-45cf-aa44-cc9e115cd9e0",
+              "question": "What is the primary purpose of the cyclic pitch control?",
+              "answer": "The cyclic pitch control allows the pilot to fly the helicopter in any horizontal direction—forward, rearward, left, or right—by tilting the rotor disk relative to the horizon."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "e550905d-91db-416f-9b57-7fc39e5fda94",
+              "keyword": "twist grip throttle",
+              "score": 0.96
+            },
+            {
+              "id": "8d7c3933-6775-4e5a-a863-609db1db912d",
+              "keyword": "collective lever",
+              "score": 0.94
+            },
+            {
+              "id": "7dcfc8e1-5bd7-41ca-939a-16fc46a78bf2",
+              "keyword": "cyclic pitch control",
+              "score": 0.97
+            },
+            {
+              "id": "034b8a31-970d-4485-84e1-5b43d3917904",
+              "keyword": "manifold pressure",
+              "score": 0.95
+            },
+            {
+              "id": "7efb8ae8-f151-45eb-ab07-d9305550ad3b",
+              "keyword": "RPM (rpm indicator)",
+              "score": 0.93
+            },
+            {
+              "id": "dc4d185d-6c04-497c-a8f5-de62da1b6aa6",
+              "keyword": "rotor disk tilt",
+              "score": 0.9
+            },
+            {
+              "id": "051643d7-5562-42fb-95f8-dd05a14080c1",
+              "keyword": "correlators/governors",
+              "score": 0.85
+            },
+            {
+              "id": "3ffbadc4-42b5-45ac-b7e4-7d3be8c09924",
+              "keyword": "tachometer",
+              "score": 0.87
+            },
+            {
+              "id": "7e5f5a63-22ab-4e75-8c6c-fa9e44005b07",
+              "keyword": "throttle coordination",
+              "score": 0.88
+            },
+            {
+              "id": "60969154-b0ac-40ea-87cf-d7fcf9356f64",
+              "keyword": "gyroscopic effect",
+              "score": 0.84
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "25dab819-11b3-4658-b9f1-6dc453190185",
+            "title": "Helicopter Throttle, Collective, and Cyclic Pitch Controls Overview",
+            "long_summary": "The passage explains the main flight‑control mechanisms in a helicopter cockpit. A twist‑grip throttle is typically mounted on the end of the collective lever, though some turbine helicopters place throttles on the overhead panel or floor. Helicopters lacking correlators or governors require the pilot to coordinate collective and throttle movements: raising the collective must be matched by increasing throttle, and lowering the collective by decreasing throttle, using smooth pressure to avoid large adjustments.\n\nIn piston‑engine helicopters, collective pitch primarily controls manifold pressure while the throttle primarily controls RPM; each also influences the other's parameter, making them secondary controls of each other. The appropriate control is chosen by monitoring both the tachometer and manifold‑pressure gauge. A table (Figure 3‑3) outlines four scenarios—low/low, low/high, high/low, high/high—and the corresponding corrective actions (e.g., increase throttle when both RPM and pressure are low).\n\nThe cyclic pitch control, projected upward from the cockpit floor between the pilot’s legs or seats, is the primary device for directing helicopter travel forward, aft, left, or right. By tilting the rotor‑disk tip‑path plane in the direction the cyclic is moved, the pilot changes the thrust vector and thus the flight direction. The cyclic may be mounted vertically between the knees or on a teetering bar, and it pivots in all directions, allowing precise control of the rotor disk orientation.",
+            "short_summary": "Helicopter throttle, collective, and cyclic control functions"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "32c69420-a519-420a-aaa0-545ad58d1d5d",
+              "classification": "Aviation",
+              "score": 0.98
+            },
+            {
+              "id": "c215f744-8ebf-46ed-910b-47582acf947d",
+              "classification": "Helicopter Operations",
+              "score": 0.96
+            },
+            {
+              "id": "c54c024f-d0d5-4e73-8533-ffb339e903e9",
+              "classification": "Aircraft Systems",
+              "score": 0.94
+            },
+            {
+              "id": "2dc6cd32-d38f-4e56-882f-a20094d4be4a",
+              "classification": "Flight Training",
+              "score": 0.9
+            },
+            {
+              "id": "6b54fb21-5901-4857-a4f5-a756749195cf",
+              "classification": "Aeronautical Engineering",
+              "score": 0.88
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "eb55cbd0-1e85-440b-9e31-5349c076c74d",
+              "label": "twist grip throttle",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "a4c99c32-da5f-4029-a407-5eed611b28ad",
+              "label": "collective lever",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "a7a10dac-3a25-4416-8820-8603750afedf",
+              "label": "turbine helicopters",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "8b1e61ca-8e2b-47f1-af1c-c9bfc28fb5b7",
+              "label": "piston helicopters",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "6d65c100-b4f8-4dc4-bba8-b8a5ec3bfe1e",
+              "label": "tachometer",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "0f5357c2-3c0e-4c4e-b390-4073ff0d7947",
+              "label": "manifold pressure gauge",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "dd7e5111-f60f-432a-9f4d-66e9b9ee3fac",
+              "label": "cyclic pitch control",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "95d218d3-0640-415a-bfbe-9ba31276872a",
+              "label": "rotor disk",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "8516cb08-0b36-4827-9c64-38cda74cd0b9",
+              "label": "rpm",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "86f7a76e-3234-498e-aede-0e96116370e6",
+              "label": "rpm indicator",
+              "type": "ACRONYM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": "0cfa9a9a-f8f2-4b0b-be14-c532f69a0c01",
+      "document_id": "7959453c-144a-4754-90e1-b6320df8ae57",
+      "title": "Page 4",
+      "context": "<div>\n<p>decrease the pitch angle of the rotor blade approximately 90° before it reaches the direction of cyclic displacement and increase the pitch angle of the rotor blade approximately 90° after it passes the direction of displacement. An increase in pitch angle increases AOA; a decrease in pitch angle decreases AOA. For example, if the cyclic is moved forward, the AOA decreases as the rotor blade passes the right side of the helicopter and increases on the left side. This results in maximum downward deflection of the rotor blade in front of the helicopter and maximum upward deflection behind it, causing the rotor disk to tilt forward.</p>\n<h3>Antitorque Pedals</h3>\n<p>The antitorque pedals, located on the cabin floor by the pilot's feet, control the pitch and therefore the thrust of the tail rotor blades or other antitorque system. See Chapter 5, Helicopter Components, Sections, and Systems, for a discussion on these other systems. [Figure 3-5] Newton's Third Law was discussed in Chapter 2, General Aerodynamics, stating that for every action there is an equal and opposite reaction. This law applies to the helicopter fuselage and its rotation in the opposite direction of the main rotor blades unless counteracted and controlled. To make flight possible and to compensate for this torque, most helicopter designs incorporate an antitorque rotor or tail rotor. The antitorque pedals allow the pilot to control the pitch angle of the tail rotor blades, which in forward flight puts the helicopter in longitudinal trim and, while at a hover, enables the pilot to turn the helicopter 360°. The antitorque pedals are connected to the pitch change mechanism on the tail rotor gearbox and allow the pitch angle on the tail rotor blades to be increased or decreased.</p>\n<img alt=\"Figure 3-5 shows a close-up view of two antitorque pedals (left and right pedals) used in a helicopter. Orange arrows indicate the direction of movement for each pedal.\"/>\n<p><b>Figure 3-5.</b> Antitorque pedals compensate for changes in torque and control heading in a hover.</p>\n<h3>Heading Control</h3>\n<p>The tail rotor is used to control the heading of the helicopter while hovering or when making hovering turns, as well as counteracting the torque of the main rotor. Hovering turns are commonly referred to as “pedal turns.”</p>\n<p>At speeds above translational lift, the pedals are used to compensate for torque to put the helicopter in longitudinal trim, so that coordinated flight can be maintained. The cyclic control is used to change heading by making a turn to the desired direction.</p>\n<p>The thrust of the tail rotor depends on the pitch angle of the tail rotor blades. This pitch angle can be positive, negative, or zero. A positive pitch angle tends to move the tail to the right. A negative pitch angle moves the tail to the left, while no thrust is produced with a zero pitch angle. The maximum positive pitch angle of the tail rotor is generally greater than the maximum negative pitch angle available. This is because the primary purpose of the tail rotor is to counteract the torque of the main rotor. The capability for tail rotors to produce thrust to the left (negative pitch angle) is necessary, because during autorotation the drag of the transmission tends to yaw the nose to the left, or in the same direction the main rotor is turning.</p>\n<p>From the neutral position, applying right pedal causes the nose of the helicopter to yaw right and the tail to swing to the left. Pressing on the left pedal has the opposite effect: the nose of the helicopter yaws to the left and the tail swings right. [Figure 3-6]</p>\n<p>With the antitorque pedals in the neutral position, the tail rotor has a medium positive pitch angle. In medium positive pitch, the tail rotor thrust approximately equals the torque of the main rotor during cruise flight, so the helicopter maintains a constant heading in level flight.</p>\n<p>A vertical fin or stabilizer is used in many single-rotor helicopters to help aid in heading control. The fin is designed to optimize directional stability in flight with a zero tail rotor thrust setting. The size of the fin is crucial to this design. If the surface is too large, the tail rotor thrust may be blocked. Heading control would be more difficult at slower airspeeds and at a hover and the vertical fin would then weathervane.</p>\n<p>Helicopters that are designed with tandem rotors do not have an antitorque rotor. The helicopter is designed with both rotor systems rotating in opposite directions to counteract the torque rather than a tail rotor. Directional antitorque pedals</p>\n</div>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/FAA@crd.com/original_assets/helicopter_flying_handbook-[]-51-Chapter 3 Helicopter Flight Controls.pdf_chunks/helicopter_flying_handbook-[]-51-Chapter 3 Helicopter Flight Controls-chunked-files/helicopter_flying_handbook-[]-51-Chapter 3 Helicopter Flight Controls_page_4-4.pdf",
+        "sort_number": "40"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "e6f9355e-9a95-4e1b-a74c-ee06ff7370d4",
+            "sentiment": "neutral",
+            "summary": "The text explains how rotor blade pitch, antitorque pedals, and tail rotor control helicopter heading and torque during flight.",
+            "score": 0.98
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "74a09dd1-33b0-4688-9de4-7433463b4a44",
+              "question": "Why is the rotor blade pitch angle decreased before and increased after the cyclic displacement direction?",
+              "answer": "Decreasing the pitch angle about 90° before the blade reaches the cyclic displacement direction lowers the angle of attack (AOA), causing the blade to deflect downward. Increasing the pitch angle about 90° after it passes the displacement direction raises the AOA, causing upward deflection. This creates maximum downward deflection in front of the helicopter and maximum upward deflection behind it, tilting the rotor disk forward."
+            },
+            {
+              "id": "05c43e9e-a0d8-43e5-adf6-37e95c6fc37f",
+              "question": "What do the antitorque pedals control in a helicopter?",
+              "answer": "The antitorque pedals, located on the cabin floor near the pilot’s feet, control the pitch angle of the tail‑rotor (or other antitorque system) blades, thereby adjusting the thrust produced by the tail rotor."
+            },
+            {
+              "id": "a3d8113f-d00a-4ec1-8ec2-c67b32d94692",
+              "question": "Why is an antitorque system necessary for helicopter flight?",
+              "answer": "According to Newton’s Third Law, the main rotor creates a torque that would rotate the fuselage in the opposite direction. An antitorque system, such as a tail rotor, provides opposite thrust to counteract this torque and keep the helicopter stable."
+            },
+            {
+              "id": "a833e4b4-01b0-41e6-8932-509e6d977154",
+              "question": "What happens when the right antitorque pedal is pressed?",
+              "answer": "Pressing the right pedal increases the tail‑rotor pitch to produce thrust that yaws the nose of the helicopter to the right, causing the tail to swing to the left."
+            },
+            {
+              "id": "8690f943-e4fb-433c-afd7-4b47a58cc2db",
+              "question": "What is the effect of a positive, negative, or zero pitch angle on the tail rotor thrust?",
+              "answer": "A positive pitch angle makes the tail rotor thrust move the tail to the right, a negative pitch angle moves the tail to the left, and a zero pitch angle produces no thrust."
+            },
+            {
+              "id": "7ff051dc-a095-4342-a2b7-aba27fb5d34e",
+              "question": "Why is the maximum positive pitch angle of the tail rotor generally greater than the maximum negative pitch angle?",
+              "answer": "The primary purpose of the tail rotor is to counteract the main‑rotor torque, which requires more thrust in the positive direction; therefore the maximum positive pitch angle is larger than the maximum negative pitch angle."
+            },
+            {
+              "id": "73a2c1cf-f333-4bc7-b94f-a51dd0ac87e2",
+              "question": "What does a medium positive pitch angle of the tail rotor do during cruise flight?",
+              "answer": "With the antitorque pedals in the neutral position, the tail rotor is set to a medium positive pitch angle that produces thrust roughly equal to the main‑rotor torque, allowing the helicopter to maintain a constant heading in level flight."
+            },
+            {
+              "id": "53de452c-2d6a-4504-825c-12efcd1f56b7",
+              "question": "How does a vertical fin or stabilizer assist with heading control?",
+              "answer": "A vertical fin or stabilizer provides directional stability, especially when the tail‑rotor thrust is set to zero. Its size must be balanced: if too large, it can block tail‑rotor thrust and make heading control difficult at low speeds or in hover."
+            },
+            {
+              "id": "6632c441-8316-4874-a927-d5268f548652",
+              "question": "How are heading changes made when the helicopter is flying above translational lift?",
+              "answer": "Above translational lift, the antitorque pedals are used to compensate for torque and keep the helicopter in longitudinal trim, while the cyclic control is used to change the heading by rolling or pitching the aircraft."
+            },
+            {
+              "id": "89d1a912-3bb6-41b6-be4e-8f31e8f5aa82",
+              "question": "Why don’t tandem‑rotor helicopters have an antitorque rotor?",
+              "answer": "Tandem‑rotor helicopters have two main rotors that spin in opposite directions, which naturally cancel each other’s torque, eliminating the need for a separate antitorque rotor."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "92c8d3a1-98b3-4f24-98ba-84d5d2aee686",
+              "keyword": "antitorque pedals",
+              "score": 0.96
+            },
+            {
+              "id": "cb70e02a-947a-4c6e-8322-7dda8a0d8796",
+              "keyword": "tail rotor",
+              "score": 0.94
+            },
+            {
+              "id": "14619706-c009-43cf-aa8a-c5f652181ff5",
+              "keyword": "pitch angle",
+              "score": 0.93
+            },
+            {
+              "id": "9bb5944d-b7d1-4c6d-91ee-382450d36f25",
+              "keyword": "heading control",
+              "score": 0.92
+            },
+            {
+              "id": "076a7bf5-cb16-4ecb-a9e8-257fc477ac31",
+              "keyword": "angle of attack (AOA)",
+              "score": 0.9
+            },
+            {
+              "id": "5420b6fb-cbf6-4590-87e8-07a4a5f9deed",
+              "keyword": "cyclic control",
+              "score": 0.88
+            },
+            {
+              "id": "8b8c1516-a48c-4551-acad-d1f4f9d45507",
+              "keyword": "torque compensation",
+              "score": 0.87
+            },
+            {
+              "id": "fccaf892-d5de-4042-bccb-37995193635a",
+              "keyword": "hover",
+              "score": 0.85
+            },
+            {
+              "id": "73db81fe-1e3e-43fa-9384-10942036e1ab",
+              "keyword": "translational lift",
+              "score": 0.83
+            },
+            {
+              "id": "a859e8cc-911a-437a-8664-f3d713074849",
+              "keyword": "vertical fin",
+              "score": 0.8
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "6140c3c3-31fd-4812-a091-5439b4259458",
+            "title": "Helicopter Rotor Blade Pitch and Antitorque Pedal Controls",
+            "long_summary": "The main rotor blade pitch is decreased about 90° before it reaches the cyclic displacement direction and increased about 90° after passing it. Lower pitch reduces the angle of attack (AOA) and higher pitch increases AOA, causing the blade to deflect downward in front of the helicopter and upward behind it, which tilts the rotor disk forward. Antitorque pedals, located at the pilot's feet, adjust the pitch of the tail rotor blades (or other antitorque system) to produce thrust that counters the main rotor torque. In forward flight the pedals set longitudinal trim; in hover they allow 360° turns. The tail rotor thrust depends on blade pitch: positive pitch moves the tail right (yawing the nose right), negative pitch moves it left, and zero pitch produces no thrust. The maximum positive pitch is generally greater than the maximum negative because the primary role is torque compensation; negative thrust is needed during autorotation. With pedals neutral, the tail rotor maintains a medium positive pitch that balances main‑rotor torque in cruise. A vertical fin or stabilizer aids directional stability, especially at low speeds or hover, while excessive fin size can impede tail‑rotor thrust. Tandem‑rotor helicopters lack a tail rotor, using opposite‑rotating main rotors to cancel torque.",
+            "short_summary": "How rotor pitch and pedals control helicopter heading"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "4063ee0e-afa2-46c6-993f-310639bc418e",
+              "classification": "Aviation – Helicopter Operations",
+              "score": 0.97
+            },
+            {
+              "id": "e2e61802-97c4-451b-ac7c-145657354f9e",
+              "classification": "Aeronautical Engineering – Rotorcraft Systems",
+              "score": 0.95
+            },
+            {
+              "id": "48bfd65e-897f-4a77-9b81-61e96af0dc76",
+              "classification": "Pilot Training / Flight Education",
+              "score": 0.9
+            },
+            {
+              "id": "b93a7790-eef4-46e0-ab3b-d02d60738cf9",
+              "classification": "Mechanical Engineering – Control Mechanisms",
+              "score": 0.85
+            },
+            {
+              "id": "7dbc0222-d035-4104-b0ca-c62b05848a85",
+              "classification": "Physics – Newtonian Mechanics in Flight",
+              "score": 0.7
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "2667290e-c089-4068-a08a-7b1afa2c63f5",
+              "label": "Isaac Newton",
+              "type": "PERSON"
+            },
+            {
+              "id": "0eb91e62-6ea4-4493-9041-26c71026ab86",
+              "label": "Helicopter",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "f696a9a7-7730-4d43-92b0-f22d8678c40d",
+              "label": "Tail rotor",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "96483726-83b7-49d8-91fc-0fb9dc723861",
+              "label": "Antitorque pedals",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "d9f0efee-38d5-4467-8a6d-a2e1b247a6a0",
+              "label": "Antitorque rotor",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "9119b608-5323-47c4-a49b-ec66fe04b664",
+              "label": "Vertical fin",
+              "type": "PRODUCT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": "8d6fd415-8e1c-4698-ab1d-02e86e74678b",
+      "document_id": "7959453c-144a-4754-90e1-b6320df8ae57",
+      "title": "Page 6",
+      "context": "3-6",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/FAA@crd.com/original_assets/helicopter_flying_handbook-[]-51-Chapter 3 Helicopter Flight Controls.pdf_chunks/helicopter_flying_handbook-[]-51-Chapter 3 Helicopter Flight Controls-chunked-files/helicopter_flying_handbook-[]-51-Chapter 3 Helicopter Flight Controls_page_6-6.pdf",
+        "sort_number": "60"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {}
+        },
+        {
+          "faqs": []
+        },
+        {
+          "keywords": []
+        },
+        {
+          "summary": {}
+        },
+        {
+          "classifications": []
+        },
+        {
+          "entities": []
+        }
+      ]
+    },
+    {
+      "topic_id": "5fa13691-bc61-4d85-97dc-f32c1f246e74",
+      "document_id": "7959453c-144a-4754-90e1-b6320df8ae57",
+      "title": "Page 5",
+      "context": "<div><img alt=\"Figure 3-6 shows three diagrams illustrating tail rotor pitch angle and thrust in relation to pedal positions during cruising flight. The diagrams are labeled 'Negative or Low Positive Pitch', 'Medium Positive Pitch', and 'High Positive Pitch'. In all three diagrams, the tail rotor blades are shown angled differently, and the resulting thrust vector (indicated by red arrows) causes the tail to move left (counter-clockwise rotation of the tail boom). The diagrams show the tail boom moving left in all three scenarios.\"/></div><p><b>Figure 3-6.</b> Tail rotor pitch angle and thrust in relation to pedal positions during cruising flight.</p><p>are used for directional control of the aircraft while in flight, as well as while taxiing with the forward gear off the ground.</p><p>In intermeshing rotor systems, which are a set of two rotors turning in opposite directions with each rotor mast mounted on the helicopter with a slight angle to the other so that the blades intermesh without colliding, and a coaxial rotor systems, which are a pair of rotors mounted one above the other on the same shaft and turning in opposite directions, the heading pedals control the heading of the helicopter while at a hover by imbalancing torque between the rotors, allowing for the torque to turn the helicopter.</p><h3>Chapter Summary</h3><p>This chapter introduced the pilot to the major flight controls and how they work in relation to each other. The chapter also correlates the use of flight controls and aerodynamics and how the two work together to make flight possible.</p>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/FAA@crd.com/original_assets/helicopter_flying_handbook-[]-51-Chapter 3 Helicopter Flight Controls.pdf_chunks/helicopter_flying_handbook-[]-51-Chapter 3 Helicopter Flight Controls-chunked-files/helicopter_flying_handbook-[]-51-Chapter 3 Helicopter Flight Controls_page_5-5.pdf",
+        "sort_number": "50"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "74cbbdf9-7a5a-4969-9a47-14154b886f9d",
+            "sentiment": "neutral",
+            "summary": "Figure 3-6 shows tail rotor pitch angles and thrust causing left tail movement; heading pedals control direction in various rotor systems; chapter reviews flight controls.",
+            "score": 0.97
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "17a23425-0601-4207-a81b-fccc577b74fb",
+              "question": "What does Figure 3‑6 illustrate about the tail rotor?",
+              "answer": "Figure 3‑6 shows three diagrams that relate tail‑rotor pitch angle and the resulting thrust to the position of the pedals during cruising flight. The diagrams are labeled “Negative or Low Positive Pitch,” “Medium Positive Pitch,” and “High Positive Pitch.” In each case the tail‑rotor blades are angled differently, producing a thrust vector (red arrows) that pushes the tail boom left, which is a counter‑clockwise rotation of the tail."
+            },
+            {
+              "id": "c7702e6c-853b-4ba9-9e37-590c5dfdb68a",
+              "question": "How does changing the tail‑rotor pitch affect the thrust direction?",
+              "answer": "Changing the pitch of the tail rotor changes the angle of the blades, which alters the direction of the thrust vector. Regardless of whether the pitch is negative/low positive, medium positive, or high positive, the thrust vector causes the tail boom to move left (counter‑clockwise rotation)."
+            },
+            {
+              "id": "0ff3753c-bdee-43b0-9231-39fee25fc23d",
+              "question": "What role does the tail rotor play in directional control while flying?",
+              "answer": "The tail rotor is used for directional control of the aircraft while in flight, allowing the pilot to yaw the helicopter by varying the thrust produced by the tail rotor."
+            },
+            {
+              "id": "d9999772-c13c-4659-9896-c6d29130b7ba",
+              "question": "Can the tail rotor be used for directional control while taxiing?",
+              "answer": "Yes, the tail rotor provides directional control while taxiing with the forward gear off the ground."
+            },
+            {
+              "id": "8c9f9457-1ab0-4744-bb66-a90437c6af59",
+              "question": "How do heading pedals control the heading of a helicopter with an intermeshing rotor system at hover?",
+              "answer": "In an intermeshing rotor system, the heading pedals change the balance of torque between the two opposite‑rotating rotors. By deliberately imbalancing the torque, the helicopter can be turned (yaw) while hovering."
+            },
+            {
+              "id": "9df26e08-d888-406a-b3d9-e8ebaf7be07a",
+              "question": "How do heading pedals control the heading of a helicopter with a coaxial rotor system at hover?",
+              "answer": "For a coaxial rotor system, the heading pedals also create an imbalance of torque between the upper and lower rotors, which turn in opposite directions. This torque imbalance allows the pilot to yaw the helicopter while hovering."
+            },
+            {
+              "id": "98d0286b-1f5f-4bc5-b598-1bcf85cea734",
+              "question": "What does “imbalancing torque between the rotors” mean in the context of heading control?",
+              "answer": "Imbalancing torque means deliberately making one rotor produce slightly more or less torque than the other. The resulting difference creates a net yawing moment that turns the helicopter."
+            },
+            {
+              "id": "3504b352-32a7-4843-af8f-1e71568cf738",
+              "question": "What are the major flight controls introduced in this chapter?",
+              "answer": "The chapter introduced the major flight controls, including the cyclic, collective, and anti‑torque (pedal) controls, and explained how they work together to control the helicopter’s attitude and direction."
+            },
+            {
+              "id": "bcf9522c-cad8-49c6-9015-79a66cf94460",
+              "question": "How do flight controls and aerodynamics work together to make flight possible?",
+              "answer": "The chapter explains that flight controls manipulate aerodynamic forces—such as lift from the main rotor and thrust from the tail rotor—to change the helicopter’s attitude, altitude, and heading, thereby enabling controlled flight."
+            },
+            {
+              "id": "0046aefb-9211-46ae-b52f-4110a5b9f5ef",
+              "question": "Why does the tail boom move left in all three pedal‑position scenarios shown in Figure 3‑6?",
+              "answer": "In all three scenarios, the tail‑rotor thrust vector is directed in a way that produces a yawing moment that pushes the tail boom left (counter‑clockwise rotation). Changing the pitch changes the magnitude of the thrust but not the direction of the resulting yaw."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "f2ca692c-0f06-4e0d-8dea-456a4615c3e1",
+              "keyword": "Tail rotor pitch angle",
+              "score": 0.96
+            },
+            {
+              "id": "7f96e847-7c9f-4d9c-b070-ea82e8290d2e",
+              "keyword": "Thrust vector",
+              "score": 0.94
+            },
+            {
+              "id": "40126cdd-83be-46fa-867d-47957f9b63a0",
+              "keyword": "Pedal positions",
+              "score": 0.92
+            },
+            {
+              "id": "8405ecfe-b2de-4f7e-a406-905e0d9b1610",
+              "keyword": "Directional control",
+              "score": 0.95
+            },
+            {
+              "id": "9618b04b-6680-4172-816d-987fc22567e8",
+              "keyword": "Intermeshing rotor systems",
+              "score": 0.93
+            },
+            {
+              "id": "74cf167f-5a38-4c2f-821b-f9deca815dc0",
+              "keyword": "Coaxial rotor systems",
+              "score": 0.93
+            },
+            {
+              "id": "751c29af-4d88-4cab-b288-f44df2182d37",
+              "keyword": "Heading pedals",
+              "score": 0.9
+            },
+            {
+              "id": "f0b89ecc-9604-4b46-8077-611db67ef98c",
+              "keyword": "Torque imbalance",
+              "score": 0.89
+            },
+            {
+              "id": "dce9f0c7-f9be-4aa9-b818-a7573853b036",
+              "keyword": "Helicopter hover",
+              "score": 0.88
+            },
+            {
+              "id": "0c2207c1-e43b-4d2d-b728-5b1a63e91b14",
+              "keyword": "Flight controls",
+              "score": 0.97
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "963f6c3d-bdf3-48bd-b52f-cff0c7e59981",
+            "title": "Tail Rotor Pitch, Pedal Control, and Heading in Various Rotor Systems",
+            "long_summary": "Figure 3‑6 illustrates how tail‑rotor blade pitch angle changes with pedal position during cruise flight. Three cases are shown—negative or low positive pitch, medium positive pitch, and high positive pitch. In each diagram the tail‑rotor blades are angled differently, producing a thrust vector (red arrows) that pushes the tail boom left, causing a counter‑clockwise rotation of the tail. The figure demonstrates that regardless of pitch magnitude, pedal input always generates left‑ward tail thrust in cruise.\n\nThe tail rotor, together with the heading (anti‑torque) pedals, provides directional control of the helicopter both in flight and while taxiing with forward gear off the ground. \n\nIn helicopters with intermeshing rotors (two rotors mounted at a slight angle to each other so the blades intermesh) and in coaxial rotor helicopters (two rotors stacked on the same shaft, rotating in opposite directions), the heading pedals also control yaw while hovering. They do this by creating an imbalance of torque between the two rotors; the resulting net torque turns the aircraft about its vertical axis.\n\nThe chapter summary reinforces that the pilot has been introduced to the major flight‑control devices, how they interact, and how their operation is linked to aerodynamic principles to achieve controlled flight.",
+            "short_summary": "Tail rotor pitch and pedal control affect helicopter heading."
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "56abd41d-0812-416e-9464-1602351fd776",
+              "classification": "Helicopter Flight Controls",
+              "score": 0.97
+            },
+            {
+              "id": "1b832699-f01a-4a84-a5cd-b7147f02752e",
+              "classification": "Aerodynamics",
+              "score": 0.85
+            },
+            {
+              "id": "403d2918-d8b8-4e37-b087-a2b42e42c949",
+              "classification": "Aviation Education",
+              "score": 0.8
+            },
+            {
+              "id": "d8e4bcff-f769-4720-b978-3d209a2afd92",
+              "classification": "Aircraft Systems",
+              "score": 0.75
+            },
+            {
+              "id": "60feebda-0ca7-4d90-9ccd-5d6a72b5e5c8",
+              "classification": "Helicopter Mechanics",
+              "score": 0.7
+            }
+          ]
+        },
+        {
+          "entities": []
+        }
+      ]
+    },
+    {
+      "topic_id": "3be9d2f7-8010-4af4-af3c-438dc38a069e",
+      "document_id": "7959453c-144a-4754-90e1-b6320df8ae57",
+      "title": "Page 2",
+      "context": "<h2>Collective Pitch Control</h2>\n<p>The collective pitch control (or simply “collective” or “thrust lever”) is located on the left side of the pilot’s seat and is operated with the left hand. The collective is used to make changes to the pitch angle of the main rotor blades and does this simultaneously, or collectively, as the name implies. As the collective pitch control is raised, there is a simultaneous and equal increase in pitch angle of all main rotor blades; as it is lowered, there is a simultaneous and equal decrease in pitch angle. This is done through a series of mechanical linkages and the amount of movement in the collective lever determines the amount of blade pitch change. [Figure 3-1] An adjustable friction control helps prevent inadvertent collective pitch movement.</p>\n<p>Changing the pitch angle on the blades changes the angle of incidence on each blade. With a change in angle of incidence comes a change in drag, which affects the speed or revolutions per minute (rpm) of the main rotor. As the pitch angle increases, angle of incidence increases, drag increases, and rotor rpm decreases. Decreasing pitch angle decreases both angle of incidence and drag, while rotor rpm increases. In order to maintain a constant rotor rpm, which is essential in helicopter operations, a proportionate change in power is required to compensate for the change in drag. This is accomplished with the throttle control or governor, which automatically adjusts engine power.</p>\n<h2>Throttle Control</h2>\n<p>The function of the throttle is to regulate engine rpm. If the correlator or governor system does not maintain the desired rpm when the collective is raised or lowered, or if those systems are not installed, the throttle must be moved manually with the twist grip in order to maintain rpm. In most helicopters, rotating the twist-grip throttle away from the pilot (counter-clockwise), increases engine rpm; rotating the twist-grip throttle towards the pilot (clockwise) decreases engine rpm. [Figure 3-2]</p>\n<h2>Governor/Correlator</h2>\n<p>A governor is a sensing device that senses rotor and engine rpm and makes the necessary adjustments in order to keep rotor rpm constant. In normal operations, once the rotor rpm is set, the governor keeps the rpm constant, and there is no need to make any throttle adjustments. Governors are common on all turbine helicopters (as it is a function of the fuel control system of the turbine engine) and used on some piston powered helicopters.</p>\n<p>A correlator is a mechanical connection between the collective lever and the engine throttle. When the collective lever is raised, power is automatically increased; when lowered, power is decreased. This system maintains rpm close to the desired value, but still requires adjustment of the throttle for fine tuning.</p>\n<div>\n<img alt=\"Figure 3-1 shows two images of a pilot's left hand operating the collective pitch control lever. The top image shows the lever being raised (collective pitch increased), and the bottom image shows the lever being lowered (collective pitch decreased). Accompanying diagrams illustrate the corresponding increase and decrease in the pitch angle of the main rotor blades.\"/>\n<p>Figure 3-1. Raising the collective pitch control increases the pitch angle, or angle of incidence, by the same amount on all blades.</p>\n</div>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/FAA@crd.com/original_assets/helicopter_flying_handbook-[]-51-Chapter 3 Helicopter Flight Controls.pdf_chunks/helicopter_flying_handbook-[]-51-Chapter 3 Helicopter Flight Controls-chunked-files/helicopter_flying_handbook-[]-51-Chapter 3 Helicopter Flight Controls_page_2-2.pdf",
+        "sort_number": "20"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "95f7a5a3-1e4e-4774-a5e7-49fa778cc5d3",
+            "sentiment": "neutral",
+            "summary": "El control colectivo ajusta simultáneamente el ángulo de paso de las palas del rotor y, junto con el acelerador y el gobernador, mantiene constante la velocidad del rotor.",
+            "score": 0.98
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "eeb57184-428a-47da-bfc4-9c87aec6dc44",
+              "question": "What does the collective pitch control do in a helicopter?",
+              "answer": "The collective pitch control changes the pitch angle of all main rotor blades simultaneously; raising it increases the pitch angle, and lowering it decreases the pitch angle."
+            },
+            {
+              "id": "b4261f0e-14e8-4ea0-a26a-44b51f24dfa3",
+              "question": "How does changing the blade pitch angle affect rotor RPM?",
+              "answer": "Increasing the pitch angle raises the angle of incidence and drag, which decreases rotor RPM; decreasing the pitch angle lowers drag and increases rotor RPM."
+            },
+            {
+              "id": "c4a3902a-4e8e-4905-b0d3-ca7ede6cc0f7",
+              "question": "Why is it important to keep rotor RPM constant?",
+              "answer": "A constant rotor RPM is essential for safe helicopter operations, and it requires a proportionate change in engine power to compensate for changes in drag caused by blade pitch adjustments."
+            },
+            {
+              "id": "59feb1c3-8bdb-4deb-acd1-213095d5ba6d",
+              "question": "What role does the throttle control play when the governor or correlator is not maintaining RPM?",
+              "answer": "When the governor or correlator does not maintain the desired RPM, the pilot must manually move the twist‑grip throttle: turning it counter‑clockwise (away from the pilot) increases engine RPM, and turning it clockwise (toward the pilot) decreases engine RPM."
+            },
+            {
+              "id": "72680e9a-38fb-4d72-ab7b-6ac91200fd9d",
+              "question": "What is a governor and how does it work?",
+              "answer": "A governor is a sensing device that monitors rotor and engine RPM and automatically adjusts engine power to keep rotor RPM constant; it eliminates the need for manual throttle adjustments during normal operation."
+            },
+            {
+              "id": "60b10b95-9140-41da-bb0b-230fbb530ec6",
+              "question": "On which types of helicopters are governors commonly found?",
+              "answer": "Governors are common on all turbine helicopters and are also used on some piston‑powered helicopters."
+            },
+            {
+              "id": "4ec13964-17a1-40e5-9f18-5f517187f824",
+              "question": "What is a correlator and how does it differ from a governor?",
+              "answer": "A correlator is a mechanical link between the collective lever and the engine throttle that automatically increases power when the collective is raised and decreases power when it is lowered; unlike a governor, it still requires fine‑tuning of the throttle for precise RPM control."
+            },
+            {
+              "id": "51f429ca-ec03-4c16-89f9-7b30847e2e5b",
+              "question": "What feature helps prevent accidental movement of the collective pitch control?",
+              "answer": "An adjustable friction control on the collective pitch lever helps prevent inadvertent collective pitch movement."
+            },
+            {
+              "id": "ddb85347-bd5e-4143-96a7-6f72d11c1b93",
+              "question": "Where is the collective pitch control located and how is it operated?",
+              "answer": "The collective pitch control is located on the left side of the pilot’s seat and is operated with the left hand."
+            },
+            {
+              "id": "e5dbbfea-c789-4378-a5ae-f9a7220605bf",
+              "question": "What does Figure 3‑1 illustrate about the collective pitch control?",
+              "answer": "Figure 3‑1 shows a pilot’s left hand operating the collective pitch lever, with the top image depicting the lever being raised (increasing blade pitch) and the bottom image showing the lever being lowered (decreasing blade pitch)."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "92d8d1c6-02e5-4a09-a995-205c331b73ad",
+              "keyword": "Collective pitch control",
+              "score": 0.98
+            },
+            {
+              "id": "d4980de8-0d4e-4f65-8232-22b42d36740b",
+              "keyword": "Main rotor blades",
+              "score": 0.96
+            },
+            {
+              "id": "9c64f816-d3d9-465f-85ac-8d51965a43f3",
+              "keyword": "Pitch angle",
+              "score": 0.97
+            },
+            {
+              "id": "85dbab4e-1a1e-493a-9139-792c10f2f1c0",
+              "keyword": "Rotor RPM",
+              "score": 0.95
+            },
+            {
+              "id": "6a001c84-c798-4006-b850-3fd6acd2070f",
+              "keyword": "Throttle control",
+              "score": 0.94
+            },
+            {
+              "id": "9e7572a8-923f-4951-aaef-115994c70952",
+              "keyword": "Governor",
+              "score": 0.93
+            },
+            {
+              "id": "4bfb651b-636a-47a4-9e74-bbc5b7b8f961",
+              "keyword": "Correlator",
+              "score": 0.92
+            },
+            {
+              "id": "c06a77c7-8668-4643-bbbe-5214ee00d3ac",
+              "keyword": "Helicopter",
+              "score": 0.9
+            },
+            {
+              "id": "eb8f4823-8fa2-4622-a0c0-8f20802d8411",
+              "keyword": "Mechanical linkages",
+              "score": 0.88
+            },
+            {
+              "id": "7a48f29c-9ba4-419b-b727-85fafe94ab10",
+              "keyword": "Drag",
+              "score": 0.87
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "638fd53a-3447-4ee0-b23a-fdf4f96eac9b",
+            "title": "Helicopter Collective Pitch, Throttle, and Governor Controls Overview",
+            "long_summary": "The collective pitch control, located on the left side of the pilot’s seat, is operated with the left hand and changes the pitch angle of all main‑rotor blades simultaneously. Raising the collective increases blade pitch, angle of incidence, drag, and reduces rotor RPM; lowering it does the opposite. Because rotor RPM must remain constant for safe helicopter operation, a proportional change in engine power is required to offset the drag change. This power adjustment is provided by the throttle control or automatically by a governor.\n\nThe throttle regulates engine RPM via a twist‑grip: turning it counter‑clockwise (away from the pilot) raises RPM, while turning clockwise (toward the pilot) lowers RPM. When a governor or correlator is absent or fails to keep RPM steady after collective movement, the pilot must manually adjust the throttle.\n\nA governor is an electronic or hydraulic sensor that continuously monitors rotor and engine RPM and automatically commands the engine to maintain the set RPM, eliminating the need for manual throttle changes. Governors are standard on turbine helicopters and some piston models. A correlator mechanically links the collective lever to the throttle, automatically increasing power when the collective is raised and decreasing it when lowered; however, fine‑tuning still requires manual throttle input.\n\nTogether, these three systems—collective pitch, throttle, and governor/correlator—ensure that changes in blade pitch are matched by appropriate power adjustments, keeping rotor speed stable throughout flight.",
+            "short_summary": "How collective, throttle, and governor manage rotor RPM"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "488d6594-be4e-4865-8ec6-6b5efccb597f",
+              "classification": "Aviation",
+              "score": 0.98
+            },
+            {
+              "id": "0b23bd5d-900b-4f75-aebe-832ba18eab00",
+              "classification": "Helicopter Flight Controls",
+              "score": 0.97
+            },
+            {
+              "id": "71123af8-2d6e-4430-bceb-1cc236662ea6",
+              "classification": "Aeronautical Engineering",
+              "score": 0.94
+            },
+            {
+              "id": "6a334189-a599-4a63-ae4a-c33aaf1e90c3",
+              "classification": "Mechanical Systems",
+              "score": 0.9
+            },
+            {
+              "id": "e2bedacb-3473-4c2c-99ce-ae3fc819fd1d",
+              "classification": "Pilot Training",
+              "score": 0.85
+            }
+          ]
+        },
+        {
+          "entities": []
+        }
+      ]
+    },
+    {
+      "topic_id": "52b39951-c686-4fdf-a0eb-23692a3095fd",
+      "document_id": "7959453c-144a-4754-90e1-b6320df8ae57",
+      "title": "Page 1",
+      "context": "<h1>Chapter 3</h1>\n<h1>Helicopter Flight Controls</h1>\n<h2>Introduction</h2>\n<p>There are three major controls in a helicopter that the pilot must use during flight. They are the collective pitch control, the cyclic pitch control, and the antitorque pedals or tail rotor control. In addition to these major controls, the pilot must also use the throttle control, which is usually mounted directly to the collective pitch control in order to fly the helicopter.</p>\n<p>In this chapter, the control systems described are not limited to the single main rotor type helicopter but are employed in one form or another in most helicopter configurations. All examples in this chapter refer to a counterclockwise main rotor blade rotation as viewed from above. If flying a helicopter with a clockwise rotation, left and right references must be reversed, particularly in the areas of rotor blade pitch change, antitorque pedal movement, and tail rotor thrust.</p>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/FAA@crd.com/original_assets/helicopter_flying_handbook-[]-51-Chapter 3 Helicopter Flight Controls.pdf_chunks/helicopter_flying_handbook-[]-51-Chapter 3 Helicopter Flight Controls-chunked-files/helicopter_flying_handbook-[]-51-Chapter 3 Helicopter Flight Controls_page_1-1.pdf",
+        "sort_number": "10"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "9de4f273-62dd-4ef2-8245-24d950025b7a",
+            "sentiment": "neutral",
+            "summary": "The chapter introduces the three main helicopter flight controls and notes rotor rotation direction considerations.",
+            "score": 0.99
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "171576b3-8893-4a1b-87d1-0c9dbd641f95",
+              "question": "What are the three major flight controls a helicopter pilot must use?",
+              "answer": "The three major controls are the collective pitch control, the cyclic pitch control, and the antitorque pedals (tail rotor control)."
+            },
+            {
+              "id": "7623423b-d46f-4aab-b260-f90e601b461d",
+              "question": "How is the throttle control typically mounted in a helicopter?",
+              "answer": "The throttle control is usually mounted directly to the collective pitch control."
+            },
+            {
+              "id": "4bf06001-b4ac-4edd-b8d8-2b2c590ef46c",
+              "question": "Are the control systems described limited to single‑main‑rotor helicopters?",
+              "answer": "No. The control systems are employed in one form or another in most helicopter configurations, not only single‑main‑rotor types."
+            },
+            {
+              "id": "ba509335-3bfc-4478-bd7c-dc6c90ec6c75",
+              "question": "What direction of main‑rotor blade rotation do the examples in this chapter assume?",
+              "answer": "All examples assume a counterclockwise main‑rotor blade rotation as viewed from above."
+            },
+            {
+              "id": "ec0f6794-cc59-4674-bc6d-d7c5ed53a4b2",
+              "question": "What must be done with left‑right references when flying a helicopter with clockwise rotor rotation?",
+              "answer": "Left and right references must be reversed, especially for rotor blade pitch change, antitorque pedal movement, and tail‑rotor thrust."
+            },
+            {
+              "id": "ac6f537c-570f-4985-b6c3-ad54a9d36941",
+              "question": "Which control manages the tail‑rotor thrust?",
+              "answer": "The antitorque pedals (tail‑rotor control) manage tail‑rotor thrust."
+            },
+            {
+              "id": "916b3e98-221e-4186-a2a1-7bbfdfda2a31",
+              "question": "What is the purpose of the collective pitch control?",
+              "answer": "The collective pitch control changes the pitch of all main‑rotor blades simultaneously to increase or decrease overall lift."
+            },
+            {
+              "id": "166bf1a9-e98a-4e04-b7cf-6d11b9c6610a",
+              "question": "What does the cyclic pitch control do?",
+              "answer": "The cyclic pitch control varies the pitch of each main‑rotor blade cyclically during rotation, allowing the pilot to tilt the rotor disc and control the helicopter’s direction."
+            },
+            {
+              "id": "fd3e35f8-d9d7-4665-9d60-bcf52eecb3ef",
+              "question": "Why must left‑right references be reversed for clockwise‑rotating helicopters?",
+              "answer": "Because the direction of rotor rotation changes the relationship between pedal movement, blade pitch change, and tail‑rotor thrust, requiring opposite left‑right references."
+            },
+            {
+              "id": "10a9e41d-3fd3-4c1e-9fbb-2e4fef48c7ea",
+              "question": "Is the throttle control considered a major flight control?",
+              "answer": "The throttle control is not listed as one of the three major controls, but it is essential and is usually integrated with the collective pitch control."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "9119da2e-6d18-4692-998e-9a81d5d77d42",
+              "keyword": "helicopter flight controls",
+              "score": 0.97
+            },
+            {
+              "id": "54fc534d-54d2-4e5c-ad02-d0981a32f37a",
+              "keyword": "collective pitch control",
+              "score": 0.96
+            },
+            {
+              "id": "5ba37d67-7e03-440b-8e3e-e963a08c6775",
+              "keyword": "cyclic pitch control",
+              "score": 0.96
+            },
+            {
+              "id": "62d64ff0-f401-4d07-8bab-7af56b5ad8e5",
+              "keyword": "antitorque pedals",
+              "score": 0.94
+            },
+            {
+              "id": "19e81b1f-eb12-4a8d-8aa7-a840e7fd030e",
+              "keyword": "tail rotor control",
+              "score": 0.94
+            },
+            {
+              "id": "d4bec8a4-2487-4ad0-b126-cd7637f2e15a",
+              "keyword": "throttle control",
+              "score": 0.92
+            },
+            {
+              "id": "c42830b1-696e-4fa3-b080-302bae551d19",
+              "keyword": "main rotor rotation direction",
+              "score": 0.9
+            },
+            {
+              "id": "3421dd50-318a-473d-bf9e-bae0b823dcbd",
+              "keyword": "counterclockwise rotor rotation",
+              "score": 0.88
+            },
+            {
+              "id": "7086ddb7-498f-4ac9-bc88-801c0726837d",
+              "keyword": "helicopter configurations",
+              "score": 0.85
+            },
+            {
+              "id": "77238603-7eba-43ab-a97b-d6e78597ed67",
+              "keyword": "rotor blade pitch change",
+              "score": 0.84
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "2e497dbb-c52a-49aa-a961-9321de48ba4f",
+            "title": "Helicopter Flight Controls Overview",
+            "long_summary": "Chapter 3 introduces the primary flight controls used by helicopter pilots. The three major controls are the collective pitch control, which changes the blade pitch of all rotor blades simultaneously; the cyclic pitch control, which tilts the rotor disc to direct the helicopter’s movement; and the antitorque (tail rotor) pedals, which manage yaw by adjusting tail‑rotor thrust. In addition, pilots operate a throttle, typically integrated with the collective, to regulate engine power. The discussion applies to most helicopter configurations, not only single‑main‑rotor designs, and assumes a counter‑clockwise main‑rotor rotation when viewed from above. For helicopters with clockwise rotation, left‑right references for blade pitch, pedal movement, and tail‑rotor thrust must be reversed.",
+            "short_summary": "Three main controls plus throttle for helicopter flight."
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "c99defad-6fca-48ef-a0f1-1c2b2453c674",
+              "classification": "Aviation",
+              "score": 0.98
+            },
+            {
+              "id": "8ecf5c01-edd6-4e39-8cf0-4290709d389e",
+              "classification": "Aeronautical Engineering",
+              "score": 0.95
+            },
+            {
+              "id": "2ef32cb4-5c57-4127-b113-76870d090d01",
+              "classification": "Helicopter Operations",
+              "score": 0.93
+            },
+            {
+              "id": "e4df79b3-6f12-4f92-ad2a-a13d614a30fe",
+              "classification": "Flight Training / Education",
+              "score": 0.9
+            },
+            {
+              "id": "93a5b9a1-c000-4911-ac14-53ad7f9ffe97",
+              "classification": "Mechanical Systems",
+              "score": 0.85
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "458729e4-93c4-40ca-a84d-89805b5fd26b",
+              "label": "collective pitch control",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "b30d83fb-e3d5-455c-84c0-dd0daf60511e",
+              "label": "cyclic pitch control",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "de5850ec-3280-49ce-abb3-027a5208b119",
+              "label": "antitorque pedals",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "6d1d14e6-b554-40dc-8086-ea48da41ac5e",
+              "label": "tail rotor control",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "8de5b705-6f3e-42f2-b378-a70fbc891050",
+              "label": "throttle control",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "4cb36ca5-be8a-4f66-8a2d-e556d540083f",
+              "label": "main rotor",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "ffbd26c3-1db5-4324-a2b9-787f560d8c5b",
+              "label": "rotor blade",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "0152b27a-25c0-4525-9ebc-72c3d8f6dd31",
+              "label": "counterclockwise main rotor blade rotation",
+              "type": "PRODUCT"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

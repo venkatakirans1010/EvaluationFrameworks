@@ -1,0 +1,210 @@
+{
+  "customer_id": "test_set_2x2@crd.com",
+  "document_id": "7806d5aa-3577-485f-b06c-74b359517414",
+  "document_name": "Table_And_Text_2.pdf",
+  "organization_name": "Booz Allen",
+  "account_name": "Default Account",
+  "application_name": "Booz Allen AI Atomization Service",
+  "vpub_name": "Default VPUB",
+  "topics": [
+    {
+      "topic_id": "63b15451-b25d-4d06-970c-14a10199d283",
+      "document_id": "7806d5aa-3577-485f-b06c-74b359517414",
+      "title": "Page 1",
+      "context": "<h2>6 Selecting Assurance Levels</h2>\n<p><i>This section is normative.</i></p>\n<p>The risk assessment results are the primary factor in selecting the most appropriate levels. This section details how to apply the results of the risk assessment with additional factors unrelated to risk to determine the most advantageous xAL selection.</p>\n<p>First, compare the risk assessment impact profile to the impact profiles associated with each assurance level, as shown in Table 6-1 below. To determine the required assurance level, find the lowest level whose impact profile meets or exceeds the potential impact for every category analyzed in the risk assessment.</p>\n<table>\n<caption>Table 6-1 Maximum Potential Impacts for Each Assurance Level</caption>\n<thead>\n<tr>\n<th rowspan=\"2\">Impact Categories</th>\n<th colspan=\"3\">Assurance Level</th>\n</tr>\n<tr>\n<th>1</th>\n<th>2</th>\n<th>3</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Inconvenience, distress or damage to standing or reputation</td>\n<td>Low</td>\n<td>Mod</td>\n<td>High</td>\n</tr>\n<tr>\n<td>Financial loss or agency liability</td>\n<td>Low</td>\n<td>Mod</td>\n<td>High</td>\n</tr>\n<tr>\n<td>Harm to agency programs or public interests</td>\n<td>N/A</td>\n<td>Low/Mod</td>\n<td>High</td>\n</tr>\n<tr>\n<td>Unauthorized release of sensitive information</td>\n<td>N/A</td>\n<td>Low/Mod</td>\n<td>High</td>\n</tr>\n<tr>\n<td>Personal Safety</td>\n<td>N/A</td>\n<td>Low</td>\n<td>Mod/High</td>\n</tr>\n<tr>\n<td>Civil or criminal violations</td>\n<td>N/A</td>\n<td>Low/Mod</td>\n<td>High</td>\n</tr>\n</tbody>\n</table>\n<p>In analyzing risks, the agency SHALL consider all of the expected direct and indirect results of an authentication failure, including the possibility that there will be more than one failure, or harms to more than one person or organization. The definitions of potential impacts contain some relative terms, like “serious” or “minor,” whose meaning will depend on context. The agency SHOULD consider the context and the nature of the persons or entities affected to decide the relative significance of these harms. Over time, the meaning of these terms will become more definite as agencies gain practical experience with these issues. The analysis of harms to agency programs or other public interests depends strongly on the context; the agency SHOULD consider these issues with care.</p>\n<p>It is possible that the assurance levels may differ across IAL, AAL, and FAL. For example, suppose an agency establishes a “health tracker” application in which users submit personal</p>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/test_set_2x2@crd.com/original_assets/Table_And_Text_2.pdf_chunks/Table_And_Text_2-chunked-files/Table_And_Text_2_page_1-1.pdf",
+        "sort_number": "10"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "eaf89841-1eb0-47c7-87e3-13df50154d62",
+            "sentiment": "neutral",
+            "summary": "This section explains how to choose assurance levels based on risk assessment results and impact profiles, detailing criteria and considerations for selecting appropriate levels.",
+            "score": 0.95
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "a4868b88-d39b-4422-afa1-1b89bb16635e",
+              "question": "¿Cuál es el propósito de seleccionar los niveles de garantía?",
+              "answer": "El objetivo es determinar el nivel de garantía más apropiado basándose en los resultados de la evaluación de riesgos y otros factores no relacionados con el riesgo."
+            },
+            {
+              "id": "331711d7-e087-4452-b614-03b64e6b1051",
+              "question": "¿Cómo se determina el nivel de garantía requerido?",
+              "answer": "Se compara el perfil de impacto de la evaluación de riesgos con el perfil de impacto de cada nivel de garantía en la Tabla 6‑1 y se elige el nivel más bajo cuyo perfil cubra o supere el impacto potencial en todas las categorías analizadas."
+            },
+            {
+              "id": "d7dbbddb-a8c4-4f6b-9827-30a660ba7d0a",
+              "question": "¿Cuáles son las categorías de impacto listadas en la Tabla 6‑1?",
+              "answer": "Inconveniencia, angustia o daño a la reputación; Pérdida financiera o responsabilidad de la agencia; Daño a programas de la agencia o intereses públicos; Liberación no autorizada de información sensible; Seguridad personal; Violaciones civiles o penales."
+            },
+            {
+              "id": "09c3bb29-5a9d-4719-9bcd-5a58a30c5446",
+              "question": "¿Qué significa \"N/A\" en la Tabla 6‑1?",
+              "answer": "\"N/A\" indica que la categoría de impacto no aplica para ese nivel de garantía."
+            },
+            {
+              "id": "417f97f2-027f-44f4-bf34-6a951c3da834",
+              "question": "¿Cómo debe considerarse la posibilidad de múltiples fallos de autenticación?",
+              "answer": "La agencia debe considerar todos los resultados directos e indirectos esperados de una falla de autenticación, incluida la posibilidad de más de un fallo o daños a más de una persona u organización."
+            },
+            {
+              "id": "e3abb12d-284b-452b-9e8f-e6769c177bb1",
+              "question": "¿Cómo se interpretan términos relativos como \"grave\" o \"menor\"?",
+              "answer": "El significado depende del contexto; la agencia debe evaluar el contexto y la naturaleza de las personas o entidades afectadas para determinar la importancia relativa de estos daños."
+            },
+            {
+              "id": "00177fd8-e634-48ad-b204-357292946eaf",
+              "question": "¿Pueden los niveles de garantía diferir entre IAL, AAL y FAL?",
+              "answer": "Sí, es posible que los niveles de garantía varíen entre IAL, AAL y FAL, como se ilustra en el ejemplo de la aplicación de rastreador de salud."
+            },
+            {
+              "id": "4d6bb7a6-7fe1-447a-9852-5681e37c0337",
+              "question": "¿Qué factores adicionales, aparte de la evaluación de riesgos, influyen en la selección del nivel de garantía?",
+              "answer": "Se consideran factores no relacionados con el riesgo que ayuden a determinar la selección más ventajosa de xAL."
+            },
+            {
+              "id": "7e45d549-6cd5-4b86-ad9b-755ec2c2c02c",
+              "question": "¿Qué significa \"xAL\" en este contexto?",
+              "answer": "\"xAL\" se refiere a los niveles de garantía (IA, AA, FA) que se están evaluando y seleccionando."
+            },
+            {
+              "id": "f810943d-28ba-4530-9b0d-559f7f0c49b1",
+              "question": "¿Cómo analiza la agencia los daños a los programas de la agencia o a los intereses públicos?",
+              "answer": "El análisis depende fuertemente del contexto; la agencia debe considerar estos aspectos con cuidado y evaluar el impacto potencial en los programas y los intereses públicos."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "417af5f3-37a7-4fe6-ac69-530f91c4206d",
+              "keyword": "Assurance Levels",
+              "score": 0.99
+            },
+            {
+              "id": "2d9a250b-25bb-4eb4-ab76-c1d2c74dea1b",
+              "keyword": "Risk Assessment",
+              "score": 0.98
+            },
+            {
+              "id": "c2837ce3-76ab-499f-ad96-8bfb0fc38fa2",
+              "keyword": "Impact Profile",
+              "score": 0.97
+            },
+            {
+              "id": "3a64b25d-7db7-46a6-8ceb-21c78f3a76ac",
+              "keyword": "Authentication Failure",
+              "score": 0.96
+            },
+            {
+              "id": "c4802581-0bc7-4d1d-91f5-7758318ffd3b",
+              "keyword": "Health Tracker Application",
+              "score": 0.95
+            },
+            {
+              "id": "92e6d158-8e8f-4e0a-95b8-e31163eea295",
+              "keyword": "Personal Safety",
+              "score": 0.94
+            },
+            {
+              "id": "d82b6da3-1ed3-41c9-ae90-9831b65a8cb2",
+              "keyword": "Unauthorized Release of Sensitive Information",
+              "score": 0.93
+            },
+            {
+              "id": "2908dfe7-253e-4ea1-b4ee-cc01de3b729a",
+              "keyword": "Financial Loss",
+              "score": 0.92
+            },
+            {
+              "id": "66f00702-8c60-45a6-8df3-a1d20bf2b70d",
+              "keyword": "Agency Liability",
+              "score": 0.91
+            },
+            {
+              "id": "26118262-d8bf-479d-b2c9-5b7fbd4d6ebb",
+              "keyword": "Civil or Criminal Violations",
+              "score": 0.9
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "e0f5277e-d41c-4a68-8b0b-c00216ae07c1",
+            "title": "Selecting Assurance Levels Based on Risk Assessment",
+            "long_summary": "This section explains how to determine the appropriate assurance level (IAL, AAL, or FAL) for an authentication system by applying the results of a risk assessment. The primary factor is the risk assessment’s impact profile, which is compared against the maximum potential impacts listed in Table 6‑1. For each impact category—such as inconvenience, financial loss, harm to agency programs, unauthorized release of sensitive information, personal safety, and civil or criminal violations—the table shows the lowest assurance level that meets or exceeds the potential impact. The agency must select the lowest level whose impact profile covers every category analyzed. The process also requires consideration of all expected direct and indirect consequences of an authentication failure, including multiple failures or harms to multiple parties. Relative terms like “serious” or “minor” are interpreted in context, and the agency should carefully evaluate the significance of harms to people, organizations, and public interests. Additionally, assurance levels may differ across IAL, AAL, and FAL, so the agency must assess each level separately. By following these steps, the agency can choose the most advantageous assurance level that aligns with its risk profile while accounting for contextual factors.",
+            "short_summary": "Choose assurance level matching risk impact profile"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "81d9765e-3bd8-4ebd-bf29-cee7a238e411",
+              "classification": "Cybersecurity",
+              "score": 0.99
+            },
+            {
+              "id": "fe6bb18e-a623-4f71-ba36-ae4da9cf8935",
+              "classification": "Risk Management",
+              "score": 0.97
+            },
+            {
+              "id": "db572745-b858-4f92-a83b-a2490642d3dd",
+              "classification": "Authentication",
+              "score": 0.95
+            },
+            {
+              "id": "48b2df1c-dd10-4966-a8d2-50b11f3d7292",
+              "classification": "Information Security Policy",
+              "score": 0.93
+            },
+            {
+              "id": "8dd281da-9440-4ddc-a77e-4bd5080de149",
+              "classification": "Technical Documentation",
+              "score": 0.9
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "bb70e437-7966-41dc-9d73-d35609be270d",
+              "label": "IAL",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "056c872f-3def-4273-8b1d-2422aff0db14",
+              "label": "AAL",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "2d771c1f-0328-4b57-856b-1623c43261ad",
+              "label": "FAL",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "384d65b6-4262-4f78-b367-7b67e4613b70",
+              "label": "health tracker",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "24940745-6d40-482d-a06e-92bed534f7dc",
+              "label": "agency",
+              "type": "ORGANIZATION"
+            },
+            {
+              "id": "1feb5780-34e8-4978-a74a-896b395c8461",
+              "label": "risk assessment",
+              "type": "PRODUCT"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

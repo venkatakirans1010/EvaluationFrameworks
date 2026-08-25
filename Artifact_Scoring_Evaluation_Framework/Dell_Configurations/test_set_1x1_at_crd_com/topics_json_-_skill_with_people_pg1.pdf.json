@@ -1,0 +1,169 @@
+{
+  "customer_id": "test_set_1x1@crd.com",
+  "document_id": "2b1133d3-dfcd-4d4c-8708-6c0faace3bfc",
+  "document_name": "Skill_With_People_Pg1.pdf",
+  "organization_name": "Booz Allen",
+  "account_name": "Default Account",
+  "application_name": "Booz Allen AI Atomization Service",
+  "vpub_name": "Default VPUB",
+  "topics": [
+    {
+      "topic_id": "f2cd0f2f-478c-49e7-8c2a-dae7242351cc",
+      "document_id": "2b1133d3-dfcd-4d4c-8708-6c0faace3bfc",
+      "title": "Page 1",
+      "context": "<h1><u>How to Skillfully Make Up Peoples Minds</u></h1>\n<p>There is more involved in getting people to say “yes” than luck, guesswork, or their whim.</p>\n<p>Those skilled in human relations have several techniques and methods, which greatly increase the chances of people saying “yes” to them. (Getting them to say “yes” simply means getting them to do what you want them to do.)</p>\n<p><b>Here are four good methods –</b></p>\n<ol>\n<li><b>Give people REASONS to say yes to you.</b>\n<ul>\n<li>Everything in this world is done for a reason. So, when you want somebody to do something, give them a reason as to why they should do it.</li>\n<li>However, be sure the reasons you give them are their reasons, meaning reasons that are to their advantage and benefit.</li>\n<li>The wrong way would be for you to give reasons that would be to your advantage or benefit.</li>\n<li>In short, tell people how they will benefit by doing what you want them to do, not how you benefit.</li>\n<li>Ask “yes” questions.</li>\n</ul>\n</li>\n</ol>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/test_set_1x1@crd.com/original_assets/Skill_With_People_Pg1.pdf_chunks/Skill_With_People_Pg1-chunked-files/Skill_With_People_Pg1_page_1-1.pdf",
+        "sort_number": "10"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "8a0bdb86-41fa-483e-904d-b921f8f7c93f",
+            "sentiment": "neutral",
+            "summary": "The article outlines four persuasive methods, emphasizing giving reasons that benefit the other person and using yes-questions to increase agreement.",
+            "score": 0.92
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "e668752b-1ca2-4bff-8f1d-335347efd57b",
+              "question": "What does the article mean by \"give people reasons to say yes\"?",
+              "answer": "It means telling people why they should do something, focusing on how they will benefit from it."
+            },
+            {
+              "id": "16c01e6e-7b36-4ffb-b38c-09db32e0e25e",
+              "question": "Why should the reasons given be to the other person's advantage?",
+              "answer": "Because the article says the reasons should be their reasons, meaning they should benefit, not just benefit you."
+            },
+            {
+              "id": "c0e5949f-b247-4555-81cd-28e13c3f35d2",
+              "question": "What is the wrong way to give reasons?",
+              "answer": "Giving reasons that are only to your advantage or benefit is the wrong way."
+            },
+            {
+              "id": "612fd7de-05f5-4733-bac5-b90fd3f57bdc",
+              "question": "What does the article suggest about asking \"yes\" questions?",
+              "answer": "It suggests that you should ask questions that are phrased in a way that encourages a yes answer."
+            },
+            {
+              "id": "e42275ba-e9ad-4a09-99b4-138ed8c7435d",
+              "question": "What is the short summary of the method?",
+              "answer": "Tell people how they will benefit by doing what you want them to do, not how you benefit."
+            },
+            {
+              "id": "3834b933-06fc-4f24-99c3-fae59b24ab93",
+              "question": "What does \"getting them to say yes\" mean in this context?",
+              "answer": "It means getting them to do what you want them to do."
+            },
+            {
+              "id": "795b36d9-64fe-466f-957e-eaa45937c173",
+              "question": "How many methods are listed in the article?",
+              "answer": "The article lists four good methods, but only the first one is detailed."
+            },
+            {
+              "id": "79ba1593-5204-42c8-bb2a-7715cc8d9d4d",
+              "question": "What is the title of the article?",
+              "answer": "The title is \"How to Skillfully Make Up Peoples Minds\"."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "27ba1446-43e9-49f0-a0f2-19877518c086",
+              "keyword": "getting people to say yes",
+              "score": 0.98
+            },
+            {
+              "id": "9a93ca8b-00fa-480c-a784-7b3cb9399384",
+              "keyword": "reasons",
+              "score": 0.95
+            },
+            {
+              "id": "49ae9c99-bf26-4c37-8293-34466d8bdcdd",
+              "keyword": "benefit",
+              "score": 0.93
+            },
+            {
+              "id": "ce2576f4-4baf-4fc6-a708-12b2387ea189",
+              "keyword": "advantage",
+              "score": 0.9
+            },
+            {
+              "id": "43b2ab44-c166-4842-89cc-ad7caf7b2cba",
+              "keyword": "yes questions",
+              "score": 0.88
+            },
+            {
+              "id": "3890f302-5d4d-470d-836b-43df6decbcdb",
+              "keyword": "human relations",
+              "score": 0.85
+            },
+            {
+              "id": "c3ef3931-37d9-4d13-a4bf-08fab54cefb6",
+              "keyword": "techniques",
+              "score": 0.8
+            },
+            {
+              "id": "b5e82a07-c380-4ae3-bf66-f675d4a140f1",
+              "keyword": "methods",
+              "score": 0.78
+            },
+            {
+              "id": "d48a51e8-67b9-45e3-848c-70dc028307bf",
+              "keyword": "influence",
+              "score": 0.75
+            },
+            {
+              "id": "047acaa0-1e9b-473c-86e1-14f73d65c9a2",
+              "keyword": "persuasion",
+              "score": 0.7
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "98bad5a2-8f1b-4b3b-b932-422ab6a29576",
+            "title": "Techniques to Persuade People to Say Yes",
+            "long_summary": "The article explains that persuading people to say \"yes\" is more than luck or guesswork; it requires skillful human‑relations techniques. It outlines four methods, though only the first is detailed. The first method is to give people reasons that motivate them to comply. The key is to present benefits that align with the other person’s interests, not your own. By framing the request in terms of how the person will gain or avoid loss, you increase the likelihood of agreement. The article also suggests using \"yes\" questions—phrases that naturally lead the listener toward a positive response. Overall, the piece emphasizes that successful persuasion hinges on understanding the other’s perspective and offering compelling, personally relevant reasons for them to act.",
+            "short_summary": "Use reasons that benefit the other to secure agreement"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "ec7b0769-c9fb-4b8c-8d28-614e01766ba6",
+              "classification": "Persuasion",
+              "score": 0.98
+            },
+            {
+              "id": "db1fa504-0a38-44ef-9d36-bec1ddc515cb",
+              "classification": "Influence",
+              "score": 0.96
+            },
+            {
+              "id": "47d29704-0fd4-4c9c-ad28-b1903f8a3888",
+              "classification": "Communication",
+              "score": 0.9
+            },
+            {
+              "id": "a8f1a6b6-4d3a-4527-aff5-c1cf5be7957f",
+              "classification": "Self-Help",
+              "score": 0.85
+            },
+            {
+              "id": "334d7b10-104a-45ac-aa6b-2d903938038c",
+              "classification": "Motivation",
+              "score": 0.8
+            }
+          ]
+        },
+        {
+          "entities": []
+        }
+      ]
+    }
+  ]
+}

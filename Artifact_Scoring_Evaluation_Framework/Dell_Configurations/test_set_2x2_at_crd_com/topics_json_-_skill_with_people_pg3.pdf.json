@@ -1,0 +1,190 @@
+{
+  "customer_id": "test_set_2x2@crd.com",
+  "document_id": "00323bf0-8424-4856-89de-f70d757b54fb",
+  "document_name": "Skill_With_People_Pg3.pdf",
+  "organization_name": "Booz Allen",
+  "account_name": "Default Account",
+  "application_name": "Booz Allen AI Atomization Service",
+  "vpub_name": "Default VPUB",
+  "topics": [
+    {
+      "topic_id": "75058102-3f21-4be3-ae11-b44d3b120015",
+      "document_id": "00323bf0-8424-4856-89de-f70d757b54fb",
+      "title": "Page 1",
+      "context": "<ul><li>Yes means they will do it. No means they won't do it.</li><li>The skill is to have them choose between doing what you want one way or another way. If you want an appointment with Mr. Smith, for example, you might say:<p><i>\"Would this afternoon be satisfactory, Mr. Smith, or do you prefer tomorrow morning or afternoon?\" (You are giving Mr. Smith a choice of times to see you - a choice of yeses.)</i></p></li><li>The least effective way would be to ask for an appointment. This way you are giving him a choice between yes (you can have the appointment) and no (you can't have the appointment.)</li></ul><p><i>Examples –</i></p><p><i>\"Do you want the black or do you want the white?\"</i><br/>(Rather than, \"Do you want one of these?\")</p><p><i>\"So do you want to start work tomorrow or Tuesday?\"</i><br/>(Rather than, \"Do you want to start work?\")</p><p><i>\"Do you want this charged or do you want to pay cash?\"</i><br/>(Rather than, \"Do you want this?\")</p><p>This method won't work every time, but it will work a good deal of the time. And it will work far better than giving people a choice between saying yes and no.</p><p><b>4. Expect people to say \"yes\" to you and let them know they are expected to say yes.</b></p><ul><li>When you expect people to say yes to you, that is confidence. However, this goes one step further than confidence. You let them know and</li></ul>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/test_set_2x2@crd.com/original_assets/Skill_With_People_Pg3.pdf_chunks/Skill_With_People_Pg3-chunked-files/Skill_With_People_Pg3_page_1-1.pdf",
+        "sort_number": "10"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "dae0c1fd-9062-4774-86f2-14b6d35ef9ac",
+            "sentiment": "neutral",
+            "summary": "Instrucciones sobre cómo ofrecer opciones para que las personas digan \"sí\" y mejorar la efectividad de las solicitudes.",
+            "score": 0.95
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "47d1497f-c63d-4e6d-90ad-6bab8bdc0572",
+              "question": "What does the statement \"Yes means they will do it. No means they won't do it.\" imply?",
+              "answer": "It indicates a simple binary response: a 'yes' signals agreement or willingness to proceed, while a 'no' signals disagreement or unwillingness."
+            },
+            {
+              "id": "cb6e2643-161d-4d54-9044-2f9e5d4485c5",
+              "question": "What is the main skill described in the content?",
+              "answer": "The skill is to give people a choice between two ways to accomplish something, so they can say 'yes' to one of the options rather than a plain yes/no."
+            },
+            {
+              "id": "0728b541-63f3-4f4e-b032-608b4e1bc1d9",
+              "question": "How does the example with Mr. Smith illustrate this skill?",
+              "answer": "It shows offering specific times—\"Would this afternoon be satisfactory, Mr. Smith, or do you prefer tomorrow morning or afternoon?\"—which gives Mr. Smith a choice of times, effectively a choice of yeses."
+            },
+            {
+              "id": "c52aeb76-9c98-494c-8419-9220e1cad915",
+              "question": "Why is asking for an appointment considered the least effective approach?",
+              "answer": "Because it presents a simple yes/no choice: you can have the appointment (yes) or you can't (no), which is less persuasive than offering multiple options."
+            },
+            {
+              "id": "e2aebc02-8a02-439b-854e-69f0600ccd50",
+              "question": "Can you give examples of phrasing that uses this method?",
+              "answer": "Examples include: \"Do you want the black or do you want the white?\", \"So do you want to start work tomorrow or Tuesday?\", and \"Do you want this charged or do you want to pay cash?\"."
+            },
+            {
+              "id": "e4a60ec7-6d35-491a-b109-50c6c716aa3d",
+              "question": "Does this method always work?",
+              "answer": "The content states that it won't work every time, but it does work a good deal of the time and is generally more effective than giving a simple yes/no choice."
+            },
+            {
+              "id": "a2472f63-2098-486c-a0b0-208a8e3fd6df",
+              "question": "What does the section titled \"4. Expect people to say 'yes' to you and let them know they are expected to say yes.\" mean?",
+              "answer": "It suggests that when you expect people to say yes, you convey that expectation, which is a form of confidence. The content notes that this goes one step further than confidence, but the explanation is incomplete."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "725941cb-63c5-48a0-bef1-34ea290ba328",
+              "keyword": "choice",
+              "score": 0.97
+            },
+            {
+              "id": "c691edbe-f969-46af-96b1-a9d76f4dc3a1",
+              "keyword": "yes",
+              "score": 0.96
+            },
+            {
+              "id": "9c39bf13-c6e3-46e9-b078-590d5affc653",
+              "keyword": "appointment",
+              "score": 0.94
+            },
+            {
+              "id": "6dd9f327-61af-4e2f-a874-a96cf64c992e",
+              "keyword": "Mr. Smith",
+              "score": 0.92
+            },
+            {
+              "id": "e6015ce0-8c4d-4be0-b588-cccd4c600245",
+              "keyword": "black or white",
+              "score": 0.9
+            },
+            {
+              "id": "c758a9ad-81df-4b64-b1ec-7d9088c62bdc",
+              "keyword": "charged or pay cash",
+              "score": 0.88
+            },
+            {
+              "id": "4f6b2080-769d-44ec-a060-376b7060c670",
+              "keyword": "confidence",
+              "score": 0.86
+            },
+            {
+              "id": "76d1f073-5cb9-4289-99c7-b118c247746e",
+              "keyword": "expect people",
+              "score": 0.84
+            },
+            {
+              "id": "4277bf78-686f-4eb1-bf42-59065f7962fd",
+              "keyword": "communication",
+              "score": 0.82
+            },
+            {
+              "id": "e7ddcfd9-c2fa-48e9-9cb8-0108e5e65a35",
+              "keyword": "satisfactory",
+              "score": 0.8
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "1d7edbc0-cbb0-462f-80c6-d842234d732c",
+            "title": "The Art of Offering Yeses: A Communication Strategy",
+            "long_summary": "The passage explains a communication technique that focuses on giving people a choice of \"yeses\" rather than a simple yes/no decision. By framing questions so that the respondent can choose between several affirmative options, the speaker increases the likelihood of a positive response. For example, instead of asking for an appointment and leaving the choice to a single yes or no, the speaker offers specific times: \"Would this afternoon be satisfactory, Mr. Smith, or do you prefer tomorrow morning or afternoon?\" This gives Mr. Smith a choice of times, all of which are affirmative. The method contrasts with the less effective approach of asking for an appointment outright, which forces the respondent into a binary yes/no choice. The text provides several illustrative examples: asking whether someone wants the black or white option, whether they want to start work tomorrow or Tuesday, or whether they want the item charged or paid in cash. Each example demonstrates how to present distinct affirmative choices instead of a single yes/no question. The technique is not guaranteed to work in every situation, but it tends to be more effective than forcing a yes/no decision. The final section hints at a broader strategy: expecting people to say \"yes\" and making it clear that a yes is expected, which builds confidence and encourages compliance. Overall, the passage advocates for a subtle shift in question framing to increase the likelihood of agreement and cooperation.",
+            "short_summary": "Encourage affirmative responses by presenting multiple yes options."
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "09a08900-3d3c-45b8-ad18-003f20daf82f",
+              "classification": "Sales and Marketing",
+              "score": 0.95
+            },
+            {
+              "id": "0dff3ee4-73fe-45a1-8548-6d83c2545965",
+              "classification": "Negotiation",
+              "score": 0.9
+            },
+            {
+              "id": "d152f4b3-f8de-4700-92bb-209e0faa32ab",
+              "classification": "Communication Skills",
+              "score": 0.88
+            },
+            {
+              "id": "2b87f9ff-86fb-446c-8550-fe1765e898b8",
+              "classification": "Persuasion Techniques",
+              "score": 0.85
+            },
+            {
+              "id": "97f30a0f-21a9-47cf-ad49-e30d0ef2d03e",
+              "classification": "Business Strategy",
+              "score": 0.8
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "8486ef2e-08f4-4dee-8eaa-d31b75137353",
+              "label": "Mr. Smith",
+              "type": "PERSON"
+            },
+            {
+              "id": "640b28d9-fb72-4a50-86bf-d8bcdc32cc3e",
+              "label": "this afternoon",
+              "type": "DATE"
+            },
+            {
+              "id": "3db89e2c-b962-40a7-8d24-93873b19ab76",
+              "label": "tomorrow morning",
+              "type": "DATE"
+            },
+            {
+              "id": "1c0f91d1-e68e-4764-a1f4-56e6573bab68",
+              "label": "tomorrow afternoon",
+              "type": "DATE"
+            },
+            {
+              "id": "63248fa7-c4ec-4cf0-bebc-fc7b068ca9bc",
+              "label": "Tuesday",
+              "type": "DATE"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

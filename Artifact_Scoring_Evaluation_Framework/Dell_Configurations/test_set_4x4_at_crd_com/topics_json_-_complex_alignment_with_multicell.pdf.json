@@ -1,0 +1,179 @@
+{
+  "customer_id": "test_set_4x4@crd.com",
+  "document_id": "eca632a3-0f07-4856-b661-0f520164244d",
+  "document_name": "complex_alignment_with_Multicell.pdf",
+  "organization_name": "Booz Allen",
+  "account_name": "Default Account",
+  "application_name": "Booz Allen AI Atomization Service",
+  "vpub_name": "Default VPUB",
+  "topics": [
+    {
+      "topic_id": "5336bff4-ec56-42e3-81e6-f61d57cc142e",
+      "document_id": "eca632a3-0f07-4856-b661-0f520164244d",
+      "title": "Page 1",
+      "context": "<h2>Example of text layout using Multicell()</h2>\n<table border=\"1\">\n<tbody>\n<tr>\n<td>The banana ripens on the branch People slice it for snacks.</td>\n<td>The crane rises with the breeze Its nest rests where branches meet. The eagle rises with the breeze Wings beat in even rhythm. The swallow glides over water Its nest rests where branches meet.</td>\n</tr>\n<tr>\n<td>A elephant walks along the river path Tracks fade in soft soil. A bison walks along the quiet grove It moves with steady care. A jackal walks along the grassland It moves with steady care.</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td>A elephant walks along the forest edge Tracks fade in soft soil. A fox walks along the quiet grove Water reflects a brief shadow. A otter walks along the forest edge Tracks fade in soft soil.</td>\n</tr>\n<tr>\n<td>A bison walks along the river path Tracks fade in soft soil. A jackal walks along the grassland It moves with steady care. A fox walks along the river path Water reflects a brief shadow.</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td>We notice a silent valley Shadows drift across the stones. We notice a shaded path The air turns cool and clear. We notice a slow river Birdsong returns between the trees.</td>\n</tr>\n<tr>\n<td>In the courtyard, craftsmen shape clay lamps Tea boils and conversations begin. In the village, neighbors trade fresh produce Colors brighten the narrow streets. In the village, families prepare festivals Colors brighten the narrow streets.</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td>In the school porch, notes fill neat pages Small steps make steady learning. In the classroom, quiet helps thoughts grow Small steps make steady learning. In the school porch, notes fill neat pages Small steps make steady learning.</td>\n</tr>\n<tr>\n<td>The papaya blends into simple salads It adds color to the table. The guava gives a soft scent People slice it for snacks. The orange ripens on the branch Juice cools a warm afternoon.</td>\n<td></td>\n</tr>\n</tbody>\n</table>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/test_set_4x4@crd.com/original_assets/complex_alignment_with_Multicell.pdf_chunks/complex_alignment_with_Multicell-chunked-files/complex_alignment_with_Multicell_page_1-1.pdf",
+        "sort_number": "10"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "ab55be14-048c-4b5e-b250-c35c53462425",
+            "sentiment": "neutral",
+            "summary": "A collection of descriptive sentences about nature, animals, and village life.",
+            "score": 0.92
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "62d5535a-0780-4a84-a867-5a45c9aae10f",
+              "question": "How many rows and columns does the table contain?",
+              "answer": "The table has 8 rows and 2 columns."
+            },
+            {
+              "id": "4e768108-1265-4ca2-aec9-74b50269aa69",
+              "question": "Which animals are mentioned in the sentences?",
+              "answer": "The sentences mention crane, eagle, swallow, elephant, bison, jackal, fox, and otter."
+            },
+            {
+              "id": "022a5b67-d5af-4e03-9ada-5b5b31f04be4",
+              "question": "What is the main purpose of the table shown in the example?",
+              "answer": "The table demonstrates an example of text layout using Multicell(), showing how text can be arranged in a table with two columns."
+            },
+            {
+              "id": "88ccea41-18b8-4944-b1b6-e801cd506680",
+              "question": "What settings or environments are described in the sentences?",
+              "answer": "The sentences describe settings such as branches, river paths, quiet groves, grasslands, forest edges, valleys, stones, courtyards, villages, school porches, classrooms, and narrow streets."
+            },
+            {
+              "id": "1deead48-4a40-4442-8087-024676b58355",
+              "question": "Are there any repeated sentences in the table?",
+              "answer": "Yes, some sentences appear more than once, for example, \"A elephant walks along the forest edge Tracks fade in soft soil.\" and \"A fox walks along the quiet grove Water reflects a brief shadow.\"."
+            },
+            {
+              "id": "d4ae6782-71ba-4f1e-b9fd-0a5a7579f943",
+              "question": "What language is used in the example sentences?",
+              "answer": "The sentences are written in English."
+            },
+            {
+              "id": "69683a09-3a0c-4357-ab7e-cea412904f2c",
+              "question": "Does the table contain any empty cells?",
+              "answer": "Yes, several cells in the table are empty."
+            },
+            {
+              "id": "b6e8f3c6-81df-447d-b493-3e9256c7e324",
+              "question": "What is the overall theme of the sentences?",
+              "answer": "The sentences have a poetic, descriptive theme that focuses on nature, animals, and everyday scenes."
+            },
+            {
+              "id": "e3e1d428-54d9-4314-977d-7f3f6f83c202",
+              "question": "How many different fruits are mentioned?",
+              "answer": "Four fruits are mentioned: banana, papaya, guava, and orange."
+            },
+            {
+              "id": "4c7f2e16-33e1-465e-aafd-5d552f9180da",
+              "question": "Are there any sentences that mention water?",
+              "answer": "Yes, several sentences mention water, such as \"The swallow glides over water\" and \"Water reflects a brief shadow\"."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "461bc5b1-707c-4a02-826e-3f8b66c83b1d",
+              "keyword": "river",
+              "score": 0.98
+            },
+            {
+              "id": "e4a0b558-ea5a-4de9-a6ce-f183e9014d37",
+              "keyword": "branch",
+              "score": 0.97
+            },
+            {
+              "id": "cc4186a9-ec12-48f0-8b19-a21b8796a1b4",
+              "keyword": "nest",
+              "score": 0.96
+            },
+            {
+              "id": "c07ce1aa-9642-41dc-b74f-4bfcaaeaaa01",
+              "keyword": "forest",
+              "score": 0.95
+            },
+            {
+              "id": "f2a1d0a9-c204-48f2-8ccf-6e598eb3b9e8",
+              "keyword": "village",
+              "score": 0.94
+            },
+            {
+              "id": "096ebbc7-6886-4c69-8e3e-4edee9153116",
+              "keyword": "school",
+              "score": 0.93
+            },
+            {
+              "id": "4648253a-d0dd-4c62-a2e0-614e59685a70",
+              "keyword": "colors",
+              "score": 0.92
+            },
+            {
+              "id": "5bfa4c54-11cc-4f63-9e21-8e8e720e03eb",
+              "keyword": "shadows",
+              "score": 0.91
+            },
+            {
+              "id": "87ba6068-7cad-4cc3-992c-87f9e8f9455e",
+              "keyword": "clay lamps",
+              "score": 0.9
+            },
+            {
+              "id": "b60fdebb-7ee5-4440-9ede-31c330d3a803",
+              "keyword": "tea",
+              "score": 0.89
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "8131103e-1797-472b-85f2-af48e9ab4232",
+            "title": "Multicell Text Layout Example",
+            "long_summary": "The provided content is an HTML table with eight rows and two columns. Each cell contains a series of short, poetic sentences that describe scenes involving animals, nature, and everyday village life. The left column features phrases such as \"The banana ripens on the branch People slice it for snacks.\" and \"A elephant walks along the river path Tracks fade in soft soil.\" The right column contains similar descriptive lines, for example \"The crane rises with the breeze Its nest rests where branches meet.\" and \"We notice a silent valley Shadows drift across the stones.\" Some cells are empty, indicating that the table is intentionally sparse in certain positions. The overall structure demonstrates how the Multicell() function can be used to arrange text in a grid, with each cell holding multiple lines of content. The sentences are written in English and use simple, rhythmic phrasing to evoke imagery of natural settings and community activities. The table serves as a visual example of how text can be organized into multiple cells while maintaining readability and thematic coherence.",
+            "short_summary": "Example of text layout using Multicell"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "4e45f0a6-734f-41b7-a62a-0bc39501cf61",
+              "classification": "Animals",
+              "score": 0.98
+            },
+            {
+              "id": "e091a825-9e95-4bda-b0c1-99f4e8341343",
+              "classification": "Nature",
+              "score": 0.97
+            },
+            {
+              "id": "da2663eb-fa62-4075-b501-e2b4b1f4f23b",
+              "classification": "Food & Agriculture",
+              "score": 0.85
+            },
+            {
+              "id": "490788e8-c1c1-4a5f-889e-035d961b54d7",
+              "classification": "Culture & Community",
+              "score": 0.8
+            },
+            {
+              "id": "05317e53-2a88-453d-9d67-816be37211bf",
+              "classification": "Education",
+              "score": 0.75
+            }
+          ]
+        },
+        {
+          "entities": []
+        }
+      ]
+    }
+  ]
+}

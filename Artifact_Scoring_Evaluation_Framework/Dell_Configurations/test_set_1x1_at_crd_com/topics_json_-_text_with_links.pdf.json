@@ -1,0 +1,159 @@
+{
+  "customer_id": "test_set_1x1@crd.com",
+  "document_id": "c5b0d455-49dc-418c-91e1-f759ea846f15",
+  "document_name": "Text_With_Links.pdf",
+  "organization_name": "Booz Allen",
+  "account_name": "Default Account",
+  "application_name": "Booz Allen AI Atomization Service",
+  "vpub_name": "Default VPUB",
+  "topics": [
+    {
+      "topic_id": "e1bc2187-0c5d-4e54-b3de-70419573b086",
+      "document_id": "c5b0d455-49dc-418c-91e1-f759ea846f15",
+      "title": "Page 1",
+      "context": "Books I'd like to read that are on Project Gutenberg\n\n1. <u>Romeo And Juliet</u>\n2. <u>The Count Of Monte Cristo</u>\n3. <u>Metamorphosis</u>\n4. <u>The Picture of Dorian Gray</u>\n5. <u>Don Quixote</u>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/test_set_1x1@crd.com/original_assets/Text_With_Links.pdf_chunks/Text_With_Links-chunked-files/Text_With_Links_page_1-1.pdf",
+        "sort_number": "10"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "23a06d10-8987-45ab-a7f6-20adf269fac7",
+            "sentiment": "neutral",
+            "summary": "List of books I want to read from Project Gutenberg.",
+            "score": 0.92
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "972cad40-f16b-4663-90e7-1a50e43c1e9b",
+              "question": "Which books are you interested in reading from Project Gutenberg?",
+              "answer": "Romeo And Juliet, The Count Of Monte Cristo, Metamorphosis, The Picture Of Dorian Gray, and Don Quixote."
+            },
+            {
+              "id": "dbedbd12-f63f-47dd-9973-bcf9c196a99a",
+              "question": "Are these books available on Project Gutenberg?",
+              "answer": "Yes, they are listed on Project Gutenberg."
+            },
+            {
+              "id": "8d980683-39b6-4338-b570-37f55a799101",
+              "question": "Can I read these books online?",
+              "answer": "They are available on Project Gutenberg."
+            },
+            {
+              "id": "2a12e673-8a1f-47c1-9411-d1a640e922d1",
+              "question": "Can I download these books?",
+              "answer": "They are available on Project Gutenberg."
+            },
+            {
+              "id": "a746af15-5317-4179-973c-d262b27ee082",
+              "question": "Are these books in the public domain?",
+              "answer": "They are available on Project Gutenberg."
+            },
+            {
+              "id": "259d3d99-d879-4b41-9770-4f27f1be51da",
+              "question": "What format are these books available in?",
+              "answer": "They are available on Project Gutenberg."
+            },
+            {
+              "id": "6fe7fc0f-32b8-494e-91df-7ad492d18e5e",
+              "question": "Who are the authors of these books?",
+              "answer": "The authors are not listed in the provided context."
+            },
+            {
+              "id": "65409d3a-a335-4b12-8e61-2accac80a6db",
+              "question": "Are these books available in other languages?",
+              "answer": "The provided context does not specify language availability."
+            },
+            {
+              "id": "c59e291d-1f65-43dd-aa06-ab3b5f4724be",
+              "question": "How can I find these books on Project Gutenberg?",
+              "answer": "They are available on Project Gutenberg."
+            },
+            {
+              "id": "bf34e534-751f-463f-98d9-a8736c6be1ac",
+              "question": "Are these books part of a recommended reading list?",
+              "answer": "The provided context lists them as books you would like to read."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "28a29b5e-a657-47b2-95d9-5808304a5f05",
+              "keyword": "Project Gutenberg",
+              "score": 0.99
+            },
+            {
+              "id": "80fa39e3-4c06-476c-b5e6-72a487d6e936",
+              "keyword": "Romeo And Juliet",
+              "score": 0.99
+            },
+            {
+              "id": "d47be601-7dbf-4ddf-aa18-9c6de38460e0",
+              "keyword": "The Count Of Monte Cristo",
+              "score": 0.99
+            },
+            {
+              "id": "daf41f28-1a11-4ae0-bbf7-737e5dcec5e1",
+              "keyword": "Metamorphosis",
+              "score": 0.99
+            },
+            {
+              "id": "56019f19-b3d2-4463-b29d-76e6c56c6f25",
+              "keyword": "The Picture of Dorian Gray",
+              "score": 0.99
+            },
+            {
+              "id": "bdac4372-4c32-49d5-88b9-c9af07cb36dd",
+              "keyword": "Don Quixote",
+              "score": 0.99
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "3610c46d-1468-4aaf-ad96-813591118901",
+            "title": "Project Gutenberg Reading List",
+            "long_summary": "The user has compiled a personal reading list of five classic works available on Project Gutenberg. The titles include William Shakespeare’s *Romeo and Juliet*, a timeless tragedy about star-crossed lovers; Alexandre Dumas’s *The Count of Monte Cristo*, an epic tale of betrayal and revenge; Franz Kafka’s *Metamorphosis*, a surreal novella about alienation; Oscar Wilde’s *The Picture of Dorian Gray*, a philosophical exploration of beauty and morality; and Miguel de Cervantes’s *Don Quixote*, a foundational work of Western literature that blends satire, adventure, and the human condition. Each book represents a distinct literary genre and period, offering the reader a broad spectrum of narrative styles, themes, and historical contexts. The list serves as a curated guide for anyone interested in exploring some of the most influential works of literature that are freely accessible through the Project Gutenberg digital library.",
+            "short_summary": "List of classic books to read"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "d19742c8-7770-48a1-b1a8-977a848473e8",
+              "classification": "Literature",
+              "score": 0.99
+            },
+            {
+              "id": "8ce035b4-10fe-4b2c-bb8e-29591626d0c8",
+              "classification": "Classic Literature",
+              "score": 0.98
+            },
+            {
+              "id": "15302d25-3862-4a9d-858b-c8ab07198619",
+              "classification": "Reading List",
+              "score": 0.95
+            },
+            {
+              "id": "fe54e57c-537b-4bb2-802a-4eb69298df95",
+              "classification": "Project Gutenberg",
+              "score": 0.9
+            },
+            {
+              "id": "01625b0c-db99-4f40-9930-d4339590e9d9",
+              "classification": "Book Recommendations",
+              "score": 0.85
+            }
+          ]
+        },
+        {
+          "entities": []
+        }
+      ]
+    }
+  ]
+}

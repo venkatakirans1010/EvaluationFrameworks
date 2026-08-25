@@ -1,0 +1,268 @@
+{
+  "batch_summary": {
+    "generated_at": "2026-03-06T11:44:31.751377+00:00",
+    "customer_id": "S2_BoxOfChocolates_2x2_v2@crd.com",
+    "total_documents": 1,
+    "total_topics": 20,
+    "total_atoms": 20,
+    "total_compute_validation_seconds": 0.01,
+    "total_compute_splitting_seconds": 1.16,
+    "total_compute_queue_seconds": 0.27,
+    "total_compute_atomization_seconds": 162.35,
+    "total_compute_enhancement_seconds": 278.12,
+    "total_compute_validation_human": "0.0s",
+    "total_compute_splitting_human": "1.2s",
+    "total_compute_queue_human": "0.3s",
+    "total_compute_atomization_human": "2m 42.3s",
+    "total_compute_enhancement_human": "4m 38.1s",
+    "batch_validation_phase_duration_seconds": 0.01,
+    "batch_validation_phase_duration_human": "0.0s",
+    "batch_splitting_phase_duration_seconds": 1.16,
+    "batch_splitting_phase_duration_human": "1.2s",
+    "batch_queue_wait_phase_duration_seconds": 0.27,
+    "batch_queue_wait_phase_duration_human": "0.3s",
+    "batch_atomization_phase_duration_seconds": 162.35,
+    "batch_atomization_phase_duration_human": "2m 42.4s",
+    "batch_enhancement_phase_duration_seconds": 278.12,
+    "batch_enhancement_phase_duration_human": "4m 38.1s",
+    "batch_timing_summary": {
+      "ocr_duration_human": "2m 42.4s",
+      "artifact_generation_human": "4m 38.1s",
+      "total_time_human": "7m 20.5s"
+    },
+    "batch_processing_start": "2026-03-06 11:36:26.424203+00",
+    "batch_processing_end": "2026-03-06T11:43:48.386604+00:00",
+    "batch_total_duration_seconds": 441.96,
+    "batch_total_duration_human": "7m 22.0s"
+  },
+  "documents": [
+    {
+      "document_id": "29a23597-d28b-464a-9f69-7cae86c428a4",
+      "upload_time": "2026-03-06 11:36:26.424203+00",
+      "processing_end": "2026-03-06T11:43:48.386604+00:00",
+      "validation_checking": {
+        "start": "2026-03-06 11:36:26.424203+00",
+        "end": "2026-03-06T11:36:26.437091+00:00"
+      },
+      "splitting": {
+        "start": "2026-03-06T11:36:26.437091+00:00",
+        "end": "2026-03-06T11:36:27.593528+00:00"
+      },
+      "queue_wait": {
+        "start": "2026-03-06T11:36:27.593528+00:00",
+        "end": "2026-03-06T11:36:27.861662+00:00"
+      },
+      "atomization_ocr": {
+        "start": "2026-03-06T11:36:27.861662+00:00",
+        "end": "2026-03-06T11:39:10.213520+00:00"
+      },
+      "enhancement_artifacts": {
+        "start": "2026-03-06T11:39:10.269371+00:00",
+        "end": "2026-03-06T11:43:48.386604+00:00"
+      },
+      "atom_count": 20,
+      "atoms": [
+        {
+          "atom_id": "360b5165-c363-41d2-b7a2-13e39628880c",
+          "title": "Page 1",
+          "created_at": "2026-03-06 11:36:27.625741+00",
+          "completed_at": "2026-03-06 11:43:11.269889+00",
+          "atomization_duration_human": "0.0s",
+          "enhancement_duration_human": "6m 43.6s",
+          "total_topic_duration_human": "6m 44.8s"
+        },
+        {
+          "atom_id": "30ca6434-1411-432e-bed5-e95e990e4738",
+          "title": "Page 2",
+          "created_at": "2026-03-06 11:36:27.625741+00",
+          "completed_at": "2026-03-06 11:42:56.563098+00",
+          "atomization_duration_human": "0.0s",
+          "enhancement_duration_human": "6m 28.9s",
+          "total_topic_duration_human": "6m 30.1s"
+        },
+        {
+          "atom_id": "46e16a5d-e0e2-4ed3-9c22-2e4555d00ca9",
+          "title": "Page 4",
+          "created_at": "2026-03-06 11:36:27.625741+00",
+          "completed_at": "2026-03-06 11:43:00.016511+00",
+          "atomization_duration_human": "0.0s",
+          "enhancement_duration_human": "6m 32.4s",
+          "total_topic_duration_human": "6m 33.6s"
+        },
+        {
+          "atom_id": "e0d5d8a4-c2fe-4f5f-aa04-122038db677f",
+          "title": "Page 8",
+          "created_at": "2026-03-06 11:36:27.625741+00",
+          "completed_at": "2026-03-06 11:43:03.633537+00",
+          "atomization_duration_human": "0.0s",
+          "enhancement_duration_human": "6m 36.0s",
+          "total_topic_duration_human": "6m 37.2s"
+        },
+        {
+          "atom_id": "4824153c-26cf-48e4-919c-c89e565ead44",
+          "title": "Page 10",
+          "created_at": "2026-03-06 11:36:27.625741+00",
+          "completed_at": "2026-03-06 11:43:12.359036+00",
+          "atomization_duration_human": "0.0s",
+          "enhancement_duration_human": "6m 44.7s",
+          "total_topic_duration_human": "6m 45.9s"
+        },
+        {
+          "atom_id": "ad2a816b-8804-488c-92e6-209dc036e385",
+          "title": "Page 11",
+          "created_at": "2026-03-06 11:36:27.625741+00",
+          "completed_at": "2026-03-06 11:42:37.457166+00",
+          "atomization_duration_human": "0.0s",
+          "enhancement_duration_human": "6m 9.8s",
+          "total_topic_duration_human": "6m 11.0s"
+        },
+        {
+          "atom_id": "1cc4f500-0c3c-4cde-b66b-b603ed535ead",
+          "title": "Page 12",
+          "created_at": "2026-03-06 11:36:27.625741+00",
+          "completed_at": "2026-03-06 11:43:09.749479+00",
+          "atomization_duration_human": "0.0s",
+          "enhancement_duration_human": "6m 42.1s",
+          "total_topic_duration_human": "6m 43.3s"
+        },
+        {
+          "atom_id": "06abd45f-e614-4e31-8b94-8d7a588fb713",
+          "title": "Page 13",
+          "created_at": "2026-03-06 11:36:27.625741+00",
+          "completed_at": "2026-03-06 11:43:17.76459+00",
+          "atomization_duration_human": "0.0s",
+          "enhancement_duration_human": "6m 50.1s",
+          "total_topic_duration_human": "6m 51.3s"
+        },
+        {
+          "atom_id": "f804fa2e-f374-41b5-9c57-f53417716cd4",
+          "title": "Page 14",
+          "created_at": "2026-03-06 11:36:27.625741+00",
+          "completed_at": "2026-03-06 11:42:40.512759+00",
+          "atomization_duration_human": "0.0s",
+          "enhancement_duration_human": "6m 12.9s",
+          "total_topic_duration_human": "6m 14.1s"
+        },
+        {
+          "atom_id": "9fa99f01-d915-47d4-a0a1-cc1d0fc22d0b",
+          "title": "Page 15",
+          "created_at": "2026-03-06 11:36:27.625741+00",
+          "completed_at": "2026-03-06 11:43:21.12846+00",
+          "atomization_duration_human": "0.0s",
+          "enhancement_duration_human": "6m 53.5s",
+          "total_topic_duration_human": "6m 54.7s"
+        },
+        {
+          "atom_id": "a05650d1-b839-48ff-9a93-4615ef76dffa",
+          "title": "Page 16",
+          "created_at": "2026-03-06 11:36:27.625741+00",
+          "completed_at": "2026-03-06 11:43:23.197469+00",
+          "atomization_duration_human": "0.0s",
+          "enhancement_duration_human": "6m 55.6s",
+          "total_topic_duration_human": "6m 56.8s"
+        },
+        {
+          "atom_id": "0e8923d9-20e0-4dc9-838a-cd703fc386b9",
+          "title": "Page 17",
+          "created_at": "2026-03-06 11:36:27.625741+00",
+          "completed_at": "2026-03-06 11:43:27.150464+00",
+          "atomization_duration_human": "0.0s",
+          "enhancement_duration_human": "6m 59.5s",
+          "total_topic_duration_human": "7m 0.7s"
+        },
+        {
+          "atom_id": "2419aae7-8c00-4e16-a6ec-34730e20e6c6",
+          "title": "Page 19",
+          "created_at": "2026-03-06 11:36:27.625741+00",
+          "completed_at": "2026-03-06 11:43:30.369416+00",
+          "atomization_duration_human": "0.0s",
+          "enhancement_duration_human": "7m 2.7s",
+          "total_topic_duration_human": "7m 3.9s"
+        },
+        {
+          "atom_id": "479b23da-a957-480f-8043-0750f2fb674c",
+          "title": "Page 20",
+          "created_at": "2026-03-06 11:36:27.625741+00",
+          "completed_at": "2026-03-06 11:43:37.990932+00",
+          "atomization_duration_human": "0.0s",
+          "enhancement_duration_human": "7m 10.4s",
+          "total_topic_duration_human": "7m 11.6s"
+        },
+        {
+          "atom_id": "c894623d-3519-4a56-bdcd-f381e26042c8",
+          "title": "Page 3",
+          "created_at": "2026-03-06 11:36:27.625741+00",
+          "completed_at": "2026-03-06 11:43:35.60112+00",
+          "atomization_duration_human": "0.0s",
+          "enhancement_duration_human": "7m 8.0s",
+          "total_topic_duration_human": "7m 9.2s"
+        },
+        {
+          "atom_id": "2850f683-1505-4063-8eb6-d5b21e37bdb6",
+          "title": "Page 5",
+          "created_at": "2026-03-06 11:36:27.625741+00",
+          "completed_at": "2026-03-06 11:43:39.04842+00",
+          "atomization_duration_human": "0.0s",
+          "enhancement_duration_human": "7m 11.4s",
+          "total_topic_duration_human": "7m 12.6s"
+        },
+        {
+          "atom_id": "6c000900-7966-4f0e-8b82-2a47d6b105ae",
+          "title": "Page 6",
+          "created_at": "2026-03-06 11:36:27.625741+00",
+          "completed_at": "2026-03-06 11:43:35.923488+00",
+          "atomization_duration_human": "0.0s",
+          "enhancement_duration_human": "7m 8.3s",
+          "total_topic_duration_human": "7m 9.5s"
+        },
+        {
+          "atom_id": "cb5584b2-9c82-4999-8d6e-d372a7bf8ec1",
+          "title": "Page 9",
+          "created_at": "2026-03-06 11:36:27.625741+00",
+          "completed_at": "2026-03-06 11:43:44.040602+00",
+          "atomization_duration_human": "0.0s",
+          "enhancement_duration_human": "7m 16.4s",
+          "total_topic_duration_human": "7m 17.6s"
+        },
+        {
+          "atom_id": "c6c595ad-bd02-4976-9941-a44ca5558660",
+          "title": "Page 7",
+          "created_at": "2026-03-06 11:36:27.625741+00",
+          "completed_at": "2026-03-06 11:43:48.356177+00",
+          "atomization_duration_human": "0.0s",
+          "enhancement_duration_human": "7m 20.7s",
+          "total_topic_duration_human": "7m 21.9s"
+        },
+        {
+          "atom_id": "27e66809-11f9-4c7a-9b83-f9c16694c3d9",
+          "title": "Page 18",
+          "created_at": "2026-03-06 11:36:27.625741+00",
+          "completed_at": "2026-03-06 11:42:51.219998+00",
+          "atomization_duration_human": "0.0s",
+          "enhancement_duration_human": "6m 23.6s",
+          "total_topic_duration_human": "6m 24.8s"
+        }
+      ],
+      "total_duration_seconds": 441.96,
+      "total_duration_human": "7m 22.0s",
+      "validation_duration_seconds": 0.01,
+      "validation_duration_human": "0.0s",
+      "splitting_duration_seconds": 1.16,
+      "splitting_duration_human": "1.2s",
+      "queue_duration_seconds": 0.27,
+      "queue_duration_human": "0.3s",
+      "atomization_duration_seconds": 162.35,
+      "atomization_duration_human": "2m 42.4s",
+      "enhancement_duration_seconds": 278.12,
+      "enhancement_duration_human": "4m 38.1s",
+      "timing_summary": {
+        "ocr_duration_human": "2m 42.4s",
+        "artifact_generation_human": "4m 38.1s",
+        "total_time_human": "7m 20.5s"
+      },
+      "document_name": "TIE-A Box of Chocolates (1).pdf",
+      "topics_count": 20,
+      "file_size_kb": 274.1
+    }
+  ]
+}

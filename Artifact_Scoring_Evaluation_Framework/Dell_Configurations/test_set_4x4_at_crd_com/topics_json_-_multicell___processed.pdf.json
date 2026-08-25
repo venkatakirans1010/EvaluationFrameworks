@@ -1,0 +1,220 @@
+{
+  "customer_id": "test_set_4x4@crd.com",
+  "document_id": "f5812154-01fd-4620-bd73-f0d017176691",
+  "document_name": "Multicell()_processed.pdf",
+  "organization_name": "Booz Allen",
+  "account_name": "Default Account",
+  "application_name": "Booz Allen AI Atomization Service",
+  "vpub_name": "Default VPUB",
+  "topics": [
+    {
+      "topic_id": "d1798f17-51d8-49a4-b015-248646443881",
+      "document_id": "f5812154-01fd-4620-bd73-f0d017176691",
+      "title": "Page 1",
+      "context": "<div>\n<p>[LEFT] Lorem ipsum dolor sit amet, A jackal walks along the river path Water reflects a brief shadow.</p>\n<p>[RIGHT] Lorem ipsum dolor sit We notice a silent valley Shadows drift across the stones</p>\n<p>[CENTER] Lorem ipsum dolor sit A fox walks along the river path Water reflects a brief shadow</p>\n<p>[JUSTIFY] Lorem ipsum dolor sit In the library, teachers explain simple ideas Small steps make steady learning.</p>\n<p>We notice rain on dry earth Shadows drift across the stones. We notice a silent valley The air turns cool and clear.</p>\n<p>[VERTICAL ALIGNMENT - TOP] The papaya gives a soft scent It adds color to the table. The mango tastes bright and sweet It adds color to the table.</p>\n<p>[VERTICAL] In the riverbank, families prepare festivals The air is warm and calm. In the village, craftsmen shape clay lamps Colors brighten the narrow streets.</p>\n<p>[VERTICAL] In the village, craftsmen shape clay lamps Morning light touches quiet homes. In the riverbank, children read stories The air is warm and calm.</p>\n<p>The apple blends into simple salads It adds color to the table. The guava tastes bright and sweet It adds color to the table. The orange tastes bright and sweet It adds color to the table.</p>\n<p>[FIT CELL] Lorem ipsum dolor sit amet, consectetur adipiscing elit. In the classroom, students read with care Small steps make steady learning. In the library, notes fill neat pages Small steps make steady learning. In the school porch, teachers explain simple ideas Small steps make steady learning.</p>\n<p>In the village, families prepare festivals The air is warm and calm. In the bazaar, children read stories Colors brighten the narrow streets. In the bazaar, families prepare festivals Colors brighten the narrow streets.</p>\n<p>The orange gives a soft scent People slice it for snacks. The orange blends into simple salads It adds color to the table. The banana tastes bright and sweet It adds color to the table.</p>\n<p>CUSTOM PADDING: Left=2, Top=4, Right=6, Bottom=8<br/>We notice a slow river Shadows drift across the stones. We notice a shaded path Birdsong returns between the trees.</p>\n</div>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/test_set_4x4@crd.com/original_assets/Multicell()_processed.pdf_chunks/Multicell()_processed-chunked-files/Multicell()_processed_page_1-1.pdf",
+        "sort_number": "10"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "9855656d-70f4-4d4c-90e9-8fa3bea6c08e",
+            "sentiment": "positive",
+            "summary": "Descriptive text about nature, food, and learning, highlighting calm, bright, and sweet elements.",
+            "score": 0.85
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "3d5fe277-af96-4c4a-9eb9-084cce70abb8",
+              "question": "What does the [LEFT] tag indicate in the text?",
+              "answer": "The [LEFT] tag marks a paragraph that should be left‑aligned."
+            },
+            {
+              "id": "6b1fd2ed-92c3-471a-a490-93375524125a",
+              "question": "How is text aligned when the [RIGHT] tag is used?",
+              "answer": "The [RIGHT] tag indicates that the following paragraph should be right‑aligned."
+            },
+            {
+              "id": "bd2c27fb-a394-4d40-99b3-d7611e563cc2",
+              "question": "What does the [CENTER] tag do?",
+              "answer": "The [CENTER] tag signals that the paragraph should be centered."
+            },
+            {
+              "id": "abb16216-2d42-4a07-bbce-e9120f6b58c1",
+              "question": "What is the purpose of the [JUSTIFY] tag?",
+              "answer": "The [JUSTIFY] tag tells the system to justify the paragraph, spreading the text evenly across the line."
+            },
+            {
+              "id": "51f62596-bca2-4c90-80bb-7dc20f8ae3ac",
+              "question": "What does the [VERTICAL ALIGNMENT - TOP] tag specify?",
+              "answer": "It indicates that the content should be aligned to the top of the vertical space or cell."
+            },
+            {
+              "id": "9915f5d4-a40a-4e62-b20d-624ac09414fd",
+              "question": "What does the [FIT CELL] tag represent?",
+              "answer": "The [FIT CELL] tag suggests that the text should be sized or positioned to fit within a cell or container."
+            },
+            {
+              "id": "f9b87354-14f6-4b04-ba80-e817c115b96e",
+              "question": "How can custom padding be set according to the example?",
+              "answer": "Custom padding is defined with the syntax `CUSTOM PADDING: Left=2, Top=4, Right=6, Bottom=8`, which sets the left, top, right, and bottom padding values."
+            },
+            {
+              "id": "b237c0c8-80bc-4bda-a648-8f458c8fb326",
+              "question": "Why does the phrase \"It adds color to the table\" appear multiple times?",
+              "answer": "The repeated phrase is part of the sample content used to illustrate how fruit descriptions are written; it is not a functional instruction."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "489598a6-8f9e-46e8-ad45-e3b57f93bc4d",
+              "keyword": "river",
+              "score": 0.99
+            },
+            {
+              "id": "76910148-8334-4255-8527-244d79d89f96",
+              "keyword": "shadows",
+              "score": 0.98
+            },
+            {
+              "id": "34ae02a3-5e2c-4502-90f9-f3483f237351",
+              "keyword": "stones",
+              "score": 0.97
+            },
+            {
+              "id": "c9a055f4-57bf-4e19-8dfc-435f8d02eae5",
+              "keyword": "valley",
+              "score": 0.96
+            },
+            {
+              "id": "449db41e-d8b9-4b1f-b13f-ba05cced0501",
+              "keyword": "rain",
+              "score": 0.95
+            },
+            {
+              "id": "8250c719-77f6-4498-bea8-cea701e3d303",
+              "keyword": "dry earth",
+              "score": 0.94
+            },
+            {
+              "id": "53c51370-703a-4b46-9403-47c3f75d5ebb",
+              "keyword": "papaya",
+              "score": 0.93
+            },
+            {
+              "id": "98e8ed6b-23d7-4563-a6f7-3e09ae9a7d8d",
+              "keyword": "mango",
+              "score": 0.92
+            },
+            {
+              "id": "2de2afa6-6f82-4183-b10d-186a4104dd33",
+              "keyword": "orange",
+              "score": 0.91
+            },
+            {
+              "id": "e2362b40-ecef-4152-8736-82e2246e3d9d",
+              "keyword": "guava",
+              "score": 0.9
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "5793c6f3-ab8b-4fdf-b06b-92d19fcb0d32",
+            "title": "Vivid Collage of Nature, Community, and Everyday Life",
+            "long_summary": "The passage is a collage of short descriptive sentences that paint a series of scenes. It repeatedly references natural elements such as rivers, shadows, valleys, rain, and birdsong, often paired with human activities: families preparing festivals on the riverbank, craftsmen shaping clay lamps in a village, and children reading stories in a bazaar. The text also highlights educational settings, mentioning a library where teachers explain simple ideas and a classroom where students read with care, all underscored by the phrase \"Small steps make steady learning.\" Fruit descriptions appear frequently—apples, guavas, oranges, bananas, papayas, and mangoes—each noted for their color, scent, or taste, and the recurring line \"It adds color to the table.\" Formatting cues such as [LEFT], [RIGHT], [CENTER], [JUSTIFY], [VERTICAL ALIGNMENT - TOP], [FIT CELL], and a custom padding specification are interspersed, suggesting the text may be part of a styled document. Overall, the content offers a rhythmic, almost poetic snapshot of everyday life intertwined with natural beauty, emphasizing simple pleasures and communal activities.",
+            "short_summary": "Vivid scenes of nature, community, and everyday life"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "1a16bca0-6c06-4cc3-acb4-8642d60ec943",
+              "classification": "Education and Learning",
+              "score": 0.95
+            },
+            {
+              "id": "c7a21434-0f6f-4c52-87bf-1fc319f3e75b",
+              "classification": "Food and Cuisine",
+              "score": 0.9
+            },
+            {
+              "id": "3f80c2c1-dad3-4f1f-b0e4-77f85d49d77c",
+              "classification": "Nature and Environment",
+              "score": 0.85
+            },
+            {
+              "id": "650838fa-8111-496f-a476-eca6bff41826",
+              "classification": "Cultural Events and Crafts",
+              "score": 0.8
+            },
+            {
+              "id": "887b31b6-16f8-4742-91a5-a56a074f39a2",
+              "classification": "Reading and Literacy",
+              "score": 0.7
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "576f1c21-40db-443c-bf1e-10b27e391f49",
+              "label": "papaya",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "d7603d25-5eca-4dd1-967e-2940bb776398",
+              "label": "mango",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "b792903c-bf99-4ad7-b84c-703d6e22120d",
+              "label": "apple",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "cf2718a5-710d-4d93-8e8c-d89c851fc6ef",
+              "label": "guava",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "c68228e2-6863-455e-ac76-8daf2da6973e",
+              "label": "orange",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "9f7a2c67-7f25-4300-a0e4-ffad33bd1be0",
+              "label": "banana",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "39bcf016-36fa-4f85-b61c-d90455acef0d",
+              "label": "riverbank",
+              "type": "LOCATION"
+            },
+            {
+              "id": "ad022108-dc11-4266-bae7-084d8740c663",
+              "label": "bazaar",
+              "type": "LOCATION"
+            },
+            {
+              "id": "edbeefee-56ae-43a1-ac4f-935d25299cb3",
+              "label": "village",
+              "type": "LOCATION"
+            },
+            {
+              "id": "22dd92f5-f956-4920-a0c1-08b336e383a7",
+              "label": "library",
+              "type": "LOCATION"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

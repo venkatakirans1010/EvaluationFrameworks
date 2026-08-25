@@ -1,0 +1,230 @@
+{
+  "customer_id": "test_set_1x1@crd.com",
+  "document_id": "8184f60f-a84d-497b-bd98-09cb00d45890",
+  "document_name": "API_complete_reference-5.pdf",
+  "organization_name": "Booz Allen",
+  "account_name": "Default Account",
+  "application_name": "Booz Allen AI Atomization Service",
+  "vpub_name": "Default VPUB",
+  "topics": [
+    {
+      "topic_id": "4f0cb076-b196-4375-8f75-691a4bcc2383",
+      "document_id": "8184f60f-a84d-497b-bd98-09cb00d45890",
+      "title": "Page 1",
+      "context": "<h2>Overview of API Testing Techniques</h2>\n<ol>\n<li>\n<p><b>Unit Testing</b></p>\n<ul>\n<li><b>Objective:</b> Test individual API components in isolation.</li>\n<li><b>Tools:</b> JUnit (Java), NUnit (C#), pytest (Python).</li>\n<li><b>Description:</b> Unit tests are typically written by developers to test the functionality of specific methods or functions in the API, ensuring that each part works as intended.</li>\n</ul>\n</li>\n<li>\n<p><b>Functional Testing</b></p>\n<ul>\n<li><b>Objective:</b> Verify that the API performs its intended functions correctly.</li>\n<li><b>Tools:</b> Postman, SoapUI, REST Assured.</li>\n<li><b>Description:</b> Functional tests validate the API against the functional requirements and specifications. This includes testing endpoints, methods (GET, POST, PUT, DELETE), and responses.</li>\n</ul>\n</li>\n<li>\n<p><b>Integration Testing</b></p>\n<ul>\n<li><b>Objective:</b> Ensure that the API interacts correctly with other components and systems.</li>\n<li><b>Tools:</b> Postman, SoapUI, JUnit (with integration test configurations).</li>\n<li><b>Description:</b> Integration tests evaluate the interactions between different parts of the API and other services or databases to ensure that integrated parts work together as expected.</li>\n</ul>\n</li>\n<li>\n<p><b>Performance Testing</b></p>\n<ul>\n<li><b>Objective:</b> Assess the API's performance under various conditions.</li>\n<li><b>Tools:</b> JMeter, LoadRunner, Gatling.</li>\n<li><b>Description:</b> Performance tests include load testing (to check API behavior under expected load), stress testing (to determine the API's breaking point), and endurance testing (to evaluate performance over an extended period).</li>\n</ul>\n</li>\n<li>\n<p><b>Security Testing</b></p>\n<ul>\n<li><b>Objective:</b> Identify vulnerabilities and ensure the API is secure.</li>\n<li><b>Tools:</b> OWASP ZAP, Burp Suite, Postman (with security extensions).</li>\n<li><b>Description:</b> Security testing involves checking for common vulnerabilities like SQL injection, cross-site scripting (XSS), and ensuring proper authentication and authorization mechanisms are in place.</li>\n</ul>\n</li>\n<li>\n<p><b>Usability Testing</b></p>\n<ul>\n<li><b>Objective:</b> Ensure the API is easy to use and well-documented.</li>\n<li><b>Tools:</b> Swagger, Postman.</li>\n<li><b>Description:</b> Usability testing focuses on the API's user experience, ensuring that the documentation is clear, the endpoints are intuitive, and error messages are helpful.</li>\n</ul>\n</li>\n</ol>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/test_set_1x1@crd.com/original_assets/API_complete_reference-5.pdf_chunks/API_complete_reference-5-chunked-files/API_complete_reference-5_page_1-1.pdf",
+        "sort_number": "10"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "8fb3ce8e-aa96-4c88-85f7-3308b8a40dda",
+            "sentiment": "neutral",
+            "summary": "Overview of API testing methods: unit, functional, integration, performance, security, and usability, detailing objectives, tools, and descriptions for each type.",
+            "score": 0.95
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "35b2b10f-d1d0-4a1f-a9c2-32fb9053099a",
+              "question": "What is unit testing in the context of API testing?",
+              "answer": "Unit testing focuses on testing individual API components in isolation, ensuring that each specific method or function works as intended."
+            },
+            {
+              "id": "08fc46b4-a61c-4e8d-9159-1f2ad98e06d4",
+              "question": "Which tools are commonly used for functional testing of APIs?",
+              "answer": "Functional testing typically uses tools such as Postman, SoapUI, and REST Assured."
+            },
+            {
+              "id": "91e78196-57da-406d-99d4-93d537bfe826",
+              "question": "How does integration testing differ from unit testing?",
+              "answer": "While unit testing isolates individual components, integration testing evaluates how different parts of the API interact with each other and with external systems like databases or other services."
+            },
+            {
+              "id": "6211dee3-e596-441b-ae30-9f3ab85d7ff6",
+              "question": "What types of performance tests are mentioned in the overview?",
+              "answer": "Performance testing includes load testing, stress testing, and endurance testing."
+            },
+            {
+              "id": "5b4f6b87-9910-4795-94b9-033ed341a5d5",
+              "question": "Which tools are recommended for security testing of APIs?",
+              "answer": "Security testing can be performed with OWASP ZAP, Burp Suite, and Postman (with security extensions)."
+            },
+            {
+              "id": "1c024dea-cb06-413c-8e04-93ddd6299dd0",
+              "question": "What is the main goal of usability testing for APIs?",
+              "answer": "Usability testing aims to ensure the API is easy to use and well‑documented, with clear documentation, intuitive endpoints, and helpful error messages."
+            },
+            {
+              "id": "4abeb4e0-4f9a-4ac8-ba8b-ecf61f0535d8",
+              "question": "Which testing technique verifies that the API meets its functional requirements?",
+              "answer": "Functional testing validates the API against its functional requirements and specifications."
+            },
+            {
+              "id": "e060ec82-f541-4273-b7d7-7aca671fef34",
+              "question": "What objectives are associated with integration testing?",
+              "answer": "Integration testing ensures that the API interacts correctly with other components and systems, evaluating interactions between different parts of the API and external services."
+            },
+            {
+              "id": "7400df66-2fad-4e64-a215-5818facb9e43",
+              "question": "Which tools can be used for both functional and integration testing?",
+              "answer": "Tools such as Postman and SoapUI are listed for both functional and integration testing."
+            },
+            {
+              "id": "2af12db7-fe06-48c9-988e-d682f32d0266",
+              "question": "What common vulnerabilities are checked during security testing?",
+              "answer": "Security testing looks for vulnerabilities like SQL injection, cross‑site scripting (XSS), and verifies proper authentication and authorization mechanisms."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "4eaa6957-ee32-4898-8d21-748ee1953fb5",
+              "keyword": "API testing",
+              "score": 0.99
+            },
+            {
+              "id": "009da107-0ca8-47d2-9507-8028cf05f13b",
+              "keyword": "unit testing",
+              "score": 0.97
+            },
+            {
+              "id": "e88a6b61-2ef4-4bd2-8db3-f5901c94cf4d",
+              "keyword": "functional testing",
+              "score": 0.96
+            },
+            {
+              "id": "3e8435c5-5b9a-49b5-bc35-a1d50ab3e8af",
+              "keyword": "integration testing",
+              "score": 0.95
+            },
+            {
+              "id": "0f2ab03c-42d3-4018-8558-2c5168be3f57",
+              "keyword": "performance testing",
+              "score": 0.94
+            },
+            {
+              "id": "1e33a266-4d6a-4b46-807b-a1b9deacff77",
+              "keyword": "security testing",
+              "score": 0.93
+            },
+            {
+              "id": "1867e73e-1a9c-4d86-a1b6-441e142bc155",
+              "keyword": "usability testing",
+              "score": 0.92
+            },
+            {
+              "id": "8a328ca5-d2bf-4051-9a29-252c91bdf7a6",
+              "keyword": "Postman",
+              "score": 0.9
+            },
+            {
+              "id": "cc94a471-0551-4407-9a94-a72b1e0aaea7",
+              "keyword": "JUnit",
+              "score": 0.89
+            },
+            {
+              "id": "ee9faabe-9dd4-486b-bcd8-354a5cceea36",
+              "keyword": "SQL injection",
+              "score": 0.88
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "9984f22b-dcd7-4479-a214-8e8bc322f1bd",
+            "title": "API Testing Techniques Overview",
+            "long_summary": "The document outlines six essential API testing techniques, each with distinct objectives, tools, and descriptions:\n\n1. **Unit Testing** – Focuses on individual API components in isolation. Developers use frameworks such as JUnit, NUnit, or pytest to verify that specific methods or functions behave as expected.\n\n2. **Functional Testing** – Validates that the API performs its intended functions correctly. Tools like Postman, SoapUI, and REST Assured are employed to test endpoints, HTTP methods (GET, POST, PUT, DELETE), and response correctness against functional requirements.\n\n3. **Integration Testing** – Ensures seamless interaction between the API and other components or systems. It evaluates how different parts of the API communicate with external services or databases, using Postman, SoapUI, or JUnit with integration configurations.\n\n4. **Performance Testing** – Assesses API performance under various conditions. Load testing (JMeter, LoadRunner, Gatling) checks behavior under expected load, stress testing identifies breaking points, and endurance testing evaluates long‑term performance.\n\n5. **Security Testing** – Identifies vulnerabilities and confirms secure operation. Tools such as OWASP ZAP, Burp Suite, and Postman’s security extensions scan for SQL injection, XSS, and verify authentication/authorization mechanisms.\n\n6. **Usability Testing** – Focuses on the API’s user experience and documentation quality. Swagger and Postman help ensure endpoints are intuitive, documentation is clear, and error messages are helpful.\n\nTogether, these techniques provide a comprehensive framework for ensuring an API is functional, reliable, secure, and user‑friendly.",
+            "short_summary": "Key API testing methods and tools"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "bfae1db9-b42f-4435-bccf-5fe8faab581c",
+              "classification": "Software Testing",
+              "score": 0.99
+            },
+            {
+              "id": "0c3a0533-c427-4200-9d1d-3967c50d3a00",
+              "classification": "API Development",
+              "score": 0.97
+            },
+            {
+              "id": "ce3b360b-f571-4520-907c-2377b2cf125d",
+              "classification": "Quality Assurance",
+              "score": 0.96
+            },
+            {
+              "id": "dfa25804-c90f-44d9-896f-12dcfe2f4fb1",
+              "classification": "Technical Documentation",
+              "score": 0.92
+            },
+            {
+              "id": "b94f2aae-bd66-4e7e-a504-80e580470242",
+              "classification": "Performance Engineering",
+              "score": 0.88
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "e9df1c76-ce62-4579-a5d7-ed8f8f37c09f",
+              "label": "JUnit",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "61890c94-550a-4293-97ec-21821513c803",
+              "label": "NUnit",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "67eae1fd-205e-4b6e-ac9b-a38cb1b7f85a",
+              "label": "pytest",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "83e762ba-f763-458b-9d61-40df278e6b9f",
+              "label": "Postman",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "460fd87f-33a2-4307-8f0a-568df6c7a966",
+              "label": "SoapUI",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "3abb8642-3d25-4bf4-950e-37181e04c2ea",
+              "label": "REST Assured",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "f7c2947c-9f23-43d2-914b-0ea4f145c18e",
+              "label": "JMeter",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "8b4a820c-96e2-4867-8a61-e6896a99516a",
+              "label": "LoadRunner",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "ae4c7705-bca7-4a3f-a688-9eedc926b636",
+              "label": "Gatling",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "32f3723b-8fe5-4537-956b-b8e4ce8b08fb",
+              "label": "OWASP ZAP",
+              "type": "PRODUCT"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

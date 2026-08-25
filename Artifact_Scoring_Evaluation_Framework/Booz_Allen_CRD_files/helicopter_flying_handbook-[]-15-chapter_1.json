@@ -1,0 +1,1352 @@
+{
+	"customer_id": "venkat_26Feb@testing.com",
+	"document_id": "5a7fb8ba-99ed-4cd8-86df-9d898b0fe847",
+	"document_name": "helicopter_flying_handbook-[]-15-Chapter 1 Introduction to the Helicopter.pdf",
+	"organization_name": "Booz Allen",
+	"account_name": "Default Account",
+	"application_name": "Booz Allen AI Atomization Service",
+	"vpub_name": "Default VPUB",
+	"meta_data": {
+		"gen_ai": {
+			"model": "gpt-4o-mini",
+			"llm_id": 16,
+			"language": "english",
+			"completed_at": "2026-03-02T13:06:56.465615+00:00",
+			"instructions": null,
+			"triggered_at": "2026-03-02T13:03:15.641115+00:00",
+			"model_provider": "open_ai"
+		},
+		"llm_id": 16,
+		"file_url": "s3://conveyer-ai-boozallen-topic-lake/venkat_26Feb@testing.com/original_assets/helicopter_flying_handbook-[]-15-Chapter 1 Introduction to the Helicopter.pdf",
+		"language": "english",
+		"llm_model": "gpt-4o-mini",
+		"atomization": {
+			"enabled": true,
+			"service": "boozallen_ai_atomization_service",
+			"language": "english",
+			"model_name": "gemini-2.5-flash",
+			"prompt_url": "s3://boozallen-ai-atomization-service-bucket/enhanced_prompts/english_atomization_prompt_enhanced.json",
+			"initiated_at": "2026-03-02T13:00:40.636570+00:00",
+			"instructions": null,
+			"model_provider": "Google",
+			"prompt_version": "ENGLISH_v2",
+			"instructions_provided": false
+		},
+		"total_atoms": 8,
+		"llm_provider": "open_ai",
+		"service_version": "1.0.0",
+		"genai_total_atoms": 8,
+		"atomization_status": "green",
+		"processing_timestamp": "2026-03-02T13:00:40.636570+00:00",
+		"genai_progress_status": "yellow",
+		"atomization_percentage": 100.0,
+		"atoms_with_description": 8,
+		"genai_total_artifacts_generated": 77
+	},
+	"topics": [
+		{
+			"topic_id": "93693b7f-2371-48da-b1a3-b6b6522e3fcb",
+			"document_id": "5a7fb8ba-99ed-4cd8-86df-9d898b0fe847",
+			"title": "Page 5",
+			"context": "Figure 1-8. HH-43 Huskie with intermeshing rotors.\n\nfor a small anti-submarine warfare helicopter, the Flettner Fl 282 Kolibri. During the Cold War the American Kaman Aircraft company produced the HH-43 Huskie, for USAF firefighting purposes. The latest Kaman K-MAX model is a dedicated sky crane design used for construction work.\n\n## Tail Rotor\n\nThe tail rotor is a smaller rotor mounted vertically or near-vertically on the tail of a traditional single-rotor helicopter. The tail rotor either pushes or pulls against the tail to counter the torque. The tail rotor drive system consists of a drive shaft powered from the main transmission and a gearbox mounted at the end of the tail boom. [Figure 1-9] The drive shaft may consist of one long shaft or a series of shorter shafts connected at both ends with flexible couplings. The flexible couplings allow the drive shaft to flex with the tail boom.\n\nImage: Diagram illustrating the basic components of a tail rotor, including the tail rotor driveshaft located inside the tail body, the tail rotor itself, the tail rotor shaft, pitch change links, and a cross head.\n\nThe gearbox at the end of the tail boom provides an angled drive for the tail rotor and may also include gearing to adjust the output to the optimum rotational speed typically measured in revolutions per minute (rpm) for the tail rotor. On some larger helicopters, intermediate gearboxes are used to angle the tail rotor drive shaft from along the tail boom or tailcone to the top of the tail rotor pylon, which also serves as a vertical stabilizing airfoil to alleviate the power requirement for the tail rotor in forward flight. The pylon (or vertical fin) may also provide limited antitorque within certain airspeed ranges if the tail rotor or the tail rotor flight controls fail.\n\n## Controlling Flight\n\nA helicopter has four primary flight controls:\n\n* Cyclic\n* Collective\n* Antitorque pedals\n* Throttle\n\n## Cyclic\n\nThe cyclic control is usually located between the pilot's legs and is commonly called the “cyclic stick\" or simply \"cyclic.\" On most helicopters, the cyclic is similar to a joystick; however, Robinson helicopters have unique T-bar cyclic control systems. A few helicopters have cyclic controls that descend into the cockpit from overhead while others use side cyclic controls.\n\nThe control is called the cyclic because it can vary the pitch of the rotor blades throughout each revolution of the main rotor system (i.e., through each cycle of rotation) to develop unequal lift (thrust). The result is to tilt the rotor disk in a particular direction, resulting in the helicopter moving in that direction. If the pilot pushes the cyclic forward, the rotor disk tilts forward, and the rotor produces a thrust in the forward direction. If the pilot pushes the cyclic to the side, the rotor disk tilts to that side and produces thrust in that direction, causing the helicopter to hover sideways. [Figure 1-10]\n\n## Collective\n\nThe collective pitch control, or collective, is located on the left side of the pilot's seat with a pilot-selected variable friction control to prevent inadvertent movement. The collective changes the pitch angle of all the main rotor blades\n\nFigure 1-9. Basic tail rotor components.\n\n1-5",
+			"extra_attributes": {
+				"chunk_url": "s3://boozallen-ai-atomization-service-bucket/venkat_26Feb@testing.com/original_assets/helicopter_flying_handbook-[]-15-Chapter 1 Introduction to the Helicopter.pdf_chunks/helicopter_flying_handbook-[]-15-Chapter 1 Introduction to the Helicopter-chunked-files/helicopter_flying_handbook-[]-15-Chapter 1 Introduction to the Helicopter_page_5-5.pdf",
+				"sort_number": "50"
+			},
+			"generated_artifacts": [
+				{
+					"sentiment": {
+						"id": "9f3dca8c-6dbe-4752-bf28-75d3b5edf7bb",
+						"sentiment": "neutral",
+						"summary": "Descripción técnica de los componentes y controles de un helicóptero, incluyendo el rotor de cola y los controles de vuelo.",
+						"score": 0.85
+					}
+				},
+				{
+					"faqs": [
+						{
+							"id": "763c9934-65e6-4e1c-b366-a89c637e6798",
+							"question": "What is the purpose of the tail rotor in a helicopter?",
+							"answer": "The tail rotor counteracts the torque produced by the main rotor, allowing the helicopter to maintain stability and control."
+						},
+						{
+							"id": "01b98631-da86-4006-9b45-8778100f20e3",
+							"question": "How does the tail rotor drive system work?",
+							"answer": "The tail rotor drive system consists of a drive shaft powered from the main transmission and a gearbox at the end of the tail boom, which provides an angled drive for the tail rotor."
+						},
+						{
+							"id": "e12a4649-5a33-45a6-b9b0-cd27ad4c19a7",
+							"question": "What are the four primary flight controls of a helicopter?",
+							"answer": "The four primary flight controls are the cyclic, collective, antitorque pedals, and throttle."
+						},
+						{
+							"id": "7969383d-e6ea-4435-9181-4d7459c7de12",
+							"question": "What is the function of the cyclic control?",
+							"answer": "The cyclic control varies the pitch of the rotor blades throughout each revolution, allowing the helicopter to tilt and move in a desired direction."
+						},
+						{
+							"id": "9a2a4a73-3c78-480c-add6-8420b4e6e14b",
+							"question": "Where is the collective pitch control located?",
+							"answer": "The collective pitch control is located on the left side of the pilot's seat."
+						},
+						{
+							"id": "4b029dca-e1d5-429f-bfda-08d25464aa44",
+							"question": "What is the role of the gearbox at the end of the tail boom?",
+							"answer": "The gearbox provides an angled drive for the tail rotor and may include gearing to adjust the output to the optimum rotational speed."
+						},
+						{
+							"id": "099f531c-0281-42e1-b061-0f573848e8cb",
+							"question": "What happens when the pilot pushes the cyclic forward?",
+							"answer": "When the pilot pushes the cyclic forward, the rotor disk tilts forward, producing thrust in the forward direction and causing the helicopter to move forward."
+						},
+						{
+							"id": "b939d716-2f8c-4f39-b7b3-632c66864b31",
+							"question": "What is unique about the cyclic control in Robinson helicopters?",
+							"answer": "Robinson helicopters have a unique T-bar cyclic control system, differing from the typical joystick design found in most helicopters."
+						},
+						{
+							"id": "3cb67bfe-1c98-4298-9a0f-b3b9908da3ca",
+							"question": "How does the collective control affect the rotor blades?",
+							"answer": "The collective control changes the pitch angle of all the main rotor blades simultaneously, affecting the overall lift produced by the helicopter."
+						},
+						{
+							"id": "751c67e4-cfd4-441d-94f8-1e2a4ee19d16",
+							"question": "What is the significance of the pylon or vertical fin in larger helicopters?",
+							"answer": "The pylon serves as a vertical stabilizing airfoil and can provide limited antitorque if the tail rotor or its controls fail."
+						}
+					]
+				},
+				{
+					"keywords": [
+						{
+							"id": "281e967e-7085-4922-b508-169a3e3f1524",
+							"keyword": "HH-43 Huskie",
+							"score": 0.95
+						},
+						{
+							"id": "10397d9d-c9f6-45f6-a34f-b5bb94d0a553",
+							"keyword": "tail rotor",
+							"score": 0.9
+						},
+						{
+							"id": "315b02f7-e817-4c73-9e9d-e6ae94696374",
+							"keyword": "anti-submarine warfare helicopter",
+							"score": 0.85
+						},
+						{
+							"id": "26382a54-5787-4b46-b776-27f5f3949fcb",
+							"keyword": "Kaman Aircraft",
+							"score": 0.85
+						},
+						{
+							"id": "268508fe-afcc-4267-b547-f6b2026f5332",
+							"keyword": "cyclic control",
+							"score": 0.8
+						},
+						{
+							"id": "a7397525-de08-4454-a852-a574e0f21c48",
+							"keyword": "collective pitch control",
+							"score": 0.8
+						},
+						{
+							"id": "aafcdc4d-fab0-4207-ad73-6f107c3a6335",
+							"keyword": "tail rotor drive system",
+							"score": 0.75
+						},
+						{
+							"id": "2f63b243-6062-42a7-815b-9d4615fd62f3",
+							"keyword": "Flettner Fl 282 Kolibri",
+							"score": 0.75
+						},
+						{
+							"id": "6001ed76-12b0-4ef2-9b04-dc07a9ab89cd",
+							"keyword": "gearbox",
+							"score": 0.7
+						},
+						{
+							"id": "2af4339d-d7cc-4407-8ff9-4f105bab053f",
+							"keyword": "throttle",
+							"score": 0.7
+						}
+					]
+				},
+				{
+					"summary": {
+						"id": "5e3fb4df-1844-4988-950e-40498c152fbb",
+						"title": "Helicopter Design and Flight Control Systems",
+						"long_summary": "This document provides an overview of helicopter design, focusing on the HH-43 Huskie and its components, particularly the tail rotor and flight control systems. The HH-43 Huskie, produced by Kaman Aircraft during the Cold War, was designed for firefighting purposes. It features intermeshing rotors, which are a hallmark of its design. The tail rotor, a critical component of traditional single-rotor helicopters, is mounted vertically or near-vertically on the tail and serves to counteract torque generated by the main rotor. The tail rotor drive system includes a drive shaft powered by the main transmission and a gearbox at the tail boom's end, which adjusts the rotational speed of the tail rotor. The document also describes the basic components of a tail rotor, including the driveshaft, pitch change links, and the cross head. Additionally, it discusses the helicopter's primary flight controls: cyclic, collective, antitorque pedals, and throttle. The cyclic control, located between the pilot's legs, allows the pilot to vary the pitch of the rotor blades throughout each rotation, enabling directional movement. The collective control, found on the left side of the pilot's seat, changes the pitch angle of all main rotor blades simultaneously, affecting the helicopter's altitude. This comprehensive overview highlights the intricate design and functionality of helicopter systems essential for flight operations.",
+						"short_summary": "Overview of helicopter components and controls."
+					}
+				},
+				{
+					"classifications": [
+						{
+							"id": "91003a86-7d49-494a-a2fd-2a5e5a851278",
+							"classification": "Aerospace Engineering",
+							"score": 0.95
+						},
+						{
+							"id": "9081b470-0d7e-4447-8567-0e6cc0002c23",
+							"classification": "Helicopter Design",
+							"score": 0.9
+						},
+						{
+							"id": "91efe5db-6dd3-48a1-b830-4bb489b8aeeb",
+							"classification": "Flight Control Systems",
+							"score": 0.85
+						},
+						{
+							"id": "1788f569-aa2a-4873-91be-016db479b437",
+							"classification": "Mechanical Engineering",
+							"score": 0.8
+						},
+						{
+							"id": "69b1a5cf-b9a1-488d-8ec4-ea214ffb052b",
+							"classification": "Military Aviation",
+							"score": 0.75
+						}
+					]
+				},
+				{
+					"entities": [
+						{
+							"id": "29454f39-7e6b-426c-8961-6066ea45df28",
+							"label": "HH-43 Huskie",
+							"type": "PRODUCT"
+						},
+						{
+							"id": "7b104c74-67b6-4ccd-9079-abc1f8df3f83",
+							"label": "Kaman Aircraft",
+							"type": "COMPANY"
+						},
+						{
+							"id": "5b684cc3-b873-4656-b617-dd941acb6e4b",
+							"label": "Kaman K-MAX",
+							"type": "PRODUCT"
+						},
+						{
+							"id": "33a87eeb-4e1a-4717-9a67-050a811ed1da",
+							"label": "Flettner Fl 282 Kolibri",
+							"type": "PRODUCT"
+						},
+						{
+							"id": "3c087ede-0668-4002-b2ca-cbdb68eaea5b",
+							"label": "USAF",
+							"type": "ORGANIZATION"
+						}
+					]
+				}
+			]
+		},
+		{
+			"topic_id": "114be14e-f751-4d17-9e5c-d1573edd8465",
+			"document_id": "5a7fb8ba-99ed-4cd8-86df-9d898b0fe847",
+			"title": "Page 6",
+			"context": "The throttle controls the power produced by the engine, which is connected to the rotor by a transmission. The purpose of the throttle is to maintain enough engine power to keep the rotor rpm within allowable limits to produce enough lift for flight. In single-engine helicopters, if so equipped, the throttle control is typically a twist grip mounted on the collective control, but it can also be a lever mechanism in fully governed systems. Multi-engine helicopters generally have a power lever or mode switch for each engine. [Figure 1-11] Helicopter flight controls are discussed in greater detail throughout Chapter 4, Helicopter Components, Sections and Systems.\n\n# Flight Conditions\n\nThere are two basic flight conditions for a helicopter: hover and forward flight. Hovering is the most challenging part of flying a helicopter. This is because a helicopter generates its own gusty air while in a hover, which acts against the fuselage and flight control surfaces. The end result is the need for constant control inputs and corrections by the pilot to keep the helicopter where it is required to be. Despite the complexity of the task, the control inputs in a hover are simple. The cyclic is used to eliminate drift in the horizontal direction that is to control forward and back, right and left. The collective is used to maintain altitude. The pedals are used to control nose direction or heading. It is the interaction of these controls that makes hovering so difficult, since an adjustment in any one control requires an adjustment of the other two, creating a cycle of constant correction.\n\nDisplacing the cyclic forward initially causes the nose to pitch down, with a resultant increase in airspeed and loss of altitude. Aft cyclic initially causes the nose to pitch up, slowing the helicopter and causing it to climb; however, as the helicopter reaches a state of equilibrium, the horizontal stabilizer helps level the helicopter to minimize drag, unlike\n\nFigure 1-10. Cyclic controls changing the pitch of the rotor blades.\n\ncollectively (i.e., all at the same time) and independently of their positions. Therefore, if a collective input is made, all the blades change equally, increasing or decreasing total lift or thrust, with the result of the helicopter increasing or decreasing in altitude or airspeed.\n\n# Antitorque Pedals\n\nThe antitorque pedals are located in the same position as the rudder pedals in a fixed-wing aircraft and serve a similar purpose, namely to control the direction in which the nose of the aircraft is pointed. Application of the pedal in a given direction changes the pitch of the tail rotor blades, increasing or reducing the thrust produced by the tail rotor, causing the nose to yaw in the direction of the applied pedal. The pedals mechanically change the pitch of the tail rotor, altering the amount of thrust produced.\n\n# Throttle\n\nHelicopter rotors are designed to operate at a specific rpm.\n\nFigure 1-11. The throttle control mounted at the end of the collective control.\n\nFigure 1-12. The horizontal stabilizer helps level the helicopter to minimize drag during flight.\n\n1-6",
+			"extra_attributes": {
+				"chunk_url": "s3://boozallen-ai-atomization-service-bucket/venkat_26Feb@testing.com/original_assets/helicopter_flying_handbook-[]-15-Chapter 1 Introduction to the Helicopter.pdf_chunks/helicopter_flying_handbook-[]-15-Chapter 1 Introduction to the Helicopter-chunked-files/helicopter_flying_handbook-[]-15-Chapter 1 Introduction to the Helicopter_page_6-6.pdf",
+				"sort_number": "60"
+			},
+			"generated_artifacts": [
+				{
+					"sentiment": {
+						"id": "b3e9cd92-a00e-431a-926a-249a025d9a7f",
+						"sentiment": "neutral",
+						"summary": "El contenido describe el funcionamiento y control de un helicóptero, incluyendo el uso del acelerador y los controles de vuelo.",
+						"score": 0.85
+					}
+				},
+				{
+					"faqs": [
+						{
+							"id": "81e84794-edc7-4f69-9f9e-0c9dfaa56294",
+							"question": "What is the purpose of the throttle in a helicopter?",
+							"answer": "The throttle controls the power produced by the engine to maintain enough engine power to keep the rotor rpm within allowable limits for producing lift during flight."
+						},
+						{
+							"id": "bcc5a559-5beb-491e-a8e8-48e4198fa943",
+							"question": "How do single-engine helicopters typically control the throttle?",
+							"answer": "In single-engine helicopters, the throttle control is usually a twist grip mounted on the collective control, but it can also be a lever mechanism in fully governed systems."
+						},
+						{
+							"id": "6398bfc2-6f57-4541-8067-d932e3c780cf",
+							"question": "What are the two basic flight conditions for a helicopter?",
+							"answer": "The two basic flight conditions for a helicopter are hover and forward flight."
+						},
+						{
+							"id": "c56550ec-7f48-4b8f-a619-da7186fdb0fc",
+							"question": "Why is hovering considered the most challenging part of flying a helicopter?",
+							"answer": "Hovering is challenging because the helicopter generates its own gusty air, requiring constant control inputs and corrections by the pilot to maintain position."
+						},
+						{
+							"id": "742d5a6d-6786-4f20-b943-ab2d4ca8c4c0",
+							"question": "What controls are used to maintain altitude and direction while hovering?",
+							"answer": "The cyclic is used to eliminate horizontal drift, the collective is used to maintain altitude, and the pedals are used to control the nose direction or heading."
+						},
+						{
+							"id": "2dcf9c09-43f8-47a4-b6b9-92ad2e9d0429",
+							"question": "What happens when the cyclic is displaced forward?",
+							"answer": "Displacing the cyclic forward causes the nose to pitch down, resulting in an increase in airspeed and a loss of altitude."
+						},
+						{
+							"id": "f10a106f-fa20-468a-a46c-e990306a94d8",
+							"question": "What is the function of the antitorque pedals in a helicopter?",
+							"answer": "The antitorque pedals control the direction in which the nose of the helicopter is pointed by changing the pitch of the tail rotor blades, which alters the thrust produced by the tail rotor."
+						},
+						{
+							"id": "bd5dcbe7-0a6f-4953-bf01-0267724d70a8",
+							"question": "How do the collective and cyclic controls interact during flight?",
+							"answer": "Adjustments in one control require adjustments in the other two, creating a cycle of constant correction to maintain stable flight."
+						},
+						{
+							"id": "a2bfd23f-d0c6-4e66-8d6d-a95c9154e939",
+							"question": "What is the role of the horizontal stabilizer during flight?",
+							"answer": "The horizontal stabilizer helps level the helicopter to minimize drag as it reaches a state of equilibrium."
+						},
+						{
+							"id": "08cd172b-286d-45a8-bcaf-98a36896206b",
+							"question": "What is the significance of rotor rpm in helicopter operation?",
+							"answer": "Helicopter rotors are designed to operate at a specific rpm, which is crucial for maintaining lift and overall flight stability."
+						}
+					]
+				},
+				{
+					"keywords": [
+						{
+							"id": "b38056a7-7c91-4b53-bdef-9effc192d4c8",
+							"keyword": "throttle control",
+							"score": 0.95
+						},
+						{
+							"id": "de706017-f662-4d43-b536-8965fb29b8d8",
+							"keyword": "helicopter flight controls",
+							"score": 0.9
+						},
+						{
+							"id": "60064457-6a2d-4f87-bd02-ef0c77a3bad3",
+							"keyword": "hovering",
+							"score": 0.85
+						},
+						{
+							"id": "8bb5162f-4789-4891-931a-94616dd830ff",
+							"keyword": "collective control",
+							"score": 0.85
+						},
+						{
+							"id": "35d9d409-66ee-4bd5-b4b3-e4ed6c828831",
+							"keyword": "cyclic",
+							"score": 0.8
+						},
+						{
+							"id": "bb45723c-b18f-43f0-9427-86fc0f020aa1",
+							"keyword": "antitorque pedals",
+							"score": 0.8
+						},
+						{
+							"id": "4ced7997-9952-4b15-95a9-2a20a488a025",
+							"keyword": "lift",
+							"score": 0.75
+						},
+						{
+							"id": "ade1cbc9-418e-4607-b085-486b38963036",
+							"keyword": "rpm",
+							"score": 0.75
+						},
+						{
+							"id": "d05a8e81-bd68-485c-8d6f-37a5026d7cd7",
+							"keyword": "tail rotor",
+							"score": 0.7
+						},
+						{
+							"id": "26210ef0-6f2d-4b77-9a58-72d3a59fd6fb",
+							"keyword": "flight conditions",
+							"score": 0.7
+						}
+					]
+				},
+				{
+					"summary": {
+						"id": "9f395701-c2cc-4d15-8f2c-b848e68dd97f",
+						"title": "Helicopter Flight Controls and Throttle Mechanisms",
+						"long_summary": "The throttle in a helicopter regulates the engine power connected to the rotor via a transmission, ensuring that the rotor's RPM remains within acceptable limits for sufficient lift during flight. In single-engine helicopters, the throttle is often a twist grip on the collective control, while multi-engine helicopters utilize a power lever or mode switch for each engine. Helicopter flight conditions primarily include hovering and forward flight, with hovering being particularly challenging due to the need for constant pilot corrections against gusty air generated by the helicopter itself. The cyclic control is used to manage horizontal drift, while the collective maintains altitude, and the pedals control the helicopter's heading. Adjustments in one control necessitate compensatory adjustments in the others, complicating the hovering process. The antitorque pedals, similar to rudder pedals in fixed-wing aircraft, control the tail rotor's thrust, allowing the pilot to direct the helicopter's nose. Overall, understanding the interaction of these controls is crucial for effective helicopter operation.",
+						"short_summary": "Overview of helicopter throttle and flight controls."
+					}
+				},
+				{
+					"classifications": [
+						{
+							"id": "dac800cb-ee14-4d8f-b6e2-bc0aecf11528",
+							"classification": "Aerospace Engineering",
+							"score": 0.95
+						},
+						{
+							"id": "53e3d1cc-8560-4ae3-bda3-0e203e50e5af",
+							"classification": "Helicopter Flight Mechanics",
+							"score": 0.9
+						},
+						{
+							"id": "dd446e9e-497e-4634-8acf-dbfbabbfa61c",
+							"classification": "Pilot Training",
+							"score": 0.85
+						},
+						{
+							"id": "22fd8d76-18da-45d2-b5a5-19187e7baa68",
+							"classification": "Aircraft Controls",
+							"score": 0.8
+						},
+						{
+							"id": "00d768ad-294a-447f-b2d8-a80e0e6741ce",
+							"classification": "Flight Safety",
+							"score": 0.75
+						}
+					]
+				},
+				{
+					"entities": []
+				}
+			]
+		},
+		{
+			"topic_id": "8c555b74-4d32-4ab0-847b-461f197c555e",
+			"document_id": "5a7fb8ba-99ed-4cd8-86df-9d898b0fe847",
+			"title": "Page 8",
+			"context": "1-8",
+			"extra_attributes": {
+				"chunk_url": "s3://boozallen-ai-atomization-service-bucket/venkat_26Feb@testing.com/original_assets/helicopter_flying_handbook-[]-15-Chapter 1 Introduction to the Helicopter.pdf_chunks/helicopter_flying_handbook-[]-15-Chapter 1 Introduction to the Helicopter-chunked-files/helicopter_flying_handbook-[]-15-Chapter 1 Introduction to the Helicopter_page_8-8.pdf",
+				"sort_number": "80"
+			},
+			"generated_artifacts": [
+				{
+					"sentiment": {}
+				},
+				{
+					"faqs": []
+				},
+				{
+					"keywords": []
+				},
+				{
+					"summary": {}
+				},
+				{
+					"classifications": []
+				},
+				{
+					"entities": []
+				}
+			]
+		},
+		{
+			"topic_id": "92ca7530-fca6-4dce-9236-5ec043f69ec9",
+			"document_id": "5a7fb8ba-99ed-4cd8-86df-9d898b0fe847",
+			"title": "Page 2",
+			"context": "As an aircraft, the primary advantages of the helicopter are due to the rotor blades that revolve through the air, providing lift without requiring the aircraft to move forward. This lift allows the helicopter to hover in one area and to take off and land vertically without the need for runways. For this reason, helicopters are often used in congested or isolated areas where fixed-wing aircraft are not able to take off or land. [Figures 1-1 and 1-2]\n\nPiloting a helicopter requires adequate, focused and safety-orientated training. It also requires continuous attention to the machine and the operating environment. The pilot must work in three dimensions and use both arms and both legs constantly to keep the helicopter in a desired state. Coordination, timing and control touch are all used simultaneously when flying a helicopter.\n\nAlthough helicopters were developed and built during the first half-century of flight, some even reaching limited production; it was not until 1942 that a helicopter designed by Igor Sikorsky reached full-scale production, with 131 aircraft built. Even though most previous designs used more than one main rotor, it was the single main rotor with an antitorque tail rotor configuration that would come to be recognized worldwide as the helicopter.\n\nFigure 1-2. Search and rescue helicopter landing in a confined area.\n\n# Turbine Age\n\nIn 1951, at the urging of his contacts at the Department of the Navy, Charles H. Kaman modified his K-225 helicopter with a new kind of engine, the turbo-shaft engine. This adaptation of the turbine engine provided a large amount of horsepower to the helicopter with a lower weight penalty than piston engines, heavy engine blocks, and auxiliary components. On December 11, 1951, the K-225 became the first turbine-powered helicopter in the world. Two years later, on March 26, 1954, a modified Navy HTK-1, another Kaman helicopter, became the first twin-turbine helicopter to fly. However, it was the Sud Aviation Alouette II that would become the first helicopter to be produced with a turbine engine.\n\nReliable helicopters capable of stable hover flight were developed decades after fixed-wing aircraft. This is largely due to higher engine power density requirements than fixed-wing aircraft. Improvements in fuels and engines during the first half of the 20th century were critical factors in helicopter development. The availability of lightweight turbo-shaft engines in the second half of the 20th century led to the development of larger, faster, and higher-performance helicopters. While smaller and less expensive helicopters still use piston engines, turboshaft engines are the preferred powerplant for helicopters today.\n\nThe turbine engine has the following advantages over a reciprocating engine:\n\n* Less vibration\n* Increased aircraft performance\n* Reliability\n* Ease of operation\n\nFigure 1-1. Search and rescue helicopter conducting a pinnacle approach.\n\n1-2",
+			"extra_attributes": {
+				"chunk_url": "s3://boozallen-ai-atomization-service-bucket/venkat_26Feb@testing.com/original_assets/helicopter_flying_handbook-[]-15-Chapter 1 Introduction to the Helicopter.pdf_chunks/helicopter_flying_handbook-[]-15-Chapter 1 Introduction to the Helicopter-chunked-files/helicopter_flying_handbook-[]-15-Chapter 1 Introduction to the Helicopter_page_2-2.pdf",
+				"sort_number": "20"
+			},
+			"generated_artifacts": [
+				{
+					"sentiment": {
+						"id": "b27377d4-bddf-4d51-bafc-5a19ad209d35",
+						"sentiment": "neutral",
+						"summary": "El contenido describe las ventajas y la evolución de los helicópteros, así como los requisitos para pilotarlos.",
+						"score": 0.85
+					}
+				},
+				{
+					"faqs": [
+						{
+							"id": "f936f578-f23c-47e4-9566-ae67c1f61872",
+							"question": "What are the primary advantages of helicopters compared to fixed-wing aircraft?",
+							"answer": "The primary advantages of helicopters are their ability to hover in one area and take off and land vertically without the need for runways, making them suitable for congested or isolated areas."
+						},
+						{
+							"id": "802b1832-ac92-4871-8de6-a1d6c1abc1ec",
+							"question": "What skills are required to pilot a helicopter?",
+							"answer": "Piloting a helicopter requires adequate training, continuous attention to the machine and environment, and the ability to work in three dimensions using both arms and legs for coordination, timing, and control."
+						},
+						{
+							"id": "1812e788-632b-4115-ad04-e06ba43e3d6c",
+							"question": "Who was responsible for the first full-scale production helicopter?",
+							"answer": "Igor Sikorsky designed the first helicopter that reached full-scale production in 1942, with 131 aircraft built."
+						},
+						{
+							"id": "79ad384b-c0e8-4b8b-a5bd-f3eef56a9869",
+							"question": "What was significant about the K-225 helicopter?",
+							"answer": "The K-225 became the first turbine-powered helicopter in the world on December 11, 1951, after being modified with a turbo-shaft engine."
+						},
+						{
+							"id": "23f3d2d8-3573-4254-b958-09e7787cfddb",
+							"question": "What are the benefits of turbine engines over piston engines in helicopters?",
+							"answer": "Turbine engines offer less vibration, increased aircraft performance, reliability, and ease of operation compared to piston engines."
+						},
+						{
+							"id": "ba8ca85b-f602-4102-be57-826ef25e90ef",
+							"question": "What was the first helicopter produced with a turbine engine?",
+							"answer": "The Sud Aviation Alouette II was the first helicopter to be produced with a turbine engine."
+						},
+						{
+							"id": "8617ffaa-757b-4008-9a6f-6760ae193aa6",
+							"question": "Why did reliable helicopters take longer to develop compared to fixed-wing aircraft?",
+							"answer": "Reliable helicopters required higher engine power density than fixed-wing aircraft, which delayed their development until improvements in fuels and engines were made."
+						},
+						{
+							"id": "a1f22e7a-d792-4870-9208-3071ce65e6ec",
+							"question": "What type of engine is preferred for helicopters today?",
+							"answer": "Turboshaft engines are the preferred powerplant for helicopters today, although smaller and less expensive helicopters may still use piston engines."
+						},
+						{
+							"id": "59bab0aa-5261-4bc3-9405-04637ce0bd76",
+							"question": "What is the significance of the Navy HTK-1 helicopter?",
+							"answer": "The Navy HTK-1 became the first twin-turbine helicopter to fly on March 26, 1954."
+						},
+						{
+							"id": "78a05d44-8c87-40d9-a155-d9866bb41dc7",
+							"question": "What are the key factors that contributed to helicopter development in the 20th century?",
+							"answer": "Improvements in fuels and engines during the first half of the 20th century, along with the availability of lightweight turbo-shaft engines in the second half, were critical for helicopter development."
+						}
+					]
+				},
+				{
+					"keywords": [
+						{
+							"id": "476292d5-80d4-4649-9d6b-de92d3a3dbde",
+							"keyword": "helicopter",
+							"score": 0.95
+						},
+						{
+							"id": "07fb4a79-7e62-413f-aa02-4a6b5a5d5226",
+							"keyword": "turbine engine",
+							"score": 0.9
+						},
+						{
+							"id": "9aa473db-19bb-4bb4-bbb8-2c9788d58514",
+							"keyword": "Igor Sikorsky",
+							"score": 0.85
+						},
+						{
+							"id": "80bd34f2-f367-4b90-9828-9947919efd16",
+							"keyword": "turbo-shaft engine",
+							"score": 0.85
+						},
+						{
+							"id": "63cc32cd-c045-4b64-9184-485eabed5206",
+							"keyword": "hover flight",
+							"score": 0.8
+						},
+						{
+							"id": "ee9ead62-bc48-48d0-a642-03a98ecfa12b",
+							"keyword": "K-225",
+							"score": 0.8
+						},
+						{
+							"id": "da801be4-bb43-4898-85fb-d4a49a6402cd",
+							"keyword": "fixed-wing aircraft",
+							"score": 0.75
+						},
+						{
+							"id": "a549b873-ee4e-4099-90a0-7c36fdcf6e4a",
+							"keyword": "pilot training",
+							"score": 0.75
+						},
+						{
+							"id": "805d38c5-e9e7-41fd-925f-b96ec72ca089",
+							"keyword": "aircraft performance",
+							"score": 0.7
+						},
+						{
+							"id": "efc62288-105c-4b05-b8bb-6a59f00cbcbf",
+							"keyword": "search and rescue",
+							"score": 0.7
+						}
+					]
+				},
+				{
+					"summary": {
+						"id": "f50542c8-6486-4ee4-aaa5-9959f8a7334d",
+						"title": "Evolution and Advantages of Helicopter Technology",
+						"long_summary": "Helicopters possess distinct advantages due to their rotor blades, which allow them to generate lift without the need for forward motion. This capability enables helicopters to hover and perform vertical takeoffs and landings, making them ideal for operations in congested or isolated areas where fixed-wing aircraft cannot operate. Piloting a helicopter demands rigorous training focused on safety and requires constant attention to both the aircraft and the surrounding environment. Pilots must navigate in three dimensions, utilizing all limbs to maintain control, which involves coordination, timing, and tactile feedback. Although helicopters were conceptualized and built in the early days of aviation, it wasn't until 1942 that Igor Sikorsky's design achieved full-scale production, marking a significant milestone in helicopter history. This design featured a single main rotor with an antitorque tail rotor, a configuration that has become the standard for helicopters worldwide. The introduction of turbine engines in the 1950s revolutionized helicopter performance. Charles H. Kaman's modification of the K-225 helicopter with a turbo-shaft engine in 1951 resulted in the first turbine-powered helicopter, significantly enhancing power-to-weight ratios compared to traditional piston engines. The Sud Aviation Alouette II later became the first helicopter produced with a turbine engine. The development of reliable helicopters capable of stable hover flight lagged behind fixed-wing aircraft due to the higher power density requirements of helicopters. Advances in fuel and engine technology during the 20th century were pivotal in helicopter evolution. The emergence of lightweight turbo-shaft engines in the latter half of the century facilitated the creation of larger, faster, and more efficient helicopters. While smaller helicopters may still utilize piston engines, turboshaft engines are now the preferred choice for modern helicopters due to their numerous advantages, including reduced vibration, enhanced performance, reliability, and operational ease.",
+						"short_summary": "Helicopters offer unique advantages for vertical flight."
+					}
+				},
+				{
+					"classifications": [
+						{
+							"id": "52be4bca-f50e-4c37-a95a-f50ea2601a3a",
+							"classification": "Aerospace Engineering",
+							"score": 0.9
+						},
+						{
+							"id": "e028f20a-fb7c-4989-b939-c493e68bf5e2",
+							"classification": "Helicopter Technology",
+							"score": 0.95
+						},
+						{
+							"id": "8800b650-6c83-4ea4-a6d8-d233c3f08c59",
+							"classification": "Aviation Safety",
+							"score": 0.85
+						},
+						{
+							"id": "cb06cb20-3e76-4f86-b0df-d6dd68cda321",
+							"classification": "History of Aviation",
+							"score": 0.8
+						},
+						{
+							"id": "77e85324-5308-4d19-a091-b5552bc61153",
+							"classification": "Mechanical Engineering",
+							"score": 0.75
+						}
+					]
+				},
+				{
+					"entities": [
+						{
+							"id": "86a899ca-6496-4291-b564-14b172b1edbe",
+							"label": "Igor Sikorsky",
+							"type": "PERSON"
+						},
+						{
+							"id": "ab791226-1693-4d67-afe9-13895f9cb2a2",
+							"label": "Charles H. Kaman",
+							"type": "PERSON"
+						},
+						{
+							"id": "1cee1949-9e16-42ed-bb41-0d5aeafe8c2d",
+							"label": "Sud Aviation",
+							"type": "COMPANY"
+						},
+						{
+							"id": "766075ce-b643-43aa-886c-4120d7c22298",
+							"label": "K-225",
+							"type": "PRODUCT"
+						},
+						{
+							"id": "74df1aca-72aa-4447-af1d-c27255e0aac2",
+							"label": "HTK-1",
+							"type": "PRODUCT"
+						},
+						{
+							"id": "55b8952a-9bc4-4f0d-b6eb-b5ac57215f0f",
+							"label": "1942",
+							"type": "DATE"
+						},
+						{
+							"id": "a7f678db-b6a3-49fb-a84c-8cd33abb596b",
+							"label": "1951",
+							"type": "DATE"
+						},
+						{
+							"id": "9e94b2bb-163a-4f45-bbb3-a8c5a364ab31",
+							"label": "March 26, 1954",
+							"type": "DATE"
+						},
+						{
+							"id": "e497386f-ec2e-4633-bc84-d1ecc24bdeda",
+							"label": "Department of the Navy",
+							"type": "LOCATION"
+						},
+						{
+							"id": "98f4220a-e76b-4ac6-b7b5-f5b41a11227d",
+							"label": "turbine engine",
+							"type": "PRODUCT"
+						}
+					]
+				}
+			]
+		},
+		{
+			"topic_id": "6363c6da-8677-43e0-84cb-221980a96ff6",
+			"document_id": "5a7fb8ba-99ed-4cd8-86df-9d898b0fe847",
+			"title": "Page 7",
+			"context": "an airplane. [Figure 1-12] Therefore, the helicopter has very little pitch deflection up or down when the helicopter is stable in a flight mode. The variation from absolutely level depends on the particular helicopter and the horizontal stabilizer function.\nIncreasing collective (power) while maintaining a constant airspeed induces a climb while decreasing collective causes a descent. Coordinating these two inputs, down collective plus aft cyclic or up collective plus forward cyclic, results in airspeed changes while maintaining a constant altitude.\nThe pedals serve the same function in both a helicopter and a fixed-wing aircraft, to maintain balanced flight. This is done by applying pedal input in whichever direction is necessary to center the ball in the turn and bank indicator. Flight maneuvers are discussed in greater detail throughout Chapter 9, Basic Flight Maneuvers.\n\n# Chapter Summary\nThis chapter gives the reader an overview of the history of the helicopter, its many uses, and how it has developed throughout the years. The chapter also introduces basic terms and explanations of the helicopter components, sections, and the theory behind how the helicopter flies.\n1-7",
+			"extra_attributes": {
+				"chunk_url": "s3://boozallen-ai-atomization-service-bucket/venkat_26Feb@testing.com/original_assets/helicopter_flying_handbook-[]-15-Chapter 1 Introduction to the Helicopter.pdf_chunks/helicopter_flying_handbook-[]-15-Chapter 1 Introduction to the Helicopter-chunked-files/helicopter_flying_handbook-[]-15-Chapter 1 Introduction to the Helicopter_page_7-7.pdf",
+				"sort_number": "70"
+			},
+			"generated_artifacts": [
+				{
+					"sentiment": {
+						"id": "dce3307c-5845-4850-b23c-b66d376a8da4",
+						"sentiment": "neutral",
+						"summary": "Este capítulo ofrece una visión general de la historia del helicóptero, sus usos y el desarrollo de sus componentes.",
+						"score": 0.85
+					}
+				},
+				{
+					"faqs": [
+						{
+							"id": "d034a84a-89d6-47ef-9a90-4226c619a072",
+							"question": "What is the main focus of this chapter?",
+							"answer": "This chapter provides an overview of the history of the helicopter, its various uses, and its development over the years, along with basic terms and explanations of helicopter components and flight theory."
+						},
+						{
+							"id": "a3c46d61-a1c2-40ef-806a-54f61a72f8a5",
+							"question": "How does increasing collective affect a helicopter's flight?",
+							"answer": "Increasing collective while maintaining a constant airspeed induces a climb, while decreasing collective causes a descent."
+						},
+						{
+							"id": "d010d611-4aa0-46c3-bea3-b13889a072a4",
+							"question": "What role do the pedals play in helicopter flight?",
+							"answer": "The pedals are used to maintain balanced flight by applying input in the necessary direction to center the ball in the turn and bank indicator."
+						},
+						{
+							"id": "0f882956-3e3a-4872-b43d-ac734c1def0b",
+							"question": "What happens when you coordinate collective and cyclic inputs?",
+							"answer": "Coordinating down collective plus aft cyclic or up collective plus forward cyclic results in airspeed changes while maintaining a constant altitude."
+						},
+						{
+							"id": "c87b392e-30b1-499b-9b03-30f5e11e44d8",
+							"question": "What does the chapter mention about pitch deflection in helicopters?",
+							"answer": "The chapter states that the helicopter has very little pitch deflection up or down when stable in flight mode, with variations depending on the specific helicopter and the function of the horizontal stabilizer."
+						},
+						{
+							"id": "71f9c539-cdf4-4460-ad76-51e1a97156b9",
+							"question": "Where can I find more detailed information about flight maneuvers?",
+							"answer": "Flight maneuvers are discussed in greater detail throughout Chapter 9, Basic Flight Maneuvers."
+						},
+						{
+							"id": "7bc5e8e9-3f1b-4f4e-8a46-23f593513dd7",
+							"question": "What is the significance of the turn and bank indicator?",
+							"answer": "The turn and bank indicator helps pilots maintain balanced flight by indicating when to apply pedal input to center the ball."
+						},
+						{
+							"id": "63fa319b-fe3a-4f59-a1e8-04b78839cc24",
+							"question": "Does the chapter provide any historical context for helicopters?",
+							"answer": "Yes, the chapter gives an overview of the history of the helicopter and its development over the years."
+						},
+						{
+							"id": "f5b3e6aa-90ee-4c83-887f-8e61c3e2d44f",
+							"question": "What are some basic terms related to helicopter components introduced in this chapter?",
+							"answer": "The chapter introduces basic terms and explanations related to helicopter components, sections, and the theory behind how helicopters fly."
+						},
+						{
+							"id": "71320973-388f-454f-9217-aba8e5c0d181",
+							"question": "Is there a specific section that discusses helicopter stability?",
+							"answer": "Yes, the chapter discusses helicopter stability in relation to pitch deflection and the function of the horizontal stabilizer."
+						}
+					]
+				},
+				{
+					"keywords": [
+						{
+							"id": "a48de03d-7817-45eb-ad50-7b6db63036a9",
+							"keyword": "helicopter",
+							"score": 0.95
+						},
+						{
+							"id": "a3a18e16-1f9e-4b82-8ef8-e6f5b720b999",
+							"keyword": "pitch deflection",
+							"score": 0.9
+						},
+						{
+							"id": "b25d7075-d245-427d-ae99-567fda2d3e10",
+							"keyword": "collective",
+							"score": 0.85
+						},
+						{
+							"id": "58817f61-a507-476d-8b4e-682be8a1b4c8",
+							"keyword": "flight maneuvers",
+							"score": 0.8
+						},
+						{
+							"id": "f28e828e-ed20-447a-973a-c2b9f326bd92",
+							"keyword": "horizontal stabilizer",
+							"score": 0.75
+						},
+						{
+							"id": "2c3d13de-2cfa-4245-bd21-2a4772d7b1ab",
+							"keyword": "airspeed changes",
+							"score": 0.7
+						},
+						{
+							"id": "b1a84cb0-9646-47db-bf61-5fe76bda26d4",
+							"keyword": "balanced flight",
+							"score": 0.65
+						},
+						{
+							"id": "1fa83609-f461-48b5-82c4-69609c5603d0",
+							"keyword": "turn and bank indicator",
+							"score": 0.6
+						},
+						{
+							"id": "9cd0a3a4-4ebe-4f94-b4bf-acc44c8db7bd",
+							"keyword": "basic terms",
+							"score": 0.55
+						},
+						{
+							"id": "adba7801-ead8-47b9-8458-edaae47b98fa",
+							"keyword": "theory of flight",
+							"score": 0.5
+						}
+					]
+				},
+				{
+					"summary": {
+						"id": "bf9531c0-25c7-4ec1-8989-aa9a41953564",
+						"title": "Overview of Helicopter Flight Mechanics and History",
+						"long_summary": "This chapter provides a comprehensive overview of helicopters, detailing their history, various uses, and development over the years. It introduces fundamental terms and explanations related to helicopter components and sections, as well as the underlying theory of helicopter flight. Key concepts discussed include the helicopter's pitch stability, the effects of collective and cyclic inputs on altitude and airspeed, and the role of pedals in maintaining balanced flight. The chapter emphasizes the importance of coordinating these inputs for effective flight maneuvers, which are explored in greater detail in Chapter 9, Basic Flight Maneuvers.",
+						"short_summary": "Introduction to helicopter flight and components."
+					}
+				},
+				{
+					"classifications": [
+						{
+							"id": "29705756-6b2a-4027-a80a-6fa1f58c7807",
+							"classification": "Aerospace Engineering",
+							"score": 0.9
+						},
+						{
+							"id": "0907d046-cab5-4443-b05a-52b710a31881",
+							"classification": "Aviation",
+							"score": 0.85
+						},
+						{
+							"id": "56934676-5298-408d-8533-db613c9e8b48",
+							"classification": "Helicopter Operations",
+							"score": 0.8
+						},
+						{
+							"id": "e648e7d1-08ee-4dba-8fa3-995f3791207b",
+							"classification": "Flight Mechanics",
+							"score": 0.75
+						},
+						{
+							"id": "e57da536-80bf-4f39-9c08-9a46c67f7209",
+							"classification": "History of Aviation",
+							"score": 0.7
+						}
+					]
+				},
+				{
+					"entities": []
+				}
+			]
+		},
+		{
+			"topic_id": "2f51f450-4008-40fb-8811-aef58b904f77",
+			"document_id": "5a7fb8ba-99ed-4cd8-86df-9d898b0fe847",
+			"title": "Page 3",
+			"context": "# Uses\nDue to the unique operating characteristics of the helicopter—its ability to take off and land vertically, to hover for extended periods of time, and the aircraft's handling properties under low airspeed conditions—it has been chosen to conduct tasks that were previously not possible with other aircraft or were too time- or work-intensive to accomplish on the ground. Today, helicopters are used for transportation, construction, firefighting, search and rescue, and a variety of other jobs that require its special capabilities. [Figure 1-3]\n\n# Rotor System\nThe helicopter rotor system is the rotating part of a helicopter that generates lift. A rotor system may be mounted horizontally, as main rotors are, providing lift vertically; and it may be mounted vertically, such as a tail rotor, to provide lift horizontally as thrust to counteract torque effect. In the case of tilt rotors, the rotor is mounted on a nacelle that rotates at the edge of the wing to transition the rotor from a horizontal mounted position, providing lift horizontally as thrust, to a vertical mounted position providing lift exactly as a helicopter.\n\nThe rotor consists of a mast, hub, and rotor blades. [Figure 1-4] The mast is a hollow cylindrical metal shaft which extends upwards from and is driven by the transmission. At the top of the mast is the attachment point for the rotor blades called the hub. The rotor blades are then attached to the hub by several different methods. Main rotor systems are classified according to how the main rotor blades are attached and move relative to the main rotor hub. There are three basic classifications: semirigid, rigid, or fully articulated, although some modern rotor systems use an engineered combination of these types. All three rotor systems are discussed with greater detail in Chapter 4, Helicopter Components, Sections, and Systems.\n\nWith a single main rotor helicopter, a torque effect is created as the engine turns the rotor. This torque causes the body of the helicopter to turn in the opposite direction of the rotor (Newton's Third Law: Every action has an equal and opposite reaction, as explained in Chapter 2, Aerodynamics of Flight). To eliminate this effect, some sort of antitorque control must be used with a sufficient margin of power available to allow the helicopter to maintain its heading and prevent the aircraft from moving unsteadily. The three most common controls used today are the traditional tail rotor, Fenestron (also called a fantail), and the NOTAR®. All three antitorque designs will be discussed in Chapter 4, Helicopter Components, Sections, and Systems.\n\nFigure 1-3. The many uses for a helicopter include search and rescue (top), firefighting (middle), and construction (bottom).\n\nFigure 1-4. Basic components of the rotor system.\n\n1-3",
+			"extra_attributes": {
+				"chunk_url": "s3://boozallen-ai-atomization-service-bucket/venkat_26Feb@testing.com/original_assets/helicopter_flying_handbook-[]-15-Chapter 1 Introduction to the Helicopter.pdf_chunks/helicopter_flying_handbook-[]-15-Chapter 1 Introduction to the Helicopter-chunked-files/helicopter_flying_handbook-[]-15-Chapter 1 Introduction to the Helicopter_page_3-3.pdf",
+				"sort_number": "30"
+			},
+			"generated_artifacts": [
+				{
+					"sentiment": {
+						"id": "5d1aea6b-587c-43ad-bb46-8c65f5e8e136",
+						"sentiment": "neutral",
+						"summary": "El contenido describe las características y componentes del helicóptero y su sistema de rotor, así como sus diversas aplicaciones.",
+						"score": 0.85
+					}
+				},
+				{
+					"faqs": [
+						{
+							"id": "743a95a8-6953-4cf9-b0f3-d124af8a39b4",
+							"question": "What are some common uses of helicopters?",
+							"answer": "Helicopters are used for transportation, construction, firefighting, search and rescue, and various other jobs that require their unique capabilities."
+						},
+						{
+							"id": "a5269636-bae8-40da-84dc-cfefdaf3ea43",
+							"question": "What is the function of the helicopter rotor system?",
+							"answer": "The rotor system generates lift for the helicopter and can be mounted horizontally for vertical lift or vertically for horizontal thrust."
+						},
+						{
+							"id": "28561e2d-1847-4ce7-9cbf-0893b48dbdce",
+							"question": "What are the main components of a helicopter rotor system?",
+							"answer": "The main components of a rotor system include the mast, hub, and rotor blades."
+						},
+						{
+							"id": "954bc3ec-18d1-4f2f-a9f9-8f6b8401d8fb",
+							"question": "How does a single main rotor helicopter create torque?",
+							"answer": "A single main rotor helicopter creates torque as the engine turns the rotor, causing the body of the helicopter to turn in the opposite direction."
+						},
+						{
+							"id": "9bd25cd2-2a0c-4dff-8856-7729d7a31350",
+							"question": "What is the purpose of antitorque control in helicopters?",
+							"answer": "Antitorque control is used to counteract the torque effect created by the rotor, allowing the helicopter to maintain its heading and stability."
+						},
+						{
+							"id": "dd567a81-b46d-44db-9d42-191721ac1d91",
+							"question": "What are the three common types of antitorque controls used in helicopters?",
+							"answer": "The three common types of antitorque controls are the traditional tail rotor, Fenestron (fantail), and NOTAR®."
+						},
+						{
+							"id": "32fb68fb-0ed1-4001-bef9-7659176f7228",
+							"question": "What are the classifications of main rotor systems?",
+							"answer": "Main rotor systems are classified as semirigid, rigid, or fully articulated, with some modern systems using a combination of these types."
+						},
+						{
+							"id": "fd96f112-caa7-4d75-9d28-08b765bfb826",
+							"question": "What is the role of the mast in the rotor system?",
+							"answer": "The mast is a hollow cylindrical metal shaft that extends upwards from the transmission and serves as the attachment point for the rotor blades."
+						},
+						{
+							"id": "0b33cc13-3523-4363-a6e3-5755854dd367",
+							"question": "What happens to the helicopter body when the rotor turns?",
+							"answer": "When the rotor turns, the body of the helicopter tends to turn in the opposite direction due to the torque effect."
+						},
+						{
+							"id": "64efff98-d598-410f-b35a-db2fbab2f940",
+							"question": "Where can I find more detailed information about rotor systems?",
+							"answer": "More detailed information about rotor systems can be found in Chapter 4, Helicopter Components, Sections, and Systems."
+						}
+					]
+				},
+				{
+					"keywords": [
+						{
+							"id": "929ae209-09a5-410b-abc9-f44466412f31",
+							"keyword": "helicopter",
+							"score": 0.95
+						},
+						{
+							"id": "1d52d0e9-8ef5-48a1-8204-4fc175353f4e",
+							"keyword": "rotor system",
+							"score": 0.9
+						},
+						{
+							"id": "e21f3203-8385-4cc1-8ed1-5ec1caced395",
+							"keyword": "lift",
+							"score": 0.85
+						},
+						{
+							"id": "9cf0dd61-abd1-4b89-a542-2b41ee861f45",
+							"keyword": "antitorque control",
+							"score": 0.8
+						},
+						{
+							"id": "7a123c38-0288-47f5-a6c2-ce17a3830dae",
+							"keyword": "main rotor",
+							"score": 0.75
+						},
+						{
+							"id": "dccacef8-3e1a-4cf4-bedb-c84b16ea3127",
+							"keyword": "search and rescue",
+							"score": 0.75
+						},
+						{
+							"id": "a9bbb0ab-5761-4973-ae72-12ef12fae0e3",
+							"keyword": "firefighting",
+							"score": 0.7
+						},
+						{
+							"id": "21078141-8e6a-423f-bbb7-468fe4276c4a",
+							"keyword": "construction",
+							"score": 0.7
+						},
+						{
+							"id": "5120694d-1097-47fe-b1dd-10ea92c29df4",
+							"keyword": "torque effect",
+							"score": 0.65
+						},
+						{
+							"id": "b6178f09-2582-4a20-b206-1ee50376ae80",
+							"keyword": "Fenestron",
+							"score": 0.6
+						}
+					]
+				},
+				{
+					"summary": {
+						"id": "e4e058c5-52aa-4e9f-aa83-1beac160bb7f",
+						"title": "Helicopter Operations and Rotor System Overview",
+						"long_summary": "Helicopters are versatile aircraft known for their unique operating characteristics, including vertical takeoff and landing, prolonged hovering, and effective handling at low speeds. These capabilities enable helicopters to perform tasks that were previously unfeasible with other aircraft or too labor-intensive to execute on the ground. Today, helicopters are employed in various fields such as transportation, construction, firefighting, search and rescue, and other specialized operations that leverage their distinct advantages.\n\nThe rotor system is a critical component of a helicopter, responsible for generating lift. It can be mounted horizontally, as seen with main rotors, to provide vertical lift, or vertically, as with tail rotors, to generate horizontal thrust and counteract torque effects. Tilt rotors feature a nacelle that rotates at the wing's edge, allowing the rotor to transition between horizontal and vertical positions for lift.\n\nThe rotor system comprises several parts: the mast, hub, and rotor blades. The mast is a hollow cylindrical shaft that extends from the transmission and supports the rotor blades via the hub at its top. The rotor blades are attached to the hub using various methods. Main rotor systems are classified based on how the blades are connected and move relative to the hub, with three primary classifications: semirigid, rigid, and fully articulated. Some modern systems may combine these types for enhanced performance.\n\nIn helicopters with a single main rotor, the rotation creates a torque effect that causes the helicopter's body to rotate in the opposite direction. To counteract this torque and maintain stability, antitorque controls are necessary. The most common antitorque mechanisms include the traditional tail rotor, Fenestron (or fantail), and NOTAR® systems. Each of these designs is essential for ensuring the helicopter maintains its heading and operates smoothly, and they will be explored in greater detail in subsequent chapters focusing on helicopter components and systems.",
+						"short_summary": "Helicopters serve diverse functions with unique rotor systems."
+					}
+				},
+				{
+					"classifications": [
+						{
+							"id": "c0908b8e-4ab4-4264-8728-307c4b8ba134",
+							"classification": "Aerospace Engineering",
+							"score": 0.9
+						},
+						{
+							"id": "32e52561-7ecf-4115-a337-6a0e984e2e54",
+							"classification": "Helicopter Operations",
+							"score": 0.85
+						},
+						{
+							"id": "b95d2edb-5075-4797-8fff-26b9950b1226",
+							"classification": "Transportation",
+							"score": 0.8
+						},
+						{
+							"id": "c990eb5e-0d84-4a12-a66f-1d4fdc1136f2",
+							"classification": "Search and Rescue",
+							"score": 0.75
+						},
+						{
+							"id": "d8ce7ff1-5a2b-4749-81c6-31d0d333bc4f",
+							"classification": "Firefighting",
+							"score": 0.7
+						}
+					]
+				},
+				{
+					"entities": []
+				}
+			]
+		},
+		{
+			"topic_id": "80f17094-f794-4cd6-bda2-6a3ffedd5dd3",
+			"document_id": "5a7fb8ba-99ed-4cd8-86df-9d898b0fe847",
+			"title": "Page 4",
+			"context": "# Rotor Configurations\nMost helicopters have a single, main rotor but require a separate rotor to overcome torque which is a turning or twisting force. This is accomplished through a variable pitch, antitorque rotor or tail rotor. This is the design that Igor Sikorsky settled on for his VS-300 helicopter shown in Figure 1-5. It has become the recognized convention for helicopter design, although designs do vary. Helicopter main rotor designs from different manufacturers rotate in one of two different directions (clockwise or counter-clockwise when viewed from above). This can make it confusing when discussing aerodynamic effects on the main rotor between different designs, since the effects may manifest on opposite sides of each aircraft. For clarity, throughout this handbook, all examples use a counter-clockwise rotating main rotor system when viewed from above.\n\nImage: A photograph of two tandem rotor helicopters on the ground.\n\nFigure 1-6. Tandem rotor helicopters.\n\nFor clarity, throughout this handbook, all examples use a counter-clockwise rotating main rotor system when viewed from above.\n\n## Tandem Rotor\nTandem rotor (sometimes referred to as dual rotor) helicopters have two large horizontal rotor assemblies, instead of one main assembly and a smaller tail rotor. [Figure 1-6] Single rotor helicopters need a tail rotor to neutralize the twisting momentum produced by the single large rotor. Tandem rotor helicopters, however, use counter-rotating rotors, each canceling out the other's torque. Counter-rotating rotor blades will not collide with and destroy each other if they flex into the other rotor's pathway. This configuration has the advantage of being able to hold more weight with shorter blades, since there are two blade sets. Also, all the power from the engines can be used for lift, whereas a single rotor helicopter must use some power to counter main rotor torque. Because of this, tandem helicopters make up some of the most powerful and fastest rotor system aircraft.\n\n## Coaxial Rotors\nCoaxial rotors are a pair of rotors turning in opposite directions, but mounted on a mast, with the same axis of rotation, one above the other. This configuration is a noted feature of helicopters produced by the Russian Kamov helicopter design bureau. [Figure 1-7]\n\n## Intermeshing Rotors\nIntermeshing rotors on a helicopter are a set of two rotors turning in opposite directions, with each rotor mast mounted on the helicopter with a slight angle to the other so that the blades intermesh without colliding. [Figure 1-8] This arrangement allows the helicopter to function without the need for a tail rotor. It has high stability and powerful lifting capability. This configuration is sometimes referred to as a synchropter. The arrangement was developed in Germany\n\nImage: A photograph of a single-rotor helicopter, the Igor Sikorsky VS-300, on the ground.\n\nFigure 1-5. Igor Sikorsky designed the VS-300 helicopter incorporating the tail rotor into the design.\n\nImage: A photograph of a red coaxial rotor helicopter on the ground.\n\nFigure 1-7. Coaxial rotors.\n\n1-4",
+			"extra_attributes": {
+				"chunk_url": "s3://boozallen-ai-atomization-service-bucket/venkat_26Feb@testing.com/original_assets/helicopter_flying_handbook-[]-15-Chapter 1 Introduction to the Helicopter.pdf_chunks/helicopter_flying_handbook-[]-15-Chapter 1 Introduction to the Helicopter-chunked-files/helicopter_flying_handbook-[]-15-Chapter 1 Introduction to the Helicopter_page_4-4.pdf",
+				"sort_number": "40"
+			},
+			"generated_artifacts": [
+				{
+					"sentiment": {
+						"id": "1c716c88-d2c5-4571-8f86-261f6adb1ead",
+						"sentiment": "neutral",
+						"summary": "El contenido describe diferentes configuraciones de rotores en helicópteros y sus características.",
+						"score": 0.85
+					}
+				},
+				{
+					"faqs": [
+						{
+							"id": "fe19251a-ff6b-4e61-ae98-c5bf486435b5",
+							"question": "What is the main purpose of a tail rotor in helicopters?",
+							"answer": "The tail rotor is used to overcome torque, which is a turning or twisting force produced by the main rotor."
+						},
+						{
+							"id": "2faec7e5-80d6-403e-bcbe-a5592930b90f",
+							"question": "What is a tandem rotor helicopter?",
+							"answer": "A tandem rotor helicopter has two large horizontal rotor assemblies instead of one main assembly and a smaller tail rotor, using counter-rotating rotors to cancel out each other's torque."
+						},
+						{
+							"id": "cdc79e82-d7cb-4a02-a2d5-ec9130638eab",
+							"question": "How do coaxial rotors differ from traditional rotor systems?",
+							"answer": "Coaxial rotors consist of a pair of rotors turning in opposite directions, mounted on the same axis of rotation, one above the other."
+						},
+						{
+							"id": "9eee1eac-c9b6-45a3-8ce0-78bb404e425e",
+							"question": "What are intermeshing rotors?",
+							"answer": "Intermeshing rotors are two rotors turning in opposite directions, with each rotor mast mounted at a slight angle to allow the blades to intermesh without colliding."
+						},
+						{
+							"id": "ecabd3da-8607-401f-8450-6f079bf9e578",
+							"question": "Why do tandem rotor helicopters have an advantage in lifting capability?",
+							"answer": "Tandem rotor helicopters can hold more weight with shorter blades due to having two blade sets, and all engine power can be used for lift."
+						},
+						{
+							"id": "836c3151-8e86-4c84-87c0-93ce31687644",
+							"question": "What is the recognized convention for helicopter main rotor designs in this handbook?",
+							"answer": "Throughout this handbook, all examples use a counter-clockwise rotating main rotor system when viewed from above."
+						},
+						{
+							"id": "29dbe281-a86c-4146-84a3-110a40fa5c64",
+							"question": "What is the benefit of counter-rotating rotor blades in tandem rotor helicopters?",
+							"answer": "Counter-rotating rotor blades do not collide with each other if they flex into the other rotor's pathway, enhancing safety and efficiency."
+						},
+						{
+							"id": "79eb4abd-ecf6-4f07-837a-4ed4aff58cfa",
+							"question": "What is a synchropter?",
+							"answer": "A synchropter is another term for helicopters with intermeshing rotors, which allows them to function without a tail rotor."
+						},
+						{
+							"id": "53e8c055-64e0-4f90-a571-58c5ba6d567d",
+							"question": "Who developed the intermeshing rotor configuration?",
+							"answer": "The intermeshing rotor configuration was developed in Germany."
+						},
+						{
+							"id": "a70376d8-2f70-4acb-b9f5-bb055064cfa5",
+							"question": "What is the significance of Igor Sikorsky's VS-300 helicopter?",
+							"answer": "The VS-300 helicopter, designed by Igor Sikorsky, incorporated the tail rotor into its design and is a notable example of early helicopter technology."
+						}
+					]
+				},
+				{
+					"keywords": [
+						{
+							"id": "898346a1-6d51-4b4a-ae1c-bbcb8e69a7fe",
+							"keyword": "helicopter",
+							"score": 0.95
+						},
+						{
+							"id": "52605cac-9eaa-4a61-a895-3111ebe43bd4",
+							"keyword": "rotor configurations",
+							"score": 0.9
+						},
+						{
+							"id": "1a28cb95-07a5-4c29-946c-76c109db31cf",
+							"keyword": "tandem rotor",
+							"score": 0.85
+						},
+						{
+							"id": "ecd214a4-9172-4501-8fe8-315e82d70e34",
+							"keyword": "coaxial rotors",
+							"score": 0.85
+						},
+						{
+							"id": "c81e9573-5d4b-4fe4-8467-f7ce1ebc9ec1",
+							"keyword": "intermeshing rotors",
+							"score": 0.8
+						},
+						{
+							"id": "c6484de8-05e6-4ea9-baae-382f72d6c51c",
+							"keyword": "Igor Sikorsky",
+							"score": 0.8
+						},
+						{
+							"id": "477726ca-ff2d-426d-b6a0-05d14eac3564",
+							"keyword": "main rotor",
+							"score": 0.75
+						},
+						{
+							"id": "892030b3-dd42-4752-b9e7-21a88ac3c047",
+							"keyword": "tail rotor",
+							"score": 0.75
+						},
+						{
+							"id": "82e7805b-1f9b-41c6-a38f-90f7bb9da0b9",
+							"keyword": "counter-rotating rotors",
+							"score": 0.7
+						},
+						{
+							"id": "b469fe68-6779-4742-bea9-32643974fc11",
+							"keyword": "aerodynamic effects",
+							"score": 0.65
+						}
+					]
+				},
+				{
+					"summary": {
+						"id": "d2cc4bb2-4686-4dc1-99a7-e471bc8b3fb0",
+						"title": "Helicopter Rotor Configurations Explained",
+						"long_summary": "Helicopters typically feature a main rotor and a separate tail rotor to counteract torque, a twisting force that occurs during flight. The design pioneered by Igor Sikorsky for the VS-300 helicopter has become a standard in the industry. Helicopter main rotors can rotate either clockwise or counter-clockwise when viewed from above, which can complicate discussions about aerodynamic effects across different designs. To maintain clarity, this handbook consistently uses a counter-clockwise rotating main rotor system in its examples.\n\nTandem rotor helicopters, also known as dual rotor helicopters, utilize two large horizontal rotor assemblies instead of a single main rotor and a tail rotor. This configuration allows for counter-rotating rotors that cancel out each other's torque, eliminating the need for a tail rotor. Tandem rotor helicopters can support more weight with shorter blades and utilize all engine power for lift, making them some of the most powerful and fastest rotorcraft available.\n\nCoaxial rotors consist of two rotors that turn in opposite directions but are mounted on the same axis, one above the other. This design is characteristic of helicopters from the Russian Kamov design bureau. \n\nIntermeshing rotors feature two rotors that also turn in opposite directions but are positioned at a slight angle to each other, allowing the blades to intermesh without colliding. This configuration, sometimes referred to as a synchropter, eliminates the need for a tail rotor and provides high stability and significant lifting capability. The intermeshing rotor design was developed in Germany. \n\nOverall, these various rotor configurations highlight the innovative approaches taken in helicopter design to optimize performance and stability.",
+						"short_summary": "Overview of helicopter rotor designs and functions."
+					}
+				},
+				{
+					"classifications": [
+						{
+							"id": "26fba411-7d0b-40c5-aee1-8db2f0cfe3b6",
+							"classification": "Aerospace Engineering",
+							"score": 0.95
+						},
+						{
+							"id": "28450e1b-4236-4feb-93a6-fda1c318c83c",
+							"classification": "Helicopter Design",
+							"score": 0.9
+						},
+						{
+							"id": "63f2d945-1f63-422b-9bbd-2687c1d7a2ba",
+							"classification": "Rotor Dynamics",
+							"score": 0.85
+						},
+						{
+							"id": "3f94edf5-0a2c-4575-8784-f30f366a36c8",
+							"classification": "Aerodynamics",
+							"score": 0.8
+						},
+						{
+							"id": "f1bcc80c-c3da-4b6c-a3b3-adb38dc99d0b",
+							"classification": "Mechanical Engineering",
+							"score": 0.75
+						}
+					]
+				},
+				{
+					"entities": [
+						{
+							"id": "c0132aba-1fd7-4f4b-a8ea-010a6049c88c",
+							"label": "Igor Sikorsky",
+							"type": "PERSON"
+						},
+						{
+							"id": "13e98674-ac65-41f0-b609-cecc0bd52a04",
+							"label": "VS-300",
+							"type": "PRODUCT"
+						},
+						{
+							"id": "d3e160f9-972c-418c-9d23-d7e5c3a614ba",
+							"label": "Kamov",
+							"type": "ORGANIZATION"
+						},
+						{
+							"id": "9b4246ba-da29-4d98-a277-dc84e29597ab",
+							"label": "Germany",
+							"type": "LOCATION"
+						}
+					]
+				}
+			]
+		},
+		{
+			"topic_id": "765fdec4-e602-4ea9-85d6-8e6181739e8a",
+			"document_id": "5a7fb8ba-99ed-4cd8-86df-9d898b0fe847",
+			"title": "Page 1",
+			"context": "# Chapter 1\n# Introduction to the Helicopter\n\n## Introduction\nA helicopter is an aircraft that is lifted and propelled by one or more horizontal rotors, each rotor consisting of two or more rotor blades. Helicopters are classified as rotorcraft or rotary-wing aircraft to distinguish them from fixed-wing aircraft, because the helicopter derives its source of lift from the rotor blades rotating around a mast. The word \"helicopter\" is adapted from the French hélicoptère, coined by Gustave de Ponton d'Amécourt in 1861. It is linked to the Greek words helix/helikos (\"spiral\" or \"turning\") and pteron (“wing\").\n\nImage: A large white helicopter is shown in flight over a mountainous landscape. Various parts of the helicopter's rotor system are labeled with arrows and text. On the right side, a diagram illustrates the movement of a swash plate and rotor blades. On the bottom left, a detailed diagram shows the internal structure of a helicopter's mast, hub, and rotor blades. A gauge with markings 30, 50, 70, 85, 5, 100 is also visible in the top left corner of the image.\n\nLabels in the image:\n* Swash plate\n* Hub\n* Rotor blades\n* Mast",
+			"extra_attributes": {
+				"chunk_url": "s3://boozallen-ai-atomization-service-bucket/venkat_26Feb@testing.com/original_assets/helicopter_flying_handbook-[]-15-Chapter 1 Introduction to the Helicopter.pdf_chunks/helicopter_flying_handbook-[]-15-Chapter 1 Introduction to the Helicopter-chunked-files/helicopter_flying_handbook-[]-15-Chapter 1 Introduction to the Helicopter_page_1-1.pdf",
+				"sort_number": "10"
+			},
+			"generated_artifacts": [
+				{
+					"sentiment": {
+						"id": "f030d976-5268-4185-8126-589ba6245bc7",
+						"sentiment": "neutral",
+						"summary": "El capítulo introduce el helicóptero, su funcionamiento y clasificación como aeronave de rotor.",
+						"score": 0.85
+					}
+				},
+				{
+					"faqs": [
+						{
+							"id": "156d3c44-12e4-4a94-bbfd-af4b3f68c1dd",
+							"question": "What is a helicopter?",
+							"answer": "A helicopter is an aircraft that is lifted and propelled by one or more horizontal rotors, consisting of two or more rotor blades."
+						},
+						{
+							"id": "5ab6cdb9-cd2b-4468-941e-6175d1e4e29b",
+							"question": "How are helicopters classified?",
+							"answer": "Helicopters are classified as rotorcraft or rotary-wing aircraft to distinguish them from fixed-wing aircraft."
+						},
+						{
+							"id": "5c8f2000-fda2-4564-ab91-c8e45d5c4a6d",
+							"question": "What is the origin of the word 'helicopter'?",
+							"answer": "The word 'helicopter' is adapted from the French 'hélicoptère', coined by Gustave de Ponton d'Amécourt in 1861, and is linked to the Greek words 'helix' (spiral) and 'pteron' (wing)."
+						},
+						{
+							"id": "8ceb5e3d-a121-4170-acd3-cec99b82b100",
+							"question": "What provides lift to a helicopter?",
+							"answer": "The helicopter derives its source of lift from the rotor blades rotating around a mast."
+						},
+						{
+							"id": "3fb9a164-40e9-4ea5-868b-46fb1bec2b7a",
+							"question": "What are the main components of a helicopter's rotor system?",
+							"answer": "The main components of a helicopter's rotor system include the swash plate, hub, rotor blades, and mast."
+						},
+						{
+							"id": "53abb8a8-da80-4724-a859-f419633b9957",
+							"question": "What does the image accompanying the text illustrate?",
+							"answer": "The image shows a large white helicopter in flight over a mountainous landscape, with various parts of the rotor system labeled and diagrams illustrating the movement of the swash plate and rotor blades."
+						},
+						{
+							"id": "c5a12da7-8869-481f-bedb-daaf0ec46470",
+							"question": "What is the function of the swash plate in a helicopter?",
+							"answer": "The swash plate is a component that allows the pilot to control the pitch of the rotor blades, thereby affecting the helicopter's lift and movement."
+						},
+						{
+							"id": "716b8640-8b0d-482d-a9ef-6ce1639ed3b5",
+							"question": "What is the significance of the gauge shown in the image?",
+							"answer": "The gauge with markings (30, 50, 70, 85, 5, 100) likely indicates some measurement relevant to the helicopter's operation, though the specific function is not detailed in the text."
+						},
+						{
+							"id": "b78e871e-8c08-4a29-9ad2-313922148156",
+							"question": "What does the term 'rotorcraft' refer to?",
+							"answer": "The term 'rotorcraft' refers to aircraft that use rotors for lift and propulsion, which includes helicopters."
+						},
+						{
+							"id": "0e5c8a45-7a34-46c5-bdc4-ce5caf86d166",
+							"question": "Who coined the term 'hélicoptère'?",
+							"answer": "The term 'hélicoptère' was coined by Gustave de Ponton d'Amécourt in 1861."
+						}
+					]
+				},
+				{
+					"keywords": [
+						{
+							"id": "d3565280-12d9-40fc-be8e-d764d6078999",
+							"keyword": "helicopter",
+							"score": 0.95
+						},
+						{
+							"id": "ae7a07fb-ccfd-4d2b-b831-73a329b57159",
+							"keyword": "rotorcraft",
+							"score": 0.85
+						},
+						{
+							"id": "2f4437e0-6208-43f5-947f-8e0cc4cddee0",
+							"keyword": "rotary-wing aircraft",
+							"score": 0.8
+						},
+						{
+							"id": "8169816b-ec6b-4956-afde-d4614baef747",
+							"keyword": "rotor blades",
+							"score": 0.75
+						},
+						{
+							"id": "8f105962-34ee-4dab-83a3-2c6729af65dc",
+							"keyword": "lift",
+							"score": 0.7
+						},
+						{
+							"id": "5363b5e7-b403-4762-9b5a-58ea12878ec6",
+							"keyword": "swash plate",
+							"score": 0.65
+						},
+						{
+							"id": "893519f8-46ae-4895-b139-4fa2b72cbe2d",
+							"keyword": "hub",
+							"score": 0.6
+						},
+						{
+							"id": "c0f3c877-002c-4a3e-a374-821ead49d90c",
+							"keyword": "mast",
+							"score": 0.6
+						},
+						{
+							"id": "7877fd7b-6cf8-4c3b-8d78-3c2f941c4a56",
+							"keyword": "Gustave de Ponton d'Amécourt",
+							"score": 0.55
+						},
+						{
+							"id": "bb6532d6-77ba-4d45-8cdd-8b5c9a8ec730",
+							"keyword": "Greek words",
+							"score": 0.5
+						}
+					]
+				},
+				{
+					"summary": {
+						"id": "cda137ba-a1cc-4852-be9b-9c6aee62965f",
+						"title": "Introduction to Helicopters and Their Mechanics",
+						"long_summary": "Chapter 1 introduces the helicopter as a unique type of aircraft that is lifted and propelled by horizontal rotors. Unlike fixed-wing aircraft, helicopters are classified as rotorcraft or rotary-wing aircraft due to their reliance on rotor blades for lift. The term 'helicopter' is derived from the French word hélicoptère, which was coined by Gustave de Ponton d'Amécourt in 1861, and it combines Greek roots meaning 'spiral' or 'turning' and 'wing.' The chapter includes an image of a large white helicopter in flight over a mountainous landscape, with various components of the rotor system labeled for clarity. Key parts such as the swash plate, hub, rotor blades, and mast are highlighted, along with a diagram illustrating the movement of the swash plate and rotor blades. Additionally, a detailed diagram of the internal structure of the helicopter's mast, hub, and rotor blades is provided, along with a gauge displaying various markings. This chapter sets the foundation for understanding the mechanics and functionality of helicopters.",
+						"short_summary": "Overview of helicopter structure and function."
+					}
+				},
+				{
+					"classifications": [
+						{
+							"id": "79b59693-e10c-43b2-901e-cc111fa94dee",
+							"classification": "Aerospace Engineering",
+							"score": 0.9
+						},
+						{
+							"id": "cd32e7fd-caf4-4e94-855b-b5254b5d742b",
+							"classification": "Aviation",
+							"score": 0.85
+						},
+						{
+							"id": "d2034fa8-68e4-417c-b825-758415005519",
+							"classification": "Mechanical Engineering",
+							"score": 0.8
+						},
+						{
+							"id": "ab543fe9-63fc-453d-965f-9ffce67ed4d2",
+							"classification": "Transportation",
+							"score": 0.75
+						},
+						{
+							"id": "def142f8-f18f-460c-8a85-8a511ae450c5",
+							"classification": "Technology",
+							"score": 0.7
+						}
+					]
+				},
+				{
+					"entities": []
+				}
+			]
+		}
+	]
+}

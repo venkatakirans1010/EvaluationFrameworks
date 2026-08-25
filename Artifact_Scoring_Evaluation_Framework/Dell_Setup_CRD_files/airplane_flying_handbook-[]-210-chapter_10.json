@@ -1,0 +1,1480 @@
+{
+  "customer_id": "FAA@crd.com",
+  "document_id": "36a080d2-4f7a-402e-b5c1-78bc21b47aec",
+  "document_name": "Airplane Flying Handbook-[]-210-Chapter 10 Performance Maneuvers.pdf",
+  "organization_name": "Booz Allen",
+  "account_name": "Default Account",
+  "application_name": "Booz Allen AI Atomization Service",
+  "vpub_name": "Default VPUB",
+  "meta_data": {
+    "gen_ai": {
+      "model": "gpt-oss-20b",
+      "llm_id": 27,
+      "completed_at": "2026-02-26T10:05:29.524188+00:00",
+      "triggered_at": "2026-02-26T10:03:59.567709+00:00",
+      "model_provider": "self_hosted",
+      "last_triggered_at": "2026-02-26T10:03:59.567718+00:00"
+    },
+    "llm_id": 27,
+    "aiModel": "chandra",
+    "file_url": "s3://thailand-boozallen-ai-topiclake/FAA@crd.com/original_assets/Airplane Flying Handbook-[]-210-Chapter 10 Performance Maneuvers.pdf",
+    "language": "english",
+    "llm_model": "gpt-oss-20b",
+    "atomization": {
+      "enabled": true,
+      "service": "boozallen_ai_atomization_service",
+      "language": "english",
+      "model_name": "chandra",
+      "prompt_url": "s3://thailand-boozallen-ai-atomization-service-bucket/self_hosted_models_prompts/prompt_chandra.json",
+      "initiated_at": "2026-02-26T09:58:28.126544+00:00",
+      "instructions": null,
+      "model_provider": "SELF_HOSTED",
+      "prompt_version": "MULTILINGUAL_v2",
+      "instructions_provided": false
+    },
+    "auto_gen_ai": true,
+    "gantt_chart": {
+      "artifacts": {
+        "end": "2026-02-26T10:05:29.524188+00:00",
+        "start": "2026-02-26T10:03:59.567718+00:00"
+      },
+      "atomization": {
+        "end": "2026-02-26T10:03:59.430711+00:00",
+        "start": "2026-02-26T10:00:33.555997+00:00",
+        "queued_at": "2026-02-26T09:58:28.540789+00:00",
+        "total_atoms": 8,
+        "completed_atoms": 8
+      },
+      "pdf_splitting": {
+        "end": "2026-02-26T09:58:28.403282+00:00",
+        "start": "2026-02-26T09:58:28.178742+00:00",
+        "chunks": 8
+      }
+    },
+    "total_atoms": 8,
+    "llm_provider": "self_hosted",
+    "pipeline_timing": {
+      "queuing": {
+        "end": "2026-02-26T09:58:28.583654+00:00",
+        "start": "2026-02-26T09:58:28.540789+00:00",
+        "atoms_failed": 0,
+        "atoms_queued": 8
+      },
+      "split_pdf": {
+        "end": "2026-02-26T09:58:28.403282+00:00",
+        "start": "2026-02-26T09:58:28.178742+00:00",
+        "chunks_created": 8
+      },
+      "atomization": {
+        "total_atoms": 8,
+        "completed_at": "2026-02-26T10:03:59.430711+00:00",
+        "completed_atoms": 8,
+        "first_gpu_started_at": "2026-02-26T10:00:33.555997+00:00"
+      }
+    },
+    "service_version": "1.0.0",
+    "genai_total_atoms": 8,
+    "atomization_status": "green",
+    "processing_timestamp": "2026-02-26T09:58:28.126544+00:00",
+    "genai_progress_status": "yellow",
+    "atomization_percentage": 100,
+    "atoms_with_description": 8,
+    "genai_total_artifacts_generated": 66
+  },
+  "topics": [
+    {
+      "topic_id": "48821dce-3d9c-48c6-8ff6-d05830a00e54",
+      "document_id": "36a080d2-4f7a-402e-b5c1-78bc21b47aec",
+      "title": "Page 2",
+      "context": "While the fundamental concepts of all turns are the same, when steep turns are first demonstrated and performed, the pilot will be exposed to:\n1. Higher G-forces\n2. The airplane's inherent overbanking tendency\n3. Significant loss of the vertical component of lift when the wings are steeply banked\n4. Substantial pitch control pressures\n5. The need for increased additional power to maintain altitude at a constant airspeed during the turn\n\nAs discussed in previous chapters, when banking an airplane for a level turn, the total lift divides into vertical and horizontal components of lift. In order to maintain altitude at a constant airspeed, the pilot increases the angle of attack (AOA) to ensure that the vertical component of lift is sufficient to maintain altitude. The pilot adds power as needed to maintain airspeed. For a steep turn, as in any level turn, the horizontal component of lift provides the necessary force to turn the airplane. Regardless of the airspeed or airplane, for a given bank angle in a level altitude turn, the same load factor will always be produced. The load factor is the vector addition of gravity and centrifugal force. When the bank becomes steep as in a level altitude 45° banked turn, the resulting load factor is 1.41. In a level altitude 60° banked turn, the resulting load factor is 2.0. To put this in perspective, with a load factor of 2.0, the effective weight of the aircraft (and its occupants) doubles. Pilots may have difficulty with orientation and movement when first experiencing these forces. Pilots should also understand that load factors increase dramatically during a level turn beyond 60° of bank. Note that the design of a standard category general aviation airplane accommodates a load factor up to 3.8. A level turn using 75° of bank exceeds that limit.\n\nBecause of higher load factors, steep turns should be performed at an airspeed that does not exceed the airplane's design maneuvering speed (VA) or operating maneuvering speed (VO). Maximum turning performance for a given speed is accomplished when an airplane has a high angle of bank. Each airplane's level turning performance is limited by structural and aerodynamic design, as well as available power. The airplane's limiting load factor determines the maximum bank angle that can be maintained in level flight without exceeding the airplane's structural limitations or stalling. As the load factor increases, so does the stalling speed. For example, if an airplane stalls in level flight at 50 knots, it will stall at 60 knots in a 45° steep turn while maintaining altitude. It will stall at 70 knots if the bank is increased to 60°. Stalling speed increases at the square root of the load factor. As the bank angle increases in level flight, the margin between stalling speed and maneuvering speed decreases. At speeds at or below VA or VO, the airplane will stall before exceeding the design load limit.\n\nIn addition to the increased load factors, the airplane will exhibit what is called \"overbanking tendency\" as previously discussed in Chapter 3, Basic Flight Maneuvers. In most flight maneuvers, bank angles are shallow enough that the airplane exhibits positive or neutral stability about the longitudinal axis. However, as bank angles steepen, the airplane will continue rolling in the direction of the bank unless deliberate and opposite aileron pressure is held. Pilots should also be mindful of the various left-turning tendencies, such as P-factor, which require effective rudder/aileron coordination. While performing a steep turn, a significant component of yaw is experienced as motion away from and toward the earth's surface, which may seem confusing when first experienced.\n\nBefore starting any practice maneuver, the pilot ensures that the area is clear of air traffic and other hazards. Further, distant references should be chosen to allow the pilot to assess when to begin rollout from the turn. After establishing the manufacturer's recommended entry speed, VA, or VO, as applicable, the airplane should be smoothly rolled into a predetermined bank angle between 45° and 60°. As the bank angle is being established, generally prior to 30° of bank, elevator back pressure should be smoothly applied to increase the AOA and power should be added. Pilots should keep in mind that as the AOA increases, so does drag, and additional power allows the airplane to maintain airspeed. After the selected bank angle has been reached, the pilot will find that considerable force is required on the elevator control to hold the airplane in level flight.\n\nThe certification testing standards do not specify trim requirements for a steep turn. The decision whether to use trim depends on the airplane characteristics, speed of the trim system, and preference of the instructor and learner. As the bank angle transitions from medium to steep, increasing elevator-up trim and smoothly increasing engine power to that required for the turn removes some or all of the control forces required to maintain a higher angle of attack. However, if trim is used, pilots should not forget to remove both the trim and power inputs as the maneuver is completed.\n\nMaintaining bank angle, altitude, and orientation requires an awareness of the relative position of the horizon to the nose and the wings. The pilot who references the aircraft's attitude by observing only the nose will have difficulty maintaining altitude. A pilot who observes both the nose and the wings relative to the horizon is likely able to maintain altitude within performance standards. Altitude deviations are primary errors exhibited in the execution of steep turns. Minor corrections for pitch attitude are accomplished with proportional elevator back pressure while the bank angle is held constant with the ailerons. However, during steep turns, it is not uncommon for a pilot to allow the nose to get excessively low resulting in a significant loss in altitude in a very short period of time. The pilot can recover from such an altitude loss by first reducing the angle of bank with coordinated use of opposite aileron and rudder and then increasing the pitch attitude by increasing elevator back pressure. Attempting to recover from an excessively nose-low, steep bank condition by using only the elevator causes a steepening of the bank and puts unnecessary stress on the airplane.",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/FAA@crd.com/original_assets/Airplane Flying Handbook-[]-210-Chapter 10 Performance Maneuvers.pdf_chunks/Airplane Flying Handbook-[]-210-Chapter 10 Performance Maneuvers-chunked-files/Airplane Flying Handbook-[]-210-Chapter 10 Performance Maneuvers_page_2-2.pdf",
+        "sort_number": "20"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "fa4110a7-f448-4764-9bd4-704cb097d216",
+            "sentiment": "neutral",
+            "summary": "Steep turns expose pilots to higher G‑forces, overbanking, increased lift loss, greater pitch pressure, and need for extra power, requiring careful speed, bank, and control management.",
+            "score": 0.92
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "71f22f8b-0a07-4062-9eab-cc984257ca3b",
+              "question": "What forces does a pilot first experience when performing a steep turn?",
+              "answer": "The pilot is exposed to higher G‑forces, the airplane’s inherent overbanking tendency, a significant loss of the vertical component of lift, substantial pitch‑control pressures, and the need for additional power to maintain altitude at a constant airspeed."
+            },
+            {
+              "id": "5919237b-0f42-4b5e-9d1e-99d1380fccb0",
+              "question": "How does the load factor change with bank angle in a level turn?",
+              "answer": "For a 45° bank the load factor is 1.41, and for a 60° bank it is 2.0. Load factor increases dramatically beyond 60° of bank and can exceed the aircraft’s design limit of 3.8 at about 75° of bank."
+            },
+            {
+              "id": "f360d3cf-7067-462a-b8ac-b7270d7600c1",
+              "question": "Why must steep turns be performed at or below the aircraft’s maneuvering speed (VA or VO)?",
+              "answer": "Because at speeds at or below VA/VO the aircraft will stall before the structural load limit is exceeded, providing a safety margin as the stall speed rises with the square root of the load factor."
+            },
+            {
+              "id": "7df7fddb-f051-4160-ad62-df50f0468d5e",
+              "question": "How does stall speed change in a steep turn compared to straight‑and‑level flight?",
+              "answer": "If the straight‑and‑level stall speed is 50 kt, it becomes about 60 kt in a 45° bank and about 70 kt in a 60° bank, since stall speed increases with the square root of the load factor."
+            },
+            {
+              "id": "da7c1198-6a79-45c4-bab4-aa5fa87ef628",
+              "question": "What is the “overbanking tendency” and how should a pilot counter it?",
+              "answer": "Overbanking tendency is the airplane’s natural roll continuation in the direction of the bank at steep angles. The pilot must hold deliberate opposite aileron pressure to keep the bank angle constant."
+            },
+            {
+              "id": "336c5e4d-762d-4d34-96f2-c6d9c4bce6e2",
+              "question": "When should a pilot use trim during a steep turn?",
+              "answer": "Trim use is optional and depends on the airplane’s characteristics, the speed of the trim system, and instructor preference. If used, trim should be increased (elevator‑up) as the bank is established and removed along with power inputs when the maneuver is completed."
+            },
+            {
+              "id": "69bcfcaf-4721-43c2-af2e-9788a5cf9e39",
+              "question": "What visual references help a pilot maintain altitude in a steep turn?",
+              "answer": "The pilot should reference both the nose and the wings relative to the horizon. Relying only on the nose can lead to altitude loss, while observing the wings helps keep the bank angle and altitude within performance standards."
+            },
+            {
+              "id": "3541892f-c15a-4ef4-999a-08fdade2a1c5",
+              "question": "What is the recommended recovery technique if the aircraft loses too much altitude during a steep turn?",
+              "answer": "First reduce the bank angle using coordinated opposite aileron and rudder, then increase pitch attitude with elevator back pressure. Using only elevator to raise the nose can steepen the bank and stress the airplane."
+            },
+            {
+              "id": "c7977273-11ba-45d5-8dec-b02be6c4b5ad",
+              "question": "Why does additional power need to be added during a steep turn?",
+              "answer": "Increasing the angle of attack to maintain vertical lift also increases drag; additional engine power compensates for this drag to keep the airspeed constant."
+            },
+            {
+              "id": "2602a7ec-1c6f-4c6e-a8a8-d28178ece1b1",
+              "question": "What are the primary errors pilots make when executing steep turns?",
+              "answer": "The most common errors are allowing the nose to drop excessively, resulting in rapid altitude loss, and failing to apply opposite aileron to counter the overbanking tendency, which can lead to uncontrolled roll and increased structural stress."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "d9e15525-9d53-403d-b569-ac4db83d0cc5",
+              "keyword": "steep turn",
+              "score": 0.98
+            },
+            {
+              "id": "3ee5c52b-d7a3-4870-9c81-c48d4c747d64",
+              "keyword": "load factor",
+              "score": 0.96
+            },
+            {
+              "id": "b3392174-c319-4e87-b316-f08acffdb6d5",
+              "keyword": "bank angle",
+              "score": 0.95
+            },
+            {
+              "id": "95f61e88-58d5-4d69-8d97-f8ca8c2b35ac",
+              "keyword": "maneuvering speed (VA/VO)",
+              "score": 0.94
+            },
+            {
+              "id": "d9186d67-23d8-4c22-b324-7fe2e4ea9bc8",
+              "keyword": "overbanking tendency",
+              "score": 0.92
+            },
+            {
+              "id": "7a9cdbf5-88f6-4b64-9a33-bb92fc947ef4",
+              "keyword": "angle of attack (AOA)",
+              "score": 0.9
+            },
+            {
+              "id": "af114a84-5da4-448c-b4e6-20fa3f23c43c",
+              "keyword": "vertical component of lift",
+              "score": 0.89
+            },
+            {
+              "id": "3af9707c-b4b6-40ec-9e75-bc05639db76b",
+              "keyword": "horizontal component of lift",
+              "score": 0.88
+            },
+            {
+              "id": "b5fc00d7-39fc-445b-ac19-4392445e820c",
+              "keyword": "stalling speed",
+              "score": 0.87
+            },
+            {
+              "id": "602f6906-632b-4a87-89c6-1191b1306c51",
+              "keyword": "aircraft structural limits",
+              "score": 0.85
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "8ee26f48-1071-4889-a26f-1c716a25b021",
+            "title": "Steep Turn Aerodynamics, Load Factors, and Pilot Technique",
+            "long_summary": "When a pilot first performs steep turns, several new sensations and control demands appear. The aircraft experiences higher G‑forces, an inherent over‑banking tendency, a loss of vertical lift component, greater pitch‑control pressures, and a need for extra power to keep altitude at a constant airspeed. In a level turn the total lift is split into vertical and horizontal components; to maintain altitude the pilot raises the angle of attack (AOA) so the vertical component remains sufficient, adding power as needed. For any given bank angle the load factor is fixed: 45° yields 1.41 g, 60° yields 2.0 g, and it rises sharply beyond 60°, exceeding the 3.8 g limit of most standard‑category GA aircraft at about 75° bank.\n\nBecause load factor increases, the stall speed rises with the square root of the factor; a 50‑kt stall at level flight becomes roughly 60 kt at 45° bank and 70 kt at 60° bank. Therefore steep turns must be flown at or below the aircraft’s maneuvering speed (VA or VO) so that a stall occurs before structural limits are exceeded.\n\nThe over‑banking tendency means the airplane will continue rolling in the direction of bank unless opposite aileron pressure is applied. Coordinated rudder input is also required to counter left‑turning tendencies such as P‑factor. During the maneuver the pilot must reference both nose and wings to the horizon; relying on the nose alone often leads to altitude loss. Corrections are made with proportional back‑pressure on the elevator while maintaining bank with ailerons. If the nose drops excessively, the proper recovery is to reduce bank with opposite aileron and rudder, then raise the nose with elevator, not to pull back on the stick alone, which would steepen the bank and stress the airframe.\n\nEntry procedure: clear the area, select a distant reference, establish the recommended entry speed, roll smoothly to a bank between 45°‑60°, apply back‑pressure and power before 30° bank, and maintain the required control forces. Trim use is optional and depends on aircraft characteristics; if used, trim and power must be removed when exiting the turn.",
+            "short_summary": "Steep turns increase load, require precise control and power."
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "4022f7a8-716b-4feb-9050-c665da45ae1e",
+              "classification": "Aviation",
+              "score": 0.98
+            },
+            {
+              "id": "3ef66132-f192-4471-a290-6e94ba0303c5",
+              "classification": "Flight Training",
+              "score": 0.95
+            },
+            {
+              "id": "e493caff-5cf3-4f3d-b639-77fd1ffaf315",
+              "classification": "Aerodynamics",
+              "score": 0.92
+            },
+            {
+              "id": "d3bff4fa-465b-4757-be1a-b9416d3a226e",
+              "classification": "Aircraft Performance",
+              "score": 0.88
+            },
+            {
+              "id": "fdd86c6a-c1ff-4117-974e-5ea756882493",
+              "classification": "Aviation Safety",
+              "score": 0.85
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "64c0e755-938f-40e4-b100-f1df0180b689",
+              "label": "VA",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "ce2a4966-c791-4392-9823-b9f51effeeeb",
+              "label": "VO",
+              "type": "ACRONYM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": "2d6203e7-8895-4e41-afeb-0b91f660264f",
+      "document_id": "36a080d2-4f7a-402e-b5c1-78bc21b47aec",
+      "title": "Page 6",
+      "context": "Common errors when performing chandelles are:\n1. Not clearing the area\n2. Initial bank is too shallow resulting in a stall\n3. Initial bank is too steep resulting in failure to gain maximum performance\n4. Allowing the bank angle to increase after initial establishment\n5. Not starting the recovery at the 90° point in the turn\n6. Allowing the pitch attitude to increase as the bank is rolled out during the second 90° of turn\n7. Leveling the wings prior to the 180° point being reached\n8. Pitch attitude is low on recovery resulting in airspeed well above stall speed\n9. Application of flight control pressures is not smooth\n10. Poor flight control coordination\n11. Stalling at any point during the maneuver\n12. Execution of a steep turn instead of a climbing maneuver\n13. Not scanning for other traffic during the maneuver\n14. Performing by reference to the instruments rather than visual references\n\n### Lazy Eight\nThe lazy eight is a maneuver that is designed to develop the proper coordination of the flight controls across a wide range of airspeeds and attitudes. It is the only standard flight training maneuver in which flight control pressures are constantly changing. In an attempt to simplify the discussion about this maneuver, the lazy eight can be loosely compared to the ground reference maneuver, S-turns across the road. Recall that S-turns across the road are made of opposing 180° turns. For example, first a 180° turn to the right, followed immediately by a 180° turn to the left. The lazy eight adds both a climb and descent to each 180° segment. The first 90° is a climb; the second 90° is a descent. [Figure 10-4]\n\n<div>\n<img alt=\"Figure 10-4 illustrates the Lazy Eight maneuver. The aircraft starts at Entry (A) in level flight. It proceeds to the 45° point (B), where it achieves maximum pitch-up attitude and approximately 15° bank. It then reaches the 90° point (C), where it achieves approximately 30° bank, minimum speed, maximum altitude, and level pitch attitude. The aircraft continues to the 135° point (D), where it achieves maximum pitch-down and approximately 15° bank. It then reaches the 180° point (E), where it is in level flight, at entry airspeed, and at the same altitude as entry. The aircraft then completes the maneuver by returning to Entry (A).\"/>\n<p><b>90° point</b></p>\n<ol>\n<li>Bank 30° (approximate)</li>\n<li>Minimum speed</li>\n<li>Maximum altitude</li>\n<li>Level pitch attitude</li>\n</ol>\n<p><b>135° point</b></p>\n<ol>\n<li>Maximum pitch-down</li>\n<li>Bank 15° (approximate)</li>\n</ol>\n<p><b>180° point</b></p>\n<ol>\n<li>Level flight</li>\n<li>Entry airspeed</li>\n<li>Altitude same as entry altitude</li>\n</ol>\n<p><b>Entry</b></p>\n<ol>\n<li>Level flight</li>\n<li>Maneuvering or cruise speed (whichever is less or manufacturer's recommended speed)</li>\n</ol>\n</div>\n<p><b>Figure 10-4. Lazy eight.</b></p>\n<p>The previous description of a lazy eight and figure 10-4 describe how a lazy eight looks from outside the flight deck and describes it as two 180° turns with altitude changes. How does it look from the pilot's perspective? Think of the longitudinal axis of the airplane as a pencil, which draws on whatever it points to. During this maneuver, the longitudinal axis of the airplane traces a symmetrical eight on its side with segments of the eight above and below the horizon, and it takes both 180° turns to form both loops of an eight. The first 90° of the first 180° turn traces the upper portion of one of the loops. The second 90° portion of the second 180° turn traces the lower portion of that loop at the end of the maneuver. The second 90° of the first 180° turn and the first 90° of the second 180° turn complete the other loop of the eight. The sensation of using the airplane to slowly draw this symbol gives the maneuver its name.</p>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/FAA@crd.com/original_assets/Airplane Flying Handbook-[]-210-Chapter 10 Performance Maneuvers.pdf_chunks/Airplane Flying Handbook-[]-210-Chapter 10 Performance Maneuvers-chunked-files/Airplane Flying Handbook-[]-210-Chapter 10 Performance Maneuvers_page_6-6.pdf",
+        "sort_number": "60"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "2d476058-3169-40bd-acd5-7fcd21b3cf5b",
+            "sentiment": "neutral",
+            "summary": "List of common chandelle errors and detailed description of the lazy eight maneuver, including points, bank angles, speeds, and pilot perspective.",
+            "score": 0.97
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "9a1d7d24-faef-40e9-92f4-6e6eb6d10284",
+              "question": "What are the most common errors pilots make when performing a chandelle?",
+              "answer": "Common errors include not clearing the area, using a bank that is too shallow (causing a stall) or too steep (reducing performance), allowing the bank angle to increase after initial establishment, not starting recovery at the 90° point, letting pitch increase while rolling out, leveling the wings before reaching the 180° point, having low pitch attitude on recovery leading to excessive airspeed, applying flight‑control pressures abruptly, poor coordination of controls, stalling at any point, executing a steep turn instead of a climbing maneuver, not scanning for traffic, and relying on instruments rather than visual references."
+            },
+            {
+              "id": "6ed78b6f-9ff1-403b-9d54-ba3035a3b557",
+              "question": "At which point in a chandelle should the recovery maneuver be started?",
+              "answer": "Recovery should be started at the 90° point in the turn."
+            },
+            {
+              "id": "f860ca62-8b6c-4682-9fca-7a6b106a9ab6",
+              "question": "Why is it important to keep flight‑control pressures smooth during a chandelle?",
+              "answer": "Smooth control pressures help maintain coordination and prevent abrupt changes that can lead to stalls, loss of performance, or excessive airspeed."
+            },
+            {
+              "id": "a06be0dc-1ca6-4bee-b474-6a2e935669d2",
+              "question": "What are the key characteristics of the 90° point in a lazy eight?",
+              "answer": "At the 90° point the aircraft should have approximately a 30° bank, be at minimum speed, at maximum altitude, and have a level pitch attitude."
+            },
+            {
+              "id": "ee2c2ad3-472f-4772-91d8-bf140f255d56",
+              "question": "What bank angle is typical at the 135° point of a lazy eight?",
+              "answer": "The bank angle at the 135° point is approximately 15° while the aircraft is at maximum pitch‑down attitude."
+            },
+            {
+              "id": "b03d8392-f837-40d3-a59d-951a85ccbc1b",
+              "question": "What conditions define the entry point of a lazy eight?",
+              "answer": "The entry point is level flight at the maneuvering or cruise speed (whichever is lower or the manufacturer’s recommended speed)."
+            },
+            {
+              "id": "93fd2d73-db5d-48dd-af8f-95570c796a65",
+              "question": "How does the aircraft’s flight path appear from the pilot’s perspective during a lazy eight?",
+              "answer": "From the pilot’s view, the airplane’s longitudinal axis traces a sideways figure‑eight, with the first 90° of the first 180° turn drawing the upper part of one loop and the second 90° of the second 180° turn drawing the lower part of that loop, forming a symmetrical eight above and below the horizon."
+            },
+            {
+              "id": "c206b882-cbb4-41c9-bb0e-f2bf78a4ff19",
+              "question": "What should the aircraft’s altitude and airspeed be at the 180° point of a lazy eight?",
+              "answer": "At the 180° point the aircraft should be in level flight at the entry airspeed and at the same altitude as the entry point."
+            },
+            {
+              "id": "1fbbdec7-2daf-4c47-81cc-b80d2012ad54",
+              "question": "Why is scanning for other traffic important during a chandelle?",
+              "answer": "Scanning for traffic ensures the maneuver is performed safely and prevents collisions, especially since the maneuver involves a climbing turn that can intersect other flight paths."
+            },
+            {
+              "id": "0304b19f-128f-4790-95a2-a541f33b217a",
+              "question": "What mistake can occur if a pilot levels the wings before reaching the 180° point in a chandelle?",
+              "answer": "Leveling the wings too early can cause the aircraft to lose the intended climb and may result in an incomplete maneuver or insufficient altitude gain."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "7c92d8f7-c608-46fc-91f1-0cfe83d17a4c",
+              "keyword": "Chandelles",
+              "score": 0.96
+            },
+            {
+              "id": "3998cd5b-4f61-4a77-920f-f61652026648",
+              "keyword": "Lazy eight",
+              "score": 0.95
+            },
+            {
+              "id": "035e5e42-86af-4fae-9b9d-62080d122d22",
+              "keyword": "Bank angle",
+              "score": 0.93
+            },
+            {
+              "id": "8b7ad734-fd2a-458a-aefd-db6a815c6139",
+              "keyword": "Pitch attitude",
+              "score": 0.92
+            },
+            {
+              "id": "83baade6-e085-45aa-ac8f-5dab11046d12",
+              "keyword": "Stall",
+              "score": 0.9
+            },
+            {
+              "id": "ada506fd-0eac-4630-a07c-c000653125a8",
+              "keyword": "Flight control coordination",
+              "score": 0.89
+            },
+            {
+              "id": "94d7e22e-67d2-4eac-a55b-28a0b2734e6d",
+              "keyword": "90° point",
+              "score": 0.88
+            },
+            {
+              "id": "8cddc7b4-ac05-4e08-b52b-fb25480505dd",
+              "keyword": "180° turn",
+              "score": 0.87
+            },
+            {
+              "id": "b70f6d9d-ed0d-4e6b-bd93-6be1042cc04c",
+              "keyword": "Minimum speed",
+              "score": 0.86
+            },
+            {
+              "id": "084b2372-05e0-4e88-9ba8-c7b08cd5a63b",
+              "keyword": "Maximum altitude",
+              "score": 0.85
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "f421bdf4-b24b-4d24-a276-87b51e923328",
+            "title": "Chandelle Errors and Lazy Eight Maneuver Overview",
+            "long_summary": "The text lists thirteen typical errors made during a chandelle, a climbing turn used in flight training. Errors include failing to clear the area, starting with an overly shallow or steep bank, allowing bank angle or pitch attitude to change improperly after the initial turn, not beginning recovery at the 90° point, rolling out the wings too early, maintaining a low pitch that raises airspeed above stall speed, applying control pressures abruptly, poor coordination of controls, stalling at any stage, unintentionally performing a steep turn instead of a climbing maneuver, neglecting traffic scanning, and relying on instrument references rather than visual cues.\n\nThe second part explains the lazy eight, a standard maneuver that develops smooth, coordinated control inputs across a range of speeds and attitudes. It consists of two 180° turns, each split into a 90° climb and a 90° descent, forming a figure‑eight pattern when viewed from the pilot’s perspective. Key points: at the 45° point the aircraft reaches about 15° bank and maximum pitch‑up; at the 90° point it attains roughly 30° bank, minimum speed, maximum altitude, and level pitch; at the 135° point it reaches maximum pitch‑down with about 15° bank; and at the 180° point it returns to level flight at entry speed and altitude. The maneuver starts from level flight at maneuvering or cruise speed. Visually, the aircraft’s longitudinal axis draws a sideways eight, with the upper loop traced during the first climb and the lower loop during the subsequent descent. This continuous change in control pressures makes the lazy eight a valuable training exercise for mastering coordinated flight.",
+            "short_summary": "Key chandelle mistakes and lazy eight description"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "db26e585-d164-4108-a951-b8a10e96cd7a",
+              "classification": "Aviation",
+              "score": 0.97
+            },
+            {
+              "id": "bce616db-1269-4fcf-a292-6d26253abe06",
+              "classification": "Flight Training",
+              "score": 0.96
+            },
+            {
+              "id": "b7485ffb-1895-451e-98af-e7e2ae127edc",
+              "classification": "Aircraft Maneuvers",
+              "score": 0.95
+            },
+            {
+              "id": "b00b2a03-2207-4809-9f6a-fe536cf21c8d",
+              "classification": "Pilot Safety",
+              "score": 0.93
+            },
+            {
+              "id": "6505d932-997b-4c0c-8d7f-2821b5599be6",
+              "classification": "Aeronautical Education",
+              "score": 0.9
+            }
+          ]
+        },
+        {
+          "entities": []
+        }
+      ]
+    },
+    {
+      "topic_id": "f12743f2-6ba8-444d-9f1e-948fd3bb8321",
+      "document_id": "36a080d2-4f7a-402e-b5c1-78bc21b47aec",
+      "title": "Page 8",
+      "context": "<h2>Chapter Summary</h2>\n<p>Performance maneuvers are used to develop a pilot's skills in coordinating the flight control's use and effect while enhancing the pilot's ability to divide attention across the various demands of flight. Performance maneuvers are also designed to further develop a pilot's application and correlation of the fundamentals of flight and integrate developing skills into advanced maneuvers. Developing highly-honed skills in performance maneuvers allows the pilot to effectively progress toward the mastery of flight. Mastery is developed as the mechanics of flight become a subconscious, rather than a conscious, application of the flight controls to maneuver the airplane in attitude, orientation, and position.</p>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/FAA@crd.com/original_assets/Airplane Flying Handbook-[]-210-Chapter 10 Performance Maneuvers.pdf_chunks/Airplane Flying Handbook-[]-210-Chapter 10 Performance Maneuvers-chunked-files/Airplane Flying Handbook-[]-210-Chapter 10 Performance Maneuvers_page_8-8.pdf",
+        "sort_number": "80"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "6bdacc5d-cf7c-439f-9d09-3d92f03c9a1f",
+            "sentiment": "positive",
+            "summary": "Performance maneuvers develop pilots' coordination, attention, and mastery of flight fundamentals, leading to subconscious control of aircraft.",
+            "score": 0.85
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "5468cd44-9288-44a3-8b06-6c3d8948e490",
+              "question": "How do performance maneuvers help a pilot divide attention?",
+              "answer": "By practicing performance maneuives, pilots learn to manage multiple flight demands simultaneously, improving their ability to split attention across those demands."
+            },
+            {
+              "id": "6276d241-894f-4d49-976d-3fa5294dcbab",
+              "question": "What are performance maneuvers?",
+              "answer": "Performance maneuvers are exercises used to develop a pilot's skills in coordinating the use and effect of the flight controls while enhancing the ability to divide attention across the various demands of flight."
+            },
+            {
+              "id": "0f7f50b1-8d26-470c-88b4-a61c44425e00",
+              "question": "Why are performance maneuvers important for pilot training?",
+              "answer": "They are important because they further develop a pilot's application and correlation of the fundamentals of flight and integrate those developing skills into advanced maneuvers."
+            },
+            {
+              "id": "ea1e2293-8bdd-4da7-b7fd-caf6b1aeb1fb",
+              "question": "What is the relationship between performance maneuvers and the fundamentals of flight?",
+              "answer": "Performance maneuvers are designed to develop a pilot's application and correlation of the fundamentals of flight, reinforcing those basics while progressing to more advanced techniques."
+            },
+            {
+              "id": "08a7b552-9657-4085-990f-4d2a8d3a1c51",
+              "question": "What does mastering flight mean according to the summary?",
+              "answer": "Mastery of flight means that the mechanics of flight become a subconscious, rather than a conscious, application of the flight controls to maneuver the airplane in attitude, orientation, and position."
+            },
+            {
+              "id": "8bb0a7d7-cfd1-4d45-8a27-ba90ed574aa4",
+              "question": "How does practicing performance maneuvers lead to mastery?",
+              "answer": "Developing highly‑honed skills through performance maneuvers allows the pilot to progress toward mastery, where control inputs become automatic and subconscious."
+            },
+            {
+              "id": "a5879b10-8442-43d8-9a44-5736559b09ce",
+              "question": "What aspects of airplane control are emphasized in performance maneuvers?",
+              "answer": "The maneuvers emphasize attitude, orientation, and position control of the airplane through coordinated use of the flight controls."
+            },
+            {
+              "id": "5b3c52c2-340d-4933-a00e-94469cc84522",
+              "question": "Can performance maneuvers improve a pilot’s ability to handle advanced maneuvers?",
+              "answer": "Yes, they integrate developing skills into advanced maneuvers, preparing the pilot for more complex flight tasks."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "312fc308-22b6-4fba-aa5b-3f07141d50bb",
+              "keyword": "performance maneuvers",
+              "score": 0.97
+            },
+            {
+              "id": "0e094eb3-17af-4733-80b1-5e577805e8a3",
+              "keyword": "pilot skills",
+              "score": 0.94
+            },
+            {
+              "id": "19bca9d6-b75d-411e-9353-9c16015cd231",
+              "keyword": "flight control",
+              "score": 0.92
+            },
+            {
+              "id": "cfe5c370-0bfd-4a94-bb39-ee8536f6e8ee",
+              "keyword": "fundamentals of flight",
+              "score": 0.9
+            },
+            {
+              "id": "11a2e495-3fa3-4c4f-801e-c99511302065",
+              "keyword": "advanced maneuvers",
+              "score": 0.88
+            },
+            {
+              "id": "ce7b9e2b-7fda-4fcb-b717-51667da6f9d8",
+              "keyword": "mastery of flight",
+              "score": 0.86
+            },
+            {
+              "id": "56cfdd32-e52b-48aa-8bb5-6f5577b36f1c",
+              "keyword": "subconscious application",
+              "score": 0.84
+            },
+            {
+              "id": "146e776c-8af7-4dc9-93d6-f06df02ed368",
+              "keyword": "attention division",
+              "score": 0.82
+            },
+            {
+              "id": "b7a07f12-65ea-4c9b-b88d-5177f67f5d60",
+              "keyword": "airplane attitude",
+              "score": 0.8
+            },
+            {
+              "id": "e7120d08-7441-4080-940d-5c1060195b07",
+              "keyword": "orientation and position",
+              "score": 0.78
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "6e576efd-1fc7-4a62-a668-f6345dc39e08",
+            "title": "Performance Maneuvers and Pilot Mastery",
+            "long_summary": "Performance maneuvers are training exercises that enhance a pilot’s ability to coordinate flight‑control inputs while managing multiple flight demands. They reinforce the fundamentals of flight and bridge basic skills to more advanced techniques. By repeatedly practicing these maneuvers, pilots refine their attention‑distribution, control application, and situational awareness. This progressive development leads to a level of mastery where the mechanics of flight become automatic, allowing the pilot to manipulate attitude, orientation, and position of the aircraft subconsciously rather than through deliberate thought.",
+            "short_summary": "Performance maneuvers develop subconscious flight mastery."
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "42f27536-98a6-4444-886d-fb52b454f9a2",
+              "classification": "Aviation Training",
+              "score": 0.96
+            },
+            {
+              "id": "baed415c-82ce-4b56-a44d-9695d8821fad",
+              "classification": "Flight Maneuvers",
+              "score": 0.94
+            },
+            {
+              "id": "2862b6dd-3d4c-40ac-b53d-dec9bdf1a7f9",
+              "classification": "Pilot Skill Development",
+              "score": 0.92
+            },
+            {
+              "id": "42f509e1-3cc5-425a-945a-f3d85cd091d3",
+              "classification": "Aeronautical Education",
+              "score": 0.88
+            },
+            {
+              "id": "fa1c1674-d7c7-49d1-b99c-4cba97f8e98a",
+              "classification": "Aviation Safety",
+              "score": 0.78
+            }
+          ]
+        },
+        {
+          "entities": []
+        }
+      ]
+    },
+    {
+      "topic_id": "13983bc9-26e8-4192-a4ea-83b447a496dd",
+      "document_id": "36a080d2-4f7a-402e-b5c1-78bc21b47aec",
+      "title": "Page 4",
+      "context": "The steep spiral is initiated by properly clearing the airspace for air traffic and hazards. In general, the throttle is closed to idle, carburetor heat is applied if equipped, and gliding speed is established. Once the proper airspeed is attained, the pitch should be lowered and the airplane rolled to the desired bank angle as the reference point is reached. The pilot should consider the distance from the reference point since that establishes the turning radius, and the steepest bank should not exceed 60°. The gliding spiral should be a turn of constant radius while maintaining the airplane's position relative to the reference. This can only be accomplished by proper correction for wind drift by steepening the bank on downwind headings and shallowing the bank on upwind headings. During the steep spiral, the pilot should continually correct for any changes in wind direction and velocity to maintain a constant radius.\n\nOperating the engine at idle speed for any prolonged period during the glide may result in excessive engine cooling, spark plug fouling, or carburetor ice. To assist in avoiding these issues, the throttle should be periodically advanced and sustained for a few seconds. Monitoring cylinder head temperature gauges, if available, provides a pilot with additional information on engine cooling. When advancing the throttle, the pitch attitude should be adjusted to maintain a constant airspeed and, preferably, this should be done when headed into the wind.\n\nMaintaining a constant airspeed throughout the maneuver is an important skill for a pilot to develop. This is necessary because the airspeed tends to fluctuate as the bank angle is changed throughout the maneuver. The pilot should anticipate pitch corrections as the bank angle is varied throughout the maneuver. During practice of the maneuver, the pilot should execute at least three turns and roll out toward a definite object or on a specific heading. To make the exercise more challenging, the pilot rolls out on a heading perpendicular to or directly into the wind rather toward a specific object. This ability would be a particularly useful skill in the event of an actual emergency. In addition, noting the altitude lost during each revolution would help the pilot determine when to roll out in an actual emergency so as not to be too high or too low to make a safe approach. During rollout, the smooth and accurate application of the flight controls allow the airplane to recover to a wings-level glide with no change in airspeed. Recovering to normal cruise flight would proceed after the establishment of a wings-level glide.\n\nCommon errors when performing steep spirals are:\n\n1. Not clearing the area\n2. Inadequate pitch control on entry or rollout\n3. Not correcting the bank angle to compensate for wind\n4. Poor flight control coordination\n5. Ineffective use of trim\n6. Inadequate airspeed control\n7. Becoming disoriented\n8. Performing by reference to the flight instruments rather than visual references\n9. Not scanning for other traffic during the maneuver\n10. Not completing the turn on the designated heading or reference\n\n## Chandelle\n\nA chandelle is a maximum performance, 180° climbing turn that begins from approximately straight-and-level flight and concludes with the airplane in a wings-level, nose-high attitude just above stall speed. [Figure 10-3] The goal is to gain the most altitude possible for a given bank angle and power setting; however, the standard used to judge the maneuver is not the amount of altitude gained, but rather the pilot's proficiency as it pertains to maximizing climb performance for the power and bank selected, as well as the skill demonstrated.\n\nA chandelle is best described in two specific phases: the first 90° of turn and the second 90° of turn. The first 90° of turn is described as constant bank and continuously increasing pitch; and the second 90° as constant pitch and continuously decreasing bank. During the first 90°, the pilot will set the bank angle, increase power, and increase pitch attitude at a rate such that maximum pitch-up occurs at the completion of the first 90°. The maximum pitch-up attitude achieved at the 90° mark is held for the remainder of the maneuver. If the pitch attitude is set too low, the airplane's airspeed will never decrease to just above stall speed. If the pitch attitude is set too high, the airplane may aerodynamically stall prior to completion of the maneuver. Starting at the 90° point, and while maintaining the pitch attitude set at the end of the first 90°, the pilot begins a slow and coordinated constant rate rollout so as to have the wings level when the airplane is at the 180° point. If the rate of rollout is too rapid or sluggish, the airplane either exceeds the 180° turn or does not complete the turn as the wings come level to the horizon.",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/FAA@crd.com/original_assets/Airplane Flying Handbook-[]-210-Chapter 10 Performance Maneuvers.pdf_chunks/Airplane Flying Handbook-[]-210-Chapter 10 Performance Maneuvers-chunked-files/Airplane Flying Handbook-[]-210-Chapter 10 Performance Maneuvers_page_4-4.pdf",
+        "sort_number": "40"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "33213cd8-0201-4e4f-80c1-d2327077ee28",
+            "sentiment": "neutral",
+            "summary": "The passage outlines procedures for performing steep spirals and chandelles, emphasizing proper speed, bank angle, wind correction, and common errors.",
+            "score": 0.95
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "772fce1f-b064-4b75-afa0-598ff33356d1",
+              "question": "What are the initial steps to start a steep spiral?",
+              "answer": "First, clear the airspace of traffic and hazards, then close the throttle to idle, apply carburetor heat if equipped, and establish gliding speed. Once the proper airspeed is reached, lower the pitch and roll the airplane to the desired bank angle as the reference point is reached."
+            },
+            {
+              "id": "82ea3172-1d72-49f0-92e8-6bbafd37d732",
+              "question": "What is the maximum bank angle allowed during a steep spiral?",
+              "answer": "The steepest bank should not exceed 60°."
+            },
+            {
+              "id": "50e7ad44-5696-492e-87a8-4bf14921bc71",
+              "question": "How should a pilot compensate for wind while maintaining a constant‑radius steep spiral?",
+              "answer": "The pilot must steepen the bank on downwind headings and shallow the bank on upwind headings, continuously correcting for any changes in wind direction and velocity to keep the turn radius constant."
+            },
+            {
+              "id": "4e5b09b6-e4fd-465b-a670-c9a8ad0f9739",
+              "question": "Why should the throttle be periodically advanced during a prolonged idle glide?",
+              "answer": "Operating the engine at idle for a long time can cause excessive cooling, spark‑plug fouling, or carburetor ice. Advancing the throttle briefly helps avoid these problems, and the pilot should adjust pitch to keep airspeed constant, preferably when heading into the wind."
+            },
+            {
+              "id": "6dd78212-c100-4091-8f6a-5fccec2e5c66",
+              "question": "What are the key points for maintaining constant airspeed during a steep spiral?",
+              "answer": "A pilot must anticipate pitch corrections as the bank angle changes, adjust pitch to keep airspeed steady, and monitor airspeed throughout the maneuver, especially when rolling in or out of the turn."
+            },
+            {
+              "id": "43415887-4ec2-4ebd-9c1f-67019253ebfa",
+              "question": "What should a pilot do during rollout of a steep spiral to recover to a wings‑level glide?",
+              "answer": "The pilot should smoothly and accurately apply the flight controls to bring the airplane to a wings‑level glide without changing airspeed, then establish a wings‑level glide before returning to normal cruise flight."
+            },
+            {
+              "id": "864cb141-ef2e-4293-a5b7-2c935357509e",
+              "question": "List three common errors pilots make when performing steep spirals.",
+              "answer": "1) Not clearing the area of traffic, 2) Inadequate pitch control on entry or rollout, 3) Failing to correct the bank angle for wind."
+            },
+            {
+              "id": "7b460294-2137-4efe-9252-074c5de14b89",
+              "question": "What are the two phases of a chandelle maneuver?",
+              "answer": "The first 90° of turn is performed with a constant bank and continuously increasing pitch; the second 90° is performed with constant pitch and continuously decreasing bank."
+            },
+            {
+              "id": "c6842d5b-d907-4adf-9142-50d79787cbf7",
+              "question": "How is the pitch attitude managed during the first 90° of a chandelle?",
+              "answer": "The pilot sets the bank angle, increases power, and raises pitch at a rate that results in maximum pitch‑up exactly at the 90° point, then holds that maximum pitch attitude for the remainder of the maneuver."
+            },
+            {
+              "id": "b6a0e4c0-7332-48dc-95fa-090c11470245",
+              "question": "What happens if the pitch attitude is set too low or too high during a chandelle?",
+              "answer": "If set too low, the airplane’s airspeed will not drop to just above stall speed; if set too high, the airplane may stall aerodynamically before completing the maneuver."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "02dccad6-0d78-4c2b-b343-d9345fd393e7",
+              "keyword": "steep spiral",
+              "score": 0.96
+            },
+            {
+              "id": "00c705ac-dc44-4b64-bc16-9346a9820e41",
+              "keyword": "bank angle",
+              "score": 0.94
+            },
+            {
+              "id": "84bfd23b-b86d-4ed3-b858-fc3b50fc4b6f",
+              "keyword": "wind correction",
+              "score": 0.92
+            },
+            {
+              "id": "255c2417-de14-491e-b82e-5e69b609f3a3",
+              "keyword": "constant airspeed",
+              "score": 0.93
+            },
+            {
+              "id": "7c8906cc-680f-4139-9421-0c00fa26ed3f",
+              "keyword": "engine idle cooling",
+              "score": 0.9
+            },
+            {
+              "id": "0a468135-ecf5-477e-a0a2-eeb011049766",
+              "keyword": "cylinder head temperature",
+              "score": 0.88
+            },
+            {
+              "id": "c125f13f-d0e0-4517-bdeb-92a9b6c73ddb",
+              "keyword": "flight control coordination",
+              "score": 0.91
+            },
+            {
+              "id": "05dc18be-cf47-49db-9488-bdca2b6d7c78",
+              "keyword": "chandelle",
+              "score": 0.95
+            },
+            {
+              "id": "f63e04f1-44dd-4704-95f7-0f274623cc7f",
+              "keyword": "climbing turn",
+              "score": 0.89
+            },
+            {
+              "id": "fff9c239-b453-4456-9d1a-79230b68917e",
+              "keyword": "pitch attitude",
+              "score": 0.94
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "2ebfa080-98aa-4d37-ad18-ff5ef7f13d67",
+            "title": "Steep Spiral and Chandelle Maneuver Procedures",
+            "long_summary": "The steep spiral is a precision glide maneuver that begins after the pilot clears the airspace, idles the throttle, applies carburetor heat if available, and establishes a glide speed. Once the target airspeed is reached, the aircraft is pitched down and rolled to a bank not exceeding 60°, using a reference point to set the turning radius. The pilot must continuously adjust the bank to compensate for wind drift—steepening on down‑wind legs and shallowing on up‑wind legs—to keep a constant‑radius turn. Periodic throttle advances prevent engine over‑cooling, spark‑plug fouling, or carburetor ice; during these advances the pitch is trimmed to maintain airspeed, preferably on a windward heading. Maintaining constant airspeed throughout the turn requires anticipatory pitch corrections as bank changes. Training calls for at least three full turns, rolling out toward a fixed object or heading, with roll‑out on wind‑perpendicular or wind‑into headings to simulate emergency conditions. Pilots should note altitude loss per revolution to gauge safe roll‑out altitude. Errors include failure to clear the area, poor pitch or bank control, inadequate wind compensation, improper trim use, loss of airspeed, disorientation, reliance on instruments over visual cues, lack of traffic scanning, and incomplete roll‑out.\n\nThe chandelle is a 180° climbing turn performed from level flight to a wings‑level, nose‑high attitude just above stall speed. It is judged by the pilot’s ability to maximize altitude for a given bank and power, not by the altitude itself. The maneuver consists of two phases: the first 90° with constant bank and increasing pitch, and the second 90° with constant pitch and decreasing bank. At the 90° point the aircraft should be at maximum pitch‑up; too low a pitch prevents reaching stall‑speed proximity, while too high a pitch risks an aerodynamic stall. From the 90° mark the pilot rolls out at a steady rate to achieve wings‑level at the 180° point; an incorrect rollout rate causes under‑ or over‑turning. Mastery of both maneuards enhances emergency handling, situational awareness, and overall airmanship.",
+            "short_summary": "Procedures, techniques, and common errors for steep spiral and chandelle."
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "cbd90aa6-1a85-42c5-a9ef-a130e8a89669",
+              "classification": "Aviation Training",
+              "score": 0.97
+            },
+            {
+              "id": "a14ed5c0-1e99-4689-a7a4-be23295025fd",
+              "classification": "Aeronautical Maneuvers",
+              "score": 0.96
+            },
+            {
+              "id": "58317319-5a35-4bce-95d6-1ea18a6246c0",
+              "classification": "Flight Safety",
+              "score": 0.94
+            },
+            {
+              "id": "6d4c82bc-233f-4662-835c-e879ed5ca916",
+              "classification": "Pilot Skill Development",
+              "score": 0.92
+            },
+            {
+              "id": "32259efd-8048-4e8e-9497-1e5ebcf381e5",
+              "classification": "Emergency Procedures",
+              "score": 0.88
+            }
+          ]
+        },
+        {
+          "entities": []
+        }
+      ]
+    },
+    {
+      "topic_id": "236c90e0-cd6a-4850-b6ad-4c39469b07fc",
+      "document_id": "36a080d2-4f7a-402e-b5c1-78bc21b47aec",
+      "title": "Page 1",
+      "context": "<h1>Airplane Flying Handbook (FAA-H-8083-3C)</h1>\n<h2>Chapter 10: Performance Maneuvers</h2>\n<h3>Introduction</h3>\n<p>Basic flight maneuvers taught to pilots include: straight-and-level, turns, climbs, and descents. As training advances, other performance maneuvers serve to further develop piloting skills. Performance maneuvers enhance a pilot's proficiency in flight control application, maneuver planning, situational awareness, and division of attention. To further that intent, performance maneuver design allows for the application of flight control pressures, attitudes, airspeeds, and orientations that constantly change throughout the maneuver.</p>\n<p>Deficiencies during execution of performance maneuvers often occur when a pilot lacks an understanding of fundamental skills or never mastered them. Performance maneuver training should not take place until the pilot demonstrates consistent competency in the fundamentals. Further, initial training for performance maneuvers should always begin with a detailed ground lesson for each maneuver, so that the learner understands the technicalities prior to flight. In addition, performance maneuver training should use segmented building blocks of instruction so as to allow the pilot an appropriate level of repetition necessary to develop the required skills.</p>\n<p>Performance maneuvers, once grasped by the pilot, are very satisfying and rewarding. As the pilot develops skills in executing performance maneuvers, they may likely see an increased smoothness in their flight control application and an increased ability to sense the airplane's attitude and orientation without significant conscious effort.</p>\n<h3>Steep Turns</h3>\n<p>Steep turns consist of single to multiple 360° and 720° turns, in either or both directions, using a bank angle between 45° and 60°. The objective of the steep turn is to develop a pilot's skill in flight control smoothness and coordination, an awareness of the airplane's orientation to outside references, division of attention between flight control applications, and the constant need to scan for hazards and other traffic in the area. [Figure 10-1]</p>\n<img alt=\"Illustration showing several small airplanes flying steep turns (360 degree loops) over a green landscape with mountains and trees. The paths of the turns are highlighted in blue.\"/>\n<p>Figure 10-1. Steep turns.</p>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/FAA@crd.com/original_assets/Airplane Flying Handbook-[]-210-Chapter 10 Performance Maneuvers.pdf_chunks/Airplane Flying Handbook-[]-210-Chapter 10 Performance Maneuvers-chunked-files/Airplane Flying Handbook-[]-210-Chapter 10 Performance Maneuvers_page_1-1.pdf",
+        "sort_number": "10"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "e6fed906-7a0f-423a-bc37-798088661831",
+            "sentiment": "neutral",
+            "summary": "Chapter introduces performance maneuvers, emphasizing training steps, benefits, and details of steep turns.",
+            "score": 0.93
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "2551745b-8ddc-4634-9fb6-d72e96e26ec2",
+              "question": "What basic flight maneuvers are taught to pilots before advancing to performance maneuvers?",
+              "answer": "The basic flight maneuvers taught to pilots include straight‑and‑level flight, turns, climbs, and descents."
+            },
+            {
+              "id": "29b08b5a-2f5a-4991-bb6f-5a016544917f",
+              "question": "Why should performance maneuver training only begin after a pilot shows consistent competency in the fundamentals?",
+              "answer": "Deficiencies during execution of performance maneuvers often occur when a pilot lacks an understanding of fundamental skills or has never mastered them, so training should start only after consistent competency is demonstrated."
+            },
+            {
+              "id": "7cad8dda-a90a-40a2-adb8-289d1d44f704",
+              "question": "What is the recommended method for introducing a new performance maneuver to a student pilot?",
+              "answer": "Initial training for performance maneuvers should always begin with a detailed ground lesson for each maneuver, allowing the learner to understand the technicalities before flight."
+            },
+            {
+              "id": "36e0422c-bac5-4b6c-a696-3ec64820a492",
+              "question": "How should performance maneuver instruction be structured to aid skill development?",
+              "answer": "Performance maneuver training should use segmented building blocks of instruction, providing the pilot an appropriate level of repetition necessary to develop the required skills."
+            },
+            {
+              "id": "3ab32713-d254-4da2-babd-24dd5e8d8135",
+              "question": "What benefits do pilots experience after mastering performance maneuvers?",
+              "answer": "Pilots may notice increased smoothness in their flight‑control application and an enhanced ability to sense the airplane's attitude and orientation without significant conscious effort."
+            },
+            {
+              "id": "75594b58-e599-45d6-a974-f918245fae2e",
+              "question": "What defines a steep turn according to the handbook?",
+              "answer": "A steep turn consists of single to multiple 360° or 720° turns, in either direction, using a bank angle between 45° and 60°."
+            },
+            {
+              "id": "7e3594f2-0c10-4f25-b633-9bcd7e7e6206",
+              "question": "What are the primary objectives of practicing steep turns?",
+              "answer": "The objectives are to develop flight‑control smoothness and coordination, awareness of the airplane’s orientation to outside references, division of attention between control applications, and the constant need to scan for hazards and other traffic."
+            },
+            {
+              "id": "afadfc97-a50b-43e5-a91a-f42e494a54bc",
+              "question": "What visual reference is provided in Figure 10‑1 of the handbook?",
+              "answer": "Figure 10‑1 illustrates several small airplanes flying steep turns (360° loops) over a green landscape with mountains and trees, with the turn paths highlighted in blue."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "c7a1aa2e-cb23-4502-b1f4-cd01e4dae46b",
+              "keyword": "Steep turns",
+              "score": 0.98
+            },
+            {
+              "id": "b86c7a89-41e9-498b-a423-3a7d54d99831",
+              "keyword": "Performance maneuvers",
+              "score": 0.96
+            },
+            {
+              "id": "91d13550-7447-4d31-bed5-747216f4b45d",
+              "keyword": "Flight control",
+              "score": 0.94
+            },
+            {
+              "id": "3df76d9e-64b9-48d7-8b6d-841cd93b8d61",
+              "keyword": "Pilot proficiency",
+              "score": 0.92
+            },
+            {
+              "id": "49d88ec2-db2f-41fb-a18a-5352eb588ba8",
+              "keyword": "Bank angle",
+              "score": 0.9
+            },
+            {
+              "id": "c4e9578d-c5fc-485b-94ea-a590b329cdcd",
+              "keyword": "Situational awareness",
+              "score": 0.88
+            },
+            {
+              "id": "21b3381f-f0c6-48ba-81d0-6369cbf7408d",
+              "keyword": "Airplane Flying Handbook",
+              "score": 0.85
+            },
+            {
+              "id": "79c58c97-ba98-4668-a4ef-ae26905ba443",
+              "keyword": "Ground lesson",
+              "score": 0.83
+            },
+            {
+              "id": "3c8037af-a0e9-4533-befc-13aafa423c48",
+              "keyword": "Hazard scanning",
+              "score": 0.8
+            },
+            {
+              "id": "7667afaf-7348-4fee-bd24-6316f468a703",
+              "keyword": "Attitude and orientation",
+              "score": 0.78
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "479afa0f-7c5c-4aff-b66d-79fad9edd7e0",
+            "title": "Performance Maneuvers and Steep Turns Overview",
+            "long_summary": "Chapter 10 of the Airplane Flying Handbook introduces performance maneuvers as advanced flight exercises that build on basic straight‑and‑level flight, turns, climbs, and descents. These maneuvers are designed to improve a pilot’s control feel, planning ability, situational awareness, and multitasking by requiring continuous changes in control pressures, attitudes, airspeeds, and aircraft orientation. The text stresses that pilots should only attempt performance maneuvers after demonstrating consistent competence in fundamental skills, and that each maneuver must be preceded by a thorough ground lesson. Instruction should be broken into segmented building blocks, allowing repeated practice to develop the necessary proficiency. Mastery of performance maneuvers leads to smoother control inputs and an intuitive sense of aircraft attitude. The section then details steep turns, which involve one or more 360° or 720° turns at bank angles of 45°–60°, performed in either direction. The primary goals of steep turns are to enhance smooth, coordinated control, improve awareness of aircraft orientation relative to external references, and train the pilot to divide attention between control inputs and hazard/traffic scanning.",
+            "short_summary": "Intro to performance maneuvers and steep turn objectives"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "de4f56f6-d721-4154-ba68-f2336d3daa53",
+              "classification": "Aviation",
+              "score": 0.98
+            },
+            {
+              "id": "dc3747b0-66c6-4b29-84c1-639b5702d486",
+              "classification": "Pilot Training",
+              "score": 0.96
+            },
+            {
+              "id": "0174647e-bdd7-44a3-a3f4-050fffc7cc64",
+              "classification": "Aeronautics",
+              "score": 0.9
+            },
+            {
+              "id": "66682b00-1da2-42ef-8df7-340331e646ab",
+              "classification": "Flight Safety",
+              "score": 0.85
+            },
+            {
+              "id": "d40c5e56-6ff2-4a68-9bb4-966b9e9229cc",
+              "classification": "Educational Material",
+              "score": 0.88
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "a2c338fe-a5fc-4d3f-89a7-aa4aadeda061",
+              "label": "FAA",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "8b94b860-341a-4de0-a58a-adb7dfee2b7c",
+              "label": "Airplane Flying Handbook",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "f3efc9b3-0109-4d9e-bd0a-58d184d94402",
+              "label": "FAA-H-8083-3C",
+              "type": "PRODUCT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": "384cd23c-bdb8-47a0-9d66-1c45d726e8fd",
+      "document_id": "36a080d2-4f7a-402e-b5c1-78bc21b47aec",
+      "title": "Page 3",
+      "context": "The rollout from the steep turn should be timed so that the wings reach level flight when the airplane is on the heading from which the maneuver was started. A good rule of thumb is to begin the rollout at ½ the number of degrees of bank prior to reaching the terminating heading. For example, if a right steep turn was begun on a heading of 270° and if the bank angle is 60°, the pilot should begin the rollout 30° prior or at a heading of 240°. While the rollout is being made, elevator back pressure, trim (if used), and power should be gradually reduced, as necessary, to maintain the altitude and airspeed.\n\nCommon errors when performing steep turns are:\n\n1. Not clearing the area\n2. Inadequate pitch control on entry or rollout\n3. Gaining or losing altitude\n4. Failure to maintain constant bank angle\n5. Poor flight control coordination\n6. Ineffective use of trim\n7. Ineffective use of power\n8. Inadequate airspeed control\n9. Becoming disoriented\n10. Performing by reference to the flight instruments rather than visual references\n11. Failure to scan for other traffic during the maneuver\n12. Attempting to start recovery prematurely\n13. Failure to stop the turn on the designated heading\n\n## Steep Spiral\n\nThe objective of the steep spiral is to provide a flight maneuver for rapidly dissipating substantial amounts of altitude while remaining over a selected spot. This maneuver may be useful during an emergency landing. A steep spiral is a gliding turn wherein the pilot maintains a constant radius around a surface-based reference point—similar to the turns around a point maneuver, but in this case the airplane is rapidly descending. The maneuver consists of the completion of at least three 360° turns [Figure 10-2], and should begin at sufficient altitude such that the maneuver concludes no lower than 1,500 feet above ground level (AGL). Note that while there are similarities between a steep spiral and an emergency descent, the reasons for using the two maneuvers may differ, and the airspeed and configuration are usually different.\n\n<div>\n<img alt=\"Figure 10-2 illustrates a steep spiral maneuver. An airplane is shown flying in a tight, descending spiral path, maintaining a constant radius around a surface-based reference point (a runway marked with a dashed centerline). The spiral path is shown as a series of concentric, descending loops. A large blue arrow labeled 'Wind' points upwards, indicating the direction of the wind.\"/>\n<p>Figure 10-2. Steep spiral.</p>\n</div>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/FAA@crd.com/original_assets/Airplane Flying Handbook-[]-210-Chapter 10 Performance Maneuvers.pdf_chunks/Airplane Flying Handbook-[]-210-Chapter 10 Performance Maneuvers-chunked-files/Airplane Flying Handbook-[]-210-Chapter 10 Performance Maneuvers_page_3-3.pdf",
+        "sort_number": "30"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "28c7b797-5b1a-41c4-8cb0-704591a0bce9",
+            "sentiment": "neutral",
+            "summary": "Guidelines for timing rollout in steep turns, common errors, and description of the steep spiral maneuver for rapid altitude loss while maintaining position.",
+            "score": 0.98
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "56c8fb1b-e4dc-425d-ae9b-4bd916b2156e",
+              "question": "When should I begin the rollout in a steep turn?",
+              "answer": "Begin the rollout when the aircraft is about half the bank angle in degrees before reaching the terminating heading. For example, with a 60° bank, start the rollout 30° before the target heading."
+            },
+            {
+              "id": "c2611017-1c7e-4413-bf62-5673b533c7e3",
+              "question": "How do I determine the heading to start the rollout?",
+              "answer": "Subtract half the bank angle (in degrees) from the heading on which the turn was started. If the turn began on 270° with a 60° bank, start the rollout at 240°."
+            },
+            {
+              "id": "61751dcd-1f5d-40f4-a785-5b068b283973",
+              "question": "What are the most common errors pilots make during steep turns?",
+              "answer": "Common errors include not clearing the area, inadequate pitch control on entry or rollout, gaining or losing altitude, failing to maintain a constant bank angle, poor coordination, ineffective use of trim or power, inadequate airspeed control, becoming disoriented, relying on instruments instead of visual references, not scanning for traffic, starting recovery too early, and not stopping on the designated heading."
+            },
+            {
+              "id": "51880993-4e1d-46fd-8266-dd4eb1452acf",
+              "question": "How can I avoid losing or gaining altitude during the rollout?",
+              "answer": "Gradually reduce elevator back pressure, trim (if used), and power as needed while monitoring altitude and airspeed to keep them constant throughout the rollout."
+            },
+            {
+              "id": "c75cffbd-2d45-497b-8c9a-b0520b17df12",
+              "question": "What is the purpose of the steep spiral maneuver?",
+              "answer": "The steep spiral is used to rapidly lose a large amount of altitude while staying over a selected spot, which can be useful during an emergency landing."
+            },
+            {
+              "id": "1dfc88ef-f5f8-493f-a796-e6bebf33ac4f",
+              "question": "How many full turns must be completed in a steep spiral?",
+              "answer": "A steep spiral must include at least three 360° turns."
+            },
+            {
+              "id": "ed1c8ac8-a43c-4c1f-99b3-a22b2cb6856d",
+              "question": "What minimum altitude should I have before starting a steep spiral?",
+              "answer": "Begin the maneuver at an altitude that will allow you to finish no lower than 1,500 feet above ground level (AGL)."
+            },
+            {
+              "id": "422e36d0-9244-4df0-b1fc-54fd292beb1c",
+              "question": "How low can the aircraft be when the steep spiral is completed?",
+              "answer": "The maneuver should conclude no lower than 1,500 feet AGL."
+            },
+            {
+              "id": "d537e722-b174-4077-907c-ff1da39da951",
+              "question": "How does a steep spiral differ from an emergency descent?",
+              "answer": "While both involve rapid altitude loss, a steep spiral maintains a constant radius around a surface reference point and is performed over a selected spot, whereas an emergency descent may not follow a circular path and typically uses different airspeed and aircraft configuration."
+            },
+            {
+              "id": "374173ae-d8db-4d54-a086-7d9de4a637ec",
+              "question": "What visual references should I use during a steep turn?",
+              "answer": "Use external visual references (such as the horizon or ground features) rather than relying solely on flight instruments to maintain orientation and heading."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "fe8c6ed5-3854-4d52-a467-9099fd98ca09",
+              "keyword": "steep turn",
+              "score": 0.98
+            },
+            {
+              "id": "9fab4290-3fbe-4cef-9523-b71c86b91256",
+              "keyword": "rollout",
+              "score": 0.95
+            },
+            {
+              "id": "53688bca-5084-436f-a599-67cee408482c",
+              "keyword": "bank angle",
+              "score": 0.93
+            },
+            {
+              "id": "d383f4e8-b309-407c-ace3-90ff69b8fd0f",
+              "keyword": "heading",
+              "score": 0.9
+            },
+            {
+              "id": "16fef3d9-4b0d-43be-b852-449c9800ba46",
+              "keyword": "altitude control",
+              "score": 0.88
+            },
+            {
+              "id": "6021bb57-d8a1-4f23-9710-5f68dec1d789",
+              "keyword": "airspeed control",
+              "score": 0.86
+            },
+            {
+              "id": "c02a8b6f-bd52-4d3a-abfc-45a9e385aa1e",
+              "keyword": "steep spiral",
+              "score": 0.94
+            },
+            {
+              "id": "fd2dcfa1-6ec7-4dad-ae8e-432e150d14e2",
+              "keyword": "emergency descent",
+              "score": 0.85
+            },
+            {
+              "id": "e5b9b865-f868-45c3-90e6-8a125078940e",
+              "keyword": "constant radius",
+              "score": 0.8
+            },
+            {
+              "id": "173937ff-0bcd-4e3e-adc0-eec6bf5300f7",
+              "keyword": "visual reference",
+              "score": 0.78
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "8d2b184f-9706-4810-be9d-b5c1386ea6d8",
+            "title": "Steep Turn Rollout Guidelines, Common Errors, and Steep Spiral Overview",
+            "long_summary": "The rollout from a steep turn should be timed so the wings become level when the aircraft reaches the heading from which the turn began. A practical rule of thumb is to start the rollout when the aircraft has turned half the bank angle in degrees before the target heading. For example, with a 60° bank entered on a 270° heading, begin rollout 30° later at 240°. During rollout, gradually reduce elevator back pressure, trim, and power as needed to keep altitude and airspeed constant.\n\nCommon errors in steep turns include:\n1. Failing to clear the area.\n2. Inadequate pitch control on entry or rollout.\n3. Gaining or losing altitude.\n4. Not maintaining a constant bank angle.\n5. Poor coordination of flight controls.\n6. Improper use of trim.\n7. Improper use of power.\n8. Inadequate airspeed control.\n9. Disorientation.\n10. Relying on instruments instead of visual references.\n11. Not scanning for other traffic.\n12. Starting recovery too early.\n13. Not stopping the turn on the designated heading.\n\nThe steep spiral is a maneuver designed to lose altitude quickly while staying over a selected ground point, useful in emergency landings. It is a gliding, descending turn that maintains a constant radius around a surface reference, similar to a turn‑around‑a‑point but with a rapid descent. The pilot must complete at least three full 360° turns, beginning at an altitude that ensures the aircraft remains at least 1,500 feet above ground level when the maneuver ends. Although it resembles an emergency descent, the steep spiral differs in purpose, airspeed, and aircraft configuration.",
+            "short_summary": "Steep turn rollout timing, errors, and steep spiral overview."
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "a9e17e96-7aee-4a9e-a8fc-c1fd8fa2eebf",
+              "classification": "Aviation Flight Training",
+              "score": 0.98
+            },
+            {
+              "id": "db43ebf6-0c23-42d5-b0af-03c1e57aef31",
+              "classification": "Aeronautical Maneuvers",
+              "score": 0.95
+            },
+            {
+              "id": "1b2d9337-a0b6-4bf4-8dfb-612779354ccf",
+              "classification": "Pilot Safety and Error Prevention",
+              "score": 0.92
+            },
+            {
+              "id": "06f4076d-6303-4f10-b7d8-c42dbff555aa",
+              "classification": "Emergency Descent Procedures",
+              "score": 0.85
+            },
+            {
+              "id": "2c2b1701-0b0c-4558-b65b-6f5f1cc46a09",
+              "classification": "Aircraft Operations",
+              "score": 0.8
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "f66ee77b-fa38-439d-a696-23923adfdb78",
+              "label": "AGL",
+              "type": "ACRONYM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": "36d48598-e21a-4a88-9977-1f7617a7471f",
+      "document_id": "36a080d2-4f7a-402e-b5c1-78bc21b47aec",
+      "title": "Page 7",
+      "context": "To aid in the performance of the lazy eight's symmetrical climbing/descending turns, the pilot selects prominent reference points on the natural horizon. The reference points selected should be at 45°, 90°, and 135° from the direction in which the maneuver is started for each 180° turn. With the general concept of climbing and descending turns grasped, specifics of the lazy eight can then be discussed.\n\nShown in Figure 10-4A, from level flight a gradual climbing turn is begun in the direction of the 45° reference point. The climbing turn should be planned and controlled so that the maximum pitch-up attitude is reached at the 45° point with an approximate bank angle of 15°. [Figure 10-4B] As the pitch attitude is raised, the airspeed decreases, which causes the rate of turn to increase. As such, the lazy eight should begin with a slow rate of roll as the combination of increasing pitch and increasing bank may cause the rate of turn to be so rapid that the 45° reference point will be reached before the highest pitch attitude is attained. At the 45° reference point, the pitch attitude should be at the maximum pitch-up selected for the maneuver while the bank angle is slowly increasing. Beyond the 45° reference point, the pitch-up attitude should begin to decrease slowly toward the horizon until the 90° reference point is reached where the pitch attitude passes through level.\n\nThe lazy eight requires substantial skill in coordinating the aileron and rudder; therefore, some discussion about coordination is warranted. As pilots understand, the purpose of the rudder is to maintain coordination; slipping or skidding is to be avoided. Pilots should remember that since the airspeed is still decreasing as the airplane is climbing, additional right rudder pressure should be applied to counteract left-turning tendencies, such as P-factor. As the airspeed decreases, right rudder pressure should be gradually applied to counteract yaw at the apex of the lazy eight in both the right and left turns; however, additional right rudder pressure is required when using right aileron control pressure. When displacing the ailerons for more lift on the left wing, left adverse yaw augments with the left-yawing P-factor in an attempt to yaw the nose to the left. In contrast, in left climbing turns or rolling to the left, the left yawing P-factor tends to cancel the effects of adverse yaw to the right; consequently, less right rudder pressure is required. These concepts can be difficult to remember; however, to simplify, rolling right at low airspeeds and high-power settings requires substantial right rudder pressures.\n\nAt the lazy eight's 90° reference point, the bank angle should also have reached its maximum angle of approximately 30°. [Figure 10-4C] The airspeed should be at its minimum, just about 5 to 10 knots above stall speed, with the airplane's pitch attitude passing through level flight. Coordinated flight at this point requires that, in some flight conditions, a slight amount of opposite aileron pressure may be required to prevent the wings from overbanking while maintaining rudder pressure to cancel the effects of left-turning tendencies.\n\nThe pilot should not hesitate at the 90° point but should continue to maneuver the airplane into a descending turn. The rollout from the bank should proceed slowly while the airplane's pitch attitude is allowed to decrease. When the airplane has turned 135°, the airplane should be in its lowest pitch attitude. [Figure 10-4D] Pilots should remember that the airplane's airspeed is increasing as the airplane's pitch attitude decreases; therefore, maintaining proper coordination will require a decrease in right rudder pressure. As the airplane approaches the 180° point, it is necessary to progressively relax rudder and aileron pressure while simultaneously raising pitch and roll to level flight. As the rollout is being accomplished, the pilot should note the amount of turn remaining and adjust the rate of rollout and pitch change so that the wings and nose are level at the original airspeed just as the 180° point is reached.\n\nUpon arriving at 180° point, a climbing turn should be started immediately in the opposite direction toward the preselected reference points to complete the second half of the lazy eight in the same manner as the first half. [Figure 10-4E]\n\nPower should be set so as not to enter the maneuver at an airspeed that would exceed manufacturer's recommendations, which is generally no greater than V<sub>A</sub> or V<sub>O</sub>. Power and bank angle have significant effect on the altitude gained or lost; if excess power is used for a given bank angle, altitude is gained at the completion of the maneuver; however, if insufficient power is used for a given bank angle, altitude is lost.\n\nCommon errors when performing lazy eights are:\n\n1. Not clearing the area\n2. Maneuver is not symmetrical across each 180°\n3. Inadequate or improper selection or use of 45°, 90°, 135° references\n4. Ineffective planning\n5. Gain or loss of altitude at each 180° point\n6. Poor control at the top of each climb segment resulting in the pitch rapidly falling through the horizon\n7. Airspeed or bank angle standards not met\n8. Control roughness\n9. Poor flight control coordination\n10. Stalling at any point during the maneuver\n11. Execution of a steep turn instead of a climbing maneuver\n12. Not scanning for other traffic during the maneuver\n13. Performing by reference to the flight instruments rather than visual references",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/FAA@crd.com/original_assets/Airplane Flying Handbook-[]-210-Chapter 10 Performance Maneuvers.pdf_chunks/Airplane Flying Handbook-[]-210-Chapter 10 Performance Maneuvers-chunked-files/Airplane Flying Handbook-[]-210-Chapter 10 Performance Maneuvers_page_7-7.pdf",
+        "sort_number": "70"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "8124497a-3b8e-480a-acd3-9cebaffffeb0",
+            "sentiment": "neutral",
+            "summary": "The text explains how to perform a lazy‑eight maneuver, detailing reference points, pitch, bank, rudder coordination, common errors, and power considerations.",
+            "score": 0.96
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "5cbc9759-da88-41ec-8d1f-61c33600bad9",
+              "question": "What reference points are used for a lazy eight and at what angles are they located?",
+              "answer": "The pilot selects prominent visual reference points on the natural horizon at 45°, 90°, and 135° from the direction the maneuver is started for each 180° turn."
+            },
+            {
+              "id": "e46af1f8-ff1a-42ad-a443-ee326b804ae6",
+              "question": "At which reference point should the maximum pitch‑up attitude be reached and what is the typical bank angle there?",
+              "answer": "The maximum pitch‑up attitude is reached at the 45° reference point, with an approximate bank angle of 15°."
+            },
+            {
+              "id": "df3a1c95-08bd-4e6b-995e-8c4bbda24a2d",
+              "question": "How does airspeed change during the climbing portion of the lazy eight and what effect does this have on the rate of turn?",
+              "answer": "As the pitch attitude is raised during the climb, airspeed decreases, which causes the rate of turn to increase."
+            },
+            {
+              "id": "79b2be71-1252-40f5-9ece-4146d5116c31",
+              "question": "What rudder pressure is required during the low‑speed, high‑power portion of the maneuver and why?",
+              "answer": "Right rudder pressure should be applied and increased as airspeed drops to counteract left‑turning tendencies such as P‑factor and adverse yaw, especially when using right aileron pressure."
+            },
+            {
+              "id": "97cd072e-10ab-4d34-ae90-d35908fe460c",
+              "question": "What bank angle and airspeed should be present at the 90° reference point?",
+              "answer": "At the 90° reference point the bank angle should have reached its maximum of about 30°, and the airspeed should be at its minimum—approximately 5 to 10 knots above stall speed."
+            },
+            {
+              "id": "5245d61d-cdb0-4b2b-b4da-0440894d97de",
+              "question": "How should the pilot roll out of the bank after the 90° point and what happens to pitch and airspeed?",
+              "answer": "The rollout from the bank should proceed slowly while the pitch attitude continues to decrease; as the airplane turns toward 135°, pitch reaches its lowest point and airspeed begins to increase, allowing the pilot to gradually reduce right rudder pressure."
+            },
+            {
+              "id": "e1376082-37d7-4003-bf4f-4a34b0fe9bc4",
+              "question": "How is power managed to avoid exceeding V_A or V_O during a lazy eight?",
+              "answer": "Power should be set so that the entry airspeed does not exceed the manufacturer’s recommended limits, generally no greater than V_A (maneuvering speed) or V_O (maximum structural cruising speed)."
+            },
+            {
+              "id": "378c691e-c8e6-4fb3-9399-5726ce699f75",
+              "question": "What are the most common errors pilots make when performing lazy eights?",
+              "answer": "Common errors include not clearing the area, lack of symmetry across each 180°, improper use of the 45°, 90°, and 135° references, ineffective planning, gaining or losing altitude at the 180° points, poor control at the top of the climb, not meeting airspeed or bank‑angle standards, control roughness, poor coordination, stalling, executing a steep turn instead of a climbing turn, not scanning for traffic, and relying on instruments rather than visual references."
+            },
+            {
+              "id": "2ee15f1a-5614-4c43-9de1-170cb089c702",
+              "question": "How can a pilot ensure the maneuver remains symmetrical across each 180° segment?",
+              "answer": "By using the pre‑selected 45°, 90°, and 135° visual reference points for both halves of the maneuver, maintaining consistent pitch and bank profiles, and monitoring that altitude, airspeed, and roll are the same at each 180° point."
+            },
+            {
+              "id": "08ff2021-1e93-4e19-a6b1-8b506bd53668",
+              "question": "Why is it important to scan for other traffic and use visual references rather than only flight instruments during a lazy eight?",
+              "answer": "Scanning for traffic ensures the area is clear, which is a safety requirement, and using visual references helps maintain the correct geometry of the maneuver; relying solely on instruments can lead to loss of situational awareness and errors in symmetry."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "7a3375ee-4151-4030-ba98-4a6a152290fe",
+              "keyword": "lazy eight",
+              "score": 0.98
+            },
+            {
+              "id": "0f284502-b73b-492a-b77c-44de09b22e7f",
+              "keyword": "climbing turn",
+              "score": 0.95
+            },
+            {
+              "id": "1a5bdb34-eb02-4b82-a914-27716e58af9e",
+              "keyword": "descending turn",
+              "score": 0.94
+            },
+            {
+              "id": "45c110d6-2ff2-4acf-86b3-e3bc988f41e2",
+              "keyword": "reference points 45° 90° 135°",
+              "score": 0.93
+            },
+            {
+              "id": "cbde4958-b1e2-4a81-a8de-33021906953e",
+              "keyword": "bank angle",
+              "score": 0.92
+            },
+            {
+              "id": "d8d9623d-4edd-4d20-a597-9c2fd3ebb2db",
+              "keyword": "pitch attitude",
+              "score": 0.91
+            },
+            {
+              "id": "3d7765ce-d293-46fc-91a5-0ae238738b50",
+              "keyword": "rudder coordination",
+              "score": 0.9
+            },
+            {
+              "id": "3ca52a98-4727-46d9-80c2-5fa3b11c263e",
+              "keyword": "airspeed",
+              "score": 0.89
+            },
+            {
+              "id": "c9991092-d2e4-43fa-be2e-fcb6c9b21135",
+              "keyword": "stall speed",
+              "score": 0.88
+            },
+            {
+              "id": "c6fecdea-d68b-43df-98c6-678834fe7e94",
+              "keyword": "P-factor",
+              "score": 0.87
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "b392baab-5dd2-4633-bfe9-24c90a47bea9",
+            "title": "Lazy Eight Maneuver: Execution and Common Errors",
+            "long_summary": "The lazy eight is a symmetrical climbing‑and‑descending turn that relies on visual reference points set at 45°, 90°, and 135° from the start direction for each 180° segment. From level flight, the pilot initiates a gradual climbing turn toward the 45° point, aiming for the maximum pitch‑up attitude and a bank of about 15° at that point. As pitch increases, airspeed drops, causing the turn rate to rise; therefore, roll input must be kept slow to avoid overshooting the reference point before reaching the desired pitch.\n\nAt the 45° point the aircraft should be at its highest pitch‑up while the bank continues to increase. By the 90° point the bank reaches its maximum (≈30°), airspeed is near stall (5‑10 kt above), and the pitch passes through level. Precise aileron‑rudder coordination is essential: decreasing airspeed and high power create left‑turning tendencies (P‑factor), requiring right rudder pressure, especially when rolling right. Conversely, left rolls may need less right rudder because left‑turning P‑factor can offset adverse yaw.\n\nAfter the 90° point the pilot rolls out slowly, allowing pitch to fall and airspeed to rise. At 135° the aircraft is at its lowest pitch; rudder pressure is reduced as speed increases. Approaching the 180° point, the pilot relaxes aileron and rudder while raising pitch and roll to return to level flight at the original airspeed. The maneuver then repeats in the opposite direction.\n\nPower settings must stay within manufacturer limits (no higher than VA or VO) to avoid altitude gain or loss. Common errors include inadequate area clearance, asymmetry, improper reference use, altitude deviation at 180° points, failure to maintain airspeed or bank standards, rough control, poor coordination, stalling, steep‑turn execution, and lack of traffic scanning.",
+            "short_summary": "Guidelines for executing a coordinated lazy‑eight maneuver."
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "5b0bd829-9bfa-49ad-b0d5-c775eaa9e285",
+              "classification": "Aviation",
+              "score": 0.98
+            },
+            {
+              "id": "c3c09a08-3bf9-4deb-a2f8-6991df3199d3",
+              "classification": "Flight Training",
+              "score": 0.96
+            },
+            {
+              "id": "9a24404f-f861-4370-bb5f-588c41f1e64c",
+              "classification": "Aircraft Maneuvers",
+              "score": 0.97
+            },
+            {
+              "id": "250c5bfb-14dd-46f1-aeed-a1df8d2ad5b8",
+              "classification": "Aerodynamics",
+              "score": 0.9
+            },
+            {
+              "id": "e37d1535-cd0e-4436-938a-aeaf740be731",
+              "classification": "Safety Procedures",
+              "score": 0.85
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "f368a6b8-0cea-45c9-9b14-a4ae958b3b1e",
+              "label": "V_A",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "ecc8be0b-d66a-4887-b174-0a1f59c234b9",
+              "label": "V_O",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "9b74349b-9f55-4311-9cc3-a0a3cb2c892f",
+              "label": "P‑factor",
+              "type": "ACRONYM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": "64a83e4f-b021-4429-8ec5-6322c49cd363",
+      "document_id": "36a080d2-4f7a-402e-b5c1-78bc21b47aec",
+      "title": "Page 5",
+      "context": "1. Complete rollout to wings-level at 180° point\n2. Airspeed V<sub>s1</sub>\n3. Maintain coordinated flight\n4. Hold airspeed without stalling\n1. Continue smooth rollout\n2. Hold pitch\n3. Maintain coordinated flight\n1. Maintain 30° bank until this point and then begin gradual rollout.\n2. Maximum pitch should be reached. No further changes in pitch\n1. Clear area\n2. V<sub>A</sub>, V<sub>O</sub>, or manufacturer's recommended speed\n3. No lower than 1,500 feet AGL\n4. Trim\n1. Roll into 30° bank\n2. Neutralize ailerons\n3. Begin increasing pitch toward climbing attitude\n4. Apply full power without exceeding limits\n5. Increase rudder pressure",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/FAA@crd.com/original_assets/Airplane Flying Handbook-[]-210-Chapter 10 Performance Maneuvers.pdf_chunks/Airplane Flying Handbook-[]-210-Chapter 10 Performance Maneuvers-chunked-files/Airplane Flying Handbook-[]-210-Chapter 10 Performance Maneuvers_page_5-5.pdf",
+        "sort_number": "50"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "92e43e63-ff1b-493b-adee-b10e465f07f4",
+            "sentiment": "neutral",
+            "summary": "Procedural steps for aircraft rollout, pitch control, bank angles, speed limits, and power application during various flight maneuvers.",
+            "score": 0.98
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "8fd74963-1522-48bb-b658-5ad2c12a45cc",
+              "question": "What is the target bank angle before beginning the rollout?",
+              "answer": "Maintain a 30° bank until the designated point, then begin a gradual rollout to wings‑level."
+            },
+            {
+              "id": "95cfdbb5-8f1b-415e-a5bb-b079bdeadd4b",
+              "question": "At what point should the aircraft be rolled out to wings‑level?",
+              "answer": "Complete the rollout to wings‑level when the aircraft reaches the 180° point of the maneuver."
+            },
+            {
+              "id": "ddc76a65-26ae-4f4c-a3ec-321ad0e683b3",
+              "question": "Which airspeed should be maintained to avoid stalling during the maneuver?",
+              "answer": "Hold the airspeed at or above Vs1 (the stall speed) and do not let it drop below that value."
+            },
+            {
+              "id": "2896625b-e157-44e9-a573-91c63fa2459e",
+              "question": "What minimum altitude is required before performing this maneuver?",
+              "answer": "The maneuver must be performed at no lower than 1,500 feet above ground level (AGL)."
+            },
+            {
+              "id": "f2d618d2-5967-421e-87e3-4fe6cf0e18b6",
+              "question": "Which speeds are acceptable for initiating the maneuver?",
+              "answer": "Use V_A, V_O, or the aircraft manufacturer’s recommended speed as the reference speed."
+            },
+            {
+              "id": "43255a9e-b906-4fd4-9a63-22aca5608fdd",
+              "question": "How should coordinated flight be maintained throughout the procedure?",
+              "answer": "Keep the aircraft coordinated by applying appropriate rudder pressure and neutralizing ailerons as needed."
+            },
+            {
+              "id": "4d55a0da-bff4-4ec2-8298-72e284261c5c",
+              "question": "What actions are required after rolling into a 30° bank?",
+              "answer": "Neutralize the ailerons, begin increasing pitch toward a climbing attitude, and apply full power without exceeding limits."
+            },
+            {
+              "id": "9d9e2487-b3ef-4e4c-a236-fefeff75da07",
+              "question": "What is the maximum pitch attitude allowed during the maneuver?",
+              "answer": "Reach the maximum pitch required for the maneuver and then hold that pitch; no further pitch changes should be made."
+            },
+            {
+              "id": "84fd6672-0ca7-4ede-a3db-c409a061a62d",
+              "question": "When should trim be adjusted during the procedure?",
+              "answer": "Trim the aircraft after establishing the correct pitch and power settings to maintain a steady attitude."
+            },
+            {
+              "id": "85d81593-7604-4da9-ba92-e5a2e406922d",
+              "question": "What should be done if the area ahead is not clear?",
+              "answer": "Ensure the area is clear before initiating the maneuver; if it is not, delay the maneuver until it is safe."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "1d315098-50ce-48f5-ad44-feca3f27ff55",
+              "keyword": "complete rollout to wings-level",
+              "score": 0.98
+            },
+            {
+              "id": "e7744472-d395-4bff-b5a8-c1e64684f13a",
+              "keyword": "Airspeed V_s1",
+              "score": 0.97
+            },
+            {
+              "id": "dbfb5888-5373-4e55-a9a0-4e64b1d53be4",
+              "keyword": "coordinated flight",
+              "score": 0.96
+            },
+            {
+              "id": "bdbf4fe3-ecc3-4e73-a696-6c074b758072",
+              "keyword": "30° bank",
+              "score": 0.95
+            },
+            {
+              "id": "97e7614f-a0c0-4192-8211-8d098af28002",
+              "keyword": "maximum pitch",
+              "score": 0.94
+            },
+            {
+              "id": "a04f3150-69ee-454d-b2e0-36ac3c401637",
+              "keyword": "V_A",
+              "score": 0.93
+            },
+            {
+              "id": "4d48f524-86a7-4b1d-b3b7-d732ef1976d8",
+              "keyword": "1500 feet AGL",
+              "score": 0.92
+            },
+            {
+              "id": "a723064f-0235-4f8e-9c24-791b37b1cf6e",
+              "keyword": "trim",
+              "score": 0.91
+            },
+            {
+              "id": "0443d647-6479-4caa-9c17-8319e6688880",
+              "keyword": "neutralize ailerons",
+              "score": 0.9
+            },
+            {
+              "id": "84a3b5a8-57ae-4d6d-8bc0-96cf2fa0545d",
+              "keyword": "full power",
+              "score": 0.89
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "ef8925be-192e-4150-9dae-2971b0450edc",
+            "title": "Procedures for Aircraft Rollout, Bank, and Climb",
+            "long_summary": "The document outlines a series of flight‑maneuver procedures. First, the aircraft must complete a rollout to wings‑level at the 180° point while maintaining the stall‑speed margin (Vₛ₁), keeping coordinated flight, and holding airspeed without stalling. Next, the pilot should continue a smooth rollout, hold the pitch attitude, and maintain coordination. A 30° bank is to be held until a specified point, after which a gradual rollout begins; the maximum pitch should be reached and then held steady with no further pitch changes. Before executing these actions, the area must be clear, and the aircraft should be flown at Vₐ, Vₒ, or the manufacturer‑recommended speed, never lower than 1,500 feet above ground level, with proper trim applied. To initiate the maneuver, the pilot rolls into a 30° bank, neutralizes the ailerons, begins increasing pitch toward a climbing attitude, applies full power without exceeding limits, and adds rudder pressure as needed.",
+            "short_summary": "Coordinated rollout and climb steps"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "db2e4bc0-9692-4c67-a59b-40c37524750e",
+              "classification": "Aviation Procedures",
+              "score": 0.97
+            },
+            {
+              "id": "83f6bf4d-ca3f-4a4c-a88d-3ad9fae5046c",
+              "classification": "Pilot Training / Flight Instruction",
+              "score": 0.92
+            },
+            {
+              "id": "55b3749d-aecb-468a-a858-2ea484117cda",
+              "classification": "Aircraft Maneuvering",
+              "score": 0.88
+            },
+            {
+              "id": "6c1b3a20-45bd-4b0d-a7af-298f1dba34fa",
+              "classification": "Aircraft Performance Parameters",
+              "score": 0.81
+            },
+            {
+              "id": "6cd2d0bd-5b38-43b1-b793-d6ecfd7e0002",
+              "classification": "Aviation Safety Guidelines",
+              "score": 0.76
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "bc716d16-af4c-42aa-83f4-f97738b4decc",
+              "label": "V_s1",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "2e9a9bdf-d108-4f23-a490-4c979efd6f4b",
+              "label": "V_A",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "abdefba6-0882-46d0-ac62-44ff089b5ce7",
+              "label": "V_O",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "ce671abd-88b9-4bf5-a480-5d3bcce67291",
+              "label": "AGL",
+              "type": "ACRONYM"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

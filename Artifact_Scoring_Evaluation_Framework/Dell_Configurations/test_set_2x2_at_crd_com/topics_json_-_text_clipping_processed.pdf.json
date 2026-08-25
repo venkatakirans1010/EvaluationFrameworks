@@ -1,0 +1,185 @@
+{
+  "customer_id": "test_set_2x2@crd.com",
+  "document_id": "5536afb0-6d7b-4c3f-818a-970594e7ac88",
+  "document_name": "text_clipping_processed.pdf",
+  "organization_name": "Booz Allen",
+  "account_name": "Default Account",
+  "application_name": "Booz Allen AI Atomization Service",
+  "vpub_name": "Default VPUB",
+  "topics": [
+    {
+      "topic_id": "bfb84234-3c6e-4a6c-8afb-aa1d17c6b50f",
+      "document_id": "5536afb0-6d7b-4c3f-818a-970594e7ac88",
+      "title": "Page 1",
+      "context": "<div>\n<p>Fill text</p>\n<p>Stroke text</p>\n<p>Fill, then stroke text</p>\n<p>Fill text and add to path for clipping</p>\n<p>Stroke text and add to path for clipping</p>\n<p>Fill, then stroke text and add to path for clipping</p>\n<p>Add text to path for clipping</p>\n<p>HTML Fill text</p>\n<p>HTML Stroke text</p>\n<p>HTML Fill, then stroke text</p>\n</div>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/test_set_2x2@crd.com/original_assets/text_clipping_processed.pdf_chunks/text_clipping_processed-chunked-files/text_clipping_processed_page_1-1.pdf",
+        "sort_number": "10"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "96b854db-d8c9-4a78-898d-2e39398b613b",
+            "sentiment": "neutral",
+            "summary": "List of text rendering actions.",
+            "score": 0.92
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "68d3280a-1d21-4b9d-93dd-5b0cdaa1bdc2",
+              "question": "¿Qué ocurre con \"Stroke text and add to path for clipping\"?",
+              "answer": "Traza el contorno del texto y lo añade a una ruta para recorte."
+            },
+            {
+              "id": "af7e9483-408e-449c-b1aa-4b97782f32e1",
+              "question": "¿Qué hace \"Fill, then stroke text and add to path for clipping\"?",
+              "answer": "Rellena el texto, dibuja su contorno y lo añade a una ruta para recorte."
+            },
+            {
+              "id": "bd54d97b-a1d9-4bd2-bc18-69a132fede01",
+              "question": "¿Qué significa \"Add text to path for clipping\"?",
+              "answer": "Añade el texto a una ruta que se puede usar para recortar."
+            },
+            {
+              "id": "27123228-969b-417a-a748-305befb68852",
+              "question": "¿Qué es \"HTML Fill text\"?",
+              "answer": "Rellena el texto dentro de un contexto HTML."
+            },
+            {
+              "id": "09471209-ca57-413e-ac5a-5ef618dc7e3f",
+              "question": "¿Qué significa \"Fill text\"?",
+              "answer": "Se refiere a rellenar el texto con color."
+            },
+            {
+              "id": "d6083efe-bb53-4c53-9912-9b9141d96ff8",
+              "question": "¿Qué implica \"Stroke text\"?",
+              "answer": "Se refiere a trazar el contorno del texto."
+            },
+            {
+              "id": "274c420a-e1ee-4fee-8b6c-c02ad37e699c",
+              "question": "¿Cuál es la diferencia entre \"Fill text\" y \"Stroke text\"?",
+              "answer": "El primero rellena el interior del texto, mientras que el segundo dibuja solo el borde."
+            },
+            {
+              "id": "6fbb6d3a-e8ff-4f8b-acbd-c66da312cf55",
+              "question": "¿Qué hace \"Fill, then stroke text\"?",
+              "answer": "Primero rellena el texto y luego dibuja su contorno."
+            },
+            {
+              "id": "c6b5691a-ccc8-49b3-86f4-b318b2ada32f",
+              "question": "¿Para qué sirve \"Fill text and add to path for clipping\"?",
+              "answer": "Rellena el texto y lo añade a una ruta que se puede usar para recortar."
+            },
+            {
+              "id": "0f1749ba-0f5d-42a1-a0f1-e6b2612eb357",
+              "question": "¿Qué implica \"HTML Stroke text\" y \"HTML Fill, then stroke text\"?",
+              "answer": "El primero dibuja solo el contorno del texto en HTML, y el segundo rellena el texto y luego dibuja su contorno en HTML."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "0068a5a5-cb79-471c-b44c-ee91e16e5bea",
+              "keyword": "Fill, then stroke text",
+              "score": 0.95
+            },
+            {
+              "id": "e505a0f8-a2f2-4f0c-8618-8c5c0109f93e",
+              "keyword": "Fill text",
+              "score": 0.9
+            },
+            {
+              "id": "0244ecf0-2ba5-4b71-96e6-13b8ec5b1426",
+              "keyword": "Stroke text",
+              "score": 0.9
+            },
+            {
+              "id": "25cc9c25-691a-4658-abf8-6158be4e7c82",
+              "keyword": "Fill text and add to path for clipping",
+              "score": 0.9
+            },
+            {
+              "id": "e9af6fa5-3c72-496e-94ce-81e937abcc1b",
+              "keyword": "Stroke text and add to path for clipping",
+              "score": 0.9
+            },
+            {
+              "id": "0e74753b-4dcd-4e41-9eaf-ac80f08c1ce6",
+              "keyword": "Fill, then stroke text and add to path for clipping",
+              "score": 0.9
+            },
+            {
+              "id": "e733f65e-9205-4cab-98fd-bb67f1d17dd3",
+              "keyword": "Add text to path for clipping",
+              "score": 0.9
+            },
+            {
+              "id": "a0334b82-37f3-4351-86f5-2602de224e47",
+              "keyword": "HTML Fill text",
+              "score": 0.9
+            },
+            {
+              "id": "4b692a5e-2068-4ba2-9842-7df4b32c7ba1",
+              "keyword": "HTML Stroke text",
+              "score": 0.9
+            },
+            {
+              "id": "e1a6e60d-e88c-4bca-9b01-b47da147e249",
+              "keyword": "HTML Fill, then stroke text",
+              "score": 0.9
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "0ec31ad5-e9a9-4321-a9cc-2195fceb27a9",
+            "title": "Text Rendering Options",
+            "long_summary": "The provided content lists a series of text rendering techniques commonly used in graphics or web development. Each line describes a distinct operation:\n\n1. **Fill text** – Renders text by filling its interior with a color or pattern.\n2. **Stroke text** – Outlines the text shape with a stroke, leaving the interior transparent.\n3. **Fill, then stroke text** – First fills the text, then applies a stroke around it, combining both effects.\n4. **Fill text and add to path for clipping** – Fills the text and uses the resulting shape as a clipping path, restricting subsequent drawing to the text area.\n5. **Stroke text and add to path for clipping** – Uses the stroked outline of the text as a clipping path.\n6. **Fill, then stroke text and add to path for clipping** – Fills and strokes the text, then uses the combined shape as a clipping path.\n7. **Add text to path for clipping** – Directly adds the text shape to the current path for clipping without filling or stroking.\n8. **HTML Fill text** – Applies a fill style to text within an HTML context.\n9. **HTML Stroke text** – Applies a stroke style to text within an HTML context.\n10. **HTML Fill, then stroke text** – Applies both fill and stroke styles to HTML text.\n\nThese operations illustrate how text can be manipulated for visual styling, masking, and compositing in both canvas-based graphics and HTML rendering environments.",
+            "short_summary": "Various methods for filling, stroking, and clipping text"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "f24b5e93-5cda-4ba8-8afd-14285519fd92",
+              "classification": "Text Rendering",
+              "score": 0.99
+            },
+            {
+              "id": "e672e162-33ca-4e91-b325-b2eac391d7c5",
+              "classification": "Graphics Operations",
+              "score": 0.95
+            },
+            {
+              "id": "a4d41e86-2e2d-4cc5-bf54-e39f193f5bd8",
+              "classification": "Clipping Paths",
+              "score": 0.9
+            },
+            {
+              "id": "9269d987-a67f-4d86-ac84-ac9b15ffa5dc",
+              "classification": "HTML",
+              "score": 0.85
+            },
+            {
+              "id": "99d0dac1-bcfa-43fa-b348-c9666a543804",
+              "classification": "Canvas",
+              "score": 0.8
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "ce37830f-1154-4b0d-94ab-c08348e14c73",
+              "label": "HTML",
+              "type": "ACRONYM"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

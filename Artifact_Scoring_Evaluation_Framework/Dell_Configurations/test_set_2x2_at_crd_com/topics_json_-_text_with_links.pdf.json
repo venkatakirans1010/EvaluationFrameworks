@@ -1,0 +1,134 @@
+{
+  "customer_id": "test_set_2x2@crd.com",
+  "document_id": "240cb249-0f6c-4915-be43-c6856707f2a5",
+  "document_name": "Text_With_Links.pdf",
+  "organization_name": "Booz Allen",
+  "account_name": "Default Account",
+  "application_name": "Booz Allen AI Atomization Service",
+  "vpub_name": "Default VPUB",
+  "topics": [
+    {
+      "topic_id": "d3bed2be-f545-4c23-ae14-abc8512558dd",
+      "document_id": "240cb249-0f6c-4915-be43-c6856707f2a5",
+      "title": "Page 1",
+      "context": "Books I'd like to read that are on Project Gutenberg\n\n1. <u>Romeo And Juliet</u>\n2. <u>The Count Of Monte Cristo</u>\n3. <u>Metamorphosis</u>\n4. <u>The Picture of Dorian Gray</u>\n5. <u>Don Quixote</u>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/test_set_2x2@crd.com/original_assets/Text_With_Links.pdf_chunks/Text_With_Links-chunked-files/Text_With_Links_page_1-1.pdf",
+        "sort_number": "10"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "059db942-c043-444f-bd7e-d4ee6dad94e3",
+            "sentiment": "neutral",
+            "summary": "List of books I want to read from Project Gutenberg.",
+            "score": 0.92
+          }
+        },
+        {
+          "faqs": []
+        },
+        {
+          "keywords": [
+            {
+              "id": "693f30ad-8912-431a-bd2a-43598526857c",
+              "keyword": "Project Gutenberg",
+              "score": 0.95
+            },
+            {
+              "id": "53e72e09-5c8c-40c6-a825-06054921d9b0",
+              "keyword": "Romeo And Juliet",
+              "score": 0.99
+            },
+            {
+              "id": "57ea90d7-4931-4790-89ed-d377a4059b7a",
+              "keyword": "The Count Of Monte Cristo",
+              "score": 0.99
+            },
+            {
+              "id": "ba19e17d-8cc2-4412-854a-f950f47253c8",
+              "keyword": "Metamorphosis",
+              "score": 0.99
+            },
+            {
+              "id": "ca39411c-37d4-4018-a7d2-29b1287e2271",
+              "keyword": "The Picture of Dorian Gray",
+              "score": 0.99
+            },
+            {
+              "id": "577d72d9-b0fb-4a29-a94c-d6b2823bcaea",
+              "keyword": "Don Quixote",
+              "score": 0.99
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "35bd73bd-757f-49a8-a134-1ec92f145ee2",
+            "title": "Project Gutenberg Reading List",
+            "long_summary": "The user has compiled a concise reading list of five classic literary works that are freely available on Project Gutenberg. The titles include William Shakespeare’s *Romeo and Juliet*, Alexandre Dumas’s *The Count of Monte Cristo*, Franz Kafka’s *Metamorphosis*, Oscar Wilde’s *The Picture of Dorian Gray*, and Miguel de Cervantes’s *Don Quixote*. Each of these works is a cornerstone of world literature, spanning genres such as tragedy, adventure, existential novella, gothic novel, and picaresque satire. The list reflects a desire to explore diverse narrative styles and historical contexts, from the Elizabethan era to the 19th-century French Romantic period, early 20th-century modernism, Victorian gothic, and 17th-century Spanish satire. By choosing Project Gutenberg, the user can access these texts for free, ensuring easy and legal availability. This reading list offers a broad cultural and literary experience, encouraging the reader to engage with enduring themes of love, justice, identity, morality, and the human condition.",
+            "short_summary": "List of classic books to read"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "61742447-3a8f-4913-b70a-c678c1f00942",
+              "classification": "Literature",
+              "score": 0.99
+            },
+            {
+              "id": "2b4d2818-8536-4ac4-9beb-3fba3a56c032",
+              "classification": "Classic Literature",
+              "score": 0.98
+            },
+            {
+              "id": "0af9d7d2-e253-4a25-b707-dbb155369906",
+              "classification": "Reading List",
+              "score": 0.95
+            },
+            {
+              "id": "31b931dd-e4a4-4dfc-9f73-4efc78371ff9",
+              "classification": "Book Recommendations",
+              "score": 0.9
+            },
+            {
+              "id": "db20c28c-2627-4e26-be93-342cfa498a8a",
+              "classification": "Project Gutenberg",
+              "score": 0.85
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "58263c24-98e5-499d-a33f-e8f66c9ff49b",
+              "label": "Romeo And Juliet",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "13f97f5b-bd45-4e76-9246-03834fca8121",
+              "label": "The Count Of Monte Cristo",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "dcb6d062-a336-4635-8a59-0053d2b59c8f",
+              "label": "Metamorphosis",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "5154a132-1fb1-4ba7-ab9b-b23122d9bb5a",
+              "label": "The Picture of Dorian Gray",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "d7af8bcc-e2fb-4536-8f53-d1a02e212b7a",
+              "label": "Don Quixote",
+              "type": "PRODUCT"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

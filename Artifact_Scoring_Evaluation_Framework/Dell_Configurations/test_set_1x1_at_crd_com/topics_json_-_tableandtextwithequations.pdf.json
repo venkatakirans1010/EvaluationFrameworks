@@ -1,0 +1,128 @@
+{
+  "customer_id": "test_set_1x1@crd.com",
+  "document_id": "696274c2-af3a-4021-9132-460a2630c0eb",
+  "document_name": "TableAndTextWithEquations.pdf",
+  "organization_name": "Booz Allen",
+  "account_name": "Default Account",
+  "application_name": "Booz Allen AI Atomization Service",
+  "vpub_name": "Default VPUB",
+  "topics": [
+    {
+      "topic_id": "085cb480-739b-4a54-8893-0e8b5e1911fe",
+      "document_id": "696274c2-af3a-4021-9132-460a2630c0eb",
+      "title": "Page 1",
+      "context": "Table 1: Maximum path lengths, per-layer complexity and minimum number of sequential operations for different layer types. $n$ is the sequence length, $d$ is the representation dimension, $k$ is the kernel size of convolutions and $r$ the size of the neighborhood in restricted self-attention.\n<table><thead><tr><th>Layer Type</th><th>Complexity per Layer</th><th>Sequential Operations</th><th>Maximum Path Length</th></tr></thead><tbody><tr><td>Self-Attention</td><td>$O(n^2 \\cdot d)$</td><td>$O(1)$</td><td>$O(1)$</td></tr><tr><td>Recurrent</td><td>$O(n \\cdot d^2)$</td><td>$O(n)$</td><td>$O(n)$</td></tr><tr><td>Convolutional</td><td>$O(k \\cdot n \\cdot d^2)$</td><td>$O(1)$</td><td>$O(\\log_k(n))$</td></tr><tr><td>Self-Attention (restricted)</td><td>$O(r \\cdot n \\cdot d)$</td><td>$O(1)$</td><td>$O(n/r)$</td></tr></tbody></table>\n<h3>3.5 Positional Encoding</h3>\n<p>Since our model contains no recurrence and no convolution, in order for the model to make use of the order of the sequence, we must inject some information about the relative or absolute position of the tokens in the sequence. To this end, we add \"positional encodings\" to the input embeddings at the bottoms of the encoder and decoder stacks. The positional encodings have the same dimension $d_{\\text{model}}$ as the embeddings, so that the two can be summed. There are many choices of positional encodings, learned and fixed [9].</p>\n<p>In this work, we use sine and cosine functions of different frequencies:</p>\n<math display=\"block\">PE_{(pos,2i)} = \\sin(pos/10000^{2i/d_{\\text{model}}})</math>\n<math display=\"block\">PE_{(pos,2i+1)} = \\cos(pos/10000^{2i/d_{\\text{model}}})</math>\n<p>where $pos$ is the position and $i$ is the dimension. That is, each dimension of the positional encoding corresponds to a sinusoid. The wavelengths form a geometric progression from $2\\pi$ to $10000 \\cdot 2\\pi$. We chose this function because we hypothesized it would allow the model to easily learn to attend by relative positions, since for any fixed offset $k$, $PE_{pos+k}$ can be represented as a linear function of $PE_{pos}$.</p>\n<p>We also experimented with using learned positional embeddings [9] instead, and found that the two versions produced nearly identical results (see Table 3 row (E)). We chose the sinusoidal version because it may allow the model to extrapolate to sequence lengths longer than the ones encountered during training.</p>\n<h3>4 Why Self-Attention</h3>\n<p>In this section we compare various aspects of self-attention layers to the recurrent and convolutional layers commonly used for mapping one variable-length sequence of symbol representations $(x_1, \\dots, x_n)$ to another sequence of equal length $(z_1, \\dots, z_n)$, with $x_i, z_i \\in \\mathbb{R}^d$, such as a hidden layer in a typical sequence transduction encoder or decoder. Motivating our use of self-attention we consider three desiderata.</p>\n<p>One is the total computational complexity per layer. Another is the amount of computation that can be parallelized, as measured by the minimum number of sequential operations required.</p>\n<p>The third is the path length between long-range dependencies in the network. Learning long-range dependencies is a key challenge in many sequence transduction tasks. One key factor affecting the ability to learn such dependencies is the length of the paths forward and backward signals have to traverse in the network. The shorter these paths between any combination of positions in the input and output sequences, the easier it is to learn long-range dependencies [12]. Hence we also compare the maximum path length between any two input and output positions in networks composed of the different layer types.</p>\n<p>As noted in Table 1 a self-attention layer connects all positions with a constant number of sequentially executed operations, whereas a recurrent layer requires $O(n)$ sequential operations. In terms of computational complexity, self-attention layers are faster than recurrent layers when the sequence</p>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/test_set_1x1@crd.com/original_assets/TableAndTextWithEquations.pdf_chunks/TableAndTextWithEquations-chunked-files/TableAndTextWithEquations_page_1-1.pdf",
+        "sort_number": "10"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "be8c914d-7709-4f2e-ab02-6772f1d9e46e",
+            "sentiment": "neutral",
+            "summary": "The passage explains self‑attention layer complexity, positional encoding, and compares it to recurrent and convolutional layers, highlighting computational benefits and path length advantages.",
+            "score": 0.99
+          }
+        },
+        {
+          "faqs": []
+        },
+        {
+          "keywords": [
+            {
+              "id": "5eefda42-85c0-471d-a859-cbd79fb83eb8",
+              "keyword": "self-attention",
+              "score": 0.99
+            },
+            {
+              "id": "021ee0a9-c56c-4c4f-b5c9-fa5903040ed0",
+              "keyword": "recurrent",
+              "score": 0.95
+            },
+            {
+              "id": "462276a3-6836-4625-886a-ff6cae2aaa8a",
+              "keyword": "convolutional",
+              "score": 0.95
+            },
+            {
+              "id": "43f62060-d05a-417c-b52f-512af097bb3f",
+              "keyword": "positional encoding",
+              "score": 0.97
+            },
+            {
+              "id": "97b62698-4dc2-48d1-82f9-2f0be03ef201",
+              "keyword": "sequence length",
+              "score": 0.9
+            },
+            {
+              "id": "d7d70bdd-9e5c-4614-9594-08284eb57e43",
+              "keyword": "computational complexity",
+              "score": 0.88
+            },
+            {
+              "id": "35238219-11ba-48f9-a3c2-75ae11e26a64",
+              "keyword": "parallelization",
+              "score": 0.85
+            },
+            {
+              "id": "55affc25-15c5-401f-b32e-f9c4f90af756",
+              "keyword": "long-range dependencies",
+              "score": 0.92
+            },
+            {
+              "id": "46d47c83-dc4c-4f9c-ba6f-80960b0032b2",
+              "keyword": "attention mechanism",
+              "score": 0.93
+            },
+            {
+              "id": "bfde4339-2a45-4f2f-a03b-5fc5bd133a40",
+              "keyword": "sequence transduction",
+              "score": 0.87
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "13b7d72a-45c7-4d82-898e-268be1242b7f",
+            "title": "",
+            "long_summary": "",
+            "short_summary": ""
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "ac5a9676-fc29-469a-870c-443e91383603",
+              "classification": "Machine Learning",
+              "score": 0.99
+            },
+            {
+              "id": "bec3902b-fa02-476d-9618-9d3dfac61cca",
+              "classification": "Deep Learning",
+              "score": 0.98
+            },
+            {
+              "id": "736c2460-7157-4a44-9553-de4dbd6958ea",
+              "classification": "Natural Language Processing",
+              "score": 0.95
+            },
+            {
+              "id": "4ad4b950-3980-4cd0-8d31-a8647554cfd1",
+              "classification": "Computer Science - Algorithms",
+              "score": 0.9
+            },
+            {
+              "id": "433dc055-dbb4-4cc8-8b35-6b4a01dc30dc",
+              "classification": "Academic Research",
+              "score": 0.85
+            }
+          ]
+        },
+        {
+          "entities": []
+        }
+      ]
+    }
+  ]
+}

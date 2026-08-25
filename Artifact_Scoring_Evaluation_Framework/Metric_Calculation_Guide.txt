@@ -1,0 +1,322 @@
+# Metric Calculation Guide (Existing + New)
+
+This document explains how each metric is calculated, expected range, and what is considered ideal.
+
+---
+
+## 1) Shared Notation
+
+- `C` = reference/context text (ground truth markdown or topic context)
+- `T` = generated artifact text
+- `tok(X)` = tokenized lowercase words from text `X` using regex word split
+- `|X|` = token count of `X`
+- `set(X)` = unique token set
+
+### Core 1-5 mapping used by heuristic dimensions
+For raw score `r` in `[0,1]`:
+
+- `score_1_to_5 = 1 + 4*r`
+- Final value is rounded to 2 decimals.
+
+Ideal for these dimensions is close to `5.0`.
+
+---
+
+## 2) Previous (Existing) Metrics
+
+### 2.1 Faithfulness (1-5)
+- **How calculated**:
+  - `hallucination_rate = |set(T) \ set(C)| / max(1, |set(T)|)`
+  - `faithfulness_raw = 1 - hallucination_rate`
+  - mapped to 1-5 scale
+- **Range**: 1.0 to 5.0
+- **Ideal**: `5.0` (very low hallucination)
+- **Direction**: Higher is better
+
+### 2.2 Coverage (1-5)
+- **How calculated**:
+  - `coverage_raw = |set(C) ∩ set(T)| / max(1, |set(T)|)`
+  - mapped to 1-5 scale
+- **Range**: 1.0 to 5.0
+- **Ideal**: `5.0`
+- **Direction**: Higher is better
+
+### 2.3 Relevance (1-5)
+- **How calculated**:
+  - current implementation uses `coverage_raw` proxy
+  - mapped to 1-5 scale
+- **Range**: 1.0 to 5.0
+- **Ideal**: `5.0`
+- **Direction**: Higher is better
+
+### 2.4 Conciseness (1-5)
+- **How calculated**:
+  - `length_ratio = |T| / max(1, |C|)`
+  - raw score uses distance from target ratio `0.2`
+  - mapped to 1-5 scale
+- **Range**: 1.0 to 5.0
+- **Ideal**: `~5.0` when ratio near `0.20`
+- **Direction**: Higher is better (around target)
+
+### 2.5 Clarity (1-5)
+- **How calculated**:
+  - `avg_sentence_len = |T| / max(1, sentence_count(T))`
+  - raw score uses distance from target sentence length `18`
+  - mapped to 1-5 scale
+- **Range**: 1.0 to 5.0
+- **Ideal**: `~5.0` near avg sentence length of `18`
+- **Direction**: Higher is better (around target)
+
+### 2.6 Structure (1-5)
+- **How calculated**:
+  - if only one sentence: fixed raw score `0.5`
+  - else raw score based on distance from target sentence count `4`
+  - mapped to 1-5 scale
+- **Range**: 1.0 to 5.0
+- **Ideal**: around 3-6 sentences (best near target 4)
+- **Direction**: Higher is better
+
+### 2.7 Overall (1-5)
+- **How calculated**:
+  - median of six dimensions above
+- **Range**: 1.0 to 5.0
+- **Ideal**: `5.0`
+- **Direction**: Higher is better
+
+### 2.8 Heuristic Quality Label
+- **How calculated**:
+  - `Excellent`: Overall >= 4.5 and min dimension >= 4
+  - `Acceptable`: Overall >= 4.0 and min dimension >= 3
+  - `Needs review`: Overall < 3.0 or min dimension <= 2
+  - `Mixed`: all other cases
+- **Ideal**: `Excellent`
+
+---
+
+## 3) Newly Added Summary Metrics
+
+### 3.1 ROUGE-1
+- **How calculated (current implementation)**:
+  - token-count overlap recall approximation
+  - `ROUGE-1 = overlap_unigrams(T, C) / max(1, |tok(C)|)`
+- **Range**: 0 to 1
+- **Ideal**: closer to `1.0`
+- **Direction**: Higher is better
+
+### 3.2 ROUGE-L
+- **How calculated (current implementation)**:
+  - LCS recall approximation
+  - `ROUGE-L = LCS(tok(T), tok(C)) / max(1, |tok(C)|)`
+- **Range**: 0 to 1
+- **Ideal**: closer to `1.0`
+- **Direction**: Higher is better
+
+### 3.3 BERTScore (optional)
+- **How calculated**:
+  - semantic F1 via `bert-score` package if available
+- **Range**: typically 0 to 1
+- **Ideal**: closer to `1.0`
+- **Direction**: Higher is better
+- **Note**: returns `N/A` if package not installed or runtime fails
+
+### 3.4 Compression Ratio
+- **How calculated**:
+  - `Compression_Ratio = |tok(T)| / max(1, |tok(C)|)`
+- **Range**: >= 0
+- **Ideal**: task-dependent; for summary workflows often around `0.15 - 0.35`
+- **Direction**: Lower means more compressed; too low may under-summarize
+
+### 3.5 TF-IDF Overlap (Summary)
+- **How calculated**:
+  - cosine similarity of TF-IDF vectors (if sklearn available)
+  - fallback: token-set overlap proxy
+- **Range**: 0 to 1 (in current implementation)
+- **Ideal**: closer to `1.0`
+- **Direction**: Higher is better
+
+---
+
+## 4) Newly Added FAQ Metrics
+
+### 4.1 Question Relevance
+- **How calculated**:
+  - parse FAQ as `Q: ... A: ...`
+  - median TF-IDF similarity between each question and context
+- **Range**: 0 to 1
+- **Ideal**: closer to `1.0`
+- **Direction**: Higher is better
+
+### 4.2 Answer Correctness
+- **How calculated**:
+  - median TF-IDF similarity between each answer and context
+- **Range**: 0 to 1
+- **Ideal**: closer to `1.0`
+- **Direction**: Higher is better
+
+### 4.3 Redundancy Score
+- **How calculated**:
+  - median pairwise Jaccard similarity across FAQ Q+A texts (bounded sample in implementation)
+- **Range**: 0 to 1
+- **Ideal**: closer to `0.0` (less repetition)
+- **Direction**: Lower is better
+
+---
+
+## 5) Newly Added Keyword Metrics
+
+`K` is from sidebar control `Keyword Top-K`.
+
+### 5.1 Precision@K
+- **How calculated**:
+  - top K predicted keywords are checked against context token set
+  - `Precision@K = matched_keywords_in_top_k / K`
+- **Range**: 0 to 1
+- **Ideal**: closer to `1.0`
+- **Direction**: Higher is better
+
+### 5.2 Recall@K
+- **How calculated (current proxy)**:
+  - build reference top-K frequent terms from context
+  - `Recall@K = overlap(pred_top_k, ref_top_k) / max(1, |ref_top_k|)`
+- **Range**: 0 to 1
+- **Ideal**: closer to `1.0`
+- **Direction**: Higher is better
+
+### 5.3 TF-IDF Overlap (Keywords)
+- **How calculated**:
+  - TF-IDF similarity between context text and joined predicted keyword list
+  - sklearn cosine similarity or fallback overlap proxy
+- **Range**: 0 to 1
+- **Ideal**: closer to `1.0`
+- **Direction**: Higher is better
+
+---
+
+## 6) Newly Added Entity Metrics
+
+### 6.1 NER F1
+- **How calculated (target behavior)**:
+  - `F1 = 2 * (Precision * Recall) / (Precision + Recall)`
+  - requires labeled entity references
+- **Range**: 0 to 1
+- **Ideal**: closer to `1.0`
+- **Direction**: Higher is better
+- **Current status in app**: `N/A` when labels are not provided
+
+### 6.2 Entity Linking Accuracy
+- **How calculated (target behavior)**:
+  - `correct_entity_links / total_entities`
+  - requires expected entity link/ID targets
+- **Range**: 0 to 1
+- **Ideal**: closer to `1.0`
+- **Direction**: Higher is better
+- **Current status in app**: `N/A` when linking ground truth is unavailable
+
+---
+
+## 7) Newly Added Classification Metrics
+
+### 7.1 Accuracy
+- **How calculated (target behavior)**:
+  - `correct_predictions / total_predictions`
+- **Range**: 0 to 1
+- **Ideal**: closer to `1.0`
+- **Direction**: Higher is better
+- **Current status in app**: `N/A` without true labels
+
+### 7.2 Precision
+- **How calculated (target behavior)**:
+  - `TP / (TP + FP)`
+- **Range**: 0 to 1
+- **Ideal**: closer to `1.0`
+- **Direction**: Higher is better
+- **Current status in app**: `N/A` without true labels
+
+### 7.3 Recall
+- **How calculated (target behavior)**:
+  - `TP / (TP + FN)`
+- **Range**: 0 to 1
+- **Ideal**: closer to `1.0`
+- **Direction**: Higher is better
+- **Current status in app**: `N/A` without true labels
+
+### 7.4 F1
+- **How calculated (target behavior)**:
+  - `2 * (Precision * Recall) / (Precision + Recall)`
+- **Range**: 0 to 1
+- **Ideal**: closer to `1.0`
+- **Direction**: Higher is better
+- **Current status in app**: `N/A` without true labels
+
+### 7.5 Confusion Matrix
+- **How calculated (target behavior)**:
+  - matrix of true label vs predicted label counts
+- **Range**: not a scalar score
+- **Ideal**: largest values on diagonal, minimal off-diagonal values
+- **Current status in app**: `N/A` without true labels
+
+---
+
+## 8) Newly Added Sentiment Metrics
+
+Sentiment metrics evaluate the quality of generated sentiment analysis. Non-English sentiment content is automatically ignored 
+to prevent false quality signals from multi-lingual context contamination.
+
+### 8.1 Sentiment_Language
+- **How calculated**:
+  - Uses `langdetect` to identify the language of sentiment summary
+  - If primary language is NOT English, the sentiment is marked as "Ignored" with the detected language
+  - If sentiment contains multiple languages, shows "Partially Ignored" with counts
+  - If no sentiment data, shows "No Sentiment Data"
+  - If English, shows "English"
+- **Values**: String status (English, Ignored (Language Name), Partially Ignored (...), No Sentiment Data)
+- **Ideal**: "English" indicates content in English (eligible for quality evaluation)
+- **Direction**: Ignore non-English; only evaluate English sentiment to maintain consistency
+
+### 8.2 Sentiment_Score_Validity
+- **How calculated**:
+  - Check if sentiment score is within valid range [0.0, 1.0]
+  - Returns 1.0 if score is valid, 0.5 if outside range (partially valid), 0.0 if missing/invalid
+  - Median across all sentiments in a topic
+- **Range**: 0.0 to 1.0
+- **Ideal**: 1.0 (all scores within valid range)
+- **Direction**: Higher is better
+
+### 8.3 Sentiment_Summary_Relevance
+- **How calculated**:
+  - Calculate TF-IDF overlap between sentiment summary and reference context
+  - Similar to other content relevance metrics in framework
+  - Median across all sentiments in a topic
+  - Only evaluated for English-language sentiments
+- **Range**: 0.0 to 1.0
+- **Ideal**: closer to 1.0 (sentiment summary is relevant to context)
+- **Direction**: Higher is better
+
+### 8.4 Sentiment_Count
+- **How calculated**:
+  - Count of sentiment entries found in generated artifacts per topic
+  - Simple count metric, not a quality measure
+- **Range**: >= 0 (integer)
+- **Ideal**: task-dependent; indicates whether sentiments are being generated
+- **Direction**: Higher indicates more sentiment analysis, but doesn't reflect quality
+
+---
+
+## 9) Practical Interpretation Cheat Sheet
+
+- For all 1-5 heuristic dimensions: target is **high** (close to 5)
+- For overlap/similarity metrics (ROUGE, TF-IDF, BERTScore, PR/Recall/F1/Accuracy, Sentiment_Summary_Relevance): target is **high** (close to 1)
+- For Redundancy Score: target is **low** (close to 0)
+- For Compression Ratio: target is **balanced** (not necessarily max/min; depends on summarization objective)
+- For Sentiment_Language: target is **"English"** (indicates content eligible for quality evaluation)
+- For Sentiment_Score_Validity: target is **high** (1.0 = all scores in valid range)
+
+---
+
+## 10) Why this matters
+
+Combining old + new metrics gives a fuller view:
+- old metrics: fast, broad quality triage
+- new metrics: task-specific, ranking-aware, and semantic/label-based diagnostics
+- sentiment metrics: understand emotional tone and content sentiment validity, with language-aware filtering for multi-lingual contexts
+- together: better root-cause analysis for quality regressions and comprehensive content quality assessment

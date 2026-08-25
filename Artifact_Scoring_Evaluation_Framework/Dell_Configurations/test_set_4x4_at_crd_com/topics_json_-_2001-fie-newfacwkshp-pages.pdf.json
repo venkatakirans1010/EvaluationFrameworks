@@ -1,0 +1,230 @@
+{
+  "customer_id": "test_set_4x4@crd.com",
+  "document_id": "559fff63-474c-44aa-96c9-5a7fc96e2970",
+  "document_name": "2001-FIE-NewFacWkshp-pages.pdf",
+  "organization_name": "Booz Allen",
+  "account_name": "Default Account",
+  "application_name": "Booz Allen AI Atomization Service",
+  "vpub_name": "Default VPUB",
+  "topics": [
+    {
+      "topic_id": "46c12d06-49e7-484e-b15c-d44a0d19a9b6",
+      "document_id": "559fff63-474c-44aa-96c9-5a7fc96e2970",
+      "title": "Page 1",
+      "context": "# NEW FACULTY 101: AN ORIENTATION TO THE PROFESSION\n\nRebecca Brent<sup>1</sup>, Richard M. Felder<sup>2</sup>, Sarah A. Rajala<sup>3</sup>, John G. Gilligan<sup>4</sup>, Gordon Lee<sup>5</sup>\n\n## Abstract\n\n— In August 2000 the North Carolina State University College of Engineering with partial sponsorship from the SUCCEED Coalition organized and presented a one-week orientation workshop for new faculty members. The workshop goal was to equip new faculty members to become what Robert Boice calls \"quick starters,\" who meet or exceed their institution's expectations for both research productivity and teaching effectiveness in their first one to two years. Two days were devoted to research program startup and management, two to effective teaching, and the final morning to managing time, integrating into campus culture, and earning tenure and promotion. The participants were unanimously and overwhelmingly positive in their responses following the workshop, and their enthusiasm has continued at gatherings and in surveys in the months that followed. This paper describes the workshop content and activities, summarizes follow-up support and assessment plans, and offers suggestions for planning and implementing similar programs.\n\n## Index Terms\n\n— Faculty development, new faculty, quick starters, workshop.\n\n## INTRODUCTION\n\nCollege teaching may be the only skilled profession that neither presumes experience nor routinely provides training to its novice practitioners. New faculty members at most universities have traditionally had to learn by themselves how to plan research projects, identify and cultivate funding sources, write proposals and get them funded, attract and supervise graduate students, and present their research results in an effective manner. They have also had to teach themselves how to devise stimulating lectures and rigorous but fair assignments and tests, how to motivate students to want to learn and how to make them active participants in the learning process, and how to help them develop critical problem-solving, communication, and teamwork skills. Perhaps hardest of all, they have had to figure out how to balance the competing time demands of teaching, research, and other professional and personal responsibilities. Learning all these things by trial and error usually takes years. Some new faculty members eventually learn them; others never do and either fail to earn tenure or spend their careers as unproductive researchers and/or ineffective teachers.\n\nIn the absence of systematic guidance, new faculty make common mistakes that lead to low scholarly productivity, ineffective teaching, and high stress levels. In studies spanning a number of institutions and disciplines, Boice [1] found that most new faculty\n\n* give a high verbal priority to scholarly writing and research while spending relatively little time on them and having relatively little to show for the time they spend;\n* equate good teaching with correct content and use lecturing as the exclusive mode of instruction;\n* equate improving their teaching with improving their lecture notes;\n* spend up to 27 hours a week per course preparing for classes, put so much material into their lectures that they must rush to cover it all, and leave little time for interaction and discussion with students;\n* teach defensively to avoid student complaints but get low teaching evaluations anyway;\n* express a sense of isolation from their colleagues.\n\nIn consequence, most new professors take between four and five years to bring their research productivity and teaching effectiveness to a level that meets institutional standards.\n\nThere were notable exceptions, however. Roughly 10% of Boice's subjects managed to meet or exceed expectations for both research and teaching within their first two years. These quick starters did several things differently from their colleagues, including\n\n* scheduling regular time for writing (usually daily) and produced enough to meet or exceed their university's expectations;\n* integrating their research into their lectures, conveying a sense of excitement about the field to their students;\n* teaching at a slower pace, leaving more time for student questions and interactions;\n* limiting course preparation time after the first offering to less than 1.5 hours of preparation for each hour of lecture, thereby freeing time for writing, research, and networking; and\n* networking with colleagues 2-4 hours each week, forming connections that helped them with both\n\n<sup>1</sup>Rebecca Brent, North Carolina State University, College of Engineering, Raleigh, NC 27695, rbrent@mindspring.com<br/>\n<sup>2</sup>Richard M. Felder, North Carolina State University, Chemical Engineering, Raleigh, NC 27695, rmfelder@mindspring.com<br/>\n<sup>3</sup>Sarah A. Rajala, North Carolina State University, College of Engineering, Raleigh, NC 27695, sar@eos.ncsu.edu<br/>\n<sup>4</sup>John G. Gilligan, North Carolina State University, College of Engineering, Raleigh, NC 27695, john_gilligan@ncsu.edu<br/>\n<sup>5</sup>Gordon Lee, San Diego State University, College of Engineering, San Diego, CA, glee@kahuna.sdsu.edu\n\n0-7803-6669-7/01/$10.00 © 2001 IEEE\n\n31<sup>st</sup> ASEE/IEEE Frontiers in Education Conference\n\nOctober 10 - 13, 2001 Reno, NV",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/test_set_4x4@crd.com/original_assets/2001-FIE-NewFacWkshp-pages.pdf_chunks/2001-FIE-NewFacWkshp-pages-chunked-files/2001-FIE-NewFacWkshp-pages_page_1-1.pdf",
+        "sort_number": "10"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "e189230e-020c-4e70-8552-64068c86c0a3",
+            "sentiment": "positive",
+            "summary": "Workshop for new faculty equips them to become quick starters, covering research, teaching, time management, with positive participant feedback.",
+            "score": 0.92
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "5042875b-1513-45c7-9c06-45cd6240be85",
+              "question": "¿Cuál fue el objetivo principal del taller de orientación de una semana para nuevos profesores en la Universidad Estatal de Carolina del Norte?",
+              "answer": "El objetivo era equipar a los nuevos profesores para que se convirtieran en \"quick starters\", es decir, que cumplieran o superaran las expectativas de su institución en productividad investigativa y efectividad docente en sus primeros uno o dos años."
+            },
+            {
+              "id": "3dce3a5d-766a-4cd3-9549-68357b57ba48",
+              "question": "¿Cómo se estructuró el taller en términos de días y temas?",
+              "answer": "Dos días se dedicaron al inicio y gestión de programas de investigación, dos días a la enseñanza efectiva y la mañana final a la gestión del tiempo, integración en la cultura del campus y la obtención de la titularidad y promoción."
+            },
+            {
+              "id": "4170de0e-38ae-421a-886f-701229afe7b8",
+              "question": "Según Boice, ¿qué características distinguen a los \"quick starters\"?",
+              "answer": "Los quick starters programan tiempo regular para escribir (usualmente diario), integran su investigación en las clases, enseñan a un ritmo más lento dejando tiempo para preguntas, reducen el tiempo de preparación después de la primera oferta a menos de 1.5 h por hora de clase y dedican 2‑4 h semanales a la red de contactos con colegas."
+            },
+            {
+              "id": "61e3c3aa-5c0c-44b6-ac8c-d44dca6d2b7c",
+              "question": "¿Cuáles son los errores comunes que cometen los nuevos profesores según el estudio?",
+              "answer": "Deben dar alta prioridad verbal a la investigación pero dedicar poco tiempo real a ella, usar la conferencia como único método de enseñanza, pensar que mejorar la enseñanza significa mejorar las notas de la conferencia, dedicar hasta 27 h semanales a la preparación de clases, enseñar defensivamente para evitar quejas y sentirse aislados de sus colegas."
+            },
+            {
+              "id": "1b5b2400-0860-46a9-84e4-03f95b34d25b",
+              "question": "¿Cuánto tiempo suele tardar un nuevo profesor en alcanzar los estándares institucionales de productividad y efectividad docente?",
+              "answer": "La mayoría de los nuevos profesores tardan entre cuatro y cinco años en alcanzar los estándares institucionales."
+            },
+            {
+              "id": "0e87ec65-d40e-468c-b2cc-e281da10eb7b",
+              "question": "¿Cómo reaccionaron los participantes al taller?",
+              "answer": "Los participantes respondieron de manera unánime y abrumadoramente positiva al taller, y su entusiasmo continuó en reuniones y encuestas en los meses posteriores."
+            },
+            {
+              "id": "9eeb6468-7406-49b6-8cc7-1a0a4a51dd75",
+              "question": "¿Qué planes de seguimiento y evaluación se describen en el artículo?",
+              "answer": "El artículo resume los planes de apoyo y evaluación posteriores, aunque no detalla los procedimientos específicos; simplemente indica que se implementaron para continuar el desarrollo de los participantes."
+            },
+            {
+              "id": "cad073b0-9a86-426b-880b-06eae76f2fa8",
+              "question": "¿Qué sugerencias ofrece el artículo para planificar e implementar programas similares?",
+              "answer": "El artículo ofrece sugerencias para la planificación e implementación de programas similares, aunque no enumera cada detalle; se enfatiza la importancia de estructurar el taller en bloques de investigación, enseñanza y gestión del tiempo."
+            },
+            {
+              "id": "05cf5323-f28c-4824-9e04-e717626a0aab",
+              "question": "¿Qué papel juega la red de contactos en el éxito de los quick starters?",
+              "answer": "Los quick starters dedican entre 2 y 4 h semanales a la red de contactos con colegas, lo que les ayuda tanto en investigación como en enseñanza."
+            },
+            {
+              "id": "73ac45b7-e2ed-486c-9568-4a90a6e9dfc3",
+              "question": "¿Qué patrocinó parcialmente el taller de orientación?",
+              "answer": "El taller fue organizado con patrocinio parcial de la Coalición SUCCEED."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "14aafcfd-9a00-4a3b-9712-e0b332787bf9",
+              "keyword": "new faculty",
+              "score": 0.99
+            },
+            {
+              "id": "532f187b-d8dc-4428-861c-ad1ab64c0151",
+              "keyword": "quick starters",
+              "score": 0.98
+            },
+            {
+              "id": "39100f66-03d9-4252-b766-34e5ff30d4fe",
+              "keyword": "faculty development",
+              "score": 0.97
+            },
+            {
+              "id": "936ae28a-8ee1-43ad-980e-8b1390f8d2d9",
+              "keyword": "research productivity",
+              "score": 0.96
+            },
+            {
+              "id": "35e96f14-dba6-4c9c-ae3c-154039dbca72",
+              "keyword": "teaching effectiveness",
+              "score": 0.95
+            },
+            {
+              "id": "ccdbd580-083a-4371-910b-9b189dd626b7",
+              "keyword": "orientation workshop",
+              "score": 0.94
+            },
+            {
+              "id": "81e14bbd-e73a-47e0-bc49-33cbec07ddea",
+              "keyword": "time management",
+              "score": 0.93
+            },
+            {
+              "id": "8b15302b-5f22-4f65-9382-83663f279e75",
+              "keyword": "networking",
+              "score": 0.92
+            },
+            {
+              "id": "3a2f99e3-082c-4407-99c3-4202c3cb29ab",
+              "keyword": "research startup",
+              "score": 0.91
+            },
+            {
+              "id": "0b9a8f17-5489-4837-a891-60a4851325c3",
+              "keyword": "campus culture",
+              "score": 0.9
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "be6f3415-7861-4906-9064-75e05f488905",
+            "title": "One‑Week Faculty Orientation: Accelerating New Professors to Quick Starters",
+            "long_summary": "In August 2000, the North Carolina State University College of Engineering, with support from the SUCCEED Coalition, organized a one‑week orientation workshop for newly hired faculty. The goal was to help them become \"quick starters\"—professors who meet or exceed institutional expectations for research productivity and teaching effectiveness within their first one to two years. The program was structured into three main components: two days focused on launching and managing a research program, two days dedicated to effective teaching strategies, and a final morning covering time management, campus integration, and pathways to tenure and promotion. Participants reported overwhelmingly positive feedback immediately after the workshop, and their enthusiasm persisted in subsequent gatherings and surveys. The paper details the workshop content, activities, and follow‑up support mechanisms, and it evaluates the outcomes through participant surveys and ongoing assessment plans. It also highlights common pitfalls new faculty face—such as over‑emphasis on lecturing, inadequate time for writing, and isolation—and contrasts these with the practices of the 10% of faculty who become quick starters, including daily writing schedules, integration of research into teaching, efficient course preparation, and regular networking. The authors conclude by offering practical suggestions for other institutions wishing to implement similar orientation programs, emphasizing the importance of structured guidance, peer support, and continuous evaluation to accelerate new faculty success.",
+            "short_summary": "Workshop equips new faculty for rapid research and teaching success."
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "8c354fd0-24d6-40b9-b465-f9e8d36f7d93",
+              "classification": "Faculty Development",
+              "score": 0.99
+            },
+            {
+              "id": "61b09a66-2231-4929-8834-05255f5aea87",
+              "classification": "Higher Education",
+              "score": 0.95
+            },
+            {
+              "id": "448ee05a-35e7-40a3-8ad6-248d4e980a23",
+              "classification": "Teaching Methods",
+              "score": 0.9
+            },
+            {
+              "id": "1e3a78b3-4987-4a0d-81dd-efa7caac62f3",
+              "classification": "Academic Research",
+              "score": 0.85
+            },
+            {
+              "id": "bd529cd1-edbb-4afe-8f80-965d9ea070e8",
+              "classification": "Professional Development Workshops",
+              "score": 0.8
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "5923e5e4-5532-4022-931d-66264c04c45d",
+              "label": "Rebecca Brent",
+              "type": "PERSON"
+            },
+            {
+              "id": "fbd7a4a6-5050-4e04-a8cb-0ae3bf4cc4ab",
+              "label": "Richard M. Felder",
+              "type": "PERSON"
+            },
+            {
+              "id": "08e89898-617a-4973-b0e0-e4f614dae19d",
+              "label": "Sarah A. Rajala",
+              "type": "PERSON"
+            },
+            {
+              "id": "076118f2-145b-43ac-8702-7917a41235a0",
+              "label": "John G. Gilligan",
+              "type": "PERSON"
+            },
+            {
+              "id": "ada2507b-bd71-4a7c-bf38-f348ced1b1f6",
+              "label": "Gordon Lee",
+              "type": "PERSON"
+            },
+            {
+              "id": "b861d704-cb5e-404f-9975-434a3249c4cb",
+              "label": "North Carolina State University",
+              "type": "ORGANIZATION"
+            },
+            {
+              "id": "8c5a3b92-e0cf-4541-98ba-b69c16e00401",
+              "label": "College of Engineering",
+              "type": "ORGANIZATION"
+            },
+            {
+              "id": "89e36f02-0026-4c0c-8181-dba778076533",
+              "label": "IEEE",
+              "type": "ORGANIZATION"
+            },
+            {
+              "id": "e2da0d83-4d39-4451-b35f-11f5ef2a4712",
+              "label": "August 2000",
+              "type": "DATE"
+            },
+            {
+              "id": "b7ddb198-54f6-4152-910a-a949fec76a3c",
+              "label": "October 10 - 13, 2001",
+              "type": "DATE"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

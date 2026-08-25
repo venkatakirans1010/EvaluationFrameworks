@@ -1,0 +1,215 @@
+{
+  "customer_id": "test_set_4x4@crd.com",
+  "document_id": "e784781a-c430-48cd-b1f8-c182f5af6287",
+  "document_name": "pdf_hyperlink_example.pdf",
+  "organization_name": "Booz Allen",
+  "account_name": "Default Account",
+  "application_name": "Booz Allen AI Atomization Service",
+  "vpub_name": "Default VPUB",
+  "topics": [
+    {
+      "topic_id": "a1f99f47-3dce-49e2-9b97-1f332f0d2725",
+      "document_id": "e784781a-c430-48cd-b1f8-c182f5af6287",
+      "title": "Page 1",
+      "context": "<h2>State Plan PDF Hyperlink Example</h2>\n<p>45 CFR Part 301 State plan approval and grant procedures<br/><a href=\"https://www.gpo.gov/fdsys/granule/CFR-2004-title45-vol2/CFR-2004-title45-vol2-part301\">https://www.gpo.gov/fdsys/granule/CFR-2004-title45-vol2/CFR-2004-title45-vol2-part301</a></p>\n<p>45 CFR Part 302 State plan requirements<br/><a href=\"https://www.gpo.gov/fdsys/granule/CFR-2010-title45-vol2/CFR-2010-title45-vol2-part302\">https://www.gpo.gov/fdsys/granule/CFR-2010-title45-vol2/CFR-2010-title45-vol2-part302</a></p>\n<p>45 CFR Part 303 Standards for program operations<br/><a href=\"https://www.gpo.gov/fdsys/granule/CFR-2010-title45-vol2/CFR-2010-title45-vol2-part303\">https://www.gpo.gov/fdsys/granule/CFR-2010-title45-vol2/CFR-2010-title45-vol2-part303</a></p>\n<p>45 CFR Part 304 Federal financial participation<br/><a href=\"https://www.gpo.gov/fdsys/granule/CFR-2010-title45-vol2/CFR-2010-title45-vol2-part304\">https://www.gpo.gov/fdsys/granule/CFR-2010-title45-vol2/CFR-2010-title45-vol2-part304</a></p>\n<p>45 CFR Part 305 Program performance measures, standards, financial incentives, and penalties<br/><a href=\"https://www.gpo.gov/fdsys/granule/CFR-2011-title45-vol2/CFR-2011-title45-vol2-part305\">https://www.gpo.gov/fdsys/granule/CFR-2011-title45-vol2/CFR-2011-title45-vol2-part305</a></p>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/test_set_4x4@crd.com/original_assets/pdf_hyperlink_example.pdf_chunks/pdf_hyperlink_example-chunked-files/pdf_hyperlink_example_page_1-1.pdf",
+        "sort_number": "10"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "cdfe499d-813f-47dd-bd0d-a2d004304e57",
+            "sentiment": "neutral",
+            "summary": "List of hyperlinks to CFR parts regarding state plan approval, requirements, operations, financial participation, and performance measures.",
+            "score": 0.95
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "3706a3b2-8d22-43b3-bd6c-003dc89810b9",
+              "question": "¿Qué información se encuentra en el enlace de 45 CFR Part 301?",
+              "answer": "El enlace lleva a la sección 301 del título 45 del Código de Regulaciones Federales, que trata sobre la aprobación de planes estatales y los procedimientos de subvención."
+            },
+            {
+              "id": "6c6126cb-5ba1-4e43-b1d7-e01610db6ade",
+              "question": "¿Dónde puedo encontrar la información sobre los requisitos de los planes estatales?",
+              "answer": "La información sobre los requisitos de los planes estatales está disponible en el enlace de 45 CFR Part 302."
+            },
+            {
+              "id": "e803e191-d153-44c2-a5f3-3b66cfdc81ec",
+              "question": "¿Qué cubre 45 CFR Part 303?",
+              "answer": "45 CFR Part 303 contiene los estándares para las operaciones del programa."
+            },
+            {
+              "id": "69dc19b8-03b6-44ed-b8b0-7f40e105502a",
+              "question": "¿Qué información se ofrece en 45 CFR Part 304?",
+              "answer": "45 CFR Part 304 aborda la participación financiera federal."
+            },
+            {
+              "id": "193a3a08-bb39-4360-9966-e3847948935e",
+              "question": "¿Qué temas se tratan en 45 CFR Part 305?",
+              "answer": "45 CFR Part 305 cubre las medidas de desempeño del programa, los estándares, los incentivos financieros y las penalizaciones."
+            },
+            {
+              "id": "c8c3c872-1f0b-49c5-8349-af28af5c785b",
+              "question": "¿Qué años de la versión del CFR se utilizan en los enlaces proporcionados?",
+              "answer": "Los enlaces corresponden a la versión de 2004 para Part 301, 2010 para Parts 302 a 304 y 2011 para Part 305."
+            },
+            {
+              "id": "4b3c62e3-55d0-4816-9102-985814bc4730",
+              "question": "¿Cómo puedo acceder a los textos completos de estos apartados?",
+              "answer": "Puede acceder a los textos completos haciendo clic en los enlaces proporcionados, los cuales lo dirigirán a la página del GPO donde se publica el CFR."
+            },
+            {
+              "id": "56501151-c870-49d5-a0b6-3c7f32e20f0d",
+              "question": "¿Los enlaces incluyen la información de todas las partes del título 45 del CFR?",
+              "answer": "Los enlaces proporcionados cubren específicamente las partes 301 a 305 del título 45 del CFR; no incluyen otras partes del título."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "9004e101-e41e-4f90-82ab-8ed2ecf49fb0",
+              "keyword": "45 CFR",
+              "score": 0.99
+            },
+            {
+              "id": "f5d9898d-9629-4d1d-9c49-b2a46dddffca",
+              "keyword": "Part 301",
+              "score": 0.98
+            },
+            {
+              "id": "bb2c0c84-5c61-4752-b775-34924ac09711",
+              "keyword": "State plan approval",
+              "score": 0.97
+            },
+            {
+              "id": "0372e9a1-b612-412c-8e11-b65b90c7122b",
+              "keyword": "grant procedures",
+              "score": 0.96
+            },
+            {
+              "id": "7f78ae20-7850-4a85-b311-1a22735e3ec6",
+              "keyword": "Part 302",
+              "score": 0.95
+            },
+            {
+              "id": "5a8f6b8d-8a9c-4c38-b2d4-561733bfc5ef",
+              "keyword": "State plan requirements",
+              "score": 0.94
+            },
+            {
+              "id": "1e8b1eeb-55ff-4e46-8474-014a72a108ce",
+              "keyword": "Part 303",
+              "score": 0.93
+            },
+            {
+              "id": "a48b9a2e-d9de-4053-9df2-70251d223c74",
+              "keyword": "Standards for program operations",
+              "score": 0.92
+            },
+            {
+              "id": "02294a9c-955a-428b-a3b8-2533ab23e42c",
+              "keyword": "Part 304",
+              "score": 0.91
+            },
+            {
+              "id": "25fd82f7-71e3-4526-a093-0e3cd847c8ca",
+              "keyword": "Federal financial participation",
+              "score": 0.9
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "d2fffe7d-2db5-4bca-8d39-28a1a7763241",
+            "title": "45 CFR State Plan Sections and Links",
+            "long_summary": "The provided content lists hyperlinks to five specific parts of Title 45 of the Code of Federal Regulations (CFR) that pertain to state plans for Medicaid and related programs. Each part addresses a distinct aspect of state plan development, approval, and operation:\n\n1. **Part 301 – State Plan Approval and Grant Procedures**: This section outlines the procedures for approving state plans and the grant process, including requirements for submission, review, and funding allocation.\n\n2. **Part 302 – State Plan Requirements**: This part details the mandatory requirements that states must meet in their plans, covering eligibility, benefits, and program administration standards.\n\n3. **Part 303 – Standards for Program Operations**: This section establishes operational standards for Medicaid programs, ensuring consistency and quality across states.\n\n4. **Part 304 – Federal Financial Participation**: This part describes the federal financial participation rules, including cost-sharing arrangements, payment methods, and financial responsibilities of states.\n\n5. **Part 305 – Program Performance Measures, Standards, Financial Incentives, and Penalties**: This section sets performance metrics, standards for program outcomes, and outlines financial incentives and penalties to encourage compliance and improvement.\n\nEach hyperlink directs to the official U.S. Government Publishing Office (GPO) website where the full text of the respective CFR part can be accessed. These links serve as a quick reference for stakeholders, policymakers, and researchers needing to review the regulatory framework governing state Medicaid plans and operations.",
+            "short_summary": "Links to key 45 CFR state plan sections"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "dcd713b8-f19d-4333-94e5-a5da9832aae6",
+              "classification": "Legal/Regulatory",
+              "score": 0.98
+            },
+            {
+              "id": "5faf4528-cc52-4070-89b0-3f027f40b6be",
+              "classification": "Government",
+              "score": 0.95
+            },
+            {
+              "id": "6d85b727-2bd3-460b-b73c-866f9046d893",
+              "classification": "Health and Human Services",
+              "score": 0.9
+            },
+            {
+              "id": "f5ac2c5a-c4ba-42d4-97b8-e0f4f8e97ee9",
+              "classification": "Federal Regulations",
+              "score": 0.92
+            },
+            {
+              "id": "2bcc83b7-8688-4397-bb79-527d1b49297d",
+              "classification": "Documentation/Reference",
+              "score": 0.88
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "84fb968f-a321-4170-a8e0-d9718f9da523",
+              "label": "45 CFR Part 301",
+              "type": "ORGANIZATION"
+            },
+            {
+              "id": "73afafc2-a536-4bee-8e20-156027c4fe29",
+              "label": "45 CFR Part 302",
+              "type": "ORGANIZATION"
+            },
+            {
+              "id": "67d83748-b3ea-4a29-9aa9-68c3ccdc7f20",
+              "label": "45 CFR Part 303",
+              "type": "ORGANIZATION"
+            },
+            {
+              "id": "b433ddc3-f746-4ef5-9563-f8274929b7df",
+              "label": "45 CFR Part 304",
+              "type": "ORGANIZATION"
+            },
+            {
+              "id": "abceb6e4-e222-47c6-a784-28758484a9e0",
+              "label": "45 CFR Part 305",
+              "type": "ORGANIZATION"
+            },
+            {
+              "id": "b14c73ee-41c1-4f58-8e8e-9d94ab5481e0",
+              "label": "GPO",
+              "type": "ORGANIZATION"
+            },
+            {
+              "id": "5b7ed4a0-f882-4ce4-878d-fe688ad40107",
+              "label": "CFR",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "46929a1b-06fd-4f61-8681-f87587b1776e",
+              "label": "Title 45",
+              "type": "ORGANIZATION"
+            },
+            {
+              "id": "f0ad3c0e-6690-4335-bbbd-377c928260b4",
+              "label": "45 CFR",
+              "type": "ORGANIZATION"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

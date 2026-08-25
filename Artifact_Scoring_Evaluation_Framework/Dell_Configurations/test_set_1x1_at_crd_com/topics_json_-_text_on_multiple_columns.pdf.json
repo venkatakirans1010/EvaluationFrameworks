@@ -1,0 +1,179 @@
+{
+  "customer_id": "test_set_1x1@crd.com",
+  "document_id": "7fa71c43-7550-4e1e-8c23-0750f48e9dc2",
+  "document_name": "text_on_multiple_columns.pdf",
+  "organization_name": "Booz Allen",
+  "account_name": "Default Account",
+  "application_name": "Booz Allen AI Atomization Service",
+  "vpub_name": "Default VPUB",
+  "topics": [
+    {
+      "topic_id": "521142bc-5e46-473c-9f38-3f236d68f857",
+      "document_id": "7fa71c43-7550-4e1e-8c23-0750f48e9dc2",
+      "title": "Page 1",
+      "context": "<div>\n<p>A bison walks along the river path Tracks fade in soft soil. A jackal walks along the grassland It moves with steady care. A fox walks along the river path Water reflects a brief shadow.</p>\n<p>pharetra enim tincidunt dignissim nec vel<br/>In the riverbank, families prepare festivals<br/>Morning light touches quiet homes. In the riverbank, people share meals Tea boils and conversations begin.</p>\n<p>The papaya blends into simple salads It adds color to the table. The banana gives a soft scent Juice cools a warm afternoon.</p>\n<p>A elephant walks along the forest edge Tracks fade in soft soil. A fox walks along the quiet grove Water reflects a brief shadow. A otter walks along the forest edge Tracks fade in soft soil.</p>\n<p>We notice a silent valley Birdsong returns between the trees. We notice a silent valley Birdsong returns between the trees. We notice a silent valley Shadows drift across the stones.</p>\n<p>We notice a silent valley Shadows drift across the stones. We notice a shaded path The air turns cool and clear. We notice a slow river Birdsong returns between the trees.</p>\n<p>The orange gives a soft scent Juice cools a warm afternoon</p>\n<p>In the study table, notes fill neat pages Small steps make steady learning. In the library, students read with care Small steps make steady learning.</p>\n<p>The heron rises with the breeze Its nest rests where branches meet. The crane glides over water Feathers shine in soft light.</p>\n<p>pharetra.</p>\n<p>A jackal walks along the river path Tracks fade in soft soil<br/>In the study table, quiet helps thoughts grow<br/>Small steps make steady learning. In the library, quiet helps thoughts grow Small steps make steady learning.</p>\n<p>pretium urna. Proin vel porttitor tortor. The apple blends into simple salads Juice cools a warm afternoon. The mango gives a soft scent It adds color to the table.</p>\n<p>In the courtyard, craftsmen shape clay lamps Tea boils and conversations begin. In the village, neighbors trade fresh produce Colors brighten the narrow streets. In the village, families prepare festivals Colors brighten the narrow streets.</p>\n<p>A elephant walks along the river path Tracks fade in soft soil. A bison walks along the quiet grove It moves with steady care. A jackal walks along the grassland It moves with steady care.</p>\n<p>pharetra enim tincidunt dignissim nec vel<br/>In the village, children read stories Morning light touches quiet homes. In the riverbank, people share meals Morning light touches quiet homes.</p>\n<p>We notice new leaves Birdsong returns between the trees</p>\n<p>In the study table, students read with care Small steps make steady learning. In the school porch, notes fill neat pages Small steps make steady learning.</p>\n<p>The crane rises with the breeze Its nest rests where branches meet. The eagle rises with the breeze Wings beat in even rhythm. The swallow glides over water Its nest rests where branches meet.</p>\n<p>The papaya blends into simple salads It adds color to the table. The guava gives a soft scent People slice it for snacks. The orange ripens on the branch Juice cools a warm afternoon.</p>\n<p>In the school porch, notes fill neat pages Small steps make steady learning. In the classroom, quiet helps thoughts grow Small steps make steady learning. In the school porch, notes fill neat pages Small steps make steady learning.</p>\n<p>The banana ripens on the branch People slice it for snacks. The banana blends into simple salads Juice cools a warm afternoon. The guava gives a soft scent Juice cools a warm afternoon.</p>\n<p>We notice a shaded path Shadows drift across the stones. We notice a slow river The air turns cool and clear.</p>\n<p>pharetra.</p>\n<p>In the riverbank, families prepare festivals Morning light touches quiet homes</p>\n</div>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/test_set_1x1@crd.com/original_assets/text_on_multiple_columns.pdf_chunks/text_on_multiple_columns-chunked-files/text_on_multiple_columns_page_1-1.pdf",
+        "sort_number": "10"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "eb0d72ae-2961-47fb-8b52-5efe16136a3d",
+            "sentiment": "neutral",
+            "summary": "Descriptive poetic text about nature, animals, food, learning, and community events.",
+            "score": 0.85
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "22498f11-bc63-40bf-ad40-240db0a96799",
+              "question": "Which animals are mentioned in the text?",
+              "answer": "The text mentions a bison, jackal, fox, elephant, otter, heron, crane, eagle, and swallow."
+            },
+            {
+              "id": "b76ae89b-e0b4-44ff-a8f4-c7fdc0566fee",
+              "question": "What fruits are described?",
+              "answer": "The fruits mentioned are papaya, banana, orange, apple, mango, and guava."
+            },
+            {
+              "id": "5528451e-34f6-4f4d-bc5e-7b9f2d74191a",
+              "question": "What activities take place on the riverbank?",
+              "answer": "Families prepare festivals, people share meals, tea boils, and conversations begin on the riverbank."
+            },
+            {
+              "id": "21b5b1e4-9f90-4360-b9d2-0e5c965e5e9f",
+              "question": "What does the word \"pharetra\" refer to in the text?",
+              "answer": "The word \"pharetra\" appears as a Latin placeholder; the text does not provide a definition or context for it."
+            },
+            {
+              "id": "1fbe1cd1-22d6-4749-8705-e9f0765868df",
+              "question": "What settings are described throughout the passage?",
+              "answer": "Settings include a river path, grassland, forest edge, quiet grove, valley, courtyard, village, school porch, and classroom."
+            },
+            {
+              "id": "fae26566-5cf2-4740-8280-80800250e667",
+              "question": "What is the repeated phrase \"Small steps make steady learning\" about?",
+              "answer": "The phrase is repeated in several sections, suggesting a theme of gradual progress and steady learning."
+            },
+            {
+              "id": "fd88de6a-ddac-41a8-9b72-78235c155b59",
+              "question": "What role does water play in the descriptions?",
+              "answer": "Water reflects brief shadows, forms a river, and is associated with the riverbank where people gather."
+            },
+            {
+              "id": "ce4de4bf-637e-4dfe-83b2-f9648034f458",
+              "question": "Are there any mentions of festivals or celebrations?",
+              "answer": "Yes, families prepare festivals on the riverbank and in the village."
+            },
+            {
+              "id": "057a5c69-3e79-47ca-861d-b54973a134b4",
+              "question": "What cooking or food preparation activities are mentioned?",
+              "answer": "Tea boils, people slice fruit for snacks, and fruits are blended into simple salads."
+            },
+            {
+              "id": "603146de-616b-49c4-b814-e0cf20f14294",
+              "question": "What imagery is used to describe the valley?",
+              "answer": "The valley is described as silent, with birdsong returning between the trees and shadows drifting across the stones."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "62692ed5-cfb7-485f-954b-3d5d924490fb",
+              "keyword": "river path",
+              "score": 0.98
+            },
+            {
+              "id": "a1624614-0d46-4712-adb3-0cba9c2c1eb4",
+              "keyword": "forest edge",
+              "score": 0.95
+            },
+            {
+              "id": "1e460ece-c1eb-4d6d-ab25-ddda215e9c7e",
+              "keyword": "study table",
+              "score": 0.93
+            },
+            {
+              "id": "480bcf2b-5eaf-415e-8753-04bf14409e80",
+              "keyword": "library",
+              "score": 0.92
+            },
+            {
+              "id": "6e60132d-5827-45f5-b3b5-75e529506cbd",
+              "keyword": "school porch",
+              "score": 0.9
+            },
+            {
+              "id": "644448d4-a968-41f6-affc-21b5939dbaaa",
+              "keyword": "fruit salads",
+              "score": 0.88
+            },
+            {
+              "id": "3d03478d-6f32-4fba-a77f-3e0bdd322309",
+              "keyword": "small steps make steady learning",
+              "score": 0.85
+            },
+            {
+              "id": "a10a6c1d-828e-484a-b32b-ac2e316521ba",
+              "keyword": "birdsong",
+              "score": 0.8
+            },
+            {
+              "id": "2eaeb275-6912-4570-9d0f-af826d82876c",
+              "keyword": "shadows drift",
+              "score": 0.78
+            },
+            {
+              "id": "31305772-2c6c-4ce5-8092-85f2c1c304c8",
+              "keyword": "riverbank",
+              "score": 0.75
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "5dfb0984-8133-42a6-a9c7-3ace76a82901",
+            "title": "Nature's Quiet Rhythms",
+            "long_summary": "The passage weaves a tapestry of gentle, repetitive observations that blend the natural world with everyday human activity. It opens with images of animals—bisons, jackals, foxes, elephants, otters, herons, cranes, eagles, and swallows—moving along riverbanks, grasslands, forest edges, and quiet groves, their tracks fading into soft soil. These scenes are mirrored by recurring motifs of water reflecting brief shadows, birdsong returning between trees, and the slow, cool river that turns the air clear. The text also celebrates the quiet valley where shadows drift across stones and a shaded path invites calmness.\n\nParallel to the natural imagery, the narrative shifts to human life: families preparing festivals on the riverbank, children reading stories, students studying in libraries and school porches, and craftsmen shaping clay lamps in courtyards. Tea boils, conversations begin, and notes fill neat pages, all underscored by the mantra “small steps make steady learning.” The passage emphasizes the harmony between learning and the serene environment.\n\nFruits—papaya, banana, orange, mango, guava, and apple—appear as colorful, fragrant additions to simple salads and snacks, cooling warm afternoons and adding color to tables. Latin placeholder text (“pharetra enim tincidunt dignissim nec vel”) punctuates the prose but does not alter its thematic focus.\n\nOverall, the text presents a rhythmic, almost meditative collage of nature’s quiet rhythms and the steady, reflective pace of human life and learning, inviting readers to notice the subtle beauty in everyday scenes.",
+            "short_summary": "Descriptive scenes of nature, daily life, and learning."
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "f1bc4d36-57b9-411b-9bda-bf622024ee0e",
+              "classification": "Nature & Environment",
+              "score": 0.98
+            },
+            {
+              "id": "046ecd04-73d4-44c4-bec6-9ade6c05ed66",
+              "classification": "Animals",
+              "score": 0.95
+            },
+            {
+              "id": "56ed5399-2ed3-4a23-be4a-5cc67652e56c",
+              "classification": "Food & Fruits",
+              "score": 0.9
+            },
+            {
+              "id": "53f92dd6-8404-40c1-9360-a0364281160f",
+              "classification": "Education & Learning",
+              "score": 0.85
+            },
+            {
+              "id": "3820cbae-39f8-4ae0-97ca-d39773e7174b",
+              "classification": "Community & Culture",
+              "score": 0.8
+            }
+          ]
+        },
+        {
+          "entities": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "customer_id": "test_set_2x2@crd.com",
+  "document_id": "01627015-838a-4553-98d7-edcf780b93eb",
+  "document_name": "Table_Based_PDF.pdf",
+  "organization_name": "Booz Allen",
+  "account_name": "Default Account",
+  "application_name": "Booz Allen AI Atomization Service",
+  "vpub_name": "Default VPUB",
+  "topics": [
+    {
+      "topic_id": "c4f090eb-9e89-4672-8c0f-9d20818e0949",
+      "document_id": "01627015-838a-4553-98d7-edcf780b93eb",
+      "title": "Page 1",
+      "context": "<h1>Table-based PDF</h1>\n<table>\n<thead>\n<tr>\n<th>ID</th>\n<th>Name</th>\n<th>Department</th>\n<th>Score</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>101</td>\n<td>Alice</td>\n<td>QA</td>\n<td>92</td>\n</tr>\n<tr>\n<td>102</td>\n<td>Bob</td>\n<td>Development</td>\n<td>88</td>\n</tr>\n<tr>\n<td>103</td>\n<td>Charlie</td>\n<td>DevOps</td>\n<td>94</td>\n</tr>\n</tbody>\n</table>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/test_set_2x2@crd.com/original_assets/Table_Based_PDF.pdf_chunks/Table_Based_PDF-chunked-files/Table_Based_PDF_page_1-1.pdf",
+        "sort_number": "10"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {}
+        },
+        {
+          "faqs": [
+            {
+              "id": "cd451fdb-c0f4-4fe6-af88-e653f7e7bd38",
+              "question": "¿Cuál es el ID de Alice?",
+              "answer": "El ID de Alice es 101."
+            },
+            {
+              "id": "51d6c89b-9541-4ed7-8d62-5d4182977d41",
+              "question": "¿En qué departamento trabaja Bob?",
+              "answer": "Bob trabaja en el departamento de Development."
+            },
+            {
+              "id": "5f47f557-1ee0-48ba-ab86-d54b1c6469b7",
+              "question": "¿Cuál es la puntuación de Charlie?",
+              "answer": "La puntuación de Charlie es 94."
+            },
+            {
+              "id": "926d55cc-692b-4f89-87d6-6a09a79ae620",
+              "question": "¿Cuántas filas de datos hay en la tabla?",
+              "answer": "Hay 3 filas de datos en la tabla."
+            },
+            {
+              "id": "155a2bff-c2df-438b-aafa-be38ca46f775",
+              "question": "¿Cuál es la puntuación más alta mostrada en la tabla?",
+              "answer": "La puntuación más alta es 94, que pertenece a Charlie."
+            },
+            {
+              "id": "eb1dde44-700a-4308-af5e-0279bc4042c0",
+              "question": "¿Qué departamento tiene la puntuación más baja?",
+              "answer": "El departamento con la puntuación más baja es QA, con una puntuación de 92."
+            },
+            {
+              "id": "8b66f5c5-7fe2-436d-b595-8bfc76776824",
+              "question": "¿Cuál es el nombre del empleado con ID 102?",
+              "answer": "El empleado con ID 102 es Bob."
+            },
+            {
+              "id": "b1bcb499-06c4-4eef-9c68-dbfd5b54c4ee",
+              "question": "¿Qué empleados tienen puntuaciones superiores a 90?",
+              "answer": "Alice (92) y Charlie (94) tienen puntuaciones superiores a 90."
+            },
+            {
+              "id": "67b2f278-b5bf-414c-8ad1-fc6c3bec2baa",
+              "question": "¿Cuál es la suma total de las puntuaciones?",
+              "answer": "La suma total de las puntuaciones es 274."
+            },
+            {
+              "id": "9e6adbb5-3586-45e7-8d86-9928a832c180",
+              "question": "¿Qué información se muestra en la primera columna de la tabla?",
+              "answer": "La primera columna muestra el ID de cada empleado."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "790aac42-8c05-46c4-8745-3c34ac8e90d0",
+              "keyword": "Table-based PDF",
+              "score": 0.99
+            },
+            {
+              "id": "304a0791-f36a-4c85-9ccc-c59513f0bb3a",
+              "keyword": "ID",
+              "score": 0.92
+            },
+            {
+              "id": "97ea83c2-066c-4531-924b-ac46c51b8782",
+              "keyword": "Name",
+              "score": 0.9
+            },
+            {
+              "id": "88e2fd59-9265-4f3a-aa51-e61a5e3c5a79",
+              "keyword": "Department",
+              "score": 0.88
+            },
+            {
+              "id": "38cf0669-942a-40d4-9ba0-69733057ac8f",
+              "keyword": "Score",
+              "score": 0.87
+            },
+            {
+              "id": "aecd40c6-94f8-4731-bbd9-a048ddc76dfd",
+              "keyword": "QA",
+              "score": 0.85
+            },
+            {
+              "id": "374309ff-2f9b-4529-b78a-747ab4934640",
+              "keyword": "Development",
+              "score": 0.84
+            },
+            {
+              "id": "7a73aa4b-471f-4926-b276-ce79e7b78ba6",
+              "keyword": "DevOps",
+              "score": 0.83
+            },
+            {
+              "id": "d91803b2-0dc9-4b5a-9392-9f8884ddecc5",
+              "keyword": "Alice",
+              "score": 0.82
+            },
+            {
+              "id": "0e7dadfe-0b98-49c6-8f3f-421f92b0cf52",
+              "keyword": "Bob",
+              "score": 0.81
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "22303b7d-4298-4158-8560-d7b430b2ebb9",
+            "title": "Employee Performance Table",
+            "long_summary": "The provided content is an HTML snippet that displays a simple table titled \"Table-based PDF.\" The table contains four columns: ID, Name, Department, and Score. Three rows of data are included:\n\n1. ID 101 – Alice, working in the QA department, achieved a score of 92.\n2. ID 102 – Bob, part of the Development department, scored 88.\n3. ID 103 – Charlie, belonging to the DevOps department, earned a score of 94.\n\nThe table is structured with a header row defining the column titles and a body section containing the individual employee records. This format is typical for presenting concise performance metrics or employee information in a tabular form, suitable for inclusion in reports or PDFs.",
+            "short_summary": "Table of employee scores"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "9244af2f-c333-44bb-a609-5fc1407d255a",
+              "classification": "Structured Data",
+              "score": 0.99
+            },
+            {
+              "id": "7337eda9-b4a0-48ce-963f-26fa68eee46c",
+              "classification": "Employee Records",
+              "score": 0.95
+            },
+            {
+              "id": "5bc89035-a714-4663-a890-cfae0d54f431",
+              "classification": "Performance Metrics",
+              "score": 0.9
+            },
+            {
+              "id": "de4b6128-29eb-4962-9b23-4595ed71c137",
+              "classification": "HTML Table",
+              "score": 0.85
+            },
+            {
+              "id": "bea29580-c4f1-437b-9224-56a95c90b854",
+              "classification": "Data Visualization",
+              "score": 0.8
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "e2704e46-d376-4ef8-bfd0-e38df1b3803d",
+              "label": "Alice",
+              "type": "PERSON"
+            },
+            {
+              "id": "acda87e1-b458-4c43-9143-fc36baec89a9",
+              "label": "Bob",
+              "type": "PERSON"
+            },
+            {
+              "id": "7fa4f7bb-a668-4af9-aa31-5925d79f42e5",
+              "label": "Charlie",
+              "type": "PERSON"
+            },
+            {
+              "id": "c66f8816-cd2b-4004-b000-9622d03c478a",
+              "label": "QA",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "58738187-1a94-4f71-a33a-8fa38654eb1b",
+              "label": "DevOps",
+              "type": "ACRONYM"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

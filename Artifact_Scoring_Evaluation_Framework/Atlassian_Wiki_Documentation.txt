@@ -1,0 +1,446 @@
+JSON Compare CRD Evaluation Framework
+
+Table of Contents
+1. Framework Objective
+2. Intended Use Cases and Benefits
+3. Usage Guidelines
+4. Component Overview
+5. Folder Structure
+6. Output Structure
+7. Metrics Analysis
+8. Summary
+9. Quickstart Appendix
+
+--------------------------------------------------------------------------------
+1. Framework Objective
+--------------------------------------------------------------------------------
+The JSON Compare CRD Evaluation Framework is designed to evaluate and compare
+generated CRD artifacts across systems and configuration variants with a
+consistent, repeatable scoring methodology.
+
+Its core objectives are:
+1. Provide side-by-side comparison of CRD metadata and artifact counts.
+2. Assess artifact quality using standardized heuristic and task-specific metrics.
+3. Support multiple evaluation modes:
+   3.1 System comparison (BoozAllen vs Dell baseline)
+   3.2 Configuration comparison with Ground Truth
+   3.3 Configuration comparison without Ground Truth
+4. Produce stakeholder-ready reports for quality governance and release
+   decisioning.
+
+--------------------------------------------------------------------------------
+2. Intended Use Cases and Benefits
+--------------------------------------------------------------------------------
+Intended Use Cases
+1. Regression monitoring after prompt/model/configuration changes.
+2. Benchmarking among 1x1, 2x2, and 4x4 CRD configuration variants.
+3. Rapid quality triage for summaries, FAQs, keywords, entities,
+   classifications, and sentiment.
+4. Audit-friendly reporting for QA, engineering, and program stakeholders.
+
+Benefits
+1. Combines broad quality heuristics with task-specific NLP metrics.
+2. Enables both lexical and semantic quality analysis.
+3. Supports operational reporting through Excel exports.
+4. Uses graceful fallback behavior when optional dependencies or labels are
+   unavailable.
+
+--------------------------------------------------------------------------------
+3. Usage Guidelines
+--------------------------------------------------------------------------------
+3.1 Prerequisites
+Install required packages from requirements.txt.
+
+Core dependencies:
+1. streamlit
+2. pandas
+3. langdetect
+4. pycountry
+
+Optional dependencies:
+1. scikit-learn for TF-IDF cosine similarity
+2. bert-score for semantic similarity scoring
+
+3.2 Run the Application
+Start the app from the project root with:
+streamlit run streamlit_app.py
+
+3.3 Sidebar Controls
+The sidebar controls global behavior:
+1. Navigation:
+   - Comparison
+   - Quality Evaluation
+   - Dell Configuration Evaluation
+   - Dell_Config_no_GT
+2. Keyword Top-K:
+   - Used by keyword ranking metrics such as Precision@K and Recall@K.
+3. Report View:
+   - Executive, Balanced, Detailed.
+4. Show diagnostics:
+   - Enables outlier reporting and additional diagnostics.
+
+3.4 Workflow by Mode
+Comparison:
+1. Upload BoozAllen JSON files.
+2. App auto-matches Dell files by filename.
+3. Review metadata parity, artifact counts, language stats, and generation
+   durations.
+
+Quality Evaluation:
+1. Upload BoozAllen JSON files and select one.
+2. App auto-loads matching Dell file.
+3. Evaluates per topic/page quality for all artifact types.
+4. Summary evaluation is component-level: title, long_summary, short_summary.
+
+Dell Configuration Evaluation:
+1. Upload Ground Truth markdown file(s).
+2. Upload CRD JSON file(s) as 1x1 candidates.
+3. App discovers sibling 2x2 and 4x4 variants in Dell_Configurations.
+4. Run single evaluation or Bulk Evaluate All.
+5. Download multi-sheet Excel reports.
+
+Dell_Config_no_GT:
+1. Upload CRD JSON file(s).
+2. App discovers sibling variants.
+3. Uses topic context as reference instead of Ground Truth markdown.
+4. Run no-GT evaluation and export results.
+
+--------------------------------------------------------------------------------
+4. Component Overview
+--------------------------------------------------------------------------------
+1. UI and Navigation
+   Responsibility:
+   - User controls, section routing, report modes.
+   Interactions:
+   - Triggers all workflows.
+   Dependencies:
+   - streamlit
+
+2. File Ingestion and Matching
+   Responsibility:
+   - Upload handling, auto-matching files, folder discovery.
+   Interactions:
+   - Feeds data into comparison/evaluation.
+   Dependencies:
+   - os, json
+
+3. Artifact Extraction
+   Responsibility:
+   - Pulls summaries, FAQs, keywords, entities, classifications, sentiments.
+   Interactions:
+   - Supplies normalized inputs to metric engine.
+   Dependencies:
+   - regex, list/dict parsing
+
+4. Metric Engine
+   Responsibility:
+   - Computes heuristic and additional metrics.
+   Interactions:
+   - Used by all evaluation modes.
+   Dependencies:
+   - pandas, optional sklearn and bert-score
+
+5. Language Detection
+   Responsibility:
+   - Detects document/sentiment language and filtering state.
+   Interactions:
+   - Affects sentiment evaluation and reporting.
+   Dependencies:
+   - langdetect, pycountry
+
+6. Comparative Analysis
+   Responsibility:
+   - Scorecards, winners, ranking, strengths.
+   Interactions:
+   - Aggregates quality outputs.
+   Dependencies:
+   - pandas, statistics
+
+7. Export Layer
+   Responsibility:
+   - Builds downloadable Excel workbooks.
+   Interactions:
+   - Exports all key tables.
+   Dependencies:
+   - pandas, xlsxwriter
+
+--------------------------------------------------------------------------------
+5. Folder Structure
+--------------------------------------------------------------------------------
+Project-level folders and files:
+1. streamlit_app.py
+   - Main application and scoring logic.
+
+2. requirements.txt
+   - Dependency list for runtime and optional features.
+
+3. Metric_Calculation_Guide.txt
+   - Metric definitions, formulas, and interpretation guidance.
+
+4. ReadMe_Diff.txt and REAM_ME.txt
+   - Feature and change documentation.
+
+5. Booz_Allen_CRD_files
+   - BoozAllen CRD JSON input corpus.
+
+6. Dell_Setup_CRD_files
+   - Dell baseline JSON files matched against BoozAllen by filename.
+
+7. Dell_Configurations
+   - Variant CRD folders (for example 1x1, 2x2, 4x4).
+
+8. Ground_Truth_Docs
+   - Ground Truth markdown corpus used in GT-based evaluation.
+
+9. temp
+   - Temporary runtime files.
+
+10. __pycache__
+    - Python bytecode cache artifacts.
+
+--------------------------------------------------------------------------------
+6. Output Structure
+--------------------------------------------------------------------------------
+6.1 In-App Outputs
+1. Metadata comparison tables.
+2. Language statistics tables.
+3. Quality tables by artifact type:
+   - Summary
+   - FAQ
+   - Keyword
+   - Entity
+   - Classification
+   - Sentiment
+4. Comparative analysis tables:
+   - Component scores
+   - Best setup per component/section
+   - Section scorecards
+   - Setup ranking
+   - Strength and improvement areas
+5. Optional outlier diagnostics.
+
+6.2 Report View Levels
+1. Executive:
+   - Focused high-signal columns.
+2. Balanced:
+   - Core quality dimensions plus key additional metrics.
+3. Detailed:
+   - Full metric tables and diagnostics.
+
+6.3 Excel Export Outputs
+Exports include multi-sheet workbooks containing:
+1. Metric comparison sheets.
+2. Per-artifact quality sheets.
+3. Analysis summary sheets.
+4. Bulk and no-GT variants where applicable.
+
+--------------------------------------------------------------------------------
+7. Metrics Analysis
+--------------------------------------------------------------------------------
+7.1 Shared Notation
+Let:
+- C be reference/context text
+- T be generated artifact text
+
+For heuristic dimensions, raw scores r in [0,1] are mapped as:
+Score_1_to_5 = 1 + 4r
+
+7.2 Core Heuristic Metrics
+Faithfulness:
+hallucination_rate = |set(T) \ set(C)| / max(1, |set(T)|)
+faithfulness_raw = 1 - hallucination_rate
+Significance:
+- Measures unsupported content risk.
+Decision use:
+- Low values indicate hallucination mitigation is required.
+
+Coverage:
+coverage_raw = |set(C) ∩ set(T)| / max(1, |set(T)|)
+Significance:
+- Measures overlap with reference content.
+Decision use:
+- Low values suggest important source content is missed.
+
+Relevance:
+- Current implementation uses coverage proxy.
+Decision use:
+- Useful for topical alignment screening.
+
+Conciseness:
+- Based on closeness of length ratio to a target near 0.20.
+Decision use:
+- Detects under- and over-compressed outputs.
+
+Clarity:
+- Based on distance from target average sentence length (around 18 words).
+Decision use:
+- Supports readability optimization.
+
+Structure:
+- Based on sentence-count quality around a target of 4.
+Decision use:
+- Indicates organizational quality of generated text.
+
+Overall:
+- Median of six base dimensions.
+Decision use:
+- Primary aggregate signal for ranking and triage.
+
+Classification Label:
+- Excellent
+- Acceptable
+- Mixed
+- Needs review
+
+7.3 Summary-Specific Additional Metrics
+ROUGE-1:
+ROUGE-1 = overlap_unigrams(T, C) / max(1, |tok(C)|)
+Meaning:
+- Lexical recall overlap.
+
+ROUGE-L:
+ROUGE-L = LCS(tok(T), tok(C)) / max(1, |tok(C)|)
+Meaning:
+- Sequence-level alignment.
+
+BERTScore (optional):
+- Semantic similarity score, typically in [0,1].
+- Returns N/A if unavailable.
+
+Context Precision:
+Context Precision = token overlap / |tok(T)|
+Meaning:
+- Groundedness of generated content.
+
+Context Recall:
+Context Recall = token overlap / |tok(C)|
+Meaning:
+- Source coverage depth.
+
+Compression Ratio:
+Compression Ratio = |tok(T)| / max(1, |tok(C)|)
+Meaning:
+- Output compactness relative to source.
+
+TF-IDF Overlap:
+- Cosine similarity of TF-IDF vectors (or lexical fallback).
+Meaning:
+- Weighted overlap emphasizing informative terms.
+
+7.4 FAQ Metrics
+Question Relevance:
+- Median similarity between questions and context.
+Meaning:
+- Detects off-topic questioning.
+
+Answer Correctness:
+- Median similarity between answers and context.
+Meaning:
+- Measures grounding/correctness of answers.
+
+Redundancy Score:
+- Median pairwise similarity among FAQ entries.
+Meaning:
+- Lower is better; high values indicate repetition.
+
+7.5 Keyword Metrics
+Precision@K:
+Precision@K = matched top-K keywords / K
+Meaning:
+- Quality of top-ranked keywords.
+
+Recall@K:
+Recall@K = overlap(pred_top_k, ref_top_k) / max(1, |ref_top_k|)
+Meaning:
+- Coverage of important context terms.
+
+Keyword TF-IDF Overlap:
+- Weighted topical alignment of extracted keywords with context.
+
+7.6 Entity Metrics
+NER F1 and Entity Linking Accuracy:
+1. Intended as label-based metrics.
+2. Current behavior is N/A when labeled references are unavailable.
+
+Operational meaning:
+- These metrics are placeholders until supervised labels are integrated.
+
+7.7 Classification Metrics
+Accuracy, Precision, Recall, F1, Confusion Matrix:
+1. Intended as supervised label metrics.
+2. Current behavior is N/A without true labels.
+
+Operational meaning:
+- Do not treat these as active KPIs unless label truth is provided.
+
+7.8 Sentiment Metrics
+Sentiment_Language:
+1. English means evaluable.
+2. Non-English is ignored.
+3. Mixed language can produce partially ignored status.
+
+Sentiment_Score_Validity:
+1. 1.0 if score in valid range [0,1].
+2. 0.5 if outside expected range.
+3. 0.0 if missing or invalid.
+
+Sentiment_Summary_Relevance:
+1. TF-IDF overlap between sentiment summary and reference context.
+2. Higher values indicate better grounding.
+
+Sentiment_Count:
+1. Count of sentiment entries.
+2. Volume signal only, not direct quality.
+
+7.9 Metric Direction Cheat Sheet
+1. Higher is better:
+   - Heuristic dimensions
+   - ROUGE
+   - BERTScore
+   - TF-IDF overlap
+   - Precision/Recall/F1/Accuracy
+   - Sentiment summary relevance
+2. Lower is better:
+   - Redundancy score
+3. Balanced target:
+   - Compression ratio, based on summary objective and policy.
+
+--------------------------------------------------------------------------------
+8. Summary
+--------------------------------------------------------------------------------
+This framework provides a practical, production-focused evaluation stack for
+CRD artifact quality and configuration benchmarking. It combines:
+1. Multi-mode comparison workflows.
+2. A broad metric portfolio across lexical, semantic, ranking, and sentiment
+   quality.
+3. Clear exports and ranking outputs for governance and release readiness.
+
+Key considerations:
+1. Entity and classification supervised metrics require labeled ground truth to
+   move beyond N/A.
+2. Optional dependencies improve semantic and weighted similarity fidelity.
+3. Filename and folder conventions are important for robust auto-matching and
+   bulk runs.
+
+--------------------------------------------------------------------------------
+9. Quickstart Appendix
+--------------------------------------------------------------------------------
+Minimal Setup
+1. Install dependencies.
+2. Run streamlit_app.py.
+3. Open Comparison tab and upload BoozAllen JSON files.
+4. Validate matching against Dell files.
+5. Use Quality Evaluation for per-topic artifact scoring.
+
+Configuration Benchmarking (Recommended)
+1. Upload Ground Truth markdown.
+2. Upload CRD JSON as 1x1 candidate.
+3. Let the app discover 2x2 and 4x4 siblings.
+4. Run Evaluate or Bulk Evaluate All.
+5. Download Excel report for stakeholder review.
+
+No-GT Benchmarking
+1. Upload CRD JSON.
+2. Run Dell_Config_no_GT.
+3. Evaluate using internal topic context.
+4. Export no-GT workbook.

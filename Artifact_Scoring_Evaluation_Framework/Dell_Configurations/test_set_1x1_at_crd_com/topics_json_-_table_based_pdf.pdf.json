@@ -1,0 +1,185 @@
+{
+  "customer_id": "test_set_1x1@crd.com",
+  "document_id": "3c533a33-4b8b-4b2c-adc6-cf9c4a756d33",
+  "document_name": "Table_Based_PDF.pdf",
+  "organization_name": "Booz Allen",
+  "account_name": "Default Account",
+  "application_name": "Booz Allen AI Atomization Service",
+  "vpub_name": "Default VPUB",
+  "topics": [
+    {
+      "topic_id": "d57a5d00-2308-4672-8751-9fb923136160",
+      "document_id": "3c533a33-4b8b-4b2c-adc6-cf9c4a756d33",
+      "title": "Page 1",
+      "context": "<h1>Table-based PDF</h1>\n<table>\n<thead>\n<tr>\n<th>ID</th>\n<th>Name</th>\n<th>Department</th>\n<th>Score</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>101</td>\n<td>Alice</td>\n<td>QA</td>\n<td>92</td>\n</tr>\n<tr>\n<td>102</td>\n<td>Bob</td>\n<td>Development</td>\n<td>88</td>\n</tr>\n<tr>\n<td>103</td>\n<td>Charlie</td>\n<td>DevOps</td>\n<td>94</td>\n</tr>\n</tbody>\n</table>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/test_set_1x1@crd.com/original_assets/Table_Based_PDF.pdf_chunks/Table_Based_PDF-chunked-files/Table_Based_PDF_page_1-1.pdf",
+        "sort_number": "10"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {}
+        },
+        {
+          "faqs": [
+            {
+              "id": "adee366a-ab5e-442d-b080-3b9776a5e23a",
+              "question": "¿Cuál es el ID de Alice?",
+              "answer": "El ID de Alice es 101."
+            },
+            {
+              "id": "f8b0f59c-8a0b-4a39-9f09-2cc74690ad81",
+              "question": "¿Qué departamento pertenece Bob?",
+              "answer": "Bob pertenece al departamento de Development."
+            },
+            {
+              "id": "2e8ae9dd-f7b9-41a1-a5bf-7451efd6a20d",
+              "question": "¿Quién obtuvo la puntuación más alta?",
+              "answer": "Charlie obtuvo la puntuación más alta, con 94."
+            },
+            {
+              "id": "2e477a3f-9813-435f-be84-5725145ad800",
+              "question": "¿Cuál es la puntuación de QA?",
+              "answer": "La puntuación del departamento QA es 92."
+            },
+            {
+              "id": "fe057362-fc70-4c88-b03e-4fe0b49bc38a",
+              "question": "¿Cuántas filas contiene la tabla?",
+              "answer": "La tabla contiene 3 filas de datos."
+            },
+            {
+              "id": "d548a936-ba37-45b9-9968-d0cb1ebe8211",
+              "question": "¿Qué valor de puntuación tiene el departamento DevOps?",
+              "answer": "El departamento DevOps tiene una puntuación de 94."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "5ebf11b0-bb2f-4f7d-86cd-0a406e9a826b",
+              "keyword": "Table-based PDF",
+              "score": 0.99
+            },
+            {
+              "id": "d2b5554d-4039-4d9d-97af-dbb137bc0da4",
+              "keyword": "Table",
+              "score": 0.98
+            },
+            {
+              "id": "356a51b3-7d8d-47a3-a1ed-1373988e30fa",
+              "keyword": "ID",
+              "score": 0.95
+            },
+            {
+              "id": "f924a253-a275-4881-ab89-cf6462b767a2",
+              "keyword": "Name",
+              "score": 0.95
+            },
+            {
+              "id": "3f3249fc-c020-42b9-a75d-20c5fabbdfd6",
+              "keyword": "Department",
+              "score": 0.95
+            },
+            {
+              "id": "373ba377-0649-4ca2-8504-58b883bda644",
+              "keyword": "Score",
+              "score": 0.95
+            },
+            {
+              "id": "8b677248-f4b5-4af0-9ed3-2e9418213a4b",
+              "keyword": "Alice",
+              "score": 0.9
+            },
+            {
+              "id": "da6de454-42fb-4f93-8a7f-a39ed76ae796",
+              "keyword": "QA",
+              "score": 0.9
+            },
+            {
+              "id": "929507e9-608a-43a3-b378-1798661ce5b0",
+              "keyword": "Bob",
+              "score": 0.9
+            },
+            {
+              "id": "72811bca-f52a-4540-b663-19abc05647ab",
+              "keyword": "Development",
+              "score": 0.9
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "f8c44a2b-1e53-4fc5-beb8-bfbc024dc8d4",
+            "title": "Employee Performance Table",
+            "long_summary": "The provided content is an HTML snippet that displays a simple table titled \"Table-based PDF.\" The table contains four columns: ID, Name, Department, and Score. Three rows of data are listed:\n\n1. ID 101 – Alice, working in QA, scored 92.\n2. ID 102 – Bob, working in Development, scored 88.\n3. ID 103 – Charlie, working in DevOps, scored 94.\n\nThe table is structured with a header row in the <thead> section and the data rows in the <tbody> section. Each cell is wrapped in <td> tags. The content is straightforward and presents a clear snapshot of employee performance metrics across different departments.",
+            "short_summary": "Table of employee scores"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "f208114a-9d40-4150-867a-19755bb84459",
+              "classification": "PDF Document",
+              "score": 0.92
+            },
+            {
+              "id": "71e70abd-e0b2-4d83-94af-b1051ee13290",
+              "classification": "Table Data",
+              "score": 0.95
+            },
+            {
+              "id": "e7664acb-183b-4454-bff3-723ef0cf8355",
+              "classification": "Employee Information",
+              "score": 0.88
+            },
+            {
+              "id": "a71421c9-cd1d-4145-a366-a0ad3b766e37",
+              "classification": "HTML Format",
+              "score": 0.85
+            },
+            {
+              "id": "1ce350b4-40f8-4940-b63a-8bb89e6a2cf2",
+              "classification": "Score Metrics",
+              "score": 0.8
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "be5df0b2-087e-4792-b891-5e93220f3a8a",
+              "label": "Alice",
+              "type": "PERSON"
+            },
+            {
+              "id": "eb6a1fe0-9097-497c-b43a-e7e134223e08",
+              "label": "Bob",
+              "type": "PERSON"
+            },
+            {
+              "id": "59890413-c5e2-4636-8b9c-579a2c8592de",
+              "label": "Charlie",
+              "type": "PERSON"
+            },
+            {
+              "id": "095cc3d7-9ba0-4902-bb44-0f088d501147",
+              "label": "QA",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "adb4b2e7-02bd-4aa3-b969-4e48a34204eb",
+              "label": "Development",
+              "type": "ORGANIZATION"
+            },
+            {
+              "id": "50da5209-c86a-4dc0-ae4b-0d920f2b36ea",
+              "label": "DevOps",
+              "type": "ORGANIZATION"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

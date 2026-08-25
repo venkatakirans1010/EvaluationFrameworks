@@ -1,0 +1,200 @@
+{
+  "customer_id": "test_set_2x2@crd.com",
+  "document_id": "857ce859-8861-4283-8759-b5c31b531c50",
+  "document_name": "001_page_1-1.pdf",
+  "organization_name": "Booz Allen",
+  "account_name": "Default Account",
+  "application_name": "Booz Allen AI Atomization Service",
+  "vpub_name": "Default VPUB",
+  "topics": [
+    {
+      "topic_id": "e51fef8c-6c1b-4c36-ad5c-f76df3b3fac9",
+      "document_id": "857ce859-8861-4283-8759-b5c31b531c50",
+      "title": "Page 1",
+      "context": "<h2>What is LLM as a judge?</h2>\n<p><b>TL;DR:</b> LLM-as-a-Judge uses LLMs to evaluate AI-generated texts based on custom criteria defined in an evaluation prompt.</p>\n<p>As you build your LLM-powered product – whether it's a chatbot, code generator, or email assistant – you need to <a href=\"#\">evaluate its quality</a>.</p>\n<ul>\n<li>During development, to compare models or prompts and ensure you're improving.</li>\n<li>Once it's live, to monitor user interactions for quality and safety.</li>\n<li>Anytime you make changes, to run regression tests and ensure nothing breaks.</li>\n</ul>\n<p>LLM-as-a-judge is an evaluation approach that supports all these workflows. The idea is simple: ask an LLM to \"judge\" the text outputs using guidelines you define.</p>\n<p>Say, you have a chatbot. You can ask an external LLM to evaluate its responses, similar to how a human evaluator would, looking at things like:</p>\n<ul>\n<li><b>Politeness:</b> Is the response respectful and considerate?</li>\n<li><b>Bias:</b> Does the response show prejudice towards a particular group?</li>\n<li><b>Tone:</b> Is the tone formal, friendly, or conversational?</li>\n<li><b>Sentiment:</b> is the emotion expressed in the text positive, negative or neutral?</li>\n<li><b>Hallucinations:</b> Does this response stick to the provided context?</li>\n</ul>\n<p>To apply the method, you take the text output from your AI system and feed it back into the LLM, this time alongside an <b>evaluation prompt</b>. The LLM will then return a score, label, or even a descriptive judgment – following your instructions.</p>\n<p>The beauty of this approach is that it lets you evaluate text outputs <b>automatically</b> and look at <b>custom properties</b> specific to your use case.</p>\n<p>For example, you can instruct the LLM to judge the helpfulness of the customer chatbot's response.</p>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/test_set_2x2@crd.com/original_assets/001_page_1-1.pdf_chunks/001_page_1-1-chunked-files/001_page_1-1_page_1-1.pdf",
+        "sort_number": "10"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "2d13cbf5-fda5-4d0d-9fbd-a67d57faa34e",
+            "sentiment": "neutral",
+            "summary": "Explains LLM-as-a-judge: using LLMs to evaluate AI outputs against custom criteria like politeness, bias, tone, sentiment, hallucinations.",
+            "score": 0.92
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "5d50b8de-7035-4c79-97d5-1c3d9671d352",
+              "question": "¿Qué es LLM-as-a-Judge?",
+              "answer": "LLM-as-a-Judge es un enfoque de evaluación que utiliza modelos de lenguaje grande (LLM) para juzgar textos generados por IA según criterios personalizados definidos en un prompt de evaluación."
+            },
+            {
+              "id": "821869dc-ca78-429e-92c0-39dcf6bf1ee7",
+              "question": "¿Para qué se utiliza LLM-as-a-Judge?",
+              "answer": "Se emplea durante el desarrollo para comparar modelos o prompts, una vez que el producto está en producción para monitorear la calidad y seguridad de las interacciones de los usuarios, y cada vez que se realizan cambios para ejecutar pruebas de regresión y asegurar que nada se rompa."
+            },
+            {
+              "id": "f65ceaa6-8ec6-486c-8c6d-ffd677e087d1",
+              "question": "¿Cómo funciona el proceso de evaluación?",
+              "answer": "Se toma la salida de texto generada por el sistema de IA y se reenvía al LLM junto con un prompt de evaluación. El LLM devuelve una puntuación, una etiqueta o un juicio descriptivo siguiendo las instrucciones del prompt."
+            },
+            {
+              "id": "c334b04a-67c8-4168-b5ff-92c0f21e45a0",
+              "question": "¿Qué criterios se pueden evaluar con LLM-as-a-Judge?",
+              "answer": "Los criterios pueden incluir la cortesía, el sesgo, el tono, el sentimiento y las alucinaciones, entre otros. Se pueden definir criterios personalizados según el caso de uso."
+            },
+            {
+              "id": "475e766e-50b2-4982-b759-d92035b9123c",
+              "question": "¿Qué es un prompt de evaluación?",
+              "answer": "Un prompt de evaluación es la instrucción que se envía al LLM junto con el texto a evaluar, indicando los criterios y el formato de respuesta deseado."
+            },
+            {
+              "id": "2630be3b-493c-4c44-9214-ff3d5d1b23df",
+              "question": "¿Qué ventajas ofrece evaluar automáticamente con LLM-as-a-Judge?",
+              "answer": "Permite evaluar automáticamente los textos generados y analizar propiedades personalizadas específicas del caso de uso, sin necesidad de evaluadores humanos."
+            },
+            {
+              "id": "fbbc2a29-4256-4e6e-9bdf-6ce08e35f713",
+              "question": "¿Se puede usar LLM-as-a-Judge para evaluar la utilidad de un chatbot de atención al cliente?",
+              "answer": "Sí, se puede instruir al LLM para juzgar la utilidad de la respuesta del chatbot, siguiendo la misma metodología de enviar la respuesta y un prompt de evaluación."
+            },
+            {
+              "id": "00c46f06-29be-4587-93df-c527409f1f16",
+              "question": "¿Qué diferencia hay entre LLM-as-a-Judge y la evaluación humana?",
+              "answer": "LLM-as-a-Judge automatiza el proceso de evaluación, ofreciendo consistencia y rapidez, mientras que la evaluación humana puede ser más subjetiva y lenta."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "1aadfec3-5bfe-46ae-832a-a0e11328bce9",
+              "keyword": "LLM-as-a-judge",
+              "score": 0.98
+            },
+            {
+              "id": "2a8dcf58-e626-471c-90ac-c48a573d8cc7",
+              "keyword": "evaluation prompt",
+              "score": 0.97
+            },
+            {
+              "id": "099b2cea-e957-486a-9cb0-90149a722bd1",
+              "keyword": "AI-generated text",
+              "score": 0.96
+            },
+            {
+              "id": "e77afa53-dd9c-4421-a708-9888f00e80b8",
+              "keyword": "quality assessment",
+              "score": 0.95
+            },
+            {
+              "id": "6efad0c6-1e64-4948-befd-f6e7eaefbf6c",
+              "keyword": "custom criteria",
+              "score": 0.94
+            },
+            {
+              "id": "74e1a2af-86c7-4b1f-ae8e-a9940ce609e0",
+              "keyword": "bias detection",
+              "score": 0.93
+            },
+            {
+              "id": "6ef16b39-e565-43e4-881b-85b0c286576f",
+              "keyword": "hallucination detection",
+              "score": 0.92
+            },
+            {
+              "id": "9bfd0af6-dae7-46a8-9e54-81b6af6b280f",
+              "keyword": "politeness evaluation",
+              "score": 0.91
+            },
+            {
+              "id": "989649e1-7084-4450-9d82-3768f81d7b41",
+              "keyword": "tone analysis",
+              "score": 0.9
+            },
+            {
+              "id": "3a0f6374-cb98-445a-afce-2d30d96b6ea8",
+              "keyword": "regression testing",
+              "score": 0.89
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "e55d07fd-ca8c-4026-bcd9-6c393ae74868",
+            "title": "LLM‑as‑a‑Judge: Automating AI Text Evaluation",
+            "long_summary": "LLM‑as‑a‑Judge is an evaluation strategy that harnesses large language models (LLMs) to assess the quality of AI‑generated text. Instead of relying on human reviewers or static metrics, the approach feeds the AI’s output back into an LLM along with a carefully crafted evaluation prompt. The LLM then returns a score, label, or descriptive judgment based on the criteria specified in the prompt.\n\nThis method supports multiple stages of a product lifecycle: during development it helps compare models or prompts; in production it monitors user interactions for quality and safety; and whenever changes are made it runs regression tests to ensure no regressions occur. The evaluation can target any property relevant to the use case, such as politeness, bias, tone, sentiment, hallucination detection, or domain‑specific helpfulness.\n\nFor example, a customer‑service chatbot’s responses can be judged for helpfulness, while a code‑generation model can be evaluated for correctness and adherence to style guidelines. The LLM’s judgments are generated automatically, allowing continuous, scalable assessment without manual labor.\n\nOverall, LLM‑as‑a‑Judge provides a flexible, automated, and customizable framework for measuring AI text quality, enabling developers to iterate faster and maintain higher standards of safety and user experience.",
+            "short_summary": "LLMs evaluate AI outputs using custom criteria."
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "f772fd7e-6ce1-4256-a4e9-aa56b5e17139",
+              "classification": "Artificial Intelligence",
+              "score": 0.99
+            },
+            {
+              "id": "2a3a9fea-8a17-43f1-8954-6cee6d08dfa3",
+              "classification": "Machine Learning",
+              "score": 0.97
+            },
+            {
+              "id": "b0a406f2-fca7-434f-b135-a6f0f159d5eb",
+              "classification": "Natural Language Processing",
+              "score": 0.96
+            },
+            {
+              "id": "0194a5fd-6d3c-4b62-bb71-f6851847fe30",
+              "classification": "Evaluation and Metrics",
+              "score": 0.95
+            },
+            {
+              "id": "097b0a6d-2782-43b7-823f-542877c02993",
+              "classification": "Chatbot Development",
+              "score": 0.88
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "93e0d981-c02e-40e2-89d5-6a590e62bf37",
+              "label": "LLM-as-a-Judge",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "66a2346e-4f7a-4658-b966-0e86b5b89556",
+              "label": "LLM",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "50eff7de-3f94-4558-a7bd-cbccdfec8509",
+              "label": "Chatbot",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "59412ea7-2306-44a9-b164-65b24818e563",
+              "label": "Code generator",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "0b2fcea3-54ae-4497-b7c1-28ce4a68a5bb",
+              "label": "Email assistant",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "76d03c9c-1f4e-4992-ad71-08fe3ffb9dfb",
+              "label": "Customer chatbot",
+              "type": "PRODUCT"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

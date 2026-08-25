@@ -1,0 +1,179 @@
+{
+  "customer_id": "test_set_2x2@crd.com",
+  "document_id": "f7c165ff-5ccd-4825-9676-f34bd34b642b",
+  "document_name": "complex_alignment_with_Multicell.pdf",
+  "organization_name": "Booz Allen",
+  "account_name": "Default Account",
+  "application_name": "Booz Allen AI Atomization Service",
+  "vpub_name": "Default VPUB",
+  "topics": [
+    {
+      "topic_id": "6207f341-6228-49be-9d3d-7983f171194a",
+      "document_id": "f7c165ff-5ccd-4825-9676-f34bd34b642b",
+      "title": "Page 1",
+      "context": "<h2>Example of text layout using Multicell()</h2>\n<table border=\"1\">\n<tbody>\n<tr>\n<td>The banana ripens on the branch People slice it for snacks.</td>\n<td>The crane rises with the breeze Its nest rests where branches meet. The eagle rises with the breeze Wings beat in even rhythm. The swallow glides over water Its nest rests where branches meet.</td>\n</tr>\n<tr>\n<td>A elephant walks along the river path Tracks fade in soft soil. A bison walks along the quiet grove It moves with steady care. A jackal walks along the grassland It moves with steady care.</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td>A elephant walks along the forest edge Tracks fade in soft soil. A fox walks along the quiet grove Water reflects a brief shadow. A otter walks along the forest edge Tracks fade in soft soil.</td>\n</tr>\n<tr>\n<td>A bison walks along the river path Tracks fade in soft soil. A jackal walks along the grassland It moves with steady care. A fox walks along the river path Water reflects a brief shadow.</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td>We notice a silent valley Shadows drift across the stones. We notice a shaded path The air turns cool and clear. We notice a slow river Birdsong returns between the trees.</td>\n</tr>\n<tr>\n<td>In the courtyard, craftsmen shape clay lamps Tea boils and conversations begin. In the village, neighbors trade fresh produce Colors brighten the narrow streets. In the village, families prepare festivals Colors brighten the narrow streets.</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td>In the school porch, notes fill neat pages Small steps make steady learning. In the classroom, quiet helps thoughts grow Small steps make steady learning. In the school porch, notes fill neat pages Small steps make steady learning.</td>\n</tr>\n<tr>\n<td></td>\n<td>The papaya blends into simple salads It adds color to the table. The guava gives a soft scent People slice it for snacks. The orange ripens on the branch Juice cools a warm afternoon.</td>\n</tr>\n</tbody>\n</table>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/test_set_2x2@crd.com/original_assets/complex_alignment_with_Multicell.pdf_chunks/complex_alignment_with_Multicell-chunked-files/complex_alignment_with_Multicell_page_1-1.pdf",
+        "sort_number": "10"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "bdd99074-7b08-4ae5-b2c6-784282780bde",
+            "sentiment": "neutral",
+            "summary": "Una colección de frases descriptivas sobre naturaleza, animales y vida en el pueblo.",
+            "score": 0.92
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "ca3a63b7-1e38-4ef2-b9ef-d41f57c59cb0",
+              "question": "¿Cuál es el propósito de la tabla presentada?",
+              "answer": "La tabla muestra un ejemplo de diseño de texto utilizando la función Multicell()."
+            },
+            {
+              "id": "20d40eed-5194-4ee8-8435-da464abf543f",
+              "question": "¿Qué animales se mencionan en el contenido de la tabla?",
+              "answer": "Se mencionan banana, crane, eagle, swallow, elephant, bison, jackal, fox, otter, papaya, guava y orange."
+            },
+            {
+              "id": "c1d63f62-e609-4d63-b065-fdfbd3cbdfc6",
+              "question": "¿Qué frases se repiten en varias celdas de la tabla?",
+              "answer": "Frases como \"Tracks fade in soft soil.\", \"Small steps make steady learning.\", \"We notice a silent valley\", \"In the village, families prepare festivals\", \"In the school porch, notes fill neat pages\", \"The papaya blends into simple salads\", \"The guava gives a soft scent\", \"The orange ripens on the branch\", \"People slice it for snacks\" y \"Juice cools a warm afternoon.\" aparecen repetidas."
+            },
+            {
+              "id": "87e74013-62c1-433a-9769-53f42b72bf35",
+              "question": "¿Cuántas columnas tiene la tabla?",
+              "answer": "La tabla tiene dos columnas."
+            },
+            {
+              "id": "33305b5e-b2d9-42c9-8870-b669f01179a4",
+              "question": "¿Hay celdas vacías en la tabla?",
+              "answer": "Sí, varias celdas están vacías, especialmente en la segunda columna de algunas filas."
+            },
+            {
+              "id": "1126692d-8005-43c1-8a55-94567ceff0e1",
+              "question": "¿Qué indica el atributo \"border=\\\"1\\\"\" en la tabla?",
+              "answer": "El atributo indica que la tabla tiene un borde de grosor 1."
+            },
+            {
+              "id": "7b5b26bb-91c8-4f75-a819-8b2f1b6fca9b",
+              "question": "¿Qué describe la frase \"The banana ripens on the branch People slice it for snacks.\"?",
+              "answer": "Describe que la banana madura en la rama y la gente la corta para comerla como snack."
+            },
+            {
+              "id": "eb7ac315-da7a-43c3-b3a2-f8aab2b814d0",
+              "question": "¿Qué se menciona sobre el entorno de los animales en la tabla?",
+              "answer": "Se menciona que los animales caminan por ríos, bosques, praderas y que sus rastros se desvanecen en la tierra suave."
+            },
+            {
+              "id": "e98d6230-c356-43a8-bb91-60813865be80",
+              "question": "¿Qué actividades se describen en el patio de la escuela?",
+              "answer": "Se describe que las notas llenan páginas ordenadas y que los pequeños pasos fomentan el aprendizaje constante."
+            },
+            {
+              "id": "46539748-021b-40c8-aa0f-9b865477ddf2",
+              "question": "¿Qué se dice sobre la preparación de festivales en el pueblo?",
+              "answer": "Se menciona que las familias del pueblo preparan festivales y que los colores iluminan las estrechas calles."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "8dda86a8-a083-4570-8f2d-59fa92c53b96",
+              "keyword": "river",
+              "score": 0.98
+            },
+            {
+              "id": "9ca10554-4899-40f0-8995-45d102eb926b",
+              "keyword": "village",
+              "score": 0.98
+            },
+            {
+              "id": "e9996605-0da7-462a-a894-f840d5f79462",
+              "keyword": "fruit",
+              "score": 0.98
+            },
+            {
+              "id": "ff50ad94-06b3-49f1-a77f-702f7e2aea18",
+              "keyword": "learning",
+              "score": 0.98
+            },
+            {
+              "id": "b8faac1e-d573-4930-a401-f9f09404aab9",
+              "keyword": "banana",
+              "score": 0.95
+            },
+            {
+              "id": "76cc8874-f6bf-485a-9e40-74171a6a2471",
+              "keyword": "crane",
+              "score": 0.95
+            },
+            {
+              "id": "8c791574-a5b9-44ff-885d-31e60abd080d",
+              "keyword": "eagle",
+              "score": 0.95
+            },
+            {
+              "id": "6617f8c6-90f9-46ad-bbf7-a119d6ca7a1f",
+              "keyword": "swallow",
+              "score": 0.95
+            },
+            {
+              "id": "18e11192-acd6-4ac2-87b5-0a8ecbb11d5e",
+              "keyword": "elephant",
+              "score": 0.95
+            },
+            {
+              "id": "c078de71-10cc-496c-8392-e7172f53bdb8",
+              "keyword": "bison",
+              "score": 0.95
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "45fa7242-451c-4f0a-938a-201611d5b943",
+            "title": "Multicell Text Layout Example",
+            "long_summary": "The provided content is an HTML table that demonstrates how text can be arranged using the Multicell() function in a PDF generation library. The table contains eight rows and two columns, with many cells left empty to illustrate spacing. The populated cells contain short, poetic sentences describing various scenes: animals such as bananas, cranes, eagles, swallows, elephants, bison, jackals, foxes, otters, and papayas; natural settings like branches, rivers, grasslands, forests, valleys, and villages; and human activities such as craftsmen shaping clay lamps, neighbors trading produce, families preparing festivals, and students learning in a school porch. Each sentence is concise, often repeating a motif (e.g., “Tracks fade in soft soil” or “Water reflects a brief shadow”) to emphasize rhythm. The layout showcases how Multicell can wrap text within a cell, allowing for multi-line content that aligns neatly in a grid. The table’s borders and empty cells help visualize how content will appear when rendered, making it a useful reference for developers creating complex PDF layouts with dynamic text blocks.",
+            "short_summary": "Example of text layout using Multicell in a table"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "c27c11b0-f41c-49b8-8d79-eb4ae6efed18",
+              "classification": "Nature and Wildlife",
+              "score": 0.95
+            },
+            {
+              "id": "e111e40c-de28-48b6-b767-9064cd32e8e5",
+              "classification": "Education and Learning",
+              "score": 0.85
+            },
+            {
+              "id": "4fae07d2-6f22-49e4-8b61-664738613e74",
+              "classification": "Culinary/Food",
+              "score": 0.8
+            },
+            {
+              "id": "9c3f8283-2c75-4f11-a49e-99e068d0b211",
+              "classification": "Community and Culture",
+              "score": 0.75
+            },
+            {
+              "id": "ef566be0-165d-4c4b-8238-f6fcf79f70a4",
+              "classification": "Environment and Landscape",
+              "score": 0.7
+            }
+          ]
+        },
+        {
+          "entities": []
+        }
+      ]
+    }
+  ]
+}

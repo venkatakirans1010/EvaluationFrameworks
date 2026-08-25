@@ -1,0 +1,179 @@
+{
+  "customer_id": "test_set_1x1@crd.com",
+  "document_id": "5fee1ddd-06a6-4a0b-a880-e33e8896135c",
+  "document_name": "Multicell()_processed.pdf",
+  "organization_name": "Booz Allen",
+  "account_name": "Default Account",
+  "application_name": "Booz Allen AI Atomization Service",
+  "vpub_name": "Default VPUB",
+  "topics": [
+    {
+      "topic_id": "809bfcd0-39cb-46ff-bed2-bd33747845be",
+      "document_id": "5fee1ddd-06a6-4a0b-a880-e33e8896135c",
+      "title": "Page 1",
+      "context": "<div>\n<p>[LEFT] Lorem ipsum dolor sit amet, A jackal walks along the river path Water reflects a brief shadow.</p>\n<p>[RIGHT] Lorem ipsum dolor sit We notice a silent valley Shadows drift across the stones</p>\n<p>[CENTER] Lorem ipsum dolor sit A fox walks along the river path Water reflects a brief shadow</p>\n<p>[JUSTIFY] Lorem ipsum dolor sit In the library, teachers explain simple ideas Small steps make steady learning.</p>\n<p>We notice rain on dry earth Shadows drift across the stones. We notice a silent valley The air turns cool and clear.</p>\n<p>[VERTICAL ALIGNMENT - TOP] The papaya gives a soft scent It adds color to the table. The mango tastes bright and sweet It adds color to the table.</p>\n<p>[VERTICAL] In the riverbank, families prepare festivals The air is warm and calm. In the village, craftsmen shape clay lamps Colors brighten the narrow streets.</p>\n<p>[VERTICAL] In the village, craftsmen shape clay lamps Morning light touches quiet homes. In the riverbank, children read stories The air is warm and calm.</p>\n<p>The apple blends into simple salads It adds color to the table. The guava tastes bright and sweet It adds color to the table. The orange tastes bright and sweet It adds color to the table.</p>\n<p>[FIT CELL] Lorem ipsum dolor sit amet, consectetur adipiscing elit. In the classroom, students read with care Small steps make steady learning. In the library, notes fill neat pages Small steps make steady learning. In the school porch, teachers explain simple ideas Small steps make steady learning.</p>\n<p>In the village, families prepare festivals The air is warm and calm. In the bazaar, children read stories Colors brighten the narrow streets. In the bazaar, families prepare festivals Colors brighten the narrow streets.</p>\n<p>The orange gives a soft scent People slice it for snacks. The orange blends into simple salads It adds color to the table. The banana tastes bright and sweet It adds color to the table.</p>\n<p>CUSTOM PADDING: Left=2, Top=4, Right=6, Bottom=8 We notice a slow river Shadows drift across the stones. We notice a shaded path Birdsong returns between the trees.</p>\n</div>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/test_set_1x1@crd.com/original_assets/Multicell()_processed.pdf_chunks/Multicell()_processed-chunked-files/Multicell()_processed_page_1-1.pdf",
+        "sort_number": "10"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "ede59311-7538-4b31-84f2-7de6c3bfd87f",
+            "sentiment": "neutral",
+            "summary": "Descriptive passage depicting nature scenes, food, and learning moments with calm, neutral tone.",
+            "score": 0.92
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "601020c1-ece2-4155-99cc-a6c028050809",
+              "question": "What formatting tags appear in the text?",
+              "answer": "The tags used are [LEFT], [RIGHT], [CENTER], [JUSTIFY], [VERTICAL ALIGNMENT - TOP], [VERTICAL], [FIT CELL], and a CUSTOM PADDING declaration."
+            },
+            {
+              "id": "bbb85eb6-20a7-41ac-8d2c-3673d87dba14",
+              "question": "Which fruits are mentioned?",
+              "answer": "The fruits listed are papaya, mango, apple, guava, orange, and banana."
+            },
+            {
+              "id": "ac693ff5-9d95-446c-b373-636abdd97d5f",
+              "question": "What recurring phrases can be found?",
+              "answer": "The phrases \"Small steps make steady learning.\" and \"It adds color to the table.\" appear multiple times."
+            },
+            {
+              "id": "6626eea7-e075-4b2d-99d6-70087dca707b",
+              "question": "What scenes or settings are described?",
+              "answer": "Scenes include a river path, a silent valley, a library, a village, a bazaar, a riverbank, and a classroom."
+            },
+            {
+              "id": "4704a844-b912-4e1f-b04e-530258a675db",
+              "question": "What does the CUSTOM PADDING line indicate?",
+              "answer": "It specifies custom padding values: Left=2, Top=4, Right=6, Bottom=8."
+            },
+            {
+              "id": "70643a15-1b4c-4434-9653-90c9ad6e1e7d",
+              "question": "Are there repeated sentences?",
+              "answer": "Yes, sentences such as \"It adds color to the table.\" and \"Small steps make steady learning.\" are repeated."
+            },
+            {
+              "id": "767bb3d2-4a4f-4a94-a473-74bcb83b5f60",
+              "question": "What activities are mentioned?",
+              "answer": "Activities include families preparing festivals, children reading stories, craftsmen shaping clay lamps, and teachers explaining simple ideas."
+            },
+            {
+              "id": "1e85c6ef-e71c-49eb-b4be-9acfed25055b",
+              "question": "What sensory details are included?",
+              "answer": "Sensory details include a soft scent, bright and sweet tastes, warm and calm air, and cool and clear air."
+            },
+            {
+              "id": "8fad26e3-d5f6-4c18-9ae9-58204c260070",
+              "question": "What is the overall theme of the text?",
+              "answer": "The text blends descriptions of nature, learning, and fruit, emphasizing simple ideas and sensory experiences."
+            },
+            {
+              "id": "e786d651-5973-4086-a026-0c24830c38a5",
+              "question": "What is the purpose of tags like [LEFT] and [RIGHT]?",
+              "answer": "These tags likely indicate text alignment formatting for the corresponding paragraphs."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "c22372e0-edff-441e-bf85-22f7027c594d",
+              "keyword": "river",
+              "score": 0.98
+            },
+            {
+              "id": "3b81037b-c88a-4b00-b40c-51622185ff45",
+              "keyword": "shadows",
+              "score": 0.97
+            },
+            {
+              "id": "e7ecb3d7-d601-4cc3-aac7-a15b34a03321",
+              "keyword": "stones",
+              "score": 0.96
+            },
+            {
+              "id": "256d1947-875c-4a03-98f5-264c142824f8",
+              "keyword": "families",
+              "score": 0.95
+            },
+            {
+              "id": "2f6b2429-4bf8-43d7-a493-92c83de19b59",
+              "keyword": "festivals",
+              "score": 0.94
+            },
+            {
+              "id": "7b163e3e-13ab-493d-898f-b0691a6ba118",
+              "keyword": "air",
+              "score": 0.93
+            },
+            {
+              "id": "9bdb450b-88b5-496d-87e6-5e980ef1f77d",
+              "keyword": "warm",
+              "score": 0.92
+            },
+            {
+              "id": "7f0908bd-786e-4d42-9919-ecc085214631",
+              "keyword": "calm",
+              "score": 0.91
+            },
+            {
+              "id": "6b3e2cb0-1f04-4058-bb34-3d32385da606",
+              "keyword": "color",
+              "score": 0.9
+            },
+            {
+              "id": "0f3284a0-04bb-4be3-9470-5b0f62ef6a24",
+              "keyword": "table",
+              "score": 0.89
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "924850bf-5bd7-4944-ac08-10a386556978",
+            "title": "Vivid Depictions of Nature, Food, and Learning",
+            "long_summary": "The passage presents a collage of short, evocative sentences that paint a picture of everyday life and natural beauty. It begins with images of a jackal and a fox walking along a river, water reflecting fleeting shadows, and a silent valley where shadows drift across stones. The narrative then shifts to educational settings, describing a library where teachers explain simple ideas and students read with care, emphasizing steady learning through small steps. The text continues with sensory descriptions of fruit: papaya, mango, apple, guava, orange, and banana, each noted for their color, scent, and taste, and how they add vibrancy to tables and salads. Scenes of community life appear in the village and riverbank, where families prepare festivals, craftsmen shape clay lamps, and children read stories amid warm, calm air. The bazaar is highlighted as a place where colors brighten narrow streets and families gather. Throughout, the recurring motifs of shadows, light, and the gentle movement of nature underscore a tranquil, harmonious atmosphere. The passage, while fragmented, weaves together themes of nature, nourishment, and education, illustrating how simple elements—shadows, fruit, and learning—contribute to a rich, everyday tapestry.",
+            "short_summary": "Scenes of nature, food, and learning in varied settings"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "f1cf2713-9416-48b7-9fea-4ebcbb9490b0",
+              "classification": "Nature and Natural Environment",
+              "score": 0.95
+            },
+            {
+              "id": "5895da2c-6181-421a-9d01-ddf967b1d9a3",
+              "classification": "Food and Agriculture",
+              "score": 0.9
+            },
+            {
+              "id": "712769de-aca0-46f1-b9f6-88e8e6287abf",
+              "classification": "Education and Learning",
+              "score": 0.85
+            },
+            {
+              "id": "918c3a11-961a-41f5-8563-af94c42de5bf",
+              "classification": "Cultural Events and Community Life",
+              "score": 0.6
+            },
+            {
+              "id": "56fd29fc-db58-41c5-a744-8b24237c2ff4",
+              "classification": "Document Formatting and Layout",
+              "score": 0.3
+            }
+          ]
+        },
+        {
+          "entities": []
+        }
+      ]
+    }
+  ]
+}

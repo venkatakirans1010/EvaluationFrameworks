@@ -1,0 +1,159 @@
+{
+  "customer_id": "test_set_2x2@crd.com",
+  "document_id": "e8d2570b-ccc8-49b8-af0f-287edae78879",
+  "document_name": "Skill_With_People_Pg1.pdf",
+  "organization_name": "Booz Allen",
+  "account_name": "Default Account",
+  "application_name": "Booz Allen AI Atomization Service",
+  "vpub_name": "Default VPUB",
+  "topics": [
+    {
+      "topic_id": "8d55ac84-c11e-44ca-890f-803b729066dd",
+      "document_id": "e8d2570b-ccc8-49b8-af0f-287edae78879",
+      "title": "Page 1",
+      "context": "<h2><u>How to Skillfully Make Up Peoples Minds</u></h2>\n<p>There is more involved in getting people to say “yes” than luck, guesswork, or their whim.</p>\n<p>Those skilled in human relations have several techniques and methods, which greatly increase the chances of people saying “yes” to them. (Getting them to say “yes” simply means getting them to do what you want them to do.)</p>\n<p><b>Here are four good methods –</b></p>\n<ol>\n<li><b>Give people REASONS to say yes to you.</b>\n<ul>\n<li>Everything in this world is done for a reason. So, when you want somebody to do something, give them a reason as to why they should do it.</li>\n<li>However, be sure the reasons you give them are their reasons, meaning reasons that are to their advantage and benefit.</li>\n<li>The wrong way would be for you to give reasons that would be to your advantage or benefit.</li>\n<li>In short, tell people how they will benefit by doing what you want them to do, not how you benefit.</li>\n</ul>\n</li>\n<li><b>Ask “yes” questions.</b></li>\n</ol>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/test_set_2x2@crd.com/original_assets/Skill_With_People_Pg1.pdf_chunks/Skill_With_People_Pg1-chunked-files/Skill_With_People_Pg1_page_1-1.pdf",
+        "sort_number": "10"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "25950e6f-3cf1-4cc4-9b27-8aa28e62e2e4",
+            "sentiment": "neutral",
+            "summary": "Guide outlining four methods to persuade people to say 'yes' by giving reasons and asking affirmative questions.",
+            "score": 0.95
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "01977318-ecc9-41df-b11b-0163e879248c",
+              "question": "What does it mean to give people reasons to say yes?",
+              "answer": "It means explaining why they should do what you want, focusing on how they will benefit rather than how you will benefit."
+            },
+            {
+              "id": "3728047b-22d8-4635-b09f-ffc73339746f",
+              "question": "Why should the reasons given be to the other person's advantage?",
+              "answer": "Because the goal is to persuade them to say yes, and people are more likely to agree when they see a clear benefit for themselves."
+            },
+            {
+              "id": "f43ce6d5-21f0-414a-bf38-b2e506ea68a6",
+              "question": "What would be an example of giving a reason that is to your advantage?",
+              "answer": "Saying something like, 'I need you to do this because it will help me finish my project,' is not recommended because it focuses on your benefit."
+            },
+            {
+              "id": "284629b5-4e29-423c-9ab9-331c194d8f62",
+              "question": "What is a 'yes' question?",
+              "answer": "A 'yes' question is a question that is phrased in a way that leads the respondent to answer 'yes,' often used as a technique to increase the likelihood of agreement."
+            },
+            {
+              "id": "19ccb73b-2ced-45ef-8d88-6d4ba5efdffa",
+              "question": "How many methods are listed for getting people to say yes?",
+              "answer": "Four methods are mentioned, but only the first two are detailed in the provided text."
+            },
+            {
+              "id": "748763c1-eb2b-48e8-986a-35872082da94",
+              "question": "What is the overall goal of these techniques?",
+              "answer": "The goal is to increase the chances that people will say 'yes' to what you want them to do, effectively getting them to comply with your request."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "a11d0a04-b39a-4e61-acc3-e8c38466bc64",
+              "keyword": "persuasion",
+              "score": 0.97
+            },
+            {
+              "id": "2279d0ae-149f-42a2-a63e-8bda69601a11",
+              "keyword": "human relations",
+              "score": 0.94
+            },
+            {
+              "id": "b1be5801-ca00-454e-bd3e-605b805847bb",
+              "keyword": "getting people to say yes",
+              "score": 0.93
+            },
+            {
+              "id": "1ae65e26-bcc0-45e5-a658-a7f1a463bf1e",
+              "keyword": "reasons",
+              "score": 0.92
+            },
+            {
+              "id": "0e23350c-ee58-41a2-993b-3a450861f6cc",
+              "keyword": "benefit",
+              "score": 0.9
+            },
+            {
+              "id": "59345c3a-68a4-43f5-ac8a-e7259d2d9dd1",
+              "keyword": "yes questions",
+              "score": 0.88
+            },
+            {
+              "id": "b85d4058-8f8e-4601-9f1b-5fc1d3d7e19e",
+              "keyword": "techniques",
+              "score": 0.86
+            },
+            {
+              "id": "712c70f5-9f02-4cd2-ac30-765ae5c7f883",
+              "keyword": "methods",
+              "score": 0.85
+            },
+            {
+              "id": "3fbfaf54-49a8-41fb-838e-c9eb2874cb47",
+              "keyword": "influence",
+              "score": 0.84
+            },
+            {
+              "id": "8b1ace7f-ef67-4e18-a15e-e8e945ed5bca",
+              "keyword": "communication",
+              "score": 0.83
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "1546fc54-9404-469f-8985-781361c8c450",
+            "title": "Techniques to Persuade Others Effectively",
+            "long_summary": "The article discusses how skilled people in human relations can increase the likelihood that others will agree to their requests. It emphasizes that success in getting a \"yes\" is not random but relies on specific techniques. The author outlines four methods, though only two are fully described in the excerpt. The first method is to give people reasons that benefit them, rather than reasons that benefit the persuader. By explaining how the other party will gain from complying, the request becomes more appealing. The second method mentioned is to ask \"yes\" questions, which are phrased in a way that encourages a positive response. The article stresses that these approaches are part of a broader strategy to influence others, and that understanding the motivations of the other person is key to effective persuasion. The content is concise and focuses on practical steps for improving interpersonal influence.",
+            "short_summary": "Ways to get people to say yes"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "330def3f-eeb2-4346-a096-43b06f814d39",
+              "classification": "Persuasion",
+              "score": 0.98
+            },
+            {
+              "id": "40b1632d-4046-47ae-a7be-9dc186fc6e22",
+              "classification": "Social Influence",
+              "score": 0.95
+            },
+            {
+              "id": "3f0dcf73-6a80-475d-9181-997fb485068e",
+              "classification": "Communication Skills",
+              "score": 0.9
+            },
+            {
+              "id": "73fab7f4-e783-484d-a583-385f683449cd",
+              "classification": "Negotiation",
+              "score": 0.85
+            },
+            {
+              "id": "df8c6fde-b51f-4ccb-9371-c1a479b39f4e",
+              "classification": "Self-Help",
+              "score": 0.8
+            }
+          ]
+        },
+        {
+          "entities": []
+        }
+      ]
+    }
+  ]
+}

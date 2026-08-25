@@ -1,0 +1,9 @@
+# Core dependencies
+streamlit
+pandas
+langdetect
+pycountry
+
+# Optional features (the app degrades gracefully if these are not installed)
+scikit-learn   # Used for TF-IDF based metrics
+bert-score     # Used for BERTScore-based semantic evaluation

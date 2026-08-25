@@ -1,0 +1,2598 @@
+{
+  "customer_id": "FAA@crd.com",
+  "document_id": "d603a7d6-a7a2-4758-8ca0-8f8286bb9c22",
+  "document_name": "Airplane Flying Handbook-[]-133-Chapter 6 Takeoffs and Departure Climbs.pdf",
+  "organization_name": "Booz Allen",
+  "account_name": "Default Account",
+  "application_name": "Booz Allen AI Atomization Service",
+  "vpub_name": "Default VPUB",
+  "meta_data": {
+    "gen_ai": {
+      "model": "gpt-oss-20b",
+      "llm_id": 27,
+      "completed_at": "2026-02-26T10:05:32.756338+00:00",
+      "triggered_at": "2026-02-26T10:02:49.112276+00:00",
+      "model_provider": "self_hosted",
+      "last_triggered_at": "2026-02-26T10:02:49.112288+00:00"
+    },
+    "llm_id": 27,
+    "aiModel": "chandra",
+    "file_url": "s3://thailand-boozallen-ai-topiclake/FAA@crd.com/original_assets/Airplane Flying Handbook-[]-133-Chapter 6 Takeoffs and Departure Climbs.pdf",
+    "language": "english",
+    "llm_model": "gpt-oss-20b",
+    "atomization": {
+      "enabled": true,
+      "service": "boozallen_ai_atomization_service",
+      "language": "english",
+      "model_name": "chandra",
+      "prompt_url": "s3://thailand-boozallen-ai-atomization-service-bucket/self_hosted_models_prompts/prompt_chandra.json",
+      "initiated_at": "2026-02-26T09:58:25.093393+00:00",
+      "instructions": null,
+      "model_provider": "SELF_HOSTED",
+      "prompt_version": "MULTILINGUAL_v2",
+      "instructions_provided": false
+    },
+    "auto_gen_ai": true,
+    "gantt_chart": {
+      "artifacts": {
+        "end": "2026-02-26T10:05:32.756338+00:00",
+        "start": "2026-02-26T10:02:49.112288+00:00"
+      },
+      "atomization": {
+        "end": "2026-02-26T10:02:48.993752+00:00",
+        "start": "2026-02-26T09:59:47.171948+00:00",
+        "queued_at": "2026-02-26T09:58:25.570788+00:00",
+        "total_atoms": 14,
+        "completed_atoms": 14
+      },
+      "pdf_splitting": {
+        "end": "2026-02-26T09:58:25.432850+00:00",
+        "start": "2026-02-26T09:58:25.145789+00:00",
+        "chunks": 14
+      }
+    },
+    "total_atoms": 14,
+    "llm_provider": "self_hosted",
+    "pipeline_timing": {
+      "queuing": {
+        "end": "2026-02-26T09:58:25.645487+00:00",
+        "start": "2026-02-26T09:58:25.570788+00:00",
+        "atoms_failed": 0,
+        "atoms_queued": 14
+      },
+      "split_pdf": {
+        "end": "2026-02-26T09:58:25.432850+00:00",
+        "start": "2026-02-26T09:58:25.145789+00:00",
+        "chunks_created": 14
+      },
+      "atomization": {
+        "total_atoms": 14,
+        "completed_at": "2026-02-26T10:02:48.993752+00:00",
+        "completed_atoms": 14,
+        "first_gpu_started_at": "2026-02-26T09:59:47.171948+00:00"
+      }
+    },
+    "service_version": "1.0.0",
+    "genai_total_atoms": 14,
+    "atomization_status": "green",
+    "processing_timestamp": "2026-02-26T09:58:25.093393+00:00",
+    "genai_progress_status": "yellow",
+    "atomization_percentage": 100,
+    "atoms_with_description": 14,
+    "genai_total_artifacts_generated": 289
+  },
+  "topics": [
+    {
+      "topic_id": "7692d1d9-01cb-46dc-a620-3511e82bd90d",
+      "document_id": "d603a7d6-a7a2-4758-8ca0-8f8286bb9c22",
+      "title": "Page 1",
+      "context": "<h1>Airplane Flying Handbook (FAA-H-8083-3C)</h1>\n<h2>Chapter 6: Takeoffs and Departure Climbs</h2>\n<h3>Introduction</h3>\n<p>About twenty percent of all yearly general aviation (GA) accidents occur during takeoff and departure climbs, and more than half of those accidents are the result of some sort of failure of the pilot. A significant number of takeoff accidents are the result of loss of control of the airplane. When compared to the entire profile of a normal flight, this phase of a flight is relatively short, but the pilot workload is intense. This chapter discusses takeoffs and departure climbs in airplanes under normal conditions and under conditions that require maximum performance.</p>\n<p>Though it may seem relatively simple, the takeoff often presents the most hazards of any part of a flight. The importance of thorough knowledge of procedures and techniques coupled with proficiency in performance cannot be overemphasized.</p>\n<p>The discussion in this chapter is centered on airplanes with tricycle landing gear (nose-wheel). Procedures for conventional gear airplanes (tail-wheel) are discussed in Chapter 14: Transition to Tailwheel Airplanes. The manufacturer's recommended procedures pertaining to airplane configuration, airspeeds, and other information relevant to takeoffs and departure climbs in a specific make and model airplane are contained in the Federal Aviation Administration (FAA)-approved Airplane Flight Manual and/or Pilot's Operating Handbook (AFM/POH) for that airplane. If any of the information in this chapter differs from the airplane manufacturer's recommendations as contained in the AFM/POH, the airplane manufacturer's recommendations take precedence.</p>\n<h3>Terms and Definitions</h3>\n<p>Although the takeoff and climb is one continuous maneuver, it will be divided into three separate steps for purposes of explanation: 1.) takeoff roll; 2.) lift-off; and 3.) initial climb after becoming airborne. Refer to Figure 6-1 and the detail below.</p>\n<ul>\n<li>Takeoff roll (ground roll) is the portion of the takeoff procedure during which the airplane is accelerated from a standstill to an airspeed that provides sufficient lift for it to become airborne.</li>\n<li>Lift-off is when the wings are lifting the weight of the airplane off the surface. In most airplanes, this is the result of the pilot rotating the nose up to increase the angle of attack (AOA).</li>\n<li>The initial climb begins when the airplane leaves the surface and a climb pitch attitude has been established. Normally, it is considered complete when the airplane has reached a safe maneuvering altitude or an en route climb has been established.</li>\n</ul>\n<h3>Prior to Takeoff</h3>\n<p>Before going to the airplane, the pilot should check the POH/AFM performance charts to determine the predicted performance and decide if the airplane is capable of a safe takeoff and climb for the conditions and location. [Figure 6-2] High density altitudes reduce engine and propeller performance, increase takeoff rolls, and decrease climb performance. A more detailed discussion of density altitude and how it affects airplane performance can be found in the <i>Pilot's Handbook of Aeronautical Knowledge</i> (FAA-H-8083-25, as revised).</p>\n<p>All run-up and pre-takeoff checklist items should be completed before taxiing onto the runway or takeoff area. As a minimum before every takeoff, all engine instruments should be checked for proper and usual indications, and all controls should be checked for full, free, and correct movement. The pilot should also consider available options if an engine failure occurs after takeoff. These options include the preferred direction for any emergency turns to landing sites based on the departure path, altitude, wind conditions, and terrain. In addition, the pilot should make certain that the approach and takeoff paths are clear of other aircraft. At nontowered airports, pilots should announce their intentions on the common traffic advisory frequency (CTAF) assigned to that airport. When operating from a towered airport, pilots need to contact the tower operator and receive a takeoff clearance before taxiing onto the active runway.</p>\n<p>Taking off immediately behind another aircraft, particularly a large and heavy transport airplane, creates the risk of a wake turbulence encounter, and a possible loss of control. However, if an immediate takeoff behind a large heavy aircraft is necessary, the pilot should plan to minimize the chances of flying through an aircraft's wake turbulence by avoiding the other aircraft's flightpath or rotating prior to the point at which the preceding aircraft rotated. While taxiing onto the runway, the pilot should select ground reference points that are aligned with the runway direction to aid in maintaining directional control and alignment with the runway center line during the climb out. These may be runway centerline markings, runway lighting, distant trees, towers, buildings, or mountain peaks.</p>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/FAA@crd.com/original_assets/Airplane Flying Handbook-[]-133-Chapter 6 Takeoffs and Departure Climbs.pdf_chunks/Airplane Flying Handbook-[]-133-Chapter 6 Takeoffs and Departure Climbs-chunked-files/Airplane Flying Handbook-[]-133-Chapter 6 Takeoffs and Departure Climbs_page_1-1.pdf",
+        "sort_number": "10"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "86761a9c-bc88-42f1-ab60-dff40b3a0a3d",
+            "sentiment": "neutral",
+            "summary": "Chapter 6 outlines takeoff procedures, hazards, and pre‑takeoff checks for GA aircraft, emphasizing safety, performance considerations, and pilot responsibilities.",
+            "score": 0.98
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "2b5bd341-9d26-49a4-8a12-4efecd32cdc6",
+              "question": "What percentage of general aviation accidents occur during takeoff and departure climbs?",
+              "answer": "About twenty percent of all yearly general aviation accidents occur during takeoff and departure climbs."
+            },
+            {
+              "id": "75317e30-d140-40a2-a2e5-7e4613fb82b7",
+              "question": "What are the primary causes of takeoff accidents according to the handbook?",
+              "answer": "More than half of takeoff accidents are the result of some sort of failure of the pilot, and a significant number are due to loss of control of the airplane."
+            },
+            {
+              "id": "f78b101f-0465-4fb2-a78d-d81d10f0d33c",
+              "question": "How does the handbook divide the takeoff and climb maneuver for explanation purposes?",
+              "answer": "The maneuver is divided into three steps: 1) takeoff roll, 2) lift‑off, and 3) initial climb after becoming airborne."
+            },
+            {
+              "id": "9514c0e0-cc1e-4c62-b315-76ac9ed27122",
+              "question": "What is the definition of the takeoff roll (ground roll)?",
+              "answer": "The takeoff roll is the portion of the takeoff procedure during which the airplane is accelerated from a standstill to an airspeed that provides sufficient lift for it to become airborne."
+            },
+            {
+              "id": "e6cb822b-3d15-4717-9917-ed26429ab668",
+              "question": "What does “lift‑off” mean in the context of a takeoff?",
+              "answer": "Lift‑off is when the wings are lifting the weight of the airplane off the surface, usually as a result of the pilot rotating the nose up to increase the angle of attack."
+            },
+            {
+              "id": "658816cb-5df8-4b4c-9cae-ff6f5a498214",
+              "question": "When is the initial climb considered complete?",
+              "answer": "The initial climb is normally considered complete when the airplane has reached a safe maneuvering altitude or an en‑route climb has been established."
+            },
+            {
+              "id": "ef9eeda7-b2a0-4dbe-9849-64d66f215181",
+              "question": "What pre‑takeoff checks should a pilot perform before taxiing onto the runway?",
+              "answer": "The pilot should check the POH/AFM performance charts, complete all run‑up and pre‑takeoff checklist items, verify engine instruments and control movements, consider options for an engine failure after takeoff, ensure the approach and takeoff paths are clear, and announce intentions on the CTAF or obtain tower clearance as required."
+            },
+            {
+              "id": "1c9731aa-47c1-457e-9eaf-f1f5b20a60da",
+              "question": "How does high density altitude affect takeoff and climb performance?",
+              "answer": "High density altitudes reduce engine and propeller performance, increase takeoff rolls, and decrease climb performance."
+            },
+            {
+              "id": "99f4dd75-02de-40e5-ad68-74334af3d4c5",
+              "question": "What should a pilot do when taking off immediately behind a large, heavy transport airplane?",
+              "answer": "The pilot should plan to minimize the chances of flying through wake turbulence by avoiding the other aircraft’s flight path or rotating prior to the point at which the preceding aircraft rotated."
+            },
+            {
+              "id": "d4451170-fdaf-44d4-8526-70c07812f1ff",
+              "question": "What ground reference points can be used to maintain runway alignment during the climb out?",
+              "answer": "Ground reference points may include runway centerline markings, runway lighting, distant trees, towers, buildings, or mountain peaks that are aligned with the runway direction."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "1e11d5ed-61d6-4960-bfdd-62fd1dd67e8f",
+              "keyword": "takeoff roll",
+              "score": 0.96
+            },
+            {
+              "id": "e79faed3-f03d-4996-87e8-67a123300552",
+              "keyword": "departure climb",
+              "score": 0.94
+            },
+            {
+              "id": "4fac26db-3977-447c-8fc3-177f3fd21b0f",
+              "keyword": "general aviation accidents",
+              "score": 0.92
+            },
+            {
+              "id": "b16b37e9-3a41-477b-b6ba-ed60a8f15913",
+              "keyword": "pilot workload",
+              "score": 0.9
+            },
+            {
+              "id": "af8d2ebe-3ae7-46ba-b175-c8619d50d4cc",
+              "keyword": "tricycle landing gear",
+              "score": 0.88
+            },
+            {
+              "id": "c360dc01-51a2-4530-9441-3cb15503a685",
+              "keyword": "AFM/POH performance charts",
+              "score": 0.87
+            },
+            {
+              "id": "76c49b45-812d-40d9-8a98-13c21119cc22",
+              "keyword": "density altitude",
+              "score": 0.86
+            },
+            {
+              "id": "04f0dcfc-ada6-4ee8-af63-17186895040c",
+              "keyword": "wake turbulence",
+              "score": 0.85
+            },
+            {
+              "id": "7a0dfbb3-259c-41ea-b2ed-776b8aae1fad",
+              "keyword": "runway clearance",
+              "score": 0.84
+            },
+            {
+              "id": "24bb6a61-1411-4b22-a7d1-26b3dae17644",
+              "keyword": "emergency turn direction",
+              "score": 0.82
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "6060d278-8e79-4b09-97f8-7399faaea5d6",
+            "title": "Takeoff and Departure Climb Procedures for GA Aircraft",
+            "long_summary": "About 20% of GA accidents occur during takeoff and departure climbs, with most caused by pilot error and loss of control. The chapter breaks the maneuver into three phases: the takeoff roll (ground acceleration), lift‑off (rotation to achieve lift), and the initial climb (establishing a climb pitch until a safe altitude is reached). Pilots must first consult the aircraft’s POH/AFM performance charts to verify that conditions—especially density altitude—allow a safe takeoff and climb. High density altitude reduces engine and propeller performance, lengthens takeoff rolls, and degrades climb rates. \nAll run‑up and pre‑takeoff checklist items must be completed before taxiing, including engine instrument checks and full, free control movement. Pilots should plan emergency turn directions, consider possible engine‑failure options, and ensure the departure and approach paths are clear of traffic. Communication requirements differ at nontowered (CTAF announcement) versus towered airports (takeoff clearance). \nWake turbulence from preceding heavy aircraft poses a serious hazard; if a rapid departure behind such an aircraft is unavoidable, the pilot should avoid the predecessor’s flight path or rotate early. While taxiing, selecting ground reference points aligned with the runway—such as markings, lights, or distant landmarks—helps maintain directional control during the climb out. The chapter emphasizes that thorough knowledge, proper procedures, and proficiency are essential for safe takeoffs under both normal and maximum‑performance conditions.",
+            "short_summary": "Key steps and safety considerations for aircraft takeoff"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "b7cfc2ee-4730-4af9-8286-cc2b77e2ad69",
+              "classification": "Aviation Safety",
+              "score": 0.96
+            },
+            {
+              "id": "3ec89fc0-52fe-4de2-9526-59cd00ba695e",
+              "classification": "Pilot Training & Education",
+              "score": 0.94
+            },
+            {
+              "id": "5f197e69-8c18-4451-bc01-ef0f05083c46",
+              "classification": "Aircraft Operations",
+              "score": 0.92
+            },
+            {
+              "id": "5159cee1-39fb-436c-ab93-e5ebf2c228a1",
+              "classification": "Flight Procedures",
+              "score": 0.9
+            },
+            {
+              "id": "b9b0b482-2f50-4af4-adb1-6e6a4f7de6bd",
+              "classification": "Aeronautical Knowledge",
+              "score": 0.88
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "8cc4e5fd-7c12-4685-b196-bd594b77212d",
+              "label": "Federal Aviation Administration (FAA)",
+              "type": "ORGANIZATION"
+            },
+            {
+              "id": "aaba2ff6-fd85-4550-9879-f2e7961dec1f",
+              "label": "FAA-H-8083-3C",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "ce1d9fed-a34a-4aa4-a0b6-11ae73f380b3",
+              "label": "FAA-H-8083-25",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "de4accfc-db8b-45ec-8c1d-71332587b8c4",
+              "label": "Pilot's Handbook of Aeronautical Knowledge",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "3d34e14d-4dae-4cb4-aafe-07cf487ee12d",
+              "label": "AFM (Airplane Flight Manual)",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "9e9cae84-2b72-47b5-8e6c-b6bfed16543b",
+              "label": "POH (Pilot's Operating Handbook)",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "f372ecee-9524-4c8b-82d9-19efdef7fd52",
+              "label": "CTAF (Common Traffic Advisory Frequency)",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "9a2698b6-6d08-4eb6-99bb-3624c07ce59a",
+              "label": "GA (General aviation)",
+              "type": "ACRONYM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": "0152dd5e-816c-46e6-a75c-e4d3815bb9dc",
+      "document_id": "d603a7d6-a7a2-4758-8ca0-8f8286bb9c22",
+      "title": "Page 8",
+      "context": "As both main wheels leave the runway, the airplane begins to drift sideways with the wind, as ground friction is no longer a factor in preventing lateral movement. To minimize this lateral movement and to keep the upwind wing from rising, the pilot should establish and maintain the proper amount of crosswind correction prior to lift-off by applying aileron pressure into the wind. The pilot should also apply rudder pressure, as needed, to prevent weathervaning.\n<div>\n<p><b>No Correction</b></p>\n<img alt=\"Diagram showing an airplane taking off without crosswind correction. The wind is blowing from the left, causing the aircraft to drift sideways and the upwind wing to rise.\"/>\n<p><b>Proper Correction</b></p>\n<img alt=\"Diagram showing an airplane taking off with proper crosswind correction. The wind is blowing from the left, but the aircraft is aligned with the runway. The upwind wing is lowered by applying aileron pressure into the wind, and rudder pressure is applied to prevent weathervaning.\"/>\n</div>\n<p>Figure 6-5. Crosswind effect.</p>\n<h3>Initial Climb</h3>\n<p>If a proper crosswind correction is applied, the aircraft will maintain alignment with the runway while accelerating to takeoff speed and then maintain that alignment once airborne. As takeoff acceleration occurs, the efficiency of the up-aileron will increase with aircraft speed causing the upwind wing to produce greater downward force and, as a result, counteract the effect of the crosswind. The yoke, having been initially turned into the wind, can be relaxed to the extent necessary to keep the aircraft aligned with the runway. As the aircraft becomes flyable and airborne, the wing that is upwind will have a tendency to be lower relative the other wing, requiring simultaneous rudder input to maintain runway alignment. This will initially cause the aircraft to sideslip. However, as the aircraft establishes its climb, the nose should be turned into the wind to offset the crosswind, wings brought to level, and rudder input adjusted to maintain runway alignment (crabbing). [Figure 6-6] Firm and positive use of the rudder may be required to keep the airplane pointed down the runway or parallel to the centerline. Unlike landing, the runway alignment (staying over the runway and its extended centerline) is paramount to keeping the aircraft parallel to the centerline. The pilot should then apply rudder pressure firmly and aggressively to keep the airplane headed straight down the runway. However, because the force of a crosswind may vary markedly within a few hundred feet of the ground, the pilot should check the ground track frequently and adjust the wind correction angle, as necessary. The remainder of the climb technique is the same used for normal takeoffs and climbs.</p>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/FAA@crd.com/original_assets/Airplane Flying Handbook-[]-133-Chapter 6 Takeoffs and Departure Climbs.pdf_chunks/Airplane Flying Handbook-[]-133-Chapter 6 Takeoffs and Departure Climbs-chunked-files/Airplane Flying Handbook-[]-133-Chapter 6 Takeoffs and Departure Climbs_page_8-8.pdf",
+        "sort_number": "80"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "196643fb-e807-43e5-8b50-88f5ebe9fb6b",
+            "sentiment": "neutral",
+            "summary": "The passage explains how to apply aileron and rudder inputs for proper cross‑wind correction during takeoff and initial climb.",
+            "score": 0.98
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "4fed01ea-cd2d-4143-b9b5-b95cfd822f70",
+              "question": "Why should the pilot apply aileron pressure into the wind before lift‑off?",
+              "answer": "Applying aileron pressure into the wind lowers the upwind wing, preventing it from rising and helping keep the aircraft aligned with the runway as it accelerates."
+            },
+            {
+              "id": "bd42e8cc-1adc-4435-96ab-5138b2e6a355",
+              "question": "What role does rudder pressure play during a cross‑wind takeoff?",
+              "answer": "Rudder pressure is used as needed to stop the aircraft from weathervaning, keeping the nose pointed down the runway or parallel to the centerline."
+            },
+            {
+              "id": "28497c5e-274d-4bb9-843f-526b1d3ba919",
+              "question": "What are the consequences of taking off without any cross‑wind correction?",
+              "answer": "Without correction the airplane drifts sideways, the upwind wing lifts, and the aircraft can deviate from the runway centerline, making control difficult."
+            },
+            {
+              "id": "aacab0c8-db40-4496-9797-1f331cb2ec44",
+              "question": "How does the effectiveness of the up‑aileron change as the aircraft speeds up?",
+              "answer": "As speed increases, the up‑aileron becomes more efficient, producing greater downward force on the upwind wing and better counteracting the cross‑wind."
+            },
+            {
+              "id": "b35eb171-ec16-43f1-8f46-6a7950598722",
+              "question": "Why might firm rudder input be required during the initial climb in a cross‑wind?",
+              "answer": "Firm rudder input may be needed to keep the airplane pointed straight down the runway or parallel to the centerline while the wind correction angle is being established."
+            },
+            {
+              "id": "91449e15-5687-4ab3-b432-5b984e046539",
+              "question": "What should the pilot do with the aircraft’s attitude once the climb is established?",
+              "answer": "The pilot should turn the nose into the wind, level the wings, and adjust rudder to maintain runway alignment (crabbing) as the aircraft climbs."
+            },
+            {
+              "id": "c0267da7-1bf8-43ff-bb7a-0e57048ae729",
+              "question": "How often should the pilot check the ground track after lift‑off in a cross‑wind?",
+              "answer": "Because cross‑wind strength can change within a few hundred feet of the ground, the pilot should frequently check the ground track and adjust the wind correction angle as necessary."
+            },
+            {
+              "id": "8ddf36c7-8d4b-4b2e-a1df-affae0990916",
+              "question": "What happens to the upwind wing when the aircraft reaches a flyable speed?",
+              "answer": "At flyable speed the upwind wing tends to be lower than the other wing, requiring simultaneous rudder input to keep the aircraft aligned with the runway."
+            },
+            {
+              "id": "dfc399e7-04d8-4842-b112-609562ca38dc",
+              "question": "How does runway alignment during takeoff differ from alignment during landing in a cross‑wind?",
+              "answer": "During takeoff, staying over the runway and its extended centerline is paramount to keep the aircraft parallel to the centerline, whereas landing focuses more on touchdown point and may allow a controlled drift before flare."
+            },
+            {
+              "id": "07d98656-6308-4372-a78f-484914da58b4",
+              "question": "Why is it important to keep the aircraft over the runway’s centerline during the initial climb?",
+              "answer": "Keeping the aircraft over the runway’s centerline ensures it remains parallel to the runway, prevents drift into obstacles, and allows the pilot to maintain proper climb performance despite varying cross‑wind forces."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "0d00c215-1db2-4721-9ea6-9e8f9dddd3e3",
+              "keyword": "crosswind correction",
+              "score": 0.97
+            },
+            {
+              "id": "0e5b208b-d2f6-47c5-9c41-c180cfb074fa",
+              "keyword": "aileron pressure",
+              "score": 0.94
+            },
+            {
+              "id": "79c54f9d-7b2c-4b0b-b023-8c3838b86c3a",
+              "keyword": "rudder pressure",
+              "score": 0.94
+            },
+            {
+              "id": "8c49878d-e641-4335-93ba-0c016360b261",
+              "keyword": "weathervaning",
+              "score": 0.92
+            },
+            {
+              "id": "f36fdd27-da20-46dd-9282-e11425baba73",
+              "keyword": "initial climb",
+              "score": 0.9
+            },
+            {
+              "id": "6a5997a8-dc52-4678-9615-794b1f2bdfac",
+              "keyword": "wind correction angle",
+              "score": 0.89
+            },
+            {
+              "id": "b7f9be71-7092-4491-8c00-fde0fe47c4f6",
+              "keyword": "runway alignment",
+              "score": 0.88
+            },
+            {
+              "id": "ddcf9c85-4adc-49e9-93b7-a9c13b90f182",
+              "keyword": "sideslip",
+              "score": 0.86
+            },
+            {
+              "id": "d734adec-ca65-4c8f-a9dd-3708a732838d",
+              "keyword": "crabbing",
+              "score": 0.85
+            },
+            {
+              "id": "24496e22-e996-42c4-b8ef-d8f64ccbbed8",
+              "keyword": "takeoff acceleration",
+              "score": 0.84
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "4c96313d-c7d3-4a7b-9291-3cfa03170891",
+            "title": "Crosswind Takeoff Technique and Initial Climb Procedures",
+            "long_summary": "When the main wheels leave the runway, ground friction no longer restrains lateral drift caused by wind. To minimize sideways movement and keep the upwind wing from rising, the pilot must apply aileron pressure into the wind before lift‑off and add rudder as needed to stop weathervaning. Proper correction aligns the aircraft with the runway despite the crosswind, as shown in Figure 6‑5. During the initial climb, the aileron’s effectiveness grows with speed, producing more downward force on the upwind wing and further counteracting drift. The pilot can then relax the aileron while maintaining runway alignment. As the aircraft becomes airborne, the upwind wing tends to sit lower, requiring simultaneous rudder input; this initially creates a sideslip. Once climb is established, the nose is turned into the wind (crabbing), wings are leveled, and rudder is adjusted to keep the aircraft on the runway centerline. Frequent checks of ground track are essential because crosswind strength can change rapidly near the surface. The remainder of the climb follows standard takeoff and climb techniques.",
+            "short_summary": "Use aileron and rudder to counter crosswind during takeoff."
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "91f5145a-9678-4b85-961e-b0f974691966",
+              "classification": "Aviation",
+              "score": 0.98
+            },
+            {
+              "id": "de3f1c1c-73be-4a59-8d07-0f66504682a7",
+              "classification": "Flight Training",
+              "score": 0.95
+            },
+            {
+              "id": "d56688b7-4831-44d5-8c99-3ed77435a115",
+              "classification": "Aeronautics",
+              "score": 0.9
+            },
+            {
+              "id": "71d0691c-a7ff-4813-ab29-ba347026b8f8",
+              "classification": "Pilot Techniques",
+              "score": 0.88
+            },
+            {
+              "id": "84a6de92-97de-460f-abf3-b6f97e1198ad",
+              "classification": "Aircraft Operations",
+              "score": 0.85
+            }
+          ]
+        },
+        {
+          "entities": []
+        }
+      ]
+    },
+    {
+      "topic_id": "254f0fff-808a-4973-9e45-7ff771be71ba",
+      "document_id": "d603a7d6-a7a2-4758-8ca0-8f8286bb9c22",
+      "title": "Page 7",
+      "context": "While holding aileron pressure into the wind, the pilot should use the rudder to maintain a straight takeoff path. [Figure 6-4] Since the airplane tends to weathervane into the wind while on the ground, the pilot will typically apply downwind rudder pressure. When the pilot increases power for takeoff, the resulting P-factor causes the airplane to yaw to the left. While this yaw may be sufficient to counteract the airplane's tendency to weathervane into the wind in a crosswind from the right, it may aggravate this tendency in a crosswind from the left. In any case, the pilot should apply rudder pressure in the appropriate direction to keep the airplane rolling straight down the runway.\n<div>\n<img alt=\"Figure 6-4: Diagram illustrating crosswind roll and takeoff climb. The diagram shows an airplane on a runway with a crosswind blowing from the right. The process is divided into four stages: Start roll, Takeoff roll, Lift-off, and Initial climb. Each stage includes instructions for aileron and rudder control. Start roll: Apply full aileron into wind, Rudder as needed for direction. Takeoff roll: Hold aileron into wind, Roll on upwind wheel, Rudder as needed. Lift-off: Hold aileron into wind, Bank into wind, Rudder as needed to keep heading down runway. Initial climb: Transition from take-off slip to crab, and begin coordinated flight. Wings level with a wind correction angle, Rudder for coordinated flight.\"/>\n<p><b>Figure 6-4.</b> Crosswind roll and takeoff climb.</p>\n</div>\n<p>As the forward speed of the airplane increases, the pilot should apply sufficient aileron pressure into the crosswind to keep the wings level. The effect of the crosswind component will not completely vanish; therefore, the pilot needs to maintain some aileron pressure throughout the takeoff roll. If the upwind wing rises, the amount of wing surface exposed to the crosswind will increase, which may cause the airplane to lose lateral alignment with the runway centerline and to \"skip.\" [Figure 6-5] The pilot uses rudder pressure to keep the airplane's longitudinal axis parallel to the runway centerline.</p>\n<p>This \"skipping\" is usually indicated by a series of very small bounces caused by the airplane attempting to fly and then settling back onto the runway. During these bounces, the crosswind also tends to move the airplane sideways, and these bounces develop into side-skipping. This side-skipping imposes severe side stresses on the landing gear and may result in structural failure.</p>\n<p>During a crosswind takeoff roll, it is important that the pilot hold sufficient aileron pressure into the wind not only to keep the upwind wing from rising but to hold that wing down so that the airplane sideslips into the wind enough to counteract drift immediately after lift-off.</p>\n<h3>Lift-Off</h3>\n<p>As the nose-wheel raises off of the runway, the pilot should hold aileron pressure into the wind. This may cause the downwind wing to rise and the downwind main wheel to lift off the runway first, with the remainder of the takeoff roll being made on that one main wheel. This is acceptable and is preferable to side-skipping.</p>\n<p>If a significant crosswind exists, the pilot should hold the main wheels on the ground slightly longer than in a normal takeoff so that a smooth but very definite lift-off can be made. This allows the airplane to leave the ground under more positive control and helps it remain airborne while the pilot establishes the proper amount of wind correction. More importantly, this procedure avoids imposing excessive side-loads on the landing gear and prevents possible damage that would result from the airplane settling back to the runway while drifting.</p>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/FAA@crd.com/original_assets/Airplane Flying Handbook-[]-133-Chapter 6 Takeoffs and Departure Climbs.pdf_chunks/Airplane Flying Handbook-[]-133-Chapter 6 Takeoffs and Departure Climbs-chunked-files/Airplane Flying Handbook-[]-133-Chapter 6 Takeoffs and Departure Climbs_page_7-7.pdf",
+        "sort_number": "70"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "ee8b6dcf-dcbb-4c36-a8ab-a43a98eada39",
+            "sentiment": "neutral",
+            "summary": "Pilot must use aileron and rudder pressure to counter crosswind, prevent wing rise, side‑skipping, and maintain runway alignment during takeoff.",
+            "score": 0.98
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "da4435e6-49c9-4a10-a144-dbf0817763fc",
+              "question": "Why should a pilot apply aileron pressure into the wind during a cross‑wind takeoff?",
+              "answer": "Applying aileron into the wind keeps the up‑wind wing down, prevents it from rising, and maintains lateral alignment with the runway centreline throughout the roll."
+            },
+            {
+              "id": "822ada89-610c-4221-b714-b51b4544f1b7",
+              "question": "How does rudder use help keep the airplane on a straight take‑off path in a cross‑wind?",
+              "answer": "The pilot uses rudder pressure to counter the airplane’s natural tendency to weathervane into the wind and to offset any yaw produced by power (P‑factor), keeping the longitudinal axis parallel to the runway centreline."
+            },
+            {
+              "id": "b76aede5-e55e-408d-a0d2-a3647f4fb1dd",
+              "question": "What effect does P‑factor have on yaw during take‑off, and how does it interact with cross‑wind direction?",
+              "answer": "When power is increased, P‑factor yaws the airplane to the left. This yaw may help counter a right‑hand cross‑wind but can worsen a left‑hand cross‑wind, so the pilot must adjust rudder accordingly."
+            },
+            {
+              "id": "f337ce52-538d-48fc-b926-4680a9a76af5",
+              "question": "What is “skipping” during a cross‑wind take‑off roll, and why is it undesirable?",
+              "answer": "Skipping is a series of very small bounces as the airplane repeatedly lifts off and settles back onto the runway, often leading to side‑skipping. It imposes severe side loads on the landing gear and can cause structural failure."
+            },
+            {
+              "id": "3ec87b85-f9a9-40fd-9a5e-047dcad75165",
+              "question": "How does maintaining aileron pressure prevent the up‑wind wing from rising and causing side‑skipping?",
+              "answer": "Continuous aileron into the wind holds the up‑wind wing down, limiting the wing area exposed to the cross‑wind and preventing the airplane from drifting sideways and developing side‑skipping."
+            },
+            {
+              "id": "5e408613-92fc-485b-9b9f-b67996bfd6fa",
+              "question": "Why might a pilot allow the down‑wind main wheel to lift off before the up‑wind wheel?",
+              "answer": "Holding aileron into the wind can cause the down‑wind wing to rise, lifting its main wheel first. This is acceptable and preferable to side‑skipping because it keeps the aircraft under positive control."
+            },
+            {
+              "id": "eba108e4-bd24-4588-bf96-343b6102707e",
+              "question": "What is the recommended procedure for lift‑off when a significant cross‑wind is present?",
+              "answer": "The pilot should keep the main wheels on the ground slightly longer than in a normal take‑off, allowing a smooth, definite lift‑off that reduces side‑loads on the gear and gives time to establish the proper wind‑correction angle."
+            },
+            {
+              "id": "87aeee59-8cb5-4880-b372-73b7fb1c01db",
+              "question": "How does side‑skipping affect the landing gear?",
+              "answer": "Side‑skipping creates severe side stresses on the landing gear, which can lead to structural failure or damage."
+            },
+            {
+              "id": "3ec0a408-b0fe-41e8-9936-c0a3330705d5",
+              "question": "What role does the nose‑wheel play during lift‑off in a cross‑wind?",
+              "answer": "As the nose‑wheel raises, the pilot continues to hold aileron pressure into the wind to keep the aircraft aligned and to control the roll attitude during the transition to flight."
+            },
+            {
+              "id": "5754cf12-dba2-4546-9d43-9429324d8ca7",
+              "question": "How should a pilot adjust rudder pressure when the airplane tends to weathervane into the wind?",
+              "answer": "The pilot should apply down‑wind rudder pressure to counteract the weathervaning tendency and keep the aircraft’s longitudinal axis parallel to the runway centreline."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "c4004517-80a3-42da-91e3-71eea8610676",
+              "keyword": "crosswind takeoff",
+              "score": 0.96
+            },
+            {
+              "id": "7b9dca7d-551f-4185-8741-8b0e1b8fcb80",
+              "keyword": "aileron pressure",
+              "score": 0.94
+            },
+            {
+              "id": "5be4eeaf-b612-4949-b240-bf2b16db6e0b",
+              "keyword": "rudder pressure",
+              "score": 0.93
+            },
+            {
+              "id": "e17b0d6e-fb8a-4b16-be6d-4949f50d79be",
+              "keyword": "weathervane effect",
+              "score": 0.88
+            },
+            {
+              "id": "1d73430d-937b-47a9-8b9a-d69e4f96153c",
+              "keyword": "P‑factor",
+              "score": 0.85
+            },
+            {
+              "id": "60eb7b4c-ed93-451e-987f-ec0088e7b949",
+              "keyword": "side‑skipping",
+              "score": 0.9
+            },
+            {
+              "id": "0dcc95b9-afd3-450a-94a9-6f304c3f4adb",
+              "keyword": "runway alignment",
+              "score": 0.87
+            },
+            {
+              "id": "1b74603d-c80a-444c-bd4d-46f82b77f4c6",
+              "keyword": "lift‑off procedure",
+              "score": 0.89
+            },
+            {
+              "id": "073b811d-9847-4d32-9256-beb4adf11506",
+              "keyword": "wind correction angle",
+              "score": 0.84
+            },
+            {
+              "id": "53e63ae3-60be-4233-8842-db0261e75d8e",
+              "keyword": "landing gear stress",
+              "score": 0.82
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "d26efb05-cc15-4a20-a1ac-6260ee7a9d75",
+            "title": "Crosswind Takeoff Techniques: Aileron and Rudder Control",
+            "long_summary": "During a crosswind takeoff the pilot must keep the aileron pressed into the wind to prevent the upwind wing from lifting and to maintain lateral alignment. Because the airplane tends to weathervane into the wind while on the ground, the pilot usually applies down‑wind rudder pressure. When power is added, P‑factor may yaw the aircraft left, which can either help or worsen the weathervane tendency depending on the wind direction. The pilot therefore adjusts rudder pressure continuously to keep the longitudinal axis parallel to the runway centerline.\n\nAs forward speed builds, a small but constant aileron input is required; the crosswind component never disappears entirely. If the upwind wing rises, more wing area is exposed to the wind, causing the aircraft to “skip” – a series of tiny bounces that can develop into side‑skipping. Side‑skipping places severe lateral loads on the landing gear and can lead to structural failure. To avoid this, the pilot maintains sufficient aileron pressure to keep the upwind wing down, allowing the airplane to sideslip into the wind and counteract drift immediately after lift‑off.\n\nAt lift‑off, the pilot continues to hold aileron into the wind. This may cause the downwind wing to rise and the downwind main wheel to leave the runway first, which is acceptable and preferable to side‑skipping. In strong crosswinds the pilot should keep the main wheels on the ground slightly longer to achieve a smooth, definite lift‑off, ensuring positive control, proper wind‑correction angle, and minimizing side loads on the gear.",
+            "short_summary": "Maintain aileron into wind, use rudder to keep runway alignment."
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "38771b11-a4cc-4d23-8e7c-4a935d558e86",
+              "classification": "Aviation",
+              "score": 0.99
+            },
+            {
+              "id": "31da8dcf-4ce5-4cd9-91c8-445551ccdbc7",
+              "classification": "Flight Training",
+              "score": 0.95
+            },
+            {
+              "id": "70e56ec9-1c14-49b5-be71-77071beb20ac",
+              "classification": "Aircraft Operations",
+              "score": 0.9
+            },
+            {
+              "id": "996d6da5-d262-4694-8941-923a3204c951",
+              "classification": "Aerodynamics",
+              "score": 0.85
+            },
+            {
+              "id": "2329637b-f07f-420a-8587-22ac20ead6c5",
+              "classification": "Pilot Procedures",
+              "score": 0.8
+            }
+          ]
+        },
+        {
+          "entities": []
+        }
+      ]
+    },
+    {
+      "topic_id": "c9644924-c6b6-4b9c-8c21-c56250918e63",
+      "document_id": "d603a7d6-a7a2-4758-8ca0-8f8286bb9c22",
+      "title": "Page 9",
+      "context": "<div>\n<p>Wind</p>\n<img alt=\"Diagram illustrating a crosswind climb flightpath. A large blue arrow labeled 'Wind' points horizontally from left to right. Four aircraft are shown climbing vertically along a central vertical axis. The aircraft are offset to the right side of the axis, demonstrating the effect of a crosswind on the climb path. The background is stylized with green clouds and a vertical runway/taxiway strip marked with black and white stripes and a yellow centerline.\"/>\n<p>Figure 6-6. Crosswind climb flightpath.</p>\n</div>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/FAA@crd.com/original_assets/Airplane Flying Handbook-[]-133-Chapter 6 Takeoffs and Departure Climbs.pdf_chunks/Airplane Flying Handbook-[]-133-Chapter 6 Takeoffs and Departure Climbs-chunked-files/Airplane Flying Handbook-[]-133-Chapter 6 Takeoffs and Departure Climbs_page_9-9.pdf",
+        "sort_number": "90"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "304c7153-0f9b-43ef-80ab-2d608d6617da",
+            "sentiment": "neutral",
+            "summary": "Diagram illustrating a crosswind climb flightpath with a wind arrow and aircraft offset to the right.",
+            "score": 0.96
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "6135ea5b-e4a8-48ee-af5a-7497b021aa48",
+              "question": "What does the blue arrow labeled 'Wind' represent in the diagram?",
+              "answer": "It represents the wind blowing horizontally from left to right."
+            },
+            {
+              "id": "83de6013-4cce-4eaa-859a-004461d1cca3",
+              "question": "How does a crosswind affect the climb path of an aircraft according to the figure?",
+              "answer": "The crosswind pushes the aircraft off the central vertical axis, causing the climb path to be offset to the right side of the axis."
+            },
+            {
+              "id": "32e2502b-ec32-40cf-a37a-026e81a85b30",
+              "question": "Why are the aircraft shown offset to the right side of the central vertical axis?",
+              "answer": "Because the crosswind from left to right drifts the aircraft to the right, demonstrating the effect of a crosswind on the climb path."
+            },
+            {
+              "id": "7a35862f-99ba-4b5a-ac31-e9a480c5eeb4",
+              "question": "What is the purpose of the vertical runway/taxiway strip shown in the background?",
+              "answer": "It provides a visual reference for the runway or taxiway, marked with black and white stripes and a yellow centerline."
+            },
+            {
+              "id": "358ff096-436c-4e3e-a650-d9c5f853e316",
+              "question": "What is the title of the figure?",
+              "answer": "Figure 6-6. Crosswind climb flightpath."
+            },
+            {
+              "id": "4ca9a51a-7e6b-4baf-a53c-526cba454849",
+              "question": "How many aircraft are depicted in the diagram?",
+              "answer": "Four aircraft are shown climbing vertically."
+            },
+            {
+              "id": "6e9b02b7-a6aa-44a3-b4ce-971474459704",
+              "question": "In which direction is the wind blowing in the illustration?",
+              "answer": "The wind is blowing horizontally from left to right."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "c73dd7c5-5987-4436-9e9a-d98072f44e62",
+              "keyword": "crosswind climb",
+              "score": 0.96
+            },
+            {
+              "id": "332ecffa-4466-4278-9bb9-a661e21d50b6",
+              "keyword": "wind",
+              "score": 0.94
+            },
+            {
+              "id": "b07bcc01-c7c7-4fef-a377-99bf985fc090",
+              "keyword": "flightpath",
+              "score": 0.92
+            },
+            {
+              "id": "ea85efad-a001-4b83-a7f1-360cd429301c",
+              "keyword": "aircraft",
+              "score": 0.9
+            },
+            {
+              "id": "17c88986-3eee-457f-8e73-53f75692d2e3",
+              "keyword": "diagram",
+              "score": 0.88
+            },
+            {
+              "id": "3ec88f13-8b10-4eae-a43e-2c70f453de5f",
+              "keyword": "vertical axis",
+              "score": 0.85
+            },
+            {
+              "id": "0e72640a-36af-46b0-af84-b151d17fa3fe",
+              "keyword": "runway",
+              "score": 0.83
+            },
+            {
+              "id": "38fccb96-6002-452f-b2a8-56ea65fb7f9c",
+              "keyword": "taxiway",
+              "score": 0.8
+            },
+            {
+              "id": "a1961f01-681f-4273-872c-41979c25d588",
+              "keyword": "yellow centerline",
+              "score": 0.78
+            },
+            {
+              "id": "b56779f4-39c6-4a02-9238-e65aafcd8cd9",
+              "keyword": "black and white stripes",
+              "score": 0.75
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "6b156ef3-aa37-4af7-866e-9bc03a2fe18d",
+            "title": "Crosswind Climb Flightpath Diagram",
+            "long_summary": "The figure depicts a crosswind climb flightpath. A large blue arrow labeled “Wind” points horizontally from left to right, representing a crosswind. Four aircraft are shown climbing vertically along a central vertical axis, but each is displaced to the right of the axis, demonstrating how a crosswind pushes the aircraft off the intended climb line. The background includes stylized green clouds and a vertical runway/taxiway strip marked with black and white stripes and a yellow centerline, providing context for the climb environment.",
+            "short_summary": "Illustrates aircraft offset due to crosswind."
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "4a029279-2e27-482a-b26d-db5ecfb60fe9",
+              "classification": "Aviation",
+              "score": 0.97
+            },
+            {
+              "id": "9d3fd996-dff6-440d-93c6-1382ca8749a4",
+              "classification": "Pilot Training",
+              "score": 0.92
+            },
+            {
+              "id": "3bb17911-05d2-46ef-9fe0-ae554b985b72",
+              "classification": "Meteorology",
+              "score": 0.75
+            },
+            {
+              "id": "92a6640c-f907-4b91-9637-f3db0b107b23",
+              "classification": "Aerodynamics",
+              "score": 0.7
+            },
+            {
+              "id": "6a14eef0-4551-472d-9e27-606f20def3a3",
+              "classification": "Technical Illustration",
+              "score": 0.65
+            }
+          ]
+        },
+        {
+          "entities": []
+        }
+      ]
+    },
+    {
+      "topic_id": "e12d9349-fd15-46cc-81fc-2c78533299b6",
+      "document_id": "d603a7d6-a7a2-4758-8ca0-8f8286bb9c22",
+      "title": "Page 4",
+      "context": "<h3>Lift-Off</h3>\n<p>Since a good takeoff depends on the proper takeoff attitude, it is important to know how this attitude appears and how it is attained. The ideal takeoff attitude requires only minimum pitch adjustments shortly after the airplane lifts off to attain the speed for the best rate of climb (V<sub>Y</sub>). [Figure 6-3] The pitch attitude necessary for the airplane to accelerate to V<sub>Y</sub> speed should be demonstrated by the instructor and memorized by the student. Flight instructors should be aware that initially, the student pilot may have a tendency to hold excessive back-elevator pressure just after lift-off, resulting in an abrupt pitch-up.</p>\n<div>\n<img alt=\"Figure 6-3 shows two diagrams of a small airplane on a runway. Diagram A, labeled 'Initial roll', shows the airplane on the runway with its nose slightly elevated. Diagram B, labeled 'Takeoff attitude', shows the airplane further down the runway with a higher nose attitude, indicating the pitch attitude necessary for takeoff.\"/>\n<p><b>A</b> Initial roll</p>\n<p><b>B</b> Takeoff attitude</p>\n</div>\n<p><b>Figure 6-3.</b> Initial roll and takeoff attitude.</p>\n<p>Each type of airplane has a best pitch attitude for normal lift-off; however, varying conditions may make a difference in the required takeoff technique. A rough field, a smooth field, a hard surface runway, or a short or soft, muddy field all call for a slightly different technique, as will smooth air in contrast to a strong, gusty wind. The different techniques for those other-than-normal conditions are discussed later in this chapter.</p>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/FAA@crd.com/original_assets/Airplane Flying Handbook-[]-133-Chapter 6 Takeoffs and Departure Climbs.pdf_chunks/Airplane Flying Handbook-[]-133-Chapter 6 Takeoffs and Departure Climbs-chunked-files/Airplane Flying Handbook-[]-133-Chapter 6 Takeoffs and Departure Climbs_page_4-4.pdf",
+        "sort_number": "40"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "53b6833a-0668-4fdf-b63a-de02f0c75eec",
+            "sentiment": "neutral",
+            "summary": "Proper takeoff attitude requires minimal pitch adjustments after lift‑off to reach VY; instructors must demonstrate and students avoid excessive back‑elevator pressure.",
+            "score": 0.97
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "b667172f-66fe-436e-8669-06251f966a0f",
+              "question": "What is the ideal takeoff attitude and why is it important?",
+              "answer": "The ideal takeoff attitude is the pitch position that allows the airplane to accelerate to the best rate of climb speed (VY) with only minimal pitch adjustments shortly after lift‑off. It ensures the aircraft reaches VY efficiently for optimal climb performance."
+            },
+            {
+              "id": "3114c4f7-96a3-49b3-b12b-d6725759c301",
+              "question": "How soon after lift‑off should pitch adjustments be made to reach VY?",
+              "answer": "Only minimal pitch adjustments are needed shortly after lift‑off; the aircraft should already be in the proper attitude to accelerate to VY without large changes."
+            },
+            {
+              "id": "17765a45-d7a1-4c74-a06c-8e4855c1ca2d",
+              "question": "What common mistake do student pilots make regarding back‑elevator pressure after lift‑off?",
+              "answer": "Student pilots often hold excessive back‑elevator pressure just after lift‑off, which can cause an abrupt pitch‑up."
+            },
+            {
+              "id": "15f54a7f-9d51-47d5-a901-ae9280821228",
+              "question": "How should the required pitch attitude be learned by student pilots?",
+              "answer": "The instructor should demonstrate the pitch attitude needed to accelerate to VY, and the student should memorize this attitude."
+            },
+            {
+              "id": "8478d774-c0cf-450c-a51c-445fb34ceccc",
+              "question": "What does Figure 6‑3 illustrate?",
+              "answer": "Figure 6‑3 shows two diagrams of a small airplane on a runway: (A) “Initial roll” with the nose slightly elevated, and (B) “Takeoff attitude” with a higher nose attitude that represents the pitch needed for takeoff."
+            },
+            {
+              "id": "98f7de95-a637-4788-990d-e0e8a2eb1bcc",
+              "question": "Do different types of airplanes require different pitch attitudes for normal lift‑off?",
+              "answer": "Yes, each type of airplane has its own best pitch attitude for normal lift‑off."
+            },
+            {
+              "id": "8921b224-6f0b-4c05-a987-eacaf54dc01b",
+              "question": "How do runway surface conditions affect the takeoff technique?",
+              "answer": "Conditions such as a rough field, smooth field, hard‑surface runway, or a short, soft, muddy field each call for a slightly different takeoff technique."
+            },
+            {
+              "id": "eca41873-ace1-4561-b814-0f204e85fb7a",
+              "question": "How does wind condition (smooth vs gusty) influence the takeoff technique?",
+              "answer": "Smooth air and strong, gusty wind require different techniques; the appropriate adjustments are discussed later in the chapter."
+            },
+            {
+              "id": "283380ed-349a-48de-a7da-b60413d4f70d",
+              "question": "Where can I find information about techniques for non‑normal takeoff conditions?",
+              "answer": "The chapter later discusses the different techniques for conditions other than normal, such as various runway surfaces and wind conditions."
+            },
+            {
+              "id": "3afaf657-3237-4e42-b47d-5c880ead9d75",
+              "question": "What is VY and why is it targeted during takeoff?",
+              "answer": "VY is the best rate of climb speed. The takeoff attitude is set to allow the airplane to accelerate to VY quickly, providing the most efficient climb after lift‑off."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "c7c03449-ce29-47a8-9c5c-0589c58536f7",
+              "keyword": "Takeoff attitude",
+              "score": 0.97
+            },
+            {
+              "id": "565a3e50-73dd-49fe-b5de-84d6b55c1c7d",
+              "keyword": "Pitch attitude",
+              "score": 0.96
+            },
+            {
+              "id": "b14704e1-b3fb-4e87-a977-4d6369232a5a",
+              "keyword": "VY speed",
+              "score": 0.95
+            },
+            {
+              "id": "f9375f49-516e-4fcd-9617-1df96409acf0",
+              "keyword": "Back‑elevator pressure",
+              "score": 0.9
+            },
+            {
+              "id": "b61c39ae-b33f-449d-8db7-b6d106d7bc13",
+              "keyword": "Lift‑off",
+              "score": 0.94
+            },
+            {
+              "id": "d4b8c9e6-0795-4881-b11e-26e748311839",
+              "keyword": "Best rate of climb",
+              "score": 0.92
+            },
+            {
+              "id": "135d68cc-9311-4678-9933-121e8cf537c2",
+              "keyword": "Runway conditions",
+              "score": 0.88
+            },
+            {
+              "id": "6cd52736-5dd9-4171-aa41-2007cac73732",
+              "keyword": "Instructor demonstration",
+              "score": 0.85
+            },
+            {
+              "id": "42932c34-6ac2-439d-87c7-e327eda66ceb",
+              "keyword": "Student pilot",
+              "score": 0.84
+            },
+            {
+              "id": "6d6e7a78-165c-418e-8185-991bb4a5ab9f",
+              "keyword": "Rough field takeoff",
+              "score": 0.8
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "ba55eaac-6951-442d-86d8-f18f4aa5d5df",
+            "title": "Proper Takeoff Attitude and Pitch Management",
+            "long_summary": "A successful takeoff depends on adopting the correct takeoff attitude, which is primarily a pitch position that allows the aircraft to accelerate to the best rate of climb speed (VY) with minimal pitch adjustments after liftoff. Instructors must demonstrate and have students memorize the required pitch attitude, as novice pilots often apply excessive back‑elevator pressure immediately after leaving the runway, causing an abrupt pitch‑up. Figure 6‑3 illustrates the progression from the initial roll to the proper takeoff attitude. While each aircraft type has a standard optimal pitch for normal lift‑off, variations in runway surface (rough, smooth, hard, short, soft, muddy) and wind conditions (calm versus gusty) may necessitate slight technique adjustments. These alternative techniques are addressed later in the chapter.",
+            "short_summary": "Correct pitch attitude ensures optimal climb after lift‑off."
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "090d99e2-370a-4d76-8daa-ebacfe57fc5c",
+              "classification": "Aviation",
+              "score": 0.98
+            },
+            {
+              "id": "eeaccf10-a645-40be-9140-1e83e2da2f46",
+              "classification": "Flight Training",
+              "score": 0.96
+            },
+            {
+              "id": "708e00b0-90d3-412c-8d43-30b3e992087e",
+              "classification": "Pilot Education",
+              "score": 0.94
+            },
+            {
+              "id": "77e448a8-d06c-4978-80c0-7c8256eea82c",
+              "classification": "Aircraft Operations",
+              "score": 0.9
+            },
+            {
+              "id": "db632ad9-7fa6-4ee5-a88e-e69492c26434",
+              "classification": "Aeronautical Engineering",
+              "score": 0.7
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "767440bd-1174-4643-9cf4-f3b08abfd455",
+              "label": "VY",
+              "type": "ACRONYM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": "10bf263e-fc8d-420e-8eaa-3645a5bfdd77",
+      "document_id": "d603a7d6-a7a2-4758-8ca0-8f8286bb9c22",
+      "title": "Page 5",
+      "context": "When all the flight controls become effective during the takeoff roll in a nose-wheel type airplane, the pilot should gradually apply back-elevator pressure to raise the nose-wheel slightly off the runway, thus establishing the takeoff or lift-off attitude. This is the “rotation” for lift-off and climb. As the airplane lifts off the surface, the pitch attitude to hold the climb airspeed should be held with elevator control and trimmed to maintain that pitch attitude without excessive control pressures. The wings should be leveled after lift-off and the rudder used to ensure coordinated flight.\n\nAfter rotation, the slightly nose-high pitch attitude should be held until the airplane lifts off. Rudder control should be used to maintain the track of the airplane along the runway centerline until any required crab angle in level flight is established. Forcing it into the air by applying excessive back-elevator pressure would only result in an excessively high-pitch attitude and may delay the takeoff. As discussed earlier, excessive and rapid changes in pitch attitude result in proportionate changes in the effects of torque, thus making the airplane more difficult to control.\n\nAlthough the airplane can be forced into the air, this is considered an unsafe practice and should be avoided under normal circumstances. If the airplane is forced to leave the ground by using too much back-elevator pressure before adequate flying speed is attained, the wing’s AOA may become excessive, causing the airplane to settle back to the runway or even to stall. On the other hand, if sufficient back-elevator pressure is not held to maintain the correct takeoff attitude after becoming airborne, or the nose is allowed to lower excessively, the airplane may also settle back to the runway. This would occur because the AOA is decreased and lift diminished to the degree where it will not support the airplane. It is important, then, to hold the correct attitude constant after rotation or lift-off.\n\nAs the airplane leaves the ground, the pilot should keep the wings in a level attitude and hold the proper pitch attitude. Outside visual scans should be intensified at this critical point to attain/maintain proper airplane pitch and bank attitude. Due to the minimum airspeed, the flight controls are not as responsive, requiring more control movement to achieve an expected response. A novice pilot often has a tendency to fixate on the airplane’s pitch attitude and/or the airspeed indicator and neglect bank control of the airplane. Torque from the engine tends to impart a rolling force that is most evident as the landing gear is leaving the surface.\n\nDuring takeoffs in a strong, gusty wind, it is advisable that an extra margin of speed be obtained before the airplane is allowed to leave the ground. A takeoff at the normal takeoff speed may result in a lack of positive control, or a stall, when the airplane encounters a sudden lull in strong, gusty wind, or other turbulent air currents. In this case, the pilot should allow the airplane to stay on the ground longer to attain more speed, then make a smooth, positive rotation to leave the ground.\n\n<h3>Initial Climb</h3>\nUpon liftoff, the airplane should be flying at approximately the pitch attitude that allows it to accelerate to <math>V_Y</math>. This is the speed at which the airplane gains the most altitude in the shortest period of time.\n\nIf the airplane has been properly trimmed for takeoff, some back-elevator pressure may be required to hold this attitude until the proper climb speed is established. Relaxation of any back-elevator pressure before this time may result in the airplane settling, even to the extent that it contacts the runway.\n\nThe airplane’s speed will increase rapidly after it becomes airborne. Once a positive rate of climb is established, the pilot should retract the flaps and landing gear (if equipped). It is recommended that takeoff power be maintained until reaching an altitude of at least 500 feet above the surrounding terrain or obstacles. The combination of <math>V_Y</math> and takeoff power assures the maximum altitude gained in a minimum amount of time. This gives the pilot more altitude from which the airplane can be safely maneuvered in case of an engine failure or other emergency. The pilot should also consider flying at a lower pitch for cruise climb since flying at <math>V_Y</math> requires much quicker pilot response in the event of a powerplant failure to preclude a stall.\n\nSince the power on the initial climb is set at the takeoff power setting, the airspeed should be controlled by making slight pitch adjustments using the elevators. However, the pilot should not fixate on the airspeed indicator when making these pitch changes, but should continue to scan outside to adjust the airplane’s attitude in relation to the horizon. In accordance with the principles of attitude flying, the pilot should first make the necessary pitch change with reference to the natural horizon, hold the new attitude momentarily, and then glance at the airspeed indicator to verify if the new attitude is correct. Due to inertia, the airplane will not accelerate or decelerate immediately as the pitch is changed. It takes a little time for the airspeed to change. If the pitch attitude has been over or under corrected, the airspeed indicator will show a speed that is higher or lower than that desired. When this occurs, the cross-checking and appropriate pitch-changing process needs to be repeated until the desired climbing attitude is established. Pilots should remember the climb pitch will be lower when the airplane is heavily loaded, or power is limited by density altitude.\n\nWhen the correct pitch attitude has been attained, the pilot should hold it constant while cross-checking it against the horizon and other outside visual references. The airspeed indicator should be used only as a check to determine if the attitude is correct.\n\nAfter the recommended climb airspeed has been established and a safe maneuvering altitude has been reached, the pilot should adjust the power to the recommended climb setting and trim the airplane to relieve the control pressures. This makes it easier to hold a constant attitude and airspeed.",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/FAA@crd.com/original_assets/Airplane Flying Handbook-[]-133-Chapter 6 Takeoffs and Departure Climbs.pdf_chunks/Airplane Flying Handbook-[]-133-Chapter 6 Takeoffs and Departure Climbs-chunked-files/Airplane Flying Handbook-[]-133-Chapter 6 Takeoffs and Departure Climbs_page_5-5.pdf",
+        "sort_number": "50"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "94d585e8-529e-43b2-8603-5cac5aef17c3",
+            "sentiment": "neutral",
+            "summary": "Guidelines for proper rotation, pitch control, and initial climb during takeoff to ensure safe, efficient flight.",
+            "score": 0.96
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "6bcaf858-ef11-4a95-ba8e-2da8ad179d67",
+              "question": "What should the pilot do with the back‑elevator during the takeoff roll on a nose‑wheel airplane?",
+              "answer": "The pilot should gradually apply back‑elevator pressure to raise the nose‑wheel slightly off the runway, establishing the rotation attitude for lift‑off."
+            },
+            {
+              "id": "4d96f4de-44be-424e-ab30-d601a72ab2d4",
+              "question": "Why must the pilot avoid applying excessive back‑elevator pressure before reaching takeoff speed?",
+              "answer": "Excessive back‑elevator can create an overly high‑pitch attitude, causing the wing’s angle of attack to become excessive, which may lead to a stall or the airplane settling back onto the runway."
+            },
+            {
+              "id": "b1b82293-fb49-489b-bc52-8a5af529cc9e",
+              "question": "What role does the rudder play after rotation and during the initial climb?",
+              "answer": "The rudder is used to keep the airplane on the runway centreline after rotation and to maintain coordinated flight as the aircraft climbs."
+            },
+            {
+              "id": "b9322e21-a15b-4d65-b6ab-df3421c07637",
+              "question": "How should the pilot maintain the correct pitch attitude after lift‑off?",
+              "answer": "The pilot should hold the slightly nose‑high pitch attitude with elevator control, trim the aircraft to relieve control pressures, and use outside visual references to keep the attitude constant."
+            },
+            {
+              "id": "d46b618c-4855-46ff-b338-fb825f3f7c16",
+              "question": "What is the recommended action when taking off in strong, gusty wind conditions?",
+              "answer": "The pilot should obtain an extra margin of speed before leaving the ground, staying on the runway longer to reach a higher speed, then make a smooth, positive rotation."
+            },
+            {
+              "id": "caf040f8-d8da-49d3-9c39-948af0702a23",
+              "question": "What speed should the airplane accelerate to during the initial climb and why?",
+              "answer": "The airplane should accelerate to VY, the speed that provides the greatest altitude gain in the shortest time, ensuring maximum climb performance."
+            },
+            {
+              "id": "0957e241-e4d3-454a-82a8-116d74bd85c3",
+              "question": "When should the pilot retract flaps and landing gear after takeoff?",
+              "answer": "Flaps and landing gear should be retracted once a positive rate of climb is established and the aircraft has reached at least 500 feet above the surrounding terrain or obstacles."
+            },
+            {
+              "id": "134a86d6-10b4-4ff6-a7a5-f35ee7996205",
+              "question": "How should the pilot control airspeed during the initial climb?",
+              "answer": "Airspeed is controlled by making slight pitch adjustments with the elevators, using outside visual scans to set the attitude first, then briefly checking the airspeed indicator to verify the result."
+            },
+            {
+              "id": "d52267d9-c0bc-4d30-812b-13947e733ff2",
+              "question": "Why is it important to trim the airplane after reaching the recommended climb speed and altitude?",
+              "answer": "Trimming relieves control pressures, making it easier to hold a constant pitch attitude and airspeed, which improves stability and reduces pilot workload."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "9f3daa21-fa1f-4340-ae43-5251d540bad5",
+              "keyword": "rotation",
+              "score": 0.96
+            },
+            {
+              "id": "c410d7d7-a064-4be8-8dde-47ff0f13debb",
+              "keyword": "back-elevator pressure",
+              "score": 0.94
+            },
+            {
+              "id": "d1e6ff14-1b58-4eed-bed5-c9667a2ef44a",
+              "keyword": "pitch attitude",
+              "score": 0.95
+            },
+            {
+              "id": "e18405d3-f754-4c63-954c-b6608703859b",
+              "keyword": "VY (best rate of climb speed)",
+              "score": 0.93
+            },
+            {
+              "id": "31d401bb-3152-42d9-b53c-6d981f469230",
+              "keyword": "initial climb",
+              "score": 0.92
+            },
+            {
+              "id": "9f65c34e-92e8-406f-9ad9-31cf9e005922",
+              "keyword": "rudder control",
+              "score": 0.88
+            },
+            {
+              "id": "85a9dd7d-aca7-42f1-9b5b-c096f6761b02",
+              "keyword": "aircraft stall",
+              "score": 0.87
+            },
+            {
+              "id": "06c7e846-40f8-44df-943f-3b11584d1124",
+              "keyword": "engine torque roll tendency",
+              "score": 0.85
+            },
+            {
+              "id": "24b0697b-901a-4cd0-bdf1-720bf90c5c82",
+              "keyword": "gusty wind takeoff margin",
+              "score": 0.84
+            },
+            {
+              "id": "0a3214d5-e083-42fa-968d-a1ed6096f16a",
+              "keyword": "trim for takeoff",
+              "score": 0.86
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "bfdb0f95-e037-458d-8882-ff168d287d4d",
+            "title": "Proper Rotation and Climb Techniques for Safe Takeoff",
+            "long_summary": "During the takeoff roll of a nose‑wheel aircraft, the pilot should apply back‑elevator gradually once all controls are effective, raising the nose‑wheel just enough to establish the rotation attitude. Excessive back‑elevator before reaching the proper lift‑off speed can produce an overly high pitch, delay lift‑off, and risk a stall. After rotation, maintain a slightly nose‑high attitude, keep the wings level, and use rudder to stay on the runway centreline until a stable climb is established.\n\nIf a strong, gusty wind is present, the pilot should obtain a margin of extra airspeed before rotating to avoid loss of control when the wind suddenly drops. Once airborne, the aircraft should be trimmed for the climb attitude that allows acceleration to VY, the speed that yields the greatest altitude gain in the shortest time. Slight back‑elevator may be needed until VY is reached; releasing it too early can cause the aircraft to settle back onto the runway.\n\nAfter a positive rate of climb, retract flaps and landing gear (if equipped) and maintain take‑off power until at least 500 ft AGL, ensuring maximum altitude for emergency maneuvers. Control the climb speed primarily with small pitch changes, scanning the horizon first and then checking the airspeed indicator. Do not fixate on the indicator; use outside visual references to hold a constant attitude. Once the recommended climb speed and a safe altitude are achieved, reduce power to the climb setting and trim the aircraft to relieve control pressures, making it easier to maintain a steady climb.\n\nThroughout, the pilot must balance pitch, bank, and rudder inputs, remain aware of engine torque effects, and continuously cross‑check visual cues to ensure a safe, controlled departure from the runway.",
+            "short_summary": "Proper rotation and climb techniques for safe takeoff"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "2598a0ae-d25f-4229-8a97-0bbc2f0da5c7",
+              "classification": "Aviation – Flight Training",
+              "score": 0.96
+            },
+            {
+              "id": "22b27998-97cc-4276-8c48-96dbb1e0f43f",
+              "classification": "Aircraft Takeoff and Initial Climb Procedures",
+              "score": 0.94
+            },
+            {
+              "id": "1498a4a9-0309-4a5e-bc9e-6634945cf2c1",
+              "classification": "Aviation Safety",
+              "score": 0.89
+            },
+            {
+              "id": "7a8bd951-2fce-4f6a-92cd-ea4908f4872a",
+              "classification": "Aerodynamics – Pitch, Attitude, and Lift",
+              "score": 0.85
+            },
+            {
+              "id": "5aad71e8-affa-46f9-9b52-d77d0b2d78ae",
+              "classification": "Pilot Operating Handbook – Standard Operating Procedures",
+              "score": 0.78
+            }
+          ]
+        },
+        {
+          "entities": []
+        }
+      ]
+    },
+    {
+      "topic_id": "20ad5428-fd0b-40c8-a331-55e90d61f89c",
+      "document_id": "d603a7d6-a7a2-4758-8ca0-8f8286bb9c22",
+      "title": "Page 6",
+      "context": "During initial climb, it is important that the takeoff path remain aligned with the runway to avoid drifting into obstructions or into the path of another aircraft that may be taking off from a parallel runway. A flight instructor should help the student identify two points inline ahead of the runway to use as a tracking reference. As long as those two points are inline, the airplane is remaining on the desired track. Proper scanning techniques are essential to a safe takeoff and climb, not only for maintaining attitude and direction, but also for avoiding collisions near the airport.\n\nWhen the student pilot nears the solo stage of flight training, it should be explained that the airplane's takeoff performance will be much different when the instructor is not in the airplane. Due to decreased load, the airplane will become airborne earlier and climb more rapidly. The pitch attitude that the student has learned to associate with initial climb may also differ due to decreased weight, and the flight controls may seem more sensitive. If the situation is unexpected, it may result in increased anxiety that may remain until after the landing. Frequently, the existence of this anxiety and the uncertainty that develops due to the perception of an “abnormal” takeoff results in poor performance on the subsequent landing.\n\n## Common Errors\n\nCommon errors in the performance of normal takeoffs and departure climbs are:\n\n<ul>\n<li>Failure to review AFM/POH and performance charts prior to takeoff.</li>\n<li>Failure to adequately clear the area prior to taxiing into position on the active runway.</li>\n<li>A abrupt use of the throttle.</li>\n<li>Failure to check engine instruments for signs of malfunction after applying takeoff power.</li>\n<li>Failure to anticipate the airplane's left turning tendency on initial acceleration.</li>\n<li>Overcorrecting for left turning tendency.</li>\n<li>Relying solely on the airspeed indicator rather than developing an understanding of visual references and tracking clues of airplane airspeed and controllability during acceleration and lift-off.</li>\n<li>Failure to attain proper lift-off attitude.</li>\n<li>Inadequate compensation for torque/P-factor during initial climb resulting in a sideslip.</li>\n<li>Over-control of elevators during initial climb-out and lack of elevator trimming.</li>\n<li>Limiting scan to areas directly ahead of the airplane (pitch attitude and direction), causing a wing (usually the left) to drop immediately after lift-off.</li>\n<li>Failure to attain/maintain best rate-of-climb airspeed (V<sub>Y</sub>) or desired climb airspeed.</li>\n<li>Failure to employ the principles of attitude flying during climb-out, resulting in “chasing” the airspeed indicator.</li>\n</ul>\n\n## Crosswind Takeoff\n\nWhile it is usually preferable to take off directly into the wind whenever possible or practical, there are many instances when circumstances or judgment indicate otherwise. Therefore, the pilot must be familiar with the principles and techniques involved in crosswind takeoffs, as well as those for normal takeoffs. A crosswind affects the airplane during takeoff much as it does during taxiing. With this in mind, the pilot should be aware that the technique used for crosswind correction during takeoffs closely parallels the crosswind correction techniques used for taxiing.\n\n## Takeoff Roll\n\nThe technique used during the initial takeoff roll in a crosswind is generally the same as the technique used in a normal takeoff roll, except that the pilot needs to apply aileron pressure into the crosswind. This raises the aileron on the upwind wing, imposes a downward force on that wing to counteract the lifting force of the crosswind, and thus prevents the wing from rising. The pilot should remember that since the ailerons and rudder are deflected, drag will increase; therefore, less initial takeoff performance should be expected until the airplane is wings-level in coordinated flight in the climb.\n\nWhile taxiing into takeoff position, it is essential that the pilot check the windsock and other wind direction indicators for the presence of a crosswind. If a crosswind is present, the pilot should apply full aileron pressure into the wind while beginning the takeoff roll. The pilot should maintain this control position, as the airplane accelerates, and until the ailerons become effective in maneuvering the airplane about its longitudinal axis. As the ailerons become effective, the pilot will feel an increase in pressure on the aileron control.",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/FAA@crd.com/original_assets/Airplane Flying Handbook-[]-133-Chapter 6 Takeoffs and Departure Climbs.pdf_chunks/Airplane Flying Handbook-[]-133-Chapter 6 Takeoffs and Departure Climbs-chunked-files/Airplane Flying Handbook-[]-133-Chapter 6 Takeoffs and Departure Climbs_page_6-6.pdf",
+        "sort_number": "60"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "6bd46bf5-98ba-4d58-acc1-fd47989e93f5",
+            "sentiment": "neutral",
+            "summary": "Maintain runway alignment during climb, recognize weight effects, avoid common takeoff errors, and apply proper crosswind techniques.",
+            "score": 0.95
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "38a86de0-8854-4545-9212-5e85fadadb6e",
+              "question": "Why must the takeoff path stay aligned with the runway during the initial climb?",
+              "answer": "Staying aligned prevents drifting into obstacles or into the path of another aircraft that may be taking off from a parallel runway, ensuring a safe departure."
+            },
+            {
+              "id": "19d69877-576d-4e97-a1b5-0e293d594afd",
+              "question": "How can a flight instructor help a student keep the airplane on the desired track during takeoff?",
+              "answer": "The instructor should identify two points that are inline ahead of the runway for the student to use as tracking references; as long as those points remain inline, the airplane stays on the correct track."
+            },
+            {
+              "id": "725d9c89-9487-40eb-a20b-b109b58a62fd",
+              "question": "What differences should a student expect when flying solo compared to with an instructor on board?",
+              "answer": "With decreased load, the airplane will become airborne earlier, climb more rapidly, the pitch attitude for initial climb may be different, and the controls may feel more sensitive, which can cause anxiety if unexpected."
+            },
+            {
+              "id": "6ee30c57-f36e-4d18-a2ab-b9ee777071de",
+              "question": "What are some of the most common errors made during normal takeoffs and departure climbs?",
+              "answer": "Common errors include not reviewing the AFM/POH, not clearing the area before taxi, abrupt throttle use, not checking engine instruments after power application, failing to anticipate or over‑correcting the left‑turning tendency, relying only on the airspeed indicator, not attaining proper lift‑off attitude, inadequate torque/P‑factor compensation, over‑controlling elevators, limiting the scan to straight ahead, and not maintaining best rate‑of‑climb speed (Vᵧ)."
+            },
+            {
+              "id": "4d4e8ee5-797a-4409-baa6-f59fc47183e2",
+              "question": "How should a pilot anticipate and correct the airplane’s left‑turning tendency during the initial acceleration?",
+              "answer": "The pilot should anticipate the left‑turning tendency and apply gentle, appropriate rudder input to counter it, avoiding abrupt or excessive corrections that can lead to over‑control."
+            },
+            {
+              "id": "c90f9e9d-8d26-459f-b60d-7765689b8940",
+              "question": "What is the recommended technique for a crosswind takeoff?",
+              "answer": "The pilot should apply full aileron pressure into the crosswind while beginning the takeoff roll, maintain that position as the aircraft accelerates, and then allow the ailerons to become effective, keeping the airplane wings‑level and coordinated."
+            },
+            {
+              "id": "32cebbf8-e6db-4d45-bc4a-f98871522aac",
+              "question": "Why does applying aileron pressure into a crosswind reduce initial takeoff performance?",
+              "answer": "Deflecting the ailerons (and rudder) creates additional drag, so the airplane experiences less acceleration until it reaches wings‑level, coordinated flight in the climb."
+            },
+            {
+              "id": "d04d2823-1629-4e41-89fb-c978f89f615e",
+              "question": "What pre‑takeoff checks should be made to identify a crosswind condition?",
+              "answer": "The pilot should check the windsock and any other wind direction indicators while taxiing into the takeoff position to determine if a crosswind is present."
+            },
+            {
+              "id": "30f738ca-12fc-4eae-a67d-ad7d12e4a642",
+              "question": "What is Vᵧ and why is it important during climb‑out?",
+              "answer": "Vᵧ is the best rate‑of‑climb airspeed; maintaining it (or the desired climb airspeed) ensures the aircraft climbs efficiently and safely after lift‑off."
+            },
+            {
+              "id": "c70c37a1-4e15-4876-a921-023b737cebce",
+              "question": "How can a pilot avoid ‘chasing’ the airspeed indicator during climb‑out?",
+              "answer": "By employing attitude flying principles—maintaining a proper pitch attitude and using visual references—rather than constantly adjusting based solely on the airspeed indicator."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "c537dc36-1308-4f86-867a-97493340beb3",
+              "keyword": "takeoff alignment",
+              "score": 0.96
+            },
+            {
+              "id": "4524b7c2-e533-4ca7-b38c-55eb2d9c2348",
+              "keyword": "initial climb",
+              "score": 0.95
+            },
+            {
+              "id": "b967bd5d-d3a9-4072-8dde-69b0cb1092b7",
+              "keyword": "crosswind takeoff",
+              "score": 0.94
+            },
+            {
+              "id": "e29f6646-76be-4550-a3bc-d7f02cbc0782",
+              "keyword": "AFM/POH performance charts",
+              "score": 0.92
+            },
+            {
+              "id": "62d9b63b-e763-40f1-96de-398d298dfd2a",
+              "keyword": "left turning tendency",
+              "score": 0.9
+            },
+            {
+              "id": "6c8bc1f8-c998-4fbd-b368-18febff932e1",
+              "keyword": "torque/P‑factor",
+              "score": 0.89
+            },
+            {
+              "id": "cc93085a-0a21-48d0-a2e2-355a61e65da3",
+              "keyword": "best rate‑of‑climb airspeed (VY)",
+              "score": 0.88
+            },
+            {
+              "id": "4dd8bfe8-9876-487c-b8f9-3260b9659862",
+              "keyword": "scanning techniques",
+              "score": 0.87
+            },
+            {
+              "id": "e6946b57-3b55-48c8-92f1-c0f2f0661a99",
+              "keyword": "aileron pressure into crosswind",
+              "score": 0.86
+            },
+            {
+              "id": "50bcb9ce-f240-4b11-82ae-6bbbe3480229",
+              "keyword": "flight instructor tracking reference points",
+              "score": 0.85
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "d42c7af5-a2d4-4c6c-b007-783a3b747878",
+            "title": "Essential Takeoff Procedures, Common Errors, and Crosswind Techniques",
+            "long_summary": "During the initial climb, pilots must keep the takeoff path aligned with the runway to avoid drifting into obstacles or other traffic. Instructors should have students pick two inline points ahead of the runway as visual references; staying on these points ensures the aircraft remains on track. Proper scanning is vital not only for attitude and direction control but also for collision avoidance near the airport.\n\nAs students approach solo flight, they must understand that takeoff performance changes without an instructor on board. Reduced weight leads to earlier lift‑off, a steeper climb, and a more sensitive control feel. If these differences are unexpected, anxiety can develop and negatively affect the subsequent landing.\n\nCommon takeoff and departure‑climb errors include:\n- Not reviewing the AFM/POH and performance charts.\n- Failing to clear the area before taxiing onto the active runway.\n- Abrupt throttle application.\n- Ignoring engine instrument indications after power is applied.\n- Not anticipating the aircraft’s left‑turning tendency on acceleration, or over‑correcting it.\n- Relying solely on the airspeed indicator instead of visual references.\n- Not achieving proper lift‑off attitude or compensating for torque/P‑factor, leading to sideslip.\n- Over‑controlling elevators and neglecting trim.\n- Limiting the visual scan to straight ahead, causing wing drop.\n- Not maintaining best rate‑of‑climb speed (VY) or appropriate climb speed.\n- “Chasing” the airspeed indicator instead of using attitude flying principles.\n\nCrosswind takeoffs require the same fundamentals as normal takeoffs, with the addition of aileron pressure into the wind. The pilot raises the aileron on the upwind wing to create a downward force that counters the wind’s lifting effect, preventing the wing from rising. This aileron deflection, together with rudder input, increases drag, reducing initial performance until the aircraft is wings‑level in coordinated flight. Before the roll, the pilot should check the windsock, apply full aileron into the wind, maintain the position as speed builds, and feel the aileron become effective as the aircraft accelerates.",
+            "short_summary": "Key takeoff procedures, errors, and crosswind techniques"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "d7163c92-86d6-4fb8-af43-da27781e525f",
+              "classification": "Aviation Safety",
+              "score": 0.97
+            },
+            {
+              "id": "1a1e7ea0-7b37-48da-af36-3e6fdb2335e1",
+              "classification": "Flight Training",
+              "score": 0.96
+            },
+            {
+              "id": "4dd65bfc-f00f-437b-afcc-4bbcb328606e",
+              "classification": "Aircraft Takeoff Procedures",
+              "score": 0.95
+            },
+            {
+              "id": "e99baf70-9f80-43ab-b598-120c41f6da6a",
+              "classification": "Crosswind Operations",
+              "score": 0.92
+            },
+            {
+              "id": "568244c2-5685-4513-86be-2c4bef925b2e",
+              "classification": "Human Factors / Pilot Error",
+              "score": 0.9
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "38bc15a8-a31a-4970-b87b-674ce8374d10",
+              "label": "AFM/POH",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "79eeb5d0-b775-4d6f-ba6d-97109f615222",
+              "label": "VY",
+              "type": "ACRONYM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": "b03ed1d6-61b6-4025-b9b2-d2064b6de388",
+      "document_id": "d603a7d6-a7a2-4758-8ca0-8f8286bb9c22",
+      "title": "Page 12",
+      "context": "<h2>Lift-Off</h2>\n<p>As V<sub>X</sub> approaches, the pilot should apply back-elevator pressure until reaching the appropriate V<sub>X</sub> attitude to ensure a smooth and firm lift-off, or rotation. Since the airplane accelerates more rapidly after lift-off, the pilot should apply additional back-elevator pressure to hold a constant airspeed. After becoming airborne, the pilot will maintain a wings-level climb at V<sub>X</sub> until all obstacles have been cleared, or if no obstacles are present, until reaching an altitude of at least 50 feet above the takeoff surface. Thereafter, the pilot may lower the pitch attitude slightly and continue the climb at V<sub>Y</sub> until reaching a safe maneuvering altitude. The pilot should always remember that an attempt to pull the airplane off the ground prematurely, or to climb too steeply, may cause the airplane to settle back to the runway or make contact with obstacles. Even if the airplane remains airborne, until the pilot reaches V<sub>X</sub>, the initial climb will remain flat, which diminishes the pilot's ability to successfully perform the climb and/or clear obstacles. [Figure 6-9]</p>\n<div>\n<h3>Effect of Premature Lift-off</h3>\n<p>Premature rotation increases drag, decreases acceleration, and increases takeoff distance</p>\n<p>Airplane may lift off at low airspeed</p>\n<p>Flight below V<sub>X</sub> results in shallow climb</p>\n<p>Airplane may settle back to the ground</p>\n<img alt=\"Diagram illustrating the effect of premature lift-off. Three scenarios are shown: 1. Premature rotation increases drag, decreases acceleration, and increases takeoff distance. 2. Airplane may lift off at low airspeed. 3. Flight below V_X results in shallow climb. 4. Airplane may settle back to the ground.\"/>\n</div>\n<p><b>Figure 6-9.</b> Effect of premature lift-off.</p>\n<p>The objective is to rotate to the appropriate pitch attitude at (or near) V<sub>X</sub>. The pilot should be aware that some airplanes have a natural tendency to lift off well before reaching V<sub>X</sub>. In these airplanes, it may be necessary to allow the airplane to lift off in ground effect and then reduce pitch attitude to level until the airplane accelerates to V<sub>X</sub> with the wheels just clear of the runway surface. This method is preferable to forcing the airplane to remain on the ground with forward elevator-control pressure until V<sub>X</sub> is attained. Holding the airplane on the ground unnecessarily puts excessive pressure on the nose-wheel and may result in “wheel barrowing.” It also hinders both acceleration and overall airplane performance.</p>\n<h2>Initial Climb</h2>\n<p>On short-field takeoffs, the landing gear and flaps should remain in takeoff position until the airplane is clear of obstacles (or as recommended by the manufacturer) and V<sub>Y</sub> has been established. Until all obstacles have been cleared, the pilot should maintain focus outside the airplane instead of reaching for landing gear or flap controls or looking inside the airplane for any reason. When the airplane is stabilized at V<sub>Y</sub>, the landing gear (if retractable) and flaps should be retracted. It is usually advisable to raise the flaps in increments to avoid sudden loss of lift and settling of the airplane. The pilot should next reduce the power to the normal climb setting or as recommended by the airplane manufacturer.</p>\n<p>Common errors in the performance of short-field takeoffs and maximum performance climbs are:</p>\n<ul>\n<li>Failure to review AFM/POH and performance charts prior to takeoff.</li>\n<li>Failure to adequately clear the area.</li>\n<li>Failure to utilize all available runway/takeoff area.</li>\n<li>Failure to have the airplane properly trimmed prior to takeoff.</li>\n<li>Premature lift-off resulting in high drag.</li>\n<li>Holding the airplane on the ground unnecessarily with excessive forward-elevator pressure.</li>\n<li>Inadequate rotation resulting in excessive speed after lift-off.</li>\n<li>Inability to attain/maintain V<sub>X</sub>.</li>\n<li>Fixation on the airspeed indicator during initial climb.</li>\n<li>Premature retraction of landing gear and/or wing flaps.</li>\n</ul>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/FAA@crd.com/original_assets/Airplane Flying Handbook-[]-133-Chapter 6 Takeoffs and Departure Climbs.pdf_chunks/Airplane Flying Handbook-[]-133-Chapter 6 Takeoffs and Departure Climbs-chunked-files/Airplane Flying Handbook-[]-133-Chapter 6 Takeoffs and Departure Climbs_page_12-12.pdf",
+        "sort_number": "120"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "04c21501-0339-4350-b03c-46ea70dde033",
+            "sentiment": "neutral",
+            "summary": "Guidelines for proper lift‑off and initial climb, emphasizing correct Vx/Vy use and common errors to avoid during short‑field takeoffs.",
+            "score": 0.99
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "1e1a1164-4c12-4167-86d8-86b289b350af",
+              "question": "What should the pilot do as Vₓ approaches during takeoff?",
+              "answer": "The pilot should apply back‑elevator pressure until reaching the appropriate Vₓ attitude to ensure a smooth and firm lift‑off (rotation)."
+            },
+            {
+              "id": "4ce16df1-da5a-4377-a113-80dfce96ee78",
+              "question": "Why is additional back‑elevator pressure needed after lift‑off?",
+              "answer": "Because the airplane accelerates more rapidly after lift‑off, the pilot must apply additional back‑elevator pressure to hold a constant airspeed."
+            },
+            {
+              "id": "df6cb6c9-52a6-467d-8b9a-3df27576e51f",
+              "question": "What is the recommended climb speed and altitude after clearing obstacles on a short‑field takeoff?",
+              "answer": "The pilot should maintain a wings‑level climb at Vₓ until all obstacles are cleared, or at least until reaching an altitude of 50 feet above the takeoff surface; then the pitch may be lowered slightly and the climb continued at Vᵧ."
+            },
+            {
+              "id": "ddcc74dc-5081-4c60-897b-07962185171a",
+              "question": "What are the consequences of premature rotation (lift‑off) according to the text?",
+              "answer": "Premature rotation increases drag, decreases acceleration, increases takeoff distance, may cause the airplane to lift off at low airspeed, results in a shallow climb below Vₓ, and can cause the airplane to settle back to the ground or strike obstacles."
+            },
+            {
+              "id": "8d89acdd-3102-443b-8bef-c4ce51a15e2f",
+              "question": "If an airplane tends to lift off before reaching Vₓ, what technique is recommended?",
+              "answer": "Allow the airplane to lift off in ground effect, then reduce the pitch attitude to level until the airplane accelerates to Vₓ with the wheels just clear of the runway, rather than forcing it to stay on the ground with forward‑elevator pressure."
+            },
+            {
+              "id": "82418ed0-62a4-4100-aee9-e4df2adcf0d6",
+              "question": "Why should the pilot avoid holding the airplane on the ground with excessive forward‑elevator pressure?",
+              "answer": "Holding the airplane on the ground unnecessarily puts excessive pressure on the nose‑wheel (risking “wheel barrowing”) and hinders acceleration and overall airplane performance."
+            },
+            {
+              "id": "5cadd6d4-f685-4cd9-8d7d-46a66437e647",
+              "question": "When should landing gear and flaps be retracted during a short‑field takeoff?",
+              "answer": "After the airplane is stabilized at Vᵧ and all obstacles have been cleared, the landing gear (if retractable) and flaps should be retracted, preferably raising the flaps in increments to avoid a sudden loss of lift."
+            },
+            {
+              "id": "1b6fcddf-a35a-48e3-8b57-efc2f98cf6f1",
+              "question": "What are some common errors pilots make during short‑field takeoffs and maximum performance climbs?",
+              "answer": "Common errors include: failing to review AFM/POH performance charts, not adequately clearing the area, not using all available runway, not trimming the airplane properly, premature lift‑off, holding the airplane on the ground with excessive forward‑elevator pressure, inadequate rotation leading to excessive speed after lift‑off, inability to attain/maintain Vₓ, fixation on the airspeed indicator, and premature retraction of gear or flaps."
+            },
+            {
+              "id": "8697b073-b634-487e-b621-168a877e90d4",
+              "question": "What should a pilot focus on during the initial climb before obstacles are cleared?",
+              "answer": "The pilot should maintain focus outside the airplane, avoiding reaching for gear or flap controls or looking inside the airplane for any reason."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "0a543241-98f9-4a66-80aa-9a09e4423593",
+              "keyword": "V_X",
+              "score": 0.99
+            },
+            {
+              "id": "35c1fc47-c29b-4e0b-92ed-0ad384b670bd",
+              "keyword": "V_Y",
+              "score": 0.98
+            },
+            {
+              "id": "d4963853-1062-4354-b217-5386fbc07ba6",
+              "keyword": "premature lift‑off",
+              "score": 0.97
+            },
+            {
+              "id": "062b2794-ac62-4c63-b744-86640a138cff",
+              "keyword": "short‑field takeoff",
+              "score": 0.96
+            },
+            {
+              "id": "f1a0a47e-1a63-4252-b04f-983e164fbc2b",
+              "keyword": "rotation",
+              "score": 0.94
+            },
+            {
+              "id": "83515fb3-d148-4800-81fd-712ab9c15c99",
+              "keyword": "back‑elevator pressure",
+              "score": 0.93
+            },
+            {
+              "id": "67c377bb-a7bf-4cad-881f-82dd25f3fb1a",
+              "keyword": "obstacle clearance",
+              "score": 0.92
+            },
+            {
+              "id": "47c90a36-1cf6-493e-b000-322c56bc8ca9",
+              "keyword": "wheel barrowing",
+              "score": 0.9
+            },
+            {
+              "id": "8690fd8f-b3c7-46f8-8ec7-1aedefd7f83f",
+              "keyword": "flap retraction",
+              "score": 0.89
+            },
+            {
+              "id": "6caa598a-62b2-42d4-a718-6e1f13de71ec",
+              "keyword": "aircraft performance charts",
+              "score": 0.88
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "a055eca9-a26e-4b31-aee9-a45ff6db9620",
+            "title": "Proper Lift-Off and Initial Climb Procedures for Short‑Field Takeoffs",
+            "long_summary": "The pilot must rotate at or near Vₓ, applying back‑elevator pressure to achieve the correct pitch attitude for a smooth, firm lift‑off. After becoming airborne, additional back‑elevator is required to hold a constant airspeed as the aircraft accelerates. The pilot should climb wings‑level at Vₓ until obstacles are cleared or the aircraft reaches at least 50 ft above the takeoff surface; then the pitch can be lowered slightly to transition to Vᵧ for the remainder of the climb. Premature rotation increases drag, reduces acceleration, lengthens takeoff distance, and can cause the aircraft to settle back or strike obstacles. If an aircraft tends to lift off before Vₓ, it is preferable to allow a brief ground‑effect lift‑off, then reduce pitch until Vₓ is attained with wheels just off the runway, rather than forcing the plane to stay on the ground with excessive forward‑elevator pressure, which can damage the nose‑wheel and impair performance. \nDuring short‑field takeoffs, gear and flaps remain in the takeoff position until the aircraft clears obstacles and Vᵧ is established. The pilot should keep focus outside, avoid unnecessary cockpit distractions, and retract gear and flaps in increments after stabilization at Vᵧ, then reduce power to the normal climb setting. Common errors include failing to review performance data, inadequate obstacle clearance, improper use of runway, poor trim, premature lift‑off, excessive forward‑elevator pressure, improper rotation speed, inability to attain/maintain Vₓ, fixation on the airspeed indicator, and early retraction of gear or flaps.",
+            "short_summary": "Avoid premature lift-off; maintain Vx then Vy."
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "ef68acbe-d9db-4f47-973a-b93116412f41",
+              "classification": "Aviation - Flight Operations",
+              "score": 0.96
+            },
+            {
+              "id": "e21b84ba-7d91-4403-b718-734ca26cc5bd",
+              "classification": "Aviation - Pilot Training",
+              "score": 0.94
+            },
+            {
+              "id": "585e61ec-55dc-4ecb-bcbe-2cef3d168e14",
+              "classification": "Aviation - Safety Procedures",
+              "score": 0.92
+            },
+            {
+              "id": "d73832e3-f84c-4e75-9897-7809e5da7652",
+              "classification": "Aviation - Aircraft Performance",
+              "score": 0.9
+            },
+            {
+              "id": "76070b03-6330-4203-a692-eec9d6469c69",
+              "classification": "Aviation - Aerodynamics",
+              "score": 0.85
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "bb6e1363-4289-4dc1-82aa-695de71651ce",
+              "label": "V_X",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "60bac4de-99fe-42c7-a006-bc7951b3548d",
+              "label": "V_Y",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "153fbfaf-258a-44c7-b20d-d60ca99d91f2",
+              "label": "AFM",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "48273b15-2717-4822-8c68-4ef563bbed65",
+              "label": "POH",
+              "type": "ACRONYM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": "81c8cd42-b1d4-4f98-939e-a3d21adc883e",
+      "document_id": "d603a7d6-a7a2-4758-8ca0-8f8286bb9c22",
+      "title": "Page 3",
+      "context": "<h2>Normal Takeoff</h2>\n<p>A normal takeoff is one in which the airplane is headed into the wind; there are times that a takeoff with a tail wind is necessary. However, the pilot should consult the POH/AFM to ensure the aircraft is approved for a takeoff with a tail wind and that there is sufficient performance and runway length for the takeoff. The pilot should also ensure that the takeoff surfaces are firm and of sufficient length to permit the airplane to gradually accelerate to normal lift-off and climb-out speed, and there are no obstructions along the takeoff path.</p>\n<p>There are two reasons for making a takeoff as nearly into the wind as possible. First, since the airplane depends on airspeed, a headwind provides some of that airspeed even before the airplane begins to accelerate into the wind. Second, a headwind decreases the ground speed necessary to achieve flying speed. Slower ground speeds yield shorter ground roll distances and allow use of shorter runways while reducing wear and stress on the landing gear.</p>\n<h3>Takeoff Roll</h3>\n<p>For takeoff, the pilot uses the rudder pedals in most general aviation airplanes to steer the airplane's nose-wheel onto the runway centerline to align the airplane and nose-wheel with the runway. After releasing the brakes, the pilot should advance the throttle smoothly and continuously to takeoff power. An abrupt application of power may cause the airplane to yaw sharply to the left because of the torque effects of the engine and propeller. This is most apparent in high horsepower engines. As the airplane starts to roll forward, assure both feet are on the rudder pedals so that the toes or balls of the feet are on the rudder portions, not on the brake. Check the engine instruments for indications of a malfunction during the takeoff roll.</p>\n<p>In nose-wheel type airplanes, pressures on the elevator control are not necessary beyond those needed to steady it. Applying unnecessary pressure only aggravates the takeoff and prevents the pilot from recognizing when elevator control pressure is actually needed to establish the takeoff attitude.</p>\n<p>As the airplane gains speed, the elevator control tends to assume a neutral position if the airplane is correctly trimmed. At the same time, the rudder pedals are used to keep the nose of the airplane pointed down the runway and parallel to the centerline. The effects of engine torque and P-factor at the initial speeds tend to pull the nose to the left. The pilot should use whatever rudder pressure is needed to correct for these effects or winds. The pilot should avoid using the brakes for steering purposes as this will slow acceleration, lengthen the takeoff distance, and possibly result in severe swerving.</p>\n<p>As the speed of the takeoff roll increases, more and more pressure will be felt on the flight controls, particularly the elevators and rudder. If the tail surfaces are affected by the propeller slipstream, they become effective first. As the speed continues to increase, all of the flight controls will gradually become effective enough to maneuver the airplane about its three axes. At this point, the airplane is being flown more than it is being taxied. As this occurs, progressively smaller rudder deflections are needed to maintain direction.</p>\n<p>The feel of resistance to the movement of the controls and the airplane's reaction to such movements are the only real indicators of the degree of control attained. This feel of resistance is not a measure of the airplane's speed, but rather of its controllability. To determine the degree of controllability, the pilot should be conscious of the reaction of the airplane to the control pressures and immediately adjust the pressures as needed to control the airplane. The pilot should wait for the reaction of the airplane to the applied control pressures and attempt to sense the control resistance rather than attempt to control the airplane by movement of the controls.</p>\n<p>A student pilot does not normally have a full appreciation of the variations of control pressures with the speed of the airplane. The student may tend to move the controls through wide ranges seeking the pressures that are familiar and expected and, as a consequence, over-control the airplane.</p>\n<p>The situation may be aggravated by the sluggish reaction of the airplane to these movements. The flight instructor should help the student learn proper response to control actions and airplane reactions. The instructor should always stress using the proper outside reference to judge airplane motion. For takeoff, the student should follow lightly on the controls, feel for resistance, and point out the outside references that provide the clues for how much control movement is needed and how the pressure and response changes as airspeed increases. With practice, the student pilot should become familiar with the airplane's response to acceleration up to lift-off speed, corrective control movements needed, and the outside references necessary to accomplish the takeoff maneuver.</p>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/FAA@crd.com/original_assets/Airplane Flying Handbook-[]-133-Chapter 6 Takeoffs and Departure Climbs.pdf_chunks/Airplane Flying Handbook-[]-133-Chapter 6 Takeoffs and Departure Climbs-chunked-files/Airplane Flying Handbook-[]-133-Chapter 6 Takeoffs and Departure Climbs_page_3-3.pdf",
+        "sort_number": "30"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "80dcac76-43bd-4215-923b-5e73c2dba7c5",
+            "sentiment": "neutral",
+            "summary": "Explanation of normal takeoff procedures, emphasizing headwind benefits, control use, and instructor guidance for student pilots.",
+            "score": 0.98
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "62dc6609-727b-4b33-9738-00f62a88fdd6",
+              "question": "Why is a headwind preferred for a normal takeoff?",
+              "answer": "A headwind adds airspeed before the airplane accelerates, reducing the ground speed needed to reach flying speed, which shortens the ground roll and lessens wear on the landing gear."
+            },
+            {
+              "id": "5b2e92ea-267f-4a3d-832a-a827aa11cf6f",
+              "question": "Can a tailwind be used for takeoff, and what must the pilot check before doing so?",
+              "answer": "Yes, a tailwind takeoff is possible if the aircraft’s POH/AFM approves it and the pilot confirms there is sufficient performance and runway length for the maneuver."
+            },
+            {
+              "id": "3b3296d4-960b-4219-acbb-477d94557521",
+              "question": "What runway conditions are required for a safe takeoff?",
+              "answer": "The takeoff surface must be firm, of adequate length, and free of obstructions along the takeoff path."
+            },
+            {
+              "id": "a9fedea6-8450-454c-898e-e1532f943a74",
+              "question": "How should a pilot apply throttle during the takeoff roll to avoid yaw?",
+              "answer": "The pilot should advance the throttle smoothly and continuously; an abrupt power application can cause a sharp left yaw due to engine and propeller torque, especially on high‑horsepower engines."
+            },
+            {
+              "id": "517ae830-6c9b-4f88-9d00-f317175a723f",
+              "question": "What is the role of the rudder pedals during the takeoff roll?",
+              "answer": "Rudder pedals are used to keep the nose pointed down the runway and parallel to the centerline, counteracting torque, P‑factor, and wind effects."
+            },
+            {
+              "id": "363e173d-1cb0-4a75-8083-2a51dcbc4c61",
+              "question": "Why should a pilot avoid using brakes for steering during takeoff?",
+              "answer": "Using brakes to steer slows acceleration, lengthens the takeoff distance, and can cause severe swerving."
+            },
+            {
+              "id": "c4918867-89ec-4574-9e71-a36362361147",
+              "question": "How does control pressure change as the airplane accelerates on the runway?",
+              "answer": "As speed increases, more pressure is felt on the elevators and rudder; tail surfaces become effective first, and eventually all three‑axis controls become progressively more responsive, requiring smaller deflections."
+            },
+            {
+              "id": "0dbbe752-3c59-4fdf-8886-4311233b9884",
+              "question": "What should a pilot feel for to assess controllability during the takeoff roll?",
+              "answer": "The pilot should sense the resistance of the controls and the airplane’s reaction to control inputs, using that feel—not ground speed—to judge controllability."
+            },
+            {
+              "id": "0f44dcc1-1d18-4f97-a2d2-05eff7e198c0",
+              "question": "What common mistakes do student pilots make during takeoff, and how can instructors help?",
+              "answer": "Students often over‑control by moving the controls through wide ranges, seeking familiar pressures. Instructors should teach light, responsive control use, emphasize outside visual references, and help students feel control resistance as airspeed increases."
+            },
+            {
+              "id": "0ad6261b-f7d7-4f3a-9d7b-bf9239607ed0",
+              "question": "When should elevator pressure be applied in a nose‑wheel aircraft during takeoff?",
+              "answer": "Elevator pressure is only needed to keep the airplane steady; unnecessary pressure should be avoided because it can aggravate the takeoff and mask the need for elevator input when the takeoff attitude must be established."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "5c64e2f8-1a5c-40fc-984f-343abdf7077c",
+              "keyword": "normal takeoff",
+              "score": 0.96
+            },
+            {
+              "id": "c759f231-8089-4819-a037-3b2a4cacee30",
+              "keyword": "headwind",
+              "score": 0.94
+            },
+            {
+              "id": "661363c6-cfc9-4e48-b1dd-9ac93000e0bf",
+              "keyword": "tailwind",
+              "score": 0.92
+            },
+            {
+              "id": "ab8ef467-a676-40c9-bf01-fac70548b13b",
+              "keyword": "POH/AFM approval",
+              "score": 0.9
+            },
+            {
+              "id": "2c6d3f08-34fb-4227-83f7-570946ea0afa",
+              "keyword": "runway length",
+              "score": 0.89
+            },
+            {
+              "id": "f67a3cc3-928c-4ec0-a390-68d6de3dea39",
+              "keyword": "takeoff roll",
+              "score": 0.88
+            },
+            {
+              "id": "8fd35a68-4bf6-475f-80b6-d84b273c56b3",
+              "keyword": "rudder pedals",
+              "score": 0.87
+            },
+            {
+              "id": "5d651e03-c102-4a61-b352-61e9a83b5752",
+              "keyword": "engine torque and P‑factor",
+              "score": 0.86
+            },
+            {
+              "id": "65391b81-9d78-4e57-a96c-2b822112a460",
+              "keyword": "control pressure",
+              "score": 0.85
+            },
+            {
+              "id": "1fb55c2c-562f-49a0-bc7e-e1fcf7a32e35",
+              "keyword": "student pilot training",
+              "score": 0.84
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "1afc1bdf-72b9-40f3-af30-552f89c9e005",
+            "title": "Normal Aircraft Takeoff Procedures",
+            "long_summary": "A normal takeoff is performed with the aircraft as close to heading into the wind as possible because a headwind adds to airspeed before the plane accelerates and reduces the ground speed needed for lift‑off, shortening the roll and reducing gear stress. A tail‑wind takeoff is only allowed if the POH/AFM approves it and runway length, surface firmness, and obstacle clearance are adequate.\n\nDuring the takeoff roll the pilot keeps both feet on the rudder pedals, steers the nose‑wheel onto the runway centreline, and advances the throttle smoothly to full power. Abrupt power application can cause a left yaw due to engine torque, especially on high‑horsepower aircraft. The pilot monitors engine instruments for malfunctions and avoids using brakes for steering, as this slows acceleration and lengthens the roll.\n\nControl pressures change as speed builds. In a properly trimmed airplane the elevator remains neutral; the rudder is used to counter torque, P‑factor, and wind, with decreasing deflection as airflow increases. The propeller slipstream makes the tail surfaces effective early, and as speed rises all three axes become controllable. Pilots should sense control resistance rather than move the controls excessively; over‑controlling is a common student error.\n\nInstructors should teach students to use light, progressive inputs, rely on outside visual references, and feel the aircraft’s response. With practice, students learn the gradual increase in control effectiveness, the appropriate corrective movements, and the cues needed to achieve a safe, efficient lift‑off.",
+            "short_summary": "Key steps and considerations for a normal aircraft takeoff"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "da54174d-58a7-4aa9-8e98-a2ce2427fb27",
+              "classification": "Aviation",
+              "score": 0.98
+            },
+            {
+              "id": "c45dbd42-2fec-4b6e-ba0a-7c0a13cf3093",
+              "classification": "Pilot Training",
+              "score": 0.95
+            },
+            {
+              "id": "d211b897-2254-44c3-8191-784d0172cade",
+              "classification": "Aircraft Operations",
+              "score": 0.93
+            },
+            {
+              "id": "63f8cdf4-5b46-47cd-9d3b-6d915d3a306d",
+              "classification": "Flight Safety",
+              "score": 0.9
+            },
+            {
+              "id": "5cdb337e-31e5-441a-9c96-04a723ed6aae",
+              "classification": "Aerodynamics",
+              "score": 0.85
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "a8eee970-ffe6-4ab4-9faf-18fcc1836aa8",
+              "label": "POH/AFM",
+              "type": "ACRONYM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": "76719627-1d87-49a6-99c5-1f81cf2f3fa6",
+      "document_id": "d603a7d6-a7a2-4758-8ca0-8f8286bb9c22",
+      "title": "Page 10",
+      "context": "The most common errors made while performing crosswind takeoffs include the following:\n<ul>\n<li>Failure to review AFM/POH performance and charts prior to takeoff.</li>\n<li>Failure to adequately clear the area prior to taxiing onto the active runway.</li>\n<li>Using less than full aileron pressure into the wind initially on the takeoff roll.</li>\n<li>Mechanical use of aileron control rather than judging lateral position of airplane on runway from visual clues and applying sufficient aileron to keep airplane centered laterally on runway.</li>\n<li>Side-skipping due to improper aileron application.</li>\n<li>Inadequate rudder control to maintain airplane parallel to centerline and pointed straight ahead in alignment with visual references.</li>\n<li>Excessive aileron input in the latter stage of the takeoff roll resulting in a steep bank into the wind at lift-off.</li>\n<li>Inadequate drift correction after lift-off.</li>\n</ul>\n<h3>Ground Effect on Takeoff</h3>\n<p>Ground effect is a condition of improved performance encountered when the airplane is operating very close to the ground. Ground effect can be detected and normally occurs up to an altitude equal to one wingspan above the surface. [Figure 6-7] Ground effect is most significant when the airplane maintains a constant attitude at low airspeed at low altitude (for example, during takeoff when the airplane lifts off and accelerates to climb speed, and during the landing flare before touchdown).</p>\n<div>\n<p><b>Takeoff in Ground Effect Area</b></p>\n<img alt=\"Diagram illustrating takeoff in ground effect. Three stages are shown: 1. Ground effect decreases induced drag, airplane may fly at lower indicated airspeed. 2. Accelerate in ground effect to Vx or Vy. 3. Ground effect decreases quickly with height. A note indicates that ground effect is negligible when height is equal to wingspan.\"/>\n<p><b>Figure 6-7. Takeoff in ground effect area.</b></p>\n</div>\n<p>When the wing is under the influence of ground effect, there is a reduction in upwash, downwash, and wingtip vortices. As a result of the reduced wingtip vortices, induced drag is reduced. When the wing is at a height equal to 1/4 the span, the reduction in induced drag is about 25 percent. When the wing is at a height equal to 1/10 the span, the reduction in induced drag is about 50 percent. At high speeds where parasite drag dominates, induced drag is a small part of the total drag. Consequently, ground effect is a greater concern during takeoff and landing.</p>\n<p>At takeoff, the takeoff roll, lift-off, and the beginning of the initial climb are accomplished within the ground effect area. The ground effect causes local increases in static pressure, which cause the airspeed indicator and altimeter to indicate slightly lower values than they should and usually cause the vertical speed indicator to indicate a descent. As the airplane lifts off and climbs out of the ground effect area, the following occurs:</p>\n<ul>\n<li>The airplane requires an increase in AOA to maintain lift coefficient.</li>\n<li>The airplane experiences an increase in induced drag and thrust required.</li>\n<li>The airplane experiences a pitch-up tendency and requires less elevator travel because of an increase in downwash at the horizontal tail.</li>\n<li>The airplane experiences a reduction in static source pressure and a corresponding increase in indicated airspeed.</li>\n</ul>\n<p><math>V_x</math> is the speed at which the airplane achieves the greatest gain in altitude for a given distance over the ground. It is usually slightly less than <math>V_y</math>, which is the greatest gain in altitude per unit of time. The specific speeds to be used for a given airplane are stated in the FAA-approved AFM/POH. The pilot should be aware that, in some airplanes, a deviation of 5 knots from the recommended speed may result in a significant reduction in climb performance; therefore, the pilot should maintain precise control of the airspeed to ensure the maneuver is executed safely and successfully.</p>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/FAA@crd.com/original_assets/Airplane Flying Handbook-[]-133-Chapter 6 Takeoffs and Departure Climbs.pdf_chunks/Airplane Flying Handbook-[]-133-Chapter 6 Takeoffs and Departure Climbs-chunked-files/Airplane Flying Handbook-[]-133-Chapter 6 Takeoffs and Departure Climbs_page_10-10.pdf",
+        "sort_number": "100"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "3c7654f0-6009-46df-8c31-eb14abf229e2",
+            "sentiment": "neutral",
+            "summary": "Common crosswind takeoff errors and ground‑effect effects on takeoff performance are listed and explained.",
+            "score": 0.98
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "c3292a78-cce2-4746-9f07-2ca741d9b60f",
+              "question": "What are the most common errors made during cross‑wind takeoffs?",
+              "answer": "The most common errors include not reviewing the AFM/POH performance charts before takeoff, not clearing the area before taxiing onto the active runway, using insufficient aileron pressure at the start of the roll, relying on mechanical aileron control instead of visual cues, side‑skipping due to improper aileron use, inadequate rudder control to keep the airplane aligned with the runway centerline, excessive aileron input late in the roll that creates a steep bank at lift‑off, and inadequate drift correction after lift‑off."
+            },
+            {
+              "id": "0f388705-311e-4f37-9b7f-ee33315597c7",
+              "question": "Why must a pilot review the AFM/POH performance charts before a cross‑wind takeoff?",
+              "answer": "Reviewing the AFM/POH performance and charts ensures the pilot knows the aircraft’s required speeds, performance limits, and procedures, which helps avoid errors such as using the wrong takeoff speed or mismanaging control inputs in cross‑wind conditions."
+            },
+            {
+              "id": "1c96194d-51c3-41af-b2b6-c20c31d23485",
+              "question": "How does insufficient aileron pressure at the start of the takeoff roll affect a cross‑wind takeoff?",
+              "answer": "Using less than full aileron pressure into the wind initially can prevent the airplane from staying centered laterally on the runway, increasing the risk of side‑skipping and loss of directional control during the roll."
+            },
+            {
+              "id": "ba0934ec-aeb0-4551-b357-efc58d14f9da",
+              "question": "What is side‑skipping and how does it occur during a cross‑wind takeoff?",
+              "answer": "Side‑skipping is a rapid, uncontrolled lateral movement of the aircraft caused by improper aileron application, often when the pilot does not apply enough aileron to counter the cross‑wind or applies it too mechanically without visual reference."
+            },
+            {
+              "id": "45b5ba03-a9bc-48aa-b5aa-f41ec33ef9c8",
+              "question": "What is ground effect and how does it influence aircraft performance during takeoff?",
+              "answer": "Ground effect is a condition of improved performance that occurs when the airplane is within roughly one wingspan of the ground. It reduces upwash, downwash, wingtip vortices, and induced drag (about 25 % reduction at ¼ span height and 50 % at 1/10 span), allowing the aircraft to fly at lower indicated airspeed and requiring less thrust during the takeoff roll, lift‑off, and initial climb."
+            },
+            {
+              "id": "36f19745-006b-4654-9953-2e27757deb7b",
+              "question": "At what altitude does ground effect become negligible?",
+              "answer": "Ground effect becomes negligible when the aircraft reaches an altitude equal to one wingspan above the surface."
+            },
+            {
+              "id": "0aed46d2-a41b-4aca-b0d8-b22a9b2b0617",
+              "question": "How does ground effect affect the airspeed indicator, altimeter, and vertical speed indicator?",
+              "answer": "While in ground effect, the local increase in static pressure causes the airspeed indicator and altimeter to read slightly lower than the true values, and the vertical speed indicator usually shows a descent even though the aircraft is climbing."
+            },
+            {
+              "id": "b9fe83af-38ab-436a-8b30-36fa18628340",
+              "question": "What changes occur when the airplane climbs out of the ground‑effect area?",
+              "answer": "When climbing out of ground effect, the airplane must increase angle of attack to maintain lift, experiences higher induced drag and thrust requirements, shows a pitch‑up tendency with less elevator travel needed due to increased downwash on the tail, and the reduction in static pressure causes the indicated airspeed to increase."
+            },
+            {
+              "id": "62d92148-04da-41b9-98a2-4b85e2e59e37",
+              "question": "What are Vₓ and Vᵧ and how do they differ?",
+              "answer": "Vₓ is the speed that provides the greatest gain in altitude for a given ground distance, while Vᵧ is the speed that gives the greatest gain in altitude per unit of time. Vₓ is usually slightly less than Vᵧ."
+            },
+            {
+              "id": "9a4051d4-eaf7-4c7e-85e3-8fe4d1e9146c",
+              "question": "Why is it important to maintain the recommended Vₓ/Vᵧ speeds during takeoff?",
+              "answer": "Maintaining the FAA‑approved Vₓ/Vᵧ speeds is critical because a deviation of as little as 5 knots from the recommended speed can cause a significant reduction in climb performance, potentially compromising the safety of the takeoff."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "6ec3e7d8-71d6-4fff-a477-a13712d8941c",
+              "keyword": "crosswind takeoff errors",
+              "score": 0.98
+            },
+            {
+              "id": "e8697c69-5ae6-4be8-b8e1-7be3f851b3f2",
+              "keyword": "ground effect",
+              "score": 0.97
+            },
+            {
+              "id": "a258324b-ca73-4589-94da-3aca58be07eb",
+              "keyword": "induced drag",
+              "score": 0.96
+            },
+            {
+              "id": "323a5521-7a92-4f94-8080-40796c2962fc",
+              "keyword": "Vx speed",
+              "score": 0.95
+            },
+            {
+              "id": "537b9e40-2142-4a17-97c1-97209b12ec7c",
+              "keyword": "Vy speed",
+              "score": 0.95
+            },
+            {
+              "id": "e54e3780-1266-4ad2-84d2-539e239f980b",
+              "keyword": "AFM/POH performance",
+              "score": 0.94
+            },
+            {
+              "id": "157f16ba-2fcc-4a4b-9e4e-7354b9591e25",
+              "keyword": "aileron control",
+              "score": 0.93
+            },
+            {
+              "id": "8e8c0c80-384f-4d26-a7b9-f30463800f0a",
+              "keyword": "rudder control",
+              "score": 0.92
+            },
+            {
+              "id": "ebdfdd11-5f8a-4c26-aa80-92504bd5eba2",
+              "keyword": "drift correction",
+              "score": 0.9
+            },
+            {
+              "id": "10d611e6-2490-46bd-9763-e9f649bfff45",
+              "keyword": "lift-off",
+              "score": 0.89
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "23c02ac2-cac0-4fc9-9e88-55839654f48f",
+            "title": "Crosswind Takeoff Errors and Ground‑Effect Effects",
+            "long_summary": "The text lists the most frequent mistakes pilots make during cross‑wind takeoffs: not reviewing the aircraft flight manual (AFM/POH) performance data, failing to clear the area before taxiing, using insufficient aileron pressure at the start of the roll, relying on mechanical aileron inputs instead of visual cues, side‑skipping from improper aileron use, inadequate rudder control to keep the aircraft aligned with the runway centerline, excessive aileron input near lift‑off that creates a steep bank, and poor drift correction after becoming airborne. \n\nGround effect is then explained as a condition of improved aerodynamic performance that occurs when the wing is within roughly one wingspan of the ground. In this zone, upwash, downwash, and wing‑tip vortices are reduced, cutting induced drag by up to 25 % at a height of one‑quarter span and about 50 % at one‑tenth span. Because induced drag is a larger proportion of total drag at low speeds, ground effect is most significant during takeoff and landing. While in ground effect, static pressure increases, causing the airspeed indicator, altimeter, and vertical speed indicator to read slightly low values. As the aircraft climbs out of ground effect, it must increase angle of attack to maintain lift, experiences higher induced drag and thrust requirements, encounters a pitch‑up tendency with reduced elevator travel, and sees a rise in indicated airspeed due to lower static pressure. \n\nThe performance speeds Vx (maximum altitude gain per horizontal distance) and Vy (maximum altitude gain per unit time) are defined, with Vx typically a few knots slower than Vy. These speeds are specified in the AFM/POH, and deviations of as little as five knots can markedly degrade climb performance, underscoring the need for precise airspeed control during the critical takeoff phase.",
+            "short_summary": "Common crosswind takeoff errors and ground effect overview"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "1eab0365-1b4a-466a-847b-c158c3d66f99",
+              "classification": "Aviation Safety",
+              "score": 0.97
+            },
+            {
+              "id": "cb48692f-e51e-46a0-b732-b6384a3d2185",
+              "classification": "Aircraft Takeoff Procedures",
+              "score": 0.95
+            },
+            {
+              "id": "e37179e0-2f2f-4d87-a300-2b1b69796e16",
+              "classification": "Aerodynamics (Ground Effect)",
+              "score": 0.93
+            },
+            {
+              "id": "a7be41c5-a3b5-48c8-9367-d6989d81aa1b",
+              "classification": "Pilot Training",
+              "score": 0.9
+            },
+            {
+              "id": "4db66d7e-1744-4b87-911b-a8aba3d4ebc6",
+              "classification": "Flight Performance",
+              "score": 0.88
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "78447590-6185-4e67-a4cd-f099785c810c",
+              "label": "AFM/POH",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "e5d7b3fc-803e-4e76-a555-bef4cc48cdf5",
+              "label": "FAA",
+              "type": "ORGANIZATION"
+            },
+            {
+              "id": "a7325e50-f920-4c26-a6e3-fc95ee282e19",
+              "label": "V_x",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "c32bf41b-5040-4fa3-a9ea-bb0aff9bd28c",
+              "label": "V_y",
+              "type": "ACRONYM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": "00326d04-7799-4485-9dd5-430742dff919",
+      "document_id": "d603a7d6-a7a2-4758-8ca0-8f8286bb9c22",
+      "title": "Page 2",
+      "context": "<div><img alt=\"Figure 6-1: Diagram illustrating the phases of takeoff and climb. The aircraft starts on the runway during Takeoff roll (1), transitions to Lift-off (2), reaches Takeoff pitch altitude, and then enters Climb (3). During Climb, it reaches Best climb speed (Vy, Vx or POH/AFM cruise climb speed). At a higher altitude, it reaches Safe maneuvering altitude climb power, and finally, En route climb, where wind is indicated.\"/></div><p>Figure 6-1. Takeoff and climb.</p><div><img alt=\"Figure 6-2: Two performance charts. The left chart, 'Take-off Distance vs. Density Altitude', shows take-off distance (feet) on the x-axis (0 to 4000) and density altitude (feet) on the y-axis (0 to 7000). Two curves are shown: 2000 lb gross weight (solid line) and 2200 lb gross weight (dashed line). The chart includes a warning: 'EXTRAPOLATION OF CHART ABOVE 7000 FEET IS INVALID'. The curves show 'Ground run' and 'Over 50 feet obstacle' distances. The right chart, 'Rate of Climb vs. Density Altitude', shows density altitude (feet) on the y-axis (0 to 16000) and rate of climb (feet per minute) on the x-axis (0 to 1000). A single curve shows that rate of climb decreases as density altitude increases.\"/></div><p>Figure 6-2. Performance chart examples.</p>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/FAA@crd.com/original_assets/Airplane Flying Handbook-[]-133-Chapter 6 Takeoffs and Departure Climbs.pdf_chunks/Airplane Flying Handbook-[]-133-Chapter 6 Takeoffs and Departure Climbs-chunked-files/Airplane Flying Handbook-[]-133-Chapter 6 Takeoffs and Departure Climbs_page_2-2.pdf",
+        "sort_number": "20"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "18fe7ca6-ac79-4726-8c32-c38fd8ec61e2",
+            "sentiment": "neutral",
+            "summary": "Describes Figure 6‑1 showing takeoff and climb phases, and Figure 6‑2 presenting performance charts for takeoff distance and rate of climb versus density altitude.",
+            "score": 0.98
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "e18eeda4-cdff-4c4e-8d7d-4570c48b45bb",
+              "question": "What are the phases of takeoff and climb shown in Figure 6‑1?",
+              "answer": "The diagram shows the aircraft starting on the runway during the Takeoff roll (1), then transitioning to Lift‑off (2), reaching Takeoff pitch altitude, and entering the Climb phase (3). During Climb it reaches Best climb speed (Vy, Vx or POH/AFM cruise climb speed), then at a higher altitude reaches Safe maneuvering altitude climb power, and finally En route climb, where wind is indicated."
+            },
+            {
+              "id": "899a1f59-4927-47b7-b26a-282ca1e003dc",
+              "question": "When does the aircraft reach its best climb speed during the climb phase?",
+              "answer": "The aircraft reaches its best climb speed (Vy, Vx or POH/AFM cruise climb speed) shortly after entering the Climb phase, as shown in Figure 6‑1."
+            },
+            {
+              "id": "b5d57ee6-8822-487b-bd6c-219da6d741ed",
+              "question": "What does the left performance chart in Figure 6‑2 illustrate?",
+              "answer": "The left chart, titled “Take‑off Distance vs. Density Altitude,” plots take‑off distance (feet) on the x‑axis and density altitude (feet) on the y‑axis. It shows two curves for different gross weights: 2000 lb (solid line) and 2200 lb (dashed line), each displaying ground‑run distance and distance required to clear a 50‑foot obstacle."
+            },
+            {
+              "id": "6841c4fb-9eb4-41a7-943f-0f39ce65a700",
+              "question": "What warning is given on the take‑off distance chart?",
+              "answer": "The chart includes a warning: “EXTRAPOLATION OF CHART ABOVE 7000 FEET IS INVALID.”"
+            },
+            {
+              "id": "9f065ac9-9a45-423d-9852-e5bbfddf6390",
+              "question": "What does the right performance chart in Figure 6‑2 show?",
+              "answer": "The right chart, titled “Rate of Climb vs. Density Altitude,” plots density altitude (feet) on the y‑axis and rate of climb (feet per minute) on the x‑axis. It shows a single curve indicating that the rate of climb decreases as density altitude increases."
+            },
+            {
+              "id": "b80d443a-b1ce-44d9-a2f7-8a9e3109bb40",
+              "question": "How does increasing density altitude affect the rate of climb according to the chart?",
+              "answer": "According to the chart, as density altitude rises, the rate of climb falls."
+            },
+            {
+              "id": "5b884797-72eb-45bc-9848-1bd1eaed328f",
+              "question": "What two types of take‑off distances are displayed on the left chart?",
+              "answer": "The chart displays “Ground run” distance and “Over 50 feet obstacle” distance for each gross‑weight curve."
+            },
+            {
+              "id": "7fcefa79-2f90-47d3-9055-6b31e95d7e58",
+              "question": "What are the two gross‑weight conditions compared in the take‑off distance chart?",
+              "answer": "The chart compares a 2000 lb gross weight (solid line) with a 2200 lb gross weight (dashed line)."
+            },
+            {
+              "id": "ce2ffe52-a1ff-4e4f-8df1-6afc4cfa9616",
+              "question": "What does “Safe maneuvering altitude climb power” refer to in the climb phase?",
+              "answer": "It refers to the power setting the aircraft uses after reaching a higher altitude during climb, before transitioning to En route climb."
+            },
+            {
+              "id": "a525eb83-dc60-4f46-9a97-f88cfde64c39",
+              "question": "What is indicated during the En route climb segment of the flight?",
+              "answer": "During En route climb, wind information is indicated."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "dce3b3ad-fffb-4fe9-bbca-f149cc8ab120",
+              "keyword": "Takeoff roll",
+              "score": 0.96
+            },
+            {
+              "id": "6c33e94a-5175-4ba5-b501-a1934a3fb5c7",
+              "keyword": "Lift-off",
+              "score": 0.94
+            },
+            {
+              "id": "51f85c66-365d-4165-a196-bc3fb36d6266",
+              "keyword": "Best climb speed (Vy, Vx)",
+              "score": 0.95
+            },
+            {
+              "id": "844138cc-5717-43e1-a299-120b37b56010",
+              "keyword": "Safe maneuvering altitude climb power",
+              "score": 0.92
+            },
+            {
+              "id": "8fa2f219-999f-4a39-ade0-48a1df830150",
+              "keyword": "En route climb",
+              "score": 0.9
+            },
+            {
+              "id": "dd5ff3b2-98fc-461d-b91d-9ad1d21c4863",
+              "keyword": "Density altitude",
+              "score": 0.97
+            },
+            {
+              "id": "93e3cd20-ae47-4699-acb0-b9cb491f9892",
+              "keyword": "Take‑off Distance vs. Density Altitude chart",
+              "score": 0.93
+            },
+            {
+              "id": "32e8cdc5-b7ed-476e-a13f-2f6677d65cd5",
+              "keyword": "Rate of climb vs. Density Altitude chart",
+              "score": 0.93
+            },
+            {
+              "id": "477fdbbc-1923-4f5c-b976-bf0d64e429ae",
+              "keyword": "Ground run",
+              "score": 0.88
+            },
+            {
+              "id": "3971f7d6-1b8d-44ad-af9e-e4729c26ba65",
+              "keyword": "Over 50 feet obstacle",
+              "score": 0.87
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "4be7e1ce-19b9-4568-a072-dfadb184476c",
+            "title": "Takeoff and Climb Phases with Performance Charts",
+            "long_summary": "Figure 6‑1 illustrates the sequential phases of an aircraft’s departure from the runway. The sequence begins with the Takeoff roll (1), proceeds to Lift‑off (2), reaches the Takeoff pitch altitude, and then enters the Climb phase (3). During climb the aircraft attains its best climb speed (Vy, Vx, or the cruise‑climb speed specified in the POH/AFM). At a higher altitude the pilot selects the safe‑maneuvering‑altitude climb power setting, and finally the aircraft proceeds to En‑route climb, where wind effects are indicated.\n\nFigure 6‑2 presents two performance charts used to evaluate takeoff and climb capability under varying density‑altitude conditions. The left chart, “Take‑off Distance vs. Density Altitude,” plots take‑off distance (feet) on the horizontal axis against density altitude (feet) on the vertical axis, ranging from 0 to 7 000 ft. Two weight curves are shown: a solid line for 2 000 lb gross weight and a dashed line for 2 200 lb gross weight. Both curves display distances for the ground run and for clearing a 50‑ft obstacle. A warning notes that extrapolation of the chart above 7 000 ft is invalid. The right chart, “Rate of Climb vs. Density Altitude,” plots density altitude (feet) versus rate of climb (feet per minute). The single curve demonstrates that as density altitude increases, the achievable rate of climb decreases, illustrating the performance penalty at higher altitudes. Together, the figures provide a visual reference for pilots to understand the stages of takeoff and climb and to assess aircraft performance limits under different atmospheric conditions.",
+            "short_summary": "Takeoff/climb phases and related performance charts"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "97d83c5e-6464-4773-940a-4d939741a06b",
+              "classification": "Aviation",
+              "score": 0.98
+            },
+            {
+              "id": "f6d25f2d-93b5-4f95-88dd-4f46b0e04742",
+              "classification": "Aircraft Performance",
+              "score": 0.95
+            },
+            {
+              "id": "a16e1c08-ed28-4d6d-b40e-ea4df9dd9653",
+              "classification": "Flight Training",
+              "score": 0.85
+            },
+            {
+              "id": "2ba55671-4dc8-4f37-afa6-bebdf04fde03",
+              "classification": "Aerodynamics",
+              "score": 0.8
+            },
+            {
+              "id": "d8b9c3cc-2531-4289-9a1d-fa57d71d7d55",
+              "classification": "Safety Procedures",
+              "score": 0.75
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "52f53955-1620-49a8-b53e-4f5868eef561",
+              "label": "Vy",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "ab1920e1-782f-4b8e-8bbf-42c6b3060920",
+              "label": "Vx",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "0fb90910-39ef-4438-b40d-1706a783e774",
+              "label": "POH/AFM",
+              "type": "ACRONYM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": "881d2683-7252-4da2-92d7-34c2531f7a4b",
+      "document_id": "d603a7d6-a7a2-4758-8ca0-8f8286bb9c22",
+      "title": "Page 11",
+      "context": "Due to the reduced drag in ground effect, the airplane may seem to be able to take off below the recommended airspeed. However, as the airplane climbs out of ground effect below the recommended climb speed, initial climb performance will be much less than at V<sub>Y</sub> or even V<sub>X</sub>. Under conditions of high density altitude, high temperature, and/or maximum gross weight, the airplane may be able to lift off but will be unable to climb out of ground effect. Consequently, the airplane may not be able to clear obstructions. Lift-off before attaining recommended flight airspeed incurs more drag, which requires more power to overcome. Since the initial takeoff and climb is based on maximum power, reducing drag is the only option. To reduce drag, pitch should be reduced which means losing altitude. Pilots should remember that many airplanes cannot safely takeoff at maximum gross weight at certain altitudes and temperatures, due to lack of performance. Therefore, under marginal conditions, it is important that the airplane takes off at the speed recommended for adequate initial climb performance.\n\nGround effect is important to normal flight operations. If the runway is long enough or if no obstacles exist, ground effect can be used to the pilot's advantage by using the reduced drag to improve initial acceleration.\n\nWhen taking off from an unsatisfactory surface, the pilot should apply as much weight to the wings as possible during the ground run and lift-off, using ground effect as an aid, prior to attaining true flying speed. The pilot should reduce AOA to attain normal airspeed before attempting to fly out of the ground effect areas.\n\n<h3>Short-Field Takeoff and Maximum Performance Climb</h3>\nWhen performing takeoffs and climbs from fields where the takeoff area is short or the available takeoff area is restricted by obstructions, the pilot should operate the airplane at the maximum limit of its takeoff performance capabilities. To depart from such an area safely, the pilot needs to exercise positive and precise control of airplane attitude and airspeed, so that takeoff and climb performance result in the shortest ground roll and the steepest angle of climb. [Figure 6-8] The pilot should consult and follow the performance section of the AFM/POH to obtain the power setting, flap setting, airspeed, and procedures prescribed by the airplane's manufacturer.\n\n<img alt=\"Figure 6-8 illustrates a short-field takeoff. The diagram shows an airplane on a runway, followed by three stages of takeoff: 1. Rotate at approximately Vx. 2. Climb at Vx (with gear and flaps extended). 3. Climb at Vy (with gear and flaps retracted). The background shows trees and mountains.\"/>\n<p><b>Figure 6-8.</b> Short-field takeoff.</p>\nThe pilot should have adequate knowledge in the use and effectiveness of the best angle-of-climb speed (V<sub>X</sub>) and the best rate-of-climb speed (V<sub>Y</sub>) for the specific make and model of airplane being flown in order to safely accomplish a takeoff at maximum performance.\n\n<h3>Takeoff Roll</h3>\nTaking off from a short field requires the takeoff to be started from the very beginning of the takeoff area. At this point, the airplane is aligned with the intended takeoff path. If the airplane manufacturer recommends the use of flaps, they are extended the proper amount before beginning the takeoff roll. This allows the pilot to devote full attention to the proper technique and the airplane's performance throughout the takeoff.\n\nThe pilot should apply takeoff power smoothly and continuously, without hesitation, to accelerate the airplane as rapidly as possible. Some pilots prefer to hold the brakes until the maximum obtainable engine revolutions per minute (rpm) are achieved before allowing the airplane to begin its takeoff run. However, it has not been established that this procedure results in a shorter takeoff run in all light, single-engine airplanes. The airplane is allowed to roll with its full weight on the main wheels and accelerate to the lift-off speed. As the takeoff roll progresses, the pilot should adjust the airplane's pitch attitude and AOA to attain minimum drag and maximum acceleration. In nose-wheel type airplanes, this involves little use of the elevator control since the airplane is already in a low-drag attitude.",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/FAA@crd.com/original_assets/Airplane Flying Handbook-[]-133-Chapter 6 Takeoffs and Departure Climbs.pdf_chunks/Airplane Flying Handbook-[]-133-Chapter 6 Takeoffs and Departure Climbs-chunked-files/Airplane Flying Handbook-[]-133-Chapter 6 Takeoffs and Departure Climbs_page_11-11.pdf",
+        "sort_number": "110"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "3d4a7a14-cf83-4c35-96fa-d471b580b784",
+            "sentiment": "neutral",
+            "summary": "Takeoff performance is affected by ground effect, density altitude, weight, and speed; pilots must follow recommended speeds and procedures, especially on short fields.",
+            "score": 0.97
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "d6afd9d7-131f-4d40-bda1-e3766070c991",
+              "question": "Why should an airplane not be lifted off below the recommended climb speed even if ground effect reduces drag?",
+              "answer": "Because lifting off below the recommended climb speed results in much less initial climb performance, which may prevent the airplane from clearing obstacles, especially in high density altitude, high temperature, or maximum gross weight conditions."
+            },
+            {
+              "id": "77183204-4b31-4387-ba6b-e05fd3baf9ca",
+              "question": "What happens if an airplane lifts off below Vₓ or Vᵧ while still in ground effect?",
+              "answer": "The initial climb performance will be reduced, and the airplane may be unable to climb out of ground effect, increasing the risk of striking obstacles."
+            },
+            {
+              "id": "6c98547d-1c7f-4da7-ac89-549fd6522ded",
+              "question": "How does ground effect influence takeoff performance?",
+              "answer": "Ground effect reduces drag, allowing improved initial acceleration, but if the airplane lifts off too early it will encounter increased drag once out of ground effect, requiring more power to maintain climb."
+            },
+            {
+              "id": "4c292042-82e5-4a4b-83ad-abcff6124e70",
+              "question": "What should a pilot do to reduce drag during takeoff when using ground effect?",
+              "answer": "The pilot should reduce pitch, which lowers angle of attack and drag, even though it may cause a slight loss of altitude."
+            },
+            {
+              "id": "2f01334f-49ef-4b62-9c94-634870a38407",
+              "question": "Under what conditions might an airplane be unable to climb out of ground effect after lift‑off?",
+              "answer": "When operating at high density altitude, high temperature, or at maximum gross weight, the airplane may lift off but lack the performance to climb out of ground effect."
+            },
+            {
+              "id": "aacba39f-7b24-4f12-ad58-5f091e13de8f",
+              "question": "What are the recommended speeds and flap settings for a short‑field takeoff?",
+              "answer": "Rotate at approximately Vₓ, climb at Vₓ with gear and flaps extended, then transition to Vᵧ with gear and flaps retracted."
+            },
+            {
+              "id": "242d5258-ee25-41a5-90c3-b5c4e39662a8",
+              "question": "What steps should be taken during the takeoff roll for a short‑field departure?",
+              "answer": "Start at the very beginning of the takeoff area, align with the intended path, set flaps as the manufacturer recommends, apply takeoff power smoothly and continuously, and adjust pitch attitude and angle of attack to achieve minimum drag and maximum acceleration."
+            },
+            {
+              "id": "ca351af6-9c25-40f0-aa7f-efe1846a3a82",
+              "question": "Is holding the brakes until maximum engine RPM is reached before the takeoff roll recommended for all light, single‑engine airplanes?",
+              "answer": "No. It has not been established that this procedure results in a shorter takeoff run for all such airplanes."
+            },
+            {
+              "id": "8bf4302f-97dc-48c3-b0f1-fb343a514b07",
+              "question": "How should a pilot use ground effect when taking off from an unsatisfactory surface?",
+              "answer": "The pilot should apply as much weight to the wings as possible during the ground run and lift‑off, using ground effect as an aid before attaining true flying speed, then reduce angle of attack to reach normal airspeed before leaving the ground‑effect zone."
+            },
+            {
+              "id": "d5cf8274-e49d-4d61-8cd1-6aeb9511806f",
+              "question": "Why is knowledge of Vₓ and Vᵧ important for short‑field takeoffs?",
+              "answer": "Understanding Vₓ (best angle‑of‑climb speed) and Vᵧ (best rate‑of‑climb speed) allows the pilot to achieve the steepest climb angle and the highest climb rate, which are essential for safely departing a short or obstructed field."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "7b338dcf-3fe8-4f87-ae9b-dc7ca729f7fa",
+              "keyword": "ground effect",
+              "score": 0.98
+            },
+            {
+              "id": "04d248e3-6d57-494a-bbb1-f7d90ec94377",
+              "keyword": "Vx (best angle‑of‑climb speed)",
+              "score": 0.96
+            },
+            {
+              "id": "d509a7ac-df7b-4a48-9edb-6b56569bd043",
+              "keyword": "Vy (best rate‑of‑climb speed)",
+              "score": 0.96
+            },
+            {
+              "id": "d486df2c-65d1-4d8f-80dd-d4ad6cc54806",
+              "keyword": "short‑field takeoff",
+              "score": 0.95
+            },
+            {
+              "id": "9a15993f-d8e2-45a8-9ba4-084381dbe805",
+              "keyword": "climb performance",
+              "score": 0.94
+            },
+            {
+              "id": "5ba6d8ac-cbe6-47fb-b8ce-ee6eb6ab6eb0",
+              "keyword": "density altitude",
+              "score": 0.93
+            },
+            {
+              "id": "1d7f5df0-715e-4a38-8f92-1a2198ed2919",
+              "keyword": "maximum gross weight",
+              "score": 0.92
+            },
+            {
+              "id": "7ad61af0-909d-4f46-ae3d-a30a209600ae",
+              "keyword": "takeoff roll",
+              "score": 0.91
+            },
+            {
+              "id": "8dc71f34-3e28-4bd9-b6f1-5f0f7d717f33",
+              "keyword": "flap setting",
+              "score": 0.9
+            },
+            {
+              "id": "387fc221-d246-4d59-9912-abf0a2466076",
+              "keyword": "AFM/POH performance section",
+              "score": 0.89
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "0f17b869-9fbd-45c5-9621-648e95ee4106",
+            "title": "Ground Effect and Short‑Field Takeoff Performance",
+            "long_summary": "When an airplane lifts off within ground effect, drag is reduced, making it appear possible to take off below the recommended airspeed. However, climbing out of ground effect at speeds lower than V Y or V X results in markedly poorer performance. In high density‑altitude, high‑temperature, or maximum‑gross‑weight conditions, the aircraft may lift off yet be unable to climb out of ground effect, risking collision with obstacles. Therefore, pilots must use the manufacturer‑specified takeoff speeds to ensure adequate initial climb.\n\nGround effect can be advantageous on long, obstacle‑free runways, allowing faster acceleration with reduced drag. On short or obstructed fields, pilots must achieve maximum performance: use the proper flap setting, apply takeoff power smoothly, and rotate at or near V X, then climb at V X (gear and flaps extended) before transitioning to V Y (gear and flaps retracted). Knowledge of V X (best angle‑of‑climb) and V Y (best rate‑of‑climb) for the specific aircraft is essential. During the roll, maintain full weight on the main wheels, adjust pitch to minimize drag, and avoid unnecessary brake holding unless proven beneficial for the specific airplane.",
+            "short_summary": "Ground effect reduces drag but can impair climb performance."
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "1572770d-2292-48f5-b49b-b216960a1226",
+              "classification": "Aviation Safety",
+              "score": 0.95
+            },
+            {
+              "id": "573524c0-7379-4458-824f-8f842cefc60c",
+              "classification": "Aircraft Performance",
+              "score": 0.97
+            },
+            {
+              "id": "6c7450f1-95c1-4836-b537-4c9641ae1648",
+              "classification": "Pilot Training",
+              "score": 0.9
+            },
+            {
+              "id": "0171534f-4510-4bc3-97dc-3c64c81c62a3",
+              "classification": "Aerodynamics",
+              "score": 0.85
+            },
+            {
+              "id": "865c92b7-3207-47a6-92a4-185660acb069",
+              "classification": "Flight Operations",
+              "score": 0.88
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "a594501d-f110-4f80-9c99-21d1802f5d30",
+              "label": "Vx",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "e3d1402c-1599-43eb-ac70-fd60f1590e08",
+              "label": "Vy",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "28135d2f-5d0d-4d7e-bb62-f1e16c28c1d3",
+              "label": "AFM/POH",
+              "type": "ACRONYM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": "c9f2fcd1-6641-4883-a24d-bf3aa38a7373",
+      "document_id": "d603a7d6-a7a2-4758-8ca0-8f8286bb9c22",
+      "title": "Page 14",
+      "context": "<ul><li>Failure to review AFM/POH and performance charts prior to takeoff.</li><li>Failure to adequately clear the area.</li><li>Insufficient back-elevator pressure during initial takeoff roll resulting in inadequate AOA.</li><li>Failure to cross-check engine instruments for indications of proper operation after applying power.</li><li>Poor directional control.</li><li>Climbing too high after lift-off and not leveling off low enough to maintain ground effect attitude.</li><li>Abrupt and/or excessive elevator control while attempting to level off and accelerate after liftoff.</li><li>Allowing the airplane to \"mush\" or settle resulting in an inadvertant touchdown after lift-off.</li><li>Attempting to climb our of ground effect area before attaining sufficient climb speed.</li><li>Failure to anticipate an increase in pitch attitude as the airplane climbs our of ground effect.</li></ul><h3>Rejected Takeoff/Engine Failure</h3><p>Emergency or abnormal situations can occur during a takeoff that require a pilot to reject the takeoff while still on the runway. Circumstances such as a malfunctioning powerplant, inadequate acceleration, runway incursion, or air traffic conflict may be reasons for a rejected takeoff.</p><p>Prior to takeoff, the pilot should identify a point along the runway at which the airplane should be airborne. If that point is reached and the airplane is not airborne, immediate action should be taken to discontinue the takeoff. When properly planned and executed, the airplane can be stopped on the remaining runway without using extraordinary measures, such as excessive braking that may result in loss of directional control, airplane damage, and/or personal injury. The POH/AFM ground roll distances for take-off and landing added together provide a good estimate of the total runway needed to accelerate and then stop.</p><p>In the event a takeoff is rejected, the power is reduced to idle and maximum braking applied while maintaining directional control. If it is necessary to shut down the engine due to a fire, the mixture control should be brought to the idle cutoff position and the magnetos turned off. In all cases, the manufacturer's emergency procedure should be followed.</p><p>Urgency characterizes all power loss or engine failure occurrences after lift-off. In most instances, the pilot has only a few seconds after an engine failure to decide what course of action to take and to execute it.</p><p>In the event of an engine failure on initial climb-out, the pilot's first responsibility is to maintain aircraft control. At a climb pitch attitude without power, the airplane is at or near a stalling AOA. At the same time, the pilot may still be holding right rudder. The pilot should immediately lower the nose to prevent a stall while moving the rudder to ensure coordinated flight. The pilot should establish a controlled glide toward a plausible landing area, preferably straight ahead. Attempting to turn back to the takeoff runway should not be attempted unless the pilot previously trained for an emergency turn-back and sufficient altitude exists.</p><h3>Noise Abatement</h3><p>Aircraft noise problems are a major concern at many airports throughout the country. Many local communities have pressured airports into developing specific operational procedures that help limit aircraft noise while operating over nearby areas. As a result, noise abatement procedures have been developed for many of these airports that include standardized profiles and procedures to achieve these lower noise goals.</p><p>Airports that have noise abatement procedures provide information to pilots, operators, air carriers, air traffic facilities, and other special groups that are applicable to their airport. These procedures are available to the aviation community by various means. Most of this information comes from the Chart Supplements, local and regional publications, printed handouts, operator bulletin boards, safety briefings, and local air traffic facilities.</p><p>At airports that use noise abatement procedures, reminder signs may be installed at the taxiway hold positions for applicable runways to remind pilots to use and comply with noise abatement procedures on departure. Pilots who are unfamiliar with these procedures should ask the tower or air traffic facility for the recommended procedures. In any case, pilots should be considerate of the surrounding community while operating their airplane to and from such an airport. This includes operating as quietly, and safely as possible.</p><h3>Chapter Summary</h3><p>The takeoff and initial climb are relatively short phases required for every flight and are often taken for granted, yet 1 out of 5 accidents occur during this phase and half the mishaps are the result of pilot error. Becoming proficient in and applying the techniques and principles discussed in this chapter help pilots reduce their susceptibility to becoming a mishap statistic.</p>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/FAA@crd.com/original_assets/Airplane Flying Handbook-[]-133-Chapter 6 Takeoffs and Departure Climbs.pdf_chunks/Airplane Flying Handbook-[]-133-Chapter 6 Takeoffs and Departure Climbs-chunked-files/Airplane Flying Handbook-[]-133-Chapter 6 Takeoffs and Departure Climbs_page_14-14.pdf",
+        "sort_number": "140"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "87916ed1-b43a-4e75-ac79-baaa85344a9f",
+            "sentiment": "neutral",
+            "summary": "List of takeoff errors, procedures for rejected takeoff, engine failure response, noise abatement, and importance of proper technique to prevent accidents.",
+            "score": 0.95
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "6c767846-b28f-4642-83ef-55011da36040",
+              "question": "What are some common mistakes pilots make during takeoff?",
+              "answer": "Common mistakes include not reviewing the AFM/POH and performance charts, failing to clear the area, insufficient back‑elevator pressure, not cross‑checking engine instruments after applying power, poor directional control, climbing too high before leveling off, abrupt elevator inputs, allowing the airplane to “mush” after lift‑off, attempting to climb out of ground effect before reaching sufficient speed, and not anticipating a pitch‑up as the aircraft leaves ground effect."
+            },
+            {
+              "id": "4b048501-27ef-4ccb-adf8-cfe974372681",
+              "question": "When should a pilot decide to reject a takeoff?",
+              "answer": "If the airplane reaches the predetermined point on the runway where it should be airborne and is still on the ground, the pilot should immediately discontinue the takeoff."
+            },
+            {
+              "id": "1bf88efb-64cc-4254-ab8e-4893640139ab",
+              "question": "What actions should be taken if a takeoff is rejected on the runway?",
+              "answer": "The power should be reduced to idle, maximum braking applied while maintaining directional control, and, if necessary, the engine shut down by moving the mixture to idle‑cutoff and turning off the magnetos, following the manufacturer’s emergency procedure."
+            },
+            {
+              "id": "a6cdb90f-23be-433a-afd4-b0a2de4980f6",
+              "question": "How can a pilot estimate the runway length needed for a rejected takeoff?",
+              "answer": "Adding the POH/AFM ground‑roll distances for takeoff and landing provides a good estimate of the total runway required to accelerate and then stop."
+            },
+            {
+              "id": "48ea3367-7311-4989-b04b-d2e54d4027f1",
+              "question": "What is the recommended response to an engine failure during the initial climb‑out?",
+              "answer": "The pilot’s first priority is to maintain aircraft control, lower the nose to avoid a stall, use right rudder as needed to stay coordinated, and establish a controlled glide toward a suitable landing area straight ahead; a turn‑back to the runway should only be attempted if the pilot is trained for it and sufficient altitude exists."
+            },
+            {
+              "id": "20cf1734-1638-4fc4-aa9f-45b3c0aefec5",
+              "question": "Why is it important to avoid turning back to the takeoff runway after an engine failure?",
+              "answer": "Turning back requires sufficient altitude and prior training; without these, attempting a turn‑back can lead to loss of control or a stall."
+            },
+            {
+              "id": "5254f2ce-511a-4b47-8402-44ed07d75310",
+              "question": "What are noise‑abatement procedures and why are they used?",
+              "answer": "Noise‑abatement procedures are standardized flight profiles developed by airports to limit aircraft noise over nearby communities; they are used to address local concerns and reduce noise impact."
+            },
+            {
+              "id": "fe8bf4b1-c48f-417a-9047-dfbd39bf5b5b",
+              "question": "Where can pilots find information about an airport’s noise‑abatement procedures?",
+              "answer": "Information is available in Chart Supplements, local and regional publications, printed handouts, operator bulletin boards, safety briefings, and from the local air‑traffic facility."
+            },
+            {
+              "id": "2d412d01-4473-455b-9029-35aaa21762d0",
+              "question": "What should a pilot do if unfamiliar with an airport’s noise‑abatement procedures?",
+              "answer": "The pilot should ask the tower or air‑traffic facility for the recommended procedures and then comply with them."
+            },
+            {
+              "id": "190ed597-2fb8-4a90-a402-62f8b8b12b31",
+              "question": "How significant are takeoff and initial climb phases in overall flight safety?",
+              "answer": "Although they are short, one out of five accidents occurs during takeoff and initial climb, and half of those mishaps are due to pilot error; mastering the techniques discussed reduces the risk of becoming a mishap statistic."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "c6a5d76b-5164-4a58-aa45-aa67db6a46f2",
+              "keyword": "takeoff",
+              "score": 0.96
+            },
+            {
+              "id": "16350e30-e029-42bd-a95a-d7626c177d4c",
+              "keyword": "engine failure",
+              "score": 0.94
+            },
+            {
+              "id": "c67d62c1-2b41-4bea-9f7b-e875ea4f863f",
+              "keyword": "rejected takeoff",
+              "score": 0.92
+            },
+            {
+              "id": "6fe97c75-f0bc-4808-9a9b-94c22588a0a5",
+              "keyword": "ground effect",
+              "score": 0.9
+            },
+            {
+              "id": "d725ceac-4c71-43b5-a78e-c999600ce100",
+              "keyword": "noise abatement",
+              "score": 0.88
+            },
+            {
+              "id": "c199c5e6-cd59-449a-ba03-77cba944285d",
+              "keyword": "directional control",
+              "score": 0.86
+            },
+            {
+              "id": "be210f68-55e7-4d3f-9e3a-149c0e2664f9",
+              "keyword": "aircraft control",
+              "score": 0.84
+            },
+            {
+              "id": "755b6c47-7f8b-44f2-b618-56beb155422c",
+              "keyword": "stall",
+              "score": 0.82
+            },
+            {
+              "id": "c2e3211f-a2c3-4f4c-a7a5-f15cd8548708",
+              "keyword": "pilot error",
+              "score": 0.8
+            },
+            {
+              "id": "ada38797-546f-4aa7-aeed-7d8b3f9ebe31",
+              "keyword": "initial climb",
+              "score": 0.78
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "a09b7245-2190-44f0-8e8c-15e648a8ca89",
+            "title": "Takeoff Errors, Rejection, Engine Failure, and Noise Abatement",
+            "long_summary": "The passage outlines typical pilot mistakes during takeoff and initial climb, including failure to review aircraft manuals, inadequate runway clearance, insufficient back‑elevator pressure, neglecting engine instrument checks, poor directional control, climbing too high out of ground‑effect, abrupt elevator inputs, allowing the aircraft to settle after lift‑off, and not anticipating pitch changes when leaving ground effect. \n\nIt then describes rejected‑takeoff procedures: pilots must pre‑identify a runway point for airborne status; if not airborne, they should reduce power to idle, apply maximum braking while maintaining direction, and follow manufacturer emergency steps, including shutting down the engine if necessary. \n\nFor engine failure on initial climb, the priority is maintaining control by lowering the nose to avoid stall, using rudder for coordination, and establishing a straight‑ahead glide to a suitable landing area; a turn‑back is discouraged unless specifically trained and altitude permits. \n\nThe text also covers noise‑abatement practices, noting community concerns and the development of standardized departure profiles. Pilots receive these procedures via charts, supplements, briefings, and signage, and are urged to request guidance when unfamiliar. \n\nFinally, the chapter emphasizes that takeoff and initial climb, though brief, account for one‑fifth of accidents, with half caused by pilot error, underscoring the importance of mastering the discussed techniques.",
+            "short_summary": "Common takeoff errors and emergency procedures"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "84ea149f-2717-4fd1-91b9-045df8b00427",
+              "classification": "Aviation Safety",
+              "score": 0.98
+            },
+            {
+              "id": "634e8cab-e6f8-4cce-b8d5-2dbc19c6ddb8",
+              "classification": "Pilot Training & Education",
+              "score": 0.95
+            },
+            {
+              "id": "7a6975cc-47fc-4a84-bee7-351a26e5d866",
+              "classification": "Aircraft Takeoff and Initial Climb Procedures",
+              "score": 0.96
+            },
+            {
+              "id": "47330210-0c4a-4273-863f-d40763aacf70",
+              "classification": "Emergency and Abnormal Procedures",
+              "score": 0.94
+            },
+            {
+              "id": "35eb2442-13e8-47f2-8a85-027667a763d4",
+              "classification": "Noise Abatement & Environmental Impact",
+              "score": 0.9
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "244ca6a9-8743-4afd-803a-e3152d8169ad",
+              "label": "AFM/POH",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "c82105f3-3629-4094-88e6-49c8ca124155",
+              "label": "AOA",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "609fb014-ea54-4c1b-8c70-33a2c6d6ba36",
+              "label": "POH/AFM",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "236d6a28-783a-4753-889e-a009de29d48d",
+              "label": "magnetos",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "81b3416f-9f91-4799-a101-d1813c233b66",
+              "label": "air traffic facilities",
+              "type": "ORGANIZATION"
+            },
+            {
+              "id": "8ce37ff4-c7da-4735-beca-8fb94ec07793",
+              "label": "air carriers",
+              "type": "ORGANIZATION"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": "28844538-9330-4bbb-af98-ba96c849667b",
+      "document_id": "d603a7d6-a7a2-4758-8ca0-8f8286bb9c22",
+      "title": "Page 13",
+      "context": "<h2>Soft/Rough-Field Takeoff and Climb</h2>\n<p>Takeoffs and climbs from soft fields require the use of operational techniques for getting the airplane airborne as quickly as possible to eliminate the drag caused by tall grass, soft sand, mud, and snow and may require climbing over an obstacle. The technique makes judicious use of ground effect to reduce landing gear drag and requires an understanding of the airplane's slow speed characteristics and responses. These same techniques are also useful on a rough field where the pilot should get the airplane off the ground as soon as possible to avoid damaging the landing gear.</p>\n<p>Taking off from a soft surface or through soft surfaces or long, wet grass reduces the airplane's ability to accelerate during the takeoff roll and may prevent the airplane from reaching adequate takeoff speed if the pilot applies normal takeoff techniques. The pilot should be aware that the correct takeoff procedure for soft fields is quite different from the takeoff procedures used for short fields with firm, smooth surfaces. To minimize the hazards associated with takeoffs from soft or rough fields, the pilot should transfer the support of the airplane's weight as rapidly as possible from the wheels to the wings as the takeoff roll proceeds by establishing and maintaining a relatively high AOA or nose-high pitch attitude as early as possible. The pilot should lower the wing flaps prior to starting the takeoff (if recommended by the manufacturer) to provide additional lift and to transfer the airplane's weight from the wheels to the wings as early as possible. The pilot should maintain a continuous motion with sufficient power while lining up for the takeoff roll as stopping on a soft surface, such as mud or snow, might bog the airplane down.</p>\n<h3>Takeoff Roll</h3>\n<p>As the airplane is aligned with the takeoff path, the pilot should apply takeoff power smoothly and as rapidly as the powerplant can accept without faltering. As the airplane accelerates, the pilot should apply enough back-elevator pressure to establish a positive AOA and to reduce the weight supported by the nose-wheel.</p>\n<p>When the airplane is held at a nose-high attitude throughout the takeoff run, the wings increasingly relieve the wheels of the airplane's weight as speed increases and lift develops, thereby minimizing the drag caused by surface irregularities or adhesion. If this attitude is accurately maintained, the airplane virtually flies itself off the ground, becoming airborne but at an airspeed slower than a safe climb speed because of ground effect. [Figure 6-10]</p>\n<img alt=\"Diagram illustrating a soft-field takeoff procedure. The sequence shows four stages: 1. Accelerate (airplane on the ground, nose wheel down). 2. Raise nose-wheel as soon as possible (airplane slightly airborne, nose wheel lifted). 3. Lift off (airplane fully airborne, nose wheel fully retracted). 4. Accelerate in ground effect to Vx or Vy (airplane accelerating while still in ground effect).\"/>\n<p>Figure 6-10. Soft-field takeoff.</p>\n<h3>Lift-Off</h3>\n<p>After the airplane becomes airborne, the pilot should gently lower the nose with the wheels clear of the surface to accelerate to a minimum safe climb out speed. Immediately after the airplane becomes airborne and while it accelerates, the pilot should be aware that, while transitioning out of the ground effect area, the airplane will have a tendency to settle back onto the surface, even with full power applied. Therefore, it is essential that the airplane remain in ground effect until at least Vx is reached. This requires a good understanding of the control pressures, aircraft responses, visual clues, and acceleration characteristics of that particular airplane.</p>\n<h3>Initial Climb</h3>\n<p>After a positive rate of climb is established, and the airplane has accelerated to Vy, the pilot should retract the landing gear and flaps, if equipped. If departing from an airstrip with wet snow or slush on the takeoff surface, the gear should not be retracted immediately so that any wet snow or slush can be air-dried. In the event an obstacle needs to be cleared after a soft-field takeoff, the pilot should perform the climb-out at Vx until the obstacle has been cleared. The pilot should then adjust the pitch attitude to Vy and retract the gear and flaps. The power can then be reduced to the normal climb setting.</p>\n<p>Common errors in the performance of soft/rough field takeoff and climbs are:</p>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/FAA@crd.com/original_assets/Airplane Flying Handbook-[]-133-Chapter 6 Takeoffs and Departure Climbs.pdf_chunks/Airplane Flying Handbook-[]-133-Chapter 6 Takeoffs and Departure Climbs-chunked-files/Airplane Flying Handbook-[]-133-Chapter 6 Takeoffs and Departure Climbs_page_13-13.pdf",
+        "sort_number": "130"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "3fb8e54f-43ad-400f-947b-28a728acbfbc",
+            "sentiment": "neutral",
+            "summary": "Guidelines for safely taking off and climbing from soft or rough fields, emphasizing early nose-up attitude, ground‑effect use, and proper flap/gear handling.",
+            "score": 0.97
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "ea9d706a-1a17-475d-b7e8-302a13948e7a",
+              "question": "Why is a nose‑high attitude important during a soft‑field takeoff?",
+              "answer": "Holding a nose‑high attitude early in the takeoff roll transfers the airplane’s weight from the wheels to the wings, allowing the wings to generate lift sooner and reducing the drag caused by the soft surface."
+            },
+            {
+              "id": "db6ca66b-6755-415e-9ef9-9d059a6b8f8d",
+              "question": "How should flaps be used for a soft‑field takeoff?",
+              "answer": "If the aircraft manufacturer recommends it, the pilot should lower the wing flaps before starting the takeoff to provide additional lift and help shift weight from the wheels to the wings as early as possible."
+            },
+            {
+              "id": "954eca80-82c8-4413-9dc8-e001de9d9d86",
+              "question": "What is the role of ground effect in a soft‑field takeoff?",
+              "answer": "Ground effect reduces drag while the airplane is still close to the surface, allowing it to accelerate to a safe climb speed (Vx or Vy) even though the airspeed may be below the normal climb speed when the aircraft first becomes airborne."
+            },
+            {
+              "id": "5fc85c48-a85b-47a7-9ceb-fe642d348b1f",
+              "question": "How does the pilot transition from ground effect to a normal climb after lift‑off?",
+              "answer": "After the airplane is airborne, the pilot gently lowers the nose while keeping the wheels clear of the surface, accelerating until at least Vx is reached. The aircraft must remain in ground effect until Vx is attained to prevent it from settling back onto the surface."
+            },
+            {
+              "id": "f77f53b9-894f-4fd0-ab6d-c643b796e04e",
+              "question": "When should the landing gear and flaps be retracted after a soft‑field takeoff?",
+              "answer": "After a positive rate of climb is established and the airplane has accelerated to Vy, the pilot should retract the landing gear and flaps. If the takeoff surface is wet snow or slush, the gear should be left extended a short time to allow the snow or slush to dry."
+            },
+            {
+              "id": "eaebfd2b-d8b0-4937-9217-3ec7881691e9",
+              "question": "What should a pilot do if an obstacle must be cleared after a soft‑field takeoff?",
+              "answer": "The pilot should continue the climb‑out at Vx until the obstacle is cleared, then adjust the pitch attitude to Vy, retract the gear and flaps, and reduce power to the normal climb setting."
+            },
+            {
+              "id": "bfd6e295-d1ae-4c8d-9809-7e0f1c87206e",
+              "question": "How does a soft‑field takeoff differ from a short‑field takeoff on firm surfaces?",
+              "answer": "A soft‑field takeoff emphasizes a rapid transfer of weight from the wheels to the wings by maintaining a high angle of attack early, whereas a short‑field takeoff on firm ground focuses on achieving the required takeoff speed with a different pitch and flap setting. The techniques are quite different because soft surfaces reduce acceleration and increase drag."
+            },
+            {
+              "id": "aea63266-58b1-4659-b512-8430de763fcb",
+              "question": "What power‑application technique is recommended during the takeoff roll on soft ground?",
+              "answer": "The pilot should apply takeoff power smoothly and as rapidly as the engine can accept without faltering, maintaining continuous motion to avoid the airplane bogging down in the soft surface."
+            },
+            {
+              "id": "ee8e3dc3-9085-4ee4-9e1a-8d7f95e43e14",
+              "question": "Why should the pilot avoid stopping on a soft surface during the takeoff roll?",
+              "answer": "Stopping on a soft surface such as mud or snow can cause the airplane to become bogged down, making it difficult to accelerate and increasing the risk of damage to the landing gear."
+            },
+            {
+              "id": "3a395e0e-1458-40a7-b97f-a71c408b0815",
+              "question": "What are common errors in performing soft/rough‑field takeoffs and climbs?",
+              "answer": "The passage mentions that common errors exist but does not list them; it only states that such errors are a concern in soft/rough‑field operations."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "be97544f-c18c-4dca-a3ab-60061bbf3967",
+              "keyword": "soft-field takeoff",
+              "score": 0.96
+            },
+            {
+              "id": "87c88f0f-b545-4a58-8219-57f100392c7f",
+              "keyword": "rough-field takeoff",
+              "score": 0.93
+            },
+            {
+              "id": "58a3e51e-66fd-428c-a0ee-a70343498b87",
+              "keyword": "ground effect",
+              "score": 0.95
+            },
+            {
+              "id": "7cc25b0a-f604-48aa-b06c-14c5d705c987",
+              "keyword": "angle of attack (AOA)",
+              "score": 0.94
+            },
+            {
+              "id": "81dbd1e5-ab60-4dfb-b5ba-29c79f3a7c86",
+              "keyword": "Vx (best angle of climb)",
+              "score": 0.92
+            },
+            {
+              "id": "a24b8af6-c171-47d3-980a-5dc7ca0e7707",
+              "keyword": "Vy (best rate of climb)",
+              "score": 0.91
+            },
+            {
+              "id": "76aa44e1-edf7-44b6-93ce-fd05be84bc83",
+              "keyword": "flaps",
+              "score": 0.89
+            },
+            {
+              "id": "2093ba8b-622a-4feb-ba8f-adc6bfee739a",
+              "keyword": "landing gear drag",
+              "score": 0.88
+            },
+            {
+              "id": "62ce97df-c7a3-4f84-8dc4-30d1238f715f",
+              "keyword": "obstacle clearance",
+              "score": 0.87
+            },
+            {
+              "id": "39f8adff-7f68-4eae-a814-23122a65834e",
+              "keyword": "soft surface (wet grass, mud, snow)",
+              "score": 0.86
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "882a634b-832b-45bd-b7b5-81c445171902",
+            "title": "Soft and Rough Field Takeoff and Climb Procedures",
+            "long_summary": "Takeoffs and climbs from soft or rough surfaces require special techniques to minimize drag from grass, sand, mud, snow, or uneven terrain and to avoid gear damage. The pilot must transfer the aircraft’s weight from the wheels to the wings as early as possible by maintaining a relatively high angle of attack (AOA) or nose‑high pitch attitude throughout the roll. If the manufacturer recommends it, flaps are lowered before the roll to increase lift and aid this weight transfer. Power is applied smoothly but rapidly, and back‑elevator pressure is used to keep the nose wheel light.\n\nDuring the roll, the aircraft “flies” in ground effect, reducing surface drag. At lift‑off, the nose is gently lowered while keeping the wheels clear, allowing acceleration to a safe climb speed. The pilot must stay in ground effect until at least Vx is reached, because the aircraft tends to settle back onto the surface when exiting ground effect.\n\nAfter establishing a positive climb rate and reaching Vy, the gear and flaps are retracted—unless wet snow or slush is present, in which case the gear remains down briefly to dry. If an obstacle must be cleared, the climb is continued at Vx until the obstacle is passed, then the pitch is adjusted to Vy and power reduced to normal climb settings. Common errors include failing to maintain the nose‑high attitude, premature gear or flap retraction, and insufficient power application.",
+            "short_summary": "Techniques for rapid takeoff and safe climb on soft/rough fields"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "79f12c19-42f3-4163-aad2-480ccbbf3bb8",
+              "classification": "Aviation",
+              "score": 0.99
+            },
+            {
+              "id": "270e87d9-03e9-4f0c-8204-c920744d8cf1",
+              "classification": "Pilot Training",
+              "score": 0.96
+            },
+            {
+              "id": "537b37af-dce1-4fda-9252-504151c73afe",
+              "classification": "Aircraft Operations",
+              "score": 0.94
+            },
+            {
+              "id": "c2351403-391d-4a20-814d-f00bb1cccd0d",
+              "classification": "Flight Safety",
+              "score": 0.92
+            },
+            {
+              "id": "e4f95c48-5044-414d-a4e0-e7db413cff8c",
+              "classification": "Aerodynamics",
+              "score": 0.88
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "291d8e15-c74a-44e4-9656-edd1cfb2a9f5",
+              "label": "AOA",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "713acb2a-1db5-4b21-96ad-66f53e7a755d",
+              "label": "Vx",
+              "type": "ACRONYM"
+            },
+            {
+              "id": "861126ef-4585-48a7-9864-909e0e2ae811",
+              "label": "Vy",
+              "type": "ACRONYM"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

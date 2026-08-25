@@ -1,0 +1,220 @@
+{
+  "customer_id": "test_set_2x2@crd.com",
+  "document_id": "85027e1d-1043-41f0-a76d-1ed2d8719e95",
+  "document_name": "Multi_Column_Text.pdf",
+  "organization_name": "Booz Allen",
+  "account_name": "Default Account",
+  "application_name": "Booz Allen AI Atomization Service",
+  "vpub_name": "Default VPUB",
+  "topics": [
+    {
+      "topic_id": "fbbf9a44-f3d5-4be0-b92d-8cebf982ecb3",
+      "document_id": "85027e1d-1043-41f0-a76d-1ed2d8719e95",
+      "title": "Page 1",
+      "context": "<h2>The NASA STI Program...in Profile</h2>\n<p>Since its founding, NASA has been dedicated to the advancement of aeronautics and space science. The NASA Scientific and Technical Information (STI) Program Office plays a key part in helping NASA maintain this important role.</p>\n<p>The NASA STI Program Office is operated by Langley Research Center, the lead center for NASA's scientific and technical information. The NASA STI Program Office provides access to the NASA STI Database, the largest collection of aeronautical and space science STI in the world. The Program Office is also NASA's institutional mechanism for disseminating the results of its research and development activities. These results are published by NASA in the NASA STI Report Series, which includes the following report types:</p>\n<ul>\n<li><b>TECHNICAL PUBLICATION.</b> Reports of completed research or a major significant phase of research that present the results of NASA programs and include extensive data or theoretical analysis. Includes compilations of significant scientific and technical data and information deemed to be of continuing reference value. NASA's counterpart of peer-reviewed formal professional papers but has less stringent limitations on manuscript length and extent of graphic presentations.</li>\n<li><b>TECHNICAL MEMORANDUM.</b> Scientific and technical findings that are preliminary or of specialized interest, e.g., quick release reports, working papers, and bibliographies that contain minimal annotation. Does not contain extensive analysis.</li>\n<li><b>CONTRACTOR REPORT.</b> Scientific and technical findings by NASA-sponsored contractors and grantees.</li>\n<li><b>CONFERENCE PUBLICATION.</b> Collected papers from scientific and technical conferences, symposia, seminars, or other meetings sponsored or cosponsored by NASA.</li>\n<li><b>SPECIAL PUBLICATION.</b> Scientific, technical, or historical information from NASA programs, projects, and mission, often concerned with subjects having substantial public interest.</li>\n<li><b>TECHNICAL TRANSLATION.</b> English-language translations of foreign scientific and technical material pertinent to NASA's mission.</li>\n</ul>\n<p>Specialized services that complement the STI Program Office's diverse offerings include creating custom thesauri, building customized databases, organizing and publishing research results...even providing videos.</p>\n<p>For more information about the NASA STI Program Office, see the following:</p>\n<ul>\n<li>Access the NASA STI program home page at &lt;http://www.sti.nasa.gov&gt;</li>\n<li>E-mail your question via the Internet to &lt;help@sti.nasa.gov&gt;</li>\n<li>Phone the NASA STI Help Desk at 757-864-9658</li>\n<li>Write to:<br/>NASA STI Information Desk<br/>Mail Stop 148<br/>NASA Langley Research Center<br/>Hampton, VA 23681-2199, USA</li>\n</ul>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/test_set_2x2@crd.com/original_assets/Multi_Column_Text.pdf_chunks/Multi_Column_Text-chunked-files/Multi_Column_Text_page_1-1.pdf",
+        "sort_number": "10"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "4819857d-a453-4691-9007-1bc2ef49b630",
+            "sentiment": "neutral",
+            "summary": "NASA STI Program Office provides access to extensive aeronautical and space science information, publishes reports, and offers specialized services.",
+            "score": 0.95
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "a52178c6-1afd-4a98-8a34-06348eb72ec2",
+              "question": "What is the NASA Scientific and Technical Information (STI) Program Office?",
+              "answer": "It is an office operated by Langley Research Center that provides access to the NASA STI Database, the largest collection of aeronautical and space science STI in the world, and serves as NASA's institutional mechanism for disseminating the results of its research and development activities."
+            },
+            {
+              "id": "18fd2b98-b0ea-4114-aaf5-8ae5549c2a76",
+              "question": "Where is the NASA STI Program Office located?",
+              "answer": "It is operated by Langley Research Center, located in Hampton, VA 23681-2199, USA."
+            },
+            {
+              "id": "795f98c1-fe98-4e69-8ae0-7997c5846d4c",
+              "question": "What types of reports are published in the NASA STI Report Series?",
+              "answer": "The series includes Technical Publication, Technical Memorandum, Contractor Report, Conference Publication, Special Publication, and Technical Translation."
+            },
+            {
+              "id": "513dbd09-b1c0-4dc4-b419-0f229fd146fd",
+              "question": "What distinguishes a Technical Publication from other report types?",
+              "answer": "A Technical Publication reports completed research or a major significant phase of research, presenting results with extensive data or theoretical analysis, and is NASA's counterpart to peer‑reviewed professional papers but with less stringent limits on manuscript length and graphic content."
+            },
+            {
+              "id": "7ac7a605-5d15-47bb-b42b-bf11a6842cae",
+              "question": "What is a Technical Memorandum?",
+              "answer": "It is a report of scientific and technical findings that are preliminary or of specialized interest, such as quick release reports, working papers, or bibliographies with minimal annotation, and does not contain extensive analysis."
+            },
+            {
+              "id": "9b498943-2c57-46c5-8898-bd804391ce48",
+              "question": "How can I contact the NASA STI Help Desk?",
+              "answer": "You can email help@sti.nasa.gov, call 757‑864‑9658, or write to NASA STI Information Desk, Mail Stop 148, NASA Langley Research Center, Hampton, VA 23681‑2199, USA."
+            },
+            {
+              "id": "3aa84a85-a2a6-44fe-87a1-a04cef0bcffe",
+              "question": "What additional services does the NASA STI Program Office offer?",
+              "answer": "They provide specialized services such as creating custom thesauri, building customized databases, organizing and publishing research results, and even providing videos."
+            },
+            {
+              "id": "d4b09701-4cff-40bc-b901-46e83c02bf5a",
+              "question": "Where can I find more information about the NASA STI Program Office?",
+              "answer": "Visit the NASA STI program home page at http://www.sti.nasa.gov."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "379e0feb-c672-4b6b-b726-6c18b492f51a",
+              "keyword": "NASA STI Program",
+              "score": 0.99
+            },
+            {
+              "id": "fb3bba24-479b-4dd8-a906-2a8f69c91693",
+              "keyword": "Langley Research Center",
+              "score": 0.98
+            },
+            {
+              "id": "cf4d6c82-984d-40f2-8e70-1be6df9c512d",
+              "keyword": "aeronautics",
+              "score": 0.97
+            },
+            {
+              "id": "52c641cb-401c-4535-9082-8555ad68d2d8",
+              "keyword": "space science",
+              "score": 0.96
+            },
+            {
+              "id": "b40177a5-ca31-4824-9346-9b263cb3e7aa",
+              "keyword": "scientific and technical information",
+              "score": 0.95
+            },
+            {
+              "id": "58721190-63dd-4ed1-88ac-1f6b6e7b3986",
+              "keyword": "NASA STI Database",
+              "score": 0.94
+            },
+            {
+              "id": "c6d8528d-aac1-46a2-915f-1060a4bc6118",
+              "keyword": "NASA STI Report Series",
+              "score": 0.93
+            },
+            {
+              "id": "ffe2f63a-b7f8-4efa-890b-9878f58ae37e",
+              "keyword": "technical publication",
+              "score": 0.92
+            },
+            {
+              "id": "f7e02b50-8ab2-4edd-9f6c-845d210affff",
+              "keyword": "technical memorandum",
+              "score": 0.91
+            },
+            {
+              "id": "71b2ce8c-6c9c-4c4b-a9cb-8336df99586d",
+              "keyword": "contractor report",
+              "score": 0.9
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "96ff1ece-48e3-4ce5-aa56-055f64da30f2",
+            "title": "NASA STI Program Office Overview",
+            "long_summary": "The NASA Scientific and Technical Information (STI) Program Office, operated by Langley Research Center, is central to NASA’s mission of advancing aeronautics and space science. It manages the NASA STI Database, the world’s largest collection of aeronautical and space science information, and serves as NASA’s institutional mechanism for disseminating research results. The Office publishes the NASA STI Report Series, which includes several report types: Technical Publication (comprehensive research reports), Technical Memorandum (preliminary or specialized findings), Contractor Report (results from NASA‑sponsored contractors), Conference Publication (collected conference papers), Special Publication (public‑interest scientific or historical information), and Technical Translation (English translations of foreign material). In addition to these publications, the STI Office offers specialized services such as custom thesauri creation, customized database building, research result organization and publishing, and even video production. For further information, users can visit the NASA STI program home page at http://www.sti.nasa.gov, email help@sti.nasa.gov, call the help desk at 757‑864‑9658, or write to the NASA STI Information Desk at Mail Stop 148, NASA Langley Research Center, Hampton, VA 23681‑2199, USA.",
+            "short_summary": "NASA's STI Office provides global aeronautics data"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "7033f20b-1574-4b21-b2bf-9de8e018c542",
+              "classification": "NASA",
+              "score": 0.99
+            },
+            {
+              "id": "72540825-69b8-4153-bc59-f21eabf72eb4",
+              "classification": "Scientific Research",
+              "score": 0.98
+            },
+            {
+              "id": "35ba50e8-852a-4e31-bcde-e81c0d48f83b",
+              "classification": "Space Science",
+              "score": 0.95
+            },
+            {
+              "id": "80bf4205-ac65-434d-951c-cd0aaa48f46e",
+              "classification": "Information Services",
+              "score": 0.93
+            },
+            {
+              "id": "d0cba992-762a-43a3-b4d5-4fd93ac34365",
+              "classification": "Technical Documentation",
+              "score": 0.9
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "ebd37bc7-e79d-422f-9c1b-e2747c1f0c0f",
+              "label": "NASA",
+              "type": "ORGANIZATION"
+            },
+            {
+              "id": "cda22067-c8ad-400e-aad5-7aab14f85e1c",
+              "label": "NASA STI Program Office",
+              "type": "ORGANIZATION"
+            },
+            {
+              "id": "f5959049-b699-4088-a3aa-76626040888b",
+              "label": "Langley Research Center",
+              "type": "ORGANIZATION"
+            },
+            {
+              "id": "4dfeea08-5d94-422f-93dd-776d16e45b9e",
+              "label": "NASA STI Database",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "2774ccc6-5273-4dfd-beb5-20675b481ae6",
+              "label": "NASA STI Report Series",
+              "type": "PRODUCT"
+            },
+            {
+              "id": "55015cbc-c91e-49c1-a19a-c8f86ad0edd1",
+              "label": "NASA STI Information Desk",
+              "type": "ORGANIZATION"
+            },
+            {
+              "id": "88d4cae0-5986-4e75-8bac-39dade3f8bd6",
+              "label": "NASA Langley Research Center",
+              "type": "ORGANIZATION"
+            },
+            {
+              "id": "451ce432-8c89-4049-bcf4-73b91079ce94",
+              "label": "Hampton",
+              "type": "CITY"
+            },
+            {
+              "id": "b819bd79-cebf-4e1a-9b3b-0e40472b52a0",
+              "label": "VA",
+              "type": "STATE"
+            },
+            {
+              "id": "d716fe3e-7cca-4d97-96a4-c801346de2b4",
+              "label": "USA",
+              "type": "LOCATION"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

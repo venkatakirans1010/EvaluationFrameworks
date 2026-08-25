@@ -1,0 +1,169 @@
+{
+  "customer_id": "test_set_2x2@crd.com",
+  "document_id": "690bde4c-aff2-4c5b-82b5-04532961ec64",
+  "document_name": "Skill_With_People_Pg2.pdf",
+  "organization_name": "Booz Allen",
+  "account_name": "Default Account",
+  "application_name": "Booz Allen AI Atomization Service",
+  "vpub_name": "Default VPUB",
+  "topics": [
+    {
+      "topic_id": "293b1d9f-7876-4c8f-82e3-bb18c66773b8",
+      "document_id": "690bde4c-aff2-4c5b-82b5-04532961ec64",
+      "title": "Page 1",
+      "context": "<ul><li>When you are trying to get people to say “yes” to you, first get them into a “yes” frame of mind. This is done by asking them two or three “yes” questions.</li></ul><p><i>Examples –</i></p><ul><li>“You want your family to be happy, don’t you?” (Of course they do.)</li><li>“You want the best value for your money, don’t you?” (Of course they do.)</li><li>A “yes” question is a question that can only be answered with “yes.”</li><li>The idea behind “yes” questions is that if you get people into a yes frame of mind, it makes it more probably they will say yes to you.</li></ul><p><i>Be sure, however, to ask “yes” questions properly. NOD YOUR HEAD WHILE YOU ARE ASKING THE QUESTION AND BEGIN THE QUESTION WITH THE WORD “YOU.”</i></p><ul><li>“You want the best product, don’t you?” (Nodding your head.)</li><li>“You do want a secure future, don’t you?” (Nodding your head.)</li></ul><p><b>3. Give people a choice between two yeses.</b></p><ul><li>This simply means getting people to choose between saying yes to you one way or saying yes to you another way. Either way they chose they are saying yes to you.</li><li>It is highly preferable not to give them a choice between a yes and a no, which happens when you ask them to do something.</li></ul>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/test_set_2x2@crd.com/original_assets/Skill_With_People_Pg2.pdf_chunks/Skill_With_People_Pg2-chunked-files/Skill_With_People_Pg2_page_1-1.pdf",
+        "sort_number": "10"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "52adb04e-0518-4e3f-aae7-8121a2ea5290",
+            "sentiment": "neutral",
+            "summary": "Advice on using 'yes' questions and offering choices to get people to agree.",
+            "score": 0.95
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "7187a8a2-e577-40b5-8796-b0953bd2b8a4",
+              "question": "What is a \"yes\" question?",
+              "answer": "A question that can only be answered with \"yes.\""
+            },
+            {
+              "id": "aca556ad-e8f8-40bb-b1ba-780a7768bddd",
+              "question": "Why should you ask people a few \"yes\" questions first?",
+              "answer": "It puts them into a \"yes\" frame of mind, making it more likely they will say yes to you later."
+            },
+            {
+              "id": "259d660a-79ac-4943-be42-927bee71040c",
+              "question": "How many \"yes\" questions should you ask?",
+              "answer": "Two or three \"yes\" questions are recommended."
+            },
+            {
+              "id": "3ed33dbf-9dfc-4e26-8388-04949824d14b",
+              "question": "What is the correct way to ask a \"yes\" question?",
+              "answer": "Begin the question with the word \"you,\" nod your head while asking, and phrase it so the answer can only be \"yes.\""
+            },
+            {
+              "id": "6359975a-9b94-4eb7-a07d-ad22ce528727",
+              "question": "Can you give an example of a \"yes\" question?",
+              "answer": "Yes, for example: \"You want your family to be happy, don’t you?\""
+            },
+            {
+              "id": "d9c823ab-35bc-4e23-8521-bc403a167430",
+              "question": "What does it mean to give people a choice between two yeses?",
+              "answer": "It means letting them choose between saying yes to you in one way or another, so they are saying yes either way."
+            },
+            {
+              "id": "743eb367-6d0d-4f85-8c4a-88ac5c8f2632",
+              "question": "Why should you avoid giving a choice between a yes and a no?",
+              "answer": "Because that approach asks them to do something, which is less preferable than getting them to say yes."
+            },
+            {
+              "id": "903acef8-dbb8-40d5-bdde-02d167826f7e",
+              "question": "What is the purpose of nodding while asking a \"yes\" question?",
+              "answer": "Nodding reinforces the question and signals agreement, helping to keep the person in a \"yes\" frame of mind."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "2d0c1031-1783-447f-ab6b-e9eeeda48eae",
+              "keyword": "yes questions",
+              "score": 0.98
+            },
+            {
+              "id": "01d03882-f253-4812-94e5-549527decc08",
+              "keyword": "yes frame of mind",
+              "score": 0.96
+            },
+            {
+              "id": "2d7d12b9-aa11-4174-882a-ed062c11595c",
+              "keyword": "persuasion technique",
+              "score": 0.94
+            },
+            {
+              "id": "366d4b89-1404-4d24-b0f3-4f85a94f8736",
+              "keyword": "nodding while asking",
+              "score": 0.92
+            },
+            {
+              "id": "afa3c6b9-508d-4bde-87fa-11ec330b2c3c",
+              "keyword": "choice between two yeses",
+              "score": 0.9
+            },
+            {
+              "id": "7afa45a0-b8f0-4857-9152-86a6cb05be8e",
+              "keyword": "positive framing",
+              "score": 0.88
+            },
+            {
+              "id": "0bd4079a-2e46-48b0-b7d1-edc54cc7c805",
+              "keyword": "customer psychology",
+              "score": 0.86
+            },
+            {
+              "id": "26127122-baa7-4d05-8624-0ec034afa65a",
+              "keyword": "sales strategy",
+              "score": 0.84
+            },
+            {
+              "id": "37a646e0-33b7-438e-b605-e0154c112052",
+              "keyword": "question framing",
+              "score": 0.82
+            },
+            {
+              "id": "0f6f569c-9417-4b48-a997-8168b78268a4",
+              "keyword": "yes bias",
+              "score": 0.8
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "bcdba84e-1b19-42a7-b5eb-8f751576c53f",
+            "title": "Using 'Yes' Questions to Persuade",
+            "long_summary": "The passage explains how to increase the likelihood that people will agree with you by first placing them in a \"yes\" frame of mind. This is achieved by asking two or three questions that can only be answered with \"yes.\" Examples include \"You want your family to be happy, don’t you?\" and \"You want the best value for your money, don’t you?\" The key idea is that once someone has said \"yes\" to a series of questions, they are more inclined to say \"yes\" to subsequent requests. The text also stresses the importance of asking these questions correctly: begin each question with the word \"you,\" nod your head while asking, and keep the question simple so that the only reasonable answer is \"yes.\" Examples of properly phrased questions are \"You want the best product, don’t you?\" and \"You do want a secure future, don’t you?\" Finally, the passage advises giving people a choice between two \"yeses\" rather than a yes or a no. By presenting two options that both result in agreement, you avoid putting the person in a position where they must refuse. This technique ensures that the person ultimately says \"yes\" to you, whether they choose the first or the second option.",
+            "short_summary": "Use yes questions to frame agreement."
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "e49f99c3-7112-4c4e-bfad-7ca6856d1542",
+              "classification": "Sales & Marketing",
+              "score": 0.98
+            },
+            {
+              "id": "88abddd8-1a94-4cbb-ac93-d5a98c2972a2",
+              "classification": "Persuasion & Influence",
+              "score": 0.96
+            },
+            {
+              "id": "d6ccbcae-3c40-48b9-855c-f2869c29a557",
+              "classification": "Communication Skills",
+              "score": 0.92
+            },
+            {
+              "id": "6f8aab19-a579-4d7a-9b9a-48a5ea0dfe95",
+              "classification": "Negotiation Techniques",
+              "score": 0.88
+            },
+            {
+              "id": "6a2dfcdc-5314-4308-bac4-97ef60d871b3",
+              "classification": "Psychology",
+              "score": 0.85
+            }
+          ]
+        },
+        {
+          "entities": []
+        }
+      ]
+    }
+  ]
+}

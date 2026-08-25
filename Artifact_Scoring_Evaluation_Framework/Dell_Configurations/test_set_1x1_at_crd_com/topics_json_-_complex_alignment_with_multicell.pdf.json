@@ -1,0 +1,169 @@
+{
+  "customer_id": "test_set_1x1@crd.com",
+  "document_id": "9b5c3bb8-5a99-47ec-b761-66ad6afcb780",
+  "document_name": "complex_alignment_with_Multicell.pdf",
+  "organization_name": "Booz Allen",
+  "account_name": "Default Account",
+  "application_name": "Booz Allen AI Atomization Service",
+  "vpub_name": "Default VPUB",
+  "topics": [
+    {
+      "topic_id": "309c18ce-bdfd-402c-b445-5a0f851e338d",
+      "document_id": "9b5c3bb8-5a99-47ec-b761-66ad6afcb780",
+      "title": "Page 1",
+      "context": "<h2>Example of text layout using Multicell()</h2>\n<table border=\"1\">\n<tbody>\n<tr>\n<td>The banana ripens on the branch People slice it for snacks.</td>\n<td>The crane rises with the breeze Its nest rests where branches meet. The eagle rises with the breeze Wings beat in even rhythm. The swallow glides over water Its nest rests where branches meet.</td>\n</tr>\n<tr>\n<td>A elephant walks along the river path Tracks fade in soft soil. A bison walks along the quiet grove It moves with steady care. A jackal walks along the grassland It moves with steady care.</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td>A elephant walks along the forest edge Tracks fade in soft soil. A fox walks along the quiet grove Water reflects a brief shadow. A otter walks along the forest edge Tracks fade in soft soil.</td>\n</tr>\n<tr>\n<td>A bison walks along the river path Tracks fade in soft soil. A jackal walks along the grassland It moves with steady care. A fox walks along the river path Water reflects a brief shadow.</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td>We notice a silent valley Shadows drift across the stones. We notice a shaded path The air turns cool and clear. We notice a slow river Birdsong returns between the trees.</td>\n</tr>\n<tr>\n<td>In the courtyard, craftsmen shape clay lamps Tea boils and conversations begin. In the village, neighbors trade fresh produce Colors brighten the narrow streets. In the village, families prepare festivals Colors brighten the narrow streets.</td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td>In the school porch, notes fill neat pages Small steps make steady learning. In the classroom, quiet helps thoughts grow Small steps make steady learning. In the school porch, notes fill neat pages Small steps make steady learning.</td>\n</tr>\n<tr>\n<td>The papaya blends into simple salads It adds color to the table. The guava gives a soft scent People slice it for snacks. The orange ripens on the branch Juice cools a warm afternoon.</td>\n<td></td>\n</tr>\n</tbody>\n</table>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/test_set_1x1@crd.com/original_assets/complex_alignment_with_Multicell.pdf_chunks/complex_alignment_with_Multicell-chunked-files/complex_alignment_with_Multicell_page_1-1.pdf",
+        "sort_number": "10"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "32e35f0b-433d-41ce-b56e-d32c1a657403",
+            "sentiment": "neutral",
+            "summary": "Descriptive text about nature, animals, and village life, with vivid imagery.",
+            "score": 0.92
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "6d9cad64-441c-4857-84aa-00c0aa21636a",
+              "question": "What is the heading of the example?",
+              "answer": "The heading is \"Example of text layout using Multicell()\"."
+            },
+            {
+              "id": "54b8d1b4-46cb-43b8-b91f-7a955ad7c7c8",
+              "question": "How many columns does the table have?",
+              "answer": "The table has two columns."
+            },
+            {
+              "id": "c22ee568-353a-4790-b9e1-44f1e362e030",
+              "question": "How many rows are in the table?",
+              "answer": "The table contains eight rows."
+            },
+            {
+              "id": "b5252006-5c42-4a4f-a9a5-052b2d402c62",
+              "question": "What type of content is shown in the cells?",
+              "answer": "The cells contain descriptive sentences about animals, nature, village scenes, and food."
+            },
+            {
+              "id": "68cdc5f1-5ce7-4ac1-b97a-855fbf91be2f",
+              "question": "Are there any empty cells in the table?",
+              "answer": "Yes, several cells are empty."
+            },
+            {
+              "id": "e1be1f42-41ae-4112-95f3-eebb1c89d461",
+              "question": "What is the HTML attribute used to display the table border?",
+              "answer": "The attribute is border=\"1\"."
+            },
+            {
+              "id": "5e3d3ed0-45ea-4364-b047-f98b8841b1c3",
+              "question": "Which cell contains the text about the papaya, guava, and orange?",
+              "answer": "The last cell in the last row, first column, contains that text."
+            },
+            {
+              "id": "2bb8a820-0875-4cda-a78a-0f4d7dcb5f74",
+              "question": "What is the purpose of this example?",
+              "answer": "It demonstrates an example of text layout using Multicell()."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "e87c16fe-300d-47e4-a8c2-0f45668e43c1",
+              "keyword": "river",
+              "score": 0.95
+            },
+            {
+              "id": "1ee66326-5759-4b1b-9972-50f5f1062bcd",
+              "keyword": "path",
+              "score": 0.93
+            },
+            {
+              "id": "d04cd227-5ec1-4fc4-a4a8-09a8a9a91f5e",
+              "keyword": "village",
+              "score": 0.92
+            },
+            {
+              "id": "2ccdc87f-c5c5-4125-9301-fe8276eb32a9",
+              "keyword": "school",
+              "score": 0.91
+            },
+            {
+              "id": "b00d041c-9cf1-4e7b-99e8-b7f604064fc8",
+              "keyword": "courtyard",
+              "score": 0.9
+            },
+            {
+              "id": "929dcc01-680f-4a90-8676-6ab67c74aa32",
+              "keyword": "clay lamps",
+              "score": 0.89
+            },
+            {
+              "id": "46aca551-9818-4bcf-981b-b108340fd907",
+              "keyword": "tea",
+              "score": 0.88
+            },
+            {
+              "id": "7aa25ed5-6d13-4c6e-a455-788d4dc163df",
+              "keyword": "colors",
+              "score": 0.87
+            },
+            {
+              "id": "9b0f7391-81af-492a-b9aa-e3d3bec24369",
+              "keyword": "fruit",
+              "score": 0.86
+            },
+            {
+              "id": "9f33b029-4d3a-4c6c-80c4-e4eb6e9f6f25",
+              "keyword": "birds",
+              "score": 0.85
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "5c924f92-0caa-4f00-80c7-f0254c002fa1",
+            "title": "Example of Multicell Text Layout",
+            "long_summary": "The provided content is a table that demonstrates how text can be arranged using the Multicell() function in a PDF or similar layout system. The table contains eight rows and two columns, with many cells populated by short, descriptive sentences. The text is primarily in English and covers a range of themes: natural scenes featuring animals such as bananas, cranes, eagles, swallows, elephants, bison, jackals, foxes, otters, and birds; rural village life with craftsmen, markets, festivals, and school activities; and simple culinary references to papaya, guava, and orange. Each cell often contains multiple sentences that paint a vivid picture of the setting, such as “The banana ripens on the branch People slice it for snacks.” or “In the courtyard, craftsmen shape clay lamps Tea boils and conversations begin.” The layout showcases how these sentences can be broken into separate cells, allowing for varied alignment, spacing, and formatting. The table’s structure, with some cells intentionally left blank, highlights the flexibility of the Multicell() approach to create complex, multi-column text arrangements. This example serves as a practical illustration for developers and designers looking to implement dynamic text blocks in document generation.",
+            "short_summary": "Illustrates varied text blocks in a table"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "be04e04d-b4e6-41dd-a878-078a051cf03d",
+              "classification": "Nature and Wildlife",
+              "score": 0.95
+            },
+            {
+              "id": "dc5610a2-4c2a-49d5-85ed-cb224cfd7170",
+              "classification": "Education and Learning",
+              "score": 0.85
+            },
+            {
+              "id": "d45c36ed-a1c1-4a31-9326-968c20780a65",
+              "classification": "Culinary/Food",
+              "score": 0.8
+            },
+            {
+              "id": "6fc3de50-670f-41de-8dc6-536caf3b7a17",
+              "classification": "Community and Culture",
+              "score": 0.75
+            },
+            {
+              "id": "0394f410-7021-4338-9f56-a85392a580d2",
+              "classification": "Literature / Poetic Expression",
+              "score": 0.7
+            }
+          ]
+        },
+        {
+          "entities": []
+        }
+      ]
+    }
+  ]
+}

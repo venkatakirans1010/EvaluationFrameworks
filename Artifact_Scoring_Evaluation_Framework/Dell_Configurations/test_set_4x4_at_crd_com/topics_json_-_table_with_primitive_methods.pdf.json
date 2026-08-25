@@ -1,0 +1,230 @@
+{
+  "customer_id": "test_set_4x4@crd.com",
+  "document_id": "df9395e1-6d24-4fe7-903c-17447fbdfda1",
+  "document_name": "table_with_primitive_methods.pdf",
+  "organization_name": "Booz Allen",
+  "account_name": "Default Account",
+  "application_name": "Booz Allen AI Atomization Service",
+  "vpub_name": "Default VPUB",
+  "topics": [
+    {
+      "topic_id": "af6e27fd-18c7-41fb-a682-33e2eacd33c3",
+      "document_id": "df9395e1-6d24-4fe7-903c-17447fbdfda1",
+      "title": "Page 1",
+      "context": "<table><thead><tr><th>Country</th><th>Capital</th><th>Area (sq km)</th><th>Pop. (thousands)</th></tr></thead><tbody><tr><td>Austria</td><td>Vienna</td><td>83,859</td><td>8,075</td></tr><tr><td>Belgium</td><td>Brussels</td><td>30,518</td><td>10,192</td></tr><tr><td>Denmark</td><td>Copenhagen</td><td>43,094</td><td>5,295</td></tr><tr><td>Finland</td><td>Helsinki</td><td>304,529</td><td>5,147</td></tr><tr><td>France</td><td>Paris</td><td>543,965</td><td>58,728</td></tr><tr><td>Germany</td><td>Berlin</td><td>357,022</td><td>82,057</td></tr><tr><td>Greece</td><td>Athens</td><td>131,625</td><td>10,511</td></tr><tr><td>Ireland</td><td>Dublin</td><td>70,723</td><td>3,694</td></tr><tr><td>Italy</td><td>Roma</td><td>301,316</td><td>57,563</td></tr><tr><td>Luxembourg</td><td>Luxembourg</td><td>2,586</td><td>424</td></tr><tr><td>Netherlands</td><td>Amsterdam</td><td>41,526</td><td>15,654</td></tr><tr><td>Portugal</td><td>Lisbon</td><td>91,906</td><td>9,957</td></tr><tr><td>Spain</td><td>Madrid</td><td>504,790</td><td>39,348</td></tr><tr><td>Sweden</td><td>Stockholm</td><td>410,934</td><td>8,839</td></tr><tr><td>United Kingdom</td><td>London</td><td>243,820</td><td>58,862</td></tr></tbody></table>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/test_set_4x4@crd.com/original_assets/table_with_primitive_methods.pdf_chunks/table_with_primitive_methods-chunked-files/table_with_primitive_methods_page_1-1.pdf",
+        "sort_number": "10"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "1b99851e-8eaa-46de-953b-73c92c3ca8e8",
+            "sentiment": "neutral",
+            "summary": "Table listing European countries with capitals, area, and population.",
+            "score": 0.99
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "d3d33307-fdeb-4625-8177-52d5f620d1fd",
+              "question": "¿Cuál es la capital de Austria?",
+              "answer": "La capital de Austria es Viena."
+            },
+            {
+              "id": "ca3e8e04-fed4-4750-9b37-0c66a93b7f30",
+              "question": "¿Qué país tiene el área más grande?",
+              "answer": "Francia tiene el área más grande con 543,965 km²."
+            },
+            {
+              "id": "a6ecd4b3-1ad9-4fe4-9052-4a313e8d01c1",
+              "question": "¿Qué país tiene el área más pequeña?",
+              "answer": "Luxemburgo tiene el área más pequeña con 2,586 km²."
+            },
+            {
+              "id": "aa732811-5885-477a-ac72-0989d9f636e4",
+              "question": "¿Qué país tiene la población más grande?",
+              "answer": "Alemania tiene la población más grande con 82,057 mil habitantes."
+            },
+            {
+              "id": "f5b80925-6c36-4010-9604-7545ccfc8cac",
+              "question": "¿Qué país tiene la población más pequeña?",
+              "answer": "Luxemburgo tiene la población más pequeña con 424 mil habitantes."
+            },
+            {
+              "id": "71a8aba1-0d4c-44dd-b581-e74631e477e1",
+              "question": "¿Cuál es el área de España?",
+              "answer": "El área de España es de 504,790 km²."
+            },
+            {
+              "id": "d5c9bff3-e6b0-4d9a-b390-c1e7d14ba4c6",
+              "question": "¿Cuál es la población de Italia?",
+              "answer": "La población de Italia es de 57,563 mil habitantes."
+            },
+            {
+              "id": "4a8f1e71-adb3-44d3-9047-ef2cc28e725e",
+              "question": "¿Qué país tiene una capital llamada \"Roma\"?",
+              "answer": "Italia tiene una capital llamada Roma."
+            },
+            {
+              "id": "240075c8-df60-44b1-99ad-52d7be2a9202",
+              "question": "¿Qué país tiene una capital llamada \"Lisbon\"?",
+              "answer": "Portugal tiene una capital llamada Lisboa."
+            },
+            {
+              "id": "a15beb62-b54f-4faf-b6f4-49f6a3710eb3",
+              "question": "¿Cuál es la población del Reino Unido?",
+              "answer": "La población del Reino Unido es de 58,862 mil habitantes."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "c3c2fc86-27d7-4543-9893-ae409db4eb65",
+              "keyword": "European countries",
+              "score": 0.99
+            },
+            {
+              "id": "9ab78d39-01ac-46f8-9b7a-7a2cb6375378",
+              "keyword": "capital cities",
+              "score": 0.98
+            },
+            {
+              "id": "f086b426-419b-4df0-b1d5-204a34410d17",
+              "keyword": "area",
+              "score": 0.95
+            },
+            {
+              "id": "cd7cef3a-d5e9-4c3a-bbb1-459efc0ae1ed",
+              "keyword": "population",
+              "score": 0.95
+            },
+            {
+              "id": "49bacc3e-7ada-4e6b-a4b5-ffee9da28b49",
+              "keyword": "Austria",
+              "score": 0.9
+            },
+            {
+              "id": "7dd1ed05-2cc8-46b7-bb9d-2710e20ff1ef",
+              "keyword": "France",
+              "score": 0.9
+            },
+            {
+              "id": "6e2065a8-8cd6-4d1c-86d4-8f96c4c79cd1",
+              "keyword": "Germany",
+              "score": 0.9
+            },
+            {
+              "id": "6abd6e49-ed2a-4832-859b-d5f359889977",
+              "keyword": "Italy",
+              "score": 0.9
+            },
+            {
+              "id": "98f42e11-5b68-4b7e-853c-246c9e5c3fd1",
+              "keyword": "Spain",
+              "score": 0.9
+            },
+            {
+              "id": "40923330-cba2-4c82-9fdb-59d918cfdb32",
+              "keyword": "United Kingdom",
+              "score": 0.9
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "624648a3-f9e1-44b4-804c-de79a4c8c7da",
+            "title": "European Countries: Capitals, Areas, and Populations",
+            "long_summary": "The table lists 16 European countries along with their capitals, total land area in square kilometers, and population in thousands. Austria (Vienna) covers 83,859 sq km and hosts 8,075 k people. Belgium (Brussels) spans 30,518 sq km with 10,192 k residents. Denmark (Copenhagen) is 43,094 sq km and has 5,295 k inhabitants. Finland (Helsinki) covers 304,529 sq km and contains 5,147 k people. France (Paris) is the largest by area at 543,965 sq km and has 58,728 k residents. Germany (Berlin) covers 357,022 sq km with 82,057 k people, making it the most populous in the list. Greece (Athens) spans 131,625 sq km and has 10,511 k inhabitants. Ireland (Dublin) covers 70,723 sq km with 3,694 k people. Italy (Roma) is 301,316 sq km and hosts 57,563 k residents. Luxembourg (Luxembourg) is the smallest at 2,586 sq km with 424 k people. The Netherlands (Amsterdam) covers 41,526 sq km and has 15,654 k residents. Portugal (Lisbon) spans 91,906 sq km with 9,957 k people. Spain (Madrid) covers 504,790 sq km and has 39,348 k residents. Sweden (Stockholm) is 410,934 sq km with 8,839 k people. The United Kingdom (London) covers 243,820 sq km and has 58,862 k residents. The data highlights France, Germany, and Spain as the largest by area, while Germany leads in population. Luxembourg stands out as the smallest country by area and population. The table provides a concise snapshot of key geographic and demographic metrics for these European nations.",
+            "short_summary": "Table of European capitals, areas, and populations."
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "d11685d6-2d01-4b26-a091-cd6105e95819",
+              "classification": "Geography",
+              "score": 0.99
+            },
+            {
+              "id": "e8ea306d-de95-4739-a860-3c0f3434fc1b",
+              "classification": "Data Table",
+              "score": 0.98
+            },
+            {
+              "id": "a6c9854b-34c3-4bcc-ac8a-6adce897c41c",
+              "classification": "European Countries",
+              "score": 0.97
+            },
+            {
+              "id": "7b40e4d0-70b9-407d-9a4f-d32dcd8f5d6a",
+              "classification": "Demographics",
+              "score": 0.96
+            },
+            {
+              "id": "60c09f5c-c3d8-4858-bd93-7f31ba6a6830",
+              "classification": "Statistics",
+              "score": 0.95
+            }
+          ]
+        },
+        {
+          "entities": [
+            {
+              "id": "8ab51677-4731-48e9-a2c9-01cccd13b6e4",
+              "label": "Vienna",
+              "type": "CITY"
+            },
+            {
+              "id": "5cba957c-dffb-4d2a-9d4d-36bc9d29937c",
+              "label": "Brussels",
+              "type": "CITY"
+            },
+            {
+              "id": "c92bfd1a-3a4d-4c57-b984-9abce4de1bea",
+              "label": "Copenhagen",
+              "type": "CITY"
+            },
+            {
+              "id": "b7a0e66c-82dc-4d92-ac28-1e9304a8b768",
+              "label": "Helsinki",
+              "type": "CITY"
+            },
+            {
+              "id": "2f92c790-e77b-4b9e-8bed-f2f71e1a4d96",
+              "label": "Paris",
+              "type": "CITY"
+            },
+            {
+              "id": "712fa895-06b9-4b2e-928d-632a9e0fde35",
+              "label": "Berlin",
+              "type": "CITY"
+            },
+            {
+              "id": "96fcdf70-1e2b-4b25-94f7-1d8d826a025b",
+              "label": "Athens",
+              "type": "CITY"
+            },
+            {
+              "id": "034333fd-4dd1-4c9a-be64-5d59690c410d",
+              "label": "Dublin",
+              "type": "CITY"
+            },
+            {
+              "id": "2e54145e-5c90-468a-9948-8905a9ede533",
+              "label": "Roma",
+              "type": "CITY"
+            },
+            {
+              "id": "029caca6-7b82-4b95-ae3b-76c7c233cde5",
+              "label": "Luxembourg",
+              "type": "CITY"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

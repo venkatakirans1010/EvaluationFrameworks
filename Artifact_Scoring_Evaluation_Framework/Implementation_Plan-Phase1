@@ -1,0 +1,316 @@
+# Implementation Plan - Phase 1 (Evaluation Service Integration)
+
+## 1) Objective
+Integrate Evaluation Service as Phase 4 in the workflow so that it:
+- Reads trigger message from Evaluation input queue
+- Extracts executionId
+- Calls Data Interface API to fetch document name
+- Creates simple JSON artifact with document name
+- Uploads artifact to S3 using GS Infra SDK
+- Posts S3 URL to Data Interface API database using POST route
+- Sends success/failure response to Workflow Response Queue
+- Enables Workflow Manager to mark document processing complete
+
+## 2) Finalized Queue Names
+- Evaluation input queue: evaluation.in.v1
+- Workflow response queue: workflow.response.v1
+- Optional retry queue: evaluation.in.retry.v1
+- Optional dead-letter queue: evaluation.in.dlq.v1
+
+Rationale:
+- This matches the architecture conventions already documented across phases.
+- Keeps queue naming versioned and consistent.
+
+## 3) End-to-End Phase 1 Flow
+1. Workflow Manager reads workflow config from Configuration Service.
+2. Workflow Manager discovers evaluation phase as enabled order-4 phase.
+3. Workflow Manager publishes PhaseExecutionRequested to evaluation.in.v1.
+4. Evaluation Service listener consumes message from evaluation.in.v1.
+5. Evaluation Service parses executionId.
+6. Evaluation Service calls Data Interface API with executionId (GET).
+7. Data Interface API returns document metadata including documentName.
+8. Evaluation Service builds a simple JSON object with documentName and empty metrics.
+9. Evaluation Service writes JSON file to CRD-aligned S3 path through GS Infra SDK.
+10. Evaluation Service posts S3 URL to Data Interface API (POST) to store artifact location in database.
+11. Evaluation Service publishes PhaseExecutionCompleted (Completed) to workflow.response.v1.
+12. Workflow Manager consumes response and marks workflow as WorkflowCompleted.
+
+## 4) Configuration Service Changes
+### 4.1 Register evaluation phase
+Add or verify this phase block in workflow configuration:
+- name: evaluation
+- order: 4
+- enabled: true
+- inputQueue: evaluation.in.v1
+
+### 4.2 Startup validation rules (Workflow Manager)
+- If evaluation.enabled is true, evaluation.inputQueue must be present.
+- responseQueue must be present.
+- Phase order must be unique and deterministic.
+- Missing mandatory queue config must fail startup.
+
+Acceptance criteria:
+- Workflow Manager starts only when required queue config is valid.
+- No queue names are hardcoded in orchestration logic.
+
+## 5) Message Contracts
+### 5.1 Trigger message (Workflow Manager -> evaluation.in.v1)
+Required fields:
+- eventType = PhaseExecutionRequested
+- eventVersion
+- messageId
+- correlationId
+- executionId
+- documentId
+- phaseName = evaluation
+- timestampUtc
+
+### 5.2 Response message (Evaluation Service -> workflow.response.v1)
+Required fields:
+- eventType = PhaseExecutionCompleted
+- eventVersion
+- messageId
+- correlationId
+- executionId
+- documentId
+- phaseName = evaluation
+- status = Completed or Failed
+- output.s3ArtifactPath (for success)
+- timestampUtc
+
+Failure response should include:
+- errorCode
+- errorMessage
+- retriable flag
+
+## 6) Evaluation Service Implementation Plan
+### 6.1 Queue listener
+Tasks:
+- Create consumer bound to configured queue name evaluation.in.v1.
+- Validate incoming payload structure and mandatory fields.
+- Reject malformed payloads and route to DLQ policy.
+
+Definition of done:
+- Service reliably consumes valid trigger messages.
+
+### 6.2 Parse and validate execution context
+Tasks:
+- Extract executionId, correlationId, documentId, phaseName.
+- Validate phaseName is evaluation.
+- Build idempotency key as executionId + phaseName.
+
+Definition of done:
+- Invalid payloads are safely handled without crashing worker.
+
+### 6.3 Data Interface API call by executionId
+Tasks:
+- Implement Data Interface client call: get document by executionId.
+- Handle success, 404, 5xx, and timeout paths.
+- Log request and response metadata with correlationId.
+
+Definition of done:
+- documentName can be resolved from executionId for valid messages.
+
+### 6.4 JSON artifact creation
+Create minimal payload:
+{
+  "executionId": "<value>",
+  "documentName": "<value>",
+  "evaluationMetrics": [],
+  "generatedAtUtc": "<timestamp>"
+}
+
+Tasks:
+- Build deterministic JSON schema for Phase 1.
+- Keep evaluationMetrics empty in MVP.
+
+Definition of done:
+- JSON payload generated for each valid execution.
+
+### 6.5 S3 upload using GS Infra SDK
+Tasks:
+- Initialize GS Infra SDK S3 client in Evaluation Service runtime.
+- Compute CRD-aligned S3 key from available metadata.
+- Upload JSON with content-type application/json.
+- Capture S3 URI or key for workflow response payload.
+
+Suggested path pattern:
+- s3://<bucket>/<crd-aligned-path>/evaluation/evaluation_result.json
+
+Definition of done:
+- Artifact is visible in expected S3 location and retrievable.
+
+### 6.6 Post S3 URL to Data Interface API (POST route)
+Tasks:
+- Implement Data Interface client call: POST artifact location using POST endpoint.
+- Include executionId, documentId, and s3ArtifactPath in request payload.
+- Handle success, 4xx, 5xx, and timeout responses.
+- Log request and response metadata with correlationId.
+- Validate that database write confirms successful update.
+
+Payload example:
+{
+  "executionId": "<value>",
+  "documentId": "<value>",
+  "artifactPath": "s3://<bucket>/<path>/evaluation/evaluation_result.json",
+  "artifactType": "evaluation",
+  "timestampUtc": "<timestamp>"
+}
+
+Definition of done:
+- S3 URL is persisted in database via Data Interface API POST.
+- Database confirms successful storage before proceeding.
+
+### 6.7 Publish completion to workflow response queue
+Tasks:
+- On success, publish PhaseExecutionCompleted status Completed.
+- Include output.s3ArtifactPath.
+- On error, publish status Failed with structured error fields.
+
+Definition of done:
+- Workflow Manager receives response event for every consumed trigger.
+
+### 6.8 Ack and transaction boundary
+Rule:
+- Acknowledge input queue message only after:
+  - Data Interface API GET call succeeds
+  - S3 upload succeeds
+  - Data Interface API POST call succeeds
+  - Response queue publish succeeds
+
+Definition of done:
+- No silent message loss and no false success.
+- Database has confirmed artifact location write before ack.
+
+## 7) Workflow Manager Completion Handling
+Tasks:
+- Correlate response by executionId + phaseName.
+- Mark phase evaluation as complete when status Completed.
+- Transition workflow state to WorkflowCompleted if all enabled phases complete.
+- Mark WorkflowFailed if evaluation response status is Failed.
+
+Acceptance criteria:
+- Document status moves to WorkflowCompleted only after evaluation success response is received.
+
+## 8) Reliability, Retry, and DLQ
+### 8.1 Retry policy
+- Retries for transient failures: API timeout, temporary S3/queue errors.
+- Exponential backoff with max attempts.
+
+### 8.2 DLQ policy
+- Route malformed and permanently failing messages to evaluation.in.dlq.v1.
+- Preserve correlationId and failure reason in DLQ payload metadata.
+
+### 8.3 Idempotency
+- Deduplicate using executionId + phaseName.
+- Reuse deterministic S3 object key to avoid duplicate artifacts.
+
+### 8.4 Logging and metrics
+Mandatory structured log fields:
+- correlationId
+- executionId
+- documentId
+- phaseName
+- status
+
+Metrics:
+- evaluation_phase_duration
+- evaluation_success_count
+- evaluation_failure_count
+- evaluation_retry_count
+- evaluation_dlq_count
+- queue_lag_evaluation_in_v1
+
+## 9) Security and Access
+- Service identity must have least-privilege queue read/write permissions.
+- Service identity must have S3 write permission for evaluation artifact prefix.
+- Service identity must have Data Interface API read/write permissions for artifact metadata.
+- TLS for queue and API transport.
+- Redact sensitive values in logs.
+
+## 10) Test Plan
+### 10.1 Unit tests
+- Trigger payload validation
+- executionId extraction
+- Data Interface response mapping
+- JSON payload generation
+- S3 key generation
+- Success/failure response builder
+- Idempotency guard logic
+
+### 10.2 Integration tests
+- Consume message from evaluation.in.v1
+- Mock Data Interface API GET and POST calls
+- Mock S3 upload
+- Publish response to workflow.response.v1
+- Verify ack occurs only after GET, S3 upload, POST, and response publish all succeed
+
+### 10.3 End-to-end tests
+- Trigger full workflow with evaluation enabled
+- Verify evaluation artifact exists in S3
+- Verify S3 URL is stored in database via Data Interface API
+- Verify Workflow Manager marks status WorkflowCompleted
+
+### 10.4 Negative tests
+- Missing executionId
+- Data Interface GET returns not found
+- S3 upload failure
+- Data Interface POST fails (database write error)
+- Response queue publish failure
+- Duplicate message delivery
+
+## 11) Story Breakdown (Jira-ready)
+### Story 1: Register evaluation phase in config
+- Update config with evaluation phase and queue name.
+- Add startup validation for mandatory queue fields.
+
+### Story 2: Workflow Manager triggers evaluation phase
+- Dynamic phase orchestration includes evaluation phase.
+- Trigger event emitted to evaluation.in.v1.
+
+### Story 3: Build Evaluation queue listener
+- Consumer reads trigger and validates payload.
+- Correlation-aware structured logging.
+
+### Story 4: Integrate Data Interface by executionId
+- Retrieve documentName using executionId.
+- Handle API error scenarios.
+
+### Story 5: Generate JSON and upload via GS Infra SDK
+- Create simple JSON with documentName.
+- Upload to CRD-aligned S3 path.
+
+### Story 6: Post S3 URL to Data Interface API database
+- Call Data Interface API POST route with artifact metadata.
+- Store S3 URL in database.
+- Verify database confirmation before proceeding.
+
+### Story 7: Publish completion to workflow response queue
+- Send success/failure events to workflow.response.v1.
+- Include S3 artifact path in success output.
+
+### Story 8: Reliability hardening
+- Retries, DLQ, idempotency, and metrics.
+
+### Story 9: End-to-end validation
+- Confirm final document status transitions to WorkflowCompleted.
+
+## 12) Definition of Done (Phase 1)
+Phase 1 is complete when all of the following are true:
+- Input queue finalized as evaluation.in.v1 and configured in Configuration Service.
+- Workflow Manager triggers Evaluation Service as phase 4.
+- Evaluation Service fetches documentName via Data Interface API GET using executionId.
+- Service creates JSON artifact and uploads to S3 via GS Infra SDK.
+- Service posts S3 URL to Data Interface API via POST route and confirms database storage.
+- Service publishes completion to workflow.response.v1.
+- Workflow Manager reads completion and marks workflow as WorkflowCompleted.
+- Retry, DLQ, idempotency, and correlation logging are implemented.
+- Unit, integration, and one end-to-end validation pass.
+
+## 13) Suggested Implementation Sequence
+- Day 1: Configuration and Workflow Manager trigger wiring
+- Day 2: Evaluation listener and Data Interface GET integration
+- Day 3: JSON generation and GS Infra S3 upload
+- Day 4: Data Interface POST for artifact metadata storage
+- Day 5: Response publishing, retries, and DLQ
+- Day 6: End-to-end validation and production readiness checklist

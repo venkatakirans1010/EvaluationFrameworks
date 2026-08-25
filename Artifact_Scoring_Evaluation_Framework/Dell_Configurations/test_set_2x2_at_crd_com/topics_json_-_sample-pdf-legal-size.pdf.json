@@ -1,0 +1,164 @@
+{
+  "customer_id": "test_set_2x2@crd.com",
+  "document_id": "cc408f30-d325-4914-9d3c-1eba9e401582",
+  "document_name": "sample-pdf-legal-size.pdf",
+  "organization_name": "Booz Allen",
+  "account_name": "Default Account",
+  "application_name": "Booz Allen AI Atomization Service",
+  "vpub_name": "Default VPUB",
+  "topics": [
+    {
+      "topic_id": "af7c4f9e-77c1-4b1e-8261-e89fa5aae140",
+      "document_id": "cc408f30-d325-4914-9d3c-1eba9e401582",
+      "title": "Page 1",
+      "context": "<h2>Data Collection</h2>\n<ul>\n<li><b>Surveys:</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>\n<li><b>Interviews:</b> Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</li>\n<li><b>Observations:</b> Sed nisi. Nulla quis sem at nibh elementum imperdiet.</li>\n</ul>\n<h2>Data Analysis</h2>\n<ul>\n<li><b>Quantitative Analysis:</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>\n<li><b>Qualitative Analysis:</b> Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</li>\n</ul>\n<h2>Results</h2>\n<p>The following table summarizes the key data points:</p>\n<table>\n<thead>\n<tr>\n<th>Metric</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Market Size</td>\n<td>$50 Billion</td>\n</tr>\n<tr>\n<td>User Satisfaction</td>\n<td>85%</td>\n</tr>\n<tr>\n<td>Growth Rate</td>\n<td>10%</td>\n</tr>\n</tbody>\n</table>\n<p>(Table 1: Summary of Key Data Points)</p>",
+      "extra_attributes": {
+        "chunk_url": "s3://thailand-boozallen-ai-atomization-service-bucket/test_set_2x2@crd.com/original_assets/sample-pdf-legal-size.pdf_chunks/sample-pdf-legal-size-chunked-files/sample-pdf-legal-size_page_1-1.pdf",
+        "sort_number": "10"
+      },
+      "generated_artifacts": [
+        {
+          "sentiment": {
+            "id": "a761a3ea-7fda-4193-891f-6eb40cceed99",
+            "sentiment": "neutral",
+            "summary": "Report outlines data collection methods, analysis types, and key metrics: market size $50B, user satisfaction 85%, growth rate 10%.",
+            "score": 0.95
+          }
+        },
+        {
+          "faqs": [
+            {
+              "id": "d01f06f5-5c8e-4755-b9d6-338f63d2da4c",
+              "question": "¿Qué métodos de recolección de datos se utilizaron?",
+              "answer": "Se emplearon encuestas, entrevistas y observaciones."
+            },
+            {
+              "id": "15a198a3-339a-4968-a7d8-baa05a40380c",
+              "question": "¿Qué tipos de análisis se realizaron con los datos recopilados?",
+              "answer": "Se llevaron a cabo análisis cuantitativos y cualitativos."
+            },
+            {
+              "id": "0a89cd71-cd41-4a91-8ace-9fdbcac58241",
+              "question": "¿Cuál es el tamaño del mercado según los resultados?",
+              "answer": "El tamaño del mercado es de $50 Billion."
+            },
+            {
+              "id": "0faa3436-c62e-4a33-b5bc-3bc4ec694785",
+              "question": "¿Qué porcentaje de satisfacción de los usuarios se reportó?",
+              "answer": "El nivel de satisfacción de los usuarios es del 85 %."
+            },
+            {
+              "id": "5740617c-89a3-45b5-b643-2b10c45a2f91",
+              "question": "¿Cuál es la tasa de crecimiento indicada en los resultados?",
+              "answer": "La tasa de crecimiento es del 10 %."
+            },
+            {
+              "id": "982d6814-24e6-4183-a33c-1ba11176326f",
+              "question": "¿Dónde se puede encontrar un resumen de los puntos clave de los datos?",
+              "answer": "El resumen se encuentra en la Tabla 1, que muestra los datos clave."
+            },
+            {
+              "id": "d654d6fd-0344-442b-ac92-60455dfc22df",
+              "question": "¿Qué información se presenta en la Tabla 1?",
+              "answer": "La Tabla 1 resume el tamaño del mercado, la satisfacción del usuario y la tasa de crecimiento."
+            }
+          ]
+        },
+        {
+          "keywords": [
+            {
+              "id": "a660c9a4-911f-4cf6-af68-eef008d0fecd",
+              "keyword": "Data Collection",
+              "score": 0.99
+            },
+            {
+              "id": "38deb700-6e04-4ea7-8c45-2ed48aac26d1",
+              "keyword": "Data Analysis",
+              "score": 0.99
+            },
+            {
+              "id": "58eb7dba-a7be-4421-9054-a35fbe06521d",
+              "keyword": "Surveys",
+              "score": 0.99
+            },
+            {
+              "id": "931db39f-6f03-4a14-8f98-a83579de600c",
+              "keyword": "Interviews",
+              "score": 0.99
+            },
+            {
+              "id": "0700ac51-c329-4f42-b15f-f11b0e46e527",
+              "keyword": "Observations",
+              "score": 0.99
+            },
+            {
+              "id": "7b765b9f-4061-45b8-a45b-1b8fccae5c08",
+              "keyword": "Quantitative Analysis",
+              "score": 0.99
+            },
+            {
+              "id": "428e915a-6023-445b-ad56-535b2b18082a",
+              "keyword": "Qualitative Analysis",
+              "score": 0.99
+            },
+            {
+              "id": "611c4022-3c5f-4e73-bebd-3d0ffbb77b71",
+              "keyword": "Market Size",
+              "score": 0.99
+            },
+            {
+              "id": "b2e315a7-2937-4d55-acb0-285b8636e16e",
+              "keyword": "User Satisfaction",
+              "score": 0.99
+            },
+            {
+              "id": "ded605dd-083e-4847-9845-3980eb36063d",
+              "keyword": "Growth Rate",
+              "score": 0.99
+            }
+          ]
+        },
+        {
+          "summary": {
+            "id": "19ccc63b-2abb-4771-b888-2e8213bdeedd",
+            "title": "Data Collection, Analysis, and Results Overview",
+            "long_summary": "The document outlines a structured approach to gathering and interpreting data. In the Data Collection section, three primary methods are highlighted: Surveys, Interviews, and Observations, each accompanied by placeholder text describing their content. The Data Analysis section mirrors this structure, presenting Quantitative Analysis and Qualitative Analysis as the two main analytical techniques applied to the collected data. Finally, the Results section presents a concise table summarizing three critical metrics: Market Size ($50 Billion), User Satisfaction (85 %), and Growth Rate (10 %). The table is labeled as Table 1 and serves to encapsulate the key findings derived from the earlier collection and analysis stages. Overall, the document provides a clear, step‑by‑step framework for data handling, from initial collection through to the presentation of summarized results.",
+            "short_summary": "Survey, interview, observation data summarized with key metrics"
+          }
+        },
+        {
+          "classifications": [
+            {
+              "id": "f7068119-6f53-47b8-b21b-5f69c5b982c2",
+              "classification": "Data Collection",
+              "score": 0.95
+            },
+            {
+              "id": "338fbd58-70fb-4b1c-bb83-e2a53df99ee4",
+              "classification": "Data Analysis",
+              "score": 0.93
+            },
+            {
+              "id": "0de1cb1f-67ca-486c-9b12-d14c7be4fce4",
+              "classification": "Market Research",
+              "score": 0.88
+            },
+            {
+              "id": "2fe776a9-d91c-43fb-bcb8-375b3770c185",
+              "classification": "Statistical Analysis",
+              "score": 0.85
+            },
+            {
+              "id": "d77ead23-2905-4e06-9fcd-d2fed267d6ef",
+              "classification": "Business Metrics",
+              "score": 0.8
+            }
+          ]
+        },
+        {
+          "entities": []
+        }
+      ]
+    }
+  ]
+}
