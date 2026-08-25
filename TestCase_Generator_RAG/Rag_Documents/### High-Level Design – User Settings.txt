@@ -1,0 +1,11 @@
+### High-Level Design – User Settings
+
+Frontend:
+- SettingsPage with toggle switches
+- Save button posts data to /api/user/preferences
+
+Backend:
+- PUT /api/user/preferences
+  Request: { "marketing": true, "alerts": false, "billing": true }
+  Response: 200 OK
+- DB Table: user_preferences (user_id, pref_key, pref_value)

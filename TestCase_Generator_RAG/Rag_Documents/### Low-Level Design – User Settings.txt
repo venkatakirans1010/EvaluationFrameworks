@@ -1,0 +1,11 @@
+### Low-Level Design – User Settings
+
+Logic:
+1. Load current preferences on page load.
+2. Toggle switch changes local state.
+3. On Save, send PUT request to backend.
+4. On success, show toast “Preferences saved!”
+
+Edge Cases:
+- Network failure: revert UI state.
+- Validate all keys exist before sending.

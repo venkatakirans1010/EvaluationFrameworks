@@ -1,0 +1,19 @@
+### Low-Level Design: Login Module
+
+Frontend:
+- Component: LoginForm.jsx
+  - Fields: email, password
+  - Validation: email regex validation, password non-empty
+  - Button: disabled until both fields valid
+  - Error handling: show inline error message under fields
+  - Event handlers:
+      onSubmit -> call /api/auth/login
+      onForgotPassword -> navigate to /forgot-password
+
+Backend:
+- Endpoint: POST /api/auth/login
+  - Request Body: { "email": "string", "password": "string" }
+  - Response:
+      200 OK -> { "token": "jwt_token" }
+      401 Unauthorized -> { "error": "Invalid credentials" }
+- Unit tests to verify both valid and invalid inputs.

@@ -1,0 +1,11 @@
+### High-Level Design – Analytics Dashboard
+
+Frontend:
+- DashboardPage: shows charts using Chart.js
+- FiltersBar: dropdowns for month/quarter/year
+- API call: GET /api/sales-metrics?period=month
+
+Backend:
+- AnalyticsController
+- DataAggregatorService
+- Cron job: refresh metrics cache every 15 minutes

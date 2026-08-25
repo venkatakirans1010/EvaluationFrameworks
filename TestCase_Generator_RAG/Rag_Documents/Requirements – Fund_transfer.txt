@@ -1,0 +1,8 @@
+### Banking Requirements – Fund Transfer
+
+1. User must be authenticated and authorized for fund transfers.
+2. Mandatory fields: From Account, To Account, Amount.
+3. OTP required for every transfer.
+4. Transactions must follow RBI limit policies (₹2L/day for same bank).
+5. Transfer confirmation screen must show: From, To, Amount, Date, Reference ID.
+6. Generate transaction receipt after completion.

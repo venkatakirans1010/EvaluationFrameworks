@@ -1,0 +1,8 @@
+### Requirements – Leave Management
+
+1. Employee should apply leave through online form.
+2. Leave types: Casual, Sick, Earned, Maternity.
+3. System should check available leave balance.
+4. Approval workflow: Employee → Manager → HR.
+5. Notification email sent upon each state change.
+6. Leave cannot exceed 10 consecutive days.

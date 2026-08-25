@@ -1,0 +1,14 @@
+### Low-Level Design – Fund Transfer
+
+Steps:
+1. Validate OTP via OTPService
+2. Deduct balance from source account
+3. Credit target account
+4. Generate transaction_id
+5. Log transaction in audit_logs
+6. Send receipt email to customer
+
+Test Cases:
+- Invalid OTP -> error message
+- Insufficient funds -> "Not enough balance"
+- Transfer success -> new record in transactions table

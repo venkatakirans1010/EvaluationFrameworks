@@ -1,0 +1,10 @@
+### High-Level Design – Leave Module
+
+Frontend:
+- LeaveForm component (inputs: type, start, end, reason)
+- ApprovalsView for managers
+Backend:
+- POST /api/leave/apply
+- GET /api/leave/approvals
+- PUT /api/leave/approve/{id}
+Workflow engine updates leave_status field.

@@ -1,0 +1,8 @@
+### High-Level Design: Login Module
+
+1. The login page is served by the /login route in the frontend React app.
+2. It calls the backend API endpoint POST /api/auth/login.
+3. The backend validates credentials via the AuthService class and returns a JWT token.
+4. On success, the frontend stores the JWT in secure storage and redirects to /dashboard.
+5. Failure responses (401, 400) should be handled with appropriate UI messages.
+6. Frontend components: LoginForm, InputField, Button, AlertMessage.

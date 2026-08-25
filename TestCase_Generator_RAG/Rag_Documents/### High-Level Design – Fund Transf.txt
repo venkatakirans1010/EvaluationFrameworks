@@ -1,0 +1,13 @@
+### High-Level Design – Fund Transfer
+
+Frontend:
+- TransferFundsPage form
+- SummaryPage for confirmation
+- SuccessPage displays receipt
+
+Backend:
+- POST /api/funds/transfer
+  Request: { from_acc, to_acc, amount, otp }
+  Response: { status, transaction_id, message }
+- Integrations: CoreBankingService, OTPService
+- DB Tables: accounts, transactions, otp_logs

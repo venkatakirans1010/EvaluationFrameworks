@@ -1,0 +1,17 @@
+### Low-Level Design – Add to Cart
+
+Classes:
+- CartController
+- CartService
+- CartRepository
+
+Logic:
+1. CartService::add_to_cart(user_id, product_id, qty)
+   - Validate product exists
+   - Check stock availability
+   - If product already in cart, increment quantity
+   - Update DB and publish cart update event
+
+UI:
+- Button state changes to "Added!" briefly on success.
+- Cart count updates using Redux/Context state.

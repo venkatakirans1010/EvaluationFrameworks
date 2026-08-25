@@ -1,0 +1,14 @@
+### Low-Level Design – Analytics Dashboard
+
+UI:
+- Charts auto-update on filter change.
+- Show loading spinner while fetching data.
+
+Backend:
+- Cache layer (Redis)
+- Query builder filters by date range
+- Error handling for missing data
+
+Test:
+- Validate totals for given date range.
+- Ensure charts render accurate tooltips.

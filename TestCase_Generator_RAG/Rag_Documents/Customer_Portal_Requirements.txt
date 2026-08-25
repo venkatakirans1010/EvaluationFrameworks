@@ -1,0 +1,10 @@
+### Customer Portal Requirements
+
+1. The Customer Portal is a responsive web application available on both desktop and mobile browsers.
+2. Users must log in with valid credentials registered in the system.
+3. The login process must comply with security standards:
+   - Minimum 8-character password
+   - Input fields sanitized to prevent injection
+4. Session timeout: 15 minutes of inactivity.
+5. All pages must have a consistent header and footer as per design system guidelines.
+6. Accessibility: The login form should be navigable via keyboard (tab order and focus states).

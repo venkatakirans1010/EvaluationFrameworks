@@ -1,0 +1,9 @@
+### Notification Preferences – Requirements
+
+1. Users can manage preferences for:
+   - Marketing Emails
+   - System Alerts
+   - Billing Notifications
+2. Preferences should persist between sessions.
+3. API must update database immediately.
+4. “Save Changes” confirmation shown on success.

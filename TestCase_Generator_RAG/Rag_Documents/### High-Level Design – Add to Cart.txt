@@ -1,0 +1,14 @@
+### High-Level Design – Add to Cart
+
+Frontend:
+- AddToCartButton component triggers a POST call to /api/cart/add.
+- CartIcon component subscribes to cart state updates.
+- CartPage component fetches cart summary from /api/cart/view.
+
+Backend:
+- Endpoint: POST /api/cart/add
+  Request: { "product_id": "int", "quantity": "int" }
+  Response: { "cart_count": "int", "message": "Item added" }
+- Endpoint: GET /api/cart/view returns the current user's cart.
+- Service layer handles merge logic if product already exists.
+- Database tables: users, products, carts, cart_items.

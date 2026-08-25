@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+google-generativeai
+langchain
+langchain-google-genai
+langchain-community
+chromadb
+pandas
+python-dotenv
+jira
+PyPDF2
+python-multipart
+aiofiles
+requests
+openpyxl
+sentence-transformers

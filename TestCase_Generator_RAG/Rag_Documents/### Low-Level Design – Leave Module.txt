@@ -1,0 +1,14 @@
+### Low-Level Design – Leave Module
+
+LeaveService:
+- apply_leave(emp_id, leave_type, start_date, end_date, reason)
+- validate_balance(emp_id, leave_type)
+- route_to_manager(emp_id)
+
+DB:
+- leave_requests(id, emp_id, type, start, end, status)
+- leave_balances(emp_id, type, balance)
+
+UI Validations:
+- Prevent selecting past dates.
+- Auto-calculate duration.

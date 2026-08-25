@@ -1,0 +1,9 @@
+### Functional Requirements – Add to Cart
+
+1. The "Add to Cart" button must be available on both product list and product detail pages.
+2. When a user clicks "Add to Cart," the product and quantity (default 1) are stored in the cart session.
+3. The cart should persist until the user manually clears it or completes checkout.
+4. Multiple quantities of the same product should merge under one item with updated quantity.
+5. Cart count should display dynamically on the navigation bar.
+6. System should validate stock before adding an item.
+7. Cart should be saved in database for logged-in users; session storage for guests.

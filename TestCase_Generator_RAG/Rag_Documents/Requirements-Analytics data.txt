@@ -1,0 +1,8 @@
+### Dashboard Requirements
+
+1. Display metrics: Total Sales, Revenue, Top 5 Products.
+2. User can filter data by Month, Quarter, Year.
+3. Charts must refresh every 15 minutes.
+4. API: /api/sales-metrics supports filter params.
+5. Graph types: Bar (sales), Line (revenue), Pie (products).
+6. Data fetched from analytics data warehouse.

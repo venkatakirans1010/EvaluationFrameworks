@@ -1,0 +1,10 @@
+### Backend Unit Tests (Python - Pytest)
+1. test_valid_login_returns_token
+2. test_invalid_password_returns_401
+3. test_empty_fields_return_400
+4. test_token_expires_after_15min_inactivity
+
+### Frontend Integration Tests (Playwright)
+1. test_login_page_loads_correctly
+2. test_login_button_disabled_for_empty_fields
+3. test_error_message_for_invalid_credentials
