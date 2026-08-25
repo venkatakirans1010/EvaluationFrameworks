@@ -1,0 +1,354 @@
+================================================================================
+                    PROMPT EVALUATION FRAMEWORK
+                    Complete Functionality Overview
+================================================================================
+
+PURPOSE
+-------
+A comprehensive Streamlit-based application for evaluating prompts across 
+multiple Large Language Models (LLMs). The framework enables systematic 
+comparison, PDF-based text extraction evaluation, automated scoring using 
+BLEU/ROUGE metrics, and side-by-side model response analysis.
+
+================================================================================
+                        MAIN FEATURES BY TAB
+================================================================================
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ TAB 1: PROMPTS                                                              │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+Purpose: Create, manage, and reuse prompts for evaluation.
+
+Capabilities:
+  • Text Input: Enter prompts directly in a text area
+  • File Upload: Upload prompt files (.txt, .md, .json)
+  • Save Prompts: Save prompts with custom names for future use
+  • Load Saved Prompts: Select from dropdown to reuse prompts
+  • Delete Prompts: Remove saved prompts you no longer need
+  • Prompt Statistics: View character, word, and line counts
+  • Sidebar: Quick access to all saved prompts
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ TAB 2: API KEYS                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+Purpose: Manage API keys for different LLM providers.
+
+Capabilities:
+  • RouteLLM/AbacusAI: Unified API key (recommended for access to 50+ models)
+  • OpenAI: Direct API key for OpenAI models
+  • Anthropic: Direct API key for Anthropic models
+  • Secure Storage: All keys stored locally in data/api_keys.json
+  • Validation: System checks for missing keys before evaluation
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ TAB 3: MODEL CONFIG                                                         │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+Purpose: Configure multiple models with custom parameters.
+
+Capabilities:
+  • Multiple Providers:
+    - RouteLLM (50+ models including GPT-4, GPT-5, Claude, Gemini, Llama, etc.)
+    - OpenAI (GPT-4o, GPT-4o-mini, GPT-5, o3, o4-mini, etc.)
+    - Anthropic (Claude Sonnet, Opus, Haiku variants)
+  
+  • Model Selection: Choose from available models per provider
+  • Parameter Configuration:
+    - Temperature (0.0-2.0): Controls randomness/creativity
+    - Top P (0.0-1.0): Nucleus sampling parameter
+    - Max Tokens: Maximum tokens to generate
+  
+  • Named Configurations: Save configurations with descriptive names
+  • Multiple Configs: Create and manage multiple model configurations
+  • Model Information: View pricing and descriptions from models_info.json
+  • Edit/Delete: Modify or remove existing configurations
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ TAB 4: EVALUATE                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+Purpose: Run evaluations and compare model outputs.
+
+A. REFERENCE TEXT SETUP
+   • PDF Upload:
+     - Traditional Extraction: Uses PyPDF2/pdfplumber (fast, no API calls)
+     - LLM Extraction: Choose an LLM to extract text from PDF
+     - Custom Extraction Prompt: Provide specific instructions for extraction
+     - Preview: View extracted text before using as reference
+   
+   • Text Input: Manually enter reference text
+   • None: Evaluate without reference text (no scoring)
+
+B. PROMPT SELECTION
+   • Load saved prompts from dropdown
+   • Enter new prompt directly
+   • PDF Extraction Mode indicator when applicable
+
+C. MODEL SELECTION
+   • Multi-select checkboxes for configured models
+   • Select one or more models to evaluate
+
+D. EVALUATION EXECUTION
+   
+   Two Evaluation Modes:
+   
+   1. PDF EXTRACTION MODE (when PDF + reference text exists):
+      - Each selected model extracts text from the PDF
+      - Uses the same extraction prompt as base response
+      - Extracted text becomes the model response
+      - Compares each model's extraction against base response
+   
+   2. NORMAL MODE (general prompt evaluation):
+      - Sends prompt to selected models
+      - Models generate responses
+      - Compares responses if reference text provided
+
+E. RESULTS DISPLAY
+   • Reference Text: Base response displayed prominently at top
+   • Score Comparison Summary: Table showing all models and key scores
+   • Score Reference Guide: Expandable guide explaining BLEU/ROUGE scores
+   • Side-by-Side Model Cards:
+     - Model name and provider
+     - Key scores (BLEU-4, ROUGE-1 F1, ROUGE-L F1) prominently displayed
+     - Generated response (in collapsible expander)
+     - Detailed metrics (in expandable section)
+     - Token usage statistics
+
+F. EVALUATION METRICS
+   • BLEU Scores:
+     - BLEU (overall standard score)
+     - BLEU-1 (single words/unigrams)
+     - BLEU-2 (2-word phrases/bigrams)
+     - BLEU-3 (3-word phrases/trigrams)
+     - BLEU-4 (4-word phrases/4-grams)
+   
+   • ROUGE Scores:
+     - ROUGE-1 (unigrams - single words)
+     - ROUGE-2 (bigrams - 2-word phrases)
+     - ROUGE-L (longest common subsequence)
+     - Each with Precision, Recall, and F1 scores
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ TAB 5: RESULTS HISTORY                                                      │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+Purpose: View, search, and export past evaluation results.
+
+Capabilities:
+  • Browse All Evaluations: View all saved evaluations chronologically
+  • Search Functionality: Filter evaluations by prompt name or content
+  • Detailed View: For each evaluation, see:
+    - Timestamp and metadata
+    - Original prompt used
+    - Reference text (if used)
+    - Extraction method and LLM (if applicable)
+    - Model configurations used
+    - All model responses
+    - Evaluation metrics (BLEU/ROUGE)
+    - Token usage statistics
+  • Delete Evaluations: Remove individual evaluation results
+  • Export: Download results as JSON (individual or bulk)
+
+
+================================================================================
+                        PDF PROCESSING CAPABILITIES
+================================================================================
+
+TRADITIONAL EXTRACTION
+  • Uses PyPDF2 and pdfplumber libraries
+  • Fast extraction, no API calls required
+  • Good for simple PDFs with clear text structure
+
+LLM-BASED EXTRACTION
+  • Select any configured LLM to extract text
+  • Custom extraction prompts for specific requirements
+  • Better handling of complex PDF layouts
+  • Extracted text becomes the base response for comparison
+
+PDF EXTRACTION WORKFLOW
+  1. Upload PDF file
+  2. Choose extraction method (Traditional or LLM)
+  3. If LLM: Select model and optionally provide custom extraction prompt
+  4. Extract text → becomes base response
+  5. Select models for evaluation
+  6. Each model extracts from same PDF using same prompt
+  7. Compare extractions against base response
+
+
+================================================================================
+                        EVALUATION METRICS EXPLAINED
+================================================================================
+
+BLEU (Bilingual Evaluation Understudy)
+  • Measures: Precision - how many words/phrases from model output appear 
+    in reference text
+  • Variants:
+    - BLEU-1: Measures overlap of single words (unigrams) - most lenient
+    - BLEU-2: Measures overlap of 2-word phrases (bigrams)
+    - BLEU-3: Measures overlap of 3-word phrases (trigrams)
+    - BLEU-4: Measures overlap of 4-word phrases (4-grams) - most strict
+    - BLEU (overall): Standard BLEU score using 4-gram precision
+  • Range: 0.0 to 1.0 (higher = better)
+  • Interpretation:
+    - 0.70-1.00: Excellent - Very high similarity
+    - 0.50-0.69: Good - Strong similarity
+    - 0.30-0.49: Fair - Moderate similarity
+    - 0.10-0.29: Poor - Low similarity
+    - 0.00-0.09: Very Poor - Minimal similarity
+
+ROUGE (Recall-Oriented Understudy for Gisting Evaluation)
+  • Measures: Both precision and recall - how well model output captures 
+    key information from reference
+  • Variants:
+    - ROUGE-1: Measures overlap of unigrams (single words)
+    - ROUGE-2: Measures overlap of bigrams (2-word phrases) - more strict
+    - ROUGE-L: Measures longest common subsequence - captures sentence structure
+  • Each variant provides: Precision, Recall, and F1 scores
+  • Range: 0.0 to 1.0 (higher = better)
+  • Interpretation:
+    - 0.70-1.00: Excellent - Captures most/all key information
+    - 0.50-0.69: Good - Captures majority of important information
+    - 0.30-0.49: Fair - Captures some key information
+    - 0.10-0.29: Poor - Captures limited information
+    - 0.00-0.09: Very Poor - Fails to capture meaningful information
+
+SCORE REFERENCE GUIDE
+  • Available in Results page as expandable section
+  • Explains all score types and their meanings
+  • Provides score range interpretations
+  • Helps users understand which metrics to focus on
+
+
+================================================================================
+                        DATA STORAGE & MANAGEMENT
+================================================================================
+
+LOCAL JSON STORAGE
+  • data/prompts.json: All saved prompts
+  • data/api_keys.json: API keys (stored locally, never shared)
+  • data/model_configs.json: All model configurations
+  • data/evaluations.json: Index of all evaluations
+  • data/evaluations/: Individual evaluation result files
+
+EVALUATION METADATA
+  Each evaluation includes:
+  • Timestamp
+  • Prompt and prompt name
+  • Reference text and source (PDF/Text/None)
+  • Extraction method and LLM (if applicable)
+  • Model configurations used
+  • All model responses
+  • Evaluation metrics (BLEU/ROUGE)
+  • Token usage statistics
+  • Success/failure status for each model
+
+
+================================================================================
+                        WORKFLOW EXAMPLES
+================================================================================
+
+EXAMPLE 1: PDF EXTRACTION COMPARISON
+  1. Upload PDF document
+  2. Extract base response using LLM A
+  3. Select models B, C, D for evaluation
+  4. Each model extracts text from PDF
+  5. Compare extractions against base response
+  6. Review BLEU/ROUGE scores to see which model extracts best
+
+EXAMPLE 2: PROMPT EVALUATION
+  1. Create/save a prompt
+  2. Configure multiple models with different parameters
+  3. Select models to evaluate
+  4. Run evaluation
+  5. Compare responses side-by-side
+  6. Review scores if reference text provided
+
+EXAMPLE 3: MODEL PARAMETER TESTING
+  1. Create multiple configurations for same model with different parameters
+  2. Use same prompt for all
+  3. Compare outputs to see parameter impact
+
+
+================================================================================
+                        TECHNICAL CAPABILITIES
+================================================================================
+
+MULTI-PROVIDER SUPPORT
+  • RouteLLM/AbacusAI: Unified API for 50+ models
+  • OpenAI: Direct API integration
+  • Anthropic: Direct API integration
+
+CONCURRENT PROCESSING
+  • Sends requests to multiple models simultaneously
+  • Progress tracking during evaluation
+  • Error handling per model (one failure doesn't stop others)
+
+UI/UX FEATURES
+  • Clean Streamlit interface
+  • Responsive layout
+  • Collapsible sections for better organization
+  • Color-coded metrics
+  • Side-by-side comparisons
+  • Expandable detailed views
+
+
+================================================================================
+                        USE CASES
+================================================================================
+
+1. MODEL COMPARISON
+   Compare how different models respond to the same prompt
+
+2. PROMPT OPTIMIZATION
+   Test different prompt variations to find the best one
+
+3. PDF EXTRACTION QUALITY
+   Evaluate which model extracts text from PDFs most accurately
+
+4. PARAMETER TUNING
+   Test different temperature, top_p, and max_tokens settings
+
+5. QUALITY ASSURANCE
+   Validate model outputs against reference text
+
+6. RESEARCH & ANALYSIS
+   Systematic evaluation and documentation of model performance
+
+
+================================================================================
+                        SECURITY & PRIVACY
+================================================================================
+
+  • API keys stored locally on your machine
+  • No cloud storage or external data transmission
+  • All data remains private
+  • .gitignore configured to prevent committing sensitive data
+
+
+================================================================================
+                        SUMMARY
+================================================================================
+
+The Prompt Evaluation Framework is a comprehensive tool for:
+  ✓ Multi-model evaluation and comparison
+  ✓ PDF-based extraction workflows
+  ✓ Automated scoring with BLEU/ROUGE metrics
+  ✓ Side-by-side response comparison
+  ✓ Persistent storage and history
+  ✓ Flexible configuration options
+  ✓ Export capabilities
+
+Perfect for researchers, developers, and teams who need to systematically 
+evaluate and compare LLM performance across different models, prompts, and 
+parameters.
+
+================================================================================
+                        END OF DOCUMENTATION
+================================================================================
+

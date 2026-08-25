@@ -1,0 +1,280 @@
+{
+  "route-llm": {
+    "name": "RouteLLM Router",
+    "input_price": 3.00,
+    "output_price": 15.00,
+    "description": "Routes to Sonnet 4, GPT-5, or Gemini 2.5 flash models"
+  },
+  "gpt-4o-2024-11-20": {
+    "name": "GPT-4o",
+    "input_price": 2.50,
+    "output_price": 10.00,
+    "description": "OpenAI's advanced multimodal AI model"
+  },
+  "gpt-4o-mini": {
+    "name": "GPT-4o Mini",
+    "input_price": 0.15,
+    "output_price": 0.60,
+    "description": "Highly efficient and cost-effective small language model"
+  },
+  "o4-mini": {
+    "name": "O4 Mini",
+    "input_price": 1.10,
+    "output_price": 4.40,
+    "description": "Compact, efficient reasoning model"
+  },
+  "o3-pro": {
+    "name": "O3 Pro",
+    "input_price": 20.00,
+    "output_price": 40.00,
+    "description": "Advanced reasoning model"
+  },
+  "o3": {
+    "name": "O3",
+    "input_price": 2.00,
+    "output_price": 8.00,
+    "description": "OpenAI's advanced reasoning model"
+  },
+  "o3-mini": {
+    "name": "O3 Mini",
+    "input_price": 1.10,
+    "output_price": 4.40,
+    "description": "Compact reasoning model"
+  },
+  "gpt-4.1": {
+    "name": "GPT-4.1",
+    "input_price": 2.00,
+    "output_price": 8.00,
+    "description": "Faster, cheaper, and more reliable for coding and tool-based operations"
+  },
+  "gpt-4.1-mini": {
+    "name": "GPT-4.1 Mini",
+    "input_price": 0.40,
+    "output_price": 1.60,
+    "description": "Smaller, faster, and cheaper version of GPT-4.1"
+  },
+  "gpt-4.1-nano": {
+    "name": "GPT-4.1 Nano",
+    "input_price": 0.10,
+    "output_price": 0.40,
+    "description": "Smallest and cheapest model in the GPT-4.1 family"
+  },
+  "gpt-5": {
+    "name": "GPT-5",
+    "input_price": 1.25,
+    "output_price": 10.00,
+    "description": "OpenAI's most advanced model for coding and agentic tasks"
+  },
+  "gpt-5-mini": {
+    "name": "GPT-5 Mini",
+    "input_price": 0.25,
+    "output_price": 2.00,
+    "description": "Streamlined variant for lighter reasoning workloads"
+  },
+  "gpt-5-nano": {
+    "name": "GPT-5 Nano",
+    "input_price": 0.05,
+    "output_price": 0.40,
+    "description": "Fastest and cheapest model in the GPT-5 family"
+  },
+  "gpt-5.1": {
+    "name": "GPT-5.1",
+    "input_price": 1.25,
+    "output_price": 10.00,
+    "description": "Updated GPT-5 model"
+  },
+  "gpt-5.1-chat-latest": {
+    "name": "GPT-5.1 Chat Latest",
+    "input_price": 1.25,
+    "output_price": 10.00,
+    "description": "Latest GPT-5.1 chat model"
+  },
+  "openai/gpt-oss-120b": {
+    "name": "GPT-OSS-120B",
+    "input_price": 0.08,
+    "output_price": 0.44,
+    "description": "OpenAI's powerful open-weight language model"
+  },
+  "claude-3-7-sonnet-20250219": {
+    "name": "Claude 3.7 Sonnet",
+    "input_price": 3.00,
+    "output_price": 15.00,
+    "description": "Advanced language model with strong reasoning and coding skills"
+  },
+  "claude-sonnet-4-20250514": {
+    "name": "Claude Sonnet 4",
+    "input_price": 3.00,
+    "output_price": 15.00,
+    "description": "Advances over Sonnet 3.7 with stronger coding and reasoning"
+  },
+  "claude-opus-4-20250514": {
+    "name": "Claude Opus 4",
+    "input_price": 15.00,
+    "output_price": 75.00,
+    "description": "Advanced reasoning model"
+  },
+  "claude-opus-4-1-20250805": {
+    "name": "Claude Opus 4.1",
+    "input_price": 15.00,
+    "output_price": 75.00,
+    "description": "Latest AI model focused on advanced coding and reasoning"
+  },
+  "claude-sonnet-4-5-20250929": {
+    "name": "Claude Sonnet 4.5",
+    "input_price": 3.00,
+    "output_price": 15.00,
+    "description": "Updated Sonnet model"
+  },
+  "claude-haiku-4-5-20251001": {
+    "name": "Claude Haiku 4.5",
+    "input_price": 1.00,
+    "output_price": 5.00,
+    "description": "Fast and efficient Claude model"
+  },
+  "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8": {
+    "name": "Llama 4 Maverick",
+    "input_price": 0.14,
+    "output_price": 0.59,
+    "description": "Advanced multimodal large language model"
+  },
+  "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo": {
+    "name": "Llama 3.1 405B Turbo",
+    "input_price": 3.50,
+    "output_price": 3.50,
+    "description": "Large-scale Llama model"
+  },
+  "meta-llama/Meta-Llama-3.1-70B-Instruct": {
+    "name": "Llama 3.1 70B",
+    "input_price": 0.40,
+    "output_price": 0.40,
+    "description": "70B parameter Llama model"
+  },
+  "meta-llama/Meta-Llama-3.1-8B-Instruct": {
+    "name": "Llama 3.1 8B",
+    "input_price": 0.02,
+    "output_price": 0.05,
+    "description": "Fast and cheap multilingual open-source model"
+  },
+  "llama-3.3-70b-versatile": {
+    "name": "Llama 3.3 70B Versatile",
+    "input_price": 0.59,
+    "output_price": 0.79,
+    "description": "Versatile 70B model"
+  },
+  "gemini-2.0-flash-001": {
+    "name": "Gemini 2.0 Flash",
+    "input_price": 0.10,
+    "output_price": 0.40,
+    "description": "Powerful multimodal model for high-volume tasks"
+  },
+  "gemini-2.0-pro-exp-02-05": {
+    "name": "Gemini 2.0 Pro Experimental",
+    "input_price": null,
+    "output_price": null,
+    "description": "Experimental Gemini Pro model"
+  },
+  "gemini-2.5-pro": {
+    "name": "Gemini 2.5 Pro",
+    "input_price": 1.25,
+    "output_price": 10.00,
+    "description": "Google's advanced model for complex reasoning tasks"
+  },
+  "gemini-2.5-flash": {
+    "name": "Gemini 2.5 Flash",
+    "input_price": 0.30,
+    "output_price": 2.50,
+    "description": "Fast and cost-effective multimodal model"
+  },
+  "qwen-2.5-coder-32b": {
+    "name": "Qwen 2.5 Coder 32B",
+    "input_price": 0.79,
+    "output_price": 0.79,
+    "description": "Versatile model for content creation and coding"
+  },
+  "Qwen/Qwen2.5-72B-Instruct": {
+    "name": "Qwen 2.5 72B",
+    "input_price": 0.11,
+    "output_price": 0.38,
+    "description": "72.7B parameter model with 128k context window"
+  },
+  "Qwen/QwQ-32B": {
+    "name": "QwQ 32B",
+    "input_price": 0.40,
+    "output_price": 0.40,
+    "description": "32B parameter Qwen model"
+  },
+  "Qwen/Qwen3-235B-A22B-Instruct-2507": {
+    "name": "Qwen3 235B",
+    "input_price": 0.13,
+    "output_price": 0.60,
+    "description": "Flagship model excelling at reasoning and coding"
+  },
+  "Qwen/Qwen3-32B": {
+    "name": "Qwen3 32B",
+    "input_price": 0.09,
+    "output_price": 0.29,
+    "description": "Dense 32.8B parameter model optimized for agentic applications"
+  },
+  "qwen/qwen3-coder-480b-a35b-instruct": {
+    "name": "Qwen3 Coder 480B",
+    "input_price": 0.29,
+    "output_price": 1.20,
+    "description": "Powerful open-source agentic coding model"
+  },
+  "qwen/qwen3-Max": {
+    "name": "Qwen3 Max",
+    "input_price": 1.20,
+    "output_price": 6.00,
+    "description": "Updated Qwen3 with improved reasoning and multilingual support"
+  },
+  "grok-4-0709": {
+    "name": "Grok 4",
+    "input_price": 3.00,
+    "output_price": 15.00,
+    "description": "xAI's latest reasoning model with 256k context window"
+  },
+  "grok-4-fast-non-reasoning": {
+    "name": "Grok 4 Fast",
+    "input_price": 0.20,
+    "output_price": 0.50,
+    "description": "Fast reasoning model with 2M context window"
+  },
+  "grok-code-fast-1": {
+    "name": "Grok Code Fast",
+    "input_price": 0.20,
+    "output_price": 1.50,
+    "description": "Code generation model with 256k context window"
+  },
+  "moonshotai/kimi-k2-instruct": {
+    "name": "Kimi K2",
+    "input_price": 0.57,
+    "output_price": 2.30,
+    "description": "State-of-the-art open-source MoE language model"
+  },
+  "deepseek/deepseek-v3.1": {
+    "name": "DeepSeek V3.1",
+    "input_price": 0.55,
+    "output_price": 1.66,
+    "description": "685B-parameter MOE model optimized for thinking mode"
+  },
+  "deepseek-ai/DeepSeek-V3.1-Terminus": {
+    "name": "DeepSeek V3.1 Terminus",
+    "input_price": 0.27,
+    "output_price": 1.00,
+    "description": "617B-parameter hybrid reasoning model"
+  },
+  "deepseek-ai/DeepSeek-R1": {
+    "name": "DeepSeek R1",
+    "input_price": 3.00,
+    "output_price": 7.00,
+    "description": "Advanced reasoning model"
+  },
+  "deepseek-ai/DeepSeek-V3.2-Exp": {
+    "name": "DeepSeek V3.2 Experimental",
+    "input_price": 0.27,
+    "output_price": 0.40,
+    "description": "Experimental model with sparse attention mechanism"
+  }
+}
+
+
